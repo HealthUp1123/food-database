@@ -3,15 +3,19 @@
 
 /**
  * Normalisiert Text für die Suche: klein, ohne Akzente, Umlaute vereinheitlicht.
- * ä/ae -> a, ö/oe -> o, ü/ue -> u, ß/ss -> ss. So findet "aepfel" auch "Äpfel"/"Apfel".
+ * ä/ae -> a, ö/oe -> o, ü/ue -> u, ß/ss -> ss, türkisches ı/İ -> i.
+ * ş, ğ, ç und weitere Akzente fallen über NFD weg (ş -> s, ğ -> g, ç -> c).
+ * So findet "karniyarik" auch "Karnıyarık" und "aepfel" auch "Äpfel".
  * Die Normalisierung ist verlustbehaftet, aber auf beiden Seiten (Daten + Suchbegriff) gleich.
  */
 export function normalize(text) {
   return String(text ?? '')
+    .replace(/İ/g, 'i').replace(/ı/g, 'i')
     .toLowerCase()
     .replace(/ß/g, 'ss')
     .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue')
-    .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // übrige Akzente (é, è, ...)
+    .replace(/ı/g, 'i')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // übrige Akzente (é, è, ş, ğ, ç, ...)
     .replace(/ae/g, 'a').replace(/oe/g, 'o').replace(/ue/g, 'u')
     .replace(/[^a-z0-9]+/g, ' ')
     .trim();

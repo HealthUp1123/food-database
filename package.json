@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Eigene Lebensmittel-Datenbank mit Such-API für einen Kalorientracker (Beispieldaten)",
+  "description": "Lebensmittel-Datenbank mit türkischen und deutschen Gerichten (berechnete Schätzwerte) und Such-API für einen Kalorientracker",
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "search": "node scripts/search-local.mjs",

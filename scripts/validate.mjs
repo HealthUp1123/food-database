@@ -26,6 +26,11 @@ const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
 const ids = new Map();
 const barcodes = new Map();
 const MACROS = ['protein', 'carbs', 'fat', 'fiber'];
+// Dieselben Zutaten wie im Generator (tools/dishes/build.py): Ethanol ≈ 7 kcal/g
+// steckt nicht in Protein/KH/Fett, deshalb liegt kcal bewusst darüber.
+const ALCOHOL_INGREDIENTS = new Set(['Bier', 'Weißwein', 'Rotwein']);
+const hasAlcohol = (entry) => Array.isArray(entry.ingredients)
+  && entry.ingredients.some((ing) => ing && ALCOHOL_INGREDIENTS.has(ing.name));
 
 data.forEach((e, i) => {
   const ctx = `Eintrag #${i} (${e && e.id ? e.id : '?'})`;
@@ -48,6 +53,19 @@ data.forEach((e, i) => {
 
   if (!Array.isArray(e.synonyms) || e.synonyms.some((s) => typeof s !== 'string' || !s.trim())) err(ctx, 'synonyms muss ein Array nicht-leerer Strings sein');
 
+  if (e.cuisine !== 'tr' && e.cuisine !== 'de') err(ctx, 'cuisine muss "tr" oder "de" sein');
+  if (typeof e.category !== 'string' || !e.category.trim()) err(ctx, 'category fehlt');
+
+  if (!Array.isArray(e.ingredients) || e.ingredients.length === 0) err(ctx, 'ingredients muss ein nicht-leeres Array sein');
+  else e.ingredients.forEach((ing, j) => {
+    if (!ing || typeof ing !== 'object' || Array.isArray(ing)) return err(ctx, `ingredients[${j}] ist kein Objekt`);
+    if (typeof ing.name !== 'string' || !ing.name.trim()) err(ctx, `ingredients[${j}].name fehlt`);
+    if (!isNum(ing.grams) || ing.grams <= 0) err(ctx, `ingredients[${j}].grams muss eine Zahl > 0 sein`);
+  });
+
+  if (e.quality !== 'estimate' && e.quality !== 'verified') err(ctx, 'quality muss "estimate" oder "verified" sein');
+  if (typeof e.source !== 'string' || !e.source.trim()) err(ctx, 'source fehlt (Herkunft der Nährwerte)');
+
   const p = e.per100g;
   if (!p || typeof p !== 'object') err(ctx, 'per100g fehlt');
   else {
@@ -63,7 +81,14 @@ data.forEach((e, i) => {
       }
       if (isNum(p.kcal)) {
         const est = p.protein * 4 + p.carbs * 4 + p.fat * 9;
-        if (Math.abs(est - p.kcal) > Math.max(60, p.kcal * 0.35)) console.warn(`! ${ctx}: kcal (${p.kcal}) weicht stark von Makro-Schätzung (${est.toFixed(0)}) ab – bitte prüfen`);
+        const delta = Math.abs(est - p.kcal);
+        const limit = Math.max(60, p.kcal * 0.35);
+        // Alkohol (≈ 7 kcal/g) fehlt in der 4/4/9-Schätzung. Liegt kcal darüber,
+        // ist das erwartet und darf weder Fehler noch Warnung sein.
+        const alcoholAboveEstimate = hasAlcohol(e) && p.kcal >= est - 1;
+        if (!alcoholAboveEstimate && delta > limit) {
+          console.warn(`! ${ctx}: kcal (${p.kcal}) weicht stark von Makro-Schätzung (${est.toFixed(0)}) ab – bitte prüfen`);
+        }
       }
     }
   }

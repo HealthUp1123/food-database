@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+tools/dishes/build_report.txt
+tools/dishes/foods.json

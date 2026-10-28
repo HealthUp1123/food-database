@@ -1,0 +1,2741 @@
+[
+  {
+    "key": "hack",
+    "name": "Rinderhackfleisch",
+    "per100g": {
+      "kcal": 250.0,
+      "protein": 17.0,
+      "carbs": 0.0,
+      "fat": 20.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "lamm_hack",
+    "name": "Lammhackfleisch",
+    "per100g": {
+      "kcal": 280.0,
+      "protein": 16.0,
+      "carbs": 0.0,
+      "fat": 24.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "rind",
+    "name": "Rindfleisch (Schmor/Gulasch)",
+    "per100g": {
+      "kcal": 150.0,
+      "protein": 21.0,
+      "carbs": 0.0,
+      "fat": 7.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "rind_steak",
+    "name": "Rindfleisch (Steak/Filet/Lende)",
+    "per100g": {
+      "kcal": 180.0,
+      "protein": 20.0,
+      "carbs": 0.0,
+      "fat": 11.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "rind_fett",
+    "name": "Rindfleisch fett (Brust/Querrippe)",
+    "per100g": {
+      "kcal": 270.0,
+      "protein": 17.0,
+      "carbs": 0.0,
+      "fat": 22.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "lamm",
+    "name": "Lammfleisch",
+    "per100g": {
+      "kcal": 220.0,
+      "protein": 17.0,
+      "carbs": 0.0,
+      "fat": 17.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "lamm_kotelett",
+    "name": "Lammkotelett",
+    "per100g": {
+      "kcal": 250.0,
+      "protein": 16.0,
+      "carbs": 0.0,
+      "fat": 20.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "leber",
+    "name": "Leber (Rind/Lamm)",
+    "per100g": {
+      "kcal": 135.0,
+      "protein": 20.0,
+      "carbs": 3.0,
+      "fat": 4.5,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "innereien",
+    "name": "Innereien (Lamm, gemischt)",
+    "per100g": {
+      "kcal": 150.0,
+      "protein": 15.0,
+      "carbs": 0.0,
+      "fat": 10.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "zunge",
+    "name": "Rinderzunge",
+    "per100g": {
+      "kcal": 225.0,
+      "protein": 15.0,
+      "carbs": 0.0,
+      "fat": 18.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "schwanzfett",
+    "name": "Lammschwanzfett",
+    "per100g": {
+      "kcal": 800.0,
+      "protein": 1.0,
+      "carbs": 0.0,
+      "fat": 90.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "sucuk",
+    "name": "Sucuk (Knoblauchwurst)",
+    "per100g": {
+      "kcal": 450.0,
+      "protein": 19.0,
+      "carbs": 3.0,
+      "fat": 40.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "pastirma",
+    "name": "Pastırma",
+    "per100g": {
+      "kcal": 190.0,
+      "protein": 35.0,
+      "carbs": 1.0,
+      "fat": 5.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "hahn_brust",
+    "name": "Hähnchenbrust",
+    "per100g": {
+      "kcal": 120.0,
+      "protein": 23.0,
+      "carbs": 0.0,
+      "fat": 2.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "hahn_keule",
+    "name": "Hähnchenkeule (ohne Knochen)",
+    "per100g": {
+      "kcal": 190.0,
+      "protein": 17.0,
+      "carbs": 0.0,
+      "fat": 13.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "hahn",
+    "name": "Hähnchen mit Haut (ohne Knochen)",
+    "per100g": {
+      "kcal": 215.0,
+      "protein": 18.0,
+      "carbs": 0.0,
+      "fat": 15.5,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "pute",
+    "name": "Putenbrust",
+    "per100g": {
+      "kcal": 115.0,
+      "protein": 24.0,
+      "carbs": 0.0,
+      "fat": 1.5,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "huhn_leber",
+    "name": "Hühnerleber",
+    "per100g": {
+      "kcal": 120.0,
+      "protein": 17.0,
+      "carbs": 1.0,
+      "fat": 5.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "ente",
+    "name": "Ente",
+    "per100g": {
+      "kcal": 330.0,
+      "protein": 16.0,
+      "carbs": 0.0,
+      "fat": 29.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "gans",
+    "name": "Gans",
+    "per100g": {
+      "kcal": 305.0,
+      "protein": 25.0,
+      "carbs": 0.0,
+      "fat": 22.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "schwein_mager",
+    "name": "Schweineschnitzel/-filet",
+    "per100g": {
+      "kcal": 130.0,
+      "protein": 21.0,
+      "carbs": 0.0,
+      "fat": 5.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "schwein_nacken",
+    "name": "Schweinenacken",
+    "per100g": {
+      "kcal": 210.0,
+      "protein": 18.0,
+      "carbs": 0.0,
+      "fat": 15.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "schwein_bauch",
+    "name": "Schweinebauch",
+    "per100g": {
+      "kcal": 330.0,
+      "protein": 14.0,
+      "carbs": 0.0,
+      "fat": 30.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "schwein_haxe",
+    "name": "Schweinshaxe (ausgelöst)",
+    "per100g": {
+      "kcal": 260.0,
+      "protein": 19.0,
+      "carbs": 0.0,
+      "fat": 20.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "schwein_hack",
+    "name": "Schweinehackfleisch",
+    "per100g": {
+      "kcal": 260.0,
+      "protein": 17.0,
+      "carbs": 0.0,
+      "fat": 21.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "gemischtes_hack",
+    "name": "Hackfleisch gemischt",
+    "per100g": {
+      "kcal": 250.0,
+      "protein": 17.0,
+      "carbs": 0.0,
+      "fat": 20.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "schinken",
+    "name": "Kochschinken",
+    "per100g": {
+      "kcal": 110.0,
+      "protein": 19.0,
+      "carbs": 1.0,
+      "fat": 3.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "speck",
+    "name": "Bauchspeck geräuchert",
+    "per100g": {
+      "kcal": 450.0,
+      "protein": 12.0,
+      "carbs": 0.0,
+      "fat": 45.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "kassler",
+    "name": "Kasseler",
+    "per100g": {
+      "kcal": 150.0,
+      "protein": 20.0,
+      "carbs": 0.0,
+      "fat": 8.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "bratwurst",
+    "name": "Bratwurst",
+    "per100g": {
+      "kcal": 300.0,
+      "protein": 12.0,
+      "carbs": 1.0,
+      "fat": 27.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "bockwurst",
+    "name": "Bockwurst",
+    "per100g": {
+      "kcal": 260.0,
+      "protein": 12.0,
+      "carbs": 1.5,
+      "fat": 23.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "weisswurst",
+    "name": "Weißwurst",
+    "per100g": {
+      "kcal": 265.0,
+      "protein": 12.0,
+      "carbs": 1.0,
+      "fat": 24.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "leberwurst",
+    "name": "Leberwurst",
+    "per100g": {
+      "kcal": 330.0,
+      "protein": 13.0,
+      "carbs": 2.0,
+      "fat": 30.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "leberkaese",
+    "name": "Leberkäse",
+    "per100g": {
+      "kcal": 290.0,
+      "protein": 12.0,
+      "carbs": 2.0,
+      "fat": 26.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "mettwurst",
+    "name": "Mettwurst",
+    "per100g": {
+      "kcal": 350.0,
+      "protein": 14.0,
+      "carbs": 1.0,
+      "fat": 32.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "salami",
+    "name": "Salami",
+    "per100g": {
+      "kcal": 420.0,
+      "protein": 22.0,
+      "carbs": 1.0,
+      "fat": 37.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "blutwurst",
+    "name": "Blutwurst",
+    "per100g": {
+      "kcal": 330.0,
+      "protein": 13.0,
+      "carbs": 3.0,
+      "fat": 30.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "lachs",
+    "name": "Lachs",
+    "per100g": {
+      "kcal": 205.0,
+      "protein": 20.0,
+      "carbs": 0.0,
+      "fat": 13.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "forelle",
+    "name": "Forelle",
+    "per100g": {
+      "kcal": 140.0,
+      "protein": 20.0,
+      "carbs": 0.0,
+      "fat": 6.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "karpfen",
+    "name": "Karpfen",
+    "per100g": {
+      "kcal": 125.0,
+      "protein": 18.0,
+      "carbs": 0.0,
+      "fat": 6.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "hering",
+    "name": "Hering",
+    "per100g": {
+      "kcal": 200.0,
+      "protein": 18.0,
+      "carbs": 0.0,
+      "fat": 14.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "makrele",
+    "name": "Makrele",
+    "per100g": {
+      "kcal": 205.0,
+      "protein": 19.0,
+      "carbs": 0.0,
+      "fat": 14.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "sardelle",
+    "name": "Sardelle (Hamsi)",
+    "per100g": {
+      "kcal": 130.0,
+      "protein": 20.0,
+      "carbs": 0.0,
+      "fat": 5.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "sardine",
+    "name": "Sardine",
+    "per100g": {
+      "kcal": 160.0,
+      "protein": 21.0,
+      "carbs": 0.0,
+      "fat": 8.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "wolfsbarsch",
+    "name": "Wolfsbarsch/Dorade",
+    "per100g": {
+      "kcal": 100.0,
+      "protein": 19.0,
+      "carbs": 0.0,
+      "fat": 2.5,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "kabeljau",
+    "name": "Kabeljau",
+    "per100g": {
+      "kcal": 80.0,
+      "protein": 18.0,
+      "carbs": 0.0,
+      "fat": 0.7,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "seelachs",
+    "name": "Seelachs",
+    "per100g": {
+      "kcal": 85.0,
+      "protein": 18.0,
+      "carbs": 0.0,
+      "fat": 1.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "thunfisch",
+    "name": "Thunfisch",
+    "per100g": {
+      "kcal": 140.0,
+      "protein": 24.0,
+      "carbs": 0.0,
+      "fat": 5.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "schwertfisch",
+    "name": "Schwertfisch",
+    "per100g": {
+      "kcal": 140.0,
+      "protein": 20.0,
+      "carbs": 0.0,
+      "fat": 6.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "fisch_fett",
+    "name": "Fisch fettreich (Lüfer, Palamut, Bonito)",
+    "per100g": {
+      "kcal": 160.0,
+      "protein": 19.0,
+      "carbs": 0.0,
+      "fat": 9.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "fisch_mager",
+    "name": "Fisch mager (Weißfisch)",
+    "per100g": {
+      "kcal": 90.0,
+      "protein": 18.0,
+      "carbs": 0.0,
+      "fat": 1.5,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "aal",
+    "name": "Aal",
+    "per100g": {
+      "kcal": 285.0,
+      "protein": 15.0,
+      "carbs": 0.0,
+      "fat": 25.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "garnele",
+    "name": "Garnelen",
+    "per100g": {
+      "kcal": 90.0,
+      "protein": 19.0,
+      "carbs": 0.5,
+      "fat": 1.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "muschel",
+    "name": "Miesmuscheln",
+    "per100g": {
+      "kcal": 85.0,
+      "protein": 12.0,
+      "carbs": 4.0,
+      "fat": 2.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "kalmar",
+    "name": "Kalmar",
+    "per100g": {
+      "kcal": 90.0,
+      "protein": 16.0,
+      "carbs": 3.0,
+      "fat": 1.5,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "oktopus",
+    "name": "Oktopus",
+    "per100g": {
+      "kcal": 85.0,
+      "protein": 15.0,
+      "carbs": 2.0,
+      "fat": 1.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "ei",
+    "name": "Ei",
+    "per100g": {
+      "kcal": 143.0,
+      "protein": 12.5,
+      "carbs": 0.7,
+      "fat": 10.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "eiweiss",
+    "name": "Eiweiß",
+    "per100g": {
+      "kcal": 50.0,
+      "protein": 11.0,
+      "carbs": 0.7,
+      "fat": 0.2,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "milch",
+    "name": "Vollmilch",
+    "per100g": {
+      "kcal": 64.0,
+      "protein": 3.3,
+      "carbs": 4.8,
+      "fat": 3.6,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "milch_fettarm",
+    "name": "Milch 1,5%",
+    "per100g": {
+      "kcal": 47.0,
+      "protein": 3.4,
+      "carbs": 4.9,
+      "fat": 1.5,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "joghurt",
+    "name": "Joghurt (3,5%)",
+    "per100g": {
+      "kcal": 65.0,
+      "protein": 3.5,
+      "carbs": 4.7,
+      "fat": 3.5,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "suzme",
+    "name": "Strained Yogurt (Süzme)",
+    "per100g": {
+      "kcal": 120.0,
+      "protein": 6.0,
+      "carbs": 4.0,
+      "fat": 9.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "ayran",
+    "name": "Ayran",
+    "per100g": {
+      "kcal": 36.0,
+      "protein": 1.8,
+      "carbs": 2.8,
+      "fat": 1.9,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "sahne",
+    "name": "Schlagsahne",
+    "per100g": {
+      "kcal": 340.0,
+      "protein": 2.4,
+      "carbs": 3.0,
+      "fat": 35.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "creme_fraiche",
+    "name": "Crème fraîche",
+    "per100g": {
+      "kcal": 290.0,
+      "protein": 2.5,
+      "carbs": 3.0,
+      "fat": 30.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "schmand",
+    "name": "Schmand",
+    "per100g": {
+      "kcal": 200.0,
+      "protein": 3.0,
+      "carbs": 3.5,
+      "fat": 20.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "quark_mager",
+    "name": "Magerquark",
+    "per100g": {
+      "kcal": 67.0,
+      "protein": 12.0,
+      "carbs": 3.7,
+      "fat": 0.3,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "quark",
+    "name": "Speisequark 40%",
+    "per100g": {
+      "kcal": 110.0,
+      "protein": 10.0,
+      "carbs": 3.5,
+      "fat": 6.5,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "frischkaese",
+    "name": "Frischkäse",
+    "per100g": {
+      "kcal": 250.0,
+      "protein": 6.0,
+      "carbs": 3.0,
+      "fat": 24.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "mascarpone",
+    "name": "Mascarpone",
+    "per100g": {
+      "kcal": 400.0,
+      "protein": 4.5,
+      "carbs": 4.0,
+      "fat": 40.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "butter",
+    "name": "Butter",
+    "per100g": {
+      "kcal": 740.0,
+      "protein": 0.7,
+      "carbs": 0.6,
+      "fat": 82.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "kaymak",
+    "name": "Kaymak",
+    "per100g": {
+      "kcal": 380.0,
+      "protein": 3.0,
+      "carbs": 3.0,
+      "fat": 40.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "beyaz_peynir",
+    "name": "Beyaz Peynir (Schafskäse)",
+    "per100g": {
+      "kcal": 265.0,
+      "protein": 14.0,
+      "carbs": 4.0,
+      "fat": 21.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "kasar",
+    "name": "Kaşar",
+    "per100g": {
+      "kcal": 350.0,
+      "protein": 25.0,
+      "carbs": 2.0,
+      "fat": 27.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "tulum",
+    "name": "Tulum Peyniri",
+    "per100g": {
+      "kcal": 330.0,
+      "protein": 20.0,
+      "carbs": 1.0,
+      "fat": 27.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "lor",
+    "name": "Lor Peyniri",
+    "per100g": {
+      "kcal": 100.0,
+      "protein": 12.0,
+      "carbs": 3.0,
+      "fat": 4.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "hellim",
+    "name": "Hellim/Halloumi",
+    "per100g": {
+      "kcal": 320.0,
+      "protein": 22.0,
+      "carbs": 2.0,
+      "fat": 25.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "mozzarella",
+    "name": "Mozzarella",
+    "per100g": {
+      "kcal": 250.0,
+      "protein": 18.0,
+      "carbs": 2.0,
+      "fat": 19.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "parmesan",
+    "name": "Parmesan",
+    "per100g": {
+      "kcal": 400.0,
+      "protein": 35.0,
+      "carbs": 0.0,
+      "fat": 28.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "gouda",
+    "name": "Gouda",
+    "per100g": {
+      "kcal": 355.0,
+      "protein": 25.0,
+      "carbs": 2.0,
+      "fat": 28.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "emmentaler",
+    "name": "Emmentaler/Bergkäse",
+    "per100g": {
+      "kcal": 380.0,
+      "protein": 28.0,
+      "carbs": 0.0,
+      "fat": 30.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "camembert",
+    "name": "Camembert",
+    "per100g": {
+      "kcal": 300.0,
+      "protein": 20.0,
+      "carbs": 0.0,
+      "fat": 24.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "zwiebel",
+    "name": "Zwiebel",
+    "per100g": {
+      "kcal": 40.0,
+      "protein": 1.1,
+      "carbs": 9.0,
+      "fat": 0.1,
+      "fiber": 1.7
+    }
+  },
+  {
+    "key": "knoblauch",
+    "name": "Knoblauch",
+    "per100g": {
+      "kcal": 150.0,
+      "protein": 6.4,
+      "carbs": 33.0,
+      "fat": 0.5,
+      "fiber": 2.1
+    }
+  },
+  {
+    "key": "tomate",
+    "name": "Tomate",
+    "per100g": {
+      "kcal": 20.0,
+      "protein": 0.9,
+      "carbs": 3.9,
+      "fat": 0.2,
+      "fiber": 1.2
+    }
+  },
+  {
+    "key": "paprika",
+    "name": "Paprika grün",
+    "per100g": {
+      "kcal": 22.0,
+      "protein": 0.9,
+      "carbs": 4.6,
+      "fat": 0.2,
+      "fiber": 1.7
+    }
+  },
+  {
+    "key": "paprika_rot",
+    "name": "Paprika rot",
+    "per100g": {
+      "kcal": 31.0,
+      "protein": 1.0,
+      "carbs": 6.0,
+      "fat": 0.3,
+      "fiber": 2.1
+    }
+  },
+  {
+    "key": "sivri",
+    "name": "Spitzpaprika (Sivri Biber)",
+    "per100g": {
+      "kcal": 30.0,
+      "protein": 1.7,
+      "carbs": 6.0,
+      "fat": 0.2,
+      "fiber": 3.0
+    }
+  },
+  {
+    "key": "chili",
+    "name": "Chilischote",
+    "per100g": {
+      "kcal": 42.0,
+      "protein": 2.0,
+      "carbs": 9.0,
+      "fat": 0.4,
+      "fiber": 1.5
+    }
+  },
+  {
+    "key": "aubergine",
+    "name": "Aubergine",
+    "per100g": {
+      "kcal": 27.0,
+      "protein": 1.0,
+      "carbs": 5.9,
+      "fat": 0.2,
+      "fiber": 3.0
+    }
+  },
+  {
+    "key": "zucchini",
+    "name": "Zucchini",
+    "per100g": {
+      "kcal": 18.0,
+      "protein": 1.2,
+      "carbs": 3.1,
+      "fat": 0.3,
+      "fiber": 1.0
+    }
+  },
+  {
+    "key": "gurke",
+    "name": "Gurke",
+    "per100g": {
+      "kcal": 16.0,
+      "protein": 0.7,
+      "carbs": 3.6,
+      "fat": 0.1,
+      "fiber": 0.5
+    }
+  },
+  {
+    "key": "kartoffel",
+    "name": "Kartoffel",
+    "per100g": {
+      "kcal": 77.0,
+      "protein": 2.0,
+      "carbs": 17.0,
+      "fat": 0.1,
+      "fiber": 2.2
+    }
+  },
+  {
+    "key": "suesskartoffel",
+    "name": "Süßkartoffel",
+    "per100g": {
+      "kcal": 86.0,
+      "protein": 1.6,
+      "carbs": 20.0,
+      "fat": 0.1,
+      "fiber": 3.0
+    }
+  },
+  {
+    "key": "karotte",
+    "name": "Karotte",
+    "per100g": {
+      "kcal": 41.0,
+      "protein": 0.9,
+      "carbs": 10.0,
+      "fat": 0.2,
+      "fiber": 2.8
+    }
+  },
+  {
+    "key": "sellerie",
+    "name": "Knollensellerie",
+    "per100g": {
+      "kcal": 42.0,
+      "protein": 1.5,
+      "carbs": 9.0,
+      "fat": 0.3,
+      "fiber": 1.8
+    }
+  },
+  {
+    "key": "lauch",
+    "name": "Lauch/Porree",
+    "per100g": {
+      "kcal": 34.0,
+      "protein": 1.8,
+      "carbs": 7.0,
+      "fat": 0.3,
+      "fiber": 2.6
+    }
+  },
+  {
+    "key": "spinat",
+    "name": "Spinat",
+    "per100g": {
+      "kcal": 26.0,
+      "protein": 2.9,
+      "carbs": 3.6,
+      "fat": 0.4,
+      "fiber": 2.2
+    }
+  },
+  {
+    "key": "weisskohl",
+    "name": "Weißkohl",
+    "per100g": {
+      "kcal": 26.0,
+      "protein": 1.3,
+      "carbs": 5.8,
+      "fat": 0.1,
+      "fiber": 2.5
+    }
+  },
+  {
+    "key": "rotkohl",
+    "name": "Rotkohl",
+    "per100g": {
+      "kcal": 31.0,
+      "protein": 1.4,
+      "carbs": 7.0,
+      "fat": 0.2,
+      "fiber": 2.1
+    }
+  },
+  {
+    "key": "blumenkohl",
+    "name": "Blumenkohl",
+    "per100g": {
+      "kcal": 26.0,
+      "protein": 1.9,
+      "carbs": 5.0,
+      "fat": 0.3,
+      "fiber": 2.0
+    }
+  },
+  {
+    "key": "brokkoli",
+    "name": "Brokkoli",
+    "per100g": {
+      "kcal": 38.0,
+      "protein": 2.8,
+      "carbs": 6.6,
+      "fat": 0.4,
+      "fiber": 2.6
+    }
+  },
+  {
+    "key": "gruene_bohnen",
+    "name": "Grüne Bohnen",
+    "per100g": {
+      "kcal": 33.0,
+      "protein": 1.8,
+      "carbs": 7.0,
+      "fat": 0.2,
+      "fiber": 2.7
+    }
+  },
+  {
+    "key": "erbsen",
+    "name": "Grüne Erbsen",
+    "per100g": {
+      "kcal": 80.0,
+      "protein": 5.4,
+      "carbs": 14.0,
+      "fat": 0.4,
+      "fiber": 5.7
+    }
+  },
+  {
+    "key": "mais",
+    "name": "Mais",
+    "per100g": {
+      "kcal": 88.0,
+      "protein": 3.2,
+      "carbs": 19.0,
+      "fat": 1.2,
+      "fiber": 2.7
+    }
+  },
+  {
+    "key": "rote_bete",
+    "name": "Rote Bete",
+    "per100g": {
+      "kcal": 43.0,
+      "protein": 1.6,
+      "carbs": 9.6,
+      "fat": 0.2,
+      "fiber": 2.8
+    }
+  },
+  {
+    "key": "rettich",
+    "name": "Rettich/Rübe",
+    "per100g": {
+      "kcal": 18.0,
+      "protein": 0.7,
+      "carbs": 3.4,
+      "fat": 0.1,
+      "fiber": 1.6
+    }
+  },
+  {
+    "key": "kuerbis",
+    "name": "Kürbis",
+    "per100g": {
+      "kcal": 28.0,
+      "protein": 1.0,
+      "carbs": 6.5,
+      "fat": 0.1,
+      "fiber": 0.5
+    }
+  },
+  {
+    "key": "okra",
+    "name": "Okra",
+    "per100g": {
+      "kcal": 34.0,
+      "protein": 1.9,
+      "carbs": 7.5,
+      "fat": 0.2,
+      "fiber": 3.2
+    }
+  },
+  {
+    "key": "ruebe",
+    "name": "Weiße Rübe",
+    "per100g": {
+      "kcal": 28.0,
+      "protein": 0.9,
+      "carbs": 6.4,
+      "fat": 0.1,
+      "fiber": 1.8
+    }
+  },
+  {
+    "key": "artischocke",
+    "name": "Artischocke",
+    "per100g": {
+      "kcal": 52.0,
+      "protein": 3.3,
+      "carbs": 11.0,
+      "fat": 0.2,
+      "fiber": 5.4
+    }
+  },
+  {
+    "key": "spargel",
+    "name": "Spargel",
+    "per100g": {
+      "kcal": 22.0,
+      "protein": 2.2,
+      "carbs": 3.9,
+      "fat": 0.1,
+      "fiber": 2.1
+    }
+  },
+  {
+    "key": "pilz",
+    "name": "Champignons",
+    "per100g": {
+      "kcal": 24.0,
+      "protein": 3.1,
+      "carbs": 3.3,
+      "fat": 0.3,
+      "fiber": 1.0
+    }
+  },
+  {
+    "key": "salat",
+    "name": "Blattsalat (Romana/Eisberg)",
+    "per100g": {
+      "kcal": 17.0,
+      "protein": 1.4,
+      "carbs": 2.9,
+      "fat": 0.2,
+      "fiber": 1.3
+    }
+  },
+  {
+    "key": "rucola",
+    "name": "Rucola",
+    "per100g": {
+      "kcal": 28.0,
+      "protein": 2.6,
+      "carbs": 3.7,
+      "fat": 0.7,
+      "fiber": 1.6
+    }
+  },
+  {
+    "key": "petersilie",
+    "name": "Petersilie",
+    "per100g": {
+      "kcal": 39.0,
+      "protein": 3.0,
+      "carbs": 6.3,
+      "fat": 0.8,
+      "fiber": 3.3
+    }
+  },
+  {
+    "key": "dill",
+    "name": "Dill",
+    "per100g": {
+      "kcal": 45.0,
+      "protein": 3.5,
+      "carbs": 7.0,
+      "fat": 1.1,
+      "fiber": 2.1
+    }
+  },
+  {
+    "key": "minze",
+    "name": "Minze frisch",
+    "per100g": {
+      "kcal": 46.0,
+      "protein": 3.3,
+      "carbs": 8.4,
+      "fat": 0.7,
+      "fiber": 6.8
+    }
+  },
+  {
+    "key": "fruehlingszwiebel",
+    "name": "Frühlingszwiebel",
+    "per100g": {
+      "kcal": 33.0,
+      "protein": 1.8,
+      "carbs": 7.3,
+      "fat": 0.2,
+      "fiber": 2.6
+    }
+  },
+  {
+    "key": "karalahana",
+    "name": "Schwarzkohl",
+    "per100g": {
+      "kcal": 53.0,
+      "protein": 4.3,
+      "carbs": 9.0,
+      "fat": 0.9,
+      "fiber": 3.6
+    }
+  },
+  {
+    "key": "mangold",
+    "name": "Mangold",
+    "per100g": {
+      "kcal": 21.0,
+      "protein": 1.8,
+      "carbs": 3.7,
+      "fat": 0.2,
+      "fiber": 1.6
+    }
+  },
+  {
+    "key": "portulak",
+    "name": "Portulak",
+    "per100g": {
+      "kcal": 17.0,
+      "protein": 1.3,
+      "carbs": 3.4,
+      "fat": 0.1,
+      "fiber": 0.5
+    }
+  },
+  {
+    "key": "wildkraut",
+    "name": "Wildkräuter (Otlar)",
+    "per100g": {
+      "kcal": 33.0,
+      "protein": 2.5,
+      "carbs": 5.0,
+      "fat": 0.4,
+      "fiber": 3.0
+    }
+  },
+  {
+    "key": "weinblatt",
+    "name": "Weinblätter (eingelegt)",
+    "per100g": {
+      "kcal": 70.0,
+      "protein": 5.0,
+      "carbs": 11.0,
+      "fat": 1.5,
+      "fiber": 5.0
+    }
+  },
+  {
+    "key": "bohnen_trocken",
+    "name": "Weiße Bohnen (trocken)",
+    "per100g": {
+      "kcal": 340.0,
+      "protein": 22.0,
+      "carbs": 61.0,
+      "fat": 1.5,
+      "fiber": 15.0
+    }
+  },
+  {
+    "key": "kichererbsen_trocken",
+    "name": "Kichererbsen (trocken)",
+    "per100g": {
+      "kcal": 364.0,
+      "protein": 20.0,
+      "carbs": 60.0,
+      "fat": 6.0,
+      "fiber": 17.0
+    }
+  },
+  {
+    "key": "kichererbsen",
+    "name": "Kichererbsen (gekocht)",
+    "per100g": {
+      "kcal": 165.0,
+      "protein": 9.0,
+      "carbs": 27.0,
+      "fat": 2.6,
+      "fiber": 7.6
+    }
+  },
+  {
+    "key": "rote_linsen",
+    "name": "Rote Linsen (trocken)",
+    "per100g": {
+      "kcal": 345.0,
+      "protein": 25.0,
+      "carbs": 60.0,
+      "fat": 1.0,
+      "fiber": 11.0
+    }
+  },
+  {
+    "key": "linsen",
+    "name": "Grüne/Braune Linsen (trocken)",
+    "per100g": {
+      "kcal": 349.0,
+      "protein": 25.0,
+      "carbs": 60.0,
+      "fat": 1.1,
+      "fiber": 11.0
+    }
+  },
+  {
+    "key": "dicke_bohnen",
+    "name": "Dicke Bohnen (Bakla)",
+    "per100g": {
+      "kcal": 73.0,
+      "protein": 5.0,
+      "carbs": 12.0,
+      "fat": 0.6,
+      "fiber": 5.0
+    }
+  },
+  {
+    "key": "tomatenmark",
+    "name": "Tomatenmark",
+    "per100g": {
+      "kcal": 90.0,
+      "protein": 4.3,
+      "carbs": 19.0,
+      "fat": 0.5,
+      "fiber": 4.0
+    }
+  },
+  {
+    "key": "paprikamark",
+    "name": "Paprikamark (Biber Salçası)",
+    "per100g": {
+      "kcal": 90.0,
+      "protein": 4.0,
+      "carbs": 17.0,
+      "fat": 1.5,
+      "fiber": 5.0
+    }
+  },
+  {
+    "key": "tomaten_dose",
+    "name": "Tomaten (Dose)",
+    "per100g": {
+      "kcal": 23.0,
+      "protein": 1.0,
+      "carbs": 4.2,
+      "fat": 0.2,
+      "fiber": 1.0
+    }
+  },
+  {
+    "key": "reis",
+    "name": "Reis (trocken)",
+    "per100g": {
+      "kcal": 360.0,
+      "protein": 7.0,
+      "carbs": 79.0,
+      "fat": 0.6,
+      "fiber": 1.3
+    }
+  },
+  {
+    "key": "bulgur",
+    "name": "Bulgur",
+    "per100g": {
+      "kcal": 345.0,
+      "protein": 12.0,
+      "carbs": 75.0,
+      "fat": 1.3,
+      "fiber": 12.5
+    }
+  },
+  {
+    "key": "couscous",
+    "name": "Couscous",
+    "per100g": {
+      "kcal": 365.0,
+      "protein": 13.0,
+      "carbs": 73.0,
+      "fat": 0.6,
+      "fiber": 5.0
+    }
+  },
+  {
+    "key": "nudeln",
+    "name": "Nudeln/Şehriye (trocken)",
+    "per100g": {
+      "kcal": 360.0,
+      "protein": 12.5,
+      "carbs": 72.0,
+      "fat": 1.5,
+      "fiber": 3.0
+    }
+  },
+  {
+    "key": "mehl",
+    "name": "Weizenmehl",
+    "per100g": {
+      "kcal": 345.0,
+      "protein": 10.0,
+      "carbs": 72.0,
+      "fat": 1.0,
+      "fiber": 3.0
+    }
+  },
+  {
+    "key": "griess",
+    "name": "Grieß",
+    "per100g": {
+      "kcal": 345.0,
+      "protein": 11.0,
+      "carbs": 73.0,
+      "fat": 1.0,
+      "fiber": 4.0
+    }
+  },
+  {
+    "key": "staerke",
+    "name": "Speisestärke",
+    "per100g": {
+      "kcal": 354.0,
+      "protein": 0.3,
+      "carbs": 88.0,
+      "fat": 0.1,
+      "fiber": 0.9
+    }
+  },
+  {
+    "key": "reismehl",
+    "name": "Reismehl",
+    "per100g": {
+      "kcal": 360.0,
+      "protein": 6.0,
+      "carbs": 80.0,
+      "fat": 1.4,
+      "fiber": 2.4
+    }
+  },
+  {
+    "key": "haferflocken",
+    "name": "Haferflocken",
+    "per100g": {
+      "kcal": 355.0,
+      "protein": 13.0,
+      "carbs": 60.0,
+      "fat": 7.0,
+      "fiber": 10.0
+    }
+  },
+  {
+    "key": "paniermehl",
+    "name": "Paniermehl",
+    "per100g": {
+      "kcal": 381.0,
+      "protein": 12.0,
+      "carbs": 72.0,
+      "fat": 5.0,
+      "fiber": 4.0
+    }
+  },
+  {
+    "key": "semmel",
+    "name": "Brötchen/Semmel",
+    "per100g": {
+      "kcal": 262.0,
+      "protein": 9.0,
+      "carbs": 53.0,
+      "fat": 1.5,
+      "fiber": 3.0
+    }
+  },
+  {
+    "key": "weissbrot",
+    "name": "Weißbrot/Toast",
+    "per100g": {
+      "kcal": 263.0,
+      "protein": 9.0,
+      "carbs": 50.0,
+      "fat": 3.0,
+      "fiber": 2.5
+    }
+  },
+  {
+    "key": "vollkornbrot",
+    "name": "Vollkornbrot",
+    "per100g": {
+      "kcal": 210.0,
+      "protein": 8.0,
+      "carbs": 38.0,
+      "fat": 2.0,
+      "fiber": 7.0
+    }
+  },
+  {
+    "key": "roggenbrot",
+    "name": "Roggenmischbrot",
+    "per100g": {
+      "kcal": 215.0,
+      "protein": 6.0,
+      "carbs": 43.0,
+      "fat": 1.2,
+      "fiber": 6.0
+    }
+  },
+  {
+    "key": "ekmek",
+    "name": "Türkisches Brot (Ekmek)",
+    "per100g": {
+      "kcal": 255.0,
+      "protein": 8.5,
+      "carbs": 52.0,
+      "fat": 1.5,
+      "fiber": 2.5
+    }
+  },
+  {
+    "key": "lavas",
+    "name": "Lavaş/Wrap-Fladen",
+    "per100g": {
+      "kcal": 273.0,
+      "protein": 9.0,
+      "carbs": 56.0,
+      "fat": 1.5,
+      "fiber": 2.5
+    }
+  },
+  {
+    "key": "yufka",
+    "name": "Yufka/Filoteig",
+    "per100g": {
+      "kcal": 290.0,
+      "protein": 9.0,
+      "carbs": 60.0,
+      "fat": 1.5,
+      "fiber": 2.5
+    }
+  },
+  {
+    "key": "kadayif",
+    "name": "Tel Kadayıf",
+    "per100g": {
+      "kcal": 325.0,
+      "protein": 9.0,
+      "carbs": 70.0,
+      "fat": 1.0,
+      "fiber": 3.0
+    }
+  },
+  {
+    "key": "blaetterteig",
+    "name": "Blätterteig",
+    "per100g": {
+      "kcal": 541.0,
+      "protein": 7.0,
+      "carbs": 45.0,
+      "fat": 37.0,
+      "fiber": 2.0
+    }
+  },
+  {
+    "key": "hefe",
+    "name": "Hefe",
+    "per100g": {
+      "kcal": 98.0,
+      "protein": 8.0,
+      "carbs": 12.0,
+      "fat": 2.0,
+      "fiber": 7.0
+    }
+  },
+  {
+    "key": "maismehl",
+    "name": "Maismehl/Polenta",
+    "per100g": {
+      "kcal": 363.0,
+      "protein": 7.0,
+      "carbs": 77.0,
+      "fat": 3.0,
+      "fiber": 7.0
+    }
+  },
+  {
+    "key": "hirse",
+    "name": "Hirse",
+    "per100g": {
+      "kcal": 372.0,
+      "protein": 11.0,
+      "carbs": 73.0,
+      "fat": 4.0,
+      "fiber": 8.5
+    }
+  },
+  {
+    "key": "tarhana",
+    "name": "Tarhana (trocken)",
+    "per100g": {
+      "kcal": 324.0,
+      "protein": 12.0,
+      "carbs": 60.0,
+      "fat": 4.0,
+      "fiber": 5.0
+    }
+  },
+  {
+    "key": "kastanie",
+    "name": "Kastanie",
+    "per100g": {
+      "kcal": 198.0,
+      "protein": 2.0,
+      "carbs": 44.0,
+      "fat": 1.5,
+      "fiber": 8.0
+    }
+  },
+  {
+    "key": "zucker",
+    "name": "Zucker",
+    "per100g": {
+      "kcal": 400.0,
+      "protein": 0.0,
+      "carbs": 100.0,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "honig",
+    "name": "Honig",
+    "per100g": {
+      "kcal": 305.0,
+      "protein": 0.3,
+      "carbs": 82.0,
+      "fat": 0.0,
+      "fiber": 0.2
+    }
+  },
+  {
+    "key": "pekmez",
+    "name": "Pekmez/Traubensirup",
+    "per100g": {
+      "kcal": 290.0,
+      "protein": 1.0,
+      "carbs": 72.0,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "marmelade",
+    "name": "Marmelade/Konfitüre",
+    "per100g": {
+      "kcal": 250.0,
+      "protein": 0.4,
+      "carbs": 62.0,
+      "fat": 0.1,
+      "fiber": 1.0
+    }
+  },
+  {
+    "key": "tahin",
+    "name": "Tahin",
+    "per100g": {
+      "kcal": 595.0,
+      "protein": 17.0,
+      "carbs": 21.0,
+      "fat": 54.0,
+      "fiber": 9.0
+    }
+  },
+  {
+    "key": "helva",
+    "name": "Tahin-Halva",
+    "per100g": {
+      "kcal": 520.0,
+      "protein": 12.0,
+      "carbs": 50.0,
+      "fat": 29.0,
+      "fiber": 3.0
+    }
+  },
+  {
+    "key": "walnuss",
+    "name": "Walnüsse",
+    "per100g": {
+      "kcal": 654.0,
+      "protein": 15.0,
+      "carbs": 14.0,
+      "fat": 65.0,
+      "fiber": 6.7
+    }
+  },
+  {
+    "key": "mandel",
+    "name": "Mandeln",
+    "per100g": {
+      "kcal": 580.0,
+      "protein": 21.0,
+      "carbs": 22.0,
+      "fat": 50.0,
+      "fiber": 12.0
+    }
+  },
+  {
+    "key": "haselnuss",
+    "name": "Haselnüsse",
+    "per100g": {
+      "kcal": 630.0,
+      "protein": 15.0,
+      "carbs": 17.0,
+      "fat": 61.0,
+      "fiber": 10.0
+    }
+  },
+  {
+    "key": "pistazie",
+    "name": "Pistazien",
+    "per100g": {
+      "kcal": 560.0,
+      "protein": 20.0,
+      "carbs": 28.0,
+      "fat": 45.0,
+      "fiber": 10.0
+    }
+  },
+  {
+    "key": "erdnuss",
+    "name": "Erdnüsse",
+    "per100g": {
+      "kcal": 570.0,
+      "protein": 26.0,
+      "carbs": 16.0,
+      "fat": 49.0,
+      "fiber": 8.5
+    }
+  },
+  {
+    "key": "pinienkerne",
+    "name": "Pinienkerne",
+    "per100g": {
+      "kcal": 670.0,
+      "protein": 14.0,
+      "carbs": 13.0,
+      "fat": 68.0,
+      "fiber": 3.7
+    }
+  },
+  {
+    "key": "kokos",
+    "name": "Kokosraspeln",
+    "per100g": {
+      "kcal": 660.0,
+      "protein": 6.9,
+      "carbs": 24.0,
+      "fat": 65.0,
+      "fiber": 16.0
+    }
+  },
+  {
+    "key": "sesam",
+    "name": "Sesam",
+    "per100g": {
+      "kcal": 570.0,
+      "protein": 18.0,
+      "carbs": 23.0,
+      "fat": 50.0,
+      "fiber": 12.0
+    }
+  },
+  {
+    "key": "sonnenblumenkerne",
+    "name": "Sonnenblumenkerne",
+    "per100g": {
+      "kcal": 585.0,
+      "protein": 21.0,
+      "carbs": 20.0,
+      "fat": 51.0,
+      "fiber": 9.0
+    }
+  },
+  {
+    "key": "kuerbiskerne",
+    "name": "Kürbiskerne",
+    "per100g": {
+      "kcal": 560.0,
+      "protein": 30.0,
+      "carbs": 11.0,
+      "fat": 49.0,
+      "fiber": 6.0
+    }
+  },
+  {
+    "key": "mohn",
+    "name": "Mohn",
+    "per100g": {
+      "kcal": 525.0,
+      "protein": 18.0,
+      "carbs": 28.0,
+      "fat": 42.0,
+      "fiber": 20.0
+    }
+  },
+  {
+    "key": "rosinen",
+    "name": "Rosinen/Sultaninen",
+    "per100g": {
+      "kcal": 300.0,
+      "protein": 3.0,
+      "carbs": 79.0,
+      "fat": 0.5,
+      "fiber": 3.7
+    }
+  },
+  {
+    "key": "aprikose_tr",
+    "name": "Aprikosen getrocknet",
+    "per100g": {
+      "kcal": 240.0,
+      "protein": 3.4,
+      "carbs": 63.0,
+      "fat": 0.5,
+      "fiber": 7.0
+    }
+  },
+  {
+    "key": "dattel",
+    "name": "Datteln",
+    "per100g": {
+      "kcal": 280.0,
+      "protein": 2.5,
+      "carbs": 75.0,
+      "fat": 0.4,
+      "fiber": 8.0
+    }
+  },
+  {
+    "key": "feige_tr",
+    "name": "Feigen getrocknet",
+    "per100g": {
+      "kcal": 250.0,
+      "protein": 3.3,
+      "carbs": 64.0,
+      "fat": 0.9,
+      "fiber": 9.8
+    }
+  },
+  {
+    "key": "pflaume_tr",
+    "name": "Pflaumen getrocknet",
+    "per100g": {
+      "kcal": 240.0,
+      "protein": 2.2,
+      "carbs": 64.0,
+      "fat": 0.4,
+      "fiber": 7.0
+    }
+  },
+  {
+    "key": "aprikose",
+    "name": "Aprikose",
+    "per100g": {
+      "kcal": 48.0,
+      "protein": 1.4,
+      "carbs": 11.0,
+      "fat": 0.4,
+      "fiber": 2.0
+    }
+  },
+  {
+    "key": "apfel",
+    "name": "Apfel",
+    "per100g": {
+      "kcal": 52.0,
+      "protein": 0.3,
+      "carbs": 14.0,
+      "fat": 0.2,
+      "fiber": 2.4
+    }
+  },
+  {
+    "key": "birne",
+    "name": "Birne",
+    "per100g": {
+      "kcal": 57.0,
+      "protein": 0.4,
+      "carbs": 15.0,
+      "fat": 0.1,
+      "fiber": 3.1
+    }
+  },
+  {
+    "key": "quitte",
+    "name": "Quitte",
+    "per100g": {
+      "kcal": 57.0,
+      "protein": 0.4,
+      "carbs": 15.0,
+      "fat": 0.1,
+      "fiber": 1.9
+    }
+  },
+  {
+    "key": "banane",
+    "name": "Banane",
+    "per100g": {
+      "kcal": 89.0,
+      "protein": 1.1,
+      "carbs": 23.0,
+      "fat": 0.3,
+      "fiber": 2.6
+    }
+  },
+  {
+    "key": "orange",
+    "name": "Orange",
+    "per100g": {
+      "kcal": 47.0,
+      "protein": 0.9,
+      "carbs": 12.0,
+      "fat": 0.1,
+      "fiber": 2.4
+    }
+  },
+  {
+    "key": "zitrone",
+    "name": "Zitronensaft",
+    "per100g": {
+      "kcal": 28.0,
+      "protein": 0.4,
+      "carbs": 7.0,
+      "fat": 0.2,
+      "fiber": 0.3
+    }
+  },
+  {
+    "key": "granatapfel",
+    "name": "Granatapfel",
+    "per100g": {
+      "kcal": 83.0,
+      "protein": 1.7,
+      "carbs": 19.0,
+      "fat": 1.2,
+      "fiber": 4.0
+    }
+  },
+  {
+    "key": "nar_eksisi",
+    "name": "Granatapfelsirup (Nar Ekşisi)",
+    "per100g": {
+      "kcal": 150.0,
+      "protein": 0.5,
+      "carbs": 37.0,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "traube",
+    "name": "Weintraube",
+    "per100g": {
+      "kcal": 69.0,
+      "protein": 0.7,
+      "carbs": 18.0,
+      "fat": 0.2,
+      "fiber": 0.9
+    }
+  },
+  {
+    "key": "erdbeere",
+    "name": "Erdbeere",
+    "per100g": {
+      "kcal": 32.0,
+      "protein": 0.7,
+      "carbs": 7.7,
+      "fat": 0.3,
+      "fiber": 2.0
+    }
+  },
+  {
+    "key": "kirsche",
+    "name": "Kirsche",
+    "per100g": {
+      "kcal": 63.0,
+      "protein": 1.0,
+      "carbs": 16.0,
+      "fat": 0.2,
+      "fiber": 2.1
+    }
+  },
+  {
+    "key": "sauerkirsche",
+    "name": "Sauerkirsche/Vişne",
+    "per100g": {
+      "kcal": 50.0,
+      "protein": 1.0,
+      "carbs": 12.0,
+      "fat": 0.3,
+      "fiber": 1.6
+    }
+  },
+  {
+    "key": "pflaume",
+    "name": "Pflaume/Zwetschge",
+    "per100g": {
+      "kcal": 46.0,
+      "protein": 0.7,
+      "carbs": 11.0,
+      "fat": 0.3,
+      "fiber": 1.4
+    }
+  },
+  {
+    "key": "pfirsich",
+    "name": "Pfirsich",
+    "per100g": {
+      "kcal": 39.0,
+      "protein": 0.9,
+      "carbs": 9.5,
+      "fat": 0.3,
+      "fiber": 1.5
+    }
+  },
+  {
+    "key": "wassermelone",
+    "name": "Wassermelone",
+    "per100g": {
+      "kcal": 30.0,
+      "protein": 0.6,
+      "carbs": 7.6,
+      "fat": 0.2,
+      "fiber": 0.4
+    }
+  },
+  {
+    "key": "melone",
+    "name": "Zuckermelone",
+    "per100g": {
+      "kcal": 34.0,
+      "protein": 0.8,
+      "carbs": 8.2,
+      "fat": 0.2,
+      "fiber": 0.9
+    }
+  },
+  {
+    "key": "himbeere",
+    "name": "Himbeere",
+    "per100g": {
+      "kcal": 52.0,
+      "protein": 1.2,
+      "carbs": 12.0,
+      "fat": 0.7,
+      "fiber": 6.5
+    }
+  },
+  {
+    "key": "blaubeere",
+    "name": "Blaubeere",
+    "per100g": {
+      "kcal": 57.0,
+      "protein": 0.7,
+      "carbs": 14.0,
+      "fat": 0.3,
+      "fiber": 2.4
+    }
+  },
+  {
+    "key": "maulbeere",
+    "name": "Maulbeere",
+    "per100g": {
+      "kcal": 43.0,
+      "protein": 1.4,
+      "carbs": 10.0,
+      "fat": 0.4,
+      "fiber": 1.7
+    }
+  },
+  {
+    "key": "preiselbeeren",
+    "name": "Preiselbeerkompott",
+    "per100g": {
+      "kcal": 130.0,
+      "protein": 0.2,
+      "carbs": 32.0,
+      "fat": 0.1,
+      "fiber": 1.0
+    }
+  },
+  {
+    "key": "oel",
+    "name": "Sonnenblumenöl",
+    "per100g": {
+      "kcal": 884.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 100.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "olivenoel",
+    "name": "Olivenöl",
+    "per100g": {
+      "kcal": 884.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 100.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "butterschmalz",
+    "name": "Butterschmalz",
+    "per100g": {
+      "kcal": 891.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 99.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "schmalz",
+    "name": "Schweineschmalz",
+    "per100g": {
+      "kcal": 897.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 99.5,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "margarine",
+    "name": "Margarine",
+    "per100g": {
+      "kcal": 722.0,
+      "protein": 0.2,
+      "carbs": 0.4,
+      "fat": 80.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "salz",
+    "name": "Salz",
+    "per100g": {
+      "kcal": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "pfeffer",
+    "name": "Pfeffer",
+    "per100g": {
+      "kcal": 300.0,
+      "protein": 10.0,
+      "carbs": 64.0,
+      "fat": 3.3,
+      "fiber": 25.0
+    }
+  },
+  {
+    "key": "paprikapulver",
+    "name": "Paprikapulver",
+    "per100g": {
+      "kcal": 335.0,
+      "protein": 14.0,
+      "carbs": 54.0,
+      "fat": 13.0,
+      "fiber": 35.0
+    }
+  },
+  {
+    "key": "pul_biber",
+    "name": "Pul Biber (Chiliflocken)",
+    "per100g": {
+      "kcal": 360.0,
+      "protein": 12.0,
+      "carbs": 50.0,
+      "fat": 15.0,
+      "fiber": 28.0
+    }
+  },
+  {
+    "key": "kreuzkuemmel",
+    "name": "Kreuzkümmel",
+    "per100g": {
+      "kcal": 380.0,
+      "protein": 18.0,
+      "carbs": 44.0,
+      "fat": 22.0,
+      "fiber": 10.0
+    }
+  },
+  {
+    "key": "zimt",
+    "name": "Zimt",
+    "per100g": {
+      "kcal": 300.0,
+      "protein": 4.0,
+      "carbs": 81.0,
+      "fat": 1.2,
+      "fiber": 53.0
+    }
+  },
+  {
+    "key": "oregano",
+    "name": "Oregano/Thymian/Majoran (trocken)",
+    "per100g": {
+      "kcal": 305.0,
+      "protein": 9.0,
+      "carbs": 65.0,
+      "fat": 5.0,
+      "fiber": 40.0
+    }
+  },
+  {
+    "key": "minze_trocken",
+    "name": "Minze getrocknet",
+    "per100g": {
+      "kcal": 295.0,
+      "protein": 20.0,
+      "carbs": 52.0,
+      "fat": 6.0,
+      "fiber": 30.0
+    }
+  },
+  {
+    "key": "gewuerz",
+    "name": "Gewürzmischung (Sumak, Muskat, Kurkuma usw.)",
+    "per100g": {
+      "kcal": 300.0,
+      "protein": 10.0,
+      "carbs": 55.0,
+      "fat": 8.0,
+      "fiber": 25.0
+    }
+  },
+  {
+    "key": "kakao",
+    "name": "Kakaopulver",
+    "per100g": {
+      "kcal": 375.0,
+      "protein": 20.0,
+      "carbs": 58.0,
+      "fat": 14.0,
+      "fiber": 33.0
+    }
+  },
+  {
+    "key": "schokolade",
+    "name": "Zartbitterschokolade",
+    "per100g": {
+      "kcal": 539.0,
+      "protein": 6.0,
+      "carbs": 50.0,
+      "fat": 35.0,
+      "fiber": 10.0
+    }
+  },
+  {
+    "key": "schokolade_milch",
+    "name": "Vollmilchschokolade",
+    "per100g": {
+      "kcal": 528.0,
+      "protein": 7.5,
+      "carbs": 57.0,
+      "fat": 30.0,
+      "fiber": 3.0
+    }
+  },
+  {
+    "key": "gelatine",
+    "name": "Gelatine",
+    "per100g": {
+      "kcal": 340.0,
+      "protein": 85.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "senf",
+    "name": "Senf",
+    "per100g": {
+      "kcal": 66.0,
+      "protein": 4.0,
+      "carbs": 6.0,
+      "fat": 4.0,
+      "fiber": 3.0
+    }
+  },
+  {
+    "key": "ketchup",
+    "name": "Ketchup",
+    "per100g": {
+      "kcal": 106.0,
+      "protein": 1.2,
+      "carbs": 25.0,
+      "fat": 0.2,
+      "fiber": 1.0
+    }
+  },
+  {
+    "key": "mayonnaise",
+    "name": "Mayonnaise",
+    "per100g": {
+      "kcal": 687.0,
+      "protein": 1.0,
+      "carbs": 2.0,
+      "fat": 75.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "essig",
+    "name": "Essig",
+    "per100g": {
+      "kcal": 10.0,
+      "protein": 0.0,
+      "carbs": 0.6,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "wein_rot",
+    "name": "Rotwein",
+    "per100g": {
+      "kcal": 85.0,
+      "protein": 0.1,
+      "carbs": 2.6,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "wein_weiss",
+    "name": "Weißwein",
+    "per100g": {
+      "kcal": 82.0,
+      "protein": 0.1,
+      "carbs": 2.6,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "bier",
+    "name": "Bier",
+    "per100g": {
+      "kcal": 43.0,
+      "protein": 0.5,
+      "carbs": 3.6,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "bruehe",
+    "name": "Brühe",
+    "per100g": {
+      "kcal": 5.0,
+      "protein": 0.5,
+      "carbs": 0.5,
+      "fat": 0.1,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "wasser",
+    "name": "Wasser",
+    "per100g": {
+      "kcal": 0.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "tee",
+    "name": "Tee/Kaffee (ungesüßt)",
+    "per100g": {
+      "kcal": 2.0,
+      "protein": 0.1,
+      "carbs": 0.2,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "sauerkraut",
+    "name": "Sauerkraut",
+    "per100g": {
+      "kcal": 20.0,
+      "protein": 1.0,
+      "carbs": 3.4,
+      "fat": 0.2,
+      "fiber": 2.5
+    }
+  },
+  {
+    "key": "gewuerzgurke",
+    "name": "Gewürzgurke",
+    "per100g": {
+      "kcal": 15.0,
+      "protein": 0.5,
+      "carbs": 2.8,
+      "fat": 0.2,
+      "fiber": 1.2
+    }
+  },
+  {
+    "key": "olive",
+    "name": "Oliven",
+    "per100g": {
+      "kcal": 140.0,
+      "protein": 1.0,
+      "carbs": 4.0,
+      "fat": 14.0,
+      "fiber": 3.0
+    }
+  },
+  {
+    "key": "sumak_pulver",
+    "name": "Sumak",
+    "per100g": {
+      "kcal": 270.0,
+      "protein": 3.0,
+      "carbs": 60.0,
+      "fat": 7.0,
+      "fiber": 20.0
+    }
+  },
+  {
+    "key": "kalb",
+    "name": "Kalbfleisch (Schnitzel/Keule)",
+    "per100g": {
+      "kcal": 107.0,
+      "protein": 21.0,
+      "carbs": 0.0,
+      "fat": 2.5,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "wild",
+    "name": "Wildfleisch (Reh/Hirsch)",
+    "per100g": {
+      "kcal": 115.0,
+      "protein": 22.0,
+      "carbs": 0.0,
+      "fat": 2.5,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "wildschwein",
+    "name": "Wildschweinfleisch",
+    "per100g": {
+      "kcal": 122.0,
+      "protein": 21.0,
+      "carbs": 0.0,
+      "fat": 4.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "kaninchen",
+    "name": "Kaninchenfleisch",
+    "per100g": {
+      "kcal": 136.0,
+      "protein": 21.0,
+      "carbs": 0.0,
+      "fat": 5.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "rhabarber",
+    "name": "Rhabarber",
+    "per100g": {
+      "kcal": 13.0,
+      "protein": 0.9,
+      "carbs": 2.3,
+      "fat": 0.2,
+      "fiber": 1.8
+    }
+  },
+  {
+    "key": "rosenkohl",
+    "name": "Rosenkohl",
+    "per100g": {
+      "kcal": 43.0,
+      "protein": 3.4,
+      "carbs": 8.0,
+      "fat": 0.3,
+      "fiber": 3.8
+    }
+  },
+  {
+    "key": "gruenkohl",
+    "name": "Grünkohl",
+    "per100g": {
+      "kcal": 49.0,
+      "protein": 4.3,
+      "carbs": 8.5,
+      "fat": 0.9,
+      "fiber": 4.2
+    }
+  },
+  {
+    "key": "meerrettich",
+    "name": "Meerrettich",
+    "per100g": {
+      "kcal": 48.0,
+      "protein": 1.2,
+      "carbs": 11.0,
+      "fat": 0.3,
+      "fiber": 3.0
+    }
+  },
+  {
+    "key": "marzipan",
+    "name": "Marzipan",
+    "per100g": {
+      "kcal": 480.0,
+      "protein": 9.0,
+      "carbs": 50.0,
+      "fat": 27.0,
+      "fiber": 4.0
+    }
+  },
+  {
+    "key": "graupen",
+    "name": "Graupen (Gerste)",
+    "per100g": {
+      "kcal": 350.0,
+      "protein": 10.0,
+      "carbs": 73.0,
+      "fat": 1.5,
+      "fiber": 15.0
+    }
+  },
+  {
+    "key": "erbsen_trocken",
+    "name": "Erbsen getrocknet",
+    "per100g": {
+      "kcal": 340.0,
+      "protein": 23.0,
+      "carbs": 50.0,
+      "fat": 1.5,
+      "fiber": 16.0
+    }
+  },
+  {
+    "key": "lebkuchen_gewuerz",
+    "name": "Lebkuchengewürz/Zimt-Nelke",
+    "per100g": {
+      "kcal": 260.0,
+      "protein": 4.0,
+      "carbs": 55.0,
+      "fat": 3.0,
+      "fiber": 25.0
+    }
+  },
+  {
+    "key": "speisequark_20",
+    "name": "Speisequark 20 % Fett",
+    "per100g": {
+      "kcal": 120.0,
+      "protein": 11.0,
+      "carbs": 3.5,
+      "fat": 7.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "vanillepudding_pulver",
+    "name": "Puddingpulver",
+    "per100g": {
+      "kcal": 350.0,
+      "protein": 0.3,
+      "carbs": 86.0,
+      "fat": 0.3,
+      "fiber": 0.5
+    }
+  },
+  {
+    "key": "sauerrahm",
+    "name": "Sauerrahm (10 % Fett)",
+    "per100g": {
+      "kcal": 120.0,
+      "protein": 3.0,
+      "carbs": 4.0,
+      "fat": 10.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "rotkohl_glas",
+    "name": "Rotkohl (gegart, Glas)",
+    "per100g": {
+      "kcal": 50.0,
+      "protein": 1.2,
+      "carbs": 9.0,
+      "fat": 1.0,
+      "fiber": 2.5
+    }
+  },
+  {
+    "key": "ananas",
+    "name": "Ananas",
+    "per100g": {
+      "kcal": 50.0,
+      "protein": 0.5,
+      "carbs": 13.0,
+      "fat": 0.1,
+      "fiber": 1.4
+    }
+  }
+]
