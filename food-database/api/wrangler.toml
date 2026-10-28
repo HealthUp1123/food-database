@@ -1,0 +1,6 @@
+name = "food-database-api"
+main = "worker.js"
+compatibility_date = "2024-09-23"
+
+# Keine Secrets, keine Datenbank nötig: die Daten (data/foods.json) werden beim
+# Deploy in den Worker eingebunden. Kostenloser Cloudflare-Plan reicht.
