@@ -11,7 +11,7 @@ const get = async (path, init) => {
 let t = await get('/health');
 assert.equal(t.res.status, 200);
 assert.equal(t.body.status, 'ok');
-assert.equal(t.body.count, 4876);
+assert.equal(t.body.count, 4926);
 
 // Karnıyarık: ASCII, Originalschreibweise, ein fehlendes i.
 t = await get('/search?q=karniyarik&limit=3');
@@ -98,17 +98,40 @@ assert.equal(t.body.note, 'Grundzutat (getrocknet), kein Fertigprodukt');
 t = await get('/search?q=haehnchenbrust%20gegrillt&limit=3');
 assert.equal(t.body.results[0].id, 'haehnchenbrust-gegrillt');
 assert.equal(t.body.results[0].state, 'grilled');
-// Geschätzte Zubereitung ohne USDA-Datensatz, abgeleitet aus der rohen Grundzutat
-t = await get('/search?q=tomate%20gegrillt&limit=3');
-assert.equal(t.body.results[0].id, 'tomate-gegrillt');
-assert.equal(t.body.results[0].prepared, 'base_ingredient');
-assert.equal(t.body.results[0].state, 'grilled');
-t = await get('/item/tomate-gegrillt');
+// Geschätzte Zubereitung ohne direkten Datensatz, abgeleitet aus der rohen Grundzutat
+t = await get('/search?q=zucchini%20in%20%C3%B6l%20gebraten&limit=3');
+assert.equal(t.body.results[0].id, 'zucchini-in-oel-gebraten');
+t = await get('/item/zucchini-in-oel-gebraten');
 assert.equal(t.body.quality, 'estimate');
 assert.equal(t.body.note, 'Grundzutat (zubereitet, geschätzt), kein Fertigprodukt');
-assert.equal(t.body.derived_from, 'tomate-roh');
+assert.equal(t.body.derived_from, 'zucchini-roh');
 assert.equal(t.body.barcode, null);
 assert.equal(t.body.is_packaged_product, false);
+// Direkte Datensätze aus BLS 4.0 / Schweizer / schwedischer Nährwertdatenbank (source_id statt fdc_id)
+t = await get('/search?q=zucchini%20gegrillt&limit=3');
+assert.equal(t.body.results[0].id, 'zucchini-gegrillt');
+assert.equal(t.body.results[0].state, 'grilled');
+t = await get('/item/zucchini-gegrillt');
+assert.equal(t.body.name, 'Zucchini, gegrillt');
+assert.equal(t.body.quality, 'reference');
+assert.equal(t.body.source_id, 'BLS 4.0:G582172');
+assert.equal(t.body.fdc_id, undefined);
+assert.ok(t.body.source.startsWith('Max Rubner-Institut (2025): Bundeslebensmittelschlüssel'));
+assert.equal(t.body.per100g.kcal, 46);
+assert.equal(t.body.per100g.carbs, 8.4); // 6,0 g verfügbare KH + 2,4 g Ballaststoffe
+t = await get('/search?q=tomate%20gegrillt&limit=3');
+assert.equal(t.body.results[0].id, 'tomate-gegrillt');
+t = await get('/item/tomate-gegrillt');
+assert.equal(t.body.quality, 'reference');
+assert.equal(t.body.source_id, 'BLS 4.0:G561072');
+t = await get('/search?q=rote%20bete%20ged%C3%A4mpft&limit=3');
+assert.equal(t.body.results[0].id, 'rote-bete-gedaempft');
+t = await get('/item/rote-bete-gedaempft');
+assert.equal(t.body.source_id, 'CH 7.1:1019');
+t = await get('/search?q=s%C3%BC%C3%9Fkartoffel%20wedges&limit=3');
+assert.equal(t.body.results[0].id, 'suesskartoffel-wedges-im-ofen-mit-oel');
+t = await get('/item/suesskartoffel-wedges-im-ofen-mit-oel');
+assert.equal(t.body.source_id, 'Livsmedelsverket:3771');
 
 t = await get('/item/gibt-es-nicht');
 assert.equal(t.res.status, 404);

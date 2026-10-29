@@ -13,6 +13,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from base_list import L
 from variants_list import V
 from estimates_list import E
+from external_list import X
 
 NUT = {'1008': 'kcal', '1003': 'protein', '1005': 'carbs', '1004': 'fat', '1079': 'fiber', '2000': 'sugar'}
 
@@ -124,6 +125,7 @@ def main():
         out.append(e)
         for t in [name] + e['synonyms']:
             taken.setdefault(norm(t), iid)
+    ext = external(X, ids, names, taken, dropped_syn, clashes)
     est = estimates(E, out, ids, names, taken, dropped_syn, clashes)
     if nofiber:
         raise SystemExit('Ballaststoffe fehlen in USDA (KH > 0) - nicht erfinden, Eintrag entfernen:\n  ' + '\n  '.join(nofiber))
@@ -133,13 +135,62 @@ def main():
         print(f'{len(dropped_syn)} Varianten-Synonyme weggelassen (schon an anderem Eintrag vergeben):')
         for x in dropped_syn:
             print('  -', x)
-    print(f'{len(out)} Grundzutaten aus USDA erzeugt ({len(L)} Rohwaren-Liste, {len(V)} Varianten-Liste), {len(est)} geschätzt (estimates_list.py); ohne USDA-Wert (fiber=0 nur bei 0 g KH, sugar sonst weggelassen): {len(missing)}')
+    print(f'{len(out)} Grundzutaten aus USDA erzeugt ({len(L)} Rohwaren-Liste, {len(V)} Varianten-Liste), {len(ext)} direkt aus BLS/Ciqual/CH/SE (external_list.py), {len(est)} geschätzt (estimates_list.py); ohne USDA-Wert (fiber=0 nur bei 0 g KH, sugar sonst weggelassen): {len(missing)}')
     for n, m in missing:
         print('  -', n, m)
     if write:
-        json.dump(data + out + est, open(foods_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+        json.dump(data + out + ext + est, open(foods_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
         open(foods_path, 'a').write('\n')
-    return out + est
+    return out + ext + est
+
+EXT_DB = {
+    'BLS': ('Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, '
+            'Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0', 'BLS 4.0'),
+    'CH': ('Schweizer Nährwertdatenbank V7.1, Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV), '
+           'naehrwertdaten.ch (frei verwendbar mit Quellenangabe)', 'CH 7.1'),
+    'CIQ': ('Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0', 'Ciqual 2025'),
+    'SE': ('Livsmedelsverket, Livsmedelsdatabasen (Version 2026-06-29), dataportal.livsmedelsverket.se, Lizenz CC BY 4.0', 'Livsmedelsverket'),
+}
+
+def external(items, ids, names, taken, dropped_syn, clashes):
+    """Direkte (gemessene oder von der Datenbank rezeptberechnete) Datensätze aus BLS/CH/SE uebernehmen.
+    Kohlenhydrate: verfügbare KH + Ballaststoffe (USDA-Konvention der DB), kcal wie veröffentlicht."""
+    # Namen/Synonyme der Schätzungen reservieren: z. B. "Zucchini gebraten" bleibt bei der Öl-Variante
+    reserved = {norm(t) for it in E for t in [it[0]] + it[3]}
+    res = []
+    for name, state, syn, db, code, orig, (kcal, prot, fat, cho, fib, sug), herk in items:
+        if norm(name) in taken or norm(name) in reserved:
+            clashes.append(f'{name} -> {taken.get(norm(name), "estimates_list")}')
+            continue
+        keep = [x for x in syn if norm(x) not in taken and norm(x) not in reserved]
+        dropped_syn += [f'{name}: "{x}" ({taken.get(norm(x), "estimates_list")})' for x in syn if x not in keep]
+        if state not in ('raw', 'grilled', 'baked', 'fried', 'cooked'):
+            raise SystemExit(f'{name}: Zustand {state} unerwartet')
+        p = {'kcal': round(kcal), 'protein': round(prot, 1), 'carbs': round(cho + fib, 1),
+             'fat': round(fat, 1), 'fiber': round(fib, 1), 'sugar': round(sug, 1)}
+        iid = slug(name)
+        assert iid not in ids, iid
+        assert name.lower() not in names, name
+        ids.add(iid); names.add(name.lower())
+        cite, short = EXT_DB[db]
+        calc = 'rezeptberechnet' if any(w in herk for w in ('Rezept', 'Berechnung anhand', 'Recept', 'Beräknad')) else 'Tabellenwert'
+        e = {
+            'id': iid, 'name': name, 'type': 'item', 'barcode': None,
+            'synonyms': keep,
+            'cuisine': 'int', 'category': 'Grundzutat: Gemüse',
+            'prepared': 'base_ingredient', 'is_packaged_product': False,
+            'state': state, 'unit': 'g', 'note': note_for(state) if state == 'raw' else 'Grundzutat (zubereitet), kein Fertigprodukt',
+            'per100g': p,
+            'ingredients': [{'name': name, 'grams': 100}],
+            'quality': 'reference',
+            'source': (f'{cite}; Code {code} "{orig}". Datensatz der Datenbank ({calc}; Datenherkunft laut Quelle: {herk}). '
+                       f'Kohlenhydrate = verfügbare KH {cho} g + Ballaststoffe {fib} g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.'),
+            'source_id': f'{short}:{code}',
+        }
+        res.append(e)
+        for t in [name] + keep:
+            taken.setdefault(norm(t), iid)
+    return res
 
 def estimates(items, out, ids, names, taken, dropped_syn, clashes):
     """Zubereitete Varianten ohne USDA-Datensatz aus der rohen Grundzutat (unrund. USDA-Werte) berechnen."""

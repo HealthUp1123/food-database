@@ -247967,6 +247967,149 @@
     ]
   },
   {
+    "id": "zucchini-gegrillt",
+    "name": "Zucchini, gegrillt",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "gegrillte Zucchini",
+      "Zucchini vom Grill",
+      "Grillzucchini"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "grilled",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 46,
+      "protein": 2.8,
+      "carbs": 8.4,
+      "fat": 0.6,
+      "fiber": 2.4,
+      "sugar": 4.5
+    },
+    "ingredients": [
+      {
+        "name": "Zucchini, gegrillt",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G582172 \"Zucchini gegrillt\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 6 g + Ballaststoffe 2.4 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G582172"
+  },
+  {
+    "id": "champignons-gegrillt",
+    "name": "Champignons, gegrillt",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "gegrillte Champignons",
+      "Champignon gegrillt",
+      "Grillchampignons",
+      "Pilze gegrillt"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "grilled",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 44,
+      "protein": 5.6,
+      "carbs": 7.4,
+      "fat": 0.4,
+      "fiber": 2.9,
+      "sugar": 0.3
+    },
+    "ingredients": [
+      {
+        "name": "Champignons, gegrillt",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code K701172 \"Champignon gegrillt\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4.5 g + Ballaststoffe 2.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:K701172"
+  },
+  {
+    "id": "zwiebel-gegrillt",
+    "name": "Zwiebel, gegrillt",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "gegrillte Zwiebel",
+      "gegrillte Zwiebeln",
+      "Zwiebeln gegrillt",
+      "Grillzwiebel"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "grilled",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 54,
+      "protein": 1.8,
+      "carbs": 12.0,
+      "fat": 0.2,
+      "fiber": 2.3,
+      "sugar": 9.7
+    },
+    "ingredients": [
+      {
+        "name": "Zwiebel, gegrillt",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G480072 \"Speisezwiebel gegrillt\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 9.69 g + Ballaststoffe 2.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G480072"
+  },
+  {
+    "id": "zuckermais-gegrillt",
+    "name": "Zuckermais, gegrillt",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Maiskolben gegrillt",
+      "gegrillter Maiskolben",
+      "Mais gegrillt",
+      "Grillmais"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "grilled",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 72,
+      "protein": 3.5,
+      "carbs": 13.1,
+      "fat": 1.3,
+      "fiber": 3,
+      "sugar": 3.6
+    },
+    "ingredients": [
+      {
+        "name": "Zuckermais, gegrillt",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G570172 \"Zuckermais gegrillt\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 10.1 g + Ballaststoffe 3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G570172"
+  },
+  {
     "id": "tomate-gegrillt",
     "name": "Tomate, gegrillt",
     "type": "item",
@@ -247983,24 +248126,1783 @@
     "is_packaged_product": false,
     "state": "grilled",
     "unit": "g",
-    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
     "per100g": {
-      "kcal": 22,
+      "kcal": 26,
       "protein": 1.1,
-      "carbs": 4.8,
-      "fat": 0.2,
-      "fiber": 1.5,
-      "sugar": 3.3
+      "carbs": 5.6,
+      "fat": 0.1,
+      "fiber": 1.6,
+      "sugar": 4.0
     },
     "ingredients": [
       {
-        "name": "Tomate, roh",
-        "grams": 124.1
+        "name": "Tomate, gegrillt",
+        "grams": 100
       }
     ],
-    "quality": "estimate",
-    "source": "Geschätzt aus Tomate, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170457: Tomatoes, red, ripe, raw, year round average). Ausbeute 0,81 per Massenbilanz aus CoFID 2021 (PHE, OGL v3): 13-517 Tomatoes, standard, raw (Wasser 94,6 g, Fett 0,1 g) -> 13-518 Tomatoes, standard, grilled, flesh and seeds only (Wasser 93,3 g, Fett 0,2 g); ohne Fett 6-9 min gegrillt; Retention der Makronährstoffe 1,0 (nur Wasserverlust). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
-    "derived_from": "tomate-roh"
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G561072 \"Tomate gegrillt\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4.01 g + Ballaststoffe 1.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G561072"
+  },
+  {
+    "id": "aubergine-gegrillt",
+    "name": "Aubergine, gegrillt",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Aubergine vom Grill",
+      "Melanzani gegrillt"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "grilled",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 38,
+      "protein": 1.1,
+      "carbs": 8.8,
+      "fat": 0.4,
+      "fiber": 2.8,
+      "sugar": 5.4
+    },
+    "ingredients": [
+      {
+        "name": "Aubergine, gegrillt",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G510172 \"Aubergine gegrillt\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 6.04 g + Ballaststoffe 2.8 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G510172"
+  },
+  {
+    "id": "paprika-rot-gegrillt",
+    "name": "Paprika rot, gegrillt",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "rote Paprika gegrillt",
+      "gegrillte rote Paprika",
+      "gegrillte Paprika",
+      "Paprika gegrillt"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "grilled",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 39,
+      "protein": 1.1,
+      "carbs": 9.0,
+      "fat": 0.2,
+      "fiber": 2.4,
+      "sugar": 6.7
+    },
+    "ingredients": [
+      {
+        "name": "Paprika rot, gegrillt",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G543072 \"Gemüsepaprika rot, gegrillt\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 6.65 g + Ballaststoffe 2.366 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G543072"
+  },
+  {
+    "id": "paprika-gelb-gegrillt",
+    "name": "Paprika gelb, gegrillt",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "gelbe Paprika gegrillt",
+      "gegrillte gelbe Paprika"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "grilled",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 30,
+      "protein": 0.8,
+      "carbs": 7.1,
+      "fat": 0.2,
+      "fiber": 2.4,
+      "sugar": 4.8
+    },
+    "ingredients": [
+      {
+        "name": "Paprika gelb, gegrillt",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G542172 \"Gemüsepaprika gelb, gegrillt\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4.755 g + Ballaststoffe 2.366 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G542172"
+  },
+  {
+    "id": "paprika-gruen-gegrillt",
+    "name": "Paprika grün, gegrillt",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "grüne Paprika gegrillt",
+      "gegrillte grüne Paprika"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "grilled",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 41,
+      "protein": 1.1,
+      "carbs": 9.6,
+      "fat": 0.3,
+      "fiber": 2.2,
+      "sugar": 7
+    },
+    "ingredients": [
+      {
+        "name": "Paprika grün, gegrillt",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G541072 \"Gemüsepaprika grün, gegrillt\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 7.4 g + Ballaststoffe 2.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G541072"
+  },
+  {
+    "id": "zucchini-im-ofen-gebacken-ohne-fett",
+    "name": "Zucchini, im Ofen gebacken (ohne Fett)",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Zucchini im Ofen",
+      "Zucchini gebacken"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 28,
+      "protein": 1.5,
+      "carbs": 5.3,
+      "fat": 0.3,
+      "fiber": 1.3,
+      "sugar": 2.5
+    },
+    "ingredients": [
+      {
+        "name": "Zucchini, im Ofen gebacken (ohne Fett)",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G582162 \"Zucchini gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4 g + Ballaststoffe 1.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G582162"
+  },
+  {
+    "id": "kuerbis-im-ofen-gebacken",
+    "name": "Kürbis, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kürbis im Ofen",
+      "Ofenkürbis",
+      "Kürbis gebacken",
+      "Kürbis geröstet"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 42,
+      "protein": 1.3,
+      "carbs": 10.9,
+      "fat": 0.2,
+      "fiber": 4.0,
+      "sugar": 6.0
+    },
+    "ingredients": [
+      {
+        "name": "Kürbis, im Ofen gebacken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G581162 \"Kürbis Pumpkin (C. pepo) gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 6.84 g + Ballaststoffe 4.035 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G581162"
+  },
+  {
+    "id": "hokkaido-kuerbis-im-ofen-gebacken",
+    "name": "Hokkaido-Kürbis, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Hokkaido im Ofen",
+      "Hokkaido gebacken",
+      "Ofen-Hokkaido",
+      "Hokkaido geröstet"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 35,
+      "protein": 1.6,
+      "carbs": 7.2,
+      "fat": 0.2,
+      "fiber": 0.9,
+      "sugar": 5.4
+    },
+    "ingredients": [
+      {
+        "name": "Hokkaido-Kürbis, im Ofen gebacken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G581062 \"Kürbis Hokkaido (C. maxima) gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 6.233 g + Ballaststoffe 0.918 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G581062"
+  },
+  {
+    "id": "karotte-im-ofen-gebacken",
+    "name": "Karotte, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Karotte im Ofen",
+      "Karotten im Ofen",
+      "Ofenkarotten",
+      "Karotte geröstet",
+      "Karotten geröstet",
+      "Möhre im Ofen"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 47,
+      "protein": 1.0,
+      "carbs": 11.0,
+      "fat": 0.5,
+      "fiber": 3.4,
+      "sugar": 7.5
+    },
+    "ingredients": [
+      {
+        "name": "Karotte, im Ofen gebacken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G620162 \"Karotte/Möhre, gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 7.613 g + Ballaststoffe 3.4 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G620162"
+  },
+  {
+    "id": "blumenkohl-im-ofen-gebacken",
+    "name": "Blumenkohl, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Blumenkohl im Ofen",
+      "Blumenkohl geröstet",
+      "Blumenkohl gebacken"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 50,
+      "protein": 3.4,
+      "carbs": 11.6,
+      "fat": 0.4,
+      "fiber": 4.1,
+      "sugar": 3.0
+    },
+    "ingredients": [
+      {
+        "name": "Blumenkohl, im Ofen gebacken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G311162 \"Blumenkohl gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 7.52 g + Ballaststoffe 4.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G311162"
+  },
+  {
+    "id": "brokkoli-im-ofen-gebacken",
+    "name": "Brokkoli, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Brokkoli im Ofen",
+      "Brokkoli geröstet",
+      "Broccoli gebacken"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 50,
+      "protein": 5.1,
+      "carbs": 7.5,
+      "fat": 0.8,
+      "fiber": 4.2,
+      "sugar": 1.9
+    },
+    "ingredients": [
+      {
+        "name": "Brokkoli, im Ofen gebacken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G312162 \"Broccoli gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 3.3 g + Ballaststoffe 4.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G312162"
+  },
+  {
+    "id": "fenchel-im-ofen-gebacken",
+    "name": "Fenchel, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Fenchel im Ofen",
+      "Fenchel geröstet",
+      "Ofenfenchel",
+      "Fenchel gebacken"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 32,
+      "protein": 1.6,
+      "carbs": 7.9,
+      "fat": 0.2,
+      "fiber": 3.9,
+      "sugar": 3.5
+    },
+    "ingredients": [
+      {
+        "name": "Fenchel, im Ofen gebacken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G430162 \"Gemüsefenchel gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4.04 g + Ballaststoffe 3.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G430162"
+  },
+  {
+    "id": "spargel-im-ofen-gebacken",
+    "name": "Spargel, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Spargel im Ofen",
+      "Spargel gebacken"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 33,
+      "protein": 2.3,
+      "carbs": 6.3,
+      "fat": 0.2,
+      "fiber": 1.6,
+      "sugar": 4.5
+    },
+    "ingredients": [
+      {
+        "name": "Spargel, im Ofen gebacken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G450162 \"Spargel gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4.69 g + Ballaststoffe 1.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G450162"
+  },
+  {
+    "id": "paprika-rot-im-ofen-gebacken",
+    "name": "Paprika rot, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "rote Paprika im Ofen",
+      "Ofenpaprika",
+      "Paprika geröstet"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 42,
+      "protein": 1.2,
+      "carbs": 9.9,
+      "fat": 0.2,
+      "fiber": 2.6,
+      "sugar": 7.3
+    },
+    "ingredients": [
+      {
+        "name": "Paprika rot, im Ofen gebacken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G543162 \"Gemüsepaprika rot, gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 7.29 g + Ballaststoffe 2.588 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G543162"
+  },
+  {
+    "id": "paprika-gelb-im-ofen-gebacken",
+    "name": "Paprika gelb, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "gelbe Paprika im Ofen",
+      "gelbe Paprika geröstet"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 33,
+      "protein": 0.9,
+      "carbs": 7.8,
+      "fat": 0.2,
+      "fiber": 2.6,
+      "sugar": 5.2
+    },
+    "ingredients": [
+      {
+        "name": "Paprika gelb, im Ofen gebacken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G542162 \"Gemüsepaprika gelb, gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 5.203 g + Ballaststoffe 2.588 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G542162"
+  },
+  {
+    "id": "paprika-gruen-im-ofen-gebacken",
+    "name": "Paprika grün, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "grüne Paprika im Ofen",
+      "grüne Paprika geröstet"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 45,
+      "protein": 1.3,
+      "carbs": 10.5,
+      "fat": 0.3,
+      "fiber": 2.4,
+      "sugar": 7.7
+    },
+    "ingredients": [
+      {
+        "name": "Paprika grün, im Ofen gebacken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G541162 \"Gemüsepaprika grün, gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 8.11 g + Ballaststoffe 2.4 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G541162"
+  },
+  {
+    "id": "rosenkohl-im-ofen-gebacken",
+    "name": "Rosenkohl, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Rosenkohl im Ofen",
+      "Rosenkohl geröstet",
+      "Ofenrosenkohl"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 48,
+      "protein": 5.2,
+      "carbs": 7.9,
+      "fat": 0.4,
+      "fiber": 5.2,
+      "sugar": 1.9
+    },
+    "ingredients": [
+      {
+        "name": "Rosenkohl, im Ofen gebacken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G332162 \"Rosenkohl gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 2.66 g + Ballaststoffe 5.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G332162"
+  },
+  {
+    "id": "champignons-im-ofen-gebacken",
+    "name": "Champignons, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Champignons im Ofen",
+      "Ofenchampignons",
+      "Champignons gebacken"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 40,
+      "protein": 5.1,
+      "carbs": 6.7,
+      "fat": 0.4,
+      "fiber": 2.6,
+      "sugar": 0.3
+    },
+    "ingredients": [
+      {
+        "name": "Champignons, im Ofen gebacken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code K701162 \"Champignon gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4.1 g + Ballaststoffe 2.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:K701162"
+  },
+  {
+    "id": "zwiebel-im-ofen-gebacken",
+    "name": "Zwiebel, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Ofenzwiebel",
+      "Zwiebel aus dem Ofen",
+      "gebackene Zwiebel",
+      "Zwiebel geröstet"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 39,
+      "protein": 1.4,
+      "carbs": 8.7,
+      "fat": 0.2,
+      "fiber": 1.6,
+      "sugar": 7.1
+    },
+    "ingredients": [
+      {
+        "name": "Zwiebel, im Ofen gebacken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G480162 \"Speisezwiebel gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 7.08 g + Ballaststoffe 1.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G480162"
+  },
+  {
+    "id": "tomate-im-ofen-gebacken",
+    "name": "Tomate, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Ofentomate",
+      "Ofentomaten",
+      "Tomate geröstet",
+      "Tomaten aus dem Ofen"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 25,
+      "protein": 1.1,
+      "carbs": 5.3,
+      "fat": 0.1,
+      "fiber": 1.5,
+      "sugar": 3.8
+    },
+    "ingredients": [
+      {
+        "name": "Tomate, im Ofen gebacken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G561162 \"Tomate gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 3.82 g + Ballaststoffe 1.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G561162"
+  },
+  {
+    "id": "aubergine-im-ofen-gebacken-ohne-fett",
+    "name": "Aubergine, im Ofen gebacken (ohne Fett)",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Aubergine im Ofen",
+      "Aubergine gebacken"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 22,
+      "protein": 0.7,
+      "carbs": 5.2,
+      "fat": 0.2,
+      "fiber": 1.6,
+      "sugar": 3.2
+    },
+    "ingredients": [
+      {
+        "name": "Aubergine, im Ofen gebacken (ohne Fett)",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G510162 \"Aubergine gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 3.56 g + Ballaststoffe 1.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G510162"
+  },
+  {
+    "id": "pastinake-im-ofen-gebacken-ohne-fett",
+    "name": "Pastinake, im Ofen gebacken (ohne Fett)",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Pastinake im Ofen",
+      "Pastinake gebacken"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 70,
+      "protein": 3.2,
+      "carbs": 13.9,
+      "fat": 0.5,
+      "fiber": 2.5,
+      "sugar": 3.6
+    },
+    "ingredients": [
+      {
+        "name": "Pastinake, im Ofen gebacken (ohne Fett)",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G640162 \"Pastinake gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 11.4 g + Ballaststoffe 2.506 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G640162"
+  },
+  {
+    "id": "knollensellerie-im-ofen-gebacken",
+    "name": "Knollensellerie, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Sellerie im Ofen",
+      "Knollensellerie geröstet",
+      "Ofensellerie"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 35,
+      "protein": 1.8,
+      "carbs": 8.2,
+      "fat": 0.4,
+      "fiber": 4.9,
+      "sugar": 2.5
+    },
+    "ingredients": [
+      {
+        "name": "Knollensellerie, im Ofen gebacken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G660162 \"Knollensellerie gebacken\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 3.26 g + Ballaststoffe 4.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G660162"
+  },
+  {
+    "id": "zucchini-gebraten-ohne-fett",
+    "name": "Zucchini, gebraten ohne Fett",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Zucchini ohne Öl gebraten",
+      "Zucchini in der Pfanne ohne Fett"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 41,
+      "protein": 2.2,
+      "carbs": 7.9,
+      "fat": 0.5,
+      "fiber": 1.9,
+      "sugar": 3.5
+    },
+    "ingredients": [
+      {
+        "name": "Zucchini, gebraten ohne Fett",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G582182 \"Zucchini gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 6 g + Ballaststoffe 1.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G582182"
+  },
+  {
+    "id": "champignons-gebraten-ohne-fett",
+    "name": "Champignons, gebraten ohne Fett",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Champignons ohne Öl gebraten",
+      "Pilze ohne Fett gebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 47,
+      "protein": 6,
+      "carbs": 7.9,
+      "fat": 0.4,
+      "fiber": 3.1,
+      "sugar": 0.3
+    },
+    "ingredients": [
+      {
+        "name": "Champignons, gebraten ohne Fett",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code K701182 \"Champignon gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4.8 g + Ballaststoffe 3.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:K701182"
+  },
+  {
+    "id": "zwiebel-gebraten-ohne-fett",
+    "name": "Zwiebel, gebraten ohne Fett",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Zwiebel ohne Öl gebraten",
+      "Zwiebeln ohne Fett angebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 53,
+      "protein": 1.8,
+      "carbs": 11.7,
+      "fat": 0.2,
+      "fiber": 2.2,
+      "sugar": 9.5
+    },
+    "ingredients": [
+      {
+        "name": "Zwiebel, gebraten ohne Fett",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G480182 \"Speisezwiebel gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 9.54 g + Ballaststoffe 2.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G480182"
+  },
+  {
+    "id": "paprika-rot-gebraten-ohne-fett",
+    "name": "Paprika rot, gebraten ohne Fett",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "rote Paprika ohne Öl gebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 61,
+      "protein": 1.7,
+      "carbs": 14.2,
+      "fat": 0.3,
+      "fiber": 3.7,
+      "sugar": 10.5
+    },
+    "ingredients": [
+      {
+        "name": "Paprika rot, gebraten ohne Fett",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G543082 \"Gemüsepaprika rot, gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 10.49 g + Ballaststoffe 3.729 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G543082"
+  },
+  {
+    "id": "paprika-gelb-gebraten-ohne-fett",
+    "name": "Paprika gelb, gebraten ohne Fett",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Paprika gelb gebraten",
+      "gelbe Paprika gebraten",
+      "gebratene gelbe Paprika"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 48,
+      "protein": 1.4,
+      "carbs": 11.2,
+      "fat": 0.3,
+      "fiber": 3.7,
+      "sugar": 7.5
+    },
+    "ingredients": [
+      {
+        "name": "Paprika gelb, gebraten ohne Fett",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G542182 \"Gemüsepaprika gelb, gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 7.495 g + Ballaststoffe 3.729 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G542182"
+  },
+  {
+    "id": "paprika-gruen-gebraten-ohne-fett",
+    "name": "Paprika grün, gebraten ohne Fett",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "grüne Paprika ohne Öl gebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 65,
+      "protein": 1.8,
+      "carbs": 15.1,
+      "fat": 0.4,
+      "fiber": 3.4,
+      "sugar": 11.0
+    },
+    "ingredients": [
+      {
+        "name": "Paprika grün, gebraten ohne Fett",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G541082 \"Gemüsepaprika grün, gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 11.67 g + Ballaststoffe 3.4 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G541082"
+  },
+  {
+    "id": "karotte-gebraten-ohne-fett",
+    "name": "Karotte, gebraten ohne Fett",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Karotte gebraten",
+      "Karotten gebraten",
+      "Möhren gebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 74,
+      "protein": 1.6,
+      "carbs": 17.4,
+      "fat": 0.7,
+      "fiber": 5.4,
+      "sugar": 11.8
+    },
+    "ingredients": [
+      {
+        "name": "Karotte, gebraten ohne Fett",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G620182 \"Karotte/Möhre, gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 11.983 g + Ballaststoffe 5.4 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G620182"
+  },
+  {
+    "id": "brokkoli-gebraten-ohne-fett",
+    "name": "Brokkoli, gebraten ohne Fett",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Brokkoli gebraten",
+      "Broccoli gebraten",
+      "Brokkoli angebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 71,
+      "protein": 7.2,
+      "carbs": 10.6,
+      "fat": 1.2,
+      "fiber": 6,
+      "sugar": 2.8
+    },
+    "ingredients": [
+      {
+        "name": "Brokkoli, gebraten ohne Fett",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G312182 \"Broccoli gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4.6 g + Ballaststoffe 6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G312182"
+  },
+  {
+    "id": "blumenkohl-gebraten-ohne-fett",
+    "name": "Blumenkohl, gebraten ohne Fett",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Blumenkohl gebraten",
+      "Blumenkohl angebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 71,
+      "protein": 4.8,
+      "carbs": 16.4,
+      "fat": 0.6,
+      "fiber": 5.8,
+      "sugar": 4.3
+    },
+    "ingredients": [
+      {
+        "name": "Blumenkohl, gebraten ohne Fett",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G311182 \"Blumenkohl gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 10.65 g + Ballaststoffe 5.8 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G311182"
+  },
+  {
+    "id": "fenchel-gebraten-ohne-fett",
+    "name": "Fenchel, gebraten ohne Fett",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Fenchel gebraten",
+      "Fenchel angebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 51,
+      "protein": 2.6,
+      "carbs": 12.7,
+      "fat": 0.4,
+      "fiber": 6.2,
+      "sugar": 5.6
+    },
+    "ingredients": [
+      {
+        "name": "Fenchel, gebraten ohne Fett",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G430182 \"Gemüsefenchel gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 6.46 g + Ballaststoffe 6.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G430182"
+  },
+  {
+    "id": "spargel-gebraten-ohne-fett",
+    "name": "Spargel, gebraten ohne Fett",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Spargel gebraten",
+      "Spargel angebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 53,
+      "protein": 3.7,
+      "carbs": 10.1,
+      "fat": 0.3,
+      "fiber": 2.6,
+      "sugar": 7.2
+    },
+    "ingredients": [
+      {
+        "name": "Spargel, gebraten ohne Fett",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G451082 \"Spargel gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 7.51 g + Ballaststoffe 2.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G451082"
+  },
+  {
+    "id": "hokkaido-kuerbis-gebraten-ohne-fett",
+    "name": "Hokkaido-Kürbis, gebraten ohne Fett",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Hokkaido gebraten",
+      "Kürbis gebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 56,
+      "protein": 2.6,
+      "carbs": 11.3,
+      "fat": 0.4,
+      "fiber": 1.4,
+      "sugar": 8.5
+    },
+    "ingredients": [
+      {
+        "name": "Hokkaido-Kürbis, gebraten ohne Fett",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G581082 \"Kürbis Hokkaido (C. maxima) gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 9.811 g + Ballaststoffe 1.444 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G581082"
+  },
+  {
+    "id": "aubergine-gebraten-ohne-fett",
+    "name": "Aubergine, gebraten ohne Fett",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Aubergine ohne Öl gebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 32,
+      "protein": 1.0,
+      "carbs": 7.5,
+      "fat": 0.3,
+      "fiber": 2.4,
+      "sugar": 4.6
+    },
+    "ingredients": [
+      {
+        "name": "Aubergine, gebraten ohne Fett",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G510182 \"Aubergine gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 5.12 g + Ballaststoffe 2.4 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G510182"
+  },
+  {
+    "id": "rosenkohl-gebraten-ohne-fett",
+    "name": "Rosenkohl, gebraten ohne Fett",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Rosenkohl gebraten",
+      "Rosenkohl angebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 81,
+      "protein": 8.9,
+      "carbs": 13.3,
+      "fat": 0.7,
+      "fiber": 8.8,
+      "sugar": 3.2
+    },
+    "ingredients": [
+      {
+        "name": "Rosenkohl, gebraten ohne Fett",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G332182 \"Rosenkohl gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4.52 g + Ballaststoffe 8.8 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G332182"
+  },
+  {
+    "id": "zuckermais-gebraten-ohne-fett",
+    "name": "Zuckermais, gebraten ohne Fett",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Mais gebraten",
+      "Maiskörner gebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 77,
+      "protein": 3.8,
+      "carbs": 14.0,
+      "fat": 1.4,
+      "fiber": 3.2,
+      "sugar": 3.9
+    },
+    "ingredients": [
+      {
+        "name": "Zuckermais, gebraten ohne Fett",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G570182 \"Zuckermais gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 10.8 g + Ballaststoffe 3.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G570182"
+  },
+  {
+    "id": "rote-bete-gedaempft",
+    "name": "Rote Bete, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Rote Bete gedämpft",
+      "Rande gedämpft",
+      "Rote Rübe gedämpft"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 56,
+      "protein": 2,
+      "carbs": 12.7,
+      "fat": 0.4,
+      "fiber": 2.7,
+      "sugar": 10
+    },
+    "ingredients": [
+      {
+        "name": "Rote Bete, gedämpft",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Schweizer Nährwertdatenbank V7.1, Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV), naehrwertdaten.ch (frei verwendbar mit Quellenangabe); Code 1019 \"Rande, gedämpft (ohne Zugabe von Salz)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Automatisierte Berechnung, Berechnung anhand von Zutaten). Kohlenhydrate = verfügbare KH 10 g + Ballaststoffe 2.7 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "CH 7.1:1019"
+  },
+  {
+    "id": "rote-bete-geduenstet",
+    "name": "Rote Bete, gedünstet",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Rote Bete gedünstet",
+      "Rote Rübe gedünstet"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 43,
+      "protein": 2.0,
+      "carbs": 9.6,
+      "fat": 0.1,
+      "fiber": 2.5,
+      "sugar": 7.1
+    },
+    "ingredients": [
+      {
+        "name": "Rote Bete, gedünstet",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G613152 \"Rote Rübe/Rote Bete, gedünstet\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 7.08 g + Ballaststoffe 2.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G613152"
+  },
+  {
+    "id": "zuckerschoten-gedaempft",
+    "name": "Zuckerschoten, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Zuckerschoten gedämpft",
+      "Kefen gedämpft",
+      "Zuckerschote gedämpft"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 52,
+      "protein": 4.1,
+      "carbs": 9.4,
+      "fat": 0.3,
+      "fiber": 2.5,
+      "sugar": 2.9
+    },
+    "ingredients": [
+      {
+        "name": "Zuckerschoten, gedämpft",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Schweizer Nährwertdatenbank V7.1, Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV), naehrwertdaten.ch (frei verwendbar mit Quellenangabe); Code 1012 \"Kefe, gedämpft (ohne Zugabe von Salz)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Automatisierte Berechnung, Berechnung anhand von Zutaten). Kohlenhydrate = verfügbare KH 6.9 g + Ballaststoffe 2.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "CH 7.1:1012"
+  },
+  {
+    "id": "zuckerschoten-geduenstet",
+    "name": "Zuckerschoten, gedünstet",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Zuckerschoten gedünstet",
+      "Zuckererbsen gedünstet"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 40,
+      "protein": 3.9,
+      "carbs": 6.7,
+      "fat": 0.2,
+      "fiber": 2,
+      "sugar": 3.4
+    },
+    "ingredients": [
+      {
+        "name": "Zuckerschoten, gedünstet",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G761152 \"Zuckererbse gedünstet\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4.7 g + Ballaststoffe 2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G761152"
+  },
+  {
+    "id": "kuerbis-gedaempft",
+    "name": "Kürbis, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kürbis gedämpft"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 29,
+      "protein": 1.1,
+      "carbs": 6.9,
+      "fat": 0.1,
+      "fiber": 2.2,
+      "sugar": 4
+    },
+    "ingredients": [
+      {
+        "name": "Kürbis, gedämpft",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Schweizer Nährwertdatenbank V7.1, Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV), naehrwertdaten.ch (frei verwendbar mit Quellenangabe); Code 1020 \"Kürbis, gedämpft (ohne Zugabe von Salz)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Automatisierte Berechnung, Berechnung anhand von Zutaten). Kohlenhydrate = verfügbare KH 4.7 g + Ballaststoffe 2.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "CH 7.1:1020"
+  },
+  {
+    "id": "fenchel-gedaempft",
+    "name": "Fenchel, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Fenchel gedämpft"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 22,
+      "protein": 1,
+      "carbs": 4.9,
+      "fat": 0.4,
+      "fiber": 2.4,
+      "sugar": 2.1
+    },
+    "ingredients": [
+      {
+        "name": "Fenchel, gedämpft",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Schweizer Nährwertdatenbank V7.1, Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV), naehrwertdaten.ch (frei verwendbar mit Quellenangabe); Code 1008 \"Fenchel, gedämpft (ohne Zugabe von Salz)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Automatisierte Berechnung, Berechnung anhand von Zutaten). Kohlenhydrate = verfügbare KH 2.5 g + Ballaststoffe 2.4 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "CH 7.1:1008"
+  },
+  {
+    "id": "fenchel-geduenstet",
+    "name": "Fenchel, gedünstet",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Fenchel gedünstet"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 26,
+      "protein": 1.4,
+      "carbs": 6.6,
+      "fat": 0.2,
+      "fiber": 3.2,
+      "sugar": 2.9
+    },
+    "ingredients": [
+      {
+        "name": "Fenchel, gedünstet",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G430152 \"Gemüsefenchel gedünstet\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 3.37 g + Ballaststoffe 3.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G430152"
+  },
+  {
+    "id": "zucchini-gedaempft",
+    "name": "Zucchini, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Zucchini gedämpft",
+      "Zucchetti gedämpft"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 18,
+      "protein": 1.3,
+      "carbs": 3.0,
+      "fat": 0.3,
+      "fiber": 1.1,
+      "sugar": 1.9
+    },
+    "ingredients": [
+      {
+        "name": "Zucchini, gedämpft",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Schweizer Nährwertdatenbank V7.1, Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV), naehrwertdaten.ch (frei verwendbar mit Quellenangabe); Code 1654 \"Zucchetti, gedämpft (ohne Zugabe von Salz)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Automatisierte Berechnung, Berechnung anhand von Zutaten). Kohlenhydrate = verfügbare KH 1.9 g + Ballaststoffe 1.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "CH 7.1:1654"
+  },
+  {
+    "id": "champignons-geduenstet",
+    "name": "Champignons, gedünstet",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Champignons gedünstet",
+      "Pilze gedünstet"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 41,
+      "protein": 5.2,
+      "carbs": 6.9,
+      "fat": 0.4,
+      "fiber": 2.7,
+      "sugar": 0.3
+    },
+    "ingredients": [
+      {
+        "name": "Champignons, gedünstet",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code K701152 \"Champignon gedünstet\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4.2 g + Ballaststoffe 2.7 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:K701152"
+  },
+  {
+    "id": "hokkaido-kuerbis-geduenstet",
+    "name": "Hokkaido-Kürbis, gedünstet",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Hokkaido gedünstet"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 33,
+      "protein": 1.5,
+      "carbs": 6.6,
+      "fat": 0.2,
+      "fiber": 0.8,
+      "sugar": 5.0
+    },
+    "ingredients": [
+      {
+        "name": "Hokkaido-Kürbis, gedünstet",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G581052 \"Kürbis Hokkaido (C. maxima) gedünstet\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 5.759 g + Ballaststoffe 0.848 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:G581052"
+  },
+  {
+    "id": "spargel-weiss-roh",
+    "name": "Spargel weiß, roh",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "weißer Spargel",
+      "Spargel weiss",
+      "Bleichspargel",
+      "Stangenspargel weiß"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 21,
+      "protein": 2.2,
+      "carbs": 3.7,
+      "fat": 0.1,
+      "fiber": 2.1,
+      "sugar": 1.6
+    },
+    "ingredients": [
+      {
+        "name": "Spargel weiß, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 20282 \"Asparagus, white or purple, peeled, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.62 g + Ballaststoffe 2.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "Ciqual 2025:20282"
+  },
+  {
+    "id": "spargel-weiss-gekocht",
+    "name": "Spargel weiß, gekocht",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "weißer Spargel gekocht",
+      "Spargel weiß gekocht",
+      "Bleichspargel gekocht"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 17,
+      "protein": 1.4,
+      "carbs": 2.9,
+      "fat": 0.3,
+      "fiber": 1.3,
+      "sugar": 1.2
+    },
+    "ingredients": [
+      {
+        "name": "Spargel weiß, gekocht",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 20277 \"Asparagus, white, boiled/cooked in water\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.63 g + Ballaststoffe 1.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "Ciqual 2025:20277"
+  },
+  {
+    "id": "rote-bete-in-oel-gebraten",
+    "name": "Rote Bete, in Öl gebraten",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Rote Bete gebraten",
+      "Rote Bete angebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 96,
+      "protein": 1.5,
+      "carbs": 15.9,
+      "fat": 3.5,
+      "fiber": 3.3,
+      "sugar": 12.1
+    },
+    "ingredients": [
+      {
+        "name": "Rote Bete, in Öl gebraten",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Livsmedelsverket, Livsmedelsdatabasen (Version 2026-06-29), dataportal.livsmedelsverket.se, Lizenz CC BY 4.0; Code 2614 \"Rödbeta stekt el. wokad\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Beräknad (Recept)). Kohlenhydrate = verfügbare KH 12.6 g + Ballaststoffe 3.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "Livsmedelsverket:2614"
+  },
+  {
+    "id": "suesskartoffel-wedges-im-ofen-mit-oel",
+    "name": "Süßkartoffel-Wedges (im Ofen mit Öl)",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Süßkartoffel Wedges",
+      "Süßkartoffelwedges",
+      "Süßkartoffelspalten",
+      "Ofensüßkartoffel"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 118,
+      "protein": 2.0,
+      "carbs": 21.7,
+      "fat": 3.8,
+      "fiber": 5.5,
+      "sugar": 7.7
+    },
+    "ingredients": [
+      {
+        "name": "Süßkartoffel-Wedges (im Ofen mit Öl)",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Livsmedelsverket, Livsmedelsdatabasen (Version 2026-06-29), dataportal.livsmedelsverket.se, Lizenz CC BY 4.0; Code 3771 \"Sötpotatis ugnsstekt m. olja salt\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Beräknad (Recept)). Kohlenhydrate = verfügbare KH 16.2 g + Ballaststoffe 5.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "Livsmedelsverket:3771"
   },
   {
     "id": "spargel-gruen-gegrillt",
@@ -248036,146 +249938,6 @@
     "quality": "estimate",
     "source": "Geschätzt aus Spargel grün, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 168389: Asparagus, raw). Ausbeute 0,95 per Massenbilanz aus CoFID 2021 (PHE, OGL v3): 13-157 Asparagus, raw (Wasser 91,4 g, Fett 0,6 g) -> 13-639 Asparagus, grilled (Wasser 90,9 g, Fett 0,4 g); ohne Fett gegrillt; Retention der Makronährstoffe 1,0 (nur Wasserverlust). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
     "derived_from": "spargel-gruen-roh"
-  },
-  {
-    "id": "aubergine-gegrillt",
-    "name": "Aubergine, gegrillt",
-    "type": "item",
-    "barcode": null,
-    "synonyms": [
-      "Aubergine vom Grill",
-      "Melanzani gegrillt"
-    ],
-    "cuisine": "int",
-    "category": "Grundzutat: Gemüse",
-    "prepared": "base_ingredient",
-    "is_packaged_product": false,
-    "state": "grilled",
-    "unit": "g",
-    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
-    "per100g": {
-      "kcal": 62,
-      "protein": 2.4,
-      "carbs": 14.7,
-      "fat": 0.4,
-      "fiber": 7.5,
-      "sugar": 8.8
-    },
-    "ingredients": [
-      {
-        "name": "Aubergine, roh",
-        "grams": 250.0
-      }
-    ],
-    "quality": "estimate",
-    "source": "Geschätzt aus Aubergine, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 169228: Eggplant, raw). Ausbeute 0,40 aus Bergström 1994 (NLG-Projekt), veröffentlicht in Phenol-Explorer, http://phenol-explorer.eu/publications/1269 (\"Aubergine grilled\"); Retention der Makronährstoffe 1,0 (nur Wasserverlust). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
-    "derived_from": "aubergine-roh"
-  },
-  {
-    "id": "paprika-rot-gegrillt",
-    "name": "Paprika rot, gegrillt",
-    "type": "item",
-    "barcode": null,
-    "synonyms": [
-      "rote Paprika gegrillt",
-      "gegrillte rote Paprika",
-      "gegrillte Paprika",
-      "Paprika gegrillt"
-    ],
-    "cuisine": "int",
-    "category": "Grundzutat: Gemüse",
-    "prepared": "base_ingredient",
-    "is_packaged_product": false,
-    "state": "grilled",
-    "unit": "g",
-    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
-    "per100g": {
-      "kcal": 28,
-      "protein": 1.1,
-      "carbs": 6.5,
-      "fat": 0.3,
-      "fiber": 2.3,
-      "sugar": 4.5
-    },
-    "ingredients": [
-      {
-        "name": "Paprika rot, roh",
-        "grams": 107.5
-      }
-    ],
-    "quality": "estimate",
-    "source": "Geschätzt aus Paprika rot, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170108: Peppers, sweet, red, raw). Ausbeute 0,93 aus Bergström 1994 (NLG-Projekt), veröffentlicht in Phenol-Explorer, http://phenol-explorer.eu/publications/1269 (\"Pepper capsicum grilled\"); Retention der Makronährstoffe 1,0 (nur Wasserverlust). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
-    "derived_from": "paprika-rot-roh"
-  },
-  {
-    "id": "paprika-gelb-gegrillt",
-    "name": "Paprika gelb, gegrillt",
-    "type": "item",
-    "barcode": null,
-    "synonyms": [
-      "gelbe Paprika gegrillt",
-      "gegrillte gelbe Paprika"
-    ],
-    "cuisine": "int",
-    "category": "Grundzutat: Gemüse",
-    "prepared": "base_ingredient",
-    "is_packaged_product": false,
-    "state": "grilled",
-    "unit": "g",
-    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
-    "per100g": {
-      "kcal": 29,
-      "protein": 1.1,
-      "carbs": 6.8,
-      "fat": 0.2,
-      "fiber": 1.0
-    },
-    "ingredients": [
-      {
-        "name": "Paprika gelb, roh",
-        "grams": 107.5
-      }
-    ],
-    "quality": "estimate",
-    "source": "Geschätzt aus Paprika gelb, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 169383: Peppers, sweet, yellow, raw). Ausbeute 0,93 aus Bergström 1994 (NLG-Projekt), veröffentlicht in Phenol-Explorer, http://phenol-explorer.eu/publications/1269 (\"Pepper capsicum grilled\"); Retention der Makronährstoffe 1,0 (nur Wasserverlust). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
-    "derived_from": "paprika-gelb-roh",
-    "source_missing": [
-      "sugar"
-    ]
-  },
-  {
-    "id": "paprika-gruen-gegrillt",
-    "name": "Paprika grün, gegrillt",
-    "type": "item",
-    "barcode": null,
-    "synonyms": [
-      "grüne Paprika gegrillt",
-      "gegrillte grüne Paprika"
-    ],
-    "cuisine": "int",
-    "category": "Grundzutat: Gemüse",
-    "prepared": "base_ingredient",
-    "is_packaged_product": false,
-    "state": "grilled",
-    "unit": "g",
-    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
-    "per100g": {
-      "kcal": 22,
-      "protein": 0.9,
-      "carbs": 5.0,
-      "fat": 0.2,
-      "fiber": 1.8,
-      "sugar": 2.6
-    },
-    "ingredients": [
-      {
-        "name": "Paprika grün, roh",
-        "grams": 107.5
-      }
-    ],
-    "quality": "estimate",
-    "source": "Geschätzt aus Paprika grün, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170427: Peppers, sweet, green, raw). Ausbeute 0,93 aus Bergström 1994 (NLG-Projekt), veröffentlicht in Phenol-Explorer, http://phenol-explorer.eu/publications/1269 (\"Pepper capsicum grilled\"); Retention der Makronährstoffe 1,0 (nur Wasserverlust). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
-    "derived_from": "paprika-gruen-roh"
   },
   {
     "id": "zucchini-im-ofen-geroestet-mit-oel",
@@ -248373,41 +250135,6 @@
     "quality": "estimate",
     "source": "Geschätzt aus Pastinake, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170417: Parsnips, raw). Ausbeute 0,53 und Fettaufnahme 1,3 g Öl/100 g roh per Massenbilanz aus CoFID 2021 (PHE, OGL v3): 13-312 Parsnip, raw (Wasser 79,3 g, Fett 1,1 g) -> 13-632 Parsnip, roasted in rapeseed oil (Wasser 58,6 g, Fett 4,5 g); im Ofen mit wenig Rapsöl geröstet; Retention der Makronährstoffe 1,0; Öl mit USDA-Werten von Rapsöl. Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
     "derived_from": "pastinake-roh"
-  },
-  {
-    "id": "zwiebel-im-ofen-gebacken",
-    "name": "Zwiebel, im Ofen gebacken",
-    "type": "item",
-    "barcode": null,
-    "synonyms": [
-      "Ofenzwiebel",
-      "Zwiebel aus dem Ofen",
-      "gebackene Zwiebel"
-    ],
-    "cuisine": "int",
-    "category": "Grundzutat: Gemüse",
-    "prepared": "base_ingredient",
-    "is_packaged_product": false,
-    "state": "baked",
-    "unit": "g",
-    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
-    "per100g": {
-      "kcal": 50,
-      "protein": 1.4,
-      "carbs": 11.7,
-      "fat": 0.1,
-      "fiber": 2.1,
-      "sugar": 5.3
-    },
-    "ingredients": [
-      {
-        "name": "Zwiebel, roh",
-        "grams": 125.0
-      }
-    ],
-    "quality": "estimate",
-    "source": "Geschätzt aus Zwiebel, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170000: Onions, raw). Ausbeute 0,80 aus CoFID 2021 (PHE, OGL v3), 13-589 Onions, baked: \"using weight loss of 20%, baked for 90 minutes at 180C\" (ohne Fett); Retention der Makronährstoffe 1,0 (nur Wasserverlust). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
-    "derived_from": "zwiebel-roh"
   },
   {
     "id": "zucchini-in-oel-gebraten",

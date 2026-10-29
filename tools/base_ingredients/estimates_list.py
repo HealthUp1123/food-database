@@ -63,20 +63,11 @@ COU = ('13-627', 'Courgette, raw', 95.0, 0.2)
 
 E = [
 # ---------------- gegrillt (ohne Fett) ----------------
-("Tomate, gegrillt",G,"grilled",["gegrillte Tomate","gegrillte Tomaten","Tomaten gegrillt","Grilltomate"],"Tomate, roh",
- cofid(TOM, ('13-518', 'Tomatoes, standard, grilled, flesh and seeds only', 93.3, 0.2),
-       'ohne Fett 6-9 min gegrillt; Retention der Makronährstoffe 1,0 (nur Wasserverlust)', fat_added=False)),
+# Tomate, Aubergine, Paprika rot/gelb/grün gegrillt: ersetzt durch direkte BLS-4.0-Datensätze (external_list.py)
 ("Spargel grün, gegrillt",G,"grilled",["gegrillter Spargel","Spargel gegrillt","grüner Spargel gegrillt"],"Spargel grün, roh",
  cofid(ASP, ('13-639', 'Asparagus, grilled', 90.9, 0.4), 'ohne Fett gegrillt; Retention der Makronährstoffe 1,0 (nur Wasserverlust)', fat_added=False)),
-("Aubergine, gegrillt",G,"grilled",["gegrillte Aubergine","Aubergine vom Grill","Melanzani gegrillt"],"Aubergine, roh",
- fixed(0.40, f'{NLG} ("Aubergine grilled")')),
-("Paprika rot, gegrillt",G,"grilled",["rote Paprika gegrillt","gegrillte rote Paprika","gegrillte Paprika","Paprika gegrillt"],"Paprika rot, roh",
- fixed(0.93, f'{NLG} ("Pepper capsicum grilled")')),
-("Paprika gelb, gegrillt",G,"grilled",["gelbe Paprika gegrillt","gegrillte gelbe Paprika"],"Paprika gelb, roh",
- fixed(0.93, f'{NLG} ("Pepper capsicum grilled")')),
-("Paprika grün, gegrillt",G,"grilled",["grüne Paprika gegrillt","gegrillte grüne Paprika"],"Paprika grün, roh",
- fixed(0.93, f'{NLG} ("Pepper capsicum grilled")')),
 # ---------------- im Ofen ----------------
+# Zwiebel, im Ofen gebacken: ersetzt durch BLS 4.0 G480162 (external_list.py)
 ("Zucchini, im Ofen geröstet (mit Öl)",G,"baked",["Ofenzucchini","Zucchini aus dem Ofen","Zucchini geröstet","geröstete Zucchini"],"Zucchini, roh",
  cofid(COU, ('13-629', 'Courgette, roasted in rapeseed oil', 90.7, 1.9), ROAST)),
 ("Aubergine, im Ofen geröstet (mit Öl)",G,"baked",["Ofenaubergine","Aubergine aus dem Ofen","Aubergine geröstet","geröstete Aubergine"],"Aubergine, roh",
@@ -87,8 +78,6 @@ E = [
  cofid(('13-624', 'Leeks, raw', 90.7, 0.2), ('13-626', 'Leeks, roasted in rapeseed oil', 87.9, 1.9), ROAST)),
 ("Pastinake, im Ofen geröstet (mit Öl)",G,"baked",["Ofenpastinaken","Pastinaken aus dem Ofen","Pastinake geröstet","geröstete Pastinaken"],"Pastinake, roh",
  cofid(('13-312', 'Parsnip, raw', 79.3, 1.1), ('13-632', 'Parsnip, roasted in rapeseed oil', 58.6, 4.5), ROAST)),
-("Zwiebel, im Ofen gebacken",G,"baked",["Ofenzwiebel","Zwiebel aus dem Ofen","gebackene Zwiebel"],"Zwiebel, roh",
- fixed(0.80, 'CoFID 2021 (PHE, OGL v3), 13-589 Onions, baked: "using weight loss of 20%, baked for 90 minutes at 180C" (ohne Fett)')),
 # ---------------- in Öl gebraten ----------------
 ("Zucchini, in Öl gebraten",G,"fried",["Zucchini gebraten","gebratene Zucchini","Zucchini angebraten"],"Zucchini, roh",
  cofid(COU, ('13-587', 'Courgette, fried in rapeseed oil', 86.8, 4.8), FRY)),
