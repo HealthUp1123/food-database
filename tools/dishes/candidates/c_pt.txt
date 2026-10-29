@@ -1,0 +1,83 @@
+pt | Bacalhau à Brás | Bacalhau a Bras | HFi
+pt | Bacalhau com natas | Cod with cream | AU
+pt | Bacalhau à Gomes de Sá | Bacalhau Gomes de Sá | HFi
+pt | Bacalhau à Lagareiro | Bacalhau lagareiro | HFi
+pt | Bacalhau cozido com grão | Boiled salt cod with chickpeas | HFi
+pt | Pastéis de bacalhau | Bolinhos de bacalhau, Cod fritters Portuguese | SN
+pt | Arroz de polvo | Octopus rice Portuguese | RP
+pt | Arroz de marisco | Portuguese seafood rice | RP
+pt | Arroz de pato | Duck rice | RP
+pt | Arroz de tomate | Tomato rice Portuguese | RP
+pt | Arroz de cabidela | Cabidela rice | RP
+pt | Feijoada à transmontana | Feijoada portuguesa | E
+pt | Cozido à portuguesa | Portuguese boiled dinner | E
+pt | Caldo verde | Portuguese kale soup | S
+pt | Sopa de pedra | Stone soup | S
+pt | Sopa de feijão verde | Green bean soup Portuguese | S
+pt | Açorda alentejana | Açorda | S
+pt | Açorda de marisco | Seafood açorda | S
+pt | Canja de galinha | Portuguese chicken soup | S
+pt | Sopa da pedra | Alentejo stone soup | S
+pt | Caldeirada de peixe | Portuguese fish stew | E
+pt | Sardinhas assadas | Grilled sardines Portuguese | HFi
+pt | Polvo à lagareiro | Octopus lagareiro | HFi
+pt | Cataplana de marisco | Cataplana | E
+pt | Amêijoas à Bulhão Pato | Clams Bulhão Pato | HFi
+pt | Lulas grelhadas | Grilled squid Portuguese | HFi
+pt | Peixe espada com banana | Scabbardfish with banana | HFi
+pt | Salada de bacalhau com grão | Cod chickpea salad | SA
+pt | Salada de polvo | Portuguese octopus salad | SA
+pt | Francesinha | Francesinha do Porto | SN
+pt | Bifana | Bifana no pão | SN
+pt | Prego no pão | Prego steak sandwich | SN
+pt | Tripas à moda do Porto | Porto tripe | E
+pt | Leitão assado da Bairrada | Leitão à Bairrada | HF
+pt | Cabrito assado | Roast kid Portuguese | HF
+pt | Carne de porco à alentejana | Alentejo pork with clams | HF
+pt | Frango piri-piri | Piri-piri chicken | HG
+pt | Frango de churrasco | Portuguese grilled chicken | HG
+pt | Cozido das Furnas | Furnas stew | E
+pt | Alheira de Mirandela | Alheira | WU
+pt | Chouriço assado | Chouriço assado | V
+pt | Farinheira | Farinheira assada | WU
+pt | Salada russa portuguesa | Portuguese Russian salad | SA
+pt | Ovos verdes | Ovos verdes Portuguese | V
+pt | Pastel de nata | Pastéis de nata | G
+pt | Pastel de Tentúgal | Tentúgal pastry | G
+pt | Arroz doce | Portuguese rice pudding | PU
+pt | Leite creme | Leite creme queimado | PU
+pt | Pudim Abade de Priscos | Abade de Priscos pudding | PU
+pt | Pudim flan português | Pudim flan | PU
+pt | Bolo rei | King cake Portuguese | K
+pt | Pão de ló | Pão de ló de Ovar | K
+pt | Queijadas de Sintra | Queijada | G
+pt | Travesseiros de Sintra | Travesseiro | G
+pt | Ovos moles de Aveiro | Ovos moles | SW
+pt | Bola de Berlim | Bola de Berlim portuguesa | G
+pt | Fios de ovos | Fios de ovos doce | SW
+pt | Sonhos | Sonhos portugueses | G
+pt | Filhós | Filhoses | G
+pt | Broa de milho | Portuguese corn bread | BR
+pt | Pão alentejano | Alentejo bread | BR
+pt | Bolo do caco | Madeiran bolo do caco | BR
+pt | Espetada madeirense | Espetada | KB
+pt | Bolo de mel da Madeira | Madeira honey cake | K
+pt | Poncha | Poncha madeirense | GT
+pt | Ginjinha | Ginja liqueur | GT
+pt | Galão | Galão portugês | GT
+pt | Bica | Portuguese bica espresso | GT
+pt | Sangria portuguesa | Portuguese sangria | GT
+pt | Migas à alentejana | Alentejo migas | B
+pt | Ensopado de borrego | Lamb stew Portuguese | E
+pt | Sopa de peixe | Portuguese fish soup | S
+pt | Pataniscas de bacalhau | Pataniscas | SN
+pt | Rissóis de camarão | Rissóis | SN
+pt | Croquetes de carne | Portuguese croquettes | SN
+pt | Bolinhos de bacalhau | Bolinhos | SN
+pt | Torresmos | Portuguese pork rinds | SN
+pt | Queijo da Serra com pão | Serra cheese with bread | V
+pt | Ameijoas na cataplana | Clams cataplana | HFi
+pt | Moelas | Portuguese gizzards | V
+pt | Papas de sarrabulho | Sarrabulho | E
+pt | Rojões à moda do Minho | Rojões | HF
+pt | Bacalhau espiritual | Bacalhau espiritual soufflé | AU

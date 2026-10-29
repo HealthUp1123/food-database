@@ -1,0 +1,77 @@
+Arroz caldoso de bogavante | 0.9 | 1 Teller | reis 70, hummer 150, zwiebel 30, tomate 60, olivenoel 15, bruehe 300
+Arroz con conejo y caracoles | 0.9 | 1 Teller | reis 75, kaninchen 120, schnecke 60, gruene_bohnen 50, tomate 50, olivenoel 15, bruehe 250
+Tortilla de gambas | 0.9 | 1 Portion | ei 130, garnele 80, zwiebel 20, olivenoel 15, petersilie 3
+Huevos rotos con jamón | 0.9 | 1 Portion | ei 120, kartoffel 200, rohschinken 40, olivenoel 25
+Huevos a la flamenca | 0.9 | 1 Portion | ei 120, tomate 100, erbsen 40, chorizo 30, rohschinken 20, paprika_rot 30, olivenoel 12, zwiebel 20
+Olla podrida | 0.9 | 1 Teller | kichererbsen_trocken 50, wasser 300, schwein_nacken 60, chorizo 40, blutwurst 30, speck 20, kartoffel 80, karotte 30, weisskohl 50
+Espinacas a la catalana | 0.8 | 1 Portion | spinat 250, rosinen 20, pinienkerne 15, olivenoel 12, knoblauch 3
+Patatas arrugadas con mojo | 0.95 | 1 Portion | kartoffel 250, salz 5, olivenoel 20, paprikapulver 2, knoblauch 5, essig 5, kreuzkuemmel 1
+Ensalada mixta española | 1.0 | 1 Schüssel | salat 80, tomate 100, thunfisch 40, ei 50, zwiebel 20, olive 15, olivenoel 12, spargel 30
+Ensalada de tomate con ventresca | 1.0 | 1 Portion | tomate 200, thunfisch 60, zwiebel 20, olivenoel 12, olive 10
+Pipirrana | 1.0 | 1 Portion | tomate 150, paprika 50, gurke 60, zwiebel 20, olivenoel 12, essig 5, ei 40
+Esqueixada | 1.0 | 1 Portion | stockfisch 100, tomate 100, zwiebel 25, paprika 30, olive 15, olivenoel 15, essig 5
+Gambas a la plancha | 0.9 | 1 Portion | garnele 200, olivenoel 12, knoblauch 5, zitrone 10
+Pescaíto frito | 0.9 | 1 Portion | fisch_mager 200, mehl 25, olivenoel 40, zitrone 10
+Zarzuela de pescado | 0.9 | 1 Portion | fisch_mager 120, garnele 60, muschel 100, kalmar 60, tomate 100, zwiebel 40, wein_weiss 40, olivenoel 15, mandel 10
+Besugo al horno | 0.85 | 1 Portion | wolfsbarsch 250, kartoffel 150, zitrone 15, olivenoel 15, wein_weiss 30
+Rape a la marinera | 0.85 | 1 Portion | fisch_mager 200, muschel 60, zwiebel 30, wein_weiss 50, olivenoel 12, mehl 8, petersilie 5
+Vieiras gallegas | 0.9 | 2 Stück | muschel 150, zwiebel 20, paniermehl 15, olivenoel 12, rohschinken 20, wein_weiss 20
+Tabla de jamón y queso | 1.0 | 1 Platte | rohschinken 50, emmentaler 50, weissbrot 50, olive 20, olivenoel 5
+Montadito de lomo | 0.95 | 1 Stück | weissbrot 50, schwein_mager 80, paprika_rot 20, olivenoel 8
+Bocadillo de calamares | 0.9 | 1 Baguette | weissbrot 110, kalmar 120, mehl 20, olivenoel 25, mayonnaise 10, zitrone 5
+Pincho de tortilla | 0.95 | 1 Stück | ei 70, kartoffel 100, zwiebel 20, olivenoel 15, weissbrot 30
+Txangurro | 0.9 | 1 Portion | krabbe 150, zwiebel 30, tomate 60, wein_weiss 30, weinbrand 10, butter 10, paniermehl 10
+Chuletón a la brasa | 0.8 | 1 Steak | rind_steak 350, olivenoel 8, salz 2
+Cordero asado | 0.7 | 1 Portion | lamm 300, kartoffel 150, olivenoel 12, wein_weiss 40, knoblauch 5
+Lechazo asado | 0.65 | 1 Portion | lamm 350, wasser 50, schmalz 8
+Solomillo al whisky | 0.85 | 1 Portion | schwein_mager 200, spirituose 20, knoblauch 8, olivenoel 12
+Pollo en pepitoria | 0.8 | 1 Portion | hahn_keule 250, ei 25, mandel 20, wein_weiss 50, zwiebel 30, olivenoel 12, mehl 8, bruehe 100
+Chorizo al vino | 0.9 | 1 Portion | chorizo 120, wein_rot 60
+Calçots con salsa romesco | 0.85 | 1 Portion | fruehlingszwiebel 250, tomate 60, mandel 25, haselnuss 10, paprika_rot 30, olivenoel 25, knoblauch 5, weissbrot 15
+Cargols a la llauna | 0.9 | 1 Portion | schnecke 200, olivenoel 12, knoblauch 5, chili 3, petersilie 5
+Canelones catalanes | 0.9 | 3 Stück | nudeln 60, hack 100, schwein_hack 50, zwiebel 30, milch 200, butter 20, mehl 20, parmesan 15
+Coca de recapte | 0.9 | 1 Stück | mehl 100, hefe 3, paprika_rot 70, aubergine 60, zwiebel 40, olivenoel 20, sardelle 15
+Mel i mató | 1.0 | 1 Schälchen | ricotta 120, honig 25, walnuss 10
+Queso manchego con membrillo | 1.0 | 1 Portion | emmentaler 60, quittenbrot 40, walnuss 5
+Agua de Valencia | 1.0 | 1 Glas | orange 200, spirituose 20, wein_weiss 80, zucker 8
+Zurrukutuna | 0.95 | 1 Teller | stockfisch 100, weissbrot 60, knoblauch 5, olivenoel 12, paprikapulver 1, wasser 250
+Sopa castellana | 0.95 | 1 Teller | weissbrot 50, ei 50, rohschinken 30, knoblauch 8, olivenoel 12, paprikapulver 2, bruehe 250
+Cocido maragato | 0.9 | 1 Teller | kichererbsen_trocken 60, wasser 300, schwein_nacken 80, rind 60, chorizo 40, hahn 60, weisskohl 70, kartoffel 70
+Zarangollo | 0.9 | 1 Portion | zucchini 250, zwiebel 60, ei 100, olivenoel 20
+Ternasco asado | 0.7 | 1 Portion | lamm 300, kartoffel 150, olivenoel 12, wein_weiss 30
+Pollo chilindrón | 0.8 | 1 Portion | hahn_keule 250, paprika_rot 80, tomate 80, zwiebel 40, rohschinken 25, olivenoel 12, knoblauch 5
+Espetos de sardinas | 0.85 | 5 Stück | sardine 250, olivenoel 8, salz 2
+Berenjenas con miel | 0.9 | 1 Portion | aubergine 200, mehl 25, honig 20, olivenoel 35
+Champiñones al ajillo | 0.8 | 1 Portion | pilz 250, knoblauch 8, olivenoel 18, petersilie 3, wein_weiss 20
+Pulpo a la brasa | 0.85 | 1 Portion | oktopus 250, kartoffel 100, olivenoel 15, paprikapulver 2
+Sepia a la plancha | 0.85 | 1 Portion | kalmar 250, olivenoel 12, knoblauch 5, petersilie 3
+Pan bagnat | 1.0 | 1 Brötchen | weissbrot 100, thunfisch 50, tomate 60, ei 50, olive 10, olivenoel 12, zwiebel 15
+Moules frites | 0.85 | 1 Portion | muschel 500, kartoffel 250, oel 22, zwiebel 20, wein_weiss 40, butter 10, sahne 20
+Truite aux amandes | 0.85 | 1 Forelle | forelle 250, mandel 25, butter 20, zitrone 10, mehl 10
+Plateau de fruits de mer | 1.0 | 1 Platte | muschel 200, garnele 80, krabbe 60, zitrone 15, mayonnaise 15
+Foie gras poêlé | 0.75 | 1 Portion | foie_gras 100, feige_tr 15, wein_weiss 10
+Croque-monsieur végétarien | 0.95 | 1 Stück | weissbrot 80, emmentaler 50, butter 15, milch 60, mehl 10, spinat 30
+Tarte aux pommes alsacienne | 0.95 | 1 Stück | mehl 60, butter 35, apfel 150, ei 40, sahne 60, zucker 25
+Soufflé au Grand Marnier | 0.9 | 1 Portion | eiweiss 90, ei 40, zucker 35, milch 100, mehl 15, butter 15, likoer 15
+Œufs mayonnaise | 1.0 | 1 Portion | ei 120, mayonnaise 40, salat 20
+Œufs en meurette | 0.9 | 1 Portion | ei 120, wein_rot 100, speck 25, zwiebel 20, pilz 40, butter 12, mehl 8, weissbrot 20
+Œufs cocotte | 0.95 | 1 Portion | ei 120, sahne 40, butter 5
+Steak frites | 0.85 | 1 Teller | rind_steak 200, kartoffel 250, oel 22, butter 10
+Entrecôte sauce béarnaise | 0.8 | 1 Portion | rind_steak 250, butter 35, ei 20, wein_weiss 20, essig 10, zwiebel 10, kartoffel 150
+Carbonnade flamande française | 0.7 | 1 Portion | rind 220, zwiebel 100, bier 150, lebkuchen_gewuerz 15, senf 10, butter 10, mehl 8
+Haricots verts à l'ail | 0.9 | 1 Portion | gruene_bohnen 200, butter 12, knoblauch 5, petersilie 3
+Salade de chèvre chaud | 1.0 | 1 Portion | salat 100, ziegenkaese 60, weissbrot 30, honig 8, walnuss 10, olivenoel 12, essig 5
+Salade au lardons et croûtons | 1.0 | 1 Portion | salat 120, speck 40, weissbrot 30, ei 50, olivenoel 12, essig 8, senf 3
+Taboulé français | 1.0 | 1 Portion | couscous 50, wasser 80, tomate 100, gurke 50, petersilie 20, minze 5, zitrone 15, olivenoel 15
+Potage Parmentier | 0.95 | 1 Teller | kartoffel 150, lauch 80, butter 15, sahne 20, bruehe 250
+Fondue bourguignonne | 0.85 | 1 Portion | rind_steak 250, oel 25, mayonnaise 20
+Tablier de sapeur | 0.85 | 1 Portion | innereien 200, ei 25, paniermehl 25, mehl 12, senf 15, butter 25
+Dacquoise | 0.95 | 1 Stück | eiweiss 60, zucker 40, mandel 30, butter 40, zucker 15, kaffee 5
+Kir | 1.0 | 1 Glas | wein_weiss 120, likoer 15
+Brouillade de truffe | 0.9 | 1 Portion | ei 150, butter 15, pilz 40, sahne 20
+Marmite dieppoise | 0.9 | 1 Teller | fisch_mager 150, muschel 80, garnele 40, sahne 60, lauch 40, karotte 30, wein_weiss 50, butter 10, wasser 150
+Salade de gésiers | 1.0 | 1 Portion | innereien 100, salat 100, speck 30, ei 50, olivenoel 12, essig 8, weissbrot 20
+Tarte aux poireaux et lardons | 0.9 | 1 Stück | mehl 60, butter 30, lauch 150, speck 40, ei 50, sahne 60
+Bretzel alsacien | 0.95 | 1 Stück | mehl 100, hefe 3, wasser 60, butter 5, salz 2
+Spätzle alsaciennes | 0.95 | 1 Portion | mehl 120, ei 60, wasser 30, butter 15, emmentaler 30
+Gougère bourguignonne | 0.9 | 4 Stück | mehl 50, butter 30, ei 60, emmentaler 40, wasser 70

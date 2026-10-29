@@ -1,0 +1,139 @@
+gb | Fish and chips | Fish & chips | HFi
+gb | Full English breakfast | English fry-up | FR
+gb | Bubble and squeak | Bubble & squeak | B
+gb | Toad in the hole | Toad-in-the-hole | HF
+gb | Bangers and mash | Sausages and mash | HF
+gb | Shepherd's pie | Shepherds pie | AU
+gb | Cottage pie | Cottage pie with beef | AU
+gb | Steak and kidney pie | Steak & kidney pie | BO
+gb | Steak and ale pie | Steak and Guinness pie | BO
+gb | Pork pie | Melton Mowbray pork pie | BO
+gb | Cornish pasty | Pasty Cornish | BO
+gb | Scotch egg | Scotch eggs | SN
+gb | Sausage roll | British sausage roll | SN
+gb | Ploughman's lunch | Ploughmans | V
+gb | Roast beef and Yorkshire pudding | British Sunday roast beef | HF
+gb | Yorkshire pudding | Yorkshire puddings | B
+gb | Roast lamb with mint sauce | British roast lamb | HF
+gb | Roast chicken dinner British | Sunday roast chicken | HG
+gb | Lancashire hotpot | Hotpot Lancashire | E
+gb | Irish stew British lamb | Scouse | E
+gb | Liverpool scouse | Scouse stew | E
+gb | Cullen skink | Cullen skink soup | S
+gb | Scotch broth | Scottish barley broth | S
+gb | Cock-a-leekie soup | Cock-a-leekie | S
+gb | Haggis, neeps and tatties | Haggis | HF
+gb | Stovies | Scottish stovies | E
+gb | Rumbledethumps | Scottish rumbledethumps | AU
+gb | Cranachan | Scottish cranachan | D
+gb | Clootie dumpling | Clootie pudding | K
+gb | Tablet | Scottish tablet | SW
+gb | Shortbread | Scottish shortbread | G
+gb | Dundee cake | Dundee fruit cake | K
+gb | Scottish porridge | Porridge oats Scottish | FR
+gb | Arbroath smokie | Smokies | HFi
+gb | Kedgeree | Kedgeree rice fish egg | RP
+gb | Kippers with toast | Smoked kippers | FR
+gb | Welsh rarebit | Welsh rabbit | SN
+gb | Cawl | Welsh cawl | E
+gb | Glamorgan sausage | Selsig Morgannwg | SN
+gb | Bara brith | Welsh tea bread | K
+gb | Welsh cakes | Picau ar y maen | G
+gb | Laverbread | Bara lawr | B
+gb | Eton mess | Eton Mess | D
+gb | Trifle | English sherry trifle | D
+gb | Sticky toffee pudding | Sticky toffee | K
+gb | Spotted dick | Spotted dick with custard | K
+gb | Jam roly-poly | Roly poly pudding | K
+gb | Bread and butter pudding | Bread & butter pudding | K
+gb | Christmas pudding | Plum pudding | K
+gb | Treacle tart | Golden syrup tart | K
+gb | Bakewell tart | Bakewell pudding | K
+gb | Victoria sponge | Victoria sandwich cake | K
+gb | Lemon drizzle cake | Lemon drizzle | K
+gb | Banoffee pie | Banoffi pie | K
+gb | Apple crumble | Apple crumble with custard | D
+gb | Rhubarb crumble | Rhubarb crumble | D
+gb | Summer pudding | English summer pudding | D
+gb | Syllabub | Lemon syllabub | D
+gb | Rice pudding | English rice pudding | PU
+gb | Custard tart | English custard tart | K
+gb | Scones with jam and cream | Cream tea | G
+gb | Crumpets | Crumpet | G
+gb | Pikelets | Pikelet | G
+gb | Hot cross buns | Hot cross bun | G
+gb | Chelsea bun | Chelsea buns | G
+gb | Eccles cake | Eccles cakes | G
+gb | Chorley cake | Chorley cakes | G
+gb | Cornish fairings | Fairings | G
+gb | Parkin | Yorkshire parkin | K
+gb | Flapjack | Oat flapjacks | G
+gb | Digestive biscuit with cheese | British cheese and biscuits | SN
+gb | Beans on toast | Baked beans on toast | SN
+gb | Cheese on toast | Grilled cheese on toast British | SN
+gb | Jacket potato with cheese and beans | Baked jacket potato | HV
+gb | Cauliflower cheese | Cauliflower cheese British | AU
+gb | Macaroni cheese British | Mac and cheese British | AU
+gb | Pease pudding | Pease pudding Newcastle | B
+gb | Mushy peas | Mushy peas fish shop | B
+gb | Chip butty | Chip sandwich | SN
+gb | Bacon butty | Bacon roll | SN
+gb | Coronation chicken | Coronation chicken sandwich | HG
+gb | Chicken tikka masala | British chicken tikka masala | HG
+gb | Balti chicken | Birmingham balti | HG
+gb | Pie and mash | London pie and mash | HF
+gb | Jellied eels | Jellied eel | V
+gb | Faggots and peas | Faggots | HF
+gb | Black pudding | Black pudding slices fried | WU
+gb | Lincolnshire sausage | Lincolnshire sausages | WU
+gb | Cumberland sausage | Cumberland sausage ring | WU
+gb | Gammon, egg and chips | Gammon egg and chips | HF
+gb | Beef Wellington | Beef wellington | HF
+gb | Beef stew with dumplings | English beef stew and dumplings | E
+gb | Oxtail soup | Oxtail soup British | S
+gb | Mulligatawny soup | Mulligatawny | S
+gb | Brown Windsor soup | Windsor soup | S
+gb | Potted shrimps | Morecambe Bay potted shrimps | V
+gb | Prawn cocktail | Prawn cocktail British | V
+gb | Smoked salmon and cream cheese bagel | Salmon bagel | SN
+gb | Cucumber sandwich | English cucumber sandwiches | SN
+gb | Egg and cress sandwich | Egg and cress | SN
+gb | Ham and mustard sandwich | British ham sandwich | SN
+gb | Cheese and pickle sandwich | Cheese and pickle | SN
+gb | Shepherd's pie vegetarian | Vegetarian shepherd's pie | AU
+gb | Stargazy pie | Stargazy pie Cornish | BO
+gb | Cornish fish pie | Fish pie | AU
+gb | Cumberland rum nicky | Rum nicky | K
+gb | Lardy cake | Lardy cake Wiltshire | K
+gb | Banbury cake | Banbury cakes | G
+gb | Simnel cake | Easter simnel | K
+gb | Sussex pond pudding | Sussex pond | K
+gb | Gingerbread British | Grasmere gingerbread | K
+gb | Tea English breakfast with milk | British builder's tea | GT
+gb | Pimm's cup | Pimms | GT
+gb | Mulled cider | Wassail | GT
+gb | Shandy | British shandy | GT
+gb | Ginger beer | Ginger beer British | GT
+ie | Irish stew | Irish lamb stew | E
+ie | Coddle | Dublin coddle | E
+ie | Colcannon | Irish colcannon | B
+ie | Champ | Irish champ | B
+ie | Boxty | Irish potato pancake | PF
+ie | Soda bread | Irish soda bread | BR
+ie | Barmbrack | Irish barmbrack | K
+ie | Irish breakfast | Full Irish | FR
+ie | Corned beef and cabbage | Irish corned beef | HF
+ie | Bacon and cabbage | Irish bacon and cabbage | HF
+ie | Guinness stew | Beef and Guinness stew | E
+ie | Seafood chowder Irish | Irish seafood chowder | S
+ie | Dublin lawyer | Dublin lawyer lobster | HFi
+ie | Crubeens | Pigs trotters Irish | HF
+ie | Drisheen | Cork drisheen | WU
+ie | Potato farl | Farl | BR
+ie | Irish coffee | Irish coffee with cream | GT
+ie | Gur cake | Chester cake | K
+ie | Irish apple cake | Apple cake Irish | K
+ie | Brack | Tea brack | K
+ie | Skirts and kidneys | Skirts and kidneys Cork | E
+ie | Potato and leek soup Irish | Irish leek and potato soup | S
+ie | Beef and Guinness pie | Irish beef pie | BO

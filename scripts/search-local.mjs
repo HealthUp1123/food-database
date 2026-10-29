@@ -21,7 +21,7 @@ for (let i = 0; i < args.length; i++) {
   else words.push(args[i]);
 }
 
-const fmt = (f) => `${f.name} [${f.cuisine || '?'} · ${f.category || f.type}]${f.barcode ? ' ' + f.barcode : ''} – ${f.per100g.kcal} kcal | P ${f.per100g.protein} | KH ${f.per100g.carbs} | F ${f.per100g.fat} | BS ${f.per100g.fiber} (pro 100 g)${f.quality ? ' · ' + f.quality : ''}`;
+const fmt = (f) => `${f.name} [${f.cuisine || '?'} · ${f.category || f.type}${f.prepared ? ' · ' + f.prepared : ''}]${f.barcode ? ' ' + f.barcode : ''} – ${f.per100g.kcal} kcal | P ${f.per100g.protein} | KH ${f.per100g.carbs} | F ${f.per100g.fat} | BS ${f.per100g.fiber} (pro 100 g)${f.quality ? ' · ' + f.quality : ''}`;
 
 let results;
 if (barcode) {

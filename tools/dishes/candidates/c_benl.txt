@@ -1,0 +1,84 @@
+nl | Erwtensoep | Snert, Dutch split pea soup | S
+nl | Hutspot | Hutspot met klapstuk | E
+nl | Stamppot boerenkool | Boerenkool met worst, Dutch kale mash | E
+nl | Stamppot zuurkool | Zuurkool met spek | E
+nl | Stamppot andijvie | Andijviestamppot | E
+nl | Hachee | Dutch hachee beef stew | E
+nl | Draadjesvlees | Stewed beef strands | E
+nl | Gehaktbal met jus | Dutch meatball | KF
+nl | Rookworst met zuurkool | Dutch smoked sausage with sauerkraut | WU
+nl | Bitterballen | Bitterbal | SN
+nl | Kroket | Dutch croquette | SN
+nl | Frikandel | Frikandel speciaal | SN
+nl | Kaassoufflé | Cheese soufflé Dutch | SN
+nl | Loempia | Dutch loempia | SN
+nl | Patatje oorlog | Patatje met | SN
+nl | Haring met uitjes | Hollandse nieuwe | V
+nl | Broodje haring | Herring sandwich Dutch | SN
+nl | Broodje kroket | Kroket sandwich | SN
+nl | Uitsmijter ham kaas | Uitsmijter | EI
+nl | Pannenkoek | Dutch pancake | PF
+nl | Poffertjes | Dutch mini pancakes | G
+nl | Stroopwafel | Dutch stroopwafel | G
+nl | Oliebollen | Dutch doughnuts | G
+nl | Appelflappen | Appelflap | G
+nl | Appeltaart | Dutch apple pie | K
+nl | Vlaai | Limburgse vlaai | K
+nl | Speculaas | Dutch speculaas | G
+nl | Boterkoek | Dutch butter cake | K
+nl | Hagelslag boterham | Bread with sprinkles | FR
+nl | Vla | Dutch custard dessert | PU
+nl | Rijstebrij | Dutch rice porridge | PU
+nl | Zuurkoolschotel | Sauerkraut casserole Dutch | AU
+nl | Nasi goreng Nederlands | Dutch nasi goreng | RP
+nl | Bami goreng Nederlands | Dutch bami goreng | NA
+nl | Rijsttafel | Dutch rijsttafel | HF
+nl | Gado-gado Nederlands | Dutch gado-gado | SA
+nl | Kapsalon | Kapsalon Rotterdam | SN
+nl | Gouda kaas boterham | Dutch cheese sandwich | SN
+nl | Erwtensoep met roggebrood | Snert met roggebrood | S
+nl | Mosselen met friet | Dutch mussels and fries | HFi
+nl | Kibbeling | Fried cod bites | SN
+nl | Lekkerbek | Fried fish battered Dutch | HFi
+nl | Zeeuwse bolus | Bolus | G
+nl | Pindasaus satésaus Nederlands | Dutch satay sauce | SD
+nl | Saucijzenbroodje | Dutch sausage roll | SN
+nl | Worstenbroodje | Brabantse worstenbroodje | SN
+nl | Tompouce | Dutch tompouce | G
+nl | Bossche bol | Bossche bollen | G
+be | Waterzooi | Waterzooi van kip | E
+be | Vlaamse stoverij | Carbonade flamande | E
+be | Konijn met pruimen | Rabbit with prunes Flemish | HF
+be | Stoemp | Stoemp met worst | B
+be | Witloof met hesp en kaas | Endives au gratin Belgian | AU
+be | Paling in 't groen | Eels in green sauce | HFi
+be | Vol-au-vent | Belgian vol-au-vent | HG
+be | Balletjes in tomatensaus | Boulets sauce lapin | KF
+be | Boulets liégeois | Liège meatballs | KF
+be | Américain préparé | Filet américain | SN
+be | Gentse waterzooi | Ghent waterzooi | E
+be | Moules-frites belges | Belgian moules frites | HFi
+be | Frites met mayonaise | Belgian fries mayo | SN
+be | Gaufre de Bruxelles | Brussels waffle | G
+be | Gaufre de Liège | Liège waffle | G
+be | Speculoos | Belgian speculoos | G
+be | Speculoospasta | Biscoff spread bread | SN
+be | Cuberdon | Gentse neuzen | SW
+be | Mattentaart | Mattentaart Geraardsbergen | K
+be | Tarte au riz de Verviers | Rijsttaart | K
+be | Dame blanche | Belgian dame blanche | D
+be | Pistolets | Pistolet bread | BR
+be | Cougnou | Cougnou Christmas | BR
+be | Boterkoek Belgian | Belgian boterkoek | K
+be | Choco praline | Belgian chocolate praline | SW
+be | Belgian hot chocolate | Chocolat chaud belge | GT
+be | Kriek | Kriek beer | GT
+be | Salade liégeoise | Liège salad | SA
+be | Tomates aux crevettes grises | Tomaat garnaal | V
+be | Croquettes aux crevettes | Garnaalkroketten | SN
+be | Stoofvlees | Flemish beef beer stew | E
+be | Hoofdkaas | Belgian head cheese | V
+be | Jambon d'Ardenne | Ardennes ham | V
+be | Faisan à la brabançonne | Pheasant Brabant | HG
+be | Bouchée à la reine belge | Belgian bouchée | HG
+be | Bloedworst met appelen | Black pudding with apples Belgian | WU

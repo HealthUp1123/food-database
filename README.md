@@ -1,6 +1,6 @@
 # food-database
 
-Eigene Lebensmittel-Datenbank für einen Kalorientracker: **1235 Gerichte** aus der türkischen (`tr`, 749) und deutschen (`de`, 486) Küche, mit Kalorien, Protein, Kohlenhydraten, Fett und Ballaststoffen, dazu eine kostenlose Such-API für das Suchfeld der App.
+Eigene Lebensmittel-Datenbank für einen Kalorientracker: **1879 Gerichte** — 749 türkisch (`tr`), 486 deutsch (`de`) und 644 weitere europäische Küchen — mit Kalorien, Protein, Kohlenhydraten, Fett und Ballaststoffen, dazu eine kostenlose Such-API für das Suchfeld der App.
 
 > **Alle Werte sind berechnete Schätzungen, keine Labor- oder Herstellerangaben.**
 > Jeder Eintrag hat `"quality": "estimate"` und `"source": "calculated from typical recipe and approximate reference values"`. Die Nährwerte entstehen aus einem typischen Hausrezept und einer Zutaten-Referenztabelle (ungefähre Werte in der Größenordnung von USDA/BLS), nicht aus einer Analyse des fertigen Gerichts. Abweichungen von etwa ±10–25 % gegenüber einem konkreten Rezept sind normal (Fettmenge, Garzeit, Portionsgröße). Bitte die Zahlen nicht als medizinische oder kennzeichnungsrechtliche Nährwertangabe verwenden. Geprüfte Werte können später **denselben Eintrag überschreiben** (siehe unten).
@@ -11,19 +11,22 @@ Die Rohdaten (Stand `main`):
 https://raw.githubusercontent.com/HealthUp1123/food-database/main/data/foods.json
 ```
 
-Aufbau der Schätzung, Garfaktor und die Alkohol-Ausnahme stehen in [`tools/dishes/BUILD_NOTES.md`](tools/dishes/BUILD_NOTES.md).
+**Gerichte und Fertigprodukte sind getrennt.** Ein Gericht (zuhause oder Restaurant, aus einem Rezept berechnet) bleibt in der Datenbank, auch wenn Open Food Facts ein gleichnamiges Fertigprodukt führt. Es bekommt `prepared` (`homemade` oder `restaurant`), `is_packaged_product: false` und bei einem Namenstreffer `off_similar` (höchstens drei Barcodes, nur als Hinweis). Nichts wurde entfernt: `removed_in_off.json` ist leer. **601** der 1879 Gerichte (alle aus dem türkischen und deutschen Bestand) tragen `off_similar`. Der Abgleich lief gegen einen Open-Food-Facts-Dump vom **29.10.2026**.
+
+Aufbau der Schätzung, Garfaktor, Küchen und der OFF-Abgleich stehen in [`tools/dishes/BUILD_NOTES.md`](tools/dishes/BUILD_NOTES.md).
 
 ## Inhalt
 
 ```
-data/foods.json                 Die Datenbank (JSON-Array, 1235 Gerichte)
+data/foods.json                 Die Datenbank (JSON-Array, 1879 Gerichte)
 src/search.mjs                  Gemeinsames Such-Modul (API + lokale CLI)
 api/worker.js                   Cloudflare Worker (Such-API)
 api/wrangler.toml               Worker-Konfiguration
 scripts/validate.mjs            Datenprüfung (ohne Abhängigkeiten)
 scripts/search-local.mjs        Lokale Suche per Kommandozeile
 scripts/test-worker.mjs         Schnelltest des API-Handlers
-tools/dishes/                   Generator (build.py), Rezept-Batches, Zutatenquellen
+tools/dishes/                   Generator, Rezept-Batches, europäische Rezepte und Kandidaten
+tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo)
 .github/workflows/validate.yml  Prüfung bei jedem Push und Pull Request
 ```
 
@@ -40,6 +43,8 @@ tools/dishes/                   Generator (build.py), Rezept-Batches, Zutatenque
   "synonyms": ["Karniyarik", "Gespaltener Bauch", "Gefüllte Aubergine mit Hack"],
   "cuisine": "tr",
   "category": "Gemüse mit Fleisch",
+  "prepared": "homemade",
+  "is_packaged_product": false,
   "per100g": { "kcal": 104, "protein": 3.9, "carbs": 5.0, "fat": 7.8, "fiber": 2.2 },
   "portion": { "label": "1 Portion (2 Hälften)", "grams": 445 },
   "ingredients": [
@@ -58,17 +63,22 @@ tools/dishes/                   Generator (build.py), Rezept-Batches, Zutatenque
 | `type` | ja | `"dish"` (Gericht) oder `"item"` (Artikel/Zutat/Produkt). Der aktuelle Datensatz enthält nur Gerichte. |
 | `barcode` | ja | EAN-8/EAN-13 als **String** (führende Nullen) oder `null`. `null` ist gültig und bei allen jetzigen Gerichten gesetzt (kein Verpackungs-Barcode). Ist ein String gesetzt, muss die Prüfziffer stimmen und der Code eindeutig sein. |
 | `synonyms` | ja | Alternative Namen und Schreibweisen (darf leer sein: `[]`). |
-| `cuisine` | ja | `"tr"` (türkisch) oder `"de"` (deutsch). |
+| `cuisine` | ja | Zweistelliger Küchencode: `tr`, `de` und weitere europäische Codes (`it`, `fr`, `es`, `gr`, `pl`, …). |
 | `category` | ja | Deutsche Kategorie, z. B. `Suppe`, `Kebap`, `Hauptgericht Fleisch`, `Kuchen`, `Getränk`. |
+| `prepared` | nein | Nur bei Gerichten: `"homemade"` (zuhause) oder `"restaurant"` (Restaurant/Imbiss). Im aktuellen Bestand immer gesetzt. |
+| `is_packaged_product` | nein | `false` bei Gerichten. `true` wäre nur für `type: "item"` mit Barcode sinnvoll; bei `type: "dish"` ist `true` ungültig. |
+| `off_similar` | nein | Bis zu 3 Open-Food-Facts-Barcodes (6–14 Ziffern) ähnlich benannter Fertigprodukte. Nur ein Hinweis; das Gericht bleibt ein eigener Eintrag. |
 | `per100g` | ja | `kcal` (0–950), `protein`, `carbs`, `fat`, `fiber` (je 0–100 g pro 100 g). Protein + Kohlenhydrate + Fett ≤ 100 g. |
 | `portion` | nein | Typische Portion: `label` (Text) und `grams` (> 0, max. 5000). Die App rechnet damit von 100 g auf die Portion um. |
 | `ingredients` | ja | Zutaten der zugrunde gelegten Portion: `{ "name", "grams" }`, `grams` > 0. Das sind Rezeptmengen, keine zweite Nährwertquelle. |
-| `quality` | ja | `"estimate"` (berechnet, wie jetzt) oder `"verified"` (später mit geprüften Werten überschrieben). |
+| `quality` | ja | `"estimate"` (berechnet, wie jetzt bei allen 1879 Gerichten) oder `"verified"` (später mit geprüften Werten überschrieben). |
 | `source` | ja | Herkunft der Nährwerte. Bei Schätzwerten der feste Hinweis auf Rezept plus Referenzwerte; bei geprüften Einträgen die konkrete Quelle. |
 
 Gerichte sind pro 100 g angegeben. `portion.grams` ist das übliche Tellergewicht nach dem Garen. `ingredients[].grams` sind die Rohmengen dieser Portion (aufgenommenes Wasser und Bratfett stehen mit in der Liste).
 
 Kategorien sind Küchengruppen, keine Ernährungslabels. Dieselbe Speise kann regional anders heißen; hier steht jeweils ein verbreitetes Standardrezept.
+
+`off_similar` steht nur, wenn der Dump ein gleichnamiges Fertigprodukt kannte (Beispiel: `wiener-schnitzel`). Fehlt das Feld, gab es keinen solchen Treffer. Die Barcodes gehören zum Fertigprodukt, nicht zum Gericht.
 
 ## Geprüfte Werte nachtragen
 
@@ -89,9 +99,9 @@ Solange `quality` auf `"estimate"` steht, gelten die berechneten Rezeptwerte. Di
 node scripts/validate.mjs
 ```
 
-Prüft Pflichtfelder (einschließlich `cuisine`, `category`, `ingredients`, `quality`, `source`), Wertebereiche (kcal 0–950, Makros 0–100 g, Protein + Kohlenhydrate + Fett ≤ 100 g), eindeutige `id`s, eindeutige Barcodes und die EAN-Prüfziffer. **`barcode: null` ist erlaubt** und erzeugt keinen Fehler.
+Prüft Pflichtfelder (einschließlich `cuisine`, `category`, `ingredients`, `quality`, `source`), die optionalen Felder `prepared`, `is_packaged_product` und `off_similar`, Wertebereiche (kcal 0–950, Makros 0–100 g, Protein + Kohlenhydrate + Fett ≤ 100 g), eindeutige `id`s, eindeutige Barcodes und die EAN-Prüfziffer. **`barcode: null` ist erlaubt** und erzeugt keinen Fehler. Ein Gericht mit `is_packaged_product: true` ist ein Fehler.
 
-Weicht `kcal` stark von `4·Protein + 4·Kohlenhydrate + 9·Fett` ab, gibt es eine **Warnung**, keinen Fehler. **Ausnahme Alkohol:** Gerichte mit den Zutaten Bier, Weißwein oder Rotwein (Pils, Glühwein, Weinschorle, …) liegen absichtlich über dieser Schätzung, weil Ethanol etwa 7 kcal/g liefert und in den Makros nicht vorkommt. Das ist kein Fehler und keine Warnung. Nur ein deutlich zu niedriger kcal-Wert würde weiter gewarnt.
+Weicht `kcal` stark von `4·Protein + 4·Kohlenhydrate + 9·Fett` ab, gibt es eine **Warnung**, keinen Fehler. Acht Gerichte (Wein und Spirituosen, darunter Weißwein, Rotwein, Glühwein, Kir, Tsipouro, Poncha, Țuică, Rakija) liegen darüber, weil Ethanol etwa 7 kcal/g liefert und in den Makros nicht vorkommt. Diese acht Warnungen sind erwartet.
 
 Bei echten Fehlern ist der Exit-Code `1`. Es braucht nur Node ≥ 20, keine Installation. Die GitHub Action `.github/workflows/validate.yml` läuft bei jedem Push und Pull Request.
 
@@ -130,7 +140,7 @@ BASE="https://food-database-api.<dein-account>.workers.dev"
 
 ```bash
 curl "$BASE/health"
-# {"status":"ok","count":1235}
+# {"status":"ok","count":1879}
 
 curl "$BASE/search?q=karniyarik&limit=5"
 # {"query":"karniyarik","count":1,"results":[{"id":"karniyarik","name":"Karnıyarık","barcode":null, ...}]}
@@ -165,7 +175,7 @@ Wenn du keine API betreiben willst, lädst du die Rohdatei einmal und suchst lok
 https://raw.githubusercontent.com/HealthUp1123/food-database/main/data/foods.json
 ```
 
-Das ist bei diesem Datenumfang (1235 Einträge) praktikabel. Für die Zutatenliste brauchst du keinen zweiten Endpunkt, die Datei enthält sie bereits. In der Such-API fehlt `ingredients` in der Trefferliste absichtlich; `GET /item/{id}` liefert sie nach.
+Das ist bei diesem Datenumfang (1879 Einträge) praktikabel. Für die Zutatenliste brauchst du keinen zweiten Endpunkt, die Datei enthält sie bereits. In der Such-API fehlt `ingredients` in der Trefferliste absichtlich; `GET /item/{id}` liefert sie nach.
 
 ## Einbau in die App: Suchfeld mit Live-Suche (Debounce)
 
@@ -179,8 +189,11 @@ type Food = {
   type: "item" | "dish";
   barcode: string | null;
   synonyms: string[];
-  cuisine: "tr" | "de";
+  cuisine: string;
   category: string;
+  prepared?: "homemade" | "restaurant";
+  is_packaged_product?: boolean;
+  off_similar?: string[];
   per100g: Nutrients;
   portion?: { label: string; grams: number };
   ingredients?: { name: string; grams: number }[]; // nur /item und /barcode
@@ -227,20 +240,21 @@ export const nutrientsFor = (f: Food, grams: number) =>
 
 ## Daten neu erzeugen
 
-Rezepttexte und die Zutaten-Referenz liegen unter `tools/dishes/` (`build.py`, `batches/*.py`, `ingredients_src.txt`, `ingredients.json`). Im Verzeichnis `tools/dishes`:
+Rezepttexte und die Zutaten-Referenz liegen unter `tools/dishes/` (`build.py`, `batches/*.py`, `recipes/`, `candidates/`, `ingredients_src.txt`, `ingredients.json`). Europäische Batches erzeugt `tools/dishes/tools/compose_eu.py`. Im Verzeichnis `tools/dishes`:
 
 ```bash
 python3 build.py
 ```
 
-Das schreibt dort `foods.json`, eine aktualisierte `ingredients.json` und `build_report.txt`. Die neue `foods.json` nach `data/foods.json` kopieren und `node scripts/validate.mjs` laufen lassen. `build_report.txt` und `__pycache__/` nicht committen.
+Das schreibt dort `foods.json`, eine aktualisierte `ingredients.json` und `build_report.txt`. Danach den OFF-Abgleich (`tools/off_check.py`, siehe BUILD_NOTES) und die neue `foods.json` nach `data/foods.json` kopieren. `node scripts/validate.mjs` laufen lassen. Nicht committen: `build_report.txt`, `__pycache__/`, `*.log`, `off_dump/`, `off_check_cache.sqlite`, `off_check_status*.json`, `*.duckdb`.
 
 ## Roadmap
 
 - [x] Datenformat festlegen
 - [x] Validierung (Skript + GitHub Action)
 - [x] Such-API (Cloudflare Worker) mit Umlaut- und Tippfehler-toleranter Suche
-- [x] Platzhalter durch 1235 berechnete türkische und deutsche Gerichte ersetzen (`quality: "estimate"`)
+- [x] Platzhalter durch 1879 berechnete Gerichte ersetzen (749 türkisch, 486 deutsch, 644 weitere europäische Küchen, `quality: "estimate"`)
+- [x] Gerichte und Fertigprodukte trennen; 601 Gerichte mit `off_similar` aus dem OFF-Dump vom 29.10.2026 markiert, keines entfernt
 - [ ] Einzelne Einträge mit geprüften Werten überschreiben (`quality: "verified"`, Quelle im Feld `source`)
 - [ ] Echte Barcodes ergänzen, wo ein verpacktes Produkt dahintersteht
 - [ ] API deployen und in die App einbinden

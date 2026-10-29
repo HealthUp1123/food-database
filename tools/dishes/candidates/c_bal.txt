@@ -1,0 +1,263 @@
+rs | Ćevapi | Serbian ćevapčići, Cevapcici | KF
+rs | Pljeskavica | Serbian pljeskavica | KF
+rs | Sarma | Serbian sarma | DO
+rs | Karađorđeva šnicla | Karadjordje schnitzel | HF
+rs | Gibanica | Serbian gibanica | PZ
+rs | Burek sa mesom | Serbian meat burek | BO
+rs | Burek sa sirom | Serbian cheese burek | BO
+rs | Proja | Serbian proja cornbread | BR
+rs | Kajmak | Serbian kajmak | SD
+rs | Ajvar | Serbian ajvar | SD
+rs | Srpska salata | Serbian salad | SA
+rs | Šopska salata | Shopska salad | SA
+rs | Prebranac | Serbian prebranac | HV
+rs | Punjene paprike | Serbian stuffed peppers | DO
+rs | Sogan-dolma | Serbian sogan dolma | DO
+rs | Riblja čorba | Serbian fish soup | S
+rs | Teleća čorba | Serbian veal soup | S
+rs | Pasulj prebranac | Serbian bean stew | HV
+rs | Sremski čvarci | Serbian cracklings | SN
+rs | Pita zeljanica | Serbian spinach pie | BO
+rs | Krempita | Serbian cream cake | K
+rs | Vanilice | Serbian vanilice | G
+rs | Palačinke sa orasima | Serbian walnut pancakes | D
+rs | Lepinja | Serbian lepinja | BR
+rs | Kačamak | Serbian kačamak | B
+rs | Đuveč | Serbian djuvec | E
+rs | Ćufte u paradajz sosu | Serbian meatballs tomato | KF
+rs | Mućkalica | Serbian mućkalica | E
+rs | Roštilj mešano meso | Serbian mixed grill | HF
+rs | Rakija šljivovica | Serbian plum brandy | GT
+hr | Peka | Croatian peka | HF
+hr | Pašticada | Dalmatian pašticada | E
+hr | Crni rižot | Black risotto Croatian | RP
+hr | Brudet | Dalmatian brudet | HFi
+hr | Janjetina na ražnju | Croatian spit-roast lamb | HF
+hr | Štrukli | Croatian štrukli | PZ
+hr | Zagorski štrukli | Zagorje štrukli | PZ
+hr | Purica s mlincima | Croatian turkey with mlinci | HG
+hr | Sarma hrvatska | Croatian sarma | DO
+hr | Grah varivo | Croatian bean stew | E
+hr | Jota | Istrian jota | S
+hr | Fuži s tartufima | Istrian fuži truffle | NA
+hr | Fritaja sa šparogama | Istrian asparagus frittata | EI
+hr | Istarski pršut | Istrian prosciutto | V
+hr | Paški sir | Pag cheese | SN
+hr | Skradinski rižot | Skradin risotto | RP
+hr | Gregada | Hvar gregada | HFi
+hr | Soparnik | Soparnik Dalmatian | PZ
+hr | Viška pogača | Vis pogača | PZ
+hr | Rozata | Dubrovnik rozata | PU
+hr | Fritule | Croatian fritule | G
+hr | Kremšnita | Samobor kremšnita | K
+hr | Orahnjača | Croatian walnut roll | K
+hr | Makovnjača | Croatian poppy seed roll | K
+hr | Međimurska gibanica | Međimurje gibanica | K
+hr | Krafne | Croatian krafne | G
+hr | Šniclica | Croatian šnicla | HF
+hr | Slavonski kulen | Kulen | WU
+hr | Čobanac | Croatian čobanac | E
+hr | Ričet | Croatian ričet | S
+ba | Bosanski lonac | Bosnian pot | E
+ba | Begova čorba | Bey's soup | S
+ba | Bosanska pita | Bosnian pita | BO
+ba | Klepe | Bosnian klepe | MA
+ba | Japrak | Bosnian japrak | DO
+ba | Ćevapi sarajevski | Sarajevo ćevapi | KF
+ba | Tufahije | Bosnian tufahije | D
+ba | Hurmašice | Bosnian hurmašice | D
+ba | Sirnica | Bosnian sirnica | BO
+ba | Zeljanica | Bosnian zeljanica | BO
+ba | Krompiruša | Bosnian krompirusa | BO
+ba | Somun | Bosnian somun | BR
+ba | Bosanska kahva | Bosnian coffee | GT
+ba | Uštipci | Bosnian uštipci | G
+ba | Kadaif | Bosnian kadaif | D
+ba | Bosanski ćevap sa kajmakom | Bosnian ćevapi with kajmak | KF
+ba | Pastrmka sa žara | Grilled trout Bosnian | HFi
+ba | Dolma bosanska | Bosnian dolma | DO
+bg | Shopska salad | Shopska | SA
+bg | Tarator | Bulgarian tarator | S
+bg | Banitsa | Bulgarian banitsa | BO
+bg | Kebapche | Bulgarian kebapche | KF
+bg | Kavarma | Bulgarian kavarma | E
+bg | Moussaka bulgarian | Bulgarian moussaka | AU
+bg | Sarmi | Bulgarian sarmi | DO
+bg | Tripe soup bulgarian | Shkembe chorba | S
+bg | Patatnik | Bulgarian patatnik | AU
+bg | Lyutenitsa | Bulgarian lyutenitsa | SD
+bg | Snezhanka salad | Snezhanka | SA
+bg | Bob chorba | Bulgarian bean soup | S
+bg | Mish-mash | Bulgarian mish-mash | EI
+bg | Gyuvech | Bulgarian gyuvech | E
+bg | Bulgarian yogurt with honey | Kiselo mlyako s med | D
+bg | Katmi | Bulgarian katmi | PF
+bg | Mekitsi | Bulgarian mekitsi | G
+bg | Tikvenik | Bulgarian pumpkin banitsa | BO
+bg | Kozunak | Bulgarian kozunak | K
+bg | Bulgarian rose jam | Rose petal jam | SW
+al | Tavë kosi | Albanian tavë kosi | AU
+al | Byrek | Albanian byrek | BO
+al | Fërgesë | Albanian fërgesë | E
+al | Qofte të fërguara | Albanian fried meatballs | KF
+al | Speca me gjizë | Albanian peppers with cottage cheese | HV
+al | Trahana albanian | Albanian trahana soup | S
+al | Revani Albanian | Albanian revani | K
+al | Flia | Albanian flia | PF
+al | Pite me spinaq | Albanian spinach pie | BO
+al | Japrak albanian | Albanian japrak | DO
+mk | Tavče gravče | Macedonian baked beans | E
+mk | Selsko meso | Macedonian village meat | E
+mk | Zelnik | Macedonian zelnik | BO
+mk | Burek makedonski | Macedonian burek | BO
+mk | Pastrmajlija | Pastrmajlija | PZ
+mk | Mekici | Macedonian mekici | G
+mk | Ajvar makedonski | Macedonian ajvar | SD
+mk | Turli tava | Macedonian turli tava | E
+mk | Kebapi makedonski | Macedonian kebapi | KF
+mk | Polneti piperki | Macedonian stuffed peppers | DO
+si | Jota slovenska | Slovenian jota | S
+si | Potica | Slovenian potica | K
+si | Prekmurska gibanica | Prekmurje gibanica | K
+si | Ajdovi žganci | Slovenian buckwheat žganci | B
+si | Kranjska klobasa | Carniolan sausage | WU
+si | Štruklji | Slovenian štruklji | D
+si | Idrijski žlikrofi | Idrija žlikrofi | MA
+si | Pražen krompir | Slovenian fried potatoes | B
+si | Kraški pršut | Karst prosciutto | V
+si | Bograč | Slovenian bograč | E
+si | Kremna rezina | Bled cream cake | K
+si | Kislo zelje | Slovenian sauerkraut | GZ
+si | Bučno olje solata | Slovenian pumpkin oil salad | SA
+si | Telečja obara | Slovenian veal stew | E
+si | Mineštra | Slovenian minestra | S
+ro | Mămăligă cu brânză și smântână | Mămăligă | B
+ro | Sarmale | Romanian sarmale | DO
+ro | Mici | Romanian mici | KF
+ro | Ciorbă de burtă | Romanian tripe soup | S
+ro | Ciorbă de perișoare | Romanian meatball soup | S
+ro | Ciorbă de legume | Romanian vegetable sour soup | S
+ro | Ciorbă de fasole cu afumătură | Romanian bean soup | S
+ro | Ciorbă de văcuță | Romanian beef sour soup | S
+ro | Zacuscă | Romanian zacuscă | SD
+ro | Salată de boeuf | Romanian beef salad | SA
+ro | Salată de vinete | Romanian eggplant salad | SA
+ro | Tochitură moldovenească | Romanian tochitură | E
+ro | Papanași | Romanian papanași | D
+ro | Cozonac | Romanian cozonac | K
+ro | Plăcintă cu brânză | Romanian cheese pie | BO
+ro | Plăcintă cu mere | Romanian apple pie | K
+ro | Mămăligă cu ouă | Romanian polenta with eggs | B
+ro | Jumări | Romanian jumări | SN
+ro | Sărmăluțe în foi de viță | Romanian vine leaf rolls | DO
+ro | Drob de miel | Romanian lamb haggis | HF
+ro | Pomana porcului | Romanian pork feast | HF
+ro | Cârnați de Plescoi | Plescoi sausage | WU
+ro | Pateu de ficat | Romanian liver pâté | V
+ro | Fasole bătută | Romanian beaten beans | SD
+ro | Iahnie de fasole | Romanian bean stew | E
+ro | Ghiveci | Romanian ghiveci | E
+ro | Ostropel | Romanian ostropel | E
+ro | Pilaf românesc | Romanian pilaf | RP
+ro | Pește pane | Romanian breaded fish | HFi
+ro | Covrigi | Romanian covrigi | BR
+ro | Clătite | Romanian crepes | D
+ro | Gogoși | Romanian gogoși | G
+ro | Cornulețe | Romanian cornulețe | G
+ro | Colivă | Romanian colivă | D
+ro | Amandină | Romanian amandină | K
+ro | Dobos romanian | Romanian dobos | K
+ro | Țuică | Romanian țuică | GT
+ro | Mămăligă tocană | Romanian polenta stew | E
+ua | Borscht ukrainian | Ukrainian borscht | S
+ua | Varenyky | Ukrainian varenyky | MA
+ua | Holubtsi | Ukrainian holubtsi | DO
+ua | Chicken Kyiv | Kotleta po-kyivsky | HG
+ua | Deruny | Ukrainian potato pancakes | PF
+ua | Syrnyky | Ukrainian syrnyky | PF
+ua | Salo | Ukrainian salo | SN
+ua | Kulish | Ukrainian kulish | S
+ua | Banosh | Ukrainian banosh | B
+ua | Halushky | Ukrainian halushky | KN
+ua | Vushka | Ukrainian vushka | MA
+ua | Kapusniak | Ukrainian cabbage soup | S
+ua | Kholodnyk | Ukrainian cold soup | S
+ua | Olivier salad | Russian salad | SA
+ua | Vinegret | Russian vinaigrette salad | SA
+ua | Pampushky | Ukrainian pampushky | BR
+ua | Medovik | Honey cake | K
+ua | Kyiv cake | Kyivskyi tort | K
+ua | Paska | Ukrainian paska | K
+ua | Kovbasa ukrainian | Ukrainian kovbasa | WU
+ua | Kholodets | Ukrainian aspic | V
+ua | Zrazy ukrainian | Ukrainian zrazy | KF
+ua | Okroshka | Okroshka | S
+ua | Shuba | Herring under a fur coat | SA
+ua | Soljanka | Solyanka | S
+ua | Pelmeni | Pelmeni | MA
+ua | Blini | Russian blini | PF
+ua | Beef stroganoff | Boeuf Stroganoff | HF
+ua | Syrniki | Syrniki | PF
+ua | Kasha buckwheat | Buckwheat kasha | B
+ua | Pirozhki | Pirozhki | G
+ua | Kvass bread drink | Kvass | GT
+ru | Shchi | Russian cabbage soup | S
+ru | Ukha | Russian fish soup | S
+ru | Golubtsy | Russian golubtsy | DO
+ru | Kotlety | Russian kotlety | KF
+ru | Pozharsky cutlet | Pozharsky kotleta | KF
+ru | Zakuski | Russian zakuski | V
+ru | Kulebyaka | Russian kulebyaka | BO
+ru | Vatrushka | Russian vatrushka | G
+ru | Pryaniki | Russian pryaniki | G
+ru | Kisel | Russian kisel | D
+ru | Smetana soup | Russian smetana | S
+ru | Rassolnik | Russian rassolnik | S
+ru | Bitochki | Russian bitochki | KF
+ru | Zharkoe | Russian zharkoe | E
+ru | Kholodnik | Russian kholodnik | S
+ru | Pelmeni Siberian | Siberian pelmeni | MA
+ru | Oladyi | Russian oladyi | PF
+ru | Tvorozhniki | Russian tvorozhniki | PF
+ru | Ptichye moloko | Bird's milk cake | K
+ru | Napoleon cake | Napoleon tort | K
+ru | Sbiten | Russian sbiten | GT
+cy | Halloumi grilled | Cypriot halloumi | HV
+cy | Souvla | Cypriot souvla | HF
+cy | Sheftalia | Cypriot sheftalia | KF
+cy | Kleftiko | Cypriot kleftiko | HF
+cy | Afelia | Cypriot afelia | E
+cy | Loukaniko Cypriot | Cypriot loukaniko | WU
+cy | Koupepia | Cypriot koupepia | DO
+cy | Tavas | Cypriot tavas | E
+cy | Kolokasi | Cypriot kolokasi | E
+cy | Ravioli Cypriot | Cypriot ravioli | NA
+cy | Loukoumades Cypriot | Cypriot loukoumades | G
+cy | Daktyla | Cypriot daktyla | D
+cy | Glyko tou koutaliou | Spoon sweets | SW
+cy | Halloumi sandwich | Cypriot halloumi sandwich | SN
+cy | Lountza | Cypriot lountza | V
+mt | Stuffat tal-fenek | Maltese rabbit stew | E
+mt | Pastizzi | Maltese pastizzi | BO
+mt | Ftira | Maltese ftira | PZ
+mt | Bragioli | Maltese beef olives | HF
+mt | Aljotta | Maltese fish soup | S
+mt | Kinnie | Maltese Kinnie | GT
+mt | Imqaret | Maltese imqaret | G
+mt | Timpana | Maltese timpana | AU
+mt | Minestra Maltese | Maltese minestra | S
+mt | Lampuki pie | Maltese lampuki | BO
+mt | Qaghaq tal-appostli | Maltese apostles rings | G
+mt | Kapunata | Maltese kapunata | GZ
+mt | Gbejniet | Maltese gbejniet | SN
+mt | Hobz biz-zejt | Maltese hobz biz-zejt | SN
+lu | Judd mat Gaardebounen | Luxembourg smoked pork and broad beans | HF
+lu | Bouneschlupp | Luxembourg green bean soup | S
+lu | Gromperekichelcher | Luxembourg potato fritters | PF
+lu | Kniddelen | Luxembourg dumplings | KN
+lu | Träipen | Luxembourg blood sausage | WU
+lu | Quetschentaart | Luxembourg plum tart | K
+lu | Liewekniddelen | Luxembourg liver dumplings | KN
+lu | Féierstengszalot | Luxembourg beef salad | SA
+lu | Rieslingspaschtéit | Luxembourg Riesling pâté | V
+lu | Bouchées à la reine luxembourgeoise | Luxembourg vol-au-vent | HG

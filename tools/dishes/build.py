@@ -22,10 +22,11 @@ CATS = {
  'B':'Beilage','SA':'Salat','BR':'Brot','K':'Kuchen','RP':'Reisgericht','HH':'Hülsenfrüchte','SN':'Snack',
  'SD':'Sauce/Dip','WU':'Wurstgericht','BO':'Börek/Hamurişi','PI':'Pide/Lahmacun/Gözleme','MA':'Mantı/Teigtaschen',
  'KN':'Knödel/Kartoffelgericht','NA':'Nudelgericht','FL':'Fleischgericht (Braten)','EI':'Eiergericht','PF':'Pfannengericht',
+ 'PZ':'Pizza/Flammkuchen/Herzhafter Kuchen','AU':'Auflauf/Gratin',
  'KO':'Konserve/Eingelegtes','KR':'Kleingebäck/Gebäck herzhaft','SW':'Süßspeise/Sirupgebäck','PU':'Pudding/Milchdessert',
 }
 def translit(s, cuisine):
-    m = {'ı':'i','İ':'I','ş':'s','Ş':'S','ğ':'g','Ğ':'G','ç':'c','Ç':'C','â':'a','î':'i','û':'u','ê':'e','é':'e','è':'e'}
+    m = {'ł':'l','Ł':'L','đ':'d','Đ':'D','ø':'o','Ø':'O','æ':'ae','Æ':'Ae','ð':'d','þ':'th','œ':'oe','Œ':'Oe','ı':'i','İ':'I','ş':'s','Ş':'S','ğ':'g','Ğ':'G','ç':'c','Ç':'C','â':'a','î':'i','û':'u','ê':'e','é':'e','è':'e'}
     if cuisine == 'de':
         m.update({'ä':'ae','ö':'oe','ü':'ue','Ä':'Ae','Ö':'Oe','Ü':'Ue','ß':'ss'})
     else:
@@ -49,7 +50,7 @@ def load_ingredients():
 
 def load_batches():
     out = []
-    for path in sorted(glob.glob(os.path.join(HERE,'batches','*.py'))):
+    for path in sorted(glob.glob(os.path.join(HERE,'batches','*.py')), key=lambda p: (os.path.basename(p).startswith('eu_'), os.path.basename(p))):
         spec = importlib.util.spec_from_file_location(os.path.basename(path)[:-3], path)
         mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
         out.append((os.path.basename(path), mod.CUISINE, mod.TEXT))
@@ -58,7 +59,7 @@ def load_batches():
 def main():
     ing = load_ingredients()
     errors, warnings, dishes = [], [], []
-    ids = {}; names = {}
+    ids = {}; names = {}; allnames = {}
     for fname, cuisine, text in load_batches():
         for ln, line in enumerate(text.splitlines(), 1):
             line = line.strip()
@@ -104,10 +105,14 @@ def main():
             ids[did] = ctx
             nk = (cuisine, slug(name,cuisine))
             if nk in names: errors.append(f'{ctx} {name}: doppelter Name')
+            if cuisine not in ('tr','de'):
+                gk = slug(name,'x')
+                if gk in allnames and allnames[gk] != cuisine: errors.append(f'{ctx} {name}: Name existiert bereits in Küche {allnames[gk]}')
+            allnames.setdefault(slug(name,'x'), cuisine)
             names[nk] = ctx
             dishes.append((e, cat, yld))
     # Plausibilität
-    ALK_NAMES = {'Rotwein','Weißwein','Bier'}
+    ALK_NAMES = {'Rotwein','Weißwein','Bier','Spirituose 40 %','Sherry/Portwein/Likörwein','Likör','Apfelwein/Cider','Weinbrand/Rum'}
     flags = []
     for e, cat, yld in dishes:
         p = e['per100g']; est = 4*p['protein']+4*p['carbs']+9*p['fat']
@@ -135,11 +140,11 @@ def main():
     cnt = collections.Counter(d['cuisine'] for d in out)
     cc = collections.Counter((d['cuisine'],d['category']) for d in out)
     with open(os.path.join(HERE,'build_report.txt'),'w',encoding='utf8') as f:
-        f.write(f'Gerichte: {len(out)}  tr={cnt["tr"]} de={cnt["de"]}\nIngredients: {len(ing)}\nFehler: {len(errors)}\n')
+        f.write(f'Gerichte: {len(out)}  ' + ' '.join(f'{k}={v}' for k,v in sorted(cnt.items())) + f'\nIngredients: {len(ing)}\nFehler: {len(errors)}\n')
         for x in errors: f.write('ERR '+x+'\n')
         f.write('\nZu prüfen (Flags):\n'+'\n'.join(flags)+'\n\nKategorien:\n')
         for (c,k),n in sorted(cc.items()): f.write(f'{c} {k}: {n}\n')
-    print(f'Gerichte {len(out)} tr={cnt["tr"]} de={cnt["de"]} Fehler={len(errors)} Flags={len(flags)}')
+    print(f'Gerichte {len(out)} tr={cnt["tr"]} de={cnt["de"]} eu={len(out)-cnt["tr"]-cnt["de"]} Fehler={len(errors)} Flags={len(flags)}')
     for x in errors[:40]: print('ERR', x)
     for x in flags[:25]: print('FLAG', x)
     return 1 if errors else 0

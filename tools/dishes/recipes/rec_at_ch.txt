@@ -1,0 +1,44 @@
+Gebackenes Backhendl | 0.85 | 1 Portion | hahn_keule 200, paniermehl 25, ei 25, mehl 15, schmalz 25, zitrone 10
+Beuschel | 0.8 | 1 Portion | innereien 180, zwiebel 40, mehl 12, essig 10, sahne 40, butter 10, bruehe 150, senf 5
+Wiener Saftgulasch | 0.7 | 1 Portion | rind 200, zwiebel 160, paprikapulver 4, tomatenmark 15, essig 10, oel 12, bruehe 200
+Steirisches Wurzelfleisch | 0.9 | 1 Portion | schwein_nacken 180, karotte 50, sellerie 40, petersilie 10, kartoffel 150, meerrettich 10, bruehe 150
+Steirische Käferbohnensalat | 1.0 | 1 Portion | bohnen_trocken 70, wasser 150, zwiebel 30, essig 15, oel 15, salz 1
+Steirisches Kürbiskernöl Salat | 1.0 | 1 Schüssel | salat 100, tomate 50, kartoffel 60, kuerbiskerne 5, oel 12, essig 10
+Erdäpfelsalat österreichisch | 1.0 | 1 Portion | kartoffel 200, zwiebel 20, bruehe 40, essig 15, oel 15, senf 5
+Obatzda österreichisch | 1.0 | 1 Portion | camembert 100, butter 20, zwiebel 15, paprikapulver 2, bier 15, quark 20
+Schweinsbraten mit Knödel | 0.8 | 1 Teller | schwein_nacken 180, schmalz 8, zwiebel 30, bruehe 80, semmel 80, ei 20, milch 50, petersilie 3
+Stelze | 0.65 | 1 Portion | schwein_haxe 380, zwiebel 30, bier 80, bruehe 100
+Kardinalschnitte | 0.95 | 1 Stück | eiweiss 60, zucker 50, ei 30, mehl 20, sahne 80, kaffee 30, zucker 8
+Dobos-Torte Wien | 0.95 | 1 Stück | ei 30, zucker 35, mehl 25, butter 35, schokolade 25, zucker 15
+Einspänner | 1.0 | 1 Glas | kaffee 150, sahne 40, zucker 5
+Verlängerter | 1.0 | 1 Tasse | kaffee 200, milch 10
+Eierschwammerl mit Knödel | 0.85 | 1 Teller | pilz 250, zwiebel 30, butter 12, sahne 60, petersilie 5, semmel 70, ei 20, milch 40
+Fleischlaberl | 0.8 | 2 Stück | gemischtes_hack 150, semmel 25, ei 20, zwiebel 20, senf 5, schmalz 12
+Eierschwammerl-Sauce | 0.9 | 1 Portion | pilz 150, zwiebel 20, butter 10, sahne 60, mehl 5, petersilie 5
+Erdäpfelknödel | 0.95 | 3 Stück | kartoffel 220, mehl 40, griess 15, ei 20, butter 5
+Waldviertler Knödel | 0.95 | 2 Stück | kartoffel 150, mehl 50, schwein_nacken 40, zwiebel 10, schmalz 8
+Fisolen Gemüse | 0.9 | 1 Portion | gruene_bohnen 200, zwiebel 20, butter 10, sahne 40, mehl 5, dill 3
+Eierschwammerl Omelett | 0.9 | 1 Portion | ei 120, pilz 120, zwiebel 15, butter 12, petersilie 3
+Bratkartoffeln mit Zwiebel österreichisch | 0.85 | 1 Portion | kartoffel 250, zwiebel 50, schmalz 15, salz 1
+Backfleisch | 0.85 | 1 Portion | schwein_mager 160, paniermehl 20, ei 20, mehl 10, schmalz 25
+Osterpinze | 0.95 | 1 Stück | mehl 80, milch 30, ei 20, zucker 20, butter 20, hefe 4, rosinen 10
+Zillertaler Krapfen | 0.95 | 2 Stück | mehl 80, quark 40, ei 15, schmalz 25, honig 15
+Berner Platte | 0.85 | 1 Teller | schwein_bauch 120, rind 100, bratwurst 80, speck 40, sauerkraut 150, gruene_bohnen 80, kartoffel 150
+Pizokel | 0.95 | 1 Portion | mehl 100, ei 50, milch 40, butter 15, emmentaler 30, zwiebel 20
+Maluns | 0.8 | 1 Portion | kartoffel 250, mehl 40, butter 30
+Luzerner Chögalipaschtetli | 0.85 | 1 Portion | blaetterteig 70, kalb 100, schwein_mager 50, pilz 40, sahne 60, mehl 8, butter 10, wein_weiss 20
+Zürcher Eintopf | 0.9 | 1 Teller | schwein_nacken 100, kartoffel 150, karotte 50, lauch 50, weisskohl 50, bruehe 250, speck 20
+Schweizer Käseschnitte | 0.95 | 1 Stück | weissbrot 80, emmentaler 70, wein_weiss 30, ei 25, butter 5
+Cholera | 0.9 | 1 Stück | blaetterteig 100, kartoffel 80, lauch 40, apfel 40, emmentaler 50, speck 15
+Walliser Teller | 1.0 | 1 Platte | rohschinken 40, mettwurst 40, emmentaler 50, roggenbrot 60, gewuerzgurke 20, zwiebel 10
+Schaffhauser Bölletünne | 0.9 | 1 Stück | mehl 80, hefe 3, zwiebel 150, speck 30, sahne 50, ei 25,
+Zwiebelkuchen Schweizer | 0.9 | 1 Stück | mehl 80, butter 40, zwiebel 150, speck 30, ei 50, sahne 50, emmentaler 20
+Zürcher Züri-Gschnätzlets mit Rösti | 0.85 | 1 Teller | kalb 150, pilz 50, zwiebel 20, wein_weiss 40, sahne 60, butter 10, kartoffel 250, schmalz 15
+Saltimbocca ticinese | 0.85 | 1 Portion | kalb 150, rohschinken 30, butter 12, wein_weiss 30, bruehe 30,
+Meringue mit Doppelrahm | 1.0 | 1 Portion | eiweiss 60, zucker 60, sahne 80
+Appenzeller Chäsmagronen | 0.95 | 1 Portion | nudeln 90, kartoffel 100, emmentaler 60, sahne 40, zwiebel 30, butter 10
+Schweizer Heisse Schoggi | 1.0 | 1 Tasse | milch 200, schokolade 25, sahne 20
+Suure Mocke | 0.65 | 1 Portion | rind 220, zwiebel 40, karotte 30, essig 30, wein_rot 60, bruehe 100, mehl 8
+Kutteln nach Basler Art | 0.85 | 1 Portion | innereien 200, zwiebel 40, tomatenmark 15, wein_weiss 30, bruehe 100, mehl 8, oel 10
+Berner Haselnusslebkuchen | 0.95 | 1 Stück | haselnuss 40, zucker 40, ei 30, mehl 30, lebkuchen_gewuerz 2
+Tarte à la crème de Gruyère | 0.9 | 1 Stück | mehl 60, butter 30, sahne 100, emmentaler 50, ei 40

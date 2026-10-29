@@ -11,7 +11,7 @@ const get = async (path, init) => {
 let t = await get('/health');
 assert.equal(t.res.status, 200);
 assert.equal(t.body.status, 'ok');
-assert.equal(t.body.count, 1235);
+assert.equal(t.body.count, 1879);
 
 // Karnıyarık: ASCII, Originalschreibweise, ein fehlendes i.
 t = await get('/search?q=karniyarik&limit=3');
@@ -21,6 +21,8 @@ assert.equal(t.body.results[0].name, 'Karnıyarık');
 assert.equal(t.body.results[0].cuisine, 'tr');
 assert.equal(t.body.results[0].barcode, null);
 assert.equal(t.body.results[0].quality, 'estimate');
+assert.equal(t.body.results[0].prepared, 'homemade');
+assert.equal(t.body.results[0].is_packaged_product, false);
 assert.equal(t.body.results[0].per100g.kcal, 104);
 assert.equal('ingredients' in t.body.results[0], false);
 assert.ok(t.body.results.length <= 3);
@@ -48,7 +50,14 @@ assert.equal(t.body.id, 'karniyarik');
 assert.equal(t.body.barcode, null);
 assert.ok(Array.isArray(t.body.ingredients) && t.body.ingredients.length > 0);
 assert.equal(t.body.ingredients[0].name, 'Aubergine');
+assert.equal(t.body.prepared, 'homemade');
+assert.equal(t.body.is_packaged_product, false);
 assert.equal(t.res.headers.get('cache-control'), 'public, max-age=300');
+
+t = await get('/item/wiener-schnitzel');
+assert.equal(t.res.status, 200);
+assert.equal(t.body.is_packaged_product, false);
+assert.ok(Array.isArray(t.body.off_similar) && t.body.off_similar.length > 0 && t.body.off_similar.length <= 3);
 
 t = await get('/item/gibt-es-nicht');
 assert.equal(t.res.status, 404);

@@ -1,0 +1,668 @@
+at | Gebackenes Backhendl | Wiener Backhendl | HG
+at | Beuschel | Wiener Beuschel | E
+at | Wiener Saftgulasch | Saftgulasch | E
+at | Steirisches Wurzelfleisch | Wurzelfleisch | HF
+at | Steirische Käferbohnensalat | Käferbohnensalat | SA
+at | Steirisches Kürbiskernöl Salat | Kürbiskernöl Salat | SA
+at | Erdäpfelsalat österreichisch | Österreichischer Kartoffelsalat | SA
+at | Obatzda österreichisch | Obazda Österreich | SD
+at | Schweinsbraten mit Knödel | Österreichischer Schweinsbraten | HF
+at | Stelze | Wiener Stelze | HF
+at | Kardinalschnitte | Kardinalschnitte Wien | K
+at | Dobos-Torte Wien | Dobostorte | K
+at | Einspänner | Wiener Einspänner | GT
+at | Verlängerter | Wiener Verlängerter | GT
+at | Kaiserschmarrn mit Zwetschkenröster | Kaiserschmarrn Röster | D
+at | Fleischlaberl | Fleischlaberln | KF
+at | Eierschwammerl mit Knödel | Eierschwammerlgulasch | HV
+at | Eierschwammerl-Sauce | Pfifferlinge Rahmsauce | SD
+at | Erdäpfelknödel | Österreichischer Kartoffelknödel | KN
+at | Waldviertler Knödel | Waldviertler Knödel | KN
+at | Fisolen Gemüse | Fisolengemüse | GZ
+at | Eierschwammerl Omelett | Schwammerlomelett | EI
+at | Bratkartoffeln mit Zwiebel österreichisch | Röstkartoffeln | B
+at | Backfleisch | Wiener Backfleisch | HF
+at | Marillenmarmelade Palatschinken | Marillenpalatschinke | D
+at | Mehlspeise Wiener Krapfen | Krapfen Wien | G
+at | Osterpinze | Pinze | K
+at | Zillertaler Krapfen | Zillertaler Krapfen | G
+ch | Berner Platte | Bernese platter | E
+ch | Pizokel | Pizokels | NA
+ch | Maluns | Bündner Maluns | B
+ch | Luzerner Chögalipaschtetli | Chügelipastete | HG
+ch | Zürcher Eintopf | Swiss Eintopf | E
+ch | Schweizer Käseschnitte | Cheese toast Swiss | SN
+ch | Cholera | Walliser Cholera | BO
+ch | Walliser Teller | Valais platter | V
+ch | Cordon bleu Schweiz | Swiss cordon bleu | HF
+ch | Schaffhauser Bölletünne | Bölletünne | PZ
+ch | Zwiebelkuchen Schweizer | Swiss onion tart | PZ
+ch | Zürcher Züri-Gschnätzlets mit Rösti | Züri-Gschnätzlets | HF
+ch | Saltimbocca ticinese | Ticino saltimbocca | HF
+ch | Meringue mit Doppelrahm | Gruyère meringue cream | D
+ch | Appenzeller Chäsmagronen | Chäsmagronen | NA
+ch | Ovomaltine Brot | Ovo bread | SN
+ch | Schweizer Heisse Schoggi | Swiss hot chocolate | GT
+ch | Suure Mocke | Sauerbraten Swiss | HF
+ch | Kutteln nach Basler Art | Basler Kutteln | E
+ch | Berner Haselnusslebkuchen | Bernese hazelnut cake | K
+ch | Tarte à la crème de Gruyère | Gruyère double cream tart | K
+rs | Karađorđeva šnicla | Karadjordje schnitzel | HF
+rs | Gibanica | Serbian gibanica | PZ
+rs | Burek sa mesom | Serbian meat burek | BO
+rs | Srpska salata | Serbian salad | SA
+rs | Šopska salata | Shopska salad | SA
+rs | Punjene paprike | Serbian stuffed peppers | DO
+rs | Sogan-dolma | Serbian sogan dolma | DO
+rs | Teleća čorba | Serbian veal soup | S
+rs | Pasulj prebranac | Serbian bean stew | HV
+rs | Sremski čvarci | Serbian cracklings | SN
+rs | Pita zeljanica | Serbian spinach pie | BO
+rs | Palačinke sa orasima | Serbian walnut pancakes | D
+rs | Kačamak | Serbian kačamak | B
+rs | Ćufte u paradajz sosu | Serbian meatballs tomato | KF
+rs | Mućkalica | Serbian mućkalica | E
+rs | Roštilj mešano meso | Serbian mixed grill | HF
+rs | Rakija šljivovica | Serbian plum brandy | GT
+hr | Pašticada | Dalmatian pašticada | E
+hr | Crni rižot | Black risotto Croatian | RP
+hr | Brudet | Dalmatian brudet | HFi
+hr | Janjetina na ražnju | Croatian spit-roast lamb | HF
+hr | Purica s mlincima | Croatian turkey with mlinci | HG
+hr | Sarma hrvatska | Croatian sarma | DO
+hr | Grah varivo | Croatian bean stew | E
+hr | Fuži s tartufima | Istrian fuži truffle | NA
+hr | Fritaja sa šparogama | Istrian asparagus frittata | EI
+hr | Skradinski rižot | Skradin risotto | RP
+hr | Gregada | Hvar gregada | HFi
+hr | Soparnik | Soparnik Dalmatian | PZ
+hr | Viška pogača | Vis pogača | PZ
+hr | Rozata | Dubrovnik rozata | PU
+hr | Fritule | Croatian fritule | G
+hr | Međimurska gibanica | Međimurje gibanica | K
+hr | Krafne | Croatian krafne | G
+hr | Šniclica | Croatian šnicla | HF
+ba | Bosanski lonac | Bosnian pot | E
+ba | Bosanska pita | Bosnian pita | BO
+ba | Klepe | Bosnian klepe | MA
+ba | Japrak | Bosnian japrak | DO
+ba | Ćevapi sarajevski | Sarajevo ćevapi | KF
+ba | Tufahije | Bosnian tufahije | D
+ba | Hurmašice | Bosnian hurmašice | D
+ba | Bosanska kahva | Bosnian coffee | GT
+ba | Uštipci | Bosnian uštipci | G
+ba | Bosanski ćevap sa kajmakom | Bosnian ćevapi with kajmak | KF
+ba | Pastrmka sa žara | Grilled trout Bosnian | HFi
+ba | Dolma bosanska | Bosnian dolma | DO
+bg | Shopska salad | Shopska | SA
+bg | Kavarma | Bulgarian kavarma | E
+bg | Moussaka bulgarian | Bulgarian moussaka | AU
+bg | Sarmi | Bulgarian sarmi | DO
+bg | Tripe soup bulgarian | Shkembe chorba | S
+bg | Patatnik | Bulgarian patatnik | AU
+bg | Snezhanka salad | Snezhanka | SA
+bg | Bob chorba | Bulgarian bean soup | S
+bg | Mish-mash | Bulgarian mish-mash | EI
+bg | Gyuvech | Bulgarian gyuvech | E
+bg | Bulgarian yogurt with honey | Kiselo mlyako s med | D
+bg | Katmi | Bulgarian katmi | PF
+bg | Mekitsi | Bulgarian mekitsi | G
+bg | Tikvenik | Bulgarian pumpkin banitsa | BO
+bg | Kozunak | Bulgarian kozunak | K
+al | Tavë kosi | Albanian tavë kosi | AU
+al | Byrek | Albanian byrek | BO
+al | Qofte të fërguara | Albanian fried meatballs | KF
+al | Speca me gjizë | Albanian peppers with cottage cheese | HV
+al | Trahana albanian | Albanian trahana soup | S
+al | Revani Albanian | Albanian revani | K
+al | Flia | Albanian flia | PF
+al | Pite me spinaq | Albanian spinach pie | BO
+al | Japrak albanian | Albanian japrak | DO
+mk | Tavče gravče | Macedonian baked beans | E
+mk | Selsko meso | Macedonian village meat | E
+mk | Zelnik | Macedonian zelnik | BO
+mk | Burek makedonski | Macedonian burek | BO
+mk | Pastrmajlija | Pastrmajlija | PZ
+mk | Mekici | Macedonian mekici | G
+mk | Ajvar makedonski | Macedonian ajvar | SD
+mk | Turli tava | Macedonian turli tava | E
+mk | Kebapi makedonski | Macedonian kebapi | KF
+mk | Polneti piperki | Macedonian stuffed peppers | DO
+si | Jota slovenska | Slovenian jota | S
+si | Potica | Slovenian potica | K
+si | Idrijski žlikrofi | Idrija žlikrofi | MA
+si | Pražen krompir | Slovenian fried potatoes | B
+si | Bučno olje solata | Slovenian pumpkin oil salad | SA
+ro | Mămăligă cu brânză și smântână | Mămăligă | B
+ro | Sarmale | Romanian sarmale | DO
+ro | Ciorbă de legume | Romanian vegetable sour soup | S
+ro | Tochitură moldovenească | Romanian tochitură | E
+ro | Mămăligă cu ouă | Romanian polenta with eggs | B
+ro | Sărmăluțe în foi de viță | Romanian vine leaf rolls | DO
+ro | Pomana porcului | Romanian pork feast | HF
+ro | Pateu de ficat | Romanian liver pâté | V
+ro | Ostropel | Romanian ostropel | E
+ro | Pilaf românesc | Romanian pilaf | RP
+ro | Pește pane | Romanian breaded fish | HFi
+ro | Dobos romanian | Romanian dobos | K
+ro | Țuică | Romanian țuică | GT
+ro | Mămăligă tocană | Romanian polenta stew | E
+ua | Varenyky | Ukrainian varenyky | MA
+ua | Holubtsi | Ukrainian holubtsi | DO
+ua | Deruny | Ukrainian potato pancakes | PF
+ua | Syrnyky | Ukrainian syrnyky | PF
+ua | Salo | Ukrainian salo | SN
+ua | Kulish | Ukrainian kulish | S
+ua | Banosh | Ukrainian banosh | B
+ua | Halushky | Ukrainian halushky | KN
+ua | Vushka | Ukrainian vushka | MA
+ua | Kholodnyk | Ukrainian cold soup | S
+ua | Pampushky | Ukrainian pampushky | BR
+ua | Paska | Ukrainian paska | K
+ua | Kovbasa ukrainian | Ukrainian kovbasa | WU
+ua | Kholodets | Ukrainian aspic | V
+ua | Zrazy ukrainian | Ukrainian zrazy | KF
+ua | Shuba | Herring under a fur coat | SA
+ua | Pirozhki | Pirozhki | G
+ru | Shchi | Russian cabbage soup | S
+ru | Ukha | Russian fish soup | S
+ru | Kotlety | Russian kotlety | KF
+ru | Pozharsky cutlet | Pozharsky kotleta | KF
+ru | Zakuski | Russian zakuski | V
+ru | Kulebyaka | Russian kulebyaka | BO
+ru | Smetana soup | Russian smetana | S
+ru | Bitochki | Russian bitochki | KF
+ru | Zharkoe | Russian zharkoe | E
+ru | Kholodnik | Russian kholodnik | S
+ru | Oladyi | Russian oladyi | PF
+ru | Tvorozhniki | Russian tvorozhniki | PF
+ru | Ptichye moloko | Bird's milk cake | K
+ru | Sbiten | Russian sbiten | GT
+cy | Souvla | Cypriot souvla | HF
+cy | Sheftalia | Cypriot sheftalia | KF
+cy | Kleftiko | Cypriot kleftiko | HF
+cy | Afelia | Cypriot afelia | E
+cy | Loukaniko Cypriot | Cypriot loukaniko | WU
+cy | Koupepia | Cypriot koupepia | DO
+cy | Tavas | Cypriot tavas | E
+cy | Kolokasi | Cypriot kolokasi | E
+cy | Ravioli Cypriot | Cypriot ravioli | NA
+cy | Loukoumades Cypriot | Cypriot loukoumades | G
+cy | Daktyla | Cypriot daktyla | D
+cy | Glyko tou koutaliou | Spoon sweets | SW
+cy | Halloumi sandwich | Cypriot halloumi sandwich | SN
+mt | Stuffat tal-fenek | Maltese rabbit stew | E
+mt | Ftira | Maltese ftira | PZ
+mt | Bragioli | Maltese beef olives | HF
+mt | Aljotta | Maltese fish soup | S
+mt | Timpana | Maltese timpana | AU
+mt | Minestra Maltese | Maltese minestra | S
+mt | Lampuki pie | Maltese lampuki | BO
+mt | Qaghaq tal-appostli | Maltese apostles rings | G
+mt | Gbejniet | Maltese gbejniet | SN
+mt | Hobz biz-zejt | Maltese hobz biz-zejt | SN
+lu | Judd mat Gaardebounen | Luxembourg smoked pork and broad beans | HF
+lu | Gromperekichelcher | Luxembourg potato fritters | PF
+lu | Träipen | Luxembourg blood sausage | WU
+lu | Quetschentaart | Luxembourg plum tart | K
+lu | Liewekniddelen | Luxembourg liver dumplings | KN
+lu | Féierstengszalot | Luxembourg beef salad | SA
+lu | Rieslingspaschtéit | Luxembourg Riesling pâté | V
+nl | Gehaktbal met jus | Dutch meatball | KF
+nl | Rookworst met zuurkool | Dutch smoked sausage with sauerkraut | WU
+nl | Patatje oorlog | Patatje met | SN
+nl | Broodje haring | Herring sandwich Dutch | SN
+nl | Uitsmijter ham kaas | Uitsmijter | EI
+nl | Vlaai | Limburgse vlaai | K
+nl | Hagelslag boterham | Bread with sprinkles | FR
+nl | Rijstebrij | Dutch rice porridge | PU
+nl | Zuurkoolschotel | Sauerkraut casserole Dutch | AU
+nl | Nasi goreng Nederlands | Dutch nasi goreng | RP
+nl | Bami goreng Nederlands | Dutch bami goreng | NA
+nl | Gado-gado Nederlands | Dutch gado-gado | SA
+nl | Gouda kaas boterham | Dutch cheese sandwich | SN
+nl | Erwtensoep met roggebrood | Snert met roggebrood | S
+nl | Mosselen met friet | Dutch mussels and fries | HFi
+nl | Pindasaus satésaus Nederlands | Dutch satay sauce | SD
+be | Konijn met pruimen | Rabbit with prunes Flemish | HF
+be | Witloof met hesp en kaas | Endives au gratin Belgian | AU
+be | Boulets liégeois | Liège meatballs | KF
+be | Gentse waterzooi | Ghent waterzooi | E
+be | Moules-frites belges | Belgian moules frites | HFi
+be | Frites met mayonaise | Belgian fries mayo | SN
+be | Mattentaart | Mattentaart Geraardsbergen | K
+be | Boterkoek Belgian | Belgian boterkoek | K
+be | Hoofdkaas | Belgian head cheese | V
+be | Faisan à la brabançonne | Pheasant Brabant | HG
+be | Bloedworst met appelen | Black pudding with apples Belgian | WU
+es | Arroz caldoso de bogavante | Lobster brothy rice | RP
+es | Arroz con conejo y caracoles | Rabbit and snail rice | RP
+es | Tortilla de gambas | Shrimp tortilla Cádiz | EI
+es | Huevos rotos con jamón | Broken eggs with ham | EI
+es | Huevos a la flamenca | Flamenca eggs | EI
+es | Olla podrida | Olla podrida burgalesa | E
+es | Espinacas a la catalana | Catalan spinach | GZ
+es | Patatas arrugadas con mojo | Canarian wrinkled potatoes | B
+es | Ensalada mixta española | Spanish mixed salad | SA
+es | Ensalada de tomate con ventresca | Tomato and tuna belly salad | SA
+es | Pipirrana | Andalusian pipirrana | SA
+es | Esqueixada | Esqueixada catalana | SA
+es | Gambas a la plancha | Grilled prawns | V
+es | Pescaíto frito | Fried fish Andalusian | HFi
+es | Sardinas a la plancha | Grilled sardines Spanish | HFi
+es | Zarzuela de pescado | Zarzuela | E
+es | Besugo al horno | Baked sea bream | HFi
+es | Rape a la marinera | Monkfish marinera | HFi
+es | Vieiras gallegas | Galician scallops | HFi
+es | Tabla de jamón y queso | Spanish ham and cheese board | V
+es | Montadito de lomo | Lomo montadito | SN
+es | Bocadillo de calamares | Calamari sandwich Madrid | SN
+es | Pincho de tortilla | Tortilla pincho | V
+es | Txangurro | Txangurro al horno, Basque spider crab | HFi
+es | Chuletón a la brasa | Grilled ribeye Basque | HF
+es | Cordero asado | Roast lamb Castilian | HF
+es | Lechazo asado | Roast milk lamb | HF
+es | Solomillo al whisky | Whisky pork tenderloin | HF
+es | Pollo en pepitoria | Chicken in almond sauce | HG
+es | Chorizo al vino | Chorizo in wine | V
+es | Calçots con salsa romesco | Calçotada | V
+es | Papas con mojo | Canarian potatoes with mojo | B
+es | Cargols a la llauna | Catalan snails | HF
+es | Canelones catalanes | Catalan cannelloni | AU
+es | Coca de recapte | Catalan coca | PZ
+es | Mel i mató | Mató con miel | D
+es | Queso manchego con membrillo | Manchego and quince | V
+es | Agua de Valencia | Valencia water | GT
+es | Zurrukutuna | Basque garlic cod soup | S
+es | Sopa castellana | Castilian egg garlic soup | S
+es | Cocido maragato | Maragato stew | E
+es | Zarangollo | Zarangollo murciano | EI
+es | Ternasco asado | Roast Aragonese lamb | HF
+es | Pollo chilindrón | Chicken chilindrón | HG
+es | Espetos de sardinas | Málaga sardine skewers | HFi
+es | Berenjenas con miel | Fried aubergine with honey | V
+es | Champiñones al ajillo | Garlic champignons Spanish | V
+es | Pulpo a la brasa | Grilled octopus Spanish | V
+es | Sepia a la plancha | Grilled cuttlefish | HFi
+fr | Pan bagnat | Pan-bagnat | SN
+fr | Moules frites | Mussels and fries | HFi
+fr | Truite aux amandes | Trout almondine | HFi
+fr | Plateau de fruits de mer | Seafood platter French | V
+fr | Foie gras poêlé | Pan-seared foie gras | V
+fr | Croque-monsieur végétarien | Veggie croque | SN
+fr | Tarte aux pommes alsacienne | Alsatian apple tart | K
+fr | Soufflé au Grand Marnier | Grand Marnier soufflé | D
+fr | Œufs mayonnaise | Oeufs mayo | V
+fr | Œufs en meurette | Oeufs en meurette | EI
+fr | Œufs cocotte | Oeufs en cocotte | EI
+fr | Steak frites | Steak-frites | HF
+fr | Entrecôte sauce béarnaise | Entrecôte béarnaise | HF
+fr | Carbonnade flamande française | Carbonade nordiste | E
+fr | Haricots verts à l'ail | Garlic green beans French | GZ
+fr | Salade de chèvre chaud | Warm goat cheese salad | SA
+fr | Salade au lardons et croûtons | Frisée aux lardons | SA
+fr | Taboulé français | French tabbouleh | SA
+fr | Potage Parmentier | Leek potato soup French | S
+fr | Fondue bourguignonne | Beef fondue Bourguignonne | HF
+fr | Tablier de sapeur | Tablier de sapeur lyonnais | HF
+fr | Dacquoise | Dacquoise aux noisettes | K
+fr | Kir | Kir au vin blanc | GT
+fr | Brouillade de truffe | Truffle scrambled eggs | EI
+fr | Marmite dieppoise | Marmite dieppoise fish stew | E
+fr | Salade de gésiers | Gizzard salad | SA
+fr | Tarte aux poireaux et lardons | Leek and bacon tart | PZ
+fr | Bretzel alsacien | Alsatian pretzel | BR
+fr | Spätzle alsaciennes | Alsatian spaetzle | NA
+fr | Gougère bourguignonne | Burgundy gougère | SN
+gb | Roast beef and Yorkshire pudding | British Sunday roast beef | HF
+gb | Roast lamb with mint sauce | British roast lamb | HF
+gb | Roast chicken dinner British | Sunday roast chicken | HG
+gb | Lancashire hotpot | Hotpot Lancashire | E
+gb | Irish stew British lamb | Scouse | E
+gb | Liverpool scouse | Scouse stew | E
+gb | Cranachan | Scottish cranachan | D
+gb | Clootie dumpling | Clootie pudding | K
+gb | Kedgeree | Kedgeree rice fish egg | RP
+gb | Welsh rarebit | Welsh rabbit | SN
+gb | Cawl | Welsh cawl | E
+gb | Glamorgan sausage | Selsig Morgannwg | SN
+gb | Syllabub | Lemon syllabub | D
+gb | Scones with jam and cream | Cream tea | G
+gb | Digestive biscuit with cheese | British cheese and biscuits | SN
+gb | Beans on toast | Baked beans on toast | SN
+gb | Cheese on toast | Grilled cheese on toast British | SN
+gb | Jacket potato with cheese and beans | Baked jacket potato | HV
+gb | Macaroni cheese British | Mac and cheese British | AU
+gb | Chip butty | Chip sandwich | SN
+gb | Pie and mash | London pie and mash | HF
+gb | Jellied eels | Jellied eel | V
+gb | Faggots and peas | Faggots | HF
+gb | Gammon, egg and chips | Gammon egg and chips | HF
+gb | Brown Windsor soup | Windsor soup | S
+gb | Potted shrimps | Morecambe Bay potted shrimps | V
+gb | Cucumber sandwich | English cucumber sandwiches | SN
+gb | Shepherd's pie vegetarian | Vegetarian shepherd's pie | AU
+gb | Stargazy pie | Stargazy pie Cornish | BO
+gb | Cumberland rum nicky | Rum nicky | K
+gb | Banbury cake | Banbury cakes | G
+gb | Simnel cake | Easter simnel | K
+gb | Sussex pond pudding | Sussex pond | K
+gb | Gingerbread British | Grasmere gingerbread | K
+gb | Tea English breakfast with milk | British builder's tea | GT
+ie | Coddle | Dublin coddle | E
+ie | Colcannon | Irish colcannon | B
+ie | Guinness stew | Beef and Guinness stew | E
+ie | Seafood chowder Irish | Irish seafood chowder | S
+ie | Dublin lawyer | Dublin lawyer lobster | HFi
+ie | Crubeens | Pigs trotters Irish | HF
+ie | Drisheen | Cork drisheen | WU
+ie | Potato farl | Farl | BR
+ie | Irish apple cake | Apple cake Irish | K
+ie | Skirts and kidneys | Skirts and kidneys Cork | E
+ie | Beef and Guinness pie | Irish beef pie | BO
+gr | Kreatopita | Κρεατόπιτα, Greek meat pie | BO
+gr | Hortopita | Χορτόπιτα | BO
+gr | Bourekia Chania | Μπουρέκι Χανίων | BO
+gr | Gemista rice | Γεμιστά με ρύζι | DO
+gr | Melitzanes imam | Μελιτζάνες ιμάμ, Greek imam baildi | GZ
+gr | Fasolada | Φασολάδα, Greek bean soup | S
+gr | Fakes | Φακές, Greek lentil soup | S
+gr | Avgolemono soup | Αυγολέμονο | S
+gr | Kakavia | Κακαβιά, Greek fish soup | S
+gr | Magiritsa | Μαγειρίτσα | S
+gr | Patsas | Πατσάς | S
+gr | Kokkinisto | Κοκκινιστό | E
+gr | Stuffed bifteki | Μπιφτέκι γεμιστό | KF
+gr | Youvarlakia | Γιουβαρλάκια | S
+gr | Lemon potatoes chicken Greek | Κοτόπουλο με πατάτες φούρνου | HG
+gr | Chicken giouvetsi | Κοτόπουλο γιουβέτσι | HG
+gr | Paidakia | Παϊδάκια, Greek lamb chops | HF
+gr | Kokoretsi | Κοκορέτσι | HF
+gr | Splinantero | Σπληνάντερο | HF
+gr | Lamb with peas Greek | Αρνί με αρακά | HF
+gr | Briam | Μπριάμ, Greek roasted vegetables | GZ
+gr | Artichokes a la polita | Αγκινάρες α λα πολίτα | GZ
+gr | Lahanorizo | Λαχανόρυζο | RP
+gr | Horta vrasta | Χόρτα βραστά, Boiled greens Greek | GZ
+gr | Kolokithokeftedes | Κολοκυθοκεφτέδες, Zucchini fritters Greek | SN
+gr | Domatokeftedes | Ντοματοκεφτέδες, Santorini tomato fritters | SN
+gr | Fried zucchini Greek | Τηγανητά κολοκυθάκια | V
+gr | Fava Santorini | Φάβα Σαντορίνης | SD
+gr | Greek hummus | Χούμους ελληνικός | SD
+gr | Lahanosalata | Λαχανοσαλάτα, Greek cabbage salad | SA
+gr | Patatosalata | Πατατοσαλάτα, Greek potato salad | SA
+gr | Pantzarosalata | Παντζαροσαλάτα, Greek beet salad | SA
+gr | Baked feta Greek | Φέτα ψητή στο φούρνο | V
+gr | Bouyiourdi | Μπουγιουρντί | V
+gr | Htapodi xidato | Χταπόδι ξιδάτο, Octopus in vinegar | V
+gr | Htapodi krasato | Χταπόδι κρασάτο, Octopus in wine | HFi
+gr | Kalamarakia | Καλαμαράκια τηγανητά, Fried calamari Greek | HFi
+gr | Garides saganaki | Γαρίδες σαγανάκι | HFi
+gr | Midia saganaki | Μύδια σαγανάκι | HFi
+gr | Midia ahnista | Μύδια αχνιστά | HFi
+gr | Bakaliaros skordalia | Μπακαλιάρος σκορδαλιά | HFi
+gr | Psari plaki | Ψάρι πλακί | HFi
+gr | Gavros marinatos | Γαύρος μαρινάτος | V
+gr | Sardeles psites | Σαρδέλες ψητές | HFi
+gr | Barbounia | Μπαρμπούνια τηγανητά, Fried red mullet | HFi
+gr | Fried anchovies Greek | Γαύρος τηγανητός | HFi
+gr | Bourdeto | Μπουρδέτο | E
+gr | Cuttlefish with spinach | Σουπιές με σπανάκι | HFi
+gr | Sole with lemon Greek | Γλώσσα με λεμόνι | HFi
+gr | Tiganiá | Τηγανιά, Pork tigania | PF
+gr | Kontosouvli | Κοντοσούβλι | HF
+gr | Greek village sausage | Λουκάνικο Χωριάτικο | WU
+gr | Tsouknidopita | Τσουκνιδόπιτα | BO
+gr | Galaktoboureko | Γαλακτομπούρεκο | SW
+gr | Portokalopita | Πορτοκαλόπιτα | K
+gr | Ravani | Ραβανί | K
+gr | Samali | Σαμαλί | K
+gr | Diples | Διπλές | SW
+gr | Halva Greek semolina | Χαλβάς σιμιγδαλένιος | PU
+gr | Spoon sweets | Γλυκό του κουταλιού | D
+gr | Karydopita | Καρυδόπιτα | K
+gr | Vasilopita | Βασιλόπιτα | K
+gr | Freddo cappuccino | Φρέντο καπουτσίνο | GT
+gr | Ouzo and meze | Ούζο με μεζέ | V
+gr | Tsipouro | Τσίπουρο | GT
+gr | Sfakianes pites | Σφακιανή πίτα | PI
+gr | Kalitsounia | Καλιτσούνια | G
+gr | Greek anchovies | Αντζούγιες | V
+gr | Lemony lamb | Αρνάκι λεμονάτο | HF
+gr | Lahanodolmades | Λαχανοντολμάδες | DO
+gr | Makaronia me kima | Μακαρόνια με κιμά | NA
+gr | Shrimp pasta Greek | Μακαρονάδα με γαρίδες | NA
+gr | Kritharoto | Κριθαρότο | RP
+gr | Seafood giouvetsi | Γιουβέτσι θαλασσινών | NA
+gr | Baked chickpeas Greek | Ρεβύθια φούρνου | HH
+gr | Koukia | Κουκιά λαδερά | HH
+gr | Grilled red mullet | Μπαρμπούνια ψητά | HFi
+it | Pasta alla gricia | Gricia | NA
+it | Pappardelle al cinghiale | Wild boar pappardelle | NA
+it | Spaghetti alla Nerano | Spaghetti Nerano, Zucchini spaghetti Nerano | NA
+it | Cavatelli broccoli e salsiccia | Cavatelli with sausage | NA
+it | Risotto al radicchio e gorgonzola | Radicchio risotto | RP
+it | Polenta e osei | Polenta and birds | HF
+it | Cotoletta alla milanese | Milanese veal cutlet, Costoletta milanese | HF
+it | Bistecca alla fiorentina | Florentine steak | HF
+it | Stracotto di manzo | Stracotto | HF
+it | Trippa alla romana | Roman tripe | HF
+it | Coda alla vaccinara | Oxtail stew Roman | HF
+it | Abbacchio alla scottadito | Scottadito lamb chops | HF
+it | Abbacchio al forno con patate | Roast lamb with potatoes Roman | HF
+it | Arista di maiale al latte | Pork loin in milk | HF
+it | Involtini alla messinese | Messina beef rolls | HF
+it | Pollo con i peperoni | Chicken with peppers Roman | HG
+it | Coniglio alla ligure | Ligurian rabbit | HF
+it | Pesce spada alla ghiotta | Swordfish ghiotta | HFi
+it | Acqua pazza | Fish in crazy water | HFi
+it | Brodetto di pesce | Adriatic fish stew | E
+it | Spiedini di gamberi | Prawn skewers Italian | HFi
+it | Insalata di arance e finocchi | Orange fennel salad Sicilian | SA
+it | Acquacotta | Maremma vegetable soup | S
+it | Stracciatella alla romana | Stracciatella soup, Italian egg drop soup | S
+it | Zuppa pavese | Pavese soup | S
+it | Cassoeula | Cassoeula milanese | E
+it | Cicoria e fagioli | Chicory and beans | HH
+it | Frittata di zucchine | Zucchini frittata | EI
+it | Frittata di cipolle | Onion frittata | EI
+it | Uova in purgatorio | Eggs in purgatory | EI
+it | Fiori di zucca fritti | Fried zucchini flowers | V
+it | Prosciutto e melone | Ham and melon | V
+it | Bresaola con rucola e grana | Bresaola rocket parmesan | V
+it | Burrata con pomodorini | Burrata and tomatoes | V
+it | Panino con porchetta | Porchetta sandwich | SN
+it | Panino al lampredotto | Lampredotto sandwich | SN
+it | Pane e panelle | Panelle sandwich | SN
+it | Crostata di marmellata | Italian jam tart | K
+it | Cassatelle di Agira | Cassatelle | G
+it | Cioccolata calda italiana | Italian hot chocolate | GT
+it | Tigella con salumi | Tigelle emiliane | SN
+it | Torta di verdure | Italian vegetable pie | BO
+it | Stoccafisso alla ligure | Stockfish Ligurian | HFi
+it | Spezzatino di manzo con patate | Italian beef stew | E
+it | Salsiccia e patate al forno | Sausage and potatoes | HF
+it | Spätzle al ragù altoatesini | Spätzle Südtirol | NA
+it | Porceddu | Sardinian roast suckling pig | HF
+it | Penne al pomodoro e basilico | Penne pomodoro basilico | NA
+it | Pasta con le sarde | Sicilian sardine pasta | NA
+it | Pasta alla Siracusana | Siracusa pasta | NA
+it | Pasta ammuddicata | Pasta con la mollica | NA
+it | Spaghetti alla Assassina | Assassin's spaghetti | NA
+it | Paniscia novarese | Paniscia | RP
+it | Pasta e patate | Pasta and potatoes Neapolitan | E
+it | Carabaccia | Tuscan onion soup | S
+se | Rårakor | Rarakor | PF
+se | Sill och potatis | Herring and potatoes Swedish | V
+se | Räksmörgås | Swedish shrimp sandwich | SN
+se | Kåldolmar | Swedish cabbage rolls | DO
+se | Lutfisk | Swedish lutfisk | HFi
+se | Gubbröra | Swedish egg anchovy spread | SD
+se | Knäckebröd med ost | Crispbread with cheese | SN
+se | Ägghalva | Swedish egg halves | V
+no | Fårikål | Norwegian mutton and cabbage | E
+no | Lutefisk norsk | Norwegian lutefisk | HFi
+no | Kjøttkaker i brun saus | Norwegian meat cakes | KF
+no | Raspeballer | Komle, Norwegian potato dumplings | KN
+no | Bacalao norsk | Norwegian bacalao | E
+no | Brunost på brød | Brown cheese on bread | SN
+no | Krumkake | Norwegian krumkake | G
+no | Multekrem | Cloudberry cream | D
+no | Kvæfjordkake | World's best cake Norwegian | K
+no | Hvit saus fiskekaker | Norwegian fish cakes | KF
+dk | Stegt flæsk med persillesovs | Danish fried pork with parsley sauce | HF
+dk | Flæskesteg med rødkål | Danish roast pork with red cabbage | HF
+dk | Smørrebrød med leverpostej | Danish liver pâté sandwich | SN
+dk | Smørrebrød med røget laks | Danish smoked salmon open sandwich | SN
+dk | Smørrebrød med roastbeef | Danish roast beef open sandwich | SN
+dk | Stjerneskud | Danish stjerneskud | SN
+dk | Æggekage | Danish egg cake | EI
+dk | Rødgrød med fløde | Danish red berry pudding | D
+dk | Æbleflæsk | Danish apple bacon | HF
+dk | Hakkebøf med løg | Danish hakkebøf | KF
+dk | Gullasch dansk | Danish gulasch | E
+dk | Øllebrød | Danish rye bread porridge | FR
+dk | Tarteletter med høns i asparges | Danish tartlets chicken asparagus | HG
+dk | Kogt torsk med sennepssovs | Danish cod mustard sauce | HFi
+dk | Stegt rødspætte | Danish fried plaice | HFi
+dk | Hønsekødssuppe med melboller | Danish chicken soup meatballs | S
+dk | Rugbrød med ost | Danish rye bread cheese | SN
+dk | Kartoffelsalat dansk | Danish potato salad | SA
+dk | Dansk leverpostej | Danish liver pâté | V
+fi | Kalakukko | Finnish kalakukko | BO
+fi | Rieska | Finnish rieska | BR
+fi | Pulla | Finnish pulla | G
+fi | Silakkapihvit | Baltic herring patties | HFi
+fi | Rössypottu | Finnish rössypottu | E
+fi | Kropsu | Finnish oven pancake | PF
+fi | Lörtsy | Finnish lörtsy | G
+fi | Voileipäkakku | Finnish sandwich cake | V
+is | Kjötsúpa | Icelandic lamb soup | S
+is | Skyr með bláberjum | Icelandic skyr blueberries | D
+is | Hákarl | Fermented shark | V
+ee | Rosolje | Estonian rosolje | SA
+ee | Hapukapsas hautis | Estonian sauerkraut stew | E
+ee | Kiluvõileib | Estonian sprat sandwich | SN
+lv | Speķa pīrāgi | Latvian bacon buns | G
+lt | Kugelis | Lithuanian potato kugel | AU
+lt | Kibinai | Lithuanian kibinai | BO
+lt | Balandėliai | Lithuanian cabbage rolls | DO
+lt | Bulviniai blynai | Lithuanian potato pancakes | PF
+lt | Skilandis | Lithuanian skilandis | WU
+lt | Vėdarai | Lithuanian vėdarai | WU
+lt | Barščiai su ausytėmis | Lithuanian borscht with dumplings | S
+lt | Trakų pyragas | Trakai pie | BO
+pl | Zrazy wołowe | Polish zrazy | HF
+pl | Rolada śląska | Silesian beef roulade | HF
+pl | Żeberka w kapuście | Polish ribs in cabbage | E
+pl | Golonka po polsku | Polish pork knuckle | HF
+pl | Kaczka z jabłkami | Polish duck with apples | HG
+pl | Flaki po polsku | Polish tripe soup | S
+pl | Rosół z makaronem | Polish chicken noodle soup | S
+pl | Chłodnik litewski | Polish cold beet soup | S
+pl | Zupa szczawiowa | Polish sorrel soup | S
+pl | Placek po węgiersku | Polish Hungarian-style pancake | PF
+pl | Kasza gryczana z boczkiem | Buckwheat with bacon | B
+pl | Śledź po kaszubsku | Kashubian herring | V
+pl | Karp smażony | Polish fried carp | HFi
+pl | Kiszona kapusta zasmażana | Polish braised sauerkraut | GZ
+pl | Sałatka jarzynowa | Polish vegetable salad | SA
+pl | Kiełbasa z grilla | Polish grilled kielbasa | WU
+pl | Obwarzanek krakowski | Krakow obwarzanek | BR
+pl | Oscypek z żurawiną | Oscypek with cranberry | SN
+pl | Śledzik w śmietanie | Polish herring in cream | V
+pl | Mazurek | Polish mazurek | K
+pl | Piernik toruński | Toruń gingerbread | K
+pl | Kompot owocowy | Polish compote | GT
+pl | Żubrówka z sokiem jabłkowym | Szarlotka drink | GT
+pl | Gofry z owocami | Polish waffles with fruit | G
+cz | Guláš s knedlíkem | Czech goulash | E
+cz | Česnečka | Czech garlic soup | S
+cz | Hovězí vývar s nudlemi | Czech beef broth noodles | S
+cz | Knedlíky houskové | Czech bread dumplings | KN
+cz | Ovocné knedlíky | Czech fruit dumplings | D
+cz | Svíčková knedlík | Czech sirloin dumpling | HF
+cz | Moravský vrabec | Moravian sparrow | HF
+cz | Pečená kachna se zelím | Czech roast duck | HG
+cz | Pečené vepřové koleno | Czech pork knee | HF
+cz | Utopenec | Czech pickled sausage | V
+cz | Jelito | Czech blood pudding | WU
+cz | Brambory s tvarohem | Czech potatoes with quark | HV
+cz | Lángoš | Czech lángos | SN
+cz | Koláče | Czech koláče | G
+cz | Trdelník | Czech trdelník | G
+cz | Medovník | Czech honey cake | K
+cz | Větrník | Czech větrník | G
+cz | Linecké cukroví | Czech Linzer cookies | G
+cz | Šátečky | Czech šátečky | G
+cz | Livanec | Czech livanec | G
+cz | Nakládaný sýr | Czech marinated cheese | V
+sk | Bryndzové halušky | Slovak sheep cheese dumplings | KN
+sk | Strapačky | Slovak strapačky | KN
+sk | Demikát | Slovak demikát | S
+sk | Šúľance s makom | Slovak šúľance poppy seed | D
+sk | Plnená kapusta | Slovak stuffed cabbage | DO
+sk | Žemľovka | Slovak žemľovka | D
+sk | Trdelník slovenský | Slovak trdelník | G
+hu | Marhapörkölt | Hungarian beef pörkölt | E
+hu | Székelygulyás | Székely goulash | E
+hu | Töltött paprika | Hungarian stuffed peppers | DO
+hu | Rakott krumpli | Hungarian layered potatoes | AU
+hu | Rántott hús | Hungarian breaded pork | HF
+hu | Rántott gomba | Hungarian breaded mushrooms | V
+hu | Hortobágyi palacsinta | Hortobágy meat pancakes | PF
+hu | Húsleves | Hungarian chicken soup | S
+hu | Gyümölcsleves | Hungarian fruit soup | S
+hu | Újházi tyúkleves | Újházi chicken soup | S
+hu | Főzelék | Hungarian főzelék | GZ
+hu | Pogácsa | Hungarian pogácsa | G
+hu | Kürtőskalács | Chimney cake | G
+hu | Túrós csusza | Hungarian cottage cheese noodles | NA
+hu | Nokedli | Hungarian nokedli | NA
+hu | Gombapaprikás | Hungarian mushroom paprikash | HV
+hu | Dobostorta | Dobos torte | K
+hu | Gundel palacsinta | Gundel pancake | D
+hu | Máktekercs | Hungarian poppy seed roll | K
+hu | Diósbejgli | Hungarian walnut roll | K
+hu | Zserbó | Zserbó cake | K
+hu | Lekváros bukta | Hungarian jam bun | G
+hu | Fatányéros | Hungarian mixed grill | HF
+hu | Hurka | Hungarian hurka | WU
+hu | Libamáj | Hungarian goose liver | V
+hu | Tejfölös uborkasaláta | Hungarian cucumber salad sour cream | SA
+hu | Csípős paprika saláta | Hungarian pepper salad | SA
+pt | Bacalhau à Lagareiro | Bacalhau lagareiro | HFi
+pt | Bacalhau cozido com grão | Boiled salt cod with chickpeas | HFi
+pt | Arroz de cabidela | Cabidela rice | RP
+pt | Cozido à portuguesa | Portuguese boiled dinner | E
+pt | Sopa de pedra | Stone soup | S
+pt | Açorda alentejana | Açorda | S
+pt | Açorda de marisco | Seafood açorda | S
+pt | Caldeirada de peixe | Portuguese fish stew | E
+pt | Sardinhas assadas | Grilled sardines Portuguese | HFi
+pt | Polvo à lagareiro | Octopus lagareiro | HFi
+pt | Cataplana de marisco | Cataplana | E
+pt | Amêijoas à Bulhão Pato | Clams Bulhão Pato | HFi
+pt | Lulas grelhadas | Grilled squid Portuguese | HFi
+pt | Peixe espada com banana | Scabbardfish with banana | HFi
+pt | Salada de bacalhau com grão | Cod chickpea salad | SA
+pt | Salada de polvo | Portuguese octopus salad | SA
+pt | Prego no pão | Prego steak sandwich | SN
+pt | Cabrito assado | Roast kid Portuguese | HF
+pt | Carne de porco à alentejana | Alentejo pork with clams | HF
+pt | Cozido das Furnas | Furnas stew | E
+pt | Chouriço assado | Chouriço assado | V
+pt | Salada russa portuguesa | Portuguese Russian salad | SA
+pt | Ovos verdes | Ovos verdes Portuguese | V
+pt | Pastel de Tentúgal | Tentúgal pastry | G
+pt | Pudim Abade de Priscos | Abade de Priscos pudding | PU
+pt | Sonhos | Sonhos portugueses | G
+pt | Pão alentejano | Alentejo bread | BR
+pt | Espetada madeirense | Espetada | KB
+pt | Poncha | Poncha madeirense | GT
+pt | Sangria portuguesa | Portuguese sangria | GT
+pt | Migas à alentejana | Alentejo migas | B
+pt | Ensopado de borrego | Lamb stew Portuguese | E
+pt | Queijo da Serra com pão | Serra cheese with bread | V
+pt | Ameijoas na cataplana | Clams cataplana | HFi
+pt | Papas de sarrabulho | Sarrabulho | E

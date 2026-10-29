@@ -1,0 +1,169 @@
+se | Köttbullar | Swedish meatballs, Kottbullar | KF
+se | Raggmunk | Raggmunkar, Swedish potato pancake | PF
+se | Rårakor | Rarakor | PF
+se | Pytt i panna | Pyttipanna Swedish | PF
+se | Janssons frestelse | Jansson's temptation | AU
+se | Gravlax | Gravad lax, Cured salmon Swedish | V
+se | Inlagd sill | Pickled herring Swedish | V
+se | Sill och potatis | Herring and potatoes Swedish | V
+se | Smörgåstårta | Swedish sandwich cake | V
+se | Räksmörgås | Swedish shrimp sandwich | SN
+se | Skagenröra | Toast Skagen | V
+se | Ärtsoppa med fläsk | Swedish pea soup | S
+se | Kroppkakor | Swedish potato dumplings | KN
+se | Palt | Swedish palt | KN
+se | Falukorv med makaroner | Falukorv | WU
+se | Korv stroganoff | Swedish sausage stroganoff | WU
+se | Kåldolmar | Swedish cabbage rolls | DO
+se | Lutfisk | Swedish lutfisk | HFi
+se | Surströmming | Swedish fermented herring | HFi
+se | Wallenbergare | Wallenberg patties | KF
+se | Biff à la Lindström | Biff Lindström | KF
+se | Isterband | Swedish isterband sausage | WU
+se | Stekt strömming | Fried Baltic herring | HFi
+se | Fiskgratäng | Swedish fish gratin | AU
+se | Flygande Jakob | Flying Jacob | AU
+se | Kalops | Swedish kalops | E
+se | Renskav | Reindeer ragout Sami | HF
+se | Gubbröra | Swedish egg anchovy spread | SD
+se | Västerbottenpaj | Västerbotten cheese pie | PZ
+se | Prinsesstårta | Swedish princess cake | K
+se | Kanelbulle | Swedish cinnamon bun | G
+se | Kardemummabulle | Cardamom bun | G
+se | Semla | Fastlagsbulle | G
+se | Kladdkaka | Swedish sticky chocolate cake | K
+se | Äppelkaka | Swedish apple cake | K
+se | Havregrynsgröt | Swedish oat porridge | FR
+se | Ostkaka | Swedish ostkaka | K
+se | Lussekatter | Saffron buns Swedish | G
+se | Pepparkakor | Swedish gingerbread cookies | G
+se | Knäckebröd med ost | Crispbread with cheese | SN
+se | Glögg | Swedish glögg | GT
+se | Blodpudding | Swedish blood pudding | WU
+se | Dillkött | Swedish dill beef | E
+se | Ägghalva | Swedish egg halves | V
+no | Fårikål | Norwegian mutton and cabbage | E
+no | Lutefisk norsk | Norwegian lutefisk | HFi
+no | Rakfisk | Fermented trout Norwegian | HFi
+no | Kjøttkaker i brun saus | Norwegian meat cakes | KF
+no | Pinnekjøtt | Norwegian cured lamb ribs | HF
+no | Ribbe | Norwegian pork belly Christmas | HF
+no | Lapskaus | Norwegian lapskaus | E
+no | Raspeballer | Komle, Norwegian potato dumplings | KN
+no | Bacalao norsk | Norwegian bacalao | E
+no | Fiskeboller | Norwegian fish balls | KF
+no | Fiskesuppe | Norwegian fish soup | S
+no | Rømmegrøt | Norwegian sour cream porridge | FR
+no | Brunost på brød | Brown cheese on bread | SN
+no | Krumkake | Norwegian krumkake | G
+no | Lefse | Norwegian lefse | BR
+no | Skolebrød | Norwegian school bread | G
+no | Multekrem | Cloudberry cream | D
+no | Karbonader | Norwegian karbonader | KF
+no | Fenalår | Norwegian cured lamb leg | V
+no | Rømmekolle | Norwegian rømmekolle | D
+no | Kvæfjordkake | World's best cake Norwegian | K
+no | Hvit saus fiskekaker | Norwegian fish cakes | KF
+dk | Frikadeller | Danish meatballs | KF
+dk | Stegt flæsk med persillesovs | Danish fried pork with parsley sauce | HF
+dk | Flæskesteg med rødkål | Danish roast pork with red cabbage | HF
+dk | Smørrebrød med leverpostej | Danish liver pâté sandwich | SN
+dk | Smørrebrød med røget laks | Danish smoked salmon open sandwich | SN
+dk | Smørrebrød med roastbeef | Danish roast beef open sandwich | SN
+dk | Stjerneskud | Danish stjerneskud | SN
+dk | Æggekage | Danish egg cake | EI
+dk | Biksemad | Danish biksemad | PF
+dk | Medisterpølse | Danish medister sausage | WU
+dk | Rødgrød med fløde | Danish red berry pudding | D
+dk | Æbleflæsk | Danish apple bacon | HF
+dk | Hakkebøf med løg | Danish hakkebøf | KF
+dk | Gullasch dansk | Danish gulasch | E
+dk | Gule ærter | Danish yellow pea soup | S
+dk | Øllebrød | Danish rye bread porridge | FR
+dk | Tarteletter med høns i asparges | Danish tartlets chicken asparagus | HG
+dk | Wienerbrød | Danish pastry | G
+dk | Kanelsnegl | Danish cinnamon snail | G
+dk | Risalamande | Danish rice pudding | PU
+dk | Brunkager | Danish brown cookies | G
+dk | Æbleskiver | Danish ebleskiver | G
+dk | Koldskål | Danish cold buttermilk soup | D
+dk | Kogt torsk med sennepssovs | Danish cod mustard sauce | HFi
+dk | Stegt rødspætte | Danish fried plaice | HFi
+dk | Hønsekødssuppe med melboller | Danish chicken soup meatballs | S
+dk | Rugbrød med ost | Danish rye bread cheese | SN
+dk | Flødeboller | Danish flødebolle | G
+dk | Kartoffelsalat dansk | Danish potato salad | SA
+dk | Brændende kærlighed | Burning love | B
+dk | Dansk leverpostej | Danish liver pâté | V
+fi | Karjalanpiirakka | Karelian pasty | BO
+fi | Karjalanpaisti | Karelian stew | E
+fi | Lohikeitto | Finnish salmon soup | S
+fi | Hernekeitto | Finnish pea soup | S
+fi | Kalakukko | Finnish kalakukko | BO
+fi | Lihapullat | Finnish meatballs | KF
+fi | Makkaraperunat | Finnish sausage potatoes | HF
+fi | Mannapuuro | Finnish semolina porridge | FR
+fi | Riisipuuro | Finnish rice porridge | FR
+fi | Rieska | Finnish rieska | BR
+fi | Ruisleipä | Finnish rye bread | BR
+fi | Mustikkapiirakka | Finnish blueberry pie | K
+fi | Pulla | Finnish pulla | G
+fi | Korvapuusti | Finnish cinnamon roll | G
+fi | Leipäjuusto | Finnish bread cheese | SN
+fi | Poronkäristys | Sautéed reindeer | HF
+fi | Silakkapihvit | Baltic herring patties | HFi
+fi | Maksalaatikko | Finnish liver casserole | AU
+fi | Lanttulaatikko | Finnish rutabaga casserole | AU
+fi | Kaalikääryleet | Finnish cabbage rolls | DO
+fi | Rössypottu | Finnish rössypottu | E
+fi | Mämmi | Finnish mämmi | D
+fi | Joulutorttu | Finnish Christmas tart | G
+fi | Runebergin torttu | Runeberg torte | G
+fi | Kropsu | Finnish oven pancake | PF
+fi | Lörtsy | Finnish lörtsy | G
+fi | Voileipäkakku | Finnish sandwich cake | V
+fi | Graavilohi | Finnish gravlax | V
+fi | Vispipuuro | Finnish whipped lingonberry porridge | D
+is | Plokkfiskur | Icelandic fish stew | E
+is | Kjötsúpa | Icelandic lamb soup | S
+is | Skyr með bláberjum | Icelandic skyr blueberries | D
+is | Hangikjöt | Icelandic smoked lamb | HF
+is | Hákarl | Fermented shark | V
+is | Rúgbrauð | Icelandic rye bread | BR
+is | Kleinur | Icelandic kleinur | G
+is | Pönnukökur | Icelandic pancakes | D
+is | Harðfiskur | Icelandic dried fish | SN
+ee | Verivorst | Estonian blood sausage | WU
+ee | Mulgipuder | Estonian mulgipuder | B
+ee | Kama | Estonian kama | D
+ee | Kohupiimakook | Estonian curd cake | K
+ee | Seljanka | Estonian solyanka | S
+ee | Rosolje | Estonian rosolje | SA
+ee | Hapukapsas hautis | Estonian sauerkraut stew | E
+ee | Kiluvõileib | Estonian sprat sandwich | SN
+ee | Vastlakukkel | Estonian shrovetide bun | G
+ee | Kartulisalat | Estonian potato salad | SA
+lv | Pelēkie zirņi ar speķi | Latvian grey peas with bacon | HH
+lv | Rasols | Latvian rasols | SA
+lv | Maizes zupa | Latvian bread soup | S
+lv | Aukstā zupa | Latvian cold beet soup | S
+lv | Speķa pīrāgi | Latvian bacon buns | G
+lv | Rupjmaize | Latvian rye bread | BR
+lv | Biezpiena sieriņš | Latvian curd snack | SN
+lv | Kartupeļu pankūkas | Latvian potato pancakes | PF
+lv | Karbonāde | Latvian pork cutlet | HF
+lv | Skābeņu zupa | Latvian sorrel soup | S
+lt | Cepelinai | Lithuanian zeppelins | KN
+lt | Šaltibarščiai | Lithuanian cold beet soup | S
+lt | Kugelis | Lithuanian potato kugel | AU
+lt | Kibinai | Lithuanian kibinai | BO
+lt | Balandėliai | Lithuanian cabbage rolls | DO
+lt | Bulviniai blynai | Lithuanian potato pancakes | PF
+lt | Šakotis | Lithuanian tree cake | K
+lt | Skilandis | Lithuanian skilandis | WU
+lt | Vėdarai | Lithuanian vėdarai | WU
+lt | Koldūnai | Lithuanian koldūnai | MA
+lt | Žemaičių blynai | Lithuanian Samogitian pancakes | PF
+lt | Kepta duona | Lithuanian fried bread | SN
+lt | Barščiai su ausytėmis | Lithuanian borscht with dumplings | S
+lt | Trakų pyragas | Trakai pie | BO

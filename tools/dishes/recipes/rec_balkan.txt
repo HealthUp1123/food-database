@@ -1,0 +1,75 @@
+Karađorđeva šnicla | 0.85 | 1 Schnitzel | kalb 150, paniermehl 20, ei 20, mehl 10, oel 25, sahne 30
+Gibanica | 0.9 | 1 Stück | yufka 70, ei 50, beyaz_peynir 80, joghurt 50, oel 15
+Burek sa mesom | 0.85 | 1 Stück | yufka 80, hack 100, zwiebel 40, oel 20
+Srpska salata | 1.0 | 1 Portion | tomate 120, gurke 80, paprika 50, zwiebel 20, oel 12, essig 5
+Šopska salata | 1.0 | 1 Portion | tomate 120, gurke 100, paprika 40, beyaz_peynir 40, zwiebel 15, oel 10
+Punjene paprike | 0.85 | 2 Stück | paprika 250, gemischtes_hack 100, reis 30, zwiebel 30, tomatenmark 15, oel 8, wasser 100
+Teleća čorba | 0.9 | 1 Teller | kalb 80, karotte 40, kartoffel 60, zwiebel 20, sahne 20, mehl 5, bruehe 250
+Sremski čvarci | 1.0 | 1 Portion | schwein_bauch 80
+Pita zeljanica | 0.9 | 1 Stück | yufka 70, spinat 150, beyaz_peynir 60, ei 40, oel 15
+Palačinke sa orasima | 0.95 | 2 Stück | mehl 50, milch 100, ei 30, walnuss 30, zucker 15, oel 8
+Kačamak | 0.9 | 1 Portion | maismehl 70, wasser 300, kartoffel 100, butter 10, beyaz_peynir 40
+Ćufte u paradajz sosu | 0.85 | 1 Portion | gemischtes_hack 150, ei 20, semmel 20, zwiebel 20, tomaten_dose 150, tomatenmark 10, oel 8
+Mućkalica | 0.8 | 1 Portion | schwein_nacken 160, paprika 80, tomate 80, zwiebel 50, oel 10, paprikapulver 2
+Roštilj mešano meso | 0.85 | 1 Teller | gemischtes_hack 100, schwein_nacken 100, bratwurst 80, zwiebel 40, fladenbrot 60
+Rakija šljivovica | 1.0 | 1 Glas (40 ml) | spirituose 38
+Pašticada | 0.7 | 1 Portion | rind 220, speck 20, zwiebel 50, karotte 30, wein_rot 60, tomatenmark 10, pflaume_tr 15, mehl 5, oel 8
+Crni rižot | 0.9 | 1 Teller | reis 70, kalmar 130, zwiebel 30, knoblauch 5, wein_weiss 40, olivenoel 12, bruehe 220, parmesan 5
+Brudet | 0.85 | 1 Portion | fisch_mager 200, zwiebel 50, tomate 80, tomatenmark 10, wein_weiss 40, olivenoel 15, kartoffel 100
+Janjetina na ražnju | 0.7 | 1 Portion | lamm 300, olivenoel 8
+Purica s mlincima | 0.85 | 1 Portion | pute 180, mehl 70, ei 20, butter 15, bruehe 150, zwiebel 20
+Grah varivo | 0.9 | 1 Teller | bohnen_trocken 80, wasser 300, speck 30, zwiebel 30, karotte 20, mehl 8, oel 8
+Fuži s tartufima | 1.0 | 1 Portion | nudeln 90, wasser 180, pilz 40, butter 15, sahne 30, parmesan 10
+Fritaja sa šparogama | 0.9 | 1 Portion | ei 150, spargel 120, olivenoel 12, rohschinken 20
+Skradinski rižot | 0.9 | 1 Teller | reis 70, rind 40, kalb 40, zwiebel 30, wein_rot 40, tomatenmark 10, olivenoel 12, bruehe 200, parmesan 5
+Gregada | 0.85 | 1 Portion | fisch_mager 200, kartoffel 150, zwiebel 30, knoblauch 5, olivenoel 15, wein_weiss 40
+Soparnik | 0.9 | 1 Stück | mehl 80, mangold 150, zwiebel 30, olivenoel 20, knoblauch 3
+Viška pogača | 0.9 | 1 Stück | mehl 90, hefe 3, sardelle 40, tomate 50, zwiebel 40, olivenoel 15
+Rozata | 0.9 | 1 Schälchen | ei 100, milch 150, zucker 40, likoer 5
+Fritule | 0.95 | 4 Stück | mehl 60, ei 20, zucker 10, rosinen 15, spirituose 3, oel 20
+Međimurska gibanica | 0.95 | 1 Stück | mehl 50, quark 80, apfel 60, walnuss 20, mohn 15, sauerrahm 60, zucker 25, butter 15, ei 25
+Krafne | 0.95 | 1 Stück | mehl 60, milch 30, ei 15, zucker 10, hefe 3, marmelade 20, oel 20
+Šniclica | 0.85 | 1 Schnitzel | schwein_mager 150, paniermehl 20, ei 20, mehl 10, oel 20
+Bosanski lonac | 0.8 | 1 Teller | rind 100, lamm 60, kartoffel 120, karotte 40, weisskohl 60, paprika 40, tomate 40, zwiebel 30, oel 10, wasser 150
+Bosanska pita | 0.9 | 1 Stück | yufka 70, hack 100, zwiebel 40, oel 20
+Klepe | 0.95 | 1 Portion | mehl 90, ei 20, hack 80, zwiebel 20, joghurt 100, knoblauch 3, butter 10
+Japrak | 0.85 | 5 Stück | weinblatt 40, hack 90, reis 20, zwiebel 20, oel 8, bruehe 80
+Ćevapi sarajevski | 0.85 | 8 Stück | rind_fett 120, lamm_hack 60, zwiebel 20, fladenbrot 100, zwiebel 40
+Tufahije | 1.0 | 1 Apfel | apfel 150, walnuss 20, zucker 35, sahne 30, wasser 60
+Hurmašice | 0.95 | 3 Stück | griess 50, mehl 30, ei 25, butter 25, zucker 60, wasser 100
+Bosanska kahva | 1.0 | 1 Tasse | kaffee 70, zucker 8
+Uštipci | 0.95 | 4 Stück | mehl 100, hefe 4, milch 70, ei 20, oel 25
+Pastrmka sa žara | 0.85 | 1 Forelle | forelle 250, olivenoel 10, zitrone 10, kartoffel 150
+Shopska salad | 1.0 | 1 Portion | tomate 120, gurke 100, paprika 40, beyaz_peynir 40, zwiebel 15, oel 10
+Kavarma | 0.8 | 1 Portion | schwein_nacken 180, zwiebel 60, paprika 50, tomate 60, pilz 50, oel 10, wein_rot 40
+Tripe soup bulgarian | 0.9 | 1 Teller | innereien 100, milch 100, mehl 8, butter 10, knoblauch 5, essig 10, wasser 250
+Patatnik | 0.9 | 1 Stück | kartoffel 250, beyaz_peynir 60, ei 40, zwiebel 30, paprikapulver 1, oel 15
+Snezhanka salad | 1.0 | 1 Portion | joghurt 200, gurke 100, walnuss 20, knoblauch 3, dill 5, oel 8
+Bob chorba | 0.95 | 1 Teller | bohnen_trocken 60, wasser 350, zwiebel 30, karotte 25, paprika 25, tomate 30, oel 10, minze_trocken 1
+Mish-mash | 0.9 | 1 Portion | ei 100, tomate 120, paprika 80, beyaz_peynir 40, zwiebel 20, oel 12
+Gyuvech | 0.85 | 1 Portion | schwein_nacken 120, kartoffel 100, paprika 60, tomate 70, aubergine 60, zucchini 50, zwiebel 30, oel 10, erbsen 30
+Bulgarian yogurt with honey | 1.0 | 1 Schüssel | joghurt 200, honig 20, walnuss 15
+Katmi | 0.95 | 2 Stück | mehl 100, milch 70, ei 20, hefe 4, oel 30, zucker 5
+Mekitsi | 0.95 | 2 Stück | mehl 100, joghurt 60, ei 15, hefe 3, oel 35, zucker 15
+Tikvenik | 0.9 | 1 Stück | yufka 60, kuerbis 150, walnuss 20, zucker 25, zimt 1, oel 15
+Kozunak | 0.95 | 1 Scheibe | mehl 70, milch 30, ei 20, zucker 20, butter 20, hefe 3, rosinen 10
+Tavë kosi | 0.9 | 1 Portion | lamm 120, reis 20, joghurt 150, ei 50, butter 10, mehl 8
+Byrek | 0.9 | 1 Stück | yufka 70, beyaz_peynir 70, spinat 80, ei 25, oel 15
+Qofte të fërguara | 0.85 | 4 Stück | gemischtes_hack 150, ei 20, semmel 20, zwiebel 20, oel 15, petersilie 5
+Speca me gjizë | 0.9 | 1 Portion | paprika 250, quark 80, knoblauch 3, oel 10, petersilie 5
+Trahana albanian | 0.95 | 1 Teller | tarhana 40, wasser 300, butter 10, joghurt 30, tomatenmark 10
+Revani Albanian | 0.95 | 1 Stück | griess 50, ei 40, joghurt 40, zucker 55, oel 20, zitrone 5, wasser 40
+Flia | 0.9 | 1 Portion | mehl 100, wasser 100, butter 40, joghurt 40
+Pite me spinaq | 0.9 | 1 Stück | yufka 70, spinat 150, ei 30, beyaz_peynir 50, oel 15
+Tavče gravče | 0.9 | 1 Portion | bohnen_trocken 90, wasser 300, zwiebel 40, paprikapulver 2, oel 15, minze_trocken 1
+Selsko meso | 0.8 | 1 Portion | schwein_nacken 160, pilz 80, paprika 60, zwiebel 40, tomate 50, oel 10, wein_weiss 30
+Zelnik | 0.9 | 1 Stück | yufka 70, spinat 80, beyaz_peynir 50, ei 25, oel 18, joghurt 20
+Burek makedonski | 0.85 | 1 Stück | yufka 80, hack 90, zwiebel 40, oel 20
+Pastrmajlija | 0.9 | 1 Portion | mehl 100, hefe 3, schwein_nacken 120, ei 50, oel 15
+Mekici | 0.95 | 3 Stück | mehl 90, joghurt 60, hefe 3, oel 35, zucker 5
+Turli tava | 0.85 | 1 Portion | rind 100, kartoffel 100, aubergine 80, zucchini 60, paprika 40, tomate 50, zwiebel 30, oel 12
+Jota slovenska | 0.9 | 1 Teller | bohnen_trocken 40, sauerkraut 120, kartoffel 80, speck 30, wasser 250, mehl 5
+Potica | 0.95 | 1 Scheibe | mehl 70, hefe 3, milch 30, ei 15, butter 25, walnuss 40, honig 25, zucker 15
+Idrijski žlikrofi | 0.95 | 1 Portion | mehl 80, ei 20, kartoffel 120, speck 25, zwiebel 20, schmalz 8, butter 10
+Pražen krompir | 0.85 | 1 Portion | kartoffel 250, zwiebel 40, schmalz 15, speck 20
+Bučno olje solata | 1.0 | 1 Portion | salat 100, kartoffel 40, kuerbiskerne 5, oel 12, essig 8, ei 25

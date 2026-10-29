@@ -1,0 +1,124 @@
+gr | Moussaka | Μουσακάς, Mousakas | AU
+gr | Pastitsio | Παστίτσιο,  | AU
+gr | Souvlaki | Σουβλάκι χοιρινό, Pork souvlaki | KB
+gr | Gyros | Γύρος χοιρινός, Pork gyros | KB
+gr | Gyros pita | Γύρος πίτα, Pita gyros | SN
+gr | Spanakopita | Σπανακόπιτα, Spinach pie Greek | BO
+gr | Tiropita | Τυρόπιτα, Greek cheese pie | BO
+gr | Kreatopita | Κρεατόπιτα, Greek meat pie | BO
+gr | Hortopita | Χορτόπιτα,  | BO
+gr | Bourekia Chania | Μπουρέκι Χανίων,  | BO
+gr | Dolmades | Ντολμάδες, Greek stuffed vine leaves | DO
+gr | Gemista | Ντομάτες γεμιστές, Stuffed tomatoes Greek | DO
+gr | Gemista rice | Γεμιστά με ρύζι,  | DO
+gr | Papoutsakia | Παπουτσάκια,  | AU
+gr | Melitzanes imam | Μελιτζάνες ιμάμ, Greek imam baildi | GZ
+gr | Gigantes plaki | Γίγαντες πλακί, Baked giant beans | HH
+gr | Fasolada | Φασολάδα, Greek bean soup | S
+gr | Revithada | Ρεβυθάδα,  | S
+gr | Fakes | Φακές, Greek lentil soup | S
+gr | Avgolemono soup | Αυγολέμονο,  | S
+gr | Kakavia | Κακαβιά, Greek fish soup | S
+gr | Magiritsa | Μαγειρίτσα,  | S
+gr | Patsas | Πατσάς,  | S
+gr | Kleftiko | Κλέφτικο,  | HF
+gr | Giouvetsi | Αρνί γιουβέτσι, Lamb giouvetsi | HF
+gr | Stifado | Στιφάδο, Greek beef stifado | E
+gr | Kokkinisto | Κοκκινιστό,  | E
+gr | Soutzoukakia | Σουτζουκάκια σμυρνέικα,  | KF
+gr | Keftedes | Κεφτέδες, Greek meatballs | KF
+gr | Bifteki | Μπιφτέκι, Greek bifteki | KF
+gr | Stuffed bifteki | Μπιφτέκι γεμιστό,  | KF
+gr | Youvarlakia | Γιουβαρλάκια,  | S
+gr | Kotopoulo lemonato | Κοτόπουλο λεμονάτο, Greek lemon chicken | HG
+gr | Lemon potatoes chicken Greek | Κοτόπουλο με πατάτες φούρνου,  | HG
+gr | Chicken giouvetsi | Κοτόπουλο γιουβέτσι,  | HG
+gr | Paidakia | Παϊδάκια, Greek lamb chops | HF
+gr | Kokoretsi | Κοκορέτσι,  | HF
+gr | Splinantero | Σπληνάντερο,  | HF
+gr | Lamb with peas Greek | Αρνί με αρακά,  | HF
+gr | Briam | Μπριάμ, Greek roasted vegetables | GZ
+gr | Arakas | Αρακάς λαδερός, Greek peas stew | GZ
+gr | Fasolakia | Φασολάκια λαδερά, Greek green beans | GZ
+gr | Bamies | Μπάμιες λαδερές, Greek okra stew | GZ
+gr | Artichokes a la polita | Αγκινάρες α λα πολίτα,  | GZ
+gr | Spanakorizo | Σπανακόρυζο,  | RP
+gr | Lahanorizo | Λαχανόρυζο,  | RP
+gr | Horta vrasta | Χόρτα βραστά, Boiled greens Greek | GZ
+gr | Kolokithokeftedes | Κολοκυθοκεφτέδες, Zucchini fritters Greek | SN
+gr | Domatokeftedes | Ντοματοκεφτέδες, Santorini tomato fritters | SN
+gr | Fried zucchini Greek | Τηγανητά κολοκυθάκια,  | V
+gr | Tzatziki | Τζατζίκι, Greek tzatziki | SD
+gr | Taramosalata | Ταραμοσαλάτα,  | SD
+gr | Melitzanosalata | Μελιτζανοσαλάτα,  | SD
+gr | Fava Santorini | Φάβα Σαντορίνης,  | SD
+gr | Greek hummus | Χούμους ελληνικός,  | SD
+gr | Skordalia | Σκορδαλιά,  | SD
+gr | Tirokafteri | Τυροκαφτερή,  | SD
+gr | Horiatiki | Χωριάτικη σαλάτα, Greek salad | SA
+gr | Dakos | Σαλάτα ντάκος, Cretan dakos | SA
+gr | Lahanosalata | Λαχανοσαλάτα, Greek cabbage salad | SA
+gr | Patatosalata | Πατατοσαλάτα, Greek potato salad | SA
+gr | Pantzarosalata | Παντζαροσαλάτα, Greek beet salad | SA
+gr | Saganaki | Σαγανάκι, Fried cheese Greek | V
+gr | Baked feta Greek | Φέτα ψητή στο φούρνο,  | V
+gr | Bouyiourdi | Μπουγιουρντί,  | V
+gr | Htapodi xidato | Χταπόδι ξιδάτο, Octopus in vinegar | V
+gr | Htapodi krasato | Χταπόδι κρασάτο, Octopus in wine | HFi
+gr | Kalamarakia | Καλαμαράκια τηγανητά, Fried calamari Greek | HFi
+gr | Garides saganaki | Γαρίδες σαγανάκι,  | HFi
+gr | Midia saganaki | Μύδια σαγανάκι,  | HFi
+gr | Midia ahnista | Μύδια αχνιστά,  | HFi
+gr | Bakaliaros skordalia | Μπακαλιάρος σκορδαλιά,  | HFi
+gr | Psari plaki | Ψάρι πλακί,  | HFi
+gr | Gavros marinatos | Γαύρος μαρινάτος,  | V
+gr | Sardeles psites | Σαρδέλες ψητές,  | HFi
+gr | Tsipoura | Τσιπούρα στη σχάρα, Grilled sea bream Greek | HFi
+gr | Barbounia | Μπαρμπούνια τηγανητά, Fried red mullet | HFi
+gr | Fried anchovies Greek | Γαύρος τηγανητός,  | HFi
+gr | Bourdeto | Μπουρδέτο,  | E
+gr | Cuttlefish with spinach | Σουπιές με σπανάκι,  | HFi
+gr | Sole with lemon Greek | Γλώσσα με λεμόνι,  | HFi
+gr | Tiganiá | Τηγανιά, Pork tigania | PF
+gr | Souvla | Σούβλα,  | HF
+gr | Kontosouvli | Κοντοσούβλι,  | HF
+gr | Greek village sausage | Λουκάνικο Χωριάτικο,  | WU
+gr | Tsouknidopita | Τσουκνιδόπιτα,  | BO
+gr | Galaktoboureko | Γαλακτομπούρεκο,  | SW
+gr | Bougatsa | Μπουγάτσα,  | G
+gr | Loukoumades | Λουκουμάδες,  | G
+gr | Rizogalo | Ρυζόγαλο, Greek rice pudding | PU
+gr | Greek yogurt with honey | Γιαούρτι με μέλι,  | D
+gr | Portokalopita | Πορτοκαλόπιτα,  | K
+gr | Ravani | Ραβανί,  | K
+gr | Samali | Σαμαλί,  | K
+gr | Kataifi | Κανταΐφι, Greek kadaifi | SW
+gr | Melomakarona | Μελομακάρονα,  | G
+gr | Kourabiedes | Κουραμπιέδες,  | G
+gr | Diples | Διπλές,  | SW
+gr | Halva Greek semolina | Χαλβάς σιμιγδαλένιος,  | PU
+gr | Spoon sweets | Γλυκό του κουταλιού,  | D
+gr | Karydopita | Καρυδόπιτα,  | K
+gr | Koulouri | Κουλούρι Θεσσαλονίκης,  | G
+gr | Tsoureki | Τσουρέκι,  | K
+gr | Vasilopita | Βασιλόπιτα,  | K
+gr | Paximadia | Παξιμάδια, Greek rusks | G
+gr | Greek coffee | Ελληνικός καφές,  | GT
+gr | Frappé | Φραπέ,  | GT
+gr | Freddo espresso | Φρέντο εσπρέσο,  | GT
+gr | Freddo cappuccino | Φρέντο καπουτσίνο,  | GT
+gr | Ouzo and meze | Ούζο με μεζέ,  | V
+gr | Tsipouro | Τσίπουρο,  | GT
+gr | Sfakianes pites | Σφακιανή πίτα,  | PI
+gr | Kalitsounia | Καλιτσούνια,  | G
+gr | Greek anchovies | Αντζούγιες,  | V
+gr | Lemony lamb | Αρνάκι λεμονάτο,  | HF
+gr | Lahanodolmades | Λαχανοντολμάδες,  | DO
+gr | Makaronia me kima | Μακαρόνια με κιμά,  | NA
+gr | Shrimp pasta Greek | Μακαρονάδα με γαρίδες,  | NA
+gr | Kritharoto | Κριθαρότο,  | RP
+gr | Seafood giouvetsi | Γιουβέτσι θαλασσινών,  | NA
+gr | Greek chicken soup | Κοτόσουπα,  | S
+gr | Baked chickpeas Greek | Ρεβύθια φούρνου,  | HH
+gr | Koukia | Κουκιά λαδερά,  | HH
+gr | Grilled red mullet | Μπαρμπούνια ψητά,  | HFi

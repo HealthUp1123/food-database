@@ -26,12 +26,6 @@ const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
 const ids = new Map();
 const barcodes = new Map();
 const MACROS = ['protein', 'carbs', 'fat', 'fiber'];
-// Dieselben Zutaten wie im Generator (tools/dishes/build.py): Ethanol ≈ 7 kcal/g
-// steckt nicht in Protein/KH/Fett, deshalb liegt kcal bewusst darüber.
-const ALCOHOL_INGREDIENTS = new Set(['Bier', 'Weißwein', 'Rotwein']);
-const hasAlcohol = (entry) => Array.isArray(entry.ingredients)
-  && entry.ingredients.some((ing) => ing && ALCOHOL_INGREDIENTS.has(ing.name));
-
 data.forEach((e, i) => {
   const ctx = `Eintrag #${i} (${e && e.id ? e.id : '?'})`;
   if (!e || typeof e !== 'object' || Array.isArray(e)) return err(ctx, 'ist kein Objekt');
@@ -53,7 +47,7 @@ data.forEach((e, i) => {
 
   if (!Array.isArray(e.synonyms) || e.synonyms.some((s) => typeof s !== 'string' || !s.trim())) err(ctx, 'synonyms muss ein Array nicht-leerer Strings sein');
 
-  if (e.cuisine !== 'tr' && e.cuisine !== 'de') err(ctx, 'cuisine muss "tr" oder "de" sein');
+  if (typeof e.cuisine !== 'string' || !/^[a-z]{2}$/.test(e.cuisine)) err(ctx, 'cuisine muss ein zweistelliger Küchencode sein (z. B. tr, de, it)');
   if (typeof e.category !== 'string' || !e.category.trim()) err(ctx, 'category fehlt');
 
   if (!Array.isArray(e.ingredients) || e.ingredients.length === 0) err(ctx, 'ingredients muss ein nicht-leeres Array sein');
@@ -81,16 +75,19 @@ data.forEach((e, i) => {
       }
       if (isNum(p.kcal)) {
         const est = p.protein * 4 + p.carbs * 4 + p.fat * 9;
-        const delta = Math.abs(est - p.kcal);
-        const limit = Math.max(60, p.kcal * 0.35);
-        // Alkohol (≈ 7 kcal/g) fehlt in der 4/4/9-Schätzung. Liegt kcal darüber,
-        // ist das erwartet und darf weder Fehler noch Warnung sein.
-        const alcoholAboveEstimate = hasAlcohol(e) && p.kcal >= est - 1;
-        if (!alcoholAboveEstimate && delta > limit) {
-          console.warn(`! ${ctx}: kcal (${p.kcal}) weicht stark von Makro-Schätzung (${est.toFixed(0)}) ab – bitte prüfen`);
-        }
+        // Alkohol (Wein, Spirituosen) liegt oft über der 4/4/9-Schätzung (Ethanol ≈ 7 kcal/g).
+        // Das ist eine Warnung, kein Fehler.
+        if (Math.abs(est - p.kcal) > Math.max(60, p.kcal * 0.35)) console.warn(`! ${ctx}: kcal (${p.kcal}) weicht stark von Makro-Schätzung (${est.toFixed(0)}) ab – bitte prüfen`);
       }
     }
+  }
+
+  // Optionale Felder (Gericht vs. Fertigprodukt, Hinweis auf ähnliche OFF-Produkte)
+  if ('prepared' in e && !['homemade', 'restaurant'].includes(e.prepared)) err(ctx, 'prepared muss "homemade" oder "restaurant" sein');
+  if ('is_packaged_product' in e && typeof e.is_packaged_product !== 'boolean') err(ctx, 'is_packaged_product muss true/false sein');
+  if (e.is_packaged_product === true && e.type === 'dish') err(ctx, 'ein Gericht (type "dish") darf nicht is_packaged_product=true sein');
+  if ('off_similar' in e) {
+    if (!Array.isArray(e.off_similar) || e.off_similar.length > 3 || e.off_similar.some((c) => typeof c !== 'string' || !/^\d{6,14}$/.test(c))) err(ctx, 'off_similar muss ein Array von höchstens 3 Barcode-Strings (nur Ziffern) sein');
   }
 
   if ('portion' in e && e.portion !== undefined) {

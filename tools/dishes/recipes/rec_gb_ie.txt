@@ -1,0 +1,44 @@
+Roast beef and Yorkshire pudding | 0.75 | 1 Teller | rind_steak 150, mehl 30, ei 30, milch 40, oel 8, kartoffel 150, karotte 50, bruehe 60
+Roast lamb with mint sauce | 0.7 | 1 Portion | lamm 250, kartoffel 150, minze 5, essig 10, zucker 5, oel 8
+Roast chicken dinner British | 0.75 | 1 Teller | hahn 300, kartoffel 150, karotte 50, rosenkohl 60, bruehe 60, oel 8
+Lancashire hotpot | 0.85 | 1 Portion | lamm 180, kartoffel 200, zwiebel 50, karotte 30, bruehe 100, butter 8
+Irish stew British lamb | 0.85 | 1 Portion | lamm 160, kartoffel 150, karotte 50, zwiebel 50, bruehe 150
+Liverpool scouse | 0.85 | 1 Portion | rind 150, kartoffel 150, karotte 50, zwiebel 50, bruehe 200
+Cranachan | 1.0 | 1 Schälchen | sahne 100, haferflocken 20, himbeere 60, honig 15, spirituose 8
+Clootie dumpling | 0.95 | 1 Scheibe | mehl 60, rosinen 40, schmalz 25, zucker 25, ei 15, milch 20, zimt 1
+Kedgeree | 0.95 | 1 Portion | reis 60, wasser 140, fisch_fett 100, ei 50, butter 15, gewuerz 2
+Welsh rarebit | 0.95 | 1 Scheibe | weissbrot 50, gouda 50, bier 20, senf 5, butter 8
+Cawl | 0.95 | 1 Teller | lamm 100, kartoffel 100, karotte 50, lauch 40, weisskohl 40, bruehe 250
+Glamorgan sausage | 0.9 | 2 Stück | gouda 70, paniermehl 50, lauch 40, ei 40, senf 3, oel 20
+Syllabub | 1.0 | 1 Glas | sahne 120, wein_weiss 30, zucker 20, zitrone 5
+Scones with jam and cream | 0.95 | 2 Stück | mehl 100, butter 30, milch 50, zucker 10, marmelade 30, sahne 40
+Beans on toast | 1.0 | 1 Portion | weissbrot 70, bohnen_trocken 40, tomaten_dose 80, zucker 3, butter 8, wasser 80
+Cheese on toast | 0.95 | 1 Portion | weissbrot 70, gouda 60, butter 8, senf 3
+Jacket potato with cheese and beans | 0.95 | 1 Portion | kartoffel 300, gouda 40, bohnen_trocken 30, tomaten_dose 60, butter 10
+Macaroni cheese British | 1.0 | 1 Portion | nudeln 80, wasser 160, gouda 70, milch 120, butter 15, mehl 12
+Chip butty | 0.95 | 1 Sandwich | weissbrot 90, kartoffel 200, oel 18, butter 10
+Pie and mash | 0.85 | 1 Portion | rind 100, blaetterteig 80, kartoffel 200, butter 15, milch 30, petersilie 10, mehl 8
+Jellied eels | 1.0 | 1 Portion | aal 100, gelatine 3, essig 10
+Faggots and peas | 0.85 | 2 Stück | schwein_hack 100, leber 60, semmel 30, zwiebel 30, erbsen 100, bruehe 80, mehl 8
+Gammon, egg and chips | 0.9 | 1 Teller | kassler 200, ei 60, kartoffel 250, oel 22, erbsen 40
+Brown Windsor soup | 0.95 | 1 Teller | rind 80, karotte 50, zwiebel 40, mehl 8, butter 10, bruehe 300
+Potted shrimps | 1.0 | 1 Portion | garnele 70, butter 50, gewuerz 1, weissbrot 40
+Cucumber sandwich | 1.0 | 1 Sandwich | weissbrot 70, butter 12, gurke 50
+Shepherd's pie vegetarian | 0.9 | 1 Portion | linsen 40, wasser 80, karotte 50, zwiebel 40, tomatenmark 10, erbsen 40, kartoffel 200, butter 15, milch 30
+Stargazy pie | 0.9 | 1 Stück | blaetterteig 100, sardine 120, ei 50, speck 20, zwiebel 20
+Cumberland rum nicky | 0.95 | 1 Stück | mehl 60, butter 30, dattel 40, rosinen 20, zucker 25, weinbrand 10
+Banbury cake | 0.95 | 1 Stück | blaetterteig 60, rosinen 35, zucker 15, butter 10, zimt 1
+Simnel cake | 0.9 | 1 Stück | mehl 50, butter 40, zucker 35, ei 40, rosinen 40, marzipan 40
+Sussex pond pudding | 0.95 | 1 Portion | mehl 60, schmalz 30, butter 30, zucker 50, zitrone 40
+Gingerbread British | 0.95 | 1 Stück | mehl 60, butter 30, zucker 25, honig 25, lebkuchen_gewuerz 2
+Coddle | 0.85 | 1 Teller | bratwurst 150, speck 50, kartoffel 200, zwiebel 50, bruehe 150
+Colcannon | 0.95 | 1 Portion | kartoffel 250, gruenkohl 80, butter 20, milch 40
+Guinness stew | 0.75 | 1 Portion | rind 200, kartoffel 100, karotte 60, zwiebel 40, bier 150, mehl 8, tomatenmark 10
+Seafood chowder Irish | 0.95 | 1 Teller | fisch_mager 80, muschel 60, kartoffel 100, zwiebel 30, sahne 50, milch 100, butter 10, mehl 8
+Dublin lawyer | 0.9 | 1 Portion | hummer 150, butter 25, sahne 50, spirituose 15
+Crubeens | 0.7 | 2 Stück | schwein_haxe 250, paniermehl 20, ei 20, oel 20
+Drisheen | 0.95 | 1 Scheibe | blutwurst 120, milch 40, butter 8
+Potato farl | 0.9 | 2 Stück | kartoffel 150, mehl 50, butter 15
+Irish apple cake | 0.95 | 1 Stück | mehl 60, apfel 100, butter 35, zucker 30, ei 20, milch 20
+Skirts and kidneys | 0.8 | 1 Portion | innereien 150, schwein_nacken 100, zwiebel 40, kartoffel 100, bruehe 150
+Beef and Guinness pie | 0.85 | 1 Stück | rind 150, blaetterteig 80, bier 80, zwiebel 40, karotte 30, mehl 8

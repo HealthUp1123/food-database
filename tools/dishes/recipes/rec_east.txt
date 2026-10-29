@@ -1,0 +1,94 @@
+Mămăligă cu brânză și smântână | 0.95 | 1 Portion | maismehl 70, wasser 300, beyaz_peynir 50, sauerrahm 50, butter 10
+Sarmale | 0.85 | 3 Stück | sauerkraut 150, gemischtes_hack 120, reis 25, zwiebel 30, speck 20, tomatenmark 10, oel 8, bruehe 80
+Ciorbă de legume | 0.95 | 1 Teller | karotte 40, kartoffel 60, sellerie 30, paprika 30, zwiebel 30, tomate 30, oel 8, essig 10, wasser 300
+Tochitură moldovenească | 0.8 | 1 Portion | schwein_nacken 150, bratwurst 80, speck 30, zwiebel 40, wein_weiss 40, oel 8, knoblauch 3
+Mămăligă cu ouă | 0.95 | 1 Portion | maismehl 60, wasser 250, ei 100, butter 15, beyaz_peynir 30
+Pomana porcului | 0.8 | 1 Teller | schwein_bauch 120, schwein_nacken 120, leber 40, zwiebel 40, schmalz 15
+Pateu de ficat | 1.0 | 1 Portion | huhn_leber 80, butter 40, zwiebel 20, ei 25
+Ostropel | 0.8 | 1 Portion | hahn_keule 250, tomate 120, tomatenmark 20, zwiebel 40, knoblauch 8, oel 10
+Pilaf românesc | 0.95 | 1 Portion | reis 70, wasser 150, zwiebel 30, karotte 20, oel 12
+Pește pane | 0.9 | 1 Portion | fisch_mager 180, paniermehl 25, ei 25, mehl 12, oel 25
+Țuică | 1.0 | 1 Glas (40 ml) | spirituose 38
+Mămăligă tocană | 0.85 | 1 Teller | maismehl 60, wasser 250, schwein_nacken 140, zwiebel 40, tomate 50, oel 8
+Varenyky | 0.95 | 6 Stück | mehl 90, ei 20, kartoffel 120, zwiebel 30, butter 10, sauerrahm 30
+Holubtsi | 0.85 | 3 Stück | weisskohl 200, gemischtes_hack 120, reis 25, zwiebel 30, karotte 20, tomatenmark 15, oel 8, sauerrahm 20
+Deruny | 0.85 | 3 Stück | kartoffel 250, zwiebel 30, ei 25, mehl 15, oel 30, sauerrahm 30
+Syrnyky | 0.9 | 3 Stück | quark 200, ei 40, mehl 30, zucker 15, oel 20, sauerrahm 30
+Salo | 1.0 | 1 Portion | schwein_bauch 50, knoblauch 3, roggenbrot 40
+Kulish | 0.95 | 1 Teller | hirse 40, kartoffel 100, speck 30, zwiebel 30, schmalz 8, wasser 300
+Banosh | 0.95 | 1 Portion | maismehl 60, sauerrahm 80, speck 30, beyaz_peynir 40, wasser 200
+Halushky | 0.95 | 1 Portion | mehl 90, ei 25, speck 25, zwiebel 20, sauerrahm 30, wasser 20
+Vushka | 0.95 | 8 Stück | mehl 70, ei 15, pilz 80, zwiebel 20, oel 8
+Pampushky | 0.95 | 3 Stück | mehl 100, milch 50, hefe 3, knoblauch 5, oel 15, zucker 5
+Paska | 0.95 | 1 Scheibe | mehl 70, milch 30, ei 30, zucker 25, butter 20, hefe 3, rosinen 15
+Kovbasa ukrainian | 0.9 | 1 Portion | bratwurst 120, knoblauch 3, kartoffel 100, sauerkraut 60
+Kholodets | 1.0 | 1 Portion | schwein_haxe 150, gelatine 4, knoblauch 3, karotte 30, wasser 100
+Zrazy ukrainian | 0.85 | 2 Stück | hack 120, ei 25, semmel 20, pilz 40, zwiebel 20, oel 15
+Shuba | 1.0 | 1 Portion | hering 70, kartoffel 60, karotte 40, rote_bete 80, zwiebel 15, mayonnaise 40, ei 30
+Pirozhki | 0.9 | 2 Stück | mehl 90, milch 40, hefe 3, hack 80, zwiebel 20, oel 25
+Shchi | 0.95 | 1 Teller | weisskohl 100, kartoffel 60, karotte 25, zwiebel 25, rind 50, tomatenmark 10, sauerrahm 20, wasser 300
+Ukha | 0.95 | 1 Teller | fisch_fett 100, kartoffel 80, karotte 25, zwiebel 25, wasser 350, dill 3
+Kotlety | 0.85 | 2 Stück | gemischtes_hack 160, semmel 25, milch 30, zwiebel 20, ei 20, paniermehl 15, oel 15
+Pozharsky cutlet | 0.85 | 2 Stück | hahn_brust 150, butter 30, paniermehl 25, milch 30, weissbrot 20, oel 15
+Zakuski | 1.0 | 1 Platte | hering 50, gewuerzgurke 40, rote_bete 40, schinken 30, roggenbrot 60, ei 30, butter 10
+Kulebyaka | 0.9 | 1 Stück | blaetterteig 100, lachs 80, reis 20, ei 25, dill 5, butter 10
+Smetana soup | 0.95 | 1 Teller | sauerrahm 50, kartoffel 100, karotte 30, zwiebel 30, mehl 8, butter 10, wasser 300, dill 3
+Bitochki | 0.85 | 2 Stück | gemischtes_hack 140, semmel 25, milch 30, zwiebel 20, mehl 10, oel 15, sauerrahm 40
+Zharkoe | 0.8 | 1 Portion | rind 160, kartoffel 200, zwiebel 40, karotte 30, gewuerzgurke 30, oel 12, wasser 80
+Kholodnik | 0.95 | 1 Teller | rote_bete 100, gurke 80, joghurt 180, ei 50, dill 5, fruehlingszwiebel 15
+Oladyi | 0.95 | 4 Stück | mehl 90, joghurt 100, ei 25, zucker 10, oel 20
+Tvorozhniki | 0.9 | 3 Stück | quark 200, ei 40, mehl 30, zucker 15, oel 20
+Ptichye moloko | 0.95 | 1 Stück | milch 100, eiweiss 60, zucker 70, gelatine 5, butter 40, schokolade 25
+Sbiten | 1.0 | 1 Becher | wasser 250, honig 30, gewuerz 1
+Souvla | 0.7 | 1 Portion | schwein_nacken 250, olivenoel 10, zitrone 15
+Sheftalia | 0.85 | 3 Stück | schwein_hack 160, zwiebel 25, petersilie 8, fladenbrot 60
+Kleftiko | 0.7 | 1 Portion | lamm 280, kartoffel 150, zitrone 20, olivenoel 12, oregano 1
+Afelia | 0.75 | 1 Portion | schwein_nacken 180, wein_rot 80, olivenoel 10, kreuzkuemmel 1
+Loukaniko Cypriot | 0.9 | 1 Portion | bratwurst 140, wein_rot 30, fladenbrot 60
+Koupepia | 0.85 | 5 Stück | weinblatt 40, hack 90, reis 25, zwiebel 20, tomate 30, olivenoel 10, bruehe 80
+Tavas | 0.8 | 1 Portion | lamm 180, zwiebel 70, tomate 80, kartoffel 80, kreuzkuemmel 1, olivenoel 10
+Kolokasi | 0.85 | 1 Portion | suesskartoffel 200, schwein_nacken 100, tomate 80, zwiebel 30, olivenoel 10
+Ravioli Cypriot | 0.95 | 6 Stück | mehl 90, ei 25, hellim 80, minze 3, butter 15
+Loukoumades Cypriot | 0.95 | 6 Stück | mehl 70, hefe 3, wasser 80, oel 25, honig 30, zimt 1
+Daktyla | 0.9 | 2 Stück | mehl 60, butter 40, wasser 40, zucker 40, ei 15, zimt 1
+Glyko tou koutaliou | 1.0 | 1 Löffel (30 g) | zucker 20, aprikose_tr 10
+Halloumi sandwich | 0.95 | 1 Sandwich | fladenbrot 90, hellim 80, tomate 40, gurke 30, minze 2
+Stuffat tal-fenek | 0.7 | 1 Portion | kaninchen 250, wein_rot 80, tomate 100, zwiebel 40, knoblauch 5, olivenoel 12, erbsen 40, kartoffel 100
+Ftira | 0.9 | 1 Stück | mehl 100, hefe 3, thunfisch 50, tomate 60, olive 20, olivenoel 12
+Bragioli | 0.7 | 1 Portion | rind 180, speck 25, ei 30, paniermehl 20, zwiebel 30, wein_rot 40, bruehe 100
+Aljotta | 0.95 | 1 Teller | fisch_mager 120, tomate 80, knoblauch 5, reis 25, olivenoel 10, wasser 300
+Timpana | 0.9 | 1 Stück | nudeln 70, hack 90, ei 40, tomaten_dose 80, blaetterteig 50, zwiebel 20, parmesan 10
+Minestra Maltese | 0.95 | 1 Teller | kartoffel 80, karotte 40, weisskohl 50, bohnen_trocken 20, tomate 40, nudeln 20, olivenoel 10, wasser 300
+Lampuki pie | 0.9 | 1 Stück | blaetterteig 100, fisch_fett 120, spinat 60, olive 15, zwiebel 20, olivenoel 8
+Qaghaq tal-appostli | 0.95 | 1 Ring | mehl 70, hefe 3, wasser 40, sesam 3, zucker 3
+Gbejniet | 1.0 | 1 Portion | ziegenkaese 80, olivenoel 8
+Hobz biz-zejt | 0.95 | 1 Brot | weissbrot 120, tomate 80, thunfisch 40, olive 15, olivenoel 12
+Judd mat Gaardebounen | 0.8 | 1 Portion | kassler 200, dicke_bohnen 150, kartoffel 120, butter 10, sahne 40, mehl 5, zwiebel 20
+Gromperekichelcher | 0.85 | 3 Stück | kartoffel 250, zwiebel 30, ei 25, mehl 15, oel 30
+Träipen | 0.9 | 1 Portion | blutwurst 150, apfel 80, zwiebel 20, butter 10
+Quetschentaart | 0.95 | 1 Stück | mehl 60, butter 30, pflaume 200, zucker 25, zimt 1
+Liewekniddelen | 0.9 | 3 Stück | leber 80, semmel 60, ei 25, speck 20, zwiebel 20, butter 10, bruehe 100
+Féierstengszalot | 1.0 | 1 Portion | rind 100, zwiebel 20, gewuerzgurke 30, essig 15, oel 15, tomate 40, ei 30
+Rieslingspaschtéit | 0.95 | 1 Stück | schwein_nacken 100, kalb 50, blaetterteig 70, wein_weiss 30, ei 25, zwiebel 20
+Gehaktbal met jus | 0.85 | 1 Frikadelle | gemischtes_hack 150, semmel 20, ei 15, butter 15, mehl 8, bruehe 80, zwiebel 15
+Rookworst met zuurkool | 0.9 | 1 Portion | wuerstchen_geraeuchert 150, sauerkraut 200, kartoffel 150, speck 15
+Patatje oorlog | 0.9 | 1 Portion | kartoffel 250, oel 25, mayonnaise 30, ketchup 20, zwiebel 20, erdnuss 10
+Broodje haring | 1.0 | 1 Brötchen | hering 80, semmel 60, zwiebel 20, gewuerzgurke 15
+Uitsmijter ham kaas | 0.9 | 1 Portion | weissbrot 80, schinken 40, gouda 40, ei 120, butter 15
+Vlaai | 0.95 | 1 Stück | mehl 50, butter 25, zucker 20, kirsche 120, ei 15, staerke 5
+Hagelslag boterham | 1.0 | 2 Scheiben | weissbrot 70, butter 10, schokolade 25
+Rijstebrij | 1.0 | 1 Schüssel | reis 40, milch 300, zucker 20, zimt 1
+Zuurkoolschotel | 0.9 | 1 Portion | sauerkraut 200, kartoffel 200, gemischtes_hack 100, speck 20, zwiebel 20, butter 10, milch 30
+Gouda kaas boterham | 1.0 | 2 Scheiben | weissbrot 70, butter 10, gouda 40
+Erwtensoep met roggebrood | 0.95 | 1 Teller | erbsen_trocken 70, wasser 400, wuerstchen_geraeuchert 40, speck 20, karotte 40, sellerie 30, lauch 30, kartoffel 40, roggenbrot 60
+Mosselen met friet | 0.85 | 1 Portion | muschel 500, kartoffel 250, oel 25, zwiebel 20, wein_weiss 40, butter 10, mayonnaise 25
+Konijn met pruimen | 0.75 | 1 Portion | kaninchen 250, pflaume_tr 40, bier 100, zwiebel 40, speck 20, butter 10, mehl 8
+Witloof met hesp en kaas | 0.9 | 1 Portion | salat 250, schinken 80, gouda 50, butter 15, mehl 12, milch 150
+Boulets liégeois | 0.85 | 2 Stück | gemischtes_hack 160, ei 20, semmel 25, zwiebel 20, zucker 10, essig 10, pflaumenmus 30, bruehe 80
+Gentse waterzooi | 0.95 | 1 Teller | hahn 180, karotte 50, lauch 50, sellerie 30, sahne 50, ei 20, butter 8, kartoffel 100, wasser 250
+Frites met mayonaise | 0.9 | 1 Tüte | kartoffel 250, oel 22, mayonnaise 30
+Mattentaart | 0.95 | 1 Stück | blaetterteig 80, milch 100, ei 40, zucker 25, butter 10
+Boterkoek Belgian | 0.95 | 1 Stück | mehl 60, butter 50, zucker 40, ei 25
+Hoofdkaas | 1.0 | 1 Scheibe | schwein_nacken 60, gelatine 3, essig 5, wasser 20
+Faisan à la brabançonne | 0.75 | 1 Portion | hahn_keule 250, apfel 60, butter 20, wein_weiss 50, sahne 40, zwiebel 20
+Bloedworst met appelen | 0.9 | 1 Portion | blutwurst 140, apfel 120, zwiebel 20, butter 10

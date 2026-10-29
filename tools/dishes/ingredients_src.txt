@@ -248,3 +248,30 @@ vanillepudding_pulver|Puddingpulver|350|0.3|86|0.3|0.5
 sauerrahm|Sauerrahm (10 % Fett)|120|3|4|10|0
 rotkohl_glas|Rotkohl (gegart, Glas)|50|1.2|9|1|2.5
 ananas|Ananas|50|0.5|13|0.1|1.4
+# --- Ergänzung europäische Gerichte ---
+ricotta|Ricotta|150|11|3|10|0
+pecorino|Pecorino|390|28|0.5|30|0
+rohschinken|Rohschinken (Prosciutto/Jamón)|250|26|0.3|17|0
+chorizo|Chorizo|450|24|2|38|0
+stockfisch|Stockfisch/Bacalao (gewässert)|100|22|0|0.8|0
+schnecke|Schnecken|90|16|2|1.4|0
+krabbe|Krabbe/Krebsfleisch|85|18|0.5|1|0
+hummer|Hummer/Langustine|90|19|0.5|1|0
+blauschimmelkaese|Blauschimmelkäse (Gorgonzola)|350|21|0|29|0
+ziegenkaese|Ziegenkäse|270|18|1|21|0
+buttermilch|Buttermilch|40|3.3|4|0.9|0
+knaeckebrot|Knäckebrot|340|10|66|1.5|14
+eis|Speiseeis|200|3.5|24|10|0
+keks|Butterkeks|450|7|70|16|2
+spirituose|Spirituose 40 %|231|0|0|0|0
+likoerwein|Sherry/Portwein/Likörwein|150|0|12|0|0
+likoer|Likör|300|0|30|0|0
+apfelwein|Apfelwein/Cider|45|0|3|0|0
+kaffee|Kaffee (aufgebrüht)|2|0.1|0|0|0
+kondensmilch|Kondensmilch gezuckert|325|8|55|9|0
+pflaumenmus|Pflaumenmus|240|1|60|0.3|1.5
+fladenbrot|Fladenbrot/Pita|275|9|55|1.2|2
+wuerstchen_geraeuchert|Räucherwürstchen/Kielbasa|300|14|2|27|0
+quittenbrot|Quittenbrot|250|0.3|63|0.1|1
+weinbrand|Weinbrand/Rum|231|0|0|0|0
+foie_gras|Foie gras|460|11|4|44|0
