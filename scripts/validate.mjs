@@ -22,6 +22,7 @@ if (!Array.isArray(data)) {
   process.exit(1);
 }
 
+const CUISINES = 'tr de it fr es pt gr gb ie nl be at ch se no dk fi is pl cz sk hu rs hr ba bg al mk si ro ee lv lt ua ru cy mt lu ge am az md by me xk ad li mc sm'.split(' ');
 const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
 const ids = new Map();
 const barcodes = new Map();
@@ -47,7 +48,7 @@ data.forEach((e, i) => {
 
   if (!Array.isArray(e.synonyms) || e.synonyms.some((s) => typeof s !== 'string' || !s.trim())) err(ctx, 'synonyms muss ein Array nicht-leerer Strings sein');
 
-  if (typeof e.cuisine !== 'string' || !/^[a-z]{2}$/.test(e.cuisine)) err(ctx, 'cuisine muss ein zweistelliger Küchencode sein (z. B. tr, de, it)');
+  if (!CUISINES.includes(e.cuisine)) err(ctx, `cuisine "${e.cuisine}" unbekannt (erlaubte Ländercodes)`);
   if (typeof e.category !== 'string' || !e.category.trim()) err(ctx, 'category fehlt');
 
   if (!Array.isArray(e.ingredients) || e.ingredients.length === 0) err(ctx, 'ingredients muss ein nicht-leeres Array sein');

@@ -1,0 +1,10 @@
+{
+ "dup_existing": [],
+ "dup_among_new": [],
+ "bad_line": [],
+ "syn_dropped": [
+  "Mozaik Pasta: Kalter Hund (Name eines anderen neuen Gerichts)",
+  "Lale Şerbeti: Osmanli Serbeti",
+  "Rumgrog: Grog (Name eines anderen neuen Gerichts)"
+ ]
+}

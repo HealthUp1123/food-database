@@ -1,0 +1,474 @@
+# Türkei – Suppen
+tr | Pancar Çorbası | Karadeniz Pancar Corbasi, Mangold-Bohnen-Suppe | S | 0.9 | 1 Teller (300 g) | mangold 120, bohnen_trocken 20, maismehl 10, zwiebel 30, butter 8, wasser 160, salz 1
+tr | Malhıta Çorbası | Malhita Corbasi, Gaziantep Linsensuppe | S | 0.9 | 1 Teller (300 g) | rote_linsen 35, bulgur 15, zwiebel 30, butter 8, paprikamark 8, minze_trocken 1, wasser 240, salz 1
+tr | Alaca Çorbası | Alaca Corbasi, Linsen-Bulgur-Suppe | S | 0.9 | 1 Teller (300 g) | linsen 25, bulgur 20, zwiebel 30, tomatenmark 8, butter 8, minze_trocken 1, wasser 240, salz 1
+tr | Lobik Çorbası | Lobik Corbasi, Elazig Bohnensuppe | S | 0.9 | 1 Teller (300 g) | bohnen_trocken 35, bulgur 15, zwiebel 30, tomatenmark 8, butter 8, wasser 240, salz 1
+tr | Erzurum Çorbası | Erzurum Corbasi, Ayranli Erzurum Suppe | S | 0.9 | 1 Teller (300 g) | joghurt 120, reis 20, kichererbsen 30, ei 15, mehl 5, butter 6, minze_trocken 1, wasser 140, salz 1
+tr | Hatay Yoğurt Çorbası | Hatay Yogurt Corbasi, Hatay Joghurtsuppe | S | 0.9 | 1 Teller (300 g) | joghurt 150, xa_weizen 25, ei 15, butter 6, minze_trocken 1, wasser 140, salz 1
+tr | Kuzu Kulağı Çorbası | Kuzukulagi Corbasi, Sauerampfersuppe | S | 0.9 | 1 Teller (300 g) | spinat 120, reis 15, zwiebel 30, joghurt 50, butter 8, wasser 120, salz 1
+tr | Hamsi Çorbası | Hamsi Corbasi, Sardellensuppe | S | 0.9 | 1 Teller (300 g) | sardelle 80, kartoffel 60, karotte 30, zwiebel 30, olivenoel 8, wasser 150, salz 1
+tr | Sakatat Çorbası | Sakatat Corbasi, Innereiensuppe | S | 0.9 | 1 Teller (300 g) | innereien 80, mehl 10, butter 8, zitrone 10, knoblauch 5, wasser 220, salz 1
+tr | Mısırlı Fasulye Çorbası | Misirli Fasulye Corbasi | S | 0.9 | 1 Teller (300 g) | bohnen_trocken 25, mais 50, karalahana 60, zwiebel 30, butter 8, wasser 150, salz 1
+tr | Firikli Tavuk Çorbası | Firikli Tavuk Corbasi | S | 0.9 | 1 Teller (300 g) | hahn_brust 50, bulgur 25, zwiebel 20, butter 6, tomatenmark 8, bruehe 210, salz 1
+tr | Kesme Aşı | Kesme Asi, Kars Eriste Asi, Ayranlı Kesme Aşı | S | 0.9 | 1 Teller (300 g) | mehl 30, ei 8, joghurt 80, kichererbsen 30, butter 8, minze_trocken 1, wasser 160, salz 1
+tr | Sütlü Mısır Çorbası | Sutlu Misir Corbasi | S | 0.9 | 1 Teller (300 g) | mais 70, milch 120, mehl 10, butter 10, wasser 110, salz 1
+tr | Sarımsaklı Yoğurt Çorbası | Sarimsakli Yogurt Corbasi | S | 0.9 | 1 Teller (300 g) | joghurt 140, reis 20, knoblauch 6, mehl 6, ei 15, butter 6, wasser 130, salz 1
+tr | Mercimekli Kabak Çorbası | Mercimekli Kabak Corbasi | S | 0.9 | 1 Teller (300 g) | kuerbis 100, rote_linsen 25, zwiebel 30, butter 8, wasser 160, salz 1
+tr | Yüksük Çorbası | Yuksuk Corbasi, Fingerhut-Nudelsuppe | S | 0.9 | 1 Teller (300 g) | mehl 25, hack 25, kichererbsen 30, tomatenmark 8, butter 6, minze_trocken 1, wasser 200, salz 1
+tr | Sultan Çorbası | Sultan Corbasi | S | 0.9 | 1 Teller (300 g) | hahn_brust 40, reis 15, karotte 30, milch 60, mehl 10, butter 10, bruehe 150, salz 1
+tr | Mahluta Çorbası | Mahluta Corbasi, Mardin Linsensuppe | S | 0.9 | 1 Teller (300 g) | rote_linsen 30, reis 15, zwiebel 30, butter 8, kreuzkuemmel 1, zitrone 10, wasser 220, salz 1
+tr | Tarhanalı Kabak Çorbası | Tarhanali Kabak Corbasi | S | 0.9 | 1 Teller (300 g) | tarhana 25, zucchini 80, tomatenmark 8, butter 8, wasser 190, salz 1
+tr | Kuzu Etli Arpa Şehriye Çorbası | Arpa Sehriye Corbasi Etli | S | 0.9 | 1 Teller (300 g) | lamm 40, nudeln 30, tomatenmark 10, butter 6, bruehe 220, salz 1
+# Türkei – Regionale Hauptgerichte
+tr | Simit Kebabı | Simit Kebabi, Antep Simit Kebap | KB | 0.75 | 1 Portion (250 g) | lamm_hack 160, bulgur 25, zwiebel 30, paprikamark 8, pul_biber 2, lavas 50, tomate 50, salz 1
+tr | Fıstıklı Kebap | Fistikli Kebap, Pistazien-Kebap | KB | 0.75 | 1 Portion (250 g) | lamm_hack 170, pistazie 20, schwanzfett 10, lavas 50, tomate 50, sivri 20, salz 1
+tr | Küşleme | Kusleme, Lammfilet-Grill Antep | KB | 0.75 | 1 Portion (220 g) | lamm 220, lavas 40, sivri 20, tomate 50, salz 1
+tr | Kazan Kebabı | Kazan Kebabi | FL | 0.7 | 1 Portion (300 g) | lamm 200, zwiebel 60, tomate 80, butter 10, paprika 40, salz 1
+tr | Şırdan Dolması | Sirdan Dolmasi, Adana Sirdan | DO | 0.85 | 1 Portion (250 g) | x2_kutteln 120, reis 50, hack 20, zwiebel 20, butter 6, kreuzkuemmel 1, wasser 70, salz 1
+tr | Mumbar Dolması | Mumbar Dolmasi, Bumbar | DO | 0.85 | 1 Portion (250 g) | innereien 100, reis 55, hack 30, zwiebel 20, oel 8, gewuerz 2, wasser 70, salz 1
+tr | Ekşili Ufak Köfte | Eksili Ufak Kofte, Antep Ekşili Köfte | KF | 0.9 | 1 Teller (350 g) | bulgur 40, hack 50, kichererbsen 40, tomatenmark 10, zitrone 15, minze_trocken 1, butter 8, wasser 200, salz 1
+tr | Şiveydiz | Siveydiz, Antep Lauch-Joghurt-Eintopf | E | 0.9 | 1 Teller (350 g) | lamm 70, fruehlingszwiebel 80, kichererbsen 40, joghurt 150, ei 10, butter 8, wasser 60, salz 1
+tr | Firik Pilavı | Firik Pilavi, Gruenkern-Pilav | RP | 0.9 | 1 Portion (250 g) | bulgur 80, zwiebel 20, butter 12, tomatenmark 6, bruehe 130, salz 1
+tr | Altı Ezmeli | Alti Ezmeli, Antep Kebap auf Gemuesepueree | KB | 0.8 | 1 Portion (300 g) | lamm_hack 150, aubergine 120, tomate 60, sivri 30, knoblauch 5, butter 10, salz 1
+tr | Haytalı | Haytali, Hatay Haytali, Rosenwasser-Puddingdessert | PU | 0.95 | 1 Schale (250 g) | milch 120, staerke 20, zucker 25, eis 60, wasser 30
+tr | Hatay Kömbesi | Hatay Kombesi, Hatay Gewuerzgebaeck | KR | 0.9 | 1 Stück (60 g) | mehl 30, butter 10, zucker 8, sesam 3, gewuerz 1, milch 15
+tr | Biberli Ekmek | Biberli Ekmek, Hatay Paprikabrot | BR | 0.85 | 1 Stück (150 g) | mehl 80, paprikamark 20, zwiebel 20, olivenoel 10, sesam 3, gewuerz 2, wasser 45, salz 1
+tr | Belen Tava | Belen Tava, Hatay Hackfleischpfanne | PF | 0.8 | 1 Portion (300 g) | hack 140, tomate 100, paprika 50, zwiebel 30, oel 8, pul_biber 1, salz 1
+tr | Abagannuş | Abagannus, Hatay Auberginen-Meze | V | 0.85 | 1 Portion (150 g) | aubergine 140, tahin 15, joghurt 20, knoblauch 4, olivenoel 8, granatapfel 10, salz 1
+tr | Ağzı Açık | Agzi Acik, Urfa Kibbe-Halbmond | KF | 0.85 | 3 Stück (200 g) | bulgur 60, hack 70, zwiebel 30, walnuss 10, oel 15, salz 1
+tr | Şıllık Tatlısı | Sillik Tatlisi, Urfa Crepe-Dessert | SW | 0.85 | 1 Portion (180 g) | mehl 45, milch 60, ei 15, walnuss 15, zucker 40, butter 10, wasser 25
+tr | Bostana | Bostana, Urfa Salat | SA | 0.95 | 1 Schale (250 g) | tomate 120, gurke 60, zwiebel 30, petersilie 15, sivri 20, nar_eksisi 10, olivenoel 8, salz 1
+tr | Mırra | Mirra, Bitterer Mokka | GT | 1.0 | 1 Tässchen (50 ml) | kaffee 50
+tr | Kitel | Kitel, Diyarbakir Içli Köfte | KF | 0.85 | 1 Portion (250 g) | bulgur 60, hack 90, zwiebel 30, walnuss 10, butter 8, wasser 60, salz 1
+tr | Mardin Kaburga Dolması | Mardin Kaburga, Gefuellte Lammrippe Mardin | FL | 0.75 | 1 Portion (350 g) | lamm 200, reis 60, mandel 10, pistazie 5, butter 10, gewuerz 2, wasser 80, salz 1
+tr | Alluciye | Alluciye, Mardin Pflaumen-Fleisch | GM | 0.85 | 1 Portion (300 g) | lamm 120, pflaume_tr 50, zwiebel 30, butter 8, zimt 1, wasser 100, salz 1
+tr | İkbebet | Ikbebet, Mardin Kibbe gekocht | KF | 0.85 | 3 Stück (220 g) | bulgur 60, hack 80, zwiebel 30, walnuss 10, butter 6, wasser 60, salz 1
+tr | Harput Köftesi | Harput Koftesi, Elazig Bulgurköfte | KF | 0.9 | 1 Teller (350 g) | bulgur 60, hack 80, tomatenmark 15, paprikamark 10, butter 8, wasser 160, salz 1
+tr | Orcik Tatlısı | Orcik, Elazig Nussstrudel in Traubensirup | SW | 1.0 | 1 Stück (60 g) | walnuss 25, pekmez 20, staerke 10, mehl 5
+tr | Tokat Batı | Tokat Bati, Bulgur-Linsen-Salat Tokat | SA | 0.95 | 1 Portion (250 g) | linsen 25, bulgur 40, tomatenmark 15, zwiebel 30, petersilie 15, olivenoel 12, zitrone 10, wasser 80, salz 1
+tr | Kadayıf Dolması | Kadayif Dolmasi, Erzurum Kadayif mit Walnuss | SW | 0.95 | 2 Stück (140 g) | kadayif 40, walnuss 25, butter 15, zucker 45, wasser 25
+tr | Erzurum Kete | Kete Erzurum, Butter-Hefegebaeck Kete | KR | 0.9 | 1 Stück (100 g) | mehl 55, butter 15, milch 25, ei 8, zucker 3, hefe 1, salz 1
+tr | Kars Kaz Pilavı | Kaz Etli Pilav, Kars Gaensepilav | RP | 0.85 | 1 Portion (350 g) | gans 100, bulgur 70, zwiebel 20, butter 10, bruehe 140, salz 1
+tr | Erişte Aşı | Eriste Asi, Kars Nudeleintopf | NA | 0.9 | 1 Teller (350 g) | nudeln 70, kichererbsen 40, joghurt 80, butter 10, minze_trocken 1, wasser 150, salz 1
+tr | Malatya Kayısı Tatlısı | Kayisi Tatlisi, Gefuellte Aprikosen | D | 1.0 | 4 Stück (120 g) | aprikose_tr 60, kaymak 25, zucker 20, walnuss 8, wasser 10
+tr | Kiraz Yaprağı Sarması | Kiraz Yapragi Sarmasi, Malatya Sarma | DO | 0.9 | 1 Portion (250 g) | weinblatt 40, bulgur 50, hack 40, zwiebel 30, tomatenmark 10, olivenoel 8, wasser 80, salz 1
+tr | Pideli Köfte | Pideli Kofte, Bursa Pideli Köfte | KF | 0.9 | 1 Portion (350 g) | hack 130, ekmek 60, joghurt 80, tomatenmark 10, butter 15, zwiebel 20, salz 1
+tr | Sac Arası | Sac Arasi, Konya Sac Arasi | BO | 0.9 | 1 Stück (200 g) | yufka 70, hack 70, zwiebel 30, butter 10, tomate 30, salz 1
+# Türkei – Schwarzmeer
+tr | Hamsikoli | Hamsikoli, Hamsi-Maisbrot | BR | 0.85 | 1 Stück (200 g) | sardelle 70, maismehl 70, zwiebel 20, karalahana 30, oel 10, wasser 40, salz 1
+tr | Hamsi Köftesi | Hamsi Koftesi, Sardellen-Frikadellen | HFi | 0.8 | 6 Stück (180 g) | sardelle 130, maismehl 25, zwiebel 20, petersilie 10, ei 15, oel 15, salz 1
+tr | Hamsi Böreği | Hamsi Boregi | BO | 0.85 | 1 Stück (220 g) | sardelle 100, reis 40, zwiebel 20, mehl 30, olivenoel 10, petersilie 10, wasser 60, salz 1
+tr | Pepeçura | Pepecura, Trabzon Traubendessert | D | 0.9 | 1 Schale (200 g) | xa_traubensaft 180, mehl 20, zucker 10, walnuss 8
+tr | Lahana Turşusu Kavurması | Lahana Tursusu Kavurmasi | GZ | 0.85 | 1 Portion (200 g) | sauerkraut 180, zwiebel 30, butter 12, maismehl 10, pul_biber 1
+tr | Sakarya Islama Köfte | Islama Kofte, Adapazari Islama | KF | 0.85 | 1 Portion (350 g) | hack 150, ekmek 90, bruehe 80, butter 10, pul_biber 1, tomate 40, salz 1
+tr | Laz Pidesi | Laz Pidesi, Rize Pide | PI | 0.85 | 1 Stück (300 g) | mehl 120, hack 60, kasar 40, ei 30, butter 12, wasser 65, hefe 2, salz 1
+tr | Karalahana Dolması | Karalahana Dolmasi, Schwarzkohlrolle mit Mais | DO | 0.9 | 1 Portion (250 g) | karalahana 80, reis 40, hack 40, maismehl 10, zwiebel 30, oel 8, wasser 50, salz 1
+tr | Mısır Unlu Hamsi Tava | Misir Unlu Hamsi, Hamsi im Maismehl | HFi | 0.8 | 1 Portion (250 g) | sardelle 230, maismehl 25, oel 25, salz 1
+tr | Fasulye Turşusu Kavurması | Fasulye Tursusu Kavurmasi | GZ | 0.85 | 1 Portion (200 g) | gruene_bohnen 170, zwiebel 30, butter 12, ei 15, salz 2
+tr | Puçuko | Pucuko, Karadeniz Wildkraeutergericht | GZ | 0.85 | 1 Portion (200 g) | wildkraut 150, maismehl 15, zwiebel 30, butter 10, ei 15, salz 1
+tr | Lazut | Lazut, Mais-Bohnen-Eintopf | E | 0.9 | 1 Teller (300 g) | mais 80, bohnen_trocken 30, zwiebel 30, butter 8, tomatenmark 8, wasser 150, salz 1
+tr | Mısır Ekmeği Tirit | Misir Ekmegi Tiridi, Schwarzmeer Maisbrot mit Milch | FR | 0.95 | 1 Schale (250 g) | maismehl 50, milch 180, butter 10, zucker 5
+tr | Kiraz Kompostosu | Kiraz Kompostosu, Kirschkompott | GT | 1.0 | 1 Glas (250 ml) | kirsche 80, zucker 20, wasser 150
+# Türkei – Ägäis / Marmara / Thrakien
+tr | Kumru | Kumru Izmir, Kumru Sandviç | SN | 0.95 | 1 Stück (250 g) | semmel 100, sucuk 40, kasar 40, salami 20, tomate 40, sivri 10
+tr | Şambali | Sambali, Izmir Griess-Sirupkuchen | SW | 0.95 | 1 Stück (100 g) | griess 35, joghurt 20, zucker 35, mandel 5, oel 8, wasser 15
+tr | İzmir Bomba | Izmir Bomba, Bomba Tatli | SW | 0.95 | 1 Stück (90 g) | mehl 35, butter 15, schokolade 20, zucker 10, ei 8, milch 10
+tr | Sakızlı Muhallebi | Sakizli Muhallebi, Mastix-Pudding | PU | 0.95 | 1 Schale (200 g) | milch 170, staerke 15, zucker 22, reismehl 5
+tr | Deniz Börülcesi Salatası | Deniz Borulcesi, Queller-Salat | SA | 0.95 | 1 Portion (150 g) | gruene_bohnen 130, olivenoel 15, knoblauch 4, zitrone 10, salz 0.5
+tr | Şevketi Bostan | Sevketi Bostan, Ege Distel mit Lamm | GM | 0.85 | 1 Portion (300 g) | artischocke 150, lamm 80, zwiebel 30, ei 15, zitrone 15, olivenoel 10, wasser 60, salz 1
+tr | Ot Kavurma | Ot Kavurma, Ege Wildkraeuter-Pfanne | GZ | 0.85 | 1 Portion (200 g) | wildkraut 180, zwiebel 30, olivenoel 15, ei 15, salz 1
+tr | Muğla Tarhanası | Mugla Tarhanasi, Ege Tarhana Suppe | S | 0.9 | 1 Teller (300 g) | tarhana 30, joghurt 50, butter 8, tomatenmark 5, wasser 230, salz 1
+tr | Söğüş Tabağı İzmir | Izmir Sogus, Kalte Fleischplatte | FL | 0.95 | 1 Portion (250 g) | zunge 80, innereien 60, tomate 60, zwiebel 30, petersilie 10, ekmek 30, salz 1
+tr | Kabak Çiçeği Kızartması | Kabak Cicegi Kizartmasi, Frittierte Zucchiniblueten | V | 0.9 | 1 Portion (150 g) | zucchini 70, mehl 30, ei 25, wasser 30, oel 18, salz 1
+tr | Midye Pilaki | Midye Pilaki | V | 0.9 | 1 Portion (200 g) | muschel 100, kartoffel 50, karotte 30, zwiebel 30, olivenoel 15, wasser 20, salz 1
+tr | Ayvalık Sardalya Sarma | Sardalya Sarma, Sardinen im Weinblatt | HFi | 0.85 | 1 Portion (200 g) | sardine 180, weinblatt 20, olivenoel 10, zitrone 10, salz 1
+tr | Hayrabolu Tatlısı | Hayrabolu Tatlisi, Thrakischer Käse-Sirupkringel | SW | 0.95 | 2 Stück (120 g) | mehl 30, griess 10, beyaz_peynir 25, ei 10, zucker 40, oel 6, wasser 15
+tr | Kırklareli Köftesi | Kirklareli Koftesi | KF | 0.75 | 1 Portion (200 g) | hack 200, zwiebel 30, knoblauch 4, semmel 20, salz 1, kreuzkuemmel 1
+tr | Trakya Kıyma Böreği | Trakya Boregi, Thrakischer Hackfleischbörek | BO | 0.85 | 1 Stück (200 g) | yufka 80, hack 60, zwiebel 30, butter 15, ei 15, milch 20, salz 1
+tr | Çanakkale Sardalya Buğulama | Sardalya Bugulama | HFi | 0.85 | 1 Portion (250 g) | sardine 200, tomate 60, zwiebel 30, olivenoel 10, zitrone 10, salz 1
+tr | Bergama Kozak Pilavı | Kozak Pilavi, Pinienkern-Pilav Bergama | RP | 0.9 | 1 Portion (250 g) | reis 75, pinienkerne 15, butter 12, zwiebel 20, bruehe 130, salz 1
+tr | Gerdan Kebabı | Gerdan Kebabi, Lammhals-Kebap | FL | 0.75 | 1 Portion (300 g) | lamm 250, tomate 60, zwiebel 40, butter 8, salz 1
+# Türkei – Süßspeisen
+tr | Gaziantep Katmeri | Antep Katmeri, Kaymakli Katmer, Suesser Katmer | SW | 0.95 | 1 Stück (180 g) | mehl 45, kaymak 40, pistazie 30, zucker 25, butter 20, wasser 20
+tr | Kalburabastı | Kalburabasti, Kalbura Basti | SW | 0.95 | 2 Stück (120 g) | mehl 35, griess 5, walnuss 12, butter 10, zucker 45, ei 5, joghurt 10, wasser 15
+tr | Saray Sarması | Saray Sarmasi, Pistazienrolle Baklava | SW | 1.0 | 2 Stück (90 g) | yufka 25, pistazie 25, butter 15, zucker 25
+tr | Bülbül Yuvası | Bulbul Yuvasi, Nachtigallennest-Baklava | SW | 1.0 | 2 Stück (90 g) | yufka 25, pistazie 20, butter 15, zucker 30
+tr | Fıstıklı Sarma | Fistikli Sarma, Pistazien-Wickelbaklava | SW | 1.0 | 2 Stück (90 g) | yufka 22, pistazie 28, butter 15, zucker 25
+tr | Kaymaklı Ekmek Kadayıfı | Kaymakli Ekmek Kadayifi | SW | 1.0 | 1 Portion (150 g) | weissbrot 45, zucker 50, kaymak 35, wasser 20
+tr | Su Muhallebisi | Su Muhallebisi, Wasserpudding | PU | 0.95 | 1 Schale (200 g) | wasser 160, staerke 25, zucker 25, milch 10
+tr | Paluze | Paluze, Staerkepudding | PU | 0.95 | 1 Schale (200 g) | wasser 150, staerke 25, zucker 30, granatapfel 20
+tr | Lor Tatlısı | Lor Tatlisi, Quark-Sirupkuchen | SW | 0.95 | 1 Stück (120 g) | lor 40, mehl 30, ei 15, zucker 40, butter 8, wasser 15
+tr | Halka Tatlısı | Halka Tatlisi, Brandteigring in Sirup | SW | 0.95 | 4 Stück (120 g) | mehl 30, ei 15, butter 8, oel 15, zucker 45, wasser 20
+tr | Peynir Tatlısı | Peynir Tatlisi, Kaese-Griess-Sirupbaellchen | SW | 0.95 | 4 Stück (120 g) | lor 35, griess 25, ei 10, zucker 45, butter 5, wasser 15
+tr | Paşa Lokumu | Pasa Lokumu, Pasa Tatlisi | SW | 0.95 | 4 Stück (120 g) | mehl 30, butter 15, ei 10, griess 5, zucker 45, wasser 20
+tr | Vezir Parmağı | Vezir Parmagi, Wesirfinger | SW | 0.95 | 4 Stück (120 g) | griess 20, mehl 20, butter 12, ei 8, oel 10, zucker 45, wasser 20
+tr | Kadın Göbeği | Kadin Gobegi, Hanım Göbeği klein | SW | 0.95 | 3 Stück (120 g) | mehl 30, griess 5, ei 15, butter 10, oel 15, zucker 45, wasser 15
+tr | Taş Kadayıf | Tas Kadayif, Katayef, Ramazan Kadayif | SW | 0.95 | 3 Stück (150 g) | mehl 45, walnuss 25, zucker 45, butter 10, milch 30, hefe 1
+tr | Şam Tatlısı | Sam Tatlisi, Damaskus-Griesskuchen | SW | 0.95 | 1 Stück (120 g) | griess 40, joghurt 20, zucker 40, kokos 5, butter 10, wasser 15
+tr | Acıbadem Kurabiyesi | Acibadem Kurabiyesi, Bittermandelkekse | G | 0.95 | 3 Stück (50 g) | mandel 22, zucker 22, eiweiss 8
+tr | Ay Çöreği | Ay Coregi, Halbmond-Hefegebaeck | G | 0.9 | 1 Stück (120 g) | mehl 50, walnuss 15, zucker 20, butter 15, milch 25, ei 8, rosinen 5, hefe 1
+tr | Mahlepli Çörek | Mahlepli Corek, Mahleb-Hefezopf | G | 0.9 | 1 Stück (100 g) | mehl 50, butter 12, zucker 12, milch 25, ei 8, hefe 1, gewuerz 1
+tr | Tuzlu Kurabiye | Tuzlu Kurabiye, Salzgebaeck | KR | 0.95 | 4 Stück (60 g) | mehl 30, butter 18, joghurt 6, ei 4, sesam 2, salz 0.5
+tr | Mozaik Pasta | Mozaik Pasta, Kalter Hund | K | 1.0 | 1 Stück (80 g) | keks 35, kakao 6, butter 18, zucker 15, milch 8
+tr | Yaş Pasta | Yas Pasta, Tuerkische Sahnetorte | K | 0.95 | 1 Stück (150 g) | mehl 30, ei 25, zucker 30, sahne 45, milch 20, banane 15, staerke 5
+tr | Kayısılı Revani | Kayisili Tatli | SW | 0.95 | 1 Stück (120 g) | griess 25, mehl 10, ei 15, zucker 40, aprikose_tr 15, joghurt 15, oel 8
+tr | Fırın Helva | Firin Helva, Gebackene Tahinhalva | D | 0.95 | 1 Portion (120 g) | helva 80, sahne 25, walnuss 10, butter 5
+tr | Meyveli Muhallebi | Meyveli Muhallebi, Fruchtpudding | PU | 0.95 | 1 Schale (200 g) | milch 140, staerke 15, zucker 20, erdbeere 30, banane 20
+tr | Krem Karamel | Krem Karamel, Karamellpudding | PU | 0.95 | 1 Schale (150 g) | milch 110, ei 30, zucker 25
+tr | Kaymaklı Dondurma | Kaymakli Dondurma, Sahne-Eis | D | 1.0 | 2 Kugeln (100 g) | eis 100
+tr | Cevizli Muska | Cevizli Muska Tatlisi, Walnuss-Dreiecke | SW | 0.95 | 3 Stück (100 g) | yufka 25, walnuss 20, butter 12, zucker 35, wasser 10
+tr | İrmik Kurabiyesi | Irmik Kurabiyesi, Grieskekse | G | 0.95 | 3 Stück (60 g) | griess 18, mehl 12, butter 15, zucker 15
+tr | Elmalı Kurabiye | Elmali Kurabiye, Apfelkekse | G | 0.95 | 3 Stück (90 g) | mehl 35, butter 18, apfel 25, zucker 12, zimt 1, walnuss 5
+tr | Hurma Tatlısı | Hurma Tatlisi, Dattelfoermige Sirupkekse | SW | 0.95 | 3 Stück (100 g) | mehl 30, griess 8, oel 12, walnuss 8, zucker 40, wasser 10
+tr | Aşure Kurabiyesi | Asure Kurabiyesi | G | 0.95 | 3 Stück (60 g) | mehl 25, butter 15, rosinen 8, walnuss 6, zucker 10
+tr | Pekmezli Kurabiye | Pekmezli Kurabiye, Traubensirup-Kekse | G | 0.95 | 3 Stück (60 g) | mehl 30, pekmez 15, oel 12, walnuss 5, zimt 1
+# Türkei – Straßenessen / Frühstück / Meze / Getränke
+tr | Sucuklu Tost | Sucuklu Tost, Toast mit Sucuk | SN | 0.95 | 1 Stück (180 g) | weissbrot 80, sucuk 40, kasar 40, butter 8
+tr | Bazlama Tost | Bazlama Tost | SN | 0.95 | 1 Stück (250 g) | mehl 100, kasar 50, sucuk 30, butter 8, joghurt 20, wasser 40, salz 1
+tr | Tavuk Dürüm | Tavuk Durum, Haehnchen-Duerum | SN | 0.95 | 1 Stück (300 g) | lavas 80, hahn_keule 120, tomate 40, salat 20, zwiebel 20, mayonnaise 15, pul_biber 1
+tr | Adana Dürüm | Adana Durum, Adana Wrap | SN | 0.95 | 1 Stück (300 g) | lavas 80, lamm_hack 130, zwiebel 30, tomate 30, petersilie 10, sumak_pulver 1, salz 1
+tr | Köfte Dürüm | Kofte Durum | SN | 0.95 | 1 Stück (300 g) | lavas 80, hack 120, tomate 40, zwiebel 30, salat 20, salz 1
+tr | Sıkma | Sikma, Mersin Sikma, Fladen-Wrap mit Käse | SN | 0.95 | 1 Stück (200 g) | mehl 90, beyaz_peynir 40, petersilie 10, butter 8, wasser 50, salz 1
+tr | Bişi | Bisi, Frittierter Hefefladen | BR | 0.9 | 2 Stück (120 g) | mehl 60, wasser 35, hefe 1, oel 18, salz 1
+tr | Nohut Dürüm | Nohut Durum, Kichererbsen-Wrap | SN | 0.95 | 1 Stück (280 g) | lavas 80, kichererbsen 120, tomatenmark 10, zwiebel 20, petersilie 10, oel 8, pul_biber 1, salz 1
+tr | Kelle Paça Söğüş Dürüm | Söğüş Dürüm | SN | 0.95 | 1 Stück (280 g) | lavas 80, zunge 120, tomate 40, zwiebel 20, petersilie 10, salz 1
+tr | Ciğer Tava Ekmek Arası | Ciger Ekmek, Leber im Brot | SN | 0.95 | 1 Portion (280 g) | leber 120, ekmek 100, zwiebel 30, oel 10, sumak_pulver 1, petersilie 10, salz 1
+tr | Islak Dürüm | Islak Durum | SN | 0.95 | 1 Stück (250 g) | lavas 70, hack 90, tomatenmark 15, butter 15, zwiebel 20, knoblauch 3, salz 1
+tr | Pilav Üstü Köfte | Pilav Ustu Kofte | RP | 0.9 | 1 Portion (400 g) | reis 80, hack 120, butter 12, bruehe 130, zwiebel 20, salz 1
+tr | Ekmek Arası Balık Köfte | Balik Kofte Ekmek | SN | 0.95 | 1 Portion (280 g) | ekmek 100, fisch_mager 100, ei 10, paniermehl 15, oel 12, zwiebel 20, salat 20, salz 1
+tr | Peynirli Kete | Peynirli Kete | KR | 0.9 | 1 Stück (120 g) | mehl 55, beyaz_peynir 25, butter 15, joghurt 15, ei 8, hefe 1, salz 1
+tr | Fırında Yumurta | Firinda Yumurta, Gebackene Eier | EI | 0.9 | 1 Portion (180 g) | ei 110, tomate 40, paprika 20, kasar 20, butter 5, salz 1
+tr | Kaşarlı Pişi | Kasarli Pisi | FR | 0.9 | 2 Stück (140 g) | mehl 55, kasar 25, wasser 35, hefe 1, oel 18, salz 1
+tr | Domates Biber Kavurması | Domates Biber Kavurmasi, Tomaten-Paprika-Pfanne | FR | 0.85 | 1 Portion (200 g) | tomate 130, sivri 60, olivenoel 12, salz 1
+# Meze
+tr | Topik | Topik, Kichererbsen-Zwiebel-Meze | V | 0.9 | 1 Portion (150 g) | kichererbsen_trocken 40, kartoffel 30, zwiebel 60, tahin 15, pinienkerne 5, rosinen 5, zimt 1, salz 1
+tr | Köpoğlu | Kopoglu, Auberginen-Joghurt-Meze | V | 0.9 | 1 Portion (180 g) | aubergine 120, paprika 30, joghurt 60, oel 15, knoblauch 3, salz 1
+tr | Cevizli Kereviz Salatası | Kereviz Salatasi, Sellerie-Walnuss-Salat | SA | 1.0 | 1 Portion (150 g) | sellerie 70, joghurt 40, mayonnaise 15, walnuss 15, salz 1
+tr | Levrek Marin | Levrek Marin, Marinierter Wolfsbarsch | V | 1.0 | 1 Portion (100 g) | wolfsbarsch 80, olivenoel 10, zitrone 10, dill 3
+tr | Karides Kokteyl | Karides Kokteyl, Garnelencocktail | V | 1.0 | 1 Portion (150 g) | garnele 80, mayonnaise 20, ketchup 10, salat 30, zitrone 5
+tr | Beyaz Peynir Kavun | Peynir Kavun, Rakı Sofrası Käse-Melone | V | 1.0 | 1 Portion (200 g) | melone 140, beyaz_peynir 60
+tr | Cevizli Biber | Cevizli Biber, Paprika-Walnuss-Meze | V | 0.9 | 1 Portion (120 g) | paprika_rot 80, walnuss 20, olivenoel 10, knoblauch 3, salz 1
+tr | Tahinli Patlıcan | Tahinli Patlican, Auberginen-Tahin-Meze | V | 0.85 | 1 Portion (150 g) | aubergine 140, tahin 20, zitrone 10, knoblauch 3, olivenoel 5, salz 1
+tr | Yoğurtlu Semizotu | Yogurtlu Semizotu, Portulak mit Joghurt | V | 1.0 | 1 Portion (150 g) | portulak 60, joghurt 90, knoblauch 3, olivenoel 5, salz 1
+tr | Pancar Tarator | Pancar Tarator, Rote-Bete-Joghurt-Meze | V | 1.0 | 1 Portion (150 g) | rote_bete 70, joghurt 70, walnuss 8, knoblauch 3, salz 1
+tr | Kabak Borani | Kabak Borani, Zucchini-Joghurt | V | 0.85 | 1 Portion (200 g) | zucchini 160, joghurt 70, olivenoel 10, knoblauch 3, salz 1
+tr | Ispanak Borani | Ispanak Borani, Spinat-Joghurt mit Hack | GM | 0.85 | 1 Portion (250 g) | spinat 180, hack 40, joghurt 80, butter 8, zwiebel 20, salz 1
+tr | Kuru Domates Ezmesi | Kuru Domates Ezmesi | V | 1.0 | 1 Portion (60 g) | tomatenmark 25, walnuss 10, olivenoel 12, knoblauch 3, pul_biber 1, petersilie 5
+tr | Fasulye Pilaki | Fasulye Pilaki, Weisse-Bohnen-Pilaki | GZ | 0.9 | 1 Portion (250 g) | bohnen_trocken 60, karotte 40, kartoffel 40, zwiebel 30, olivenoel 20, tomatenmark 8, wasser 90, salz 1
+tr | Kalamar Salatası | Kalamar Salatasi | SA | 1.0 | 1 Portion (180 g) | kalmar 100, zwiebel 20, petersilie 10, tomate 30, olivenoel 12, zitrone 10, salz 1
+tr | Midye Salatası | Midye Salatasi, Muschelsalat | SA | 1.0 | 1 Portion (180 g) | muschel 100, zwiebel 20, petersilie 10, tomate 30, olivenoel 12, zitrone 10, salz 1
+tr | Fırında Hamsi | Firinda Hamsi | HFi | 0.8 | 1 Portion (250 g) | sardelle 200, tomate 50, zwiebel 20, olivenoel 12, petersilie 5, salz 1
+tr | Uskumru Buğulama | Uskumru Bugulama | HFi | 0.85 | 1 Portion (250 g) | makrele 180, tomate 60, zwiebel 30, olivenoel 8, zitrone 10, salz 1
+tr | Hamsi Kayganası | Hamsi Kayganasi, Sardellen-Omelett | EI | 0.85 | 1 Portion (200 g) | sardelle 100, ei 55, mehl 15, butter 10, petersilie 5, salz 1
+tr | Mezgit Buğulama | Mezgit Bugulama | HFi | 0.85 | 1 Portion (250 g) | fisch_mager 200, tomate 50, zwiebel 30, olivenoel 10, zitrone 10, salz 1
+tr | Kalkan Izgara | Kalkan Izgara, Steinbutt vom Grill | HFi | 0.8 | 1 Portion (250 g) | fisch_mager 280, olivenoel 10, zitrone 10, salz 1
+tr | Lüfer Tava | Lufer Tava | HFi | 0.8 | 1 Portion (250 g) | fisch_fett 250, mehl 20, oel 20, salz 1
+tr | Çinekop Izgara | Cinekop Izgara, Kleiner Blaubarsch | HFi | 0.8 | 1 Portion (250 g) | fisch_fett 280, olivenoel 8, zitrone 10, salz 1
+tr | İstavrit Buğulama | Istavrit Bugulama | HFi | 0.85 | 1 Portion (250 g) | fisch_mager 200, tomate 50, zwiebel 30, olivenoel 10, salz 1
+tr | Ahtapot Güveç | Ahtapot Guvec, Oktopus aus dem Tontopf | HFi | 0.8 | 1 Portion (300 g) | oktopus 250, tomate 80, zwiebel 40, kasar 30, olivenoel 12, knoblauch 4, salz 1
+tr | Kalamar Güveç | Kalamar Guvec | HFi | 0.8 | 1 Portion (300 g) | kalmar 230, tomate 80, zwiebel 40, kasar 30, olivenoel 12, salz 1
+tr | Midye Güveç | Midye Guvec | HFi | 0.8 | 1 Portion (300 g) | muschel 220, tomate 80, paprika 40, kasar 30, olivenoel 10, salz 1
+tr | Alabalık Buğulama | Alabalik Bugulama | HFi | 0.85 | 1 Portion (250 g) | forelle 220, tomate 40, zwiebel 20, butter 8, zitrone 10, salz 1
+# Getränke
+tr | Şıra | Sira, Traubenmost tuerkisch | GT | 1.0 | 1 Glas (200 ml) | xa_traubensaft 200
+tr | Lale Şerbeti | Osmanlı Şerbeti, Osmanli Serbeti | GT | 1.0 | 1 Glas (250 ml) | wasser 210, zucker 25, zitrone 10, pflaume_tr 10
+tr | Demirhindi Şerbeti | Demirhindi Serbeti, Tamarinden-Sorbet-Getraenk | GT | 1.0 | 1 Glas (250 ml) | wasser 210, zucker 25, dattel 15
+tr | Nane Limon Çayı | Nane Limon, Minz-Zitronen-Tee | GT | 1.0 | 1 Glas (200 ml) | tee 190, zitrone 10, minze 2
+tr | Rezene Çayı | Rezene Cayi, Fencheltee | GT | 1.0 | 1 Glas (200 ml) | tee 200
+tr | Ballı Süt | Balli Sut, Honigmilch | GT | 1.0 | 1 Glas (250 ml) | milch 235, honig 15
+tr | Tarçınlı Sıcak Süt | Tarcinli Sut, Zimtmilch | GT | 1.0 | 1 Glas (250 ml) | milch 235, zucker 10, zimt 1
+tr | Vişne Şerbeti | Visne Serbeti, Sauerkirsch-Sorbet-Getraenk | GT | 1.0 | 1 Glas (250 ml) | sauerkirsche 60, zucker 25, wasser 165
+tr | Gül Şerbeti | Gul Serbeti, Rosensirup-Getraenk | GT | 1.0 | 1 Glas (250 ml) | wasser 220, zucker 28, zitrone 5
+tr | Kızılcık Şerbeti | Kizilcik Serbeti, Kornelkirschen-Sorbet-Getraenk | GT | 1.0 | 1 Glas (250 ml) | sauerkirsche 50, zucker 25, wasser 175
+tr | Ayva Kompostosu | Ayva Kompostosu, Quittenkompott | GT | 1.0 | 1 Glas (250 ml) | quitte 80, zucker 20, wasser 150
+tr | Çilek Kompostosu | Cilek Kompostosu, Erdbeerkompott-Getraenk | GT | 1.0 | 1 Glas (250 ml) | erdbeere 80, zucker 20, wasser 150
+tr | Dut Şurubu | Dut Serbeti, Maulbeer-Getraenk | GT | 1.0 | 1 Glas (250 ml) | maulbeere 50, pekmez 15, wasser 185
+# Griechenland
+gr | Pastitsada | Pastitsada Korfu, Kerkyra Pastitsada | NA | 0.85 | 1 Portion (400 g) | rind 150, nudeln 80, tomaten_dose 100, zwiebel 30, olivenoel 12, wein_rot 20, zimt 1, wasser 120, salz 1
+gr | Sofrito | Sofrito Korfu, Kalbfleisch in Knoblauch-Weinsauce | FL | 0.8 | 1 Portion (300 g) | kalb 180, mehl 10, knoblauch 8, olivenoel 15, essig 10, petersilie 5, wasser 80, salz 1
+gr | Kotopoulo me hilopites | Haehnchen mit Hilopites | NA | 0.85 | 1 Portion (400 g) | hahn_keule 150, nudeln 80, tomaten_dose 100, zwiebel 30, olivenoel 12, wasser 120, salz 1
+gr | Hilopites | Hilopites, Griechische Eiernudeln mit Tomate | NA | 0.9 | 1 Portion (300 g) | nudeln 90, tomaten_dose 80, olivenoel 10, parmesan 10, wasser 100, salz 1
+gr | Kolokythopita | Kolokithopita, Zucchini-Kaese-Pita | BO | 0.85 | 1 Stück (200 g) | yufka 50, zucchini 100, beyaz_peynir 40, ei 15, olivenoel 12, dill 3, salz 1
+gr | Prasopita | Lauchpita | BO | 0.85 | 1 Stück (200 g) | yufka 50, lauch 100, beyaz_peynir 40, ei 15, olivenoel 12, salz 1
+gr | Batzina | Batzina Thessalien, Zucchini-Maiskuchen | PZ | 0.85 | 1 Stück (200 g) | zucchini 100, maismehl 30, beyaz_peynir 40, ei 20, milch 20, olivenoel 12, salz 1
+gr | Galatopita | Galatopita, Milchkuchen | K | 0.9 | 1 Stück (150 g) | milch 110, griess 20, ei 25, zucker 20, butter 8
+gr | Plasto | Plasto Epirus, Maispita mit Gruenzeug | BO | 0.85 | 1 Stück (200 g) | maismehl 40, wildkraut 80, beyaz_peynir 40, ei 15, olivenoel 15, milch 30, salz 1
+gr | Kotopita | Kotopita, Haehnchenpita | BO | 0.85 | 1 Stück (220 g) | yufka 50, hahn_brust 90, zwiebel 30, kasar 25, ei 15, milch 20, butter 12, salz 1
+gr | Lagana | Lagana, Fastenbrot | BR | 0.9 | 1 Stück (100 g) | mehl 60, sesam 4, olivenoel 4, wasser 35, hefe 1, salz 1
+gr | Eliopsomo | Olivenbrot griechisch | BR | 0.9 | 1 Scheibe (80 g) | mehl 45, olive 12, olivenoel 4, wasser 26, hefe 1, salz 0.5
+gr | Christopsomo | Christopsomo, Griechisches Weihnachtsbrot | BR | 0.9 | 1 Scheibe (80 g) | mehl 45, zucker 6, butter 5, milch 15, walnuss 5, ei 5, hefe 1
+gr | Lazarakia | Lazarakia, Lazarus-Brötchen | G | 0.9 | 1 Stück (80 g) | mehl 45, zucker 6, olivenoel 5, rosinen 5, zimt 1, wasser 22, hefe 1
+gr | Koulourakia | Koulourakia, Griechische Osterkekse | G | 0.95 | 3 Stück (50 g) | mehl 25, butter 10, zucker 10, ei 5
+gr | Amygdalota | Amygdalota, Griechische Mandelkekse | G | 0.95 | 3 Stück (45 g) | mandel 22, zucker 20, eiweiss 5
+gr | Ekmek kataifi | Ekmek Kataifi, Kataifi-Pudding-Dessert | SW | 0.95 | 1 Stück (200 g) | kadayif 40, butter 15, zucker 40, milch 70, ei 15, staerke 10, sahne 30
+gr | Trigona Panoramatos | Trigona, Thessaloniki-Filoteig-Dreiecke | SW | 0.95 | 2 Stück (120 g) | yufka 30, butter 15, milch 40, griess 10, zucker 35, ei 8
+gr | Moustalevria | Moustalevria, Traubenmost-Pudding | D | 0.9 | 1 Schale (180 g) | xa_traubensaft 180, mehl 20, walnuss 8, zimt 1
+gr | Sokolatopita | Sokolatopita, Griechischer Schokoladenkuchen | K | 0.95 | 1 Stück (100 g) | mehl 25, kakao 6, zucker 25, ei 15, oel 12, schokolade 12, milch 15
+gr | Milopita | Milopita, Griechischer Apfelkuchen | K | 0.95 | 1 Stück (120 g) | mehl 30, apfel 50, zucker 20, butter 12, ei 10, walnuss 5, zimt 1
+gr | Melopita | Melopita Sifnos, Honig-Kaesekuchen | K | 0.95 | 1 Stück (120 g) | ricotta 60, honig 25, ei 20, mehl 15, butter 5, zimt 1
+gr | Xerotigana | Xerotigana Kreta, Teigspiralen mit Honig | SW | 0.95 | 3 Stück (80 g) | mehl 30, oel 12, honig 25, sesam 4, walnuss 6, zitrone 3
+gr | Lalagia | Lalagia, Frittierte Teigschnuere | SN | 0.9 | 1 Portion (100 g) | mehl 55, oel 15, wasser 30, salz 1
+gr | Fanouropita | Fanouropita, Fastenkuchen | K | 0.95 | 1 Stück (100 g) | mehl 35, orange 20, oel 15, zucker 20, rosinen 8, walnuss 5, zimt 1
+gr | Arni lemonato | Lamm mit Zitrone und Kartoffeln | FL | 0.8 | 1 Portion (400 g) | lamm 200, kartoffel 200, zitrone 25, olivenoel 15, oregano 1, wasser 60, salz 1
+gr | Arni fricassee | Arni frikase, Lamm-Fricassee mit Salat | FL | 0.85 | 1 Portion (400 g) | lamm 180, salat 150, fruehlingszwiebel 40, ei 30, zitrone 20, olivenoel 12, dill 5, wasser 60, salz 1
+gr | Hirino me selino | Schwein mit Sellerie Avgolemono | FL | 0.85 | 1 Portion (400 g) | schwein_nacken 180, sellerie 150, ei 25, zitrone 20, olivenoel 10, wasser 80, salz 1
+gr | Hirino prasoselino | Schwein mit Lauch und Sellerie | FL | 0.85 | 1 Portion (400 g) | schwein_nacken 180, lauch 120, sellerie 50, olivenoel 12, wein_weiss 20, wasser 80, salz 1
+gr | Kreatosoupa | Kreatosoupa, Griechische Fleischsuppe | S | 0.9 | 1 Teller (400 g) | rind 100, kartoffel 80, karotte 40, sellerie 30, reis 15, zitrone 15, wasser 200, salz 1
+gr | Spetsofai | Spetsofai Pilion, Wurst-Paprika-Pfanne | PF | 0.85 | 1 Portion (300 g) | bratwurst 120, paprika 100, tomate 80, zwiebel 30, olivenoel 12, salz 1
+gr | Kokoras krasatos | Hahn in Rotwein, Kokoras Krasatos | NA | 0.85 | 1 Portion (450 g) | hahn 180, nudeln 80, tomaten_dose 80, wein_rot 40, zwiebel 30, olivenoel 12, wasser 100, salz 1
+gr | Kouneli stifado | Kaninchen-Stifado | FL | 0.85 | 1 Portion (350 g) | kaninchen 200, zwiebel 120, tomatenmark 15, wein_rot 30, olivenoel 15, zimt 1, wasser 50, salz 1
+gr | Gourounopoula | Gourounopoula Kreta, Spanferkel griechisch | FL | 0.75 | 1 Portion (250 g) | schwein_bauch 140, schwein_mager 140, zitrone 10, oregano 1, salz 1
+gr | Kotopoulo me bamies | Haehnchen mit Okra | GM | 0.85 | 1 Portion (400 g) | hahn_keule 160, okra 150, tomaten_dose 100, zwiebel 30, olivenoel 15, wasser 40, salz 1
+gr | Psarosoupa | Psarosoupa, Griechische Fischsuppe | S | 0.9 | 1 Teller (400 g) | fisch_mager 120, kartoffel 80, karotte 40, zwiebel 30, reis 15, ei 15, zitrone 15, olivenoel 10, wasser 150, salz 1
+gr | Soupies krasates | Tintenfisch in Wein | HFi | 0.8 | 1 Portion (300 g) | kalmar 250, wein_weiss 40, zwiebel 40, olivenoel 15, salz 1
+gr | Kalamarakia gemista | Gefuellter Kalmar griechisch | HFi | 0.85 | 1 Portion (300 g) | kalmar 200, reis 40, zwiebel 30, tomate 50, olivenoel 15, petersilie 5, salz 1
+gr | Lavraki sta karvouna | Gegrillter Wolfsbarsch griechisch | HFi | 0.8 | 1 Portion (300 g) | wolfsbarsch 330, olivenoel 12, zitrone 15, oregano 1, salz 1
+gr | Atherina tiganiti | Atherina, Frittierte Aehrenfische | HFi | 0.8 | 1 Portion (200 g) | sardelle 200, mehl 25, oel 20, salz 1
+gr | Marides tiganites | Marides, Frittierte Laxierfische | HFi | 0.8 | 1 Portion (200 g) | sardine 200, mehl 25, oel 20, salz 1
+gr | Garidomakaronada | Garnelen-Spaghetti griechisch | NA | 0.9 | 1 Portion (400 g) | nudeln 100, garnele 120, tomaten_dose 120, olivenoel 15, knoblauch 5, wein_weiss 20, wasser 60, salz 1
+gr | Astakomakaronada | Hummer-Spaghetti | NA | 0.9 | 1 Portion (450 g) | nudeln 100, hummer 150, tomaten_dose 120, olivenoel 15, knoblauch 5, wein_weiss 20, wasser 60, salz 1
+gr | Prasorizo | Lauchreis | RP | 0.9 | 1 Portion (300 g) | lauch 150, reis 50, olivenoel 15, zitrone 10, dill 3, wasser 100, salz 1
+gr | Maroulosalata | Griechischer Kopfsalat mit Dill | SA | 1.0 | 1 Schale (150 g) | salat 110, fruehlingszwiebel 15, dill 5, olivenoel 12, essig 8, salz 1
+gr | Politiki salata | Politiki, Kohlsalat aus Konstantinopel | SA | 1.0 | 1 Schale (200 g) | weisskohl 120, karotte 40, paprika_rot 20, olivenoel 12, essig 8, salz 1
+gr | Htipiti | Chtipiti, Feta-Paprika-Dip | SD | 1.0 | 1 Portion (80 g) | beyaz_peynir 50, paprika_rot 20, olivenoel 8, chili 2
+gr | Kopanisti | Kopanisti Mykonos, Scharfer Kaesedip | SD | 1.0 | 1 Portion (60 g) | beyaz_peynir 50, olivenoel 8, pfeffer 1, chili 1
+gr | Revithokeftedes | Kichererbsen-Frikadellen Sifnos | V | 0.85 | 4 Stück (150 g) | kichererbsen 120, zwiebel 30, mehl 10, oel 15, petersilie 5, kreuzkuemmel 1, salz 1
+gr | Feta me meli | Feta mit Honig im Filoteig | V | 0.95 | 1 Portion (150 g) | beyaz_peynir 80, yufka 25, honig 20, sesam 5, olivenoel 10
+gr | Strapatsada | Kagianas, Kayianas, Ruehrei mit Tomate und Feta | EI | 0.85 | 1 Portion (250 g) | ei 110, tomate 150, beyaz_peynir 30, olivenoel 12, salz 1
+gr | Avga me patates | Eier mit Pommes griechisch | EI | 0.85 | 1 Portion (300 g) | kartoffel 200, ei 110, olivenoel 25, oregano 1, salz 1
+gr | Sfougato | Sfougato Kreta, Zucchini-Omelett | EI | 0.85 | 1 Portion (250 g) | ei 110, zucchini 120, beyaz_peynir 30, olivenoel 12, minze 2, salz 1
+gr | Tiganites | Griechische Pfannkuchen mit Honig | FR | 0.9 | 3 Stück (180 g) | mehl 60, wasser 70, oel 15, honig 25, walnuss 10, zimt 1
+gr | Rakomelo | Rakomelo, Raki mit Honig heiss | GT | 1.0 | 1 Glas (60 ml) | spirituose 45, honig 15, zimt 0.5
+gr | Soumada | Soumada, Mandelsirup-Getraenk | GT | 1.0 | 1 Glas (250 ml) | wasser 200, zucker 25, mandel 20
+gr | Gyros kotopoulo | Haehnchengyros, Chicken Gyros | KB | 0.75 | 1 Portion (250 g) | hahn_keule 300, olivenoel 10, zwiebel 20, oregano 1, salz 1
+# Zypern
+cy | Koupes | Koupes Zypern, Zypriotische Bulgur-Kroketten | KF | 0.85 | 3 Stück (180 g) | bulgur 60, hack 60, zwiebel 30, petersilie 5, oel 20, salz 1
+cy | Pourekia | Pourekia, Zypriotische Teigtaschen mit Anari | BO | 0.9 | 3 Stück (150 g) | mehl 60, ricotta 50, ei 10, oel 15, zimt 1, minze 1, wasser 20
+cy | Flaouna | Flaouna, Zypriotisches Osterkaesegebaeck | G | 0.9 | 1 Stück (120 g) | mehl 50, hellim 35, ei 15, rosinen 5, sesam 4, milch 10, hefe 1, minze 1
+cy | Kattimeri | Kattimeri, Zypriotischer Blaetterfladen | SW | 0.9 | 1 Stück (120 g) | mehl 60, butter 15, zucker 10, zimt 1, wasser 35
+cy | Louvi me lahana | Louvi, Schwarzaeugige Bohnen mit Mangold | HH | 0.9 | 1 Portion (300 g) | bohnen_trocken 70, mangold 100, olivenoel 15, zitrone 15, wasser 120, salz 1
+cy | Trahanas Cypriot | Trahanas Zypern, Trahana-Suppe mit Halloumi | S | 0.9 | 1 Teller (350 g) | tarhana 40, hellim 30, bruehe 290, salz 0.5
+cy | Makaronia tou fournou | Zypriotischer Nudelauflauf, Macaroni Pie | AU | 0.9 | 1 Stück (350 g) | nudeln 80, hack 80, milch 100, mehl 12, butter 12, hellim 20, ei 10, zwiebel 20, tomatenmark 8, wasser 30, salz 1
+cy | Kolokotes | Kolokotes, Kuerbis-Teigtaschen | BO | 0.9 | 2 Stück (180 g) | mehl 60, kuerbis 80, bulgur 15, rosinen 8, oel 15, zucker 5, wasser 20, salz 1
+cy | Elioti | Elioti, Zypriotisches Olivenbrot | BR | 0.9 | 1 Scheibe (90 g) | mehl 45, olive 15, zwiebel 10, olivenoel 6, wasser 25, hefe 1, salz 0.5
+cy | Glistrida salata | Portulak-Salat zypriotisch | SA | 1.0 | 1 Schale (200 g) | portulak 80, tomate 60, gurke 40, olivenoel 12, zitrone 8, salz 1
+cy | Soutzoukos | Soutzoukos, Mandel-Traubenmost-Strang | D | 1.0 | 1 Stück (60 g) | mandel 20, xa_traubensaft 50, mehl 10
+cy | Shiamishi | Shiamishi, Griess-Pastete im Teig | SW | 0.9 | 1 Stück (100 g) | mehl 30, griess 15, zucker 20, oel 15, wasser 30
+cy | Zalatina | Zalatina, Zypriotische Schweinesuelze | V | 0.95 | 1 Portion (150 g) | schwein_haxe 100, zitrone 20, essig 10, wasser 40, salz 1
+cy | Pilafi pourgouri | Pourgouri, Zypriotischer Bulgurpilaw | RP | 0.9 | 1 Portion (250 g) | bulgur 75, zwiebel 30, nudeln 10, tomatenmark 8, butter 10, bruehe 130, salz 1
+cy | Louvana | Louvana, Gelberbsenpueree Zypern | HH | 0.9 | 1 Portion (250 g) | erbsen_trocken 70, zwiebel 30, olivenoel 15, zitrone 10, wasser 120, salz 1
+cy | Bourekia me anari | Bourekia Anari, Suesse Anari-Taschen | SW | 0.95 | 3 Stück (120 g) | mehl 40, ricotta 40, zucker 20, oel 10, zimt 1, wasser 15
+cy | Halloumopita | Halloumi-Minz-Kuchen | PZ | 0.9 | 1 Stück (100 g) | mehl 25, hellim 30, ei 20, joghurt 15, oel 10, minze 1
+cy | Moungra | Moungra, Eingelegter Blumenkohl mit Senf | KO | 1.0 | 1 Portion (100 g) | blumenkohl 90, senf 8, essig 5
+cy | Fasolaki yiahni | Gruene Bohnen geschmort zypriotisch | GZ | 0.85 | 1 Portion (300 g) | gruene_bohnen 200, tomaten_dose 80, zwiebel 30, kartoffel 50, olivenoel 20, salz 1
+# Moldau
+md | Zeamă | Zeama, Moldauische Huehnersuppe | S | 0.9 | 1 Teller (400 g) | hahn 100, nudeln 30, karotte 40, zwiebel 30, paprika 20, ei 10, joghurt 15, wasser 200, salz 1
+md | Plăcintă cu varză | Placinta cu varza, Kohl-Plachinte | BO | 0.9 | 1 Stück (180 g) | mehl 70, weisskohl 80, zwiebel 20, oel 15, wasser 30, salz 1
+md | Plăcintă cu cartofi | Placinta cu cartofi, Kartoffel-Plachinte | BO | 0.9 | 1 Stück (180 g) | mehl 70, kartoffel 80, zwiebel 20, oel 15, wasser 30, salz 1
+md | Plăcintă cu dovleac | Placinta cu dovleac, Kuerbis-Plachinte | BO | 0.9 | 1 Stück (180 g) | mehl 70, kuerbis 80, zucker 15, oel 12, zimt 1, wasser 30
+md | Vărzări | Varzari, Moldauische Krautfladen | BO | 0.85 | 1 Stück (150 g) | mehl 60, sauerkraut 60, zwiebel 20, oel 15, wasser 25, salz 1
+md | Răcituri | Racituri, Moldauische Suelze | V | 0.95 | 1 Portion (200 g) | schwein_haxe 120, hahn 30, knoblauch 5, wasser 60, salz 1
+md | Friptură moldovenească | Friptura moldoveneasca, Moldauischer Schweinebraten | FL | 0.75 | 1 Portion (250 g) | schwein_nacken 250, knoblauch 5, zwiebel 30, oel 10, wein_weiss 20, salz 1
+md | Chiftele moldovenești | Chiftele, Moldauische Frikadellen | KF | 0.8 | 4 Stück (200 g) | gemischtes_hack 150, kartoffel 30, zwiebel 30, ei 15, mehl 10, oel 15, dill 3, salz 1
+md | Ardei umpluți moldovenești | Ardei umpluti, Gefuellte Paprika Moldau | DO | 0.9 | 2 Stück (350 g) | paprika 160, gemischtes_hack 80, reis 30, zwiebel 30, tomaten_dose 60, sauerrahm 30, wasser 40, salz 1
+md | Sarmale în foi de viță | Sarmale in foi de vita, Weinblatt-Sarmale | DO | 0.9 | 1 Portion (300 g) | weinblatt 40, gemischtes_hack 100, reis 30, zwiebel 30, tomaten_dose 60, sauerrahm 30, wasser 50, salz 1
+md | Brânzoaice | Branzoaice, Suesse Quarktaschen | G | 0.9 | 2 Stück (150 g) | mehl 60, quark 50, ei 15, zucker 15, butter 10, milch 20, hefe 1
+md | Pârjoale moldovenești | Parjoale, Moldauische Hackfleischlaibchen | KF | 0.8 | 2 Stück (200 g) | gemischtes_hack 140, semmel 25, zwiebel 30, ei 15, paniermehl 10, oel 15, dill 3, salz 1
+md | Colțunași | Coltunasi, Moldauische Quark-Teigtaschen | MA | 0.95 | 1 Portion (250 g) | mehl 80, quark 80, ei 15, sauerrahm 40, butter 8, wasser 30, salz 1
+md | Ciorbă de pește moldovenească | Moldauische Fischsuppe | S | 0.9 | 1 Teller (400 g) | karpfen 120, kartoffel 60, karotte 30, zwiebel 30, tomate 40, paprika 20, wasser 160, salz 1
+# Serbien
+rs | Svadbarski kupus | Hochzeitskraut, Svadbarski kupus | E | 0.85 | 1 Portion (400 g) | sauerkraut 200, schwein_nacken 80, speck 30, rind 50, zwiebel 30, paprikapulver 2, wasser 60, salz 1
+rs | Podvarak | Podvarak, Sauerkraut mit Braten | GM | 0.85 | 1 Portion (350 g) | sauerkraut 200, schwein_nacken 120, zwiebel 30, schmalz 10, paprikapulver 2, salz 1
+rs | Prasetina | Prasetina, Spanferkel serbisch | FL | 0.75 | 1 Portion (250 g) | schwein_bauch 180, schwein_mager 120, salz 1
+rs | Jagnjetina ispod sača | Lamm unter der Glocke | FL | 0.8 | 1 Portion (400 g) | lamm 220, kartoffel 200, zwiebel 30, oel 15, paprikapulver 1, salz 1
+rs | Ražnjići | Raznjici, Serbische Fleischspiesse | KB | 0.75 | 1 Portion (220 g) | schwein_nacken 260, zwiebel 30, oel 5, salz 1
+rs | Vešalica | Vesalica, Gegrillter Schweinenacken serbisch | FL | 0.75 | 1 Portion (230 g) | schwein_nacken 280, oel 5, salz 1
+rs | Gurmanska pljeskavica | Gourmet-Pljeskavica, Gefuellte Pljeskavica | KF | 0.8 | 1 Stück (280 g) | gemischtes_hack 220, kaymak 30, schinken 30, kasar 30, zwiebel 20, salz 1
+rs | Komplet lepinja | Komplet lepinja Uzice | FR | 0.95 | 1 Stück (300 g) | semmel 120, kaymak 50, ei 55, bruehe 40, schmalz 15
+rs | Pohovani kačkavalj | Panierter Kaschkawal | V | 0.9 | 1 Portion (180 g) | xa_kaese_hart 100, mehl 10, ei 25, paniermehl 25, oel 20
+rs | Urnebes salata | Urnebes, Scharfer Kaesesalat | SD | 1.0 | 1 Portion (100 g) | xa_kaese_salz_frisch 60, kaymak 15, paprikapulver 2, chili 5, knoblauch 3, oel 5
+rs | Pasulj sa kobasicom | Serbische Bohnensuppe mit Wurst | E | 0.9 | 1 Teller (400 g) | bohnen_trocken 80, wuerstchen_geraeuchert 60, zwiebel 40, karotte 20, mehl 5, oel 10, paprikapulver 2, wasser 200, salz 1
+rs | Srpski paprikaš | Paprikas, Serbisches Paprikahuhn | E | 0.85 | 1 Portion (400 g) | hahn 160, zwiebel 60, paprika 80, tomate 50, kartoffel 80, oel 15, paprikapulver 3, wasser 60, salz 1
+rs | Sataraš | Satarash, Paprika-Tomaten-Gemuese | GZ | 0.85 | 1 Portion (250 g) | paprika 150, tomate 80, zwiebel 40, ei 30, oel 15, salz 1
+rs | Popara | Popara, Brotsuppe mit Kaese | FR | 0.95 | 1 Schale (300 g) | weissbrot 80, milch 150, xa_kaese_salz_frisch 30, butter 10
+rs | Prženice | Przenice, Serbischer Arme Ritter | FR | 0.9 | 2 Scheiben (150 g) | weissbrot 70, ei 40, milch 30, oel 15, salz 0.5
+rs | Pihtije | Pihtije, Serbische Schweinesuelze | V | 0.95 | 1 Portion (200 g) | schwein_haxe 130, knoblauch 5, wasser 60, paprikapulver 1, salz 1
+rs | Riblja čorba srpska | Serbische Fischsuppe Donau | S | 0.9 | 1 Teller (400 g) | karpfen 130, zwiebel 60, tomatenmark 15, paprikapulver 3, wasser 230, salz 1
+rs | Reform torta | Reforma torta, Serbische Walnuss-Schokotorte | K | 1.0 | 1 Stück (100 g) | walnuss 25, ei 25, zucker 25, schokolade 15, butter 10
+rs | Vasina torta | Vasa-Torte, Orangen-Walnusstorte | K | 1.0 | 1 Stück (110 g) | walnuss 25, ei 25, zucker 25, schokolade 15, butter 12, orange 8
+rs | Šampita | Sampita, Baiser-Schnitte | K | 1.0 | 1 Stück (100 g) | blaetterteig 25, eiweiss 30, zucker 40, wasser 5
+rs | Žito | Zito, Koljivo, Gesuesster Weizen mit Walnuss | D | 1.0 | 1 Schale (150 g) | xa_weizen 50, walnuss 25, zucker 20, wasser 55, zucker 2
+rs | Kuvana rakija | Vruca rakija, Gekochter Schnaps | GT | 1.0 | 1 Becher (150 ml) | spirituose 50, zucker 15, wasser 85
+rs | Pogača srpska | Serbisches Hefe-Fladenbrot | BR | 0.9 | 1 Stück (100 g) | mehl 55, milch 25, oel 5, hefe 1, wasser 20, salz 1
+# Kroatien
+hr | Dagnje na buzaru | Muscheln Buzara, Miesmuscheln Buzara | HFi | 0.6 | 1 Portion (300 g) | muschel 400, wein_weiss 50, olivenoel 20, knoblauch 8, petersilie 5, paniermehl 10, salz 1
+hr | Škampi na buzaru | Scampi Buzara | HFi | 0.75 | 1 Portion (250 g) | garnele 250, tomate 60, wein_weiss 30, olivenoel 20, knoblauch 8, paniermehl 5, salz 1
+hr | Lignje na žaru | Gegrillte Calamari kroatisch | HFi | 0.75 | 1 Portion (250 g) | kalmar 300, olivenoel 20, knoblauch 5, petersilie 5, salz 1
+hr | Punjene lignje | Gefuellte Calamari | HFi | 0.8 | 1 Portion (300 g) | kalmar 250, reis 30, schinken 30, ei 15, olivenoel 20, knoblauch 5, wasser 30, salz 1
+hr | Hobotnica ispod peke | Oktopus unter der Peka | HFi | 0.75 | 1 Portion (400 g) | oktopus 300, kartoffel 200, olivenoel 25, wein_weiss 20, knoblauch 5, salz 1
+hr | Salata od hobotnice | Oktopussalat kroatisch | SA | 0.95 | 1 Schale (200 g) | oktopus 120, kartoffel 40, zwiebel 20, olivenoel 15, essig 8, petersilie 3, salz 1
+hr | Bakalar na bijelo | Stockfisch weiss, Bakalar | HFi | 0.9 | 1 Portion (300 g) | kabeljau 120, kartoffel 120, olivenoel 30, knoblauch 5, petersilie 5, wasser 50, salz 1
+hr | Bakalar na crveno | Stockfisch rot mit Tomate | HFi | 0.9 | 1 Portion (350 g) | kabeljau 120, kartoffel 120, tomaten_dose 80, olivenoel 25, zwiebel 30, wasser 30, salz 1
+hr | Riba na gradele | Fisch vom Grill dalmatinisch | HFi | 0.8 | 1 Portion (280 g) | wolfsbarsch 300, olivenoel 20, knoblauch 3, petersilie 3, salz 1
+hr | Zagrebački odrezak | Zagreber Schnitzel | FL | 0.85 | 1 Stück (280 g) | kalb 160, schinken 30, gouda 30, mehl 10, ei 25, paniermehl 30, oel 25, salz 1
+hr | Krpice sa zeljem | Krautfleckerl kroatisch | MA | 0.95 | 1 Portion (300 g) | nudeln 90, weisskohl 150, zwiebel 30, schmalz 15, wasser 30, salz 1, pfeffer 0.5
+hr | Kotlovina | Kotlovina, Pfannengericht Zagorje | E | 0.85 | 1 Portion (400 g) | schwein_nacken 150, wuerstchen_geraeuchert 50, kartoffel 120, zwiebel 40, paprika 50, wein_weiss 30, oel 15, salz 1
+hr | Zagorska juha | Zagorje-Suppe, Kartoffel-Pilz-Suppe | S | 0.9 | 1 Teller (400 g) | kartoffel 100, pilz 60, speck 25, sauerrahm 40, mehl 10, wasser 200, salz 1
+hr | Maneštra | Manestra, Istrischer Eintopf | E | 0.9 | 1 Teller (400 g) | bohnen_trocken 40, mais 40, kartoffel 60, karotte 30, speck 25, nudeln 20, wasser 220, salz 1
+hr | Pljukanci | Pljukanci, Istrische Handnudeln | MA | 0.95 | 1 Portion (300 g) | mehl 90, wasser 40, tomaten_dose 80, hack 60, olivenoel 15, parmesan 10, salz 1
+hr | Šporki makaruli | Sporki makaruli, Splitter Nudeln mit Fleischsauce | MA | 0.9 | 1 Portion (350 g) | nudeln 90, rind 100, tomaten_dose 80, zwiebel 30, wein_rot 20, olivenoel 15, parmesan 10, wasser 30, salz 1
+hr | Rižot od šparoga | Spargelrisotto istrisch | RP | 0.95 | 1 Portion (350 g) | reis 80, spargel 100, bruehe 180, olivenoel 10, parmesan 15, zwiebel 20, salz 1
+hr | Rapska torta | Rab-Torte, Mandeltorte | K | 1.0 | 1 Stück (80 g) | mandel 30, mehl 15, zucker 25, ei 10, butter 5, zitrone 2
+hr | Kroštule | Krostule, Kroatische Schmalzkringel | G | 0.9 | 5 Stück (60 g) | mehl 35, ei 10, zucker 5, oel 15, spirituose 3, zucker 5
+hr | Paprenjaci | Paprenjaci, Pfeffer-Honigkekse | G | 0.9 | 3 Stück (50 g) | mehl 25, honig 12, walnuss 8, butter 6, zucker 4, pfeffer 0.5
+hr | Bučnica | Bucnica, Kuerbisstrudel | G | 0.9 | 1 Stück (180 g) | yufka 50, kuerbis 80, quark 40, sauerrahm 20, ei 10, butter 5
+hr | Zlevanka | Zlevanka, Maiskuchen Zagorje | K | 0.9 | 1 Stück (150 g) | maismehl 40, quark 40, milch 40, sauerrahm 20, ei 20, zucker 5
+hr | Kandirane narančine kore | Kandierte Orangenschale dalmatinisch | D | 0.6 | 1 Portion (40 g) | orange 40, zucker 30
+hr | Sir i vrhnje | Kaese mit Sahne, Zagreber Frischkaese | FR | 1.0 | 1 Portion (150 g) | quark 100, sauerrahm 40, paprikapulver 1, salz 1
+hr | Fiš paprikaš | Fis paprikas, Slawonischer Fischeintopf | E | 0.9 | 1 Teller (450 g) | karpfen 150, zwiebel 60, paprikapulver 5, tomatenmark 10, wasser 250, salz 1
+# Bosnien
+ba | Sarajevski sahan | Sarajevo-Sahan, Gemischter Schmortopf | E | 0.85 | 1 Portion (400 g) | lamm 120, weisskohl 80, kartoffel 80, paprika 50, zwiebel 40, tomate 50, oel 10, wasser 40, salz 1
+ba | Filovane paprike | Gefuellte Paprika bosnisch | DO | 0.9 | 2 Stück (350 g) | paprika 160, hack 90, reis 30, zwiebel 30, tomaten_dose 60, wasser 50, salz 1
+ba | Kljukuša | Kljukusa, Kartoffelfladen aus Bihać | AU | 0.9 | 1 Stück (250 g) | kartoffel 150, mehl 50, ei 20, milch 30, oel 15, salz 1
+ba | Maslenica | Maslenica, Butterpita | BO | 0.95 | 1 Stück (150 g) | yufka 70, butter 25, kaymak 20, ei 15, milch 20, salz 0.5
+ba | Hadžijski ćevap | Hadzijski cevap, Pilger-Gulasch | E | 0.85 | 1 Portion (350 g) | kalb 150, zwiebel 80, pilz 50, tomate 50, oel 15, mehl 5, wasser 60, salz 1
+ba | Sitni ćevap | Sitni cevap, Bosnisches Kalbsragout | E | 0.85 | 1 Portion (300 g) | kalb 160, zwiebel 80, oel 15, paprikapulver 2, wasser 80, salz 1
+ba | Bosanski grah | Bosnischer Bohneneintopf | E | 0.9 | 1 Teller (400 g) | bohnen_trocken 80, rind 50, zwiebel 40, karotte 20, paprikapulver 2, oel 10, wasser 220, salz 1
+ba | Ružice | Ruzice, Bosnische Sirup-Roellchen | D | 1.0 | 2 Stück (100 g) | yufka 25, walnuss 15, butter 10, zucker 35, wasser 15, zitrone 1
+ba | Ćulbastija bosanska | Culbastija, Gegrilltes mariniertes Steak | FL | 0.75 | 1 Portion (220 g) | kalb 280, zwiebel 10, oel 5, salz 1
+ba | Sudžukice | Sudzukice, Bosnische Grill-Wuerstchen | KB | 0.85 | 1 Portion (200 g) | rind 160, rind_fett 30, knoblauch 5, paprikapulver 2, salz 1
+ba | Pita sa višnjama | Kirsch-Pita, Visnjeva pita | G | 0.95 | 1 Stück (150 g) | yufka 50, sauerkirsche 70, zucker 15, oel 10, griess 5
+# Bulgarien
+bg | Kapama | Kapama Bansko, Bulgarischer Schmortopf | E | 0.85 | 1 Portion (450 g) | schwein_nacken 100, hahn 80, sauerkraut 150, reis 40, wuerstchen_geraeuchert 40, wein_rot 20, wasser 80, paprikapulver 2, salz 1
+bg | Chomlek | Chomlek, Kapitelschmortopf | E | 0.85 | 1 Portion (400 g) | rind 160, kartoffel 100, zwiebel 60, karotte 40, wein_rot 20, oel 10, wasser 80, salz 1
+bg | Drob sarma | Drob sarma, Leber-Reis-Auflauf | AU | 0.9 | 1 Portion (300 g) | huhn_leber 80, lamm 40, reis 50, joghurt 60, ei 25, butter 10, wasser 70, salz 1
+bg | Supa topcheta | Supa topcheta, Fleischbaellchensuppe | S | 0.9 | 1 Teller (400 g) | hack 80, reis 20, karotte 30, kartoffel 50, ei 15, joghurt 30, wasser 200, salz 1
+bg | Kurban chorba | Kurban chorba, Lammsuppe | S | 0.9 | 1 Teller (400 g) | lamm 100, reis 20, karotte 30, zwiebel 30, paprika 20, ei 10, joghurt 20, wasser 200, salz 1
+bg | Tutmanik | Tutmanik, Bulgarisches Kaesebrot | BR | 0.9 | 1 Stück (130 g) | mehl 60, xa_kaese_salz_frisch 30, joghurt 20, ei 10, oel 8, hefe 1, salz 0.5
+bg | Parlenka | Parlenka, Bulgarisches Grillfladenbrot | BR | 0.9 | 1 Stück (100 g) | mehl 60, joghurt 15, butter 5, wasser 20, knoblauch 2, salz 1
+bg | Chushki byurek | Chushki burek, Panierte gefuellte Paprika | V | 0.85 | 2 Stück (250 g) | paprika_rot 160, xa_kaese_salz_frisch 60, ei 30, mehl 15, paniermehl 15, oel 20
+bg | Kyopoolu | Kyopolu, Bulgarisches Auberginenpueree | SD | 0.75 | 1 Portion (150 g) | aubergine 120, paprika_rot 40, knoblauch 4, olivenoel 15, essig 5, petersilie 3, salz 1
+bg | Sirene po shopski | Sirene po shopski, Ueberbackener Kaese im Topf | V | 0.9 | 1 Topf (280 g) | xa_kaese_salz_frisch 100, tomate 60, paprika 50, ei 55, butter 10, chili 5
+bg | Kartofi s sirene | Kartoffeln mit Sirene | GM | 0.9 | 1 Portion (300 g) | kartoffel 250, xa_kaese_salz_frisch 50, oel 20, dill 3, salz 0.5
+bg | Ovcharska salata | Ovcharska, Schaefersalat | SA | 1.0 | 1 Schale (350 g) | tomate 80, gurke 60, paprika 40, pilz 40, schinken 40, xa_kaese_salz_frisch 40, xa_kaese_hart 20, ei 25, oel 10
+bg | Plakiya | Plakiya, Fisch in Tomatensauce bulgarisch | HFi | 0.85 | 1 Portion (350 g) | karpfen 180, zwiebel 60, tomate 80, karotte 30, oel 20, wein_weiss 20, salz 1
+bg | Bulgarski kyufteta | Kyufteta, Bulgarische Hackbaellchen | KF | 0.8 | 4 Stück (180 g) | schwein_hack 110, rind 50, zwiebel 30, kreuzkuemmel 1, semmel 15, salz 1
+bg | Garash torta | Garash, Bulgarische Walnuss-Schoko-Torte | K | 1.0 | 1 Stück (100 g) | walnuss 30, eiweiss 25, zucker 25, schokolade 15, sahne 8
+bg | Leshta chorba | Bulgarische Linsensuppe | S | 0.9 | 1 Teller (350 g) | linsen 60, karotte 30, zwiebel 30, tomate 40, oel 10, paprikapulver 1, wasser 170, salz 1
+# Albanien
+al | Tavë dheu | Tave dheu, Tirana-Tontopf mit Leber | AU | 0.85 | 1 Topf (300 g) | huhn_leber 80, rind 60, paprika 50, tomate 50, lor 40, knoblauch 5, butter 15, salz 1
+al | Qumështor | Qumeshtor, Albanischer Milchauflauf | D | 0.9 | 1 Stück (150 g) | milch 100, ei 30, mehl 15, zucker 20, butter 5
+al | Ballokume | Ballokume Elbasani, Maisbutterkekse | G | 0.9 | 2 Stück (70 g) | maismehl 30, butter 20, zucker 20, ei 5
+al | Kabuni | Kabuni, Albanischer Lamm-Reis-Dessert | D | 0.9 | 1 Schale (200 g) | reis 50, lamm 30, butter 15, zucker 25, rosinen 10, zimt 1, bruehe 100
+al | Petulla | Petulla, Albanische Hefekrapfen | SW | 0.9 | 3 Stück (120 g) | mehl 60, wasser 40, hefe 1, oel 20, salz 0.5
+al | Lakror | Lakror, Korça-Gemuesepita | BO | 0.9 | 1 Stück (200 g) | mehl 70, lauch 60, tomate 30, zwiebel 20, oel 15, wasser 30, salz 1
+al | Jani me fasule | Jani me fasule, Albanischer Bohneneintopf | HH | 0.9 | 1 Teller (350 g) | bohnen_trocken 80, zwiebel 40, tomatenmark 15, paprikapulver 2, oel 15, minze_trocken 1, wasser 180, salz 1
+al | Tavë me presh | Lauch-Tava mit Fleisch | AU | 0.85 | 1 Portion (350 g) | lauch 200, rind 100, reis 20, oel 15, joghurt 40, salz 1
+al | Përshesh | Pershesh, Maisbrot-Huhn-Brei | E | 0.9 | 1 Portion (350 g) | maismehl 50, hahn 120, butter 15, bruehe 200, salz 1
+al | Tavë krapi | Tave krapi, Shkodra-Karpfen im Ofen | HFi | 0.85 | 1 Portion (350 g) | karpfen 220, zwiebel 60, tomate 60, oel 20, walnuss 10, salz 1
+al | Qifqi | Qifqi, Gjirokastra-Reisbaellchen | V | 0.85 | 4 Stück (180 g) | reis 70, ei 40, minze 5, butter 10, oel 15, wasser 80, salz 1
+al | Pispili | Pispili, Maismehl-Gemuesekuchen | AU | 0.9 | 1 Stück (200 g) | maismehl 50, spinat 80, lauch 40, beyaz_peynir 30, oel 15, wasser 30, salz 1
+al | Groshë | Groshe, Albanische Bohnensuppe | S | 0.9 | 1 Teller (400 g) | bohnen_trocken 70, zwiebel 40, speck 25, tomatenmark 10, paprikapulver 2, wasser 250, salz 1
+al | Mish qingji me kos | Lamm mit Joghurt albanisch | FL | 0.8 | 1 Portion (350 g) | lamm 220, joghurt 120, ei 30, reis 20, butter 10, salz 1
+al | Shendetli | Shendetli, Albanischer Honig-Walnusskuchen | K | 1.0 | 1 Stück (100 g) | mehl 25, ei 15, zucker 25, honig 15, walnuss 15, butter 5
+al | Kulaç | Kulac, Albanisches Festbrot | BR | 0.9 | 1 Scheibe (90 g) | mehl 50, milch 20, ei 8, butter 5, hefe 1, salz 0.5
+# Nordmazedonien
+mk | Ohridska pastrmka | Ohrid-Forelle | HFi | 0.8 | 1 Stück (250 g) | forelle 280, olivenoel 15, knoblauch 3, zitrone 10, petersilie 3, salz 1
+mk | Pindžur | Pindzur, Mazedonischer Paprika-Tomaten-Dip | SD | 0.75 | 1 Portion (150 g) | paprika_rot 100, tomate 50, aubergine 30, knoblauch 5, oel 15, salz 1
+mk | Makalo | Makalo, Knoblauch-Dip mazedonisch | SD | 0.95 | 1 Portion (80 g) | knoblauch 20, weissbrot 20, oel 20, essig 5, wasser 15, salz 1
+mk | Gjomleze | Gjomleze, Mazedonische Schichtpita | BO | 0.9 | 1 Stück (200 g) | mehl 70, butter 25, xa_kaese_salz_frisch 30, ei 20, milch 50, salz 0.5
+mk | Kompir mandža | Kompir mandza, Mazedonischer Kartoffeleintopf | E | 0.85 | 1 Teller (400 g) | kartoffel 220, schwein_nacken 60, zwiebel 50, paprikapulver 3, oel 15, tomatenmark 10, wasser 80, salz 1
+mk | Mezelak | Mezelak, Leber-Pfannengericht | GM | 0.85 | 1 Portion (250 g) | huhn_leber 150, paprika 60, zwiebel 30, oel 15, wein_weiss 15, salz 1
+mk | Pita so praz | Lauch-Pita mazedonisch | BO | 0.9 | 1 Stück (180 g) | yufka 60, lauch 80, xa_kaese_salz_frisch 25, ei 15, oel 15
+mk | Tikvarnik | Tikvarnik, Kuerbispita | G | 0.9 | 1 Stück (150 g) | yufka 50, kuerbis 80, walnuss 10, zucker 15, oel 10, zimt 1
+mk | Šarplaninski kebap | Sharr-Lammspiess | KB | 0.8 | 1 Portion (220 g) | lamm 220, zwiebel 30, oel 5, paprikapulver 1, salz 1
+# Montenegro
+me | Cicvara | Cicvara, Kaese-Maisbrei | FR | 0.95 | 1 Portion (250 g) | maismehl 50, kaymak 40, xa_kaese_salz_frisch 60, milch 60, wasser 40, salz 1
+me | Priganice | Priganice, Montenegrinische Krapfen | SW | 0.9 | 4 Stück (120 g) | mehl 55, joghurt 20, hefe 1, oel 20, honig 10, wasser 25
+me | Popeci | Popeci, Gefuelltes Kalbsschnitzel | FL | 0.85 | 1 Stück (300 g) | kalb 160, rohschinken 30, kaymak 30, mehl 10, ei 25, paniermehl 30, oel 25, salz 1
+me | Jagnjetina u mlijeku | Lamm in Milch, Brav u mlijeku | FL | 0.8 | 1 Portion (400 g) | lamm 220, kartoffel 120, milch 120, knoblauch 5, salz 1
+me | Kastradina | Kastradina, Geraeuchertes Hammelfleisch mit Kohl | E | 0.85 | 1 Portion (400 g) | lamm 150, weisskohl 150, kartoffel 100, wasser 80, salz 1
+me | Raštan | Rastan, Montenegrinischer Kohl mit Fleisch | E | 0.85 | 1 Portion (400 g) | gruenkohl 200, schwein_nacken 80, kartoffel 80, speck 20, oel 10, wasser 60, salz 1
+me | Njeguški ražanj | Njegusi-Spiess mit Schinken und Kaese | KB | 0.8 | 1 Portion (250 g) | schwein_mager 200, rohschinken 30, xa_kaese_hart 30, oel 5, salz 1
+# Kosovo
+xk | Mantia | Mantia, Kosovarische Teigschnecken mit Hack | BO | 0.9 | 4 Stück (200 g) | mehl 70, hack 60, zwiebel 30, butter 15, joghurt 20, wasser 30, salz 1
+xk | Pite me mish e qepë | Kosovo-Fleisch-Zwiebel-Pita | BO | 0.9 | 1 Stück (200 g) | yufka 70, hack 60, zwiebel 50, oel 15, salz 1
+xk | Kaçamak me kos | Kacamak me kos, Maisbrei mit Joghurt | FR | 0.95 | 1 Portion (300 g) | maismehl 60, kartoffel 60, joghurt 100, butter 15, wasser 80, salz 1
+# Slowenien
+si | Matevž | Matevz, Bohnen-Kartoffel-Pueree | HH | 0.9 | 1 Portion (300 g) | bohnen_trocken 50, kartoffel 150, zwiebel 20, schmalz 15, wasser 80, salz 1
+si | Bujta repa | Bujta repa, Prekmurje-Ruebeneintopf | E | 0.85 | 1 Portion (400 g) | ruebe 200, schwein_nacken 120, hirse 30, schmalz 10, wasser 100, salz 1
+si | Štajerska kisla juha | Steirische Saure Suppe | S | 0.9 | 1 Teller (400 g) | schwein_haxe 100, kartoffel 60, karotte 30, sauerrahm 40, mehl 10, essig 10, wasser 200, salz 1
+si | Ljubljanski zrezek | Laibacher Schnitzel | FL | 0.85 | 1 Stück (280 g) | schwein_mager 150, schinken 30, gouda 30, mehl 10, ei 25, paniermehl 30, oel 25, salz 1
+si | Pohorska omleta | Pohorje-Omelett mit Preiselbeeren | SW | 0.95 | 1 Stück (200 g) | ei 60, milch 50, mehl 25, zucker 10, preiselbeeren 40, sahne 20, butter 5
+si | Belokranjska pogača | Belokranjska pogaca, Weisskrainer Fladenbrot | BR | 0.9 | 1 Stück (100 g) | mehl 55, ei 5, oel 5, wasser 30, hefe 1, salz 1
+si | Ajdovi krapi | Ajdovi krapi, Buchweizen-Teigtaschen | MA | 0.95 | 1 Portion (250 g) | x4_buchweizen 50, mehl 30, quark 60, kartoffel 40, schmalz 10, wasser 40, salz 1
+si | Kobariški štruklji | Kobarid-Struklji, Suesse Walnuss-Teigtaschen | SW | 0.95 | 4 Stück (150 g) | mehl 50, walnuss 25, rosinen 10, zucker 15, butter 15, ei 10, wasser 25
+si | Krvavice s kislim zeljem | Blutwurst mit Sauerkraut slowenisch | E | 0.9 | 1 Portion (350 g) | blutwurst 150, sauerkraut 150, kartoffel 60, schmalz 10, salz 0.5
+si | Ajdova kaša z jurčki | Buchweizenbrei mit Steinpilzen | RP | 0.9 | 1 Portion (300 g) | x4_buchweizen 70, pilz 80, zwiebel 20, butter 10, sauerrahm 20, bruehe 150, salz 1
+si | Prekmurski dödoli | Dodoli, Kartoffelnocken | MA | 0.9 | 1 Portion (250 g) | kartoffel 180, mehl 40, schmalz 15, zwiebel 20, sauerrahm 20, salz 1
+# Georgien
+ge | Khachapuri Adjaruli | Adscharische Chatschapuri, Boot-Khachapuri | PZ | 0.9 | 1 Stück (350 g) | mehl 120, xa_sulguni 80, quark 40, ei 55, butter 15, milch 40, hefe 2, salz 1
+ge | Khachapuri Imeruli | Imeretische Chatschapuri | PZ | 0.9 | 1 Stück (250 g) | mehl 100, xa_sulguni 90, joghurt 40, ei 10, butter 10, hefe 1, salz 1
+ge | Khachapuri Megruli | Mingrelische Chatschapuri | PZ | 0.9 | 1 Stück (280 g) | mehl 100, xa_sulguni 120, joghurt 40, ei 10, butter 10, hefe 1, salz 1
+ge | Penovani khachapuri | Blaetterteig-Chatschapuri | PZ | 0.95 | 1 Stück (180 g) | blaetterteig 100, xa_sulguni 70, ei 10
+ge | Khinkali | Chinkali, Georgische Teigtaschen | MA | 0.95 | 5 Stück (300 g) | mehl 110, rind 60, schwein_hack 60, zwiebel 30, xa_koriander 5, wasser 50, pfeffer 1, salz 1
+ge | Lobio | Lobio, Georgischer Bohneneintopf | HH | 0.9 | 1 Topf (300 g) | xa_bohnen_rot 80, zwiebel 40, walnuss 15, xa_koriander 8, knoblauch 4, oel 10, wasser 150, salz 1
+ge | Lobiani | Lobiani, Bohnen-Fladenbrot | BO | 0.9 | 1 Stück (220 g) | mehl 90, xa_bohnen_rot 40, zwiebel 20, butter 15, hefe 1, wasser 80, salz 1
+ge | Kubdari | Kubdari, Swanisches Fleischbrot | BO | 0.9 | 1 Stück (280 g) | mehl 100, rind 80, schwein_nacken 40, zwiebel 30, knoblauch 4, gewuerz 2, wasser 50, salz 1
+ge | Badrijani nigvzit | Badrijani, Auberginenroellchen mit Walnuss | V | 0.85 | 4 Stück (180 g) | aubergine 150, walnuss 40, knoblauch 4, xa_koriander 5, essig 5, oel 20, granatapfel 10, salz 1
+ge | Pkhali | Pchali, Spinat-Walnuss-Baellchen | SD | 0.9 | 1 Portion (150 g) | spinat 120, walnuss 35, knoblauch 3, xa_koriander 5, essig 5, granatapfel 5, salz 1
+ge | Mtsvadi | Mzwadi, Georgische Schaschlik | KB | 0.75 | 1 Portion (250 g) | schwein_nacken 300, zwiebel 30, granatapfel 10, salz 1
+ge | Chakhokhbili | Tschachochbili, Huhn in Tomaten-Kraeuter-Sauce | E | 0.85 | 1 Portion (400 g) | hahn 220, tomate 150, zwiebel 60, paprika 30, xa_koriander 8, knoblauch 5, butter 10, salz 1
+ge | Shkmeruli | Chkmeruli, Huhn in Knoblauch-Milchsauce | E | 0.8 | 1 Portion (350 g) | hahn 280, milch 80, sahne 30, knoblauch 15, butter 15, salz 1
+ge | Satsivi | Saziwi, Huhn in Walnusssauce | E | 0.9 | 1 Portion (300 g) | hahn 180, walnuss 50, zwiebel 30, knoblauch 5, xa_koriander 3, essig 5, gewuerz 2, bruehe 60, salz 1
+ge | Kharcho | Chartscho, Georgische Rindfleischsuppe | S | 0.9 | 1 Teller (400 g) | rind 100, reis 30, zwiebel 40, walnuss 15, xa_tkemali 20, tomatenmark 15, xa_koriander 5, wasser 200, salz 1
+ge | Chikhirtma | Tschichirtma, Huehnersuppe mit Ei | S | 0.9 | 1 Teller (350 g) | hahn 80, zwiebel 40, ei 30, mehl 8, essig 5, xa_koriander 3, butter 8, wasser 200, salz 1
+ge | Ojakhuri | Odschachuri, Schweinefleisch mit Kartoffeln | GM | 0.8 | 1 Portion (400 g) | schwein_nacken 200, kartoffel 200, zwiebel 40, oel 20, knoblauch 4, xa_koriander 3, salz 1
+ge | Chakapuli | Tschakapuli, Lamm mit Estragon und Wein | E | 0.85 | 1 Portion (400 g) | lamm 220, wein_weiss 80, xa_tkemali 30, fruehlingszwiebel 40, xa_koriander 15, wasser 60, salz 1
+ge | Chashushuli | Tschaschuschuli, Scharfes Rindsragout | E | 0.85 | 1 Portion (350 g) | rind 200, tomate 100, zwiebel 50, paprika 30, chili 5, knoblauch 5, xa_koriander 5, oel 10, salz 1
+ge | Elarji | Elardschi, Maisbrei mit Sulguni | RP | 0.95 | 1 Portion (250 g) | maismehl 60, xa_sulguni 80, wasser 120, salz 1
+ge | Ghomi | Gomi, Georgischer Maisgriessbrei | RP | 0.95 | 1 Portion (250 g) | maismehl 70, wasser 180, salz 1
+ge | Ajapsandali | Adschapsandali, Georgisches Gemueseragout | GZ | 0.8 | 1 Portion (300 g) | aubergine 150, paprika 80, tomate 80, zwiebel 40, kartoffel 40, oel 25, xa_koriander 5, knoblauch 4, salz 1
+ge | Mchadi | Mtschadi, Georgisches Maisbrot | BR | 0.9 | 1 Stück (100 g) | maismehl 70, wasser 40, salz 0.5
+ge | Shotis puri | Schotis puri, Georgisches Kanu-Brot | BR | 0.9 | 1 Stück (150 g) | mehl 95, wasser 60, hefe 1, salz 1.5
+ge | Achma | Atschma, Georgischer Kaese-Schichtauflauf | AU | 0.95 | 1 Stück (200 g) | mehl 60, ei 20, xa_sulguni 70, butter 25, wasser 35, salz 0.5
+ge | Kupati | Kupati, Georgische Bratwurst | KB | 0.8 | 1 Portion (200 g) | schwein_hack 180, innereien 40, zwiebel 20, gewuerz 3, granatapfel 5, salz 1
+ge | Kuchmachi | Kutschmatschi, Innereien mit Walnuss | GM | 0.8 | 1 Portion (250 g) | innereien 200, walnuss 30, zwiebel 30, granatapfel 20, knoblauch 4, xa_koriander 5, oel 10, salz 1
+ge | Gozinaki | Gosinaki, Honig-Walnuss-Konfekt | D | 0.9 | 1 Stück (40 g) | walnuss 22, honig 20
+ge | Pkhlovani | Pchlowani, Mangold-Kaesepastete | BO | 0.9 | 1 Stück (200 g) | mehl 70, mangold 80, xa_sulguni 40, ei 10, oel 10, wasser 25, salz 1
+ge | Tsitsila tabaka | Tabaka, Huhn Tabaka | FL | 0.7 | 1 Portion (350 g) | hahn 450, butter 20, knoblauch 8, salz 1
+ge | Mzhavai kombosto | Georgisch eingelegter Rotkohl | KO | 1.0 | 1 Portion (100 g) | rotkohl 80, rote_bete 10, essig 8, knoblauch 2, salz 1
+ge | Nadughi | Nadughi, Frischkaese-Minze-Roellchen | V | 1.0 | 3 Stück (120 g) | xa_sulguni 60, lor 40, minze 5, joghurt 15
+# Armenien
+am | Khorovats | Chorowaz, Armenisches Grillfleisch | KB | 0.75 | 1 Portion (250 g) | schwein_nacken 300, zwiebel 30, salz 1, pfeffer 0.5
+am | Ghapama | Ghapama, Armenischer Festkuerbis mit Reis | V | 0.85 | 1 Portion (350 g) | kuerbis 200, reis 60, aprikose_tr 20, rosinen 15, dattel 10, butter 15, honig 10, zimt 1, wasser 80
+am | Zhingyalov hats | Zhingyalov hats, Kraeuter-Fladenbrot | BO | 0.9 | 1 Stück (200 g) | mehl 70, spinat 50, wildkraut 40, fruehlingszwiebel 20, xa_koriander 10, oel 15, wasser 30, salz 1
+am | Gata | Gata, Armenisches Butterfuellbrot | G | 0.95 | 1 Stück (100 g) | mehl 45, butter 20, zucker 20, ei 5, joghurt 10, hefe 1
+am | Ishkhan khorovats | Sewan-Forelle vom Grill | HFi | 0.8 | 1 Stück (250 g) | forelle 280, zitrone 10, oel 10, salz 1
+am | Yerevan kyufta | Kyufta, Armenische Fleischknoedel | KF | 0.85 | 2 Stück (250 g) | rind 200, zwiebel 50, ei 15, butter 15, wein_weiss 10, salz 1
+am | Khashlama | Chaschlama, Lamm mit Gemuese im eigenen Saft | E | 0.85 | 1 Portion (450 g) | lamm 220, kartoffel 120, tomate 80, paprika 50, zwiebel 50, bier 30, salz 1
+am | Kololik | Kololik, Armenische Kichererbsen-Klosssuppe | S | 0.9 | 1 Teller (400 g) | rind 80, reis 20, kichererbsen 30, zwiebel 30, tomatenmark 10, wasser 230, salz 1
+am | Ikra (armenisch) | Armenischer Auberginenkaviar | SD | 0.8 | 1 Portion (150 g) | aubergine 110, tomate 40, paprika 20, zwiebel 15, oel 15, knoblauch 3, salz 1
+am | Tjvjik | Tschwischik, Gebratene Leber mit Zwiebeln | GM | 0.8 | 1 Portion (250 g) | leber 200, zwiebel 60, tomatenmark 10, butter 15, xa_koriander 3, salz 1
+am | Armenian Arishta | Arishta, Armenische Hausnudeln mit Pilzen | MA | 0.95 | 1 Portion (300 g) | nudeln 90, pilz 80, zwiebel 30, butter 15, joghurt 40, wasser 40, salz 1
+am | Ponchik | Ponchik, Armenischer Cremekrapfen | SW | 0.9 | 1 Stück (100 g) | mehl 35, milch 20, ei 10, zucker 15, vanillepudding_pulver 5, oel 15, wasser 15, hefe 1
+am | Nazook | Nazuk, Armenisches Butter-Hefegebaeck | G | 0.95 | 1 Stück (80 g) | mehl 35, butter 15, joghurt 10, zucker 15, ei 5, hefe 1, vanillepudding_pulver 2
+# Aserbaidschan
+az | Shah plov | Schah-Plov, Plov im Lavasch-Mantel | RP | 0.95 | 1 Portion (350 g) | reis 90, lamm 80, lavas 40, butter 25, aprikose_tr 15, rosinen 15, kastanie 20, zwiebel 20, wasser 60, salz 1
+az | Dushbara | Duschbara, Mini-Teigtaschen in Bruehe | S | 0.95 | 1 Teller (400 g) | mehl 70, lamm_hack 70, zwiebel 20, minze_trocken 1, essig 5, bruehe 220, salz 1
+az | Qutab mit Kräutern | Gutab, Kutab mit Gruenkraeutern | BO | 0.9 | 2 Stück (150 g) | mehl 70, spinat 40, xa_koriander 10, dill 5, butter 15, wasser 30, salz 1
+az | Ət qutabı | Fleisch-Kutab | BO | 0.9 | 2 Stück (160 g) | mehl 70, lamm_hack 50, zwiebel 15, butter 15, wasser 30, sumak_pulver 1, salz 1
+az | Piti | Piti, Lamm-Kichererbsen-Topf aus Sheki | E | 0.9 | 1 Topf (450 g) | lamm 150, kichererbsen_trocken 40, kartoffel 80, schwanzfett 20, zwiebel 30, aprikose_tr 10, wasser 150, salz 1
+az | Dovğa | Dovga, Joghurt-Kraeuter-Suppe | S | 0.95 | 1 Teller (350 g) | joghurt 200, reis 20, kichererbsen 30, spinat 30, dill 8, minze 5, xa_koriander 5, ei 10, wasser 50, salz 1
+az | Küftə bozbaş | Kufta bozbash, Riesen-Fleischkloesse in Bruehe | S | 0.9 | 1 Teller (450 g) | lamm_hack 120, reis 15, kichererbsen 40, kartoffel 70, schwanzfett 10, aprikose_tr 10, wasser 200, salz 1
+az | Saj içi | Saj ichi, Fleisch-Gemuese vom Sadsch | GM | 0.8 | 1 Portion (400 g) | lamm 200, kartoffel 120, aubergine 60, paprika 50, tomate 50, butter 20, salz 1
+az | Şəkərbura | Shekerbura, Mandelhalbmonde | G | 0.95 | 2 Stück (80 g) | mehl 30, butter 12, mandel 15, zucker 18, ei 5, milch 5
+az | Badambura | Badambura, Mandel-Blaetterteigroellchen | G | 0.95 | 2 Stück (80 g) | mehl 30, butter 15, mandel 15, zucker 15, ei 5
+az | Ləvəngi | Lavangi, Gefuelltes Huhn mit Walnuss | FL | 0.8 | 1 Portion (350 g) | hahn 280, walnuss 40, zwiebel 50, nar_eksisi 10, rosinen 10, butter 10, salz 1
+az | Sabzi qovurma | Sabzi qovurma, Lamm mit Kraeutern | E | 0.85 | 1 Portion (350 g) | lamm 200, spinat 80, xa_koriander 15, dill 10, fruehlingszwiebel 30, butter 15, zitrone 10, salz 1
+az | Kükü | Kuku, Aserbaidschanisches Kraeuteromelett | EI | 0.9 | 1 Stück (200 g) | ei 110, spinat 40, dill 10, xa_koriander 10, walnuss 10, butter 10, salz 1
+az | Qovurma plov | Govurma plov, Plov mit geschmortem Lamm | RP | 0.95 | 1 Portion (400 g) | reis 90, lamm 100, zwiebel 40, kastanie 20, aprikose_tr 15, butter 20, wasser 120, salz 1
+az | Fisincan | Fisinjan, Huhn in Walnuss-Granatapfelsauce | E | 0.85 | 1 Portion (300 g) | hahn 180, walnuss 50, nar_eksisi 20, zwiebel 40, zucker 5, wasser 60, salz 1
+az | Lavangi balıq | Lavangi baliq, Gefuellter Fisch Lankaran | HFi | 0.8 | 1 Portion (300 g) | karpfen 280, walnuss 30, zwiebel 40, nar_eksisi 10, rosinen 5, oel 10, salz 1
+az | Qoğal | Gogal, Novruz-Blaetterhefe-Kringel | G | 0.95 | 1 Stück (90 g) | mehl 45, butter 18, milch 15, ei 5, kreuzkuemmel 1, hefe 1, salz 0.5
+az | Xəngəl | Khingal, Aserbaidschanische Teigflecken mit Hack | MA | 0.95 | 1 Portion (300 g) | mehl 90, lamm_hack 70, zwiebel 30, joghurt 60, butter 15, wasser 30, salz 1

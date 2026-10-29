@@ -1,6 +1,6 @@
 # food-database
 
-Eigene Lebensmittel-Datenbank für einen Kalorientracker: **2884 Gerichte** — 749 türkisch (`tr`), 486 deutsch (`de`) und 1649 weitere europäische Küchen — mit Kalorien, Protein, Kohlenhydraten, Fett und Ballaststoffen, dazu eine kostenlose Such-API für das Suchfeld der App.
+Eigene Lebensmittel-Datenbank für einen Kalorientracker: **4245 Gerichte** aus **49 Küchen** — 926 türkisch (`tr`), 668 deutsch (`de`) und 2651 weitere aus Europa und dem Kaukasus — mit Kalorien, Protein, Kohlenhydraten, Fett und Ballaststoffen, dazu eine kostenlose Such-API für das Suchfeld der App.
 
 > **Alle Werte sind berechnete Schätzungen, keine Labor- oder Herstellerangaben.**
 > Jeder Eintrag hat `"quality": "estimate"` und `"source": "calculated from typical recipe and approximate reference values"`. Die Nährwerte entstehen aus einem typischen Hausrezept und einer Zutaten-Referenztabelle (ungefähre Werte in der Größenordnung von USDA/BLS), nicht aus einer Analyse des fertigen Gerichts. Abweichungen von etwa ±10–25 % gegenüber einem konkreten Rezept sind normal (Fettmenge, Garzeit, Portionsgröße). Bitte die Zahlen nicht als medizinische oder kennzeichnungsrechtliche Nährwertangabe verwenden. Geprüfte Werte können später **denselben Eintrag überschreiben** (siehe unten).
@@ -11,21 +11,23 @@ Die Rohdaten (Stand `main`):
 https://raw.githubusercontent.com/HealthUp1123/food-database/main/data/foods.json
 ```
 
-**Gerichte und Fertigprodukte sind getrennt.** Ein Gericht (zuhause oder Restaurant, aus einem Rezept berechnet) bleibt in der Datenbank, auch wenn Open Food Facts ein gleichnamiges Fertigprodukt führt. Es bekommt `prepared` (`homemade` oder `restaurant`), `is_packaged_product: false` und bei einem Namenstreffer `off_similar` (höchstens drei Barcodes, nur als Hinweis). Nichts wurde entfernt: `removed_in_off.json` ist leer. **1602** der 2884 Gerichte tragen `off_similar`. Der Abgleich lief gegen einen Open-Food-Facts-Dump vom **29.10.2026**.
+**Datenstand (29.10.2026, Welle 3):** 4245 Gerichte (`type: "dish"`, `quality: "estimate"`) aus 49 Küchen – tr 926, de 668, übrige Europa/Kaukasus 2651; davon 2114 mit `off_similar`-Hinweis, 0 Fertigprodukte entfernt.
+
+**Gerichte und Fertigprodukte sind getrennt.** Ein Gericht (zuhause oder Restaurant, aus einem Rezept berechnet) bleibt in der Datenbank, auch wenn Open Food Facts ein gleichnamiges Fertigprodukt führt. Es bekommt `prepared` (`homemade` oder `restaurant`), `is_packaged_product: false` und bei einem Namenstreffer `off_similar` (höchstens drei Barcodes, nur als Hinweis). Marken- und Supermarktprodukte werden nicht aufgenommen. Nichts wurde entfernt: `removed_in_off.json` ist leer. **2114** der 4245 Gerichte tragen `off_similar`. Der Abgleich lief gegen einen Open-Food-Facts-Dump vom **29.10.2026**.
 
 Aufbau der Schätzung, Garfaktor, Küchen und der OFF-Abgleich stehen in [`tools/dishes/BUILD_NOTES.md`](tools/dishes/BUILD_NOTES.md).
 
 ## Inhalt
 
 ```
-data/foods.json                 Die Datenbank (JSON-Array, 2884 Gerichte)
+data/foods.json                 Die Datenbank (JSON-Array, 4245 Gerichte, 49 Küchen)
 src/search.mjs                  Gemeinsames Such-Modul (API + lokale CLI)
 api/worker.js                   Cloudflare Worker (Such-API)
 api/wrangler.toml               Worker-Konfiguration
 scripts/validate.mjs            Datenprüfung (ohne Abhängigkeiten)
 scripts/search-local.mjs        Lokale Suche per Kommandozeile
 scripts/test-worker.mjs         Schnelltest des API-Handlers
-tools/dishes/                   Generator, Rezept-Batches, europäische Rezepte und Kandidaten
+tools/dishes/                   Generator, Batches (eu3_*.py), wave3/, Rezepte, Kandidaten
 tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo)
 .github/workflows/validate.yml  Prüfung bei jedem Push und Pull Request
 ```
@@ -63,7 +65,7 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
 | `type` | ja | `"dish"` (Gericht) oder `"item"` (Artikel/Zutat/Produkt). Der aktuelle Datensatz enthält nur Gerichte. |
 | `barcode` | ja | EAN-8/EAN-13 als **String** (führende Nullen) oder `null`. `null` ist gültig und bei allen jetzigen Gerichten gesetzt (kein Verpackungs-Barcode). Ist ein String gesetzt, muss die Prüfziffer stimmen und der Code eindeutig sein. |
 | `synonyms` | ja | Alternative Namen und Schreibweisen (darf leer sein: `[]`). |
-| `cuisine` | ja | Zweistelliger Küchencode: `tr`, `de` und weitere europäische Codes (`it`, `fr`, `es`, `gr`, `pl`, …). |
+| `cuisine` | ja | Ländercode aus der festen Liste, u. a. `tr`, `de`, `it`, `fr`, `es`, `gr`, `pl` und seit Welle 3 auch `ge`, `am`, `az`, `md`, `by`, `me`, `xk`, `ad`, `li`, `mc`, `sm`. |
 | `category` | ja | Deutsche Kategorie, z. B. `Suppe`, `Kebap`, `Hauptgericht Fleisch`, `Kuchen`, `Getränk`. |
 | `prepared` | nein | Nur bei Gerichten: `"homemade"` (zuhause) oder `"restaurant"` (Restaurant/Imbiss). Im aktuellen Bestand immer gesetzt. |
 | `is_packaged_product` | nein | `false` bei Gerichten. `true` wäre nur für `type: "item"` mit Barcode sinnvoll; bei `type: "dish"` ist `true` ungültig. |
@@ -71,7 +73,7 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
 | `per100g` | ja | `kcal` (0–950), `protein`, `carbs`, `fat`, `fiber` (je 0–100 g pro 100 g). Protein + Kohlenhydrate + Fett ≤ 100 g. |
 | `portion` | nein | Typische Portion: `label` (Text) und `grams` (> 0, max. 5000). Die App rechnet damit von 100 g auf die Portion um. |
 | `ingredients` | ja | Zutaten der zugrunde gelegten Portion: `{ "name", "grams" }`, `grams` > 0. Das sind Rezeptmengen, keine zweite Nährwertquelle. |
-| `quality` | ja | `"estimate"` (berechnet, wie jetzt bei allen 2884 Gerichten) oder `"verified"` (später mit geprüften Werten überschrieben). |
+| `quality` | ja | `"estimate"` (berechnet, wie jetzt bei allen 4245 Gerichten) oder `"verified"` (später mit geprüften Werten überschrieben). |
 | `source` | ja | Herkunft der Nährwerte. Bei Schätzwerten der feste Hinweis auf Rezept plus Referenzwerte; bei geprüften Einträgen die konkrete Quelle. |
 
 Gerichte sind pro 100 g angegeben. `portion.grams` ist das übliche Tellergewicht nach dem Garen. `ingredients[].grams` sind die Rohmengen dieser Portion (aufgenommenes Wasser und Bratfett stehen mit in der Liste).
@@ -101,7 +103,7 @@ node scripts/validate.mjs
 
 Prüft Pflichtfelder (einschließlich `cuisine`, `category`, `ingredients`, `quality`, `source`), die optionalen Felder `prepared`, `is_packaged_product` und `off_similar`, Wertebereiche (kcal 0–950, Makros 0–100 g, Protein + Kohlenhydrate + Fett ≤ 100 g), eindeutige `id`s, eindeutige Barcodes und die EAN-Prüfziffer. **`barcode: null` ist erlaubt** und erzeugt keinen Fehler. Ein Gericht mit `is_packaged_product: true` ist ein Fehler.
 
-Weicht `kcal` stark von `4·Protein + 4·Kohlenhydrate + 9·Fett` ab, gibt es eine **Warnung**, keinen Fehler. 14 Gerichte (Wein und Spirituosen, darunter Weißwein, Rotwein, Glühwein, Kir, Vin chaud, Spritz, Ginjinha, Glögg, Tsipouro, Poncha, Țuică, Rakija, Unicum, Pálinka) liegen darüber, weil Ethanol etwa 7 kcal/g liefert und in den Makros nicht vorkommt. Diese 14 Warnungen sind erwartet.
+Weicht `kcal` stark von `4·Protein + 4·Kohlenhydrate + 9·Fett` ab, gibt es eine **Warnung**, keinen Fehler. 29 Gerichte (Wein und Spirituosen) liegen darüber, weil Ethanol etwa 7 kcal/g liefert und in den Makros nicht vorkommt. Diese 29 Warnungen sind erwartet.
 
 Bei echten Fehlern ist der Exit-Code `1`. Es braucht nur Node ≥ 20, keine Installation. Die GitHub Action `.github/workflows/validate.yml` läuft bei jedem Push und Pull Request.
 
@@ -140,7 +142,7 @@ BASE="https://food-database-api.<dein-account>.workers.dev"
 
 ```bash
 curl "$BASE/health"
-# {"status":"ok","count":2884}
+# {"status":"ok","count":4245}
 
 curl "$BASE/search?q=karniyarik&limit=5"
 # {"query":"karniyarik","count":1,"results":[{"id":"karniyarik","name":"Karnıyarık","barcode":null, ...}]}
@@ -175,7 +177,7 @@ Wenn du keine API betreiben willst, lädst du die Rohdatei einmal und suchst lok
 https://raw.githubusercontent.com/HealthUp1123/food-database/main/data/foods.json
 ```
 
-Das ist bei diesem Datenumfang (2884 Einträge) praktikabel. Für die Zutatenliste brauchst du keinen zweiten Endpunkt, die Datei enthält sie bereits. In der Such-API fehlt `ingredients` in der Trefferliste absichtlich; `GET /item/{id}` liefert sie nach.
+Das ist bei diesem Datenumfang (4245 Einträge) praktikabel. Für die Zutatenliste brauchst du keinen zweiten Endpunkt, die Datei enthält sie bereits. In der Such-API fehlt `ingredients` in der Trefferliste absichtlich; `GET /item/{id}` liefert sie nach.
 
 ## Einbau in die App: Suchfeld mit Live-Suche (Debounce)
 
@@ -240,7 +242,7 @@ export const nutrientsFor = (f: Food, grams: number) =>
 
 ## Daten neu erzeugen
 
-Rezepttexte und die Zutaten-Referenz liegen unter `tools/dishes/` (`build.py`, `batches/*.py` inklusive `eu2_*.py`, `recipes/`, `candidates/`, `ingredients_src.txt`, `ingredients_add_*.txt`, `ingredients.json`). Die europäischen Batches erzeugen `tools/dishes/tools/compose_eu.py` und `tools/dishes/tools/compose_eu2.py`. Im Verzeichnis `tools/dishes`:
+Rezepttexte und die Zutaten-Referenz liegen unter `tools/dishes/` (`build.py`, `batches/*.py` inklusive `eu3_*.py`, `wave3/`, `recipes/`, `candidates/`, `ingredients_src.txt`, `ingredients_add_*.txt`, `ingredients.json`). Die Batches erzeugen `tools/dishes/tools/compose_eu.py`, `compose_eu2.py` und `compose_eu3.py`. Im Verzeichnis `tools/dishes`:
 
 ```bash
 python3 build.py
@@ -253,8 +255,8 @@ Das schreibt dort `foods.json`, eine aktualisierte `ingredients.json` und `build
 - [x] Datenformat festlegen
 - [x] Validierung (Skript + GitHub Action)
 - [x] Such-API (Cloudflare Worker) mit Umlaut- und Tippfehler-toleranter Suche
-- [x] Platzhalter durch 2884 berechnete Gerichte ersetzen (749 türkisch, 486 deutsch, 1649 weitere europäische Küchen, `quality: "estimate"`)
-- [x] Gerichte und Fertigprodukte trennen; 1602 Gerichte mit `off_similar` aus dem OFF-Dump vom 29.10.2026 markiert, keines entfernt
+- [x] Platzhalter durch 4245 berechnete Gerichte ersetzen (49 Küchen, davon 926 türkisch und 668 deutsch, `quality: "estimate"`)
+- [x] Gerichte und Fertigprodukte trennen; 2114 Gerichte mit `off_similar` aus dem OFF-Dump vom 29.10.2026 markiert, keines entfernt
 - [ ] Einzelne Einträge mit geprüften Werten überschreiben (`quality: "verified"`, Quelle im Feld `source`)
 - [ ] Echte Barcodes ergänzen, wo ein verpacktes Produkt dahintersteht
 - [ ] API deployen und in die App einbinden

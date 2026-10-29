@@ -1,0 +1,482 @@
+# Team C – Welle 3 (it, fr, es, pt, mt, ad, mc, sm, pl, cz, sk, hu, ro, ua, by, ru)
+# === Italien ===
+it | Pasta alla norcina | Rigatoni alla norcina, Pasta mit Wurst-Sahne-Sauce | NA | 0.95 | 1 Teller | nudeln 90, wasser 120, schwein_hack 70, sahne 50, zwiebel 20, pecorino 10, olivenoel 8
+it | Spaghetti alla carrettiera | Carrettiera |  NA | 0.95 | 1 Teller | nudeln 90, wasser 120, tomate 120, olivenoel 15, knoblauch 5, chili 2, pecorino 12, petersilie 5
+it | Pesto alla trapanese | Busiate al pesto trapanese, Trapani pesto pasta | NA | 0.95 | 1 Teller | nudeln 90, wasser 120, tomate 100, mandel 20, olivenoel 15, pecorino 10, knoblauch 4
+it | Tagliatelle ai funghi porcini | Tagliatelle mit Steinpilzen | NA | 0.95 | 1 Teller | nudeln 90, wasser 120, pilz 150, olivenoel 12, butter 8, knoblauch 4, petersilie 5, parmesan 10
+it | Fettuccine alla papalina | Fettuccine papalina | NA | 0.95 | 1 Teller | nudeln 90, wasser 120, schinken 40, erbsen 40, sahne 50, ei 20, parmesan 12, butter 8, zwiebel 15
+it | Penne alla boscaiola | Pasta boscaiola | NA | 0.95 | 1 Teller | nudeln 90, wasser 120, pilz 80, schwein_hack 50, erbsen 30, sahne 40, tomaten_dose 40, olivenoel 8
+it | Pasta e piselli | Pasta mit Erbsen | NA | 0.95 | 1 Teller | nudeln 80, wasser 180, erbsen 100, speck 20, zwiebel 30, olivenoel 10, parmesan 10
+it | Pasta e broccoli | Pasta mit Brokkoli | NA | 0.95 | 1 Teller | nudeln 90, wasser 140, brokkoli 150, olivenoel 15, knoblauch 4, chili 2, pecorino 10
+it | Pasta alla zozzona | Rigatoni alla zozzona | NA | 0.95 | 1 Teller | nudeln 90, wasser 120, schwein_hack 50, speck 30, tomaten_dose 100, ei 30, pecorino 15
+it | Spaghetti alle cozze | Spaghetti mit Miesmuscheln | NA | 0.9 | 1 Teller | nudeln 90, wasser 120, muschel 250, tomate 80, olivenoel 15, knoblauch 4, petersilie 5
+it | Linguine all'astice | Linguine mit Hummer, Lobster linguine | NA | 0.9 | 1 Teller | nudeln 90, wasser 120, hummer 150, tomate 120, olivenoel 15, knoblauch 4, wein_weiss 30
+it | Lasagne alla napoletana | Neapolitan lasagna | AU | 0.95 | 1 Stück | nudeln 70, wasser 50, hack 80, ricotta 80, mozzarella 50, tomaten_dose 150, ei 20, parmesan 15, olivenoel 10
+it | Vincisgrassi | Vincisgrassi marchigiani | AU | 0.95 | 1 Stück | nudeln 70, wasser 50, hack 60, huhn_leber 30, milch 120, butter 20, mehl 15, tomaten_dose 60, parmesan 15
+it | Timballo alla teramana | Timballo teramano | AU | 0.95 | 1 Stück | mehl 50, ei 50, milch 60, hack 60, mozzarella 50, tomaten_dose 100, parmesan 15, olivenoel 8
+it | Crespelle alla fiorentina | Crespelle ricotta e spinaci | AU | 0.95 | 2 Stück | mehl 40, ei 40, milch 80, ricotta 80, spinat 100, butter 15, parmesan 15, milch_fettarm 60
+it | Cannelloni di carne | Cannelloni mit Fleisch | AU | 0.95 | 1 Portion | nudeln 70, wasser 50, hack 100, tomaten_dose 120, milch 100, butter 15, mehl 12, parmesan 15, zwiebel 20
+it | Tortellini alla panna | Tortellini panna e prosciutto | NA | 0.95 | 1 Teller | mehl 80, ei 30, schwein_hack 30, schinken 30, sahne 80, parmesan 15, wasser 40
+it | Cappelletti in brodo | Cappelletti romagnoli | S | 0.95 | 1 Teller | mehl 60, ei 25, ricotta 30, parmesan 15, hahn_brust 20, bruehe 350
+it | Anolini in brodo | Anolini parmigiani | S | 0.95 | 1 Teller | mehl 60, ei 25, rind 30, paniermehl 10, parmesan 15, bruehe 350
+it | Pansoti con salsa di noci | Pansotti alla genovese | MA | 0.95 | 1 Teller | mehl 80, ei 25, ricotta 60, mangold 60, walnuss 30, sahne 30, parmesan 10, olivenoel 8, wasser 40
+it | Tortelli di zucca | Tortelli di zucca mantovani, Kürbistortelli | MA | 0.95 | 1 Teller | mehl 80, ei 25, kuerbis 120, keks 15, parmesan 15, butter 20, wasser 40
+it | Gnocchi al pesto | Gnocchi mit Pesto | KN | 0.95 | 1 Teller | kartoffel 250, mehl 70, ei 15, olivenoel 20, pinienkerne 10, parmesan 15, knoblauch 3, petersilie 10
+it | Gnudi toscani | Gnudi ricotta e spinaci | KN | 0.95 | 1 Portion | ricotta 150, spinat 150, mehl 30, ei 25, parmesan 20, butter 20
+it | Risotto alla zucca | Kürbisrisotto, Pumpkin risotto | RP | 0.95 | 1 Teller | reis 90, bruehe 280, kuerbis 150, zwiebel 30, butter 15, parmesan 15, wein_weiss 20
+it | Risotto alla salsiccia | Risotto con salsiccia | RP | 0.95 | 1 Teller | reis 90, bruehe 280, bratwurst 80, zwiebel 30, butter 10, parmesan 15, wein_weiss 20
+it | Risotto al Barolo | Rotweinrisotto | RP | 0.95 | 1 Teller | reis 90, bruehe 220, wein_rot 80, zwiebel 30, butter 15, parmesan 15
+it | Riso alla pilota | Risotto alla pilota | RP | 0.95 | 1 Teller | reis 90, wasser 180, schwein_hack 70, butter 15, parmesan 15
+it | Minestra maritata | Neapolitan wedding soup | S | 0.95 | 1 Teller | weisskohl 120, mangold 80, schwein_nacken 60, wuerstchen_geraeuchert 30, bruehe 300, parmesan 8
+it | Ciuppin | Zuppa di pesce ligure, Ligurische Fischsuppe | S | 0.95 | 1 Teller | fisch_mager 180, tomate 120, zwiebel 30, olivenoel 15, wein_weiss 30, weissbrot 40, bruehe 200
+it | Vellutata di zucca | Kürbiscremesuppe italienisch | S | 0.95 | 1 Teller | kuerbis 250, kartoffel 60, zwiebel 30, olivenoel 10, bruehe 150, parmesan 8
+it | Pancotto | Pancotto pugliese | S | 0.95 | 1 Teller | weissbrot 70, kartoffel 80, mangold 80, olivenoel 15, knoblauch 4, wasser 250
+it | Polenta taragna | Polenta taragna valtellinese | KN | 0.9 | 1 Teller | maismehl 50, x4_buchweizen 30, wasser 350, butter 20, emmentaler 60
+it | Pollo alla romana | Pollo con peperoni alla romana | HG | 0.85 | 1 Portion | hahn 250, paprika_rot 150, tomaten_dose 100, olivenoel 15, wein_weiss 30, zwiebel 30
+it | Carne alla pizzaiola | Bistecca alla pizzaiola | HF | 0.85 | 1 Portion | rind_steak 180, tomaten_dose 150, olivenoel 12, knoblauch 4, oregano 1, olive 10
+it | Braciole napoletane | Involtini al ragù, Braciole al sugo | HF | 0.8 | 1 Portion | rind 180, pecorino 15, pinienkerne 8, rosinen 8, tomaten_dose 200, olivenoel 12, wein_rot 30
+it | Peposo dell'Impruneta | Peposo | HF | 0.75 | 1 Portion | rind 250, wein_rot 150, knoblauch 6, pfeffer 3, tomatenmark 10
+it | Stinco di maiale al forno | Stinco di maiale | FL | 0.75 | 1 Portion | schwein_haxe 350, wein_weiss 50, olivenoel 10, kartoffel 150, zwiebel 30
+it | Cotoletta alla bolognese | Cotoletta petroniana | HF | 0.9 | 1 Portion | kalb 150, ei 25, paniermehl 30, butter 20, rohschinken 20, parmesan 20, bruehe 40
+it | Fegato alla veneziana | Liver Venetian style, Leber venezianisch | HF | 0.8 | 1 Portion | leber 180, zwiebel 200, butter 15, olivenoel 10, wein_weiss 20, petersilie 5
+it | Arrosto di vitello | Kalbsbraten italienisch | FL | 0.75 | 1 Portion | kalb 220, wein_weiss 50, butter 10, olivenoel 10, karotte 30, zwiebel 30
+it | Agnello cacio e ova | Agnello cacio e uova | HF | 0.8 | 1 Portion | lamm 220, ei 50, pecorino 20, olivenoel 12, wein_weiss 30, zitrone 10
+it | Arrosticini | Arrosticini abruzzesi, Lammspießchen | KB | 0.75 | 10 Spieße | lamm 200, olivenoel 8, salz 2
+it | Bombette pugliesi | Bombette | FL | 0.8 | 4 Stück | schwein_nacken 180, emmentaler 40, speck 20, petersilie 5
+it | Salsiccia e fagioli | Salsicce e fagioli | WU | 0.9 | 1 Portion | bratwurst 150, bohnen_trocken 60, wasser 150, tomaten_dose 100, olivenoel 10, knoblauch 4
+it | Orata al forno | Orata al cartoccio | HFi | 0.8 | 1 Portion | wolfsbarsch 300, kartoffel 150, olivenoel 15, zitrone 15, tomate 60, petersilie 5
+it | Branzino al sale | Wolfsbarsch in Salzkruste | HFi | 0.75 | 1 Portion | wolfsbarsch 350, olivenoel 10, zitrone 10, salz 3
+it | Baccalà alla livornese | Stockfisch Livorneser Art | HFi | 0.85 | 1 Portion | stockfisch 200, tomaten_dose 150, mehl 15, olivenoel 20, knoblauch 4, petersilie 5
+it | Seppie con piselli | Tintenfisch mit Erbsen | HFi | 0.85 | 1 Portion | kalmar 220, erbsen 120, tomaten_dose 80, olivenoel 15, zwiebel 30, wein_weiss 30
+it | Polpo alla luciana | Polipo alla luciana | HFi | 0.8 | 1 Portion | oktopus 300, tomaten_dose 120, olive 15, olivenoel 15, knoblauch 4, petersilie 5
+it | Alici marinate | Marinierte Sardellen | V | 0.95 | 1 Portion | sardelle 120, zitrone 40, olivenoel 15, knoblauch 3, petersilie 5
+it | Cozze gratinate | Gratinierte Miesmuscheln | V | 0.9 | 1 Portion | muschel 250, paniermehl 25, parmesan 10, olivenoel 15, petersilie 5, knoblauch 3
+it | Calamari ripieni | Calamari imbottiti | HFi | 0.85 | 1 Portion | kalmar 220, paniermehl 30, ei 20, parmesan 10, tomaten_dose 120, olivenoel 15, petersilie 5
+it | Triglie alla livornese | Rotbarben livornese | HFi | 0.85 | 1 Portion | fisch_mager 220, tomaten_dose 150, olivenoel 15, knoblauch 4, petersilie 5
+it | Parmigiana di zucchine | Zucchini-Parmigiana | AU | 0.9 | 1 Portion | zucchini 250, tomaten_dose 150, mozzarella 70, parmesan 20, mehl 15, oel 20
+it | Zucchine alla scapece | Scapece, Zucchine marinate | V | 0.85 | 1 Portion | zucchini 200, oel 20, essig 15, minze 5, knoblauch 3
+it | Melanzane a funghetto | Melanzane trifolate | GZ | 0.8 | 1 Portion | aubergine 250, tomate 80, olivenoel 25, knoblauch 4, petersilie 5
+it | Peperoni ripieni | Peperoni ripieni al forno, Gefüllte Paprika italienisch | GM | 0.85 | 2 Stück | paprika_rot 250, hack 80, paniermehl 25, parmesan 15, ei 20, olive 10, olivenoel 12
+it | Fave e cicoria | Fave e cicorie, Ackerbohnenpüree mit Zichorie | HH | 0.95 | 1 Portion | dicke_bohnen 80, wasser 180, xc_chicoree 150, olivenoel 20, knoblauch 3
+it | Cianfotta | Ciambotta, Italienischer Gemüseeintopf | GZ | 0.85 | 1 Portion | aubergine 100, zucchini 100, paprika 80, kartoffel 100, tomate 100, olivenoel 20, zwiebel 30
+it | Puntarelle alla romana | Puntarelle con le alici | SA | 1.0 | 1 Portion | xc_chicoree 150, sardelle 10, olivenoel 15, essig 8, knoblauch 3
+it | Patate al forno con rosmarino | Italienische Ofenkartoffeln | B | 0.75 | 1 Portion | kartoffel 300, olivenoel 20, knoblauch 4, salz 2
+it | Funghi trifolati | Champignons trifolati | B | 0.75 | 1 Portion | pilz 250, olivenoel 15, knoblauch 4, petersilie 8
+it | Zucchine ripiene | Gefüllte Zucchini italienisch | GM | 0.85 | 2 Hälften | zucchini 250, hack 70, paniermehl 20, parmesan 15, ei 20, tomaten_dose 80, olivenoel 10
+it | Pomodori ripieni di riso | Pomodori col riso, Reisgefüllte Tomaten | GZ | 0.85 | 2 Stück | tomate 300, reis 50, kartoffel 100, olivenoel 20, petersilie 5, knoblauch 3
+it | Bagna càuda | Bagna cauda | SD | 0.9 | 1 Portion | olivenoel 40, sardelle 25, knoblauch 20, butter 10, paprika_rot 80, karotte 60, xc_fenchel 60
+it | Insalata di finocchi | Fenchelsalat | SA | 1.0 | 1 Portion | xc_fenchel 150, olivenoel 12, zitrone 10, parmesan 10
+it | Finocchi gratinati | Fenchel überbacken | AU | 0.85 | 1 Portion | xc_fenchel 250, milch 80, butter 10, mehl 8, parmesan 20
+it | Pizza fritta | Pizza fritta napoletana | PZ | 0.95 | 1 Stück | x3_pizzateig 180, ricotta 60, schinken 30, tomaten_dose 40, oel 25
+it | Panzerotti | Panzerotti pugliesi | SN | 0.95 | 2 Stück | x3_pizzateig 160, mozzarella 60, tomaten_dose 40, oel 25
+it | Crocchè di patate | Panzarotti di patate, Kartoffelkroketten neapolitanisch | SN | 0.9 | 3 Stück | kartoffel 200, ei 30, parmesan 15, mozzarella 30, paniermehl 25, oel 25
+it | Frittatina di pasta | Frittatine napoletane | SN | 0.9 | 1 Stück | nudeln 40, wasser 50, milch 50, butter 10, mehl 10, schinken 20, erbsen 15, paniermehl 15, ei 15, oel 20
+it | Olive ascolane | Olive all'ascolana | SN | 0.9 | 8 Stück | olive 60, hack 50, parmesan 10, ei 25, paniermehl 25, mehl 10, oel 25
+it | Sfincione | Sfincione palermitano | PZ | 0.9 | 1 Stück | x3_pizzateig 180, tomaten_dose 80, zwiebel 50, sardelle 10, pecorino 15, paniermehl 10, olivenoel 15
+it | Focaccia di Recco | Focaccia col formaggio | PZ | 0.9 | 1 Stück | mehl 70, wasser 40, olivenoel 15, frischkaese 80
+it | Erbazzone | Erbazzone reggiano | PZ | 0.9 | 1 Stück | mehl 60, schmalz 10, mangold 150, spinat 50, parmesan 25, ei 20, speck 15, zwiebel 20
+it | Torta al testo | Crescia al testo, Torta al testo con salumi | BR | 0.9 | 1 Stück | mehl 100, wasser 55, olivenoel 8, rohschinken 40, gouda 30
+it | Tramezzino tonno e uova | Tramezzino | SN | 1.0 | 2 Stück | weissbrot 80, thunfisch 40, ei 30, mayonnaise 20, salat 10
+it | Pizza ai funghi | Pizza Funghi | PZ | 0.9 | 1 Pizza | x3_pizzateig 250, tomaten_dose 80, mozzarella 100, pilz 80, olivenoel 10
+it | Pizza tonno e cipolla | Pizza Tonno | PZ | 0.9 | 1 Pizza | x3_pizzateig 250, tomaten_dose 80, mozzarella 90, thunfisch 70, zwiebel 40, olivenoel 10
+it | Pizza Romana | Pizza Napoli, Pizza mit Sardellen | PZ | 0.9 | 1 Pizza | x3_pizzateig 250, tomaten_dose 80, mozzarella 100, sardelle 20, olive 10, oregano 1, olivenoel 10
+it | Pizza Salsiccia e friarielli | Pizza mit Salsiccia | PZ | 0.9 | 1 Pizza | x3_pizzateig 250, mozzarella 80, bratwurst 60, brokkoli 80, olivenoel 10
+it | Pizza Ortolana | Pizza Vegetariana, Gemüsepizza | PZ | 0.9 | 1 Pizza | x3_pizzateig 250, tomaten_dose 80, mozzarella 90, zucchini 50, aubergine 50, paprika_rot 50, olivenoel 12
+it | Crostata di ricotta | Crostata ricotta e cioccolato | K | 0.95 | 1 Stück | mehl 45, butter 20, zucker 25, ei 20, ricotta 70, schokolade 8
+it | Bomboloni | Bombolone alla crema | G | 0.95 | 1 Stück | mehl 50, milch 20, ei 10, butter 8, zucker 15, hefe 2, oel 12, milch_fettarm 40, vanillepudding_pulver 5
+it | Maritozzi con la panna | Maritozzo | G | 0.95 | 1 Stück | mehl 50, milch 20, ei 10, butter 8, zucker 12, hefe 2, sahne 50
+it | Cartellate | Cartellate pugliesi | G | 0.9 | 3 Stück | mehl 50, olivenoel 15, wein_weiss 15, oel 15, honig 25
+it | Baci di dama | Baci di dama piemontesi | G | 0.95 | 4 Stück | haselnuss 20, mehl 20, butter 20, zucker 20, schokolade 8
+it | Brutti ma buoni | Nussbaiser italienisch | G | 0.95 | 4 Stück | haselnuss 30, eiweiss 25, zucker 30
+it | Ricciarelli | Ricciarelli di Siena | G | 0.95 | 3 Stück | mandel 40, zucker 35, eiweiss 15
+it | Chiacchiere | Crostoli, Bugie | G | 0.9 | 1 Portion | mehl 50, ei 15, zucker 8, butter 5, wein_weiss 8, oel 15, zucker 10
+it | Castagnole | Castagnole romagnole | G | 0.9 | 6 Stück | mehl 50, ei 20, zucker 15, butter 8, oel 15, zucker 8
+it | Torta tenerina | Torta tenerina ferrarese | K | 0.95 | 1 Stück | schokolade 35, butter 25, zucker 25, ei 35, mehl 10
+it | Torta paradiso | Torta Paradiso | K | 0.95 | 1 Stück | mehl 15, staerke 15, butter 25, zucker 25, ei 30
+it | Gelato al pistacchio | Pistazieneis | D | 1.0 | 2 Kugeln | eis 100, pistazie 15
+it | Granita al caffè con panna | Granita di caffè | D | 1.0 | 1 Glas | kaffee 150, zucker 25, sahne 40
+it | Biancomangiare | Biancomangiare siciliano | PU | 1.0 | 1 Portion | milch 150, mandel 20, zucker 20, staerke 15
+it | Budino al cioccolato | Italienischer Schokoladenpudding | PU | 1.0 | 1 Portion | milch 150, kakao 10, zucker 20, staerke 12, schokolade 10
+it | Delizia al limone | Delizie al limone | D | 0.95 | 1 Stück | mehl 25, ei 30, zucker 30, sahne 50, milch 50, zitrone 20, staerke 8
+it | Limoncello | Limoncello di Sorrento | GT | 1.0 | 1 Glas (40 ml) | spirituose 25, zucker 12, wasser 5
+it | Negroni | Cocktail Negroni | GT | 1.0 | 1 Glas | spirituose 30, likoer 30, likoerwein 30
+it | Bellini | Bellini veneziano | GT | 1.0 | 1 Glas | pfirsich 50, wein_weiss 100
+it | Caffè corretto | Espresso corretto | GT | 1.0 | 1 Tasse | kaffee 30, spirituose 15, zucker 5
+it | Caffè shakerato | Shakerato | GT | 1.0 | 1 Glas | kaffee 60, zucker 10
+# === Frankreich ===
+fr | Bœuf à la mode | Boeuf a la mode, Französischer Schmorbraten | FL | 0.75 | 1 Portion | rind 250, wein_rot 100, karotte 100, zwiebel 40, speck 20, butter 10, bruehe 100
+fr | Tournedos Rossini | Rinderfilet Rossini | HF | 0.85 | 1 Portion | rind_steak 180, foie_gras 40, weissbrot 30, butter 15, likoerwein 30
+fr | Steak au poivre | Pfeffersteak, Pepper steak | HF | 0.85 | 1 Portion | rind_steak 200, pfeffer 4, butter 15, sahne 50, weinbrand 15
+fr | Entrecôte bordelaise | Entrecote à la bordelaise | HF | 0.85 | 1 Portion | rind_steak 220, wein_rot 60, butter 20, zwiebel 20, bruehe 40
+fr | Côte de porc charcutière | Schweinekotelett Charcutière | HF | 0.85 | 1 Portion | schwein_nacken 200, zwiebel 40, gewuerzgurke 30, senf 10, wein_weiss 40, butter 10
+fr | Filet mignon de porc à la moutarde | Schweinefilet in Senfsauce | HF | 0.85 | 1 Portion | schwein_mager 200, senf 15, creme_fraiche 50, wein_weiss 30, butter 10
+fr | Veau Marengo | Kalb Marengo | HF | 0.8 | 1 Portion | kalb 220, tomaten_dose 120, pilz 60, zwiebel 30, wein_weiss 50, olivenoel 12
+fr | Poulet à la crème | Poulet de Bresse à la crème | HG | 0.85 | 1 Portion | hahn 250, sahne 80, pilz 60, wein_weiss 40, butter 10, zwiebel 20
+fr | Poulet Vallée d'Auge | Hähnchen mit Cidre und Calvados | HG | 0.85 | 1 Portion | hahn 250, apfelwein 80, creme_fraiche 50, pilz 60, apfel 60, butter 10
+fr | Poulet au vinaigre | Poulet au vinaigre lyonnais | HG | 0.85 | 1 Portion | hahn 250, essig 30, tomate 80, wein_weiss 40, butter 15, creme_fraiche 20
+fr | Coq au Riesling | Coq au riesling alsacien | HG | 0.85 | 1 Portion | hahn 250, wein_weiss 120, pilz 80, sahne 50, zwiebel 30, butter 10
+fr | Fricassée de poulet | Poulet en fricassée, Hühnerfrikassee französisch | HG | 0.85 | 1 Portion | hahn_keule 220, pilz 60, zwiebel 30, sahne 60, mehl 10, butter 10, bruehe 100
+fr | Lapin chasseur | Kaninchen Jägerart | HF | 0.8 | 1 Portion | kaninchen 250, pilz 80, tomaten_dose 60, wein_weiss 60, zwiebel 30, olivenoel 12
+fr | Potée lorraine | Lothringer Eintopf | E | 0.9 | 1 Teller | kassler 120, speck 30, weisskohl 150, kartoffel 150, karotte 60, ruebe 50, bruehe 150
+fr | Saucisson brioché | Saucisson en brioche lyonnais | WU | 0.95 | 1 Stück | mehl 60, butter 20, ei 20, hefe 2, wuerstchen_geraeuchert 80
+fr | Pâté lorrain | Tourte lorraine | PZ | 0.9 | 1 Stück | blaetterteig 120, schwein_nacken 80, kalb 40, wein_weiss 20, zwiebel 20, ei 10
+fr | Fleischnacka | Fleischschnecken elsässisch | MA | 0.9 | 1 Portion | mehl 80, ei 30, rind 100, zwiebel 30, petersilie 5, bruehe 100, butter 10
+fr | Lotte à l'armoricaine | Seeteufel armoricaine | HFi | 0.85 | 1 Portion | fisch_mager 220, tomaten_dose 100, weinbrand 15, wein_weiss 50, butter 15, zwiebel 20, sahne 30
+fr | Saumon en papillote | Lachs in Pergament | HFi | 0.9 | 1 Portion | lachs 180, lauch 60, karotte 50, butter 10, zitrone 10, wein_weiss 20
+fr | Bourride | Bourride sétoise | S | 0.9 | 1 Teller | fisch_mager 200, kartoffel 120, lauch 50, mayonnaise 30, knoblauch 4, weissbrot 30, bruehe 200, olivenoel 8
+fr | Raie au beurre noir | Rochen in brauner Butter | HFi | 0.85 | 1 Portion | fisch_mager 250, butter 30, essig 10, olive 10, petersilie 5
+fr | Maquereaux au vin blanc | Makrelen in Weißwein | HFi | 0.9 | 1 Portion | makrele 180, wein_weiss 60, zwiebel 30, karotte 30, essig 10
+fr | Homard thermidor | Lobster thermidor | HFi | 0.9 | 1 Portion | hummer 250, sahne 60, butter 15, senf 5, emmentaler 25, wein_weiss 30, mehl 8
+fr | Calamars à la provençale | Tintenfisch provenzalisch | HFi | 0.85 | 1 Portion | kalmar 250, tomate 150, olivenoel 15, knoblauch 5, wein_weiss 30, petersilie 5
+fr | Tielle sétoise | Tielle | PZ | 0.9 | 1 Stück | mehl 70, olivenoel 15, hefe 2, wasser 30, oktopus 80, tomaten_dose 60, zwiebel 20
+fr | Gratin savoyard | Savoyer Kartoffelgratin | AU | 0.85 | 1 Portion | kartoffel 250, bruehe 100, emmentaler 50, butter 15
+fr | Pommes Anna | Pommes de terre Anna | B | 0.8 | 1 Portion | kartoffel 250, butter 35
+fr | Pommes boulangère | Bäckerinnen-Kartoffeln | B | 0.85 | 1 Portion | kartoffel 250, zwiebel 60, bruehe 120, butter 15
+fr | Flageolets | Flageolets à la crème | HH | 0.95 | 1 Portion | bohnen_trocken 70, wasser 160, butter 10, zwiebel 20, creme_fraiche 20
+fr | Lentilles du Puy en salade | Salade de lentilles, Linsensalat französisch | SA | 0.95 | 1 Portion | linsen 70, wasser 150, zwiebel 20, senf 5, essig 10, olivenoel 15, petersilie 5
+fr | Petits pois à la française | Erbsen französisch | B | 0.9 | 1 Portion | erbsen 200, salat 60, zwiebel 30, butter 20, speck 15
+fr | Carottes Vichy | Vichy-Karotten | B | 0.85 | 1 Portion | karotte 250, butter 15, zucker 5, petersilie 5
+fr | Champignons à la grecque | Pilze auf griechische Art | V | 0.85 | 1 Portion | pilz 200, tomate 50, olivenoel 20, zitrone 15, wein_weiss 30, zwiebel 20
+fr | Endives braisées | Geschmorter Chicorée | B | 0.8 | 1 Portion | xc_chicoree 300, butter 20, zucker 5, zitrone 10
+fr | Gratin de chou-fleur | Blumenkohlgratin französisch | AU | 0.9 | 1 Portion | blumenkohl 250, milch 120, mehl 12, butter 12, emmentaler 40
+fr | Petits farcis niçois | Farcis niçois | GM | 0.85 | 1 Portion | tomate 120, zucchini 120, zwiebel 60, schwein_hack 70, kalb 30, paniermehl 20, parmesan 15, olivenoel 15
+fr | Tomates farcies | Gefüllte Tomaten französisch | GM | 0.85 | 2 Stück | tomate 300, schwein_hack 100, paniermehl 15, ei 15, zwiebel 20, olivenoel 10, reis 20
+fr | Tarte à la tomate | Tomatentarte | PZ | 0.9 | 1 Stück | mehl 50, butter 25, senf 10, tomate 120, emmentaler 20, olivenoel 8
+fr | Tourte aux blettes | Tourte de blettes niçoise | K | 0.9 | 1 Stück | mehl 50, butter 20, zucker 25, mangold 70, rosinen 15, pinienkerne 8, parmesan 8, ei 15, apfel 30
+fr | Quiche au saumon | Lachsquiche | PZ | 0.9 | 1 Stück | mehl 45, butter 22, lachs 50, ei 40, sahne 50, milch 30, spinat 30
+fr | Salade piémontaise | Kartoffelsalat französisch | SA | 1.0 | 1 Portion | kartoffel 150, schinken 40, ei 30, tomate 50, gewuerzgurke 20, mayonnaise 30
+fr | Omelette jambon fromage | Omelette au jambon et fromage, Schinken-Käse-Omelett | EI | 0.9 | 1 Portion | ei 150, schinken 40, emmentaler 30, butter 10
+fr | Pipérade | Piperade basquaise | EI | 0.85 | 1 Portion | paprika 150, paprika_rot 80, tomate 120, zwiebel 50, ei 100, olivenoel 15, rohschinken 20
+fr | Potage cultivateur | Gemüsesuppe Bauernart | S | 0.95 | 1 Teller | karotte 60, lauch 50, kartoffel 60, ruebe 40, weisskohl 40, speck 15, butter 8, bruehe 250
+fr | Velouté de champignons | Champignoncremesuppe französisch | S | 0.95 | 1 Teller | pilz 180, zwiebel 30, butter 10, sahne 50, bruehe 200
+fr | Bisque de homard | Hummersuppe, Lobster bisque | S | 0.95 | 1 Teller | hummer 80, tomatenmark 15, sahne 60, butter 10, weinbrand 10, reis 10, bruehe 220
+fr | Soupe au chou | Kohlsuppe französisch | S | 0.95 | 1 Teller | weisskohl 150, kartoffel 80, speck 30, karotte 40, zwiebel 30, bruehe 250
+fr | Crème Du Barry | Blumenkohlcremesuppe | S | 0.95 | 1 Teller | blumenkohl 200, kartoffel 50, sahne 50, butter 10, bruehe 200
+fr | Velouté d'asperges | Spargelcremesuppe französisch | S | 0.95 | 1 Teller | spargel 180, kartoffel 40, sahne 50, butter 10, bruehe 220
+fr | Friand à la viande | Friand | SN | 0.9 | 1 Stück | blaetterteig 80, schwein_hack 60, zwiebel 10, ei 10, petersilie 3
+fr | Chausson aux pommes | Apfeltasche französisch | G | 0.95 | 1 Stück | blaetterteig 80, apfel 70, zucker 10, butter 5, ei 5
+fr | Pain aux raisins | Rosinenschnecke französisch | G | 0.95 | 1 Stück | mehl 45, butter 20, zucker 10, milch 30, ei 10, rosinen 15, hefe 2
+fr | Croissant aux amandes | Mandelcroissant | G | 0.95 | 1 Stück | mehl 40, butter 25, mandel 25, zucker 20, ei 10, milch 10
+fr | Pain au lait | Milchbrötchen französisch | BR | 0.9 | 2 Stück | mehl 70, milch 35, butter 10, zucker 8, ei 10, hefe 2
+fr | Fougasse | Fougasse provençale | BR | 0.9 | 1 Stück | mehl 100, wasser 60, olivenoel 10, olive 15, hefe 2
+fr | Tarte Bourdaloue | Tarte aux poires Bourdaloue, Birnen-Mandel-Tarte | K | 0.95 | 1 Stück | mehl 35, butter 25, zucker 25, mandel 20, ei 15, birne 60
+fr | Tarte aux abricots | Aprikosentarte | K | 0.95 | 1 Stück | mehl 45, butter 22, zucker 20, aprikose 100, ei 8
+fr | Tarte au chocolat | Schokoladentarte | K | 0.95 | 1 Stück | mehl 35, butter 25, zucker 15, schokolade 35, sahne 35, ei 10
+fr | Tarte aux myrtilles | Heidelbeertarte | K | 0.95 | 1 Stück | mehl 45, butter 22, zucker 20, blaubeere 100, ei 8
+fr | Tarte normande | Normannische Apfeltarte | K | 0.95 | 1 Stück | mehl 40, butter 20, zucker 20, apfel 90, ei 20, creme_fraiche 30
+fr | Gâteau au yaourt | Joghurtkuchen französisch | K | 0.95 | 1 Stück | joghurt 30, mehl 40, zucker 30, ei 25, oel 15
+fr | Quatre-quarts | Quatre quarts breton | K | 0.95 | 1 Stück | butter 20, zucker 20, mehl 20, ei 20
+fr | Charlotte aux fraises | Erdbeer-Charlotte | D | 1.0 | 1 Stück | x2_biskuit 30, erdbeere 80, sahne 50, zucker 15, gelatine 2, joghurt 30
+fr | Mont-Blanc | Mont-Blanc aux marrons, Kastanien-Mont-Blanc | D | 1.0 | 1 Stück | kastanie 80, zucker 25, sahne 50, eiweiss 15
+fr | Savarin | Savarin au rhum | K | 0.95 | 1 Stück | mehl 40, butter 12, ei 20, zucker 30, hefe 2, weinbrand 10, wasser 30, sahne 30
+fr | Kouglof | Kougelhopf, Gugelhupf elsässisch | K | 0.95 | 1 Stück | mehl 50, butter 18, zucker 12, ei 15, milch 20, rosinen 12, mandel 5, hefe 2
+fr | Tarte au sucre | Zuckertarte nordfranzösisch | K | 0.95 | 1 Stück | mehl 50, butter 15, zucker 25, ei 15, milch 15, sahne 15, hefe 2
+fr | Poires Belle-Hélène | Birne Helene | D | 1.0 | 1 Portion | birne 150, zucker 20, eis 80, schokolade 25, sahne 20
+fr | Pêche Melba | Pfirsich Melba | D | 1.0 | 1 Portion | pfirsich 150, eis 80, himbeere 50, zucker 15, sahne 20
+fr | Croquembouche | Croque-en-bouche | D | 0.95 | 1 Portion | mehl 25, butter 20, ei 40, wasser 40, milch 60, zucker 35, vanillepudding_pulver 8
+fr | Tarte tropézienne | Tropézienne | K | 0.95 | 1 Stück | mehl 50, butter 18, zucker 22, ei 20, milch 50, sahne 30, hefe 2, staerke 5
+fr | Flan pâtissier | Flan parisien | K | 0.95 | 1 Stück | mehl 30, butter 12, milch 120, ei 25, zucker 25, staerke 12
+fr | Choux à la crème | Windbeutel französisch | G | 0.95 | 2 Stück | mehl 25, butter 20, ei 40, wasser 40, milch 60, zucker 20, staerke 8
+fr | Pommes au four | Bratapfel französisch | D | 0.85 | 1 Stück | apfel 200, butter 10, zucker 15, rosinen 10
+fr | Œufs à la neige au caramel | Oeufs a la neige | D | 1.0 | 1 Portion | eiweiss 40, zucker 35, milch 150, ei 30
+fr | Pastis | Pastis de Marseille, Anisschnaps mit Wasser | GT | 1.0 | 1 Glas | spirituose 30, zucker 2, wasser 150
+fr | Diabolo menthe | Minzlimonade | GT | 1.0 | 1 Glas | x2_limonade 250, zucker 15
+fr | Citron pressé | Frisch gepresste Zitronenlimonade | GT | 1.0 | 1 Glas | zitrone 40, zucker 15, wasser 200
+fr | Calvados | Calvados du Pays d'Auge | GT | 1.0 | 1 Glas (4 cl) | spirituose 40
+fr | Café crème | Cafe creme | GT | 1.0 | 1 Tasse | kaffee 150, milch 50
+fr | Kir royal | Kir Royal | GT | 1.0 | 1 Glas | wein_weiss 100, likoer 15
+# === Spanien ===
+es | Paella mixta | Paella mit Huhn und Meeresfrüchten | RP | 0.95 | 1 Teller | reis 90, bruehe 220, hahn_keule 80, garnele 50, muschel 60, erbsen 30, paprika_rot 40, olivenoel 15, tomate 40
+es | Arroz con pollo | Spanischer Reis mit Huhn | RP | 0.95 | 1 Teller | reis 90, bruehe 220, hahn_keule 150, paprika_rot 50, tomate 50, erbsen 30, olivenoel 15, zwiebel 30
+es | Arroz del senyoret | Arroz del señorito | RP | 0.95 | 1 Teller | reis 90, bruehe 220, garnele 80, kalmar 60, muschel 40, paprika_rot 30, tomate 40, olivenoel 15
+es | Arroz con costra | Arroz amb crosta | RP | 0.95 | 1 Teller | reis 80, bruehe 200, hahn_keule 60, wuerstchen_geraeuchert 40, blutwurst 30, kichererbsen 40, ei 50, olivenoel 10
+es | Arroz meloso de setas | Cremiger Reis mit Pilzen | RP | 0.95 | 1 Teller | reis 90, bruehe 260, pilz 150, zwiebel 30, olivenoel 15, wein_weiss 20
+es | Fideos a la cazuela | Fideos con costillas | NA | 0.95 | 1 Teller | nudeln 80, bruehe 220, schwein_nacken 80, kartoffel 60, tomate 40, paprika_rot 30, olivenoel 12
+es | Sopa de picadillo | Andalusische Hühnersuppe | S | 0.95 | 1 Teller | bruehe 350, nudeln 20, ei 30, schinken 25, hahn_brust 30, kichererbsen 20
+es | Porrusalda | Purrusalda, Baskische Lauchsuppe | S | 0.95 | 1 Teller | lauch 150, kartoffel 120, karotte 40, olivenoel 12, stockfisch 30, bruehe 250
+es | Gazpachuelo | Gazpachuelo malagueño | S | 0.95 | 1 Teller | fisch_mager 100, kartoffel 80, mayonnaise 35, bruehe 280, zitrone 10
+es | Gazpacho manchego | Gazpachos manchegos | E | 0.9 | 1 Teller | kaninchen 100, hahn_keule 60, mehl 50, olivenoel 15, tomate 40, paprika 30, bruehe 250
+es | Sopa de marisco | Spanische Meeresfrüchtesuppe | S | 0.95 | 1 Teller | garnele 60, muschel 80, fisch_mager 60, tomate 60, zwiebel 30, olivenoel 12, reis 15, bruehe 250
+es | Crema de calabacín | Zucchinicremesuppe spanisch | S | 0.95 | 1 Teller | zucchini 250, kartoffel 50, zwiebel 30, olivenoel 10, frischkaese 20, bruehe 150
+es | Estofado de ternera | Spanischer Rindereintopf | E | 0.85 | 1 Teller | rind 180, kartoffel 150, karotte 60, erbsen 30, zwiebel 30, wein_rot 40, olivenoel 12, bruehe 120
+es | Carne con tomate | Magro con tomate | HF | 0.85 | 1 Portion | schwein_mager 180, tomaten_dose 200, olivenoel 15, zwiebel 30, knoblauch 4
+es | Lomo adobado | Lomo en adobo, Mariniertes Schweinefilet | HF | 0.85 | 1 Portion | schwein_mager 180, paprikapulver 4, olivenoel 12, knoblauch 4, kartoffel 150, oel 10
+es | Costillas al horno | Spanische Ofenrippchen | FL | 0.75 | 1 Portion | schwein_bauch 250, olivenoel 10, knoblauch 5, paprikapulver 3, wein_weiss 30
+es | Cochifrito | Cochifrito segoviano | FL | 0.8 | 1 Portion | schwein_bauch 200, olivenoel 15, knoblauch 5, zitrone 10
+es | San Jacobo | San Jacobos | HF | 0.9 | 1 Stück | schwein_mager 100, schinken 25, gouda 25, ei 25, mehl 10, paniermehl 25, oel 20
+es | Filete empanado | Filete de pollo empanado | HG | 0.9 | 1 Portion | hahn_brust 150, ei 25, paniermehl 30, mehl 8, oel 20
+es | Carcamusas | Carcamusas de Toledo | E | 0.85 | 1 Portion | schwein_mager 150, tomaten_dose 120, erbsen 40, chorizo 20, olivenoel 12, zwiebel 30
+es | Codillo asado | Codillo al horno, Schweinshaxe spanisch | FL | 0.75 | 1 Portion | schwein_haxe 350, kartoffel 150, olivenoel 10, wein_weiss 40
+es | Merluza rebozada | Seehecht im Teigmantel | HFi | 0.9 | 1 Portion | kabeljau 180, mehl 15, ei 30, oel 20, zitrone 10
+es | Dorada a la sal | Dorade in Salzkruste | HFi | 0.75 | 1 Portion | wolfsbarsch 350, olivenoel 10, salz 3
+es | Lubina a la espalda | Lubina a la bilbaína | HFi | 0.8 | 1 Portion | wolfsbarsch 300, olivenoel 20, knoblauch 5, essig 8, chili 2
+es | Sardinas a la plancha | Gegrillte Sardinen spanisch | HFi | 0.8 | 1 Portion | sardine 220, olivenoel 10, petersilie 5, knoblauch 3, zitrone 10
+es | Mejillones a la marinera | Miesmuscheln Marinera | HFi | 0.9 | 1 Portion | muschel 350, tomate 80, zwiebel 30, wein_weiss 40, olivenoel 15, mehl 5, paprikapulver 2
+es | Salpicón de marisco | Meeresfrüchtesalat spanisch | SA | 1.0 | 1 Portion | garnele 80, muschel 60, kalmar 40, paprika_rot 40, paprika 30, zwiebel 30, olivenoel 15, essig 10
+es | Cazón en adobo | Bienmesabe gaditano | HFi | 0.85 | 1 Portion | fisch_mager 180, essig 15, kreuzkuemmel 1, oregano 1, mehl 25, oel 25
+es | Judías verdes con jamón | Grüne Bohnen mit Serrano | B | 0.9 | 1 Portion | gruene_bohnen 250, rohschinken 30, olivenoel 12, knoblauch 4
+es | Alcachofas con jamón | Artischocken mit Schinken | GZ | 0.85 | 1 Portion | artischocke 250, rohschinken 40, olivenoel 15, knoblauch 4, wein_weiss 20
+es | Berenjenas rellenas | Gefüllte Auberginen spanisch | GM | 0.85 | 2 Hälften | aubergine 300, hack 80, tomaten_dose 80, zwiebel 30, emmentaler 25, olivenoel 15
+es | Patatas a la importancia | Patatas a la importancia | KN | 0.9 | 1 Portion | kartoffel 250, ei 40, mehl 20, oel 25, bruehe 150, wein_weiss 20, petersilie 5
+es | Patatas revolconas | Revolconas | KN | 0.9 | 1 Portion | kartoffel 280, speck 40, olivenoel 15, paprikapulver 4, knoblauch 4
+es | Revuelto de setas | Rührei mit Pilzen spanisch | EI | 0.9 | 1 Portion | ei 120, pilz 150, olivenoel 15, knoblauch 3
+es | Revuelto de espárragos trigueros | Rührei mit grünem Spargel | EI | 0.9 | 1 Portion | ei 120, spargel 120, olivenoel 15, rohschinken 20
+es | Pochas a la navarra | Pochas con chorizo | HH | 0.95 | 1 Teller | bohnen_trocken 70, wasser 200, chorizo 40, paprika 40, zwiebel 30, olivenoel 12, tomate 40
+es | Judiones de La Granja | Judiones | HH | 0.95 | 1 Teller | bohnen_trocken 90, wasser 230, chorizo 40, blutwurst 30, speck 25, zwiebel 30
+es | Alubias de Tolosa | Alubias rojas de Tolosa | HH | 0.95 | 1 Teller | bohnen_trocken 90, wasser 230, chorizo 30, speck 30, blutwurst 30, olivenoel 10
+es | Huevos rellenos | Spanische gefüllte Eier | V | 1.0 | 4 Hälften | ei 100, thunfisch 40, mayonnaise 25, tomatenmark 5, olive 5
+es | Ensalada campera | Spanischer Kartoffelsalat | SA | 1.0 | 1 Portion | kartoffel 180, tomate 80, paprika 40, zwiebel 30, ei 50, thunfisch 40, olive 15, olivenoel 15, essig 8
+es | Remojón | Remojón granadino | SA | 1.0 | 1 Portion | orange 200, stockfisch 40, olive 20, zwiebel 20, olivenoel 15
+es | Croquetas de pollo | Hähnchenkroketten | SN | 0.9 | 6 Stück | hahn_brust 50, milch 150, mehl 30, butter 15, ei 20, paniermehl 25, oel 25
+es | Croquetas de setas | Pilzkroketten | SN | 0.9 | 6 Stück | pilz 70, milch 150, mehl 30, butter 15, ei 20, paniermehl 25, oel 25
+es | Bocadillo de chorizo | Chorizo-Brötchen | SN | 1.0 | 1 Stück | weissbrot 120, chorizo 50
+es | Tortillitas de camarones | Garnelen-Pfannkuchen | SN | 0.85 | 4 Stück | garnele 60, xc_kichererbsenmehl 40, mehl 15, wasser 60, zwiebel 20, oel 30
+es | Ropa vieja canaria | Ropa vieja | HF | 0.85 | 1 Portion | rind 120, hahn_keule 60, kichererbsen 100, kartoffel 100, tomate 60, paprika 40, olivenoel 15
+es | Sancocho canario | Sancocho | HFi | 0.9 | 1 Portion | stockfisch 180, kartoffel 200, suesskartoffel 100, olivenoel 10, essig 5, knoblauch 4
+es | Gofio escaldado | Escaldón de gofio | B | 0.95 | 1 Portion | mehl 40, maismehl 20, bruehe 200, zwiebel 20
+es | Potaje de berros | Brunnenkresse-Eintopf kanarisch | E | 0.95 | 1 Teller | spinat 100, bohnen_trocken 30, kartoffel 100, mais 40, schwein_bauch 40, bruehe 250
+es | Bienmesabe canario | Bienmesabe | D | 1.0 | 1 Portion | mandel 40, zucker 40, ei 20, zimt 1, wasser 20
+es | Fricandó | Fricandó de vedella | HF | 0.8 | 1 Portion | kalb 200, pilz 80, tomate 60, zwiebel 40, wein_weiss 40, mehl 10, olivenoel 15
+es | Mar i muntanya | Mar y montaña | HG | 0.85 | 1 Portion | hahn_keule 180, garnele 80, tomate 60, zwiebel 40, mandel 10, schokolade 5, olivenoel 15
+es | Suquet de peix | Suquet de pescado | HFi | 0.9 | 1 Teller | fisch_mager 200, kartoffel 150, tomate 50, mandel 10, olivenoel 15, knoblauch 4, bruehe 150
+es | Coca de llardons | Coca de chicharrones | G | 0.95 | 1 Stück | mehl 40, schmalz 15, zucker 20, pinienkerne 10, ei 10
+es | Panellets | Panellets de piñones | G | 0.95 | 3 Stück | mandel 30, zucker 30, kartoffel 15, pinienkerne 15, ei 8
+es | Xató | Xató de Vilanova | SA | 1.0 | 1 Portion | xc_chicoree 120, stockfisch 50, thunfisch 30, sardelle 10, olive 15, mandel 15, olivenoel 20, paprika_rot 20
+es | Trinxat de la Cerdanya | Trinxat | KN | 0.85 | 1 Portion | kartoffel 200, weisskohl 200, speck 40, olivenoel 15, knoblauch 4
+es | Samfaina | Katalanisches Gemüseragout | GZ | 0.8 | 1 Portion | aubergine 120, zucchini 100, paprika_rot 80, tomate 120, zwiebel 50, olivenoel 25
+es | Pantxineta | Pastel de hojaldre con almendras | K | 0.95 | 1 Stück | blaetterteig 60, milch 60, ei 15, zucker 15, staerke 6, mandel 10
+es | Talo con chistorra | Talo chistorra | SN | 0.95 | 1 Stück | maismehl 50, wasser 40, chorizo 60
+es | Lacón con grelos | Lacón gallego | FL | 0.85 | 1 Portion | kassler 200, mangold 150, kartoffel 150, chorizo 30, olivenoel 10
+es | Raxo | Raxo gallego con patatas | HF | 0.85 | 1 Portion | schwein_nacken 180, kartoffel 150, oel 15, knoblauch 4, petersilie 5
+es | Filloas | Filloas gallegas | G | 0.9 | 2 Stück | mehl 30, milch 60, ei 25, butter 5, zucker 15
+es | Bartolillos | Bartolillos madrileños | G | 0.9 | 2 Stück | mehl 40, butter 10, wein_weiss 8, milch 70, ei 15, zucker 20, staerke 8, oel 15
+es | Tocino de cielo | Tocino del cielo | PU | 1.0 | 1 Stück | ei 50, zucker 50, wasser 15
+es | Sobaos pasiegos | Sobao pasiego | K | 0.95 | 1 Stück | butter 15, zucker 18, ei 15, mehl 20, zitrone 2
+es | Quesada pasiega | Quesada | K | 0.95 | 1 Stück | quark 80, ei 25, zucker 20, mehl 15, butter 8
+es | Brazo de gitano | Biskuitrolle spanisch | K | 0.95 | 1 Stück | mehl 20, ei 30, zucker 25, sahne 30, milch 30, staerke 4
+es | Piononos | Piononos de Santa Fe | G | 0.95 | 1 Stück | mehl 12, ei 25, zucker 18, weinbrand 4, wasser 10
+es | Yemas de Santa Teresa | Yemas de Ávila | D | 1.0 | 3 Stück | ei 40, zucker 30, zitrone 2
+es | Casadielles | Casadielles asturianas | G | 0.9 | 2 Stück | mehl 40, butter 12, walnuss 25, zucker 20, wein_weiss 8, oel 15
+es | Frixuelos | Frisuelos asturianos | G | 0.9 | 2 Stück | mehl 30, milch 60, ei 25, butter 5, zucker 15, oel 5
+es | Miguelitos de La Roda | Miguelitos | G | 0.95 | 2 Stück | blaetterteig 50, milch 50, ei 12, zucker 15, staerke 5
+es | Calimocho | Kalimotxo | GT | 1.0 | 1 Glas | wein_rot 150, x2_limonade 150
+es | Rebujito | Rebujito andaluz | GT | 1.0 | 1 Glas | likoerwein 80, x2_limonade 150
+es | Carajillo | Kaffee mit Brandy | GT | 1.0 | 1 Tasse | kaffee 40, weinbrand 20, zucker 5
+es | Café bombón | Cafe bombon | GT | 1.0 | 1 Glas | kaffee 40, kondensmilch 30
+es | Clara con limón | Clara, Radler spanisch | GT | 1.0 | 1 Glas | bier 150, x2_limonade 150
+es | Queimada | Queimada gallega | GT | 1.0 | 1 Tasse | spirituose 40, zucker 10, kaffee 5
+# === Portugal ===
+pt | Bacalhau à Zé do Pipo | Bacalhau Zé do Pipo | HFi | 0.9 | 1 Portion | stockfisch 200, kartoffel 150, mayonnaise 30, zwiebel 40, olivenoel 15, olive 10
+pt | Bacalhau com broa | Bacalhau com crosta de broa | HFi | 0.85 | 1 Portion | stockfisch 200, maismehl 30, roggenbrot 20, olivenoel 25, kartoffel 150, knoblauch 5
+pt | Arroz de bacalhau | Reis mit Stockfisch | RP | 0.95 | 1 Teller | reis 80, bruehe 220, stockfisch 100, tomate 60, zwiebel 30, olivenoel 15
+pt | Arroz de frango | Arroz de frango à portuguesa | RP | 0.95 | 1 Teller | reis 80, bruehe 220, hahn_keule 150, chorizo 20, zwiebel 30, olivenoel 12
+pt | Arroz de feijão | Bohnenreis portugiesisch | RP | 0.95 | 1 Teller | reis 70, bohnen_trocken 30, wasser 220, tomate 40, zwiebel 30, olivenoel 12
+pt | Bitoque | Bitoque com ovo | HF | 0.85 | 1 Teller | rind_steak 150, ei 50, kartoffel 200, oel 25, reis 50, wasser 80
+pt | Coelho à caçador | Kaninchen Jägerart portugiesisch | HF | 0.8 | 1 Portion | kaninchen 250, tomate 100, wein_weiss 60, zwiebel 40, olivenoel 15, chorizo 20
+pt | Chanfana | Chanfana de cabra | HF | 0.75 | 1 Portion | lamm 250, wein_rot 150, knoblauch 6, olivenoel 10, kartoffel 120
+pt | Alcatra açoriana | Alcatra da Terceira | FL | 0.75 | 1 Portion | rind 250, wein_rot 120, speck 25, zwiebel 50, butter 10
+pt | Lombo de porco assado | Schweinelende portugiesisch | FL | 0.8 | 1 Portion | schwein_mager 200, wein_weiss 50, olivenoel 12, knoblauch 5, kartoffel 150
+pt | Febras grelhadas | Febras de porco | HF | 0.8 | 1 Portion | schwein_nacken 200, olivenoel 10, knoblauch 4, zitrone 10
+pt | Peixinhos da horta | Frittierte grüne Bohnen | V | 0.9 | 1 Portion | gruene_bohnen 120, mehl 30, ei 20, oel 25, wasser 30
+pt | Carapaus fritos | Frittierte Stöcker | HFi | 0.85 | 1 Portion | makrele 220, mehl 20, oel 20, zitrone 10
+pt | Chocos com tinta | Sepia in Tinte | HFi | 0.85 | 1 Portion | kalmar 250, zwiebel 40, olivenoel 15, wein_weiss 30, kartoffel 150
+pt | Lulas recheadas | Gefüllte Kalmare portugiesisch | HFi | 0.85 | 1 Portion | kalmar 200, chorizo 30, reis 30, tomaten_dose 120, zwiebel 30, olivenoel 15
+pt | Caril de camarão | Garnelencurry portugiesisch | HFi | 0.9 | 1 Portion | garnele 180, kokos 20, sahne 40, zwiebel 40, tomate 50, gewuerz 3, reis 70, wasser 120
+pt | Feijoada de marisco | Meeresfrüchte-Bohneneintopf | E | 0.95 | 1 Teller | bohnen_trocken 70, wasser 200, garnele 60, muschel 80, kalmar 40, tomate 60, olivenoel 15
+pt | Massada de peixe | Fischsuppe mit Nudeln | S | 0.95 | 1 Teller | fisch_mager 150, nudeln 40, wasser 80, tomate 80, zwiebel 30, olivenoel 12, bruehe 200
+pt | Sopa de grão | Kichererbsensuppe portugiesisch | S | 0.95 | 1 Teller | kichererbsen 100, spinat 60, karotte 30, zwiebel 30, olivenoel 10, bruehe 250
+pt | Sopa de agrião | Brunnenkressesuppe | S | 0.95 | 1 Teller | spinat 100, kartoffel 120, zwiebel 30, olivenoel 10, bruehe 250
+pt | Pão com chouriço | Pao com chourico | BR | 0.9 | 1 Stück | mehl 90, wasser 55, hefe 2, chorizo 40
+pt | Empadas de galinha | Hühnerpasteten portugiesisch | SN | 0.95 | 2 Stück | mehl 60, butter 25, hahn_brust 60, zwiebel 15, ei 10, bruehe 30
+pt | Chamuças | Chamuças portuguesas | SN | 0.9 | 3 Stück | yufka 50, hack 60, zwiebel 20, gewuerz 2, oel 25
+pt | Tosta mista | Portugiesischer Schinken-Käse-Toast | SN | 0.95 | 1 Stück | weissbrot 90, schinken 30, gouda 30, butter 10
+pt | Bolo de bolacha | Kekskuchen portugiesisch | K | 1.0 | 1 Stück | keks 40, butter 25, zucker 20, kaffee 30, ei 10
+pt | Baba de camelo | Kondensmilch-Mousse | D | 1.0 | 1 Portion | kondensmilch 80, ei 40, mandel 5
+pt | Toucinho do céu | Toucinho do ceu | K | 0.95 | 1 Stück | mandel 30, zucker 35, ei 35, butter 5
+pt | Serradura | Serradura, Sägemehl-Pudding | D | 1.0 | 1 Glas | sahne 70, kondensmilch 40, keks 25
+pt | Pastéis de feijão | Bohnentörtchen | G | 0.95 | 2 Stück | mehl 25, butter 12, bohnen_trocken 15, zucker 35, mandel 15, ei 20
+pt | Salame de chocolate | Schokoladensalami | D | 1.0 | 2 Scheiben | keks 30, schokolade 25, butter 15, zucker 10, ei 10
+pt | Aletria | Aletria doce | PU | 0.95 | 1 Portion | nudeln 30, milch 150, zucker 20, ei 15, zimt 1
+pt | Tigelada | Tigelada portuguesa | PU | 0.9 | 1 Portion | milch 120, ei 50, zucker 30, mehl 10
+pt | Malasadas | Malassadas | G | 0.9 | 2 Stück | mehl 60, milch 25, ei 15, zucker 15, butter 8, hefe 2, oel 15
+pt | Bolo lêvedo | Bolo levedo dos Açores | BR | 0.95 | 1 Stück | mehl 60, milch 25, ei 12, zucker 12, butter 8, hefe 2
+pt | Vinho do Porto | Portwein | GT | 1.0 | 1 Glas (75 ml) | likoerwein 75
+# === Malta ===
+mt | Ross il-forn | Maltesischer Ofenreis | RP | 0.9 | 1 Portion | reis 80, wasser 120, hack 100, tomaten_dose 120, ei 50, parmesan 15, zwiebel 20
+mt | Imqarrun il-forn | Maltesischer Nudelauflauf | AU | 0.95 | 1 Portion | nudeln 80, wasser 100, hack 100, tomaten_dose 120, ei 40, parmesan 15, zwiebel 20, oel 8
+mt | Bigilla | Maltesischer Bohnendip | SD | 0.95 | 1 Portion | dicke_bohnen 50, wasser 100, olivenoel 15, knoblauch 4, chili 2, petersilie 5
+mt | Soppa tal-armla | Widow's soup Maltese | S | 0.95 | 1 Teller | blumenkohl 80, kartoffel 80, erbsen 40, karotte 40, ei 50, ricotta 40, bruehe 250, olivenoel 8
+mt | Qassatat | Qassatat tal-irkotta | SN | 0.95 | 2 Stück | mehl 70, butter 25, ricotta 70, ei 15, erbsen 20
+mt | Qagħaq tal-għasel | Honey rings Maltese | G | 0.95 | 1 Stück | mehl 50, butter 10, pekmez 30, zucker 15, griess 10, orange 10
+mt | Kwareżimal | Kwarezimal | G | 0.95 | 2 Stück | mandel 30, mehl 20, zucker 25, honig 10, orange 10
+mt | Pudina tal-ħobż | Maltesischer Brotpudding | K | 0.95 | 1 Stück | weissbrot 60, milch 100, ei 30, zucker 25, kakao 5, rosinen 15, butter 10
+mt | Zalzett tal-Malti | Maltesische Wurst | WU | 0.85 | 1 Portion | schwein_hack 150, gewuerz 3, salz 2, weissbrot 40
+mt | Laħam fuq il-forn | Maltesischer Ofenbraten | FL | 0.8 | 1 Portion | schwein_nacken 180, kartoffel 200, zwiebel 50, olivenoel 12, bruehe 60
+# === Andorra, Monaco, San Marino ===
+mc | Barbajuan | Barbagiuan | SN | 0.9 | 3 Stück | mehl 50, olivenoel 10, mangold 80, ricotta 40, parmesan 10, ei 10, oel 20
+mc | Stocafi | Estocaficada, Stockfisch monegassisch | HFi | 0.85 | 1 Portion | stockfisch 200, tomaten_dose 150, olive 20, olivenoel 20, zwiebel 30, wein_weiss 30
+mc | Fougasse monégasque | Fougasse de Monaco | G | 0.95 | 1 Stück | mehl 60, butter 15, zucker 15, mandel 10, hefe 2, milch 20
+sm | Torta Tre Monti | Tre Monti Kuchen | K | 1.0 | 1 Stück | mehl 15, ei 15, zucker 12, schokolade 15, haselnuss 10, butter 15
+sm | Nidi di rondine | Nidi di rondine sammarinesi | AU | 0.95 | 1 Portion | mehl 70, ei 35, schinken 40, gouda 40, milch 100, butter 15, tomaten_dose 50
+ad | Coques d'Andorra | Coca andorrana | G | 0.95 | 1 Stück | mehl 50, oel 12, zucker 20, ei 15, milch 20, hefe 2
+# === Polen ===
+pl | Zupa jarzynowa | Polnische Gemüsesuppe | S | 0.95 | 1 Teller | kartoffel 80, karotte 50, sellerie 30, blumenkohl 50, erbsen 30, gruene_bohnen 30, sahne 20, bruehe 280
+pl | Kartoflanka | Zupa ziemniaczana, Polnische Kartoffelsuppe | S | 0.95 | 1 Teller | kartoffel 180, karotte 40, speck 20, zwiebel 30, sauerrahm 30, bruehe 250
+pl | Zupa fasolowa | Polnische Bohnensuppe | S | 0.95 | 1 Teller | bohnen_trocken 50, wasser 150, kartoffel 60, karotte 30, wuerstchen_geraeuchert 40, bruehe 150
+pl | Krem z dyni | Polnische Kürbiscremesuppe | S | 0.95 | 1 Teller | kuerbis 250, kartoffel 50, sahne 30, butter 8, bruehe 150, kuerbiskerne 8
+pl | Schab pieczony | Polnischer Schweinebraten | FL | 0.8 | 1 Portion | schwein_mager 200, oel 10, oregano 1, knoblauch 4, zwiebel 40, kartoffel 150
+pl | Karkówka z grilla | Gegrillter Schweinenacken polnisch | HF | 0.8 | 1 Portion | schwein_nacken 220, zwiebel 30, oel 8, senf 10
+pl | Pulpety w sosie koperkowym | Fleischbällchen in Dillsauce | KF | 0.9 | 1 Portion | gemischtes_hack 150, ei 20, semmel 20, sahne 40, mehl 8, dill 8, bruehe 120, kartoffel 150
+pl | Gulasz wieprzowy | Polnisches Schweinegulasch | E | 0.85 | 1 Portion | schwein_nacken 180, zwiebel 50, paprika_rot 50, mehl 8, tomatenmark 10, oel 10, bruehe 120
+pl | Kotlet de volaille | De volaille | HG | 0.9 | 1 Stück | hahn_brust 160, butter 20, ei 25, paniermehl 30, mehl 10, oel 20
+pl | Kluski na parze | Pampuchy, Dampfnudeln polnisch | G | 0.95 | 2 Stück | mehl 80, milch 40, ei 15, zucker 10, hefe 3, butter 8, blaubeere 40, sahne 30
+pl | Łazanki z kapustą | Lazanki mit Kraut | NA | 0.9 | 1 Teller | nudeln 80, wasser 100, sauerkraut 100, weisskohl 80, speck 30, zwiebel 30, pilz 40
+pl | Pierogi z serem na słodko | Süße Quark-Piroggen | MA | 0.95 | 8 Stück | mehl 100, wasser 50, quark 120, ei 15, zucker 20, sauerrahm 30, butter 10
+pl | Pierogi ze szpinakiem | Spinatpiroggen | MA | 0.95 | 8 Stück | mehl 100, wasser 50, spinat 120, beyaz_peynir 50, knoblauch 3, butter 10
+pl | Krokiety z kapustą i grzybami | Krokiety | SN | 0.9 | 2 Stück | mehl 50, milch 80, ei 40, sauerkraut 80, pilz 40, paniermehl 25, oel 20
+pl | Pasztet | Polnische Pastete | V | 0.9 | 1 Portion | schwein_nacken 60, leber 30, speck 20, semmel 10, ei 10
+pl | Kiszka ziemniaczana | Kiszka | KN | 0.85 | 1 Portion | kartoffel 250, speck 40, zwiebel 30, schmalz 10
+pl | Gzik z ziemniakami | Pyry z gzikiem | KN | 1.0 | 1 Portion | kartoffel 250, quark_mager 120, sauerrahm 40, zwiebel 20, butter 8
+pl | Knedle ze śliwkami | Polnische Zwetschgenknödel | KN | 0.95 | 4 Stück | kartoffel 200, mehl 70, ei 15, pflaume 120, butter 15, paniermehl 15, zucker 15
+pl | Dorsz smażony | Gebratener Dorsch polnisch | HFi | 0.85 | 1 Portion | kabeljau 180, mehl 15, ei 25, paniermehl 15, oel 20, kartoffel 150
+pl | Pstrąg pieczony | Gebackene Forelle polnisch | HFi | 0.8 | 1 Portion | forelle 250, butter 15, zitrone 10, dill 5
+pl | Karp w galarecie | Karpfen in Aspik | V | 1.0 | 1 Portion | karpfen 150, karotte 30, gelatine 5, bruehe 120
+pl | Buraczki zasmażane | Gebratene Rote Bete | B | 0.9 | 1 Portion | rote_bete 200, butter 10, mehl 8, zitrone 10, zucker 5
+pl | Surówka z kiszonej kapusty | Sauerkrautsalat polnisch | SA | 1.0 | 1 Portion | sauerkraut 150, karotte 40, apfel 50, oel 10, zwiebel 10
+pl | Kapusta z grochem | Kraut mit Erbsen | HH | 0.95 | 1 Portion | sauerkraut 150, erbsen_trocken 50, wasser 100, zwiebel 30, oel 10
+pl | Jagodzianki | Heidelbeerbrötchen | G | 0.95 | 1 Stück | mehl 60, milch 25, ei 10, butter 10, zucker 15, hefe 2, blaubeere 40
+pl | Rogal świętomarciński | Martinshörnchen Posen | G | 0.95 | 1 Stück | mehl 50, butter 25, mohn 25, zucker 25, mandel 10, rosinen 10, ei 10
+pl | Karpatka | Polnische Karpatenkuchen | K | 0.95 | 1 Stück | mehl 25, butter 25, ei 25, milch 100, zucker 25, staerke 10
+pl | Placek z kruszonką | Drożdżowe ciasto z kruszonką | K | 0.95 | 1 Stück | mehl 60, milch 20, ei 10, butter 20, zucker 20, hefe 2
+pl | Kogel-mogel | Kogel mogel | D | 1.0 | 1 Glas | ei 40, zucker 20
+pl | Ryż z jabłkami | Reis mit Äpfeln polnisch | AU | 0.9 | 1 Portion | reis 60, milch 150, apfel 150, zucker 20, butter 10, zimt 1
+pl | Sękacz | Baumkuchen polnisch | K | 0.95 | 1 Stück | butter 20, zucker 20, ei 25, mehl 12, staerke 8
+pl | Grzaniec galicyjski | Polnischer Glühwein | GT | 1.0 | 1 Tasse | wein_rot 200, zucker 15, honig 5, orange 10
+pl | Miód pitny | Met, Polnischer Honigwein | GT | 1.0 | 1 Glas (100 ml) | likoerwein 60, honig 20, wasser 20
+# === Tschechien ===
+cz | Španělský ptáček | Spanische Vögel | HF | 0.8 | 1 Portion | rind 180, speck 20, ei 25, gewuerzgurke 25, wuerstchen_geraeuchert 25, zwiebel 30, mehl 8, bruehe 100, reis 70, wasser 120
+cz | Katův šleh | Henkersschmaus | PF | 0.85 | 1 Portion | schwein_mager 150, paprika 60, zwiebel 40, chili 5, ketchup 20, oel 15, kartoffel 150
+cz | Kyselo | Krkonošské kyselo, Sauerteigsuppe | S | 0.95 | 1 Teller | x4_roggenmehl 20, pilz 40, kartoffel 100, ei 50, butter 10, wasser 250, zwiebel 20
+cz | Fazolová polévka | Tschechische Bohnensuppe | S | 0.95 | 1 Teller | bohnen_trocken 50, wasser 150, wuerstchen_geraeuchert 40, kartoffel 60, zwiebel 30, bruehe 150
+cz | Houbová polévka | Tschechische Pilzsuppe | S | 0.95 | 1 Teller | pilz 120, kartoffel 80, sahne 30, mehl 8, butter 8, bruehe 250, gewuerz 1
+cz | Sekaná pečeně | Sekaná, Tschechischer Hackbraten | FL | 0.85 | 1 Portion | gemischtes_hack 180, semmel 25, ei 25, zwiebel 30, kartoffel 200, butter 10
+cz | Karbanátky | Tschechische Frikadellen | KF | 0.85 | 2 Stück | gemischtes_hack 150, semmel 25, ei 25, paniermehl 15, oel 15
+cz | Kuřecí řízek | Hähnchenschnitzel tschechisch | HG | 0.9 | 1 Portion | hahn_brust 150, ei 25, mehl 10, paniermehl 30, oel 20, kartoffel 150
+cz | Smažený květák | Gebackener Blumenkohl | HV | 0.85 | 1 Portion | blumenkohl 250, ei 40, mehl 15, paniermehl 30, oel 25, kartoffel 150
+cz | Chlupaté knedlíky se zelím | Haarige Knödel | KN | 0.9 | 1 Portion | kartoffel 200, mehl 70, ei 15, sauerkraut 150, speck 30, zwiebel 20
+cz | Bábovka | Tschechischer Gugelhupf | K | 0.95 | 1 Stück | mehl 35, butter 15, zucker 20, ei 20, milch 20, kakao 3
+cz | Kremrole | Schaumrollen tschechisch | G | 0.95 | 1 Stück | blaetterteig 40, eiweiss 20, zucker 25
+cz | Rakvička | Rakvička se šlehačkou | G | 0.95 | 1 Stück | eiweiss 20, zucker 20, ei 10, mehl 8, sahne 40
+cz | Indiánek | Indianerkrapfen tschechisch | G | 0.95 | 1 Stück | ei 20, zucker 15, mehl 10, sahne 40, schokolade 15
+cz | Vdolky | Tschechische Hefekrapfen | G | 0.95 | 2 Stück | mehl 60, milch 30, ei 15, butter 10, zucker 12, hefe 2, marmelade 15, quark 20, oel 10
+cz | Topinky | Topinka s česnekem | SN | 0.95 | 2 Stück | roggenbrot 100, oel 20, knoblauch 5
+cz | Obložené chlebíčky | Chlebíček | SN | 1.0 | 2 Stück | weissbrot 60, kartoffel 40, mayonnaise 20, schinken 20, ei 25, gewuerzgurke 10, emmentaler 10
+cz | Pivní sýr | Bierkäse tschechisch | SD | 1.0 | 1 Portion | camembert 80, butter 15, zwiebel 15, bier 15, roggenbrot 70
+cz | Párek v rohlíku | Wurst im Hörnchen | SN | 1.0 | 1 Stück | semmel 60, bockwurst 80, senf 10, ketchup 10
+cz | Grog | Grog tschechisch | GT | 1.0 | 1 Tasse | weinbrand 40, wasser 160, zucker 10, zitrone 5
+# === Slowakei ===
+sk | Granadír | Granadírmarš slovenský | KN | 0.9 | 1 Teller | nudeln 70, wasser 80, kartoffel 150, zwiebel 40, oel 15, paprikapulver 3
+sk | Šošovicová polievka | Slowakische Linsensuppe | S | 0.95 | 1 Teller | linsen 60, wasser 150, kartoffel 50, wuerstchen_geraeuchert 30, essig 5, bruehe 150
+sk | Fazuľová polievka | Slowakische Bohnensuppe | S | 0.95 | 1 Teller | bohnen_trocken 50, wasser 150, karotte 30, sauerrahm 30, mehl 8, speck 20, bruehe 150
+sk | Bratislavské rožky | Pressburger Kipferl | G | 0.95 | 1 Stück | mehl 35, butter 15, zucker 10, walnuss 25, ei 8
+sk | Opekance | Bobáľky s makom | D | 0.95 | 1 Portion | mehl 70, milch 60, hefe 2, mohn 25, zucker 20, honig 10, butter 10
+sk | Pstruh na masle | Forelle in Butter | HFi | 0.85 | 1 Portion | forelle 250, butter 25, petersilie 5, kartoffel 150
+sk | Praženica so slaninou | Rührei mit Speck slowakisch | EI | 0.9 | 1 Portion | ei 150, speck 40, zwiebel 30, oel 5
+sk | Hubová smaženica | Pilzrührei slowakisch | EI | 0.9 | 1 Portion | ei 100, pilz 150, zwiebel 30, butter 10, gewuerz 1
+sk | Zemiakové knedle s bryndzou | Kartoffelknödel mit Brimsen | KN | 0.95 | 1 Portion | kartoffel 200, mehl 60, ei 15, beyaz_peynir 60, speck 20
+# === Ungarn ===
+hu | Sertéspörkölt | Schweinepörkölt | E | 0.85 | 1 Portion | schwein_nacken 200, zwiebel 80, paprikapulver 6, paprika 40, tomate 40, schmalz 10
+hu | Pacalpörkölt | Kuttelpörkölt | E | 0.85 | 1 Portion | x2_kutteln 250, zwiebel 80, paprikapulver 6, schmalz 12, tomate 40
+hu | Vadas | Marhahús vadasan, Rind in Wildsauce | HF | 0.8 | 1 Portion | rind 180, karotte 60, sellerie 40, sahne 50, senf 10, zucker 8, mehl 10, oel 10, semmel 60
+hu | Bakonyi sertésszelet | Bakonyer Schnitzel | HF | 0.85 | 1 Portion | schwein_mager 160, pilz 80, sauerrahm 60, paprikapulver 3, zwiebel 30, oel 10, mehl 8
+hu | Cigánypecsenye | Zigeunerbraten | HF | 0.85 | 1 Portion | schwein_nacken 180, speck 30, knoblauch 5, oel 10, kartoffel 150
+hu | Rántott csirke | Ungarisches Backhendl | HG | 0.85 | 1 Portion | hahn_keule 200, ei 30, mehl 15, paniermehl 30, oel 25
+hu | Rakott káposzta | Ungarisches Krautauflauf | AU | 0.9 | 1 Portion | sauerkraut 200, schwein_hack 100, reis 30, sauerrahm 60, wuerstchen_geraeuchert 30, schmalz 8, paprikapulver 2
+hu | Spenótfőzelék | Ungarischer Spinat | GZ | 0.9 | 1 Portion | spinat 250, milch 80, mehl 15, butter 10, knoblauch 3, ei 50
+hu | Borsófőzelék | Ungarisches Erbsengemüse | GZ | 0.9 | 1 Portion | erbsen 200, milch 60, mehl 12, butter 12, zucker 5, petersilie 5
+hu | Krumplifőzelék | Ungarisches Kartoffelgemüse | GZ | 0.9 | 1 Portion | kartoffel 250, sauerrahm 50, mehl 10, oel 10, zwiebel 20, essig 5, bruehe 80
+hu | Zöldbabfőzelék | Grüne-Bohnen-Gemüse ungarisch | GZ | 0.9 | 1 Portion | gruene_bohnen 250, sauerrahm 50, mehl 10, oel 10, dill 5, essig 5
+hu | Babgulyás | Bohnengulasch | E | 0.95 | 1 Teller | bohnen_trocken 50, wasser 150, rind 100, kartoffel 80, karotte 40, paprikapulver 4, zwiebel 30, oel 10, bruehe 150
+hu | Gombaleves | Ungarische Pilzsuppe | S | 0.95 | 1 Teller | pilz 150, sauerrahm 40, mehl 8, oel 8, zwiebel 20, paprikapulver 2, bruehe 250
+hu | Krumplileves | Ungarische Kartoffelsuppe | S | 0.95 | 1 Teller | kartoffel 180, sauerrahm 30, mehl 8, oel 8, paprikapulver 3, zwiebel 20, bruehe 250
+hu | Palócleves | Palóc-Suppe | S | 0.95 | 1 Teller | lamm 100, kartoffel 100, gruene_bohnen 60, sauerrahm 40, mehl 8, zwiebel 30, bruehe 250
+hu | Korhelyleves | Katersuppe ungarisch | S | 0.95 | 1 Teller | sauerkraut 150, wuerstchen_geraeuchert 60, sauerrahm 40, mehl 8, schmalz 8, paprikapulver 3, bruehe 250
+hu | Káposztás tészta | Krautfleckerl ungarisch | NA | 0.9 | 1 Teller | nudeln 90, wasser 110, weisskohl 200, oel 15, zucker 5, pfeffer 1
+hu | Krumplis tészta | Nudeln mit Kartoffeln ungarisch | NA | 0.9 | 1 Teller | nudeln 80, wasser 100, kartoffel 150, zwiebel 40, oel 15, paprikapulver 3
+hu | Mákos tészta | Mohnnudeln ungarisch | NA | 0.95 | 1 Teller | nudeln 90, wasser 110, mohn 30, zucker 25, butter 10
+hu | Rántott karfiol | Panierter Blumenkohl ungarisch | HV | 0.85 | 1 Portion | blumenkohl 250, ei 40, mehl 15, paniermehl 30, oel 25
+hu | Tejbegríz | Grießbrei ungarisch | PU | 1.0 | 1 Teller | milch 250, griess 40, zucker 15, kakao 5, butter 5
+hu | Aranygaluska | Goldene Nockerl | K | 0.95 | 1 Portion | mehl 70, milch 30, ei 15, butter 25, zucker 25, walnuss 20, hefe 2, vanillepudding_pulver 5, milch_fettarm 80
+hu | Krémes | Ungarische Cremeschnitte | K | 0.95 | 1 Stück | blaetterteig 50, milch 100, ei 30, zucker 25, staerke 10, eiweiss 20
+hu | Flódni | Flodni | K | 0.95 | 1 Stück | mehl 30, butter 15, zucker 20, mohn 15, walnuss 15, apfel 30, pflaumenmus 15
+hu | Kakaós csiga | Kakaoschnecke | G | 0.95 | 1 Stück | mehl 50, milch 25, butter 15, zucker 15, kakao 6, hefe 2, ei 5
+hu | Császármorzsa | Grießschmarrn ungarisch | D | 0.9 | 1 Portion | griess 60, milch 120, ei 30, zucker 20, butter 15, marmelade 20
+hu | Fröccs | Weißweinschorle ungarisch, Spritzer | GT | 1.0 | 1 Glas | wein_weiss 100, wasser 100
+# === Rumänien ===
+ro | Ciorbă de pui | Rumänische Hühnersuppe | S | 0.95 | 1 Teller | hahn_keule 100, kartoffel 60, karotte 40, paprika 30, zwiebel 20, sauerrahm 30, ei 20, essig 5, bruehe 250
+ro | Ciorbă rădăuțeană | Ciorba radauteana | S | 0.95 | 1 Teller | hahn_brust 100, sauerrahm 50, ei 20, knoblauch 5, essig 8, karotte 30, bruehe 300
+ro | Supă cu găluște | Grießklößchensuppe rumänisch | S | 0.95 | 1 Teller | griess 30, ei 30, oel 5, karotte 30, bruehe 350
+ro | Musaca de cartofi | Rumänische Kartoffel-Moussaka | AU | 0.9 | 1 Portion | kartoffel 250, schwein_hack 100, ei 30, milch 50, tomate 50, zwiebel 30, oel 15
+ro | Varză călită | Geschmorter Kohl rumänisch | GZ | 0.85 | 1 Portion | weisskohl 300, tomatenmark 15, oel 15, zwiebel 30, wuerstchen_geraeuchert 40
+ro | Pastramă de oaie | Rumänische Schafspastrami | HF | 0.75 | 1 Portion | lamm 200, knoblauch 5, paprikapulver 3, oel 8, maismehl 40, wasser 160
+ro | Bulz | Bulz ciobănesc | KN | 0.9 | 1 Portion | maismehl 70, wasser 250, beyaz_peynir 70, butter 15, ei 50
+ro | Balmoș | Balmos | KN | 0.9 | 1 Portion | maismehl 60, buttermilch 150, sahne 50, beyaz_peynir 60, butter 15
+ro | Salată orientală | Rumänischer Kartoffelsalat | SA | 1.0 | 1 Portion | kartoffel 200, ei 50, olive 20, zwiebel 30, gewuerzgurke 30, oel 15
+ro | Fasole cu cârnați | Bohnen mit Wurst rumänisch | HH | 0.9 | 1 Portion | bohnen_trocken 70, wasser 180, wuerstchen_geraeuchert 100, tomatenmark 15, zwiebel 40, oel 12
+ro | Mâncare de mazăre | Rumänischer Erbseneintopf | GZ | 0.9 | 1 Portion | erbsen 200, hahn_keule 80, tomate 60, zwiebel 30, dill 5, oel 12
+ro | Plăcintă dobrogeană | Dobrudscha-Strudel | BO | 0.95 | 1 Stück | yufka 70, beyaz_peynir 70, ei 25, sauerrahm 30, butter 15
+ro | Pască | Pasca, Rumänischer Osterkuchen | K | 0.95 | 1 Stück | mehl 40, butter 10, zucker 25, ei 25, quark 70, rosinen 10, milch 15, hefe 2
+ro | Savarină | Savarina | K | 0.95 | 1 Stück | mehl 40, butter 10, ei 20, zucker 30, hefe 2, weinbrand 5, wasser 30, sahne 40
+ro | Turtă dulce | Rumänischer Lebkuchen | G | 0.95 | 1 Stück | mehl 40, honig 20, zucker 10, oel 5, lebkuchen_gewuerz 1, ei 8
+ro | Mucenici moldovenești | Mucenici | G | 0.95 | 2 Stück | mehl 50, milch 20, ei 10, butter 8, zucker 15, hefe 2, honig 15, walnuss 15
+ro | Alivenci | Alivenci moldovenești | K | 0.9 | 1 Stück | maismehl 40, quark 80, sauerrahm 40, ei 25, zucker 10, butter 8
+ro | Lapte de pasăre | Rumänische Schneenockerl | PU | 1.0 | 1 Portion | milch 200, ei 40, eiweiss 20, zucker 30, staerke 5
+# === Ukraine ===
+ua | Kruchenyky | Kruchenyki, Ukrainische Rouladen | HF | 0.85 | 2 Stück | schwein_mager 160, pilz 50, zwiebel 30, ei 25, sauerrahm 40, oel 10
+ua | Nalysnyky | Nalysnyky z syrom, Ukrainische Quarkpfannkuchen | G | 0.9 | 3 Stück | mehl 50, milch 100, ei 40, quark 100, zucker 15, butter 15, sauerrahm 30
+ua | Hrechanyky | Grechaniki, Buchweizenbuletten | KF | 0.85 | 3 Stück | x4_buchweizen 40, wasser 80, hack 100, zwiebel 30, ei 20, mehl 10, oel 15
+ua | Kartoplianyky | Kartoffelbuletten ukrainisch | KN | 0.85 | 3 Stück | kartoffel 250, ei 25, mehl 25, pilz 50, zwiebel 30, oel 20
+ua | Zelenyi borshch | Grüner Borschtsch, Sorrel soup Ukrainian | S | 0.95 | 1 Teller | spinat 120, kartoffel 100, ei 50, karotte 30, zwiebel 20, sauerrahm 30, bruehe 300
+ua | Varenyky z vyshniamy | Kirsch-Wareniki | MA | 0.95 | 8 Stück | mehl 100, wasser 50, sauerkirsche 130, zucker 20, sauerrahm 30
+ua | Lvivskyi syrnyk | Lemberger Käsekuchen | K | 0.95 | 1 Stück | quark 100, ei 25, zucker 25, butter 10, griess 8, rosinen 10, schokolade 10
+ua | Uzvar | Ukrainischer Trockenfruchtkompott | GT | 1.0 | 1 Glas | apfel 20, pflaume_tr 15, birne 10, wasser 220, honig 10
+ua | Bograch | Bohrach, Transkarpatisches Gulasch | E | 0.95 | 1 Teller | rind 120, schwein_nacken 60, kartoffel 120, paprika 60, zwiebel 40, tomate 50, paprikapulver 4, oel 10, bruehe 250
+ua | Pechenia po-domashnomu | Ukrainischer Schmortopf | E | 0.85 | 1 Portion | schwein_nacken 150, kartoffel 200, karotte 40, zwiebel 40, sauerrahm 40, oel 10
+ua | Verhuny | Ukrainische Fettgebäck-Schleifen | G | 0.9 | 1 Portion | mehl 50, ei 20, sauerrahm 15, zucker 10, oel 18
+ua | Mlyntsi z miasom | Bliny mit Fleisch ukrainisch | SN | 0.9 | 3 Stück | mehl 50, milch 100, ei 30, hack 100, zwiebel 30, oel 15
+ua | Hrybna yushka | Ukrainische Pilzsuppe | S | 0.95 | 1 Teller | pilz 120, kartoffel 100, karotte 30, zwiebel 30, graupen 15, oel 8, bruehe 250
+ua | Kruchenyky z kurky | Hähnchenrouladen ukrainisch | HG | 0.85 | 2 Stück | hahn_brust 160, pilz 50, emmentaler 25, sauerrahm 40, oel 10
+# === Belarus ===
+by | Machanka | Machanka belaruskaja | E | 0.85 | 1 Portion | schwein_bauch 120, wuerstchen_geraeuchert 50, mehl 15, sauerrahm 40, zwiebel 30, wasser 100
+by | Kalduny | Kolduny, Belarussische Kartoffeltaschen | KN | 0.85 | 3 Stück | kartoffel 250, schwein_hack 80, zwiebel 30, ei 15, oel 15, sauerrahm 30
+by | Bulbianaya babka | Babka ziemniaczana, Kartoffelbabka | AU | 0.85 | 1 Portion | kartoffel 280, speck 40, zwiebel 30, ei 25, sauerrahm 30
+by | Bulbianyya kletski | Kletski, Kartoffelklößchensuppe | S | 0.95 | 1 Teller | kartoffel 120, mehl 20, ei 15, pilz 50, speck 20, zwiebel 20, bruehe 300
+by | Pyachysta | Pjatschysta, Belarussischer Schmorbraten | FL | 0.8 | 1 Portion | schwein_nacken 200, zwiebel 40, karotte 30, oel 8, bruehe 80
+by | Krambambula | Krambambulja, Honig-Wodka-Punsch | GT | 1.0 | 1 Glas (60 ml) | spirituose 40, honig 15, wasser 10
+by | Zrazy belaruskiya | Belarussische Kartoffelzrazy | KN | 0.85 | 2 Stück | kartoffel 250, pilz 60, zwiebel 30, ei 20, mehl 20, oel 20
+# === Russland ===
+ru | Botvinya | Botwinja | S | 1.0 | 1 Teller | rote_bete 80, spinat 60, gurke 60, fisch_mager 80, buttermilch 200, dill 5, ei 25
+ru | Shashlyk | Schaschlik russisch | KB | 0.75 | 1 Portion | schwein_nacken 250, zwiebel 60, essig 10, oel 8
+ru | Kurnik | Russische Hühnerpastete | PZ | 0.9 | 1 Stück | mehl 60, butter 25, sauerrahm 15, hahn_brust 70, reis 15, ei 20, pilz 30
+ru | Rasstegai | Rastegai, Offene Fischpiroggen | SN | 0.9 | 2 Stück | mehl 60, milch 30, hefe 2, butter 8, lachs 50, reis 15, ei 15, zwiebel 10
+ru | Pirog s kapustoy | Russischer Kohlkuchen | PZ | 0.9 | 1 Stück | mehl 60, milch 25, hefe 2, butter 10, weisskohl 120, ei 20, zwiebel 20, oel 8
+ru | Blinchiki s myasom | Gefüllte Pfannkuchen russisch | SN | 0.9 | 3 Stück | mehl 50, milch 100, ei 30, rind 100, zwiebel 30, butter 15
+ru | Mannaya kasha | Russischer Grießbrei | PU | 1.0 | 1 Teller | milch 250, griess 35, zucker 12, butter 8
+ru | Pshennaya kasha | Hirsebrei russisch | PU | 0.95 | 1 Teller | hirse 60, milch 150, wasser 100, kuerbis 80, zucker 10, butter 10
+ru | Mimosa salad | Salat Mimosa | SA | 1.0 | 1 Portion | fisch_fett 70, kartoffel 60, karotte 40, ei 50, zwiebel 15, mayonnaise 40, emmentaler 15
+ru | Zalivnoe iz ryby | Fisch in Aspik russisch | V | 1.0 | 1 Portion | fisch_mager 120, karotte 30, ei 25, gelatine 5, bruehe 120
+ru | Kartoshka s gribami | Bratkartoffeln mit Pilzen russisch | KN | 0.8 | 1 Portion | kartoffel 280, pilz 150, zwiebel 40, oel 25, sauerrahm 30, dill 5
+ru | Makarony po-flotski | Nudeln nach Marine-Art | NA | 0.9 | 1 Teller | nudeln 90, wasser 110, hack 100, zwiebel 40, oel 12
+ru | Tefteli | Tefteli v souse, Reis-Fleischbällchen in Tomatensauce | KF | 0.9 | 4 Stück | hack 130, reis 25, zwiebel 30, ei 15, tomatenmark 15, sauerrahm 40, mehl 8, bruehe 100
+ru | Belyashi | Beljaschi | SN | 0.9 | 2 Stück | mehl 80, milch 40, hefe 2, hack 90, zwiebel 30, oel 25
+ru | Ponchiki | Russische Krapfen | G | 0.9 | 3 Stück | mehl 50, milch 30, ei 10, zucker 16, hefe 2, oel 18
+ru | Pirozhnoe kartoshka | Kartoschka-Konfekt | D | 1.0 | 1 Stück | keks 40, butter 15, kondensmilch 20, kakao 6, walnuss 8
+ru | Tvorozhnaya zapekanka | Quarkauflauf russisch | AU | 0.9 | 1 Portion | quark_mager 180, ei 40, griess 20, zucker 25, sauerrahm 30, rosinen 15, butter 5
+ru | Smetannik | Smetanik, Schmandkuchen russisch | K | 0.95 | 1 Stück | mehl 30, schmand 60, zucker 30, ei 20, butter 8, kakao 3
+ru | Kulich | Russischer Osterkuchen | K | 0.95 | 1 Stück | mehl 55, milch 20, butter 15, zucker 20, ei 20, rosinen 15, hefe 2
+ru | Paskha | Pascha, Russische Quark-Osterspeise | D | 1.0 | 1 Portion | quark 120, butter 20, sahne 20, zucker 25, rosinen 10, mandel 8
+ru | Mors | Morss, Beerennektar | GT | 1.0 | 1 Glas | preiselbeeren 40, himbeere 30, zucker 15, wasser 200
+ru | Shangi | Schangi | G | 0.9 | 2 Stück | x4_roggenmehl 30, mehl 30, milch 25, hefe 2, kartoffel 80, sauerrahm 20, butter 10
+ru | Lenivye vareniki | Faule Wareniki | MA | 0.95 | 1 Portion | quark_mager 180, mehl 40, ei 25, zucker 15, sauerrahm 30, butter 8
+ru | Kasha s gribami | Grechka s gribami, Buchweizen mit Pilzen | B | 0.95 | 1 Portion | x4_buchweizen 70, wasser 150, pilz 120, zwiebel 30, oel 12
+ru | Kurinye kotlety | Russische Hähnchenfrikadellen | KF | 0.85 | 3 Stück | hahn_brust 160, semmel 25, milch 30, zwiebel 30, ei 15, paniermehl 10, oel 15

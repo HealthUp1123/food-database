@@ -1,0 +1,98 @@
+# Format: cc | Name | Grund (Duplikat Bestand / Fertigprodukt / zu obskur) | Details
+tr | Konya Fırın Kebabı Ekmek | Duplikat Bestand | = Fırın Kebabı
+tr | Ali Nazik Köfte | Duplikat Bestand | Variante von Alinazik Kebap
+tr | Lebeni Diyarbakır | Duplikat Bestand | = Lebeniye Çorbası
+tr | Kuymak | Duplikat Bestand | Synonym von Mıhlama
+tr | Kaşarlı Mıhlama Trabzon | Duplikat Bestand | Variante von Mıhlama
+tr | Kestane Şekeri | Fertigprodukt | meist abgepackte Markenware (Bursa)
+tr | Edirne Badem Ezmesi | Fertigprodukt | abgepacktes Konfekt
+tr | Edirne Deva-i Misk | zu obskur | kaum verbreitet, Rezept unsicher
+tr | Kestane Şekeri | Fertigprodukt | Markenartikel
+tr | Gazoz | Fertigprodukt | Limonade, Markenprodukt
+tr | Sucuk / Pastırma (roh) | Fertigprodukt | Wurstware/Zutat, kein Gericht
+tr | Otlu Peynir | Fertigprodukt | Käse (Zutat/Supermarktartikel)
+tr | Uludağ/Çamlıca Gazoz | Fertigprodukt | Marken-Limonade
+tr | Rakı | Fertigprodukt | Spirituose, Markenware
+tr | Cevizli Tahinli Rulo | Duplikat Bestand | = Tahinli Çörek
+tr | Sütlü İrmik Tatlısı | Duplikat Bestand | = Grießpudding (de)
+tr | Kazandibi Fıstıklı | Duplikat Bestand | Variante von Kazandibi
+tr | Fıstıklı Katmer Tatlısı | Duplikat Bestand | = Gaziantep Katmeri (intern)
+tr | Kemal Paşa Peynirli Tatlı Fırın | Duplikat Bestand | ≈ Peynir Tatlısı / Kemalpaşa
+tr | Kabak Tatlısı Tahinli | Duplikat Bestand | Variante von Kabak Tatlısı
+tr | Kaymaklı Kayısı | Duplikat Bestand | = Malatya Kayısı Tatlısı (intern)
+tr | Karışık Tost | Duplikat Bestand | Synonym von Sandviç Tost
+tr | Şırdan | Duplikat Bestand | = Şırdan Dolması (intern)
+tr | Midye Dolma (Sokak) | Duplikat Bestand | = Midye Dolma
+tr | Kokoreç Yarım Ekmek | Duplikat Bestand | = Kokoreç Ekmek Arası
+tr | Pilav Üstü Kavurma | Duplikat Bestand | ≈ Kavurmalı Pilav
+tr | Sucuklu Mıhlama | Duplikat Bestand | Variante von Mıhlama
+tr | Patates Kavurması Yumurtalı | Duplikat Bestand | ≈ Patatesli Yumurta
+tr | Serpme Kahvaltı | Duplikat Bestand | ≈ Kahvaltı Tabağı
+tr | Papatya Çayı | Duplikat Bestand | = Kamillentee (de)
+tr | Kenger Kahvesi | Fertigprodukt | i. d. R. abgepacktes Pulver/Markenware
+tr | Osmanlı Kahvesi (Sütlü) | Duplikat Bestand | ≈ Dibek Kahvesi / Sütlü Türk Kahvesi
+gr | Ouzo | Fertigprodukt | Spirituose, Markenware
+gr | Retsina | Fertigprodukt | Wein, Flaschenware
+gr | Mastika (Likör) | Fertigprodukt | Spirituose
+gr | Pasteli | Fertigprodukt | meist abgepackter Sesamriegel
+gr | Portokalada | Fertigprodukt | Markenlimonade
+cy | Zivania | Fertigprodukt | Spirituose
+cy | Commandaria | Fertigprodukt | Likörwein, Flaschenware
+cy | Loukoumia Geroskipou | Fertigprodukt | abgepacktes Konfekt
+gr | Kleftiko (gr) | Duplikat Bestand | = Kleftiko (cy)
+gr | Spanakopitakia / Keftedakia / Ntolmadakia | Duplikat Bestand | Mini-Varianten von Spanakopita/Keftedes/Dolmades
+gr | Kotosoupa | Duplikat Bestand | = Greek chicken soup
+md | Compot moldovenesc | Duplikat Bestand | ≈ Kompot owocowy (pl)
+md | Mămăligă (cu brânză) | Duplikat Bestand | bereits ro
+md | Sarmale (Kohl) | Duplikat Bestand | bereits ro Sarmale
+md | Cozonac | Duplikat Bestand | bereits ro
+md | Divin / Cricova-Wein | Fertigprodukt | Flaschenware
+ba | Klepe | Duplikat Bestand | bereits ba|Klepe
+bg | Kashkaval pane | Duplikat Bestand | Variante von rs Pohovani kačkavalj (in diesem Batch)
+ba | Sutlijaš | Duplikat Bestand | Variante Sütlaç
+ba | Tikvenica | Duplikat Bestand | Variante bg Tikvenik
+ba | Bosanska kahva | Duplikat Bestand | bereits vorhanden
+bg | Lukanka | Fertigprodukt | Rohwurst
+bg | Sudzhuk | Fertigprodukt | Rohwurst
+bg | Filet Elena | Fertigprodukt | Rohschinken
+bg | Palneni chushki | Duplikat Bestand | Variante Polneti piperki/Punjene paprike
+bg | Tolumbichki | Duplikat Bestand | Variante Tulumba
+rs | Sremski kulen / Sudžuk | Fertigprodukt | Rohwurst
+rs | Šljivovica | Fertigprodukt | Spirituose
+ge | Churchkhela | Duplikat Bestand | = tr Cevizli Sucuk
+ge | Pelamushi | Duplikat Bestand | Variante gr Moustalevria (in diesem Batch)
+ge | Tkemali-Sauce | Fertigprodukt | Flaschensauce
+ge | Adjika | Fertigprodukt | Glaswürzpaste
+ge | Chacha | Fertigprodukt | Spirituose
+ge | Tarkhuna / Lagidze | Fertigprodukt | Limonade
+ge | Borjomi | Fertigprodukt | Mineralwasser
+ge | Tklapi | Fertigprodukt | getrocknetes Fruchtleder
+ge | Matsoni | Fertigprodukt | Joghurt (Zutat)
+ge | Tolma georgisch | Duplikat Bestand | Variante Dolma
+am | Harissa (armenisch) | Duplikat Bestand | Variante Herise (tr)
+am | Tolma | Duplikat Bestand | Variante Dolma
+am | Khash | Duplikat Bestand | Variante Kelle Paça
+am | Lahmajo | Duplikat Bestand | Variante Lahmacun
+am | Spas / Tan apur | Duplikat Bestand | Variante Yayla Çorbası
+am | Eetch | Duplikat Bestand | Variante Kısır
+am | Anoushabour | Duplikat Bestand | Variante Aşure
+am | Basturma / Sujukh | Fertigprodukt | Pökelfleisch/Rohwurst
+am | Jermuk / Ararat-Brandy | Fertigprodukt | Flaschenware
+az | Lülə kabab | Duplikat Bestand | Variante Adana/Lüle Kebap
+az | Kəlləpaça | Duplikat Bestand | Variante Kelle Paça
+az | Dolma (az) | Duplikat Bestand | Variante Dolma
+az | Bakı paxlavası | Duplikat Bestand | Variante Baklava
+az | Tikə kabab | Duplikat Bestand | Variante Şiş Kebap
+az | Ayran / Şərbət | Duplikat Bestand | Ayran vorhanden
+xk | Flija | Duplikat Bestand | bereits al Fli/Flia
+xk | Trileçe | Duplikat Bestand | bereits vorhanden
+al | Tavë Elbasani | Duplikat Bestand | = Elbasan Tava
+al | Paidhaqe | Duplikat Bestand | Variante Paidakia
+al | Kukurec | Duplikat Bestand | Variante Kokoreç
+al | Pacë koke | Duplikat Bestand | Variante Kelle Paça
+mk | Peglana kobasica | Fertigprodukt | Rohwurst
+me | Njeguški pršut / Njeguški sir | Fertigprodukt | Rohschinken/Käse
+si | Gorenjski želodec / Prleška tünka | Fertigprodukt | Fleischkonserve/Rohwurst
+si | Ričet | Duplikat Bestand | bereits hr
+tr | Kelle Çorbası | Duplikat Bestand | Variante Kelle Paça Çorbası
+tr | Kuru Bamya Çorbası | Duplikat Bestand | Variante Bamya Çorbası

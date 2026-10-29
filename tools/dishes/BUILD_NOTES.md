@@ -1,4 +1,4 @@
-# Build-Notizen: Gerichte-Datenbank (türkisch, deutsch, europäisch)
+# Build-Notizen: Gerichte-Datenbank (türkisch, deutsch, europäisch, Kaukasus) – Stand Welle 3: 4245 Gerichte
 
 **Alle Werte sind Schätzungen (`quality: "estimate"`), keine Laborwerte.** Abweichungen von ±10–25 % gegenüber echten Gerichten sind normal (Rezept, Fettmenge, Portionsgröße).
 
@@ -31,7 +31,7 @@
 - **644 neue Gerichte** aus 36 Küchen (ohne Türkei/Deutschland), jeweils mit Rezept × Zutatentabelle, `quality: "estimate"`, Synonymen, Kategorie, Portion. Zutatentabelle um ca. 25 Zutaten erweitert (u. a. Ricotta, Pecorino, Rohschinken, Chorizo, Stockfisch, Hummer, Foie gras, Quittenbrot …).
 - Rezepte stehen in `recipes/rec_*.txt` (Format `Name | Garfaktor | Portionslabel | Zutaten`), `tools/compose_eu.py` erzeugt daraus `batches/eu_<cc>.py`; Kandidatenlisten/Auswahl in `candidates/`.
 - Anzahl je Küche: gr 72, it 55, es 47, pt 34, gb 33, fr 30, at 27, hu 27, pl 24, cz 21, ch 20, dk 19, hr 17, rs 17, ua 17, bg 14, ru 14, cy 13, nl 12, ro 12, ba 11, ie 11, be 10, mk 10, mt 10, no 10, al 8, fi 8, lt 8, se 8, lu 7, sk 6, si 5, ee 3, is 3, lv 1.
-- Auswahl: Kandidaten (ca. 1700) wurden gegen die bestehenden Gerichte entdoppelt. Ca. 1000 wurden **nicht** neu geschrieben, weil sie beim damaligen Abgleich (nach der früheren Regel „nicht eintragen, wenn in OFF“) einen OFF-Namenstreffer hatten. Nach der neuen Regel dürften sie eingetragen werden – das ist **nicht** passiert; Liste in `candidates/cands_status.json`.
+- Auswahl: Kandidaten (ca. 1700) wurden gegen die bestehenden Gerichte entdoppelt. Ca. 1000 wurden **nicht** neu geschrieben, weil sie beim damaligen Abgleich (nach der früheren Regel „nicht eintragen, wenn in OFF“) einen OFF-Namenstreffer hatten. Nach der neuen Regel wurden sie in der Nachholrunde (unten) eingetragen; Liste in `candidates/cands_status.json`.
 - Baltikum/Slowakei/Slowenien/Island sind dünn besetzt (wenige bekannte Gerichte ohne OFF-Treffer).
 
 ## Gerichte vs. Fertigprodukte & Open Food Facts (aktuelle Regel)
@@ -63,3 +63,13 @@ Dump neu aufbauen: `off_check.py dump-index --csv off_dump/en.openfoodfacts.org.
 - Build: 0 Fehler, 0 Flags. Korrektur: Pain au chocolat (Rezept war zu fettig, 584 kcal/100 g). `FAT_OK` in `build.py`: Smalec ze skwarkami und Jumări (reine Fettgerichte, >560 kcal/100 g plausibel).
 - OFF (Dump, alle 2884 geprüft; API-Gegenprobe weiterhin nur für die früheren 770): **1605 Gerichte** mit OFF-Treffer (601 alte + 1004 neue; 1602 tragen `off_similar`, 3 ohne gültigen 6–14-stelligen Barcode). Alle 2884 `prepared` + `is_packaged_product:false`. **0 entfernt** (`removed_in_off.json` = `[]`).
 - Validierung: `repo_patch/scripts/validate.mjs foods.json` → 2884 Einträge gültig (14 erwartete Warnungen, Alkoholika); `scripts/test-worker.mjs` bestanden.
+
+## Welle 3 (29.10.2026): 1361 neue Gerichte, Stand 4245
+- Eingabe: drei Teams in `wave3/` (`team_a.txt` 451, `team_b.txt` 443, `team_c.txt` 467 Zeilen; Format `cc | Name | Synonyme | KAT | Garfaktor | Label | Zutaten`, Briefing `wave3/BRIEF.md`, Ablehnungen `wave3/rejected_*.txt`). 29 neue Zutaten `xa_*`/`xb_*`/`xc_*` aus `wave3/ingredients_add_*.txt` an `ingredients_src.txt` angehängt.
+- Zusammensetzen: `python3 tools/compose_eu3.py` → `batches/eu3_<cc>.py` (49 Küchen, auch tr/de); `build.py` lädt `eu3_*` nach `eu_*`/`eu2_*`. Die 2884 bisherigen Einträge (inkl. `off_similar`) und IDs sind unverändert (geprüft: alle Felder identisch, Reihenfolge gleich).
+- **Neue Ländercodes** ge (Georgien), am (Armenien), az (Aserbaidschan), md (Moldau), by (Belarus), me (Montenegro), xk (Kosovo), ad (Andorra), li (Liechtenstein), mc (Monaco), sm (San Marino). Erlaubte Codes stehen jetzt als `CUISINES` in `build.py` (unbekannter Code = Fehler) und in `repo_patch/scripts/validate.mjs` (optionales Feld `cuisine` muss in der Liste sein); README-Feldtabelle ergänzt.
+- Entdoppelung (normalisiert: klein, ohne Akzente, ä=ae bzw. ä=a, ß=ss, ı=i; Name+Synonyme) gegen den Bestand und zwischen Teams: 0 Duplikate zum Bestand (Teams hatten vorgeprüft), 0 Gerichte entfernt. Gestrichene Synonyme: „Grog“ bei Rumgrog (de, Name von Grog cz), „Kalter Hund“ bei Mozaik Pasta (tr, Name von Kalter Hund de), „Osmanli Serbeti“ bei Lale Şerbeti (schon Synonym eines Bestandsgerichts). Report: `wave3/eu3_dedup_report.json`.
+- Neu je Küche: de 182, tr 177, it 103, fr 81, es 79, gr 57, at 44, gb 41, pt 35, pl 33, ge 32, ch 29, hu 27, nl 27, hr 25, ru 25, rs 23, cz 20, cy 19, az 18, ro 18, dk 17, se 17, al 16, bg 16, be 14, md 14, ua 14, am 13, no 13, fi 12, ba 11, ie 11, si 11, mt 10, lv 9, mk 9, sk 9, by 7, lt 7, lu 7, me 7, ee 6, is 6, mc 3, xk 3, sm 2, ad 1, li 1.
+- Build: 0 Fehler, 0 Flags.
+- OFF (Dump, alle 4245 geprüft; nur markieren): **512 der 1361 neuen** Gerichte tragen `off_similar`, gesamt 2114. Alle neuen `prepared` (1253 homemade, 108 restaurant) + `is_packaged_product:false`. **0 entfernt** (`removed_in_off.json` = `[]`). Hinweis: Der Dump-Lauf wählt bei alten Gerichten teils andere 3 Beispiel-Barcodes; für den Bestand wurden die bisherigen `off_similar` beibehalten (Stabilität).
+- Validierung: `node repo_patch/scripts/validate.mjs foods.json` → 4245 gültig (29 erwartete Warnungen, alle Alkoholika: kcal > Makro-Schätzung); `scripts/test-worker.mjs` bestanden.

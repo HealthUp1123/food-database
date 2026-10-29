@@ -25,6 +25,8 @@ CATS = {
  'PZ':'Pizza/Flammkuchen/Herzhafter Kuchen','AU':'Auflauf/Gratin',
  'KO':'Konserve/Eingelegtes','KR':'Kleingebäck/Gebäck herzhaft','SW':'Süßspeise/Sirupgebäck','PU':'Pudding/Milchdessert',
 }
+# Erlaubte Küchen-/Ländercodes (Welle 3: ge, am, az, md, by, me, xk, ad, li, mc, sm ergänzt)
+CUISINES = set('tr de it fr es pt gr gb ie nl be at ch se no dk fi is pl cz sk hu rs hr ba bg al mk si ro ee lv lt ua ru cy mt lu ge am az md by me xk ad li mc sm'.split())
 # Reine Fett-/Schmalzgerichte: >560 kcal/100 g ist hier plausibel (Schmalz/Grieben ca. 700-800 kcal)
 FAT_OK = {'smalec-ze-skwarkami', 'jumari'}
 def translit(s, cuisine):
@@ -52,7 +54,7 @@ def load_ingredients():
 
 def load_batches():
     out = []
-    for path in sorted(glob.glob(os.path.join(HERE,'batches','*.py')), key=lambda p: (2 if os.path.basename(p).startswith('eu2_') else 1 if os.path.basename(p).startswith('eu_') else 0, os.path.basename(p))):
+    for path in sorted(glob.glob(os.path.join(HERE,'batches','*.py')), key=lambda p: (3 if os.path.basename(p).startswith('eu3_') else 2 if os.path.basename(p).startswith('eu2_') else 1 if os.path.basename(p).startswith('eu_') else 0, os.path.basename(p))):
         spec = importlib.util.spec_from_file_location(os.path.basename(path)[:-3], path)
         mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
         out.append((os.path.basename(path), mod.CUISINE, mod.TEXT))
@@ -63,6 +65,7 @@ def main():
     errors, warnings, dishes = [], [], []
     ids = {}; names = {}; allnames = {}
     for fname, cuisine, text in load_batches():
+        if cuisine not in CUISINES: errors.append(f'{fname}: unbekannte Küche {cuisine}')
         for ln, line in enumerate(text.splitlines(), 1):
             line = line.strip()
             if not line or line.startswith('#'): continue
