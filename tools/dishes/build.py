@@ -25,6 +25,8 @@ CATS = {
  'PZ':'Pizza/Flammkuchen/Herzhafter Kuchen','AU':'Auflauf/Gratin',
  'KO':'Konserve/Eingelegtes','KR':'Kleingebäck/Gebäck herzhaft','SW':'Süßspeise/Sirupgebäck','PU':'Pudding/Milchdessert',
 }
+# Reine Fett-/Schmalzgerichte: >560 kcal/100 g ist hier plausibel (Schmalz/Grieben ca. 700-800 kcal)
+FAT_OK = {'smalec-ze-skwarkami', 'jumari'}
 def translit(s, cuisine):
     m = {'ł':'l','Ł':'L','đ':'d','Đ':'D','ø':'o','Ø':'O','æ':'ae','Æ':'Ae','ð':'d','þ':'th','œ':'oe','Œ':'Oe','ı':'i','İ':'I','ş':'s','Ş':'S','ğ':'g','Ğ':'G','ç':'c','Ç':'C','â':'a','î':'i','û':'u','ê':'e','é':'e','è':'e'}
     if cuisine == 'de':
@@ -50,7 +52,7 @@ def load_ingredients():
 
 def load_batches():
     out = []
-    for path in sorted(glob.glob(os.path.join(HERE,'batches','*.py')), key=lambda p: (os.path.basename(p).startswith('eu_'), os.path.basename(p))):
+    for path in sorted(glob.glob(os.path.join(HERE,'batches','*.py')), key=lambda p: (2 if os.path.basename(p).startswith('eu2_') else 1 if os.path.basename(p).startswith('eu_') else 0, os.path.basename(p))):
         spec = importlib.util.spec_from_file_location(os.path.basename(path)[:-3], path)
         mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
         out.append((os.path.basename(path), mod.CUISINE, mod.TEXT))
@@ -128,7 +130,7 @@ def main():
         reasons = []
         if g < 25 or g > 900: reasons.append(f'Portion {g} g')
         if p['kcal'] < 12 and cat not in ('GT',): reasons.append(f'kcal/100g {p["kcal"]} sehr niedrig')
-        if p['kcal'] > 560: reasons.append(f'kcal/100g {p["kcal"]} sehr hoch')
+        if p['kcal'] > 560 and e['id'] not in FAT_OK: reasons.append(f'kcal/100g {p["kcal"]} sehr hoch')
         pk = p['kcal']*g/100
         if pk > 1300: reasons.append(f'Portion {pk:.0f} kcal')
         if pk < 15 and cat != 'GT': reasons.append(f'Portion nur {pk:.0f} kcal')

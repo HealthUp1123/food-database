@@ -1,0 +1,251 @@
+Bosna | 0.95 | 1 Stück | semmel 70, bratwurst 80, zwiebel 20, senf 8, ketchup 10, gewuerz 1
+Faschierte Laibchen | 0.8 | 2 Stück | gemischtes_hack 150, semmel 30, ei 25, zwiebel 20, milch 20, petersilie 3, oel 12
+Krautfleckerl | 0.95 | 1 Teller | nudeln 80, wasser 90, weisskohl 150, zwiebel 30, zucker 5, schmalz 15, pfeffer 1
+Linzer Augen | 0.85 | 2 Stück | mehl 40, butter 30, mandel 20, zucker 15, marmelade 20, ei 10
+Powidltascherl | 0.95 | 4 Stück | kartoffel 150, mehl 50, ei 15, pflaumenmus 60, butter 15, paniermehl 25, zucker 10
+Steirischer Backhendlsalat | 0.9 | 1 Teller | hahn_brust 120, ei 20, mehl 15, paniermehl 25, oel 25, salat 80, kartoffel 60, essig 10, kuerbiskerne 5
+Wiener Apfelstrudel | 0.95 | 1 Stück | apfel 150, mehl 40, oel 5, butter 15, paniermehl 15, zucker 20, rosinen 15, zimt 1
+Wiener Würstel | 1.0 | 1 Paar mit Senf und Semmel | bockwurst 150, senf 15, semmel 50
+Krompiruša | 0.95 | 1 Stück | yufka 80, kartoffel 200, zwiebel 30, oel 15, butter 5, salz 1
+Américain préparé | 1.0 | 1 belegtes Baguette | weissbrot 80, rind 100, ei 15, mayonnaise 10, senf 5, zwiebel 10, gewuerzgurke 15, ketchup 10
+Choco praline | 1.0 | 3 Pralinen | schokolade 40, sahne 8, haselnuss 8, butter 3
+Dame blanche | 1.0 | 1 Becher | eis 150, schokolade 25, sahne 25, zucker 5
+Kriek | 1.0 | 1 Glas 250 ml | bier 200, sauerkirsche 30, zucker 10
+Speculoospasta | 1.0 | 1 Scheibe Brot mit Aufstrich | weissbrot 40, x2_speculoos_creme 20, butter 5
+Tomates aux crevettes grises | 1.0 | 1 Portion | tomate 200, garnele 60, mayonnaise 30, zitrone 5, petersilie 3
+Banitsa | 0.95 | 1 Stück | yufka 60, beyaz_peynir 80, ei 50, joghurt 50, butter 15, oel 5
+Tarator | 1.0 | 1 Schüssel | joghurt 200, gurke 100, knoblauch 3, walnuss 15, dill 3, oel 10, wasser 80
+Basler Mehlsuppe | 1.0 | 1 Teller | mehl 25, butter 15, bruehe 350, zwiebel 30, emmentaler 25
+Capuns | 0.95 | 4 Stück | mangold 80, mehl 70, ei 40, milch 160, rohschinken 30, butter 10, emmentaler 15
+Fondue moitié-moitié | 0.9 | 1 Portion | emmentaler 110, wein_weiss 80, staerke 5, weissbrot 100, knoblauch 3
+Luganighe | 0.8 | 2 Stück | schwein_hack 130, speck 20, wein_weiss 10, gewuerz 2, salz 2, oel 5
+Raclette | 0.95 | 1 Portion | emmentaler 120, kartoffel 200, gewuerzgurke 30, zwiebel 20
+Rüeblitorte | 0.95 | 1 Stück | karotte 80, mandel 40, zucker 40, ei 50, mehl 20, oel 10, zitrone 5, marzipan 10
+Tessiner Risotto | 0.95 | 1 Teller | reis 80, bruehe 140, butter 15, parmesan 20, zwiebel 20, wein_rot 40
+Älplermagronen | 1.0 | 1 Teller | nudeln 90, wasser 110, kartoffel 100, emmentaler 50, sahne 40, zwiebel 40, speck 20, butter 10, apfel 60
+Bramborové knedlíky | 0.95 | 4 Scheiben | kartoffel 200, mehl 70, ei 20, griess 20, wasser 20, salz 1
+Klobása | 0.92 | 1 Stück mit Brot | bratwurst 150, senf 10, roggenbrot 60, zwiebel 20
+Palačinky | 0.85 | 2 Stück | mehl 50, milch 120, ei 40, butter 10, marmelade 30, zucker 8
+Tlačenka | 0.8 | 1 Portion mit Brot | schwein_haxe 90, innereien 30, zwiebel 30, essig 20, roggenbrot 50
+Čočková polévka | 0.95 | 1 Teller | linsen 40, bruehe 300, kartoffel 60, karotte 30, zwiebel 20, speck 15, essig 5, mehl 5
+Brændende kærlighed | 0.9 | 1 Teller | kartoffel 250, milch 60, butter 20, speck 40, zwiebel 40, salz 1
+Kanelsnegl | 0.9 | 1 Stück | mehl 60, milch 25, butter 20, zucker 20, zimt 2, hefe 3, ei 5
+Wienerbrød | 0.85 | 1 Stück | mehl 50, butter 30, zucker 20, ei 15, milch 15, hefe 3
+Kohupiimakook | 0.95 | 1 Stück | quark 100, ei 40, zucker 25, sahne 30, keks 30, butter 12
+Verivorst | 0.9 | 1 Teller | blutwurst 120, sauerkraut 80, preiselbeeren 25, butter 5
+Alioli | 1.0 | 2 EL | olivenoel 30, knoblauch 6, ei 10, zitrone 3, wasser 10, salz 1
+Arroz con leche | 0.85 | 1 Schälchen | reis 30, milch 250, zucker 25, zimt 1, zitrone 3
+Bacalao al pil pil | 0.85 | 1 Portion | stockfisch 150, olivenoel 40, knoblauch 8, chili 3
+Bocadillo de tortilla | 0.95 | 1 Sandwich | weissbrot 100, ei 100, kartoffel 100, zwiebel 20, olivenoel 15
+Botifarra amb mongetes | 0.9 | 1 Teller | schwein_hack 130, gewuerz 2, bohnen_trocken 40, wasser 100, olivenoel 10, knoblauch 3
+Café con leche español | 1.0 | 1 Tasse | kaffee 100, milch 100, zucker 5
+Callos a la madrileña | 0.9 | 1 Teller | x2_kutteln 100, chorizo 30, blutwurst 25, tomaten_dose 80, zwiebel 30, paprikapulver 3, bruehe 100, kichererbsen 40, olivenoel 8
+Chorizo a la sidra | 0.75 | 1 Portion | chorizo 120, apfelwein 100, zwiebel 20
+Cocido madrileño | 0.95 | 1 Teller | rind 60, hahn 50, chorizo 25, speck 15, kichererbsen_trocken 45, wasser 110, kartoffel 90, karotte 30, weisskohl 60, bruehe 150
+Croquetas de bacalao | 0.8 | 4 Stück | stockfisch 60, kartoffel 60, mehl 20, milch 80, butter 10, ei 15, paniermehl 20, oel 20
+Ensaimada mallorquina | 0.9 | 1 Stück | mehl 60, schmalz 20, zucker 30, ei 15, hefe 3, wasser 15
+Fabada asturiana | 0.95 | 1 Teller | bohnen_trocken 70, wasser 200, chorizo 35, blutwurst 30, speck 30, paprikapulver 2
+Flan de huevo | 0.95 | 1 Stück | ei 100, milch 130, zucker 40
+Gazpacho andaluz | 1.0 | 1 Schüssel | tomate 250, gurke 60, paprika 40, knoblauch 3, olivenoel 20, essig 5, weissbrot 20, wasser 50
+Leche frita | 0.85 | 2 Stück | milch 150, staerke 15, zucker 20, ei 20, mehl 15, oel 18, zimt 1
+Mazapán de Toledo | 1.0 | 2 Stück | mandel 35, zucker 25
+Michirones | 0.95 | 1 Teller | bohnen_trocken 55, wasser 150, rohschinken 25, chorizo 20, knoblauch 3, paprikapulver 2, olivenoel 8, chili 2
+Mojo verde | 1.0 | 1 Portion | olivenoel 20, petersilie 10, knoblauch 4, essig 5, kreuzkuemmel 1, salz 1
+Paella de mariscos | 0.85 | 1 Teller | reis 90, bruehe 180, garnele 70, muschel 60, kalmar 40, tomate 40, paprika_rot 30, olivenoel 12, knoblauch 3, erbsen 20, paprikapulver 1
+Patatas a lo pobre | 0.85 | 1 Portion | kartoffel 250, olivenoel 25, zwiebel 40, paprika 40, knoblauch 3
+Pimientos del piquillo rellenos | 0.9 | 4 Stück | paprika_rot 120, stockfisch 60, milch 80, mehl 12, butter 12, zwiebel 20, olivenoel 8
+Pollo asado con patatas | 0.75 | 1 Teller | hahn 300, kartoffel 200, olivenoel 15, knoblauch 4, zitrone 5, paprikapulver 1
+Pote asturiano | 0.95 | 1 Teller | bohnen_trocken 50, wasser 150, gruenkohl 80, kartoffel 80, chorizo 25, speck 20, bruehe 100
+Roscón de Reyes | 0.9 | 1 Stück | mehl 70, zucker 25, butter 20, ei 25, milch 20, hefe 3, marmelade 15, sahne 30
+Sangría | 1.0 | 1 Glas 250 ml | wein_rot 130, orange 40, zitrone 10, apfel 30, zucker 10, wasser 40, spirituose 8
+Sopa de ajo castellana | 1.0 | 1 Teller | bruehe 300, weissbrot 40, knoblauch 8, olivenoel 12, paprikapulver 2, ei 50, rohschinken 15
+Torrijas | 0.9 | 2 Scheiben | weissbrot 80, milch 100, ei 50, oel 20, zucker 20, zimt 1
+Graavilohi | 1.0 | 1 Portion mit Kartoffeln | lachs 100, dill 5, zucker 4, salz 3, senf 10, kartoffel 100
+Karjalanpaisti | 0.85 | 1 Teller | rind 80, schwein_nacken 80, zwiebel 40, karotte 30, wasser 100, gewuerz 2, kartoffel 100
+Leipäjuusto | 1.0 | 1 Portion | hellim 90, marmelade 20
+Maksalaatikko | 0.85 | 1 Portion | leber 80, reis 40, wasser 100, milch 100, zwiebel 20, ei 25, butter 8, honig 8, preiselbeeren 25
+Poronkäristys | 0.85 | 1 Portion mit Kartoffelpüree | wild 150, butter 15, zwiebel 30, bruehe 60, preiselbeeren 25, kartoffel 150, milch 20
+Vispipuuro | 1.0 | 1 Schüssel | griess 30, preiselbeeren 80, zucker 25, wasser 220, milch 100
+Baeckeoffe | 0.85 | 1 Teller | rind 70, lamm 50, schwein_nacken 70, kartoffel 250, zwiebel 40, karotte 30, lauch 30, wein_weiss 100, knoblauch 3
+Blanquette de veau | 0.85 | 1 Teller | kalb 150, karotte 40, zwiebel 30, pilz 60, butter 15, mehl 15, sahne 40, ei 15, bruehe 150, reis 50, wasser 75
+Bouillabaisse marseillaise | 0.95 | 1 Teller | kabeljau 120, wolfsbarsch 60, muschel 40, tomate 60, zwiebel 30, lauch 20, kartoffel 100, olivenoel 12, knoblauch 4, bruehe 250, weissbrot 30, mayonnaise 10
+Café au lait | 1.0 | 1 Schale | kaffee 120, milch 130
+Carottes râpées | 1.0 | 1 Portion | karotte 150, olivenoel 10, zitrone 8, senf 3, petersilie 2
+Choucroute garnie | 0.9 | 1 Teller | sauerkraut 250, wuerstchen_geraeuchert 80, kassler 100, speck 30, kartoffel 150, wein_weiss 60, schmalz 8
+Coq au vin | 0.75 | 1 Teller | hahn_keule 220, speck 25, wein_rot 150, zwiebel 40, pilz 60, karotte 30, butter 10, mehl 8, kartoffel 100
+Croque-madame | 0.95 | 1 Sandwich | weissbrot 70, schinken 40, emmentaler 40, butter 10, milch 40, mehl 6, ei 55
+Crêpes Suzette | 0.85 | 2 Stück | mehl 50, milch 120, ei 40, butter 25, zucker 25, orange 80, likoer 15
+Daube provençale | 0.8 | 1 Teller | rind 160, wein_rot 120, zwiebel 40, karotte 30, speck 20, tomatenmark 10, olive 15, olivenoel 8, knoblauch 3, kartoffel 120
+Financiers | 0.85 | 3 Stück | mandel 30, butter 30, zucker 30, eiweiss 40, mehl 15
+Fraisier | 0.95 | 1 Stück | ei 55, zucker 40, mehl 30, milch 60, butter 20, staerke 6, erdbeere 100, marzipan 15
+Garbure | 0.95 | 1 Teller | bohnen_trocken 35, wasser 150, weisskohl 80, kartoffel 80, karotte 25, ente 50, speck 20, bruehe 200
+Gratin de courgettes | 0.85 | 1 Portion | zucchini 250, sahne 60, ei 25, emmentaler 30, knoblauch 3, butter 5
+Gâteau de Savoie | 0.85 | 1 Stück | ei 60, zucker 35, mehl 20, staerke 20, zitrone 3
+Jambon-beurre | 1.0 | 1 Baguette-Sandwich | weissbrot 100, schinken 50, butter 15
+Madeleines | 0.85 | 3 Stück | mehl 30, zucker 25, ei 30, butter 25, zitrone 3
+Moules marinières | 0.75 | 1 Portion | muschel 200, wein_weiss 80, zwiebel 20, butter 15, petersilie 3, sahne 20, weissbrot 40
+Opéra | 0.95 | 1 Stück | mandel 30, ei 50, zucker 40, mehl 10, butter 40, kaffee 20, schokolade 30, sahne 20
+Palmiers | 0.95 | 3 Stück | blaetterteig 50, zucker 15
+Petit salé aux lentilles | 0.9 | 1 Teller | linsen 70, wasser 175, schwein_bauch 70, speck 20, zwiebel 30, karotte 30
+Pommes duchesse | 0.9 | 5 Stück | kartoffel 200, butter 20, ei 25, milch 15
+Pot-au-feu de la mer | 0.95 | 1 Teller | kabeljau 100, garnele 40, muschel 40, kartoffel 120, karotte 40, lauch 40, bruehe 250, mayonnaise 15
+Poulet rôti | 0.75 | 1 Portion | hahn 300, butter 10, zitrone 5, bruehe 40
+Quenelles de brochet | 0.9 | 3 Stück | kabeljau 100, ei 40, mehl 30, butter 25, milch 100, sahne 40, tomatenmark 5
+Ratatouille niçoise | 0.75 | 1 Portion | aubergine 100, zucchini 100, paprika_rot 60, tomate 120, zwiebel 40, olivenoel 20, knoblauch 3
+Rosette de Lyon | 1.0 | 6 Scheiben | salami 60
+Salade niçoise | 1.0 | 1 Teller | salat 60, tomate 100, thunfisch 60, ei 50, olive 20, gruene_bohnen 40, sardelle 10, olivenoel 15, zwiebel 10, paprika 20
+Sole meunière | 0.85 | 1 Portion | fisch_mager 200, mehl 15, butter 25, zitrone 15, petersilie 3
+Soupe à l'oignon gratinée | 0.9 | 1 Schüssel | zwiebel 200, butter 15, bruehe 300, weissbrot 30, emmentaler 40, wein_weiss 30, mehl 3
+Tarte au maroilles | 0.95 | 1 Stück | blaetterteig 70, camembert 60, sahne 60, ei 40
+Tartiflette | 0.9 | 1 Teller | kartoffel 250, speck 50, zwiebel 40, camembert 80, sahne 40, wein_weiss 30
+Tuiles aux amandes | 0.85 | 4 Stück | mandel 25, zucker 20, eiweiss 20, butter 8, mehl 8
+Welsh | 0.9 | 1 Portion | weissbrot 60, bier 80, gouda 100, ei 55, schinken 25, senf 5
+Arbroath smokie | 0.9 | 1 Fisch | fisch_mager 150, butter 12, zitrone 5
+Bangers and mash | 0.9 | 1 Teller | bratwurst 180, kartoffel 250, butter 15, milch 40, zwiebel 40, bruehe 100, mehl 8
+Beef stew with dumplings | 0.85 | 1 Teller | rind 120, kartoffel 100, karotte 50, zwiebel 40, bruehe 200, mehl 45, butter 15
+Cauliflower cheese | 0.9 | 1 Portion | blumenkohl 250, milch 120, butter 15, mehl 15, gouda 50, senf 3
+Chorley cake | 0.9 | 1 Stück | mehl 45, butter 30, rosinen 40, zucker 10
+Cornish fish pie | 0.9 | 1 Portion | kabeljau 120, lachs 40, garnele 20, kartoffel 200, milch 120, butter 20, mehl 12, ei 25, petersilie 3
+Crumpets | 0.9 | 2 Stück | mehl 60, milch 70, wasser 30, hefe 3, butter 15, salz 1
+Dundee cake | 0.9 | 1 Stück | mehl 45, butter 40, zucker 35, ei 40, rosinen 40, mandel 10, marmelade 8
+Fish and chips | 0.75 | 1 Portion | kabeljau 180, mehl 40, bier 50, oel 60, kartoffel 300, salz 2
+Haggis, neeps and tatties | 0.95 | 1 Teller | x2_haggis 150, ruebe 100, kartoffel 150, butter 15, milch 30
+Kippers with toast | 0.9 | 1 Portion | hering 150, butter 15, weissbrot 60
+Lincolnshire sausage | 0.85 | 2 Stück | schwein_hack 160, paniermehl 15, gewuerz 2, salz 2
+Oxtail soup | 0.9 | 1 Teller | rind_fett 80, karotte 40, zwiebel 40, sellerie 20, tomatenmark 10, bruehe 300, mehl 8
+Pimm's cup | 1.0 | 1 Glas 300 ml | likoer 25, x2_limonade 100, gurke 20, erdbeere 25, apfel 15, minze 2, orange 20, wasser 80
+Rhubarb crumble | 0.9 | 1 Portion | rhabarber 200, zucker 50, mehl 40, butter 25
+Scotch egg | 0.9 | 1 Stück | ei 70, schwein_hack 90, paniermehl 20, mehl 8, oel 25
+Smoked salmon and cream cheese bagel | 1.0 | 1 Bagel | weissbrot 100, frischkaese 40, lachs 50, zwiebel 10, gurke 20
+Sticky toffee pudding | 0.95 | 1 Portion | dattel 40, mehl 40, ei 25, butter 25, zucker 40, sahne 30, wasser 40
+Toad in the hole | 0.85 | 1 Portion | bratwurst 150, mehl 55, ei 50, milch 100, oel 15, bruehe 80
+Welsh cakes | 0.9 | 3 Stück | mehl 60, butter 20, schmalz 8, zucker 20, rosinen 20, ei 10, milch 5
+Bifteki | 0.8 | 1 Portion | hack 150, semmel 20, beyaz_peynir 25, zwiebel 20, oregano 1, olivenoel 8
+Fasolakia | 0.85 | 1 Teller | gruene_bohnen 250, kartoffel 80, tomaten_dose 100, zwiebel 40, olivenoel 20, knoblauch 3, wasser 80
+Gigantes plaki | 0.9 | 1 Portion | bohnen_trocken 60, wasser 180, tomaten_dose 100, zwiebel 40, olivenoel 20, karotte 20, petersilie 3, knoblauch 3
+Greek yogurt with honey | 1.0 | 1 Schälchen | suzme 170, honig 20, walnuss 15
+Kataifi | 0.85 | 2 Stück | kadayif 50, butter 25, walnuss 30, pistazie 10, zucker 35, wasser 25, zitrone 3
+Kourabiedes | 0.9 | 3 Stück | mehl 45, butter 35, mandel 20, zucker 25, spirituose 3
+Moussaka | 0.85 | 1 Stück | aubergine 150, kartoffel 60, hack 80, zwiebel 30, tomaten_dose 60, olivenoel 20, milch 100, butter 15, mehl 15, ei 20, kasar 15
+Revithada | 0.95 | 1 Teller | kichererbsen_trocken 60, wasser 300, zwiebel 40, olivenoel 15, zitrone 10
+Soutzoukakia | 0.8 | 4 Stück mit Sauce | hack 150, semmel 20, kreuzkuemmel 2, knoblauch 3, wein_rot 20, ei 15, oel 8, tomaten_dose 150, tomatenmark 5, zwiebel 20, olivenoel 5
+Stifado | 0.75 | 1 Teller | rind 170, zwiebel 150, tomatenmark 10, wein_rot 80, olivenoel 15, essig 10, zimt 1, gewuerz 1
+Tsipoura | 0.85 | 1 Portion | wolfsbarsch 200, olivenoel 15, zitrone 15, oregano 1
+Jota | 0.95 | 1 Teller | bohnen_trocken 30, wasser 150, sauerkraut 80, kartoffel 80, speck 20, bruehe 150
+Paški sir | 1.0 | 1 Portion mit Brot | pecorino 60, olive 20, weissbrot 30
+Zagorski štrukli | 0.9 | 1 Stück | mehl 80, ei 65, quark 100, sauerrahm 50, butter 15, wasser 30
+Csirkepaprikás | 0.85 | 1 Teller | hahn_keule 200, zwiebel 60, paprikapulver 5, sauerrahm 50, schmalz 12, paprika 40, tomate 30, bruehe 80, mehl 50, ei 25, wasser 30
+Jókai bableves | 0.95 | 1 Teller | bohnen_trocken 40, wasser 150, bruehe 150, karotte 30, zwiebel 20, wuerstchen_geraeuchert 40, speck 20, mehl 8, schmalz 5, sauerrahm 30, paprikapulver 2
+Meggyleves | 1.0 | 1 Teller | sauerkirsche 150, wasser 250, zucker 30, sahne 40, mehl 5, zimt 1
+Rántott sajt | 0.95 | 1 Portion | gouda 130, mehl 15, ei 30, paniermehl 30, oel 20, mayonnaise 25
+Tarhonya | 0.85 | 1 Portion | nudeln 80, wasser 160, schmalz 10, zwiebel 20, paprikapulver 1
+Unicum | 1.0 | 1 Glas 4 cl | spirituose 40
+Brack | 0.85 | 1 Scheibe | mehl 30, zucker 15, rosinen 30, tee 30, ei 10, butter 13
+Irish breakfast | 0.9 | 1 Teller | bratwurst 90, speck 40, ei 100, blutwurst 40, tomate 50, pilz 40, bohnen_trocken 20, wasser 50, weissbrot 50, butter 10, oel 10
+Soda bread | 0.9 | 2 Scheiben | mehl 80, buttermilch 70, salz 1
+Plokkfiskur | 0.95 | 1 Portion mit Roggenbrot | kabeljau 120, kartoffel 150, butter 20, milch 80, mehl 12, zwiebel 30, roggenbrot 40
+Agnolotti piemontesi | 0.95 | 1 Teller | mehl 70, ei 40, rind 40, schwein_mager 30, spinat 20, parmesan 15, butter 15, wasser 30
+Babà al rum | 0.9 | 1 Stück | mehl 45, ei 40, butter 18, zucker 50, hefe 3, wasser 50, spirituose 20
+Bigoli in salsa | 1.0 | 1 Teller | nudeln 90, wasser 110, zwiebel 60, sardelle 25, olivenoel 12
+Bruschetta al pomodoro | 1.0 | 2 Scheiben | weissbrot 70, tomate 100, olivenoel 10, knoblauch 3
+Calzone | 0.92 | 1 Stück | mehl 130, wasser 80, hefe 3, mozzarella 80, schinken 40, ricotta 50, tomaten_dose 40, olivenoel 8
+Cantucci | 0.9 | 5 Stück | mehl 40, zucker 25, mandel 20, ei 15
+Carpaccio di manzo | 1.0 | 1 Teller | rind 100, rucola 20, parmesan 15, olivenoel 10, zitrone 8
+Ciabatta | 0.85 | 1 Stück | mehl 85, wasser 65, hefe 1, olivenoel 3, salz 1
+Crostini toscani | 0.9 | 4 Stück | weissbrot 60, huhn_leber 60, zwiebel 20, sardelle 5, butter 10, wein_weiss 15, olivenoel 5
+Farinata di ceci | 0.7 | 1 Portion | kichererbsen_trocken 60, wasser 140, olivenoel 20
+Fregola con arselle | 0.95 | 1 Teller | couscous 80, muschel 100, tomaten_dose 80, knoblauch 4, wein_weiss 40, olivenoel 12, petersilie 3, wasser 80
+Gelato alla vaniglia | 1.0 | 2 Kugeln | eis 120
+Gnocco fritto | 0.9 | 4 Stück | mehl 100, milch 40, wasser 30, schmalz 30, hefe 3, salz 1
+Insalata caprese | 1.0 | 1 Teller | tomate 150, mozzarella 100, olivenoel 12, salz 1
+Lasagne alla bolognese | 0.85 | 1 Stück | nudeln 50, hack 70, tomaten_dose 80, zwiebel 20, karotte 15, milch 100, butter 12, mehl 12, parmesan 15, wasser 30, olivenoel 5
+Malloreddus alla campidanese | 0.95 | 1 Teller | griess 80, wasser 75, schwein_hack 60, tomaten_dose 100, pecorino 15, zwiebel 20, olivenoel 8
+Paccheri al ragù di polpo | 0.95 | 1 Teller | nudeln 90, wasser 110, oktopus 100, tomaten_dose 100, zwiebel 20, wein_weiss 30, olivenoel 12, knoblauch 3
+Panforte di Siena | 0.9 | 1 Stück | mandel 15, haselnuss 8, feige_tr 10, zucker 12, honig 12, mehl 8, kakao 2, zimt 1, marmelade 8
+Pappa al pomodoro | 0.95 | 1 Teller | weissbrot 60, tomaten_dose 200, bruehe 200, olivenoel 15, knoblauch 3
+Pasta alla Genovese | 0.75 | 1 Teller | nudeln 90, wasser 110, zwiebel 250, rind 80, olivenoel 12, sellerie 15, karotte 15, wein_weiss 30, parmesan 10
+Pasta e fagioli | 0.95 | 1 Teller | nudeln 40, bohnen_trocken 40, wasser 280, tomaten_dose 50, zwiebel 20, sellerie 15, karotte 15, olivenoel 12
+Penne alla vodka | 0.95 | 1 Teller | nudeln 90, wasser 110, tomaten_dose 80, sahne 50, spirituose 15, zwiebel 20, parmesan 15, butter 8, chili 2
+Pizza Bianca romana | 0.85 | 1 Stück | mehl 100, wasser 70, hefe 1, olivenoel 12, salz 1
+Pizza Marinara | 0.85 | 1 Pizza | mehl 130, wasser 80, hefe 2, tomaten_dose 100, knoblauch 4, oregano 1, olivenoel 10
+Pizza Quattro Stagioni | 0.88 | 1 Pizza | mehl 130, wasser 80, hefe 2, tomaten_dose 80, mozzarella 90, schinken 30, pilz 30, artischocke 30, olive 15, olivenoel 8
+Polenta e funghi | 0.95 | 1 Teller | maismehl 60, wasser 240, pilz 150, butter 10, knoblauch 3, petersilie 3, parmesan 10, olivenoel 10
+Polpettone | 0.85 | 1 Scheibe mit Sauce | gemischtes_hack 140, ei 25, semmel 25, parmesan 15, milch 20, petersilie 3, tomaten_dose 80, olivenoel 8
+Ribollita | 0.95 | 1 Teller | bohnen_trocken 40, wasser 100, weissbrot 40, gruenkohl 60, karotte 30, zwiebel 30, tomaten_dose 40, sellerie 20, olivenoel 12, bruehe 150
+Risotto al nero di seppia | 0.95 | 1 Teller | reis 80, bruehe 160, kalmar 100, wein_weiss 30, zwiebel 20, olivenoel 12, knoblauch 3, tomatenmark 5
+Salsiccia e friarielli | 0.85 | 1 Portion | schwein_hack 150, brokkoli 200, olivenoel 15, knoblauch 4, chili 1
+Scaloppine al limone | 0.8 | 1 Portion | kalb 150, mehl 12, butter 15, zitrone 20, wein_weiss 30, petersilie 2
+Spaghetti al nero di seppia | 0.95 | 1 Teller | nudeln 90, wasser 110, kalmar 100, tomaten_dose 40, wein_weiss 30, zwiebel 15, knoblauch 3, olivenoel 12, petersilie 2
+Spaghetti alla puttanesca | 0.95 | 1 Teller | nudeln 90, wasser 110, tomaten_dose 150, olive 25, sardelle 10, knoblauch 4, olivenoel 12, chili 2
+Straccetti di manzo | 0.85 | 1 Portion | rind_steak 150, rucola 50, olivenoel 12, parmesan 15, essig 5
+Supplì al telefono | 0.9 | 2 Stück | reis 50, wasser 75, tomaten_dose 40, mozzarella 40, parmesan 10, butter 8, ei 25, paniermehl 25, mehl 5, oel 15
+Tiramisù | 1.0 | 1 Portion | mascarpone 70, ei 45, zucker 25, x2_biskuit 40, kaffee 60, kakao 3, likoerwein 10
+Tortellini in brodo | 1.0 | 1 Teller | mehl 40, ei 25, schwein_mager 20, rohschinken 15, parmesan 15, bruehe 300, wasser 15
+Verdure grigliate | 0.75 | 1 Teller | aubergine 100, zucchini 100, paprika_rot 80, olivenoel 15, knoblauch 2, petersilie 2
+Zeppole di San Giuseppe | 0.65 | 2 Stück | mehl 40, butter 15, ei 60, wasser 50, oel 20, milch 80, zucker 20, staerke 8, sauerkirsche 20
+Cepelinai | 0.85 | 3 Stück | kartoffel 350, schwein_hack 100, zwiebel 25, speck 25, sauerrahm 50, staerke 10
+Šaltibarščiai | 1.0 | 1 Teller | rote_bete 100, buttermilch 200, joghurt 50, gurke 40, dill 5, ei 50, fruehlingszwiebel 10
+Kniddelen | 0.95 | 1 Teller | mehl 80, milch 80, ei 25, speck 30, zwiebel 20, butter 10, wasser 20
+Kartupeļu pankūkas | 0.85 | 3 Stück | kartoffel 250, ei 25, zwiebel 20, mehl 20, oel 20, sauerrahm 40
+Rupjmaize | 1.0 | 2 Scheiben | roggenbrot 80
+Kinnie | 1.0 | 1 Dose 330 ml | x2_limonade 330
+Bitterballen | 0.85 | 4 Stück | rind 50, butter 15, mehl 28, bruehe 70, ei 20, paniermehl 25, oel 15, petersilie 1
+Draadjesvlees | 0.85 | 1 Teller | rind 150, zwiebel 60, butter 12, bruehe 150, essig 5, zucker 3, kartoffel 180
+Haring met uitjes | 1.0 | 1 Portion | hering 100, zwiebel 25, gewuerzgurke 20
+Kibbeling | 0.9 | 1 Portion | kabeljau 150, mehl 30, wasser 30, ei 10, oel 25, mayonnaise 25, gewuerz 2
+Oliebollen | 0.85 | 3 Stück | mehl 100, milch 100, ei 20, hefe 4, rosinen 25, zucker 8, oel 25
+Saucijzenbroodje | 0.85 | 1 Stück | blaetterteig 80, schwein_hack 70, ei 10, paniermehl 8, gewuerz 1
+Stamppot zuurkool | 0.95 | 1 Teller | kartoffel 250, sauerkraut 150, speck 40, wuerstchen_geraeuchert 100, butter 10, milch 30
+Worstenbroodje | 0.85 | 1 Stück | blaetterteig 70, gemischtes_hack 90, paniermehl 10, ei 10, gewuerz 1
+Fiskesuppe | 0.95 | 1 Teller | kabeljau 80, lachs 40, karotte 30, lauch 30, kartoffel 60, sahne 60, bruehe 200, butter 8, mehl 6, dill 2
+Pinnekjøtt | 0.8 | 1 Portion | lamm_kotelett 200, ruebe 150, butter 10, milch 30, kartoffel 100
+Barszcz czerwony | 0.95 | 1 Teller | rote_bete 120, bruehe 300, zwiebel 20, karotte 20, essig 5, zucker 3, knoblauch 2, sauerrahm 20
+Fasolka po bretońsku | 0.9 | 1 Teller | bohnen_trocken 50, wasser 130, wuerstchen_geraeuchert 60, speck 30, tomatenmark 20, zwiebel 40, schmalz 8, gewuerz 2, bruehe 30
+Kaszanka | 0.9 | 1 Portion | blutwurst 100, graupen 30, wasser 50, zwiebel 50, schmalz 8
+Kopytka | 0.95 | 1 Portion | kartoffel 250, mehl 70, ei 20, butter 15, paniermehl 10
+Krupnik | 0.95 | 1 Teller | graupen 35, wasser 120, bruehe 250, karotte 40, kartoffel 60, sellerie 20, speck 20, petersilie 3
+Naleśniki z serem | 0.88 | 2 Stück | mehl 50, milch 120, ei 40, oel 10, quark 120, zucker 15, sauerrahm 30
+Pierogi z jagodami | 0.95 | 6 Stück | mehl 100, wasser 50, ei 20, blaubeere 120, zucker 20, sauerrahm 40
+Placki ziemniaczane | 0.85 | 3 Stück | kartoffel 280, ei 30, zwiebel 30, mehl 20, oel 30, sauerrahm 40
+Ryba po grecku | 0.9 | 1 Portion | kabeljau 130, karotte 50, zwiebel 40, tomatenmark 25, mehl 12, oel 20, sellerie 20, bruehe 40
+Szarlotka | 0.85 | 1 Stück | mehl 60, butter 35, zucker 25, ei 20, apfel 200, zimt 1
+Zupa grzybowa | 0.95 | 1 Teller | pilz 100, kartoffel 60, karotte 30, zwiebel 20, bruehe 300, sahne 40, mehl 5, butter 8, dill 2
+Ćwikła z chrzanem | 1.0 | 1 Portion | rote_bete 120, meerrettich 25, essig 10, zucker 5, salz 1
+Arroz de marisco | 0.9 | 1 Teller | reis 80, bruehe 200, garnele 80, muschel 60, krabbe 40, tomate 60, zwiebel 30, olivenoel 12, wein_weiss 30, petersilie 3
+Arroz doce | 0.85 | 1 Schälchen | reis 35, milch 220, zucker 30, zimt 1, ei 20, zitrone 3
+Bacalhau à Gomes de Sá | 0.9 | 1 Teller | stockfisch 140, kartoffel 200, zwiebel 60, olivenoel 25, ei 50, olive 10, petersilie 3, knoblauch 3
+Bolinhos de bacalhau | 0.85 | 3 Stück | stockfisch 80, kartoffel 80, ei 25, zwiebel 10, petersilie 3, oel 15
+Broa de milho | 0.9 | 2 Scheiben | maismehl 30, mehl 30, wasser 55, hefe 2
+Farinheira | 0.85 | 1 Portion | speck 40, mehl 40, paprikapulver 2, wasser 20, knoblauch 3, wein_weiss 10
+Francesinha | 0.85 | 1 Sandwich mit Pommes | weissbrot 100, schinken 30, schwein_mager 60, chorizo 35, gouda 50, ei 55, bier 80, tomatenmark 10, butter 8, mehl 5, kartoffel 120, oel 10
+Ginjinha | 1.0 | 1 Glas 4 cl | sauerkirsche 10, spirituose 20, zucker 8
+Ovos moles de Aveiro | 0.9 | 3 Stück | ei 50, zucker 40, wasser 20
+Pudim flan português | 0.95 | 1 Stück | ei 100, milch 100, kondensmilch 30, zucker 25
+Rojões à moda do Minho | 0.75 | 1 Portion | schwein_nacken 200, wein_weiss 60, schmalz 12, knoblauch 4, paprikapulver 2, kartoffel 120, oel 10
+Torresmos | 0.65 | 1 Portion | schwein_bauch 100, salz 1
+Ciorbă de burtă | 0.95 | 1 Teller | x2_kutteln 100, bruehe 250, sauerrahm 50, ei 15, knoblauch 4, essig 8, karotte 20, sellerie 15, zwiebel 20
+Clătite | 0.85 | 2 Stück | mehl 50, milch 120, ei 40, oel 8, marmelade 40, zucker 10
+Cozonac | 0.9 | 1 Scheibe | mehl 60, milch 25, butter 20, zucker 25, ei 20, walnuss 25, kakao 5, hefe 3
+Ghiveci | 0.8 | 1 Teller | kartoffel 100, karotte 40, aubergine 80, zucchini 60, paprika 40, tomate 80, zwiebel 30, erbsen 30, gruene_bohnen 40, oel 20, wasser 60
+Mici | 0.8 | 3 Stück mit Senf | gemischtes_hack 160, knoblauch 4, bruehe 20, gewuerz 2, senf 10
+Salată de boeuf | 1.0 | 1 Portion | kartoffel 100, karotte 40, erbsen 25, gewuerzgurke 30, hahn_brust 50, ei 25, mayonnaise 40, sellerie 20, senf 3
+Burek sa sirom | 0.9 | 1 Stück | yufka 100, beyaz_peynir 80, ei 30, oel 15, joghurt 30
+Pljeskavica | 0.85 | 1 Stück im Fladenbrot | gemischtes_hack 200, zwiebel 50, fladenbrot 80, kaymak 20, oel 5
+Vanilice | 0.9 | 4 Stück | mehl 50, butter 30, zucker 30, marmelade 25, ei 8
+Kisel | 1.0 | 1 Glas 250 ml | preiselbeeren 40, staerke 15, zucker 15, wasser 200
+Rassolnik | 0.95 | 1 Teller | graupen 20, wasser 55, bruehe 280, gewuerzgurke 60, kartoffel 60, karotte 25, zwiebel 20, rind 40, sauerrahm 20, butter 5
+Dillkött | 0.85 | 1 Teller | rind 150, bruehe 150, dill 5, mehl 12, butter 12, essig 8, zucker 5, ei 15, kartoffel 150
+Glögg | 1.0 | 1 Tasse 150 ml | wein_rot 110, spirituose 10, zucker 8, rosinen 8, mandel 5, gewuerz 1, wasser 20
+Isterband | 0.85 | 2 Stück | schwein_hack 110, graupen 30, wasser 50, zwiebel 15, gewuerz 2
+Kardemummabulle | 0.9 | 1 Stück | mehl 60, milch 30, butter 20, zucker 20, ei 5, hefe 3, gewuerz 1
+Köttbullar | 0.85 | 8 Stück mit Sauce und Kartoffeln | gemischtes_hack 130, semmel 20, milch 30, ei 20, zwiebel 20, butter 10, sahne 40, bruehe 60, mehl 8, preiselbeeren 25, kartoffel 150
+Pepparkakor | 0.9 | 5 Stück | mehl 20, zucker 10, butter 8, honig 5, gewuerz 1
+Renskav | 0.85 | 1 Portion mit Kartoffelpüree | wild 120, butter 15, zwiebel 20, sahne 40, bruehe 30, preiselbeeren 25, kartoffel 150
+Stekt strömming | 0.9 | 1 Portion mit Kartoffelpüree | hering 180, mehl 25, butter 20, kartoffel 150, milch 30, preiselbeeren 15, salz 1
+Äppelkaka | 0.85 | 1 Stück | apfel 150, mehl 50, butter 30, zucker 25, haferflocken 15, zimt 1
+Kislo zelje | 0.9 | 1 Beilage | sauerkraut 200, speck 20, zwiebel 20, schmalz 5, wasser 50
+Kapustnica | 0.95 | 1 Teller | sauerkraut 100, wuerstchen_geraeuchert 40, speck 20, kartoffel 60, bruehe 280, paprikapulver 2, sauerrahm 20, pflaume_tr 10, zwiebel 20
+Vyprážaný syr | 0.95 | 1 Portion | gouda 130, mehl 15, ei 30, paniermehl 30, oel 20, mayonnaise 25
+Chicken Kyiv | 0.9 | 1 Stück | hahn_brust 150, butter 25, mehl 12, ei 25, paniermehl 30, oel 20, petersilie 3
+Kyiv cake | 0.95 | 1 Stück | eiweiss 50, zucker 40, haselnuss 25, butter 30, kondensmilch 25
+Pelmeni | 0.95 | 10 Stück | mehl 80, wasser 60, ei 10, gemischtes_hack 90, zwiebel 20, sauerrahm 30, butter 8

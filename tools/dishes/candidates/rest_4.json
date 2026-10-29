@@ -1,0 +1,2306 @@
+[
+ {
+  "id": "at-3",
+  "name": "Erdäpfelgulasch",
+  "synonyms": [
+   "Kartoffelgulasch österreichisch"
+  ],
+  "cuisine": "at",
+  "cat": "E"
+ },
+ {
+  "id": "at-20",
+  "name": "Kaiserschmarren",
+  "synonyms": [
+   "Kaiserschmarrn österreichisch"
+  ],
+  "cuisine": "at",
+  "cat": "D"
+ },
+ {
+  "id": "at-54",
+  "name": "Kärntner Reindling",
+  "synonyms": [
+   "Reindling"
+  ],
+  "cuisine": "at",
+  "cat": "K"
+ },
+ {
+  "id": "at-21",
+  "name": "Milchrahmstrudel",
+  "synonyms": [
+   "Milchrahmstrudel"
+  ],
+  "cuisine": "at",
+  "cat": "K"
+ },
+ {
+  "id": "at-32",
+  "name": "Salzstangerl",
+  "synonyms": [
+   "Salzstangerl"
+  ],
+  "cuisine": "at",
+  "cat": "G"
+ },
+ {
+  "id": "at-57",
+  "name": "Tiroler Schlipfkrapfen",
+  "synonyms": [
+   "Schlipfkrapfen"
+  ],
+  "cuisine": "at",
+  "cat": "NA"
+ },
+ {
+  "id": "at-33",
+  "name": "Wiener Melange",
+  "synonyms": [
+   "Melange"
+  ],
+  "cuisine": "at",
+  "cat": "GT"
+ },
+ {
+  "id": "ba-171",
+  "name": "Begova čorba",
+  "synonyms": [
+   "Bey's soup"
+  ],
+  "cuisine": "ba",
+  "cat": "S"
+ },
+ {
+  "id": "ba-181",
+  "name": "Somun",
+  "synonyms": [
+   "Bosnian somun"
+  ],
+  "cuisine": "ba",
+  "cat": "BR"
+ },
+ {
+  "id": "be-444",
+  "name": "Belgian hot chocolate",
+  "synonyms": [
+   "Chocolat chaud belge"
+  ],
+  "cuisine": "be",
+  "cat": "GT"
+ },
+ {
+  "id": "be-448",
+  "name": "Croquettes aux crevettes",
+  "synonyms": [
+   "Garnaalkroketten"
+  ],
+  "cuisine": "be",
+  "cat": "SN"
+ },
+ {
+  "id": "be-434",
+  "name": "Gaufre de Liège",
+  "synonyms": [
+   "Liège waffle"
+  ],
+  "cuisine": "be",
+  "cat": "G"
+ },
+ {
+  "id": "be-440",
+  "name": "Pistolets",
+  "synonyms": [
+   "Pistolet bread"
+  ],
+  "cuisine": "be",
+  "cat": "BR"
+ },
+ {
+  "id": "be-449",
+  "name": "Stoofvlees",
+  "synonyms": [
+   "Flemish beef beer stew"
+  ],
+  "cuisine": "be",
+  "cat": "E"
+ },
+ {
+  "id": "be-426",
+  "name": "Vol-au-vent",
+  "synonyms": [
+   "Belgian vol-au-vent"
+  ],
+  "cuisine": "be",
+  "cat": "HG"
+ },
+ {
+  "id": "bg-191",
+  "name": "Kebapche",
+  "synonyms": [
+   "Bulgarian kebapche"
+  ],
+  "cuisine": "bg",
+  "cat": "KF"
+ },
+ {
+  "id": "ch-72",
+  "name": "Basler Fasnachtskiechli",
+  "synonyms": [
+   "Fasnachtschüechli"
+  ],
+  "cuisine": "ch",
+  "cat": "G"
+ },
+ {
+  "id": "ch-65",
+  "name": "Bündner Gerstensuppe",
+  "synonyms": [
+   "Gerstensuppe"
+  ],
+  "cuisine": "ch",
+  "cat": "S"
+ },
+ {
+  "id": "ch-88",
+  "name": "Chäschüechli",
+  "synonyms": [
+   "Chäschüechli Swiss"
+  ],
+  "cuisine": "ch",
+  "cat": "PZ"
+ },
+ {
+  "id": "ch-101",
+  "name": "Kalbsvoressen",
+  "synonyms": [
+   "Swiss veal ragout"
+  ],
+  "cuisine": "ch",
+  "cat": "E"
+ },
+ {
+  "id": "ch-106",
+  "name": "Pain de Seigle valaisan",
+  "synonyms": [
+   "Valais rye bread"
+  ],
+  "cuisine": "ch",
+  "cat": "BR"
+ },
+ {
+  "id": "ch-102",
+  "name": "Rindsvoressen",
+  "synonyms": [
+   "Swiss beef ragout"
+  ],
+  "cuisine": "ch",
+  "cat": "E"
+ },
+ {
+  "id": "ch-109",
+  "name": "Saucisson vaudois",
+  "synonyms": [
+   "Vaudois sausage"
+  ],
+  "cuisine": "ch",
+  "cat": "WU"
+ },
+ {
+  "id": "ch-85",
+  "name": "Zuger Kirschtorte",
+  "synonyms": [
+   "Kirschtorte"
+  ],
+  "cuisine": "ch",
+  "cat": "K"
+ },
+ {
+  "id": "cy-347",
+  "name": "Lountza",
+  "synonyms": [
+   "Cypriot lountza"
+  ],
+  "cuisine": "cy",
+  "cat": "V"
+ },
+ {
+  "id": "cz-1530",
+  "name": "Buchty",
+  "synonyms": [
+   "Czech buchty"
+  ],
+  "cuisine": "cz",
+  "cat": "G"
+ },
+ {
+  "id": "cz-1507",
+  "name": "Kulajda",
+  "synonyms": [
+   "Czech dill potato soup"
+  ],
+  "cuisine": "cz",
+  "cat": "S"
+ },
+ {
+  "id": "cz-1503",
+  "name": "Smažený sýr",
+  "synonyms": [
+   "Czech fried cheese"
+  ],
+  "cuisine": "cz",
+  "cat": "HV"
+ },
+ {
+  "id": "cz-1535",
+  "name": "Vánočka",
+  "synonyms": [
+   "Czech vánočka"
+  ],
+  "cuisine": "cz",
+  "cat": "K"
+ },
+ {
+  "id": "dk-1332",
+  "name": "Biksemad",
+  "synonyms": [
+   "Danish biksemad"
+  ],
+  "cuisine": "dk",
+  "cat": "PF"
+ },
+ {
+  "id": "dk-1324",
+  "name": "Frikadeller",
+  "synonyms": [
+   "Danish meatballs"
+  ],
+  "cuisine": "dk",
+  "cat": "KF"
+ },
+ {
+  "id": "dk-1333",
+  "name": "Medisterpølse",
+  "synonyms": [
+   "Danish medister sausage"
+  ],
+  "cuisine": "dk",
+  "cat": "WU"
+ },
+ {
+  "id": "ee-1395",
+  "name": "Kama",
+  "synonyms": [
+   "Estonian kama"
+  ],
+  "cuisine": "ee",
+  "cat": "D"
+ },
+ {
+  "id": "ee-1397",
+  "name": "Seljanka",
+  "synonyms": [
+   "Estonian solyanka"
+  ],
+  "cuisine": "ee",
+  "cat": "S"
+ },
+ {
+  "id": "es-469",
+  "name": "Ajoblanco",
+  "synonyms": [
+   "White gazpacho"
+  ],
+  "cuisine": "es",
+  "cat": "S"
+ },
+ {
+  "id": "es-458",
+  "name": "Arroz a banda",
+  "synonyms": [
+   "Arroz a banda alicantino"
+  ],
+  "cuisine": "es",
+  "cat": "RP"
+ },
+ {
+  "id": "es-509",
+  "name": "Atún encebollado",
+  "synonyms": [
+   "Tuna with onions"
+  ],
+  "cuisine": "es",
+  "cat": "HFi"
+ },
+ {
+  "id": "es-583",
+  "name": "Bizcocho de yogur",
+  "synonyms": [
+   "Spanish yogurt cake"
+  ],
+  "cuisine": "es",
+  "cat": "K"
+ },
+ {
+  "id": "es-499",
+  "name": "Boquerones en vinagre",
+  "synonyms": [
+   "Marinated anchovies"
+  ],
+  "cuisine": "es",
+  "cat": "V"
+ },
+ {
+  "id": "es-573",
+  "name": "Buñuelos de viento",
+  "synonyms": [
+   "Buñuelos"
+  ],
+  "cuisine": "es",
+  "cat": "G"
+ },
+ {
+  "id": "es-601",
+  "name": "Caldereta de cordero",
+  "synonyms": [
+   "Lamb caldereta"
+  ],
+  "cuisine": "es",
+  "cat": "E"
+ },
+ {
+  "id": "es-531",
+  "name": "Carrillada de cerdo",
+  "synonyms": [
+   "Pork cheeks Iberian"
+  ],
+  "cuisine": "es",
+  "cat": "HF"
+ },
+ {
+  "id": "es-562",
+  "name": "Coca de Sant Joan",
+  "synonyms": [
+   "Coca de Sant Joan"
+  ],
+  "cuisine": "es",
+  "cat": "K"
+ },
+ {
+  "id": "es-591",
+  "name": "Cortado",
+  "synonyms": [
+   "Spanish cortado"
+  ],
+  "cuisine": "es",
+  "cat": "GT"
+ },
+ {
+  "id": "es-559",
+  "name": "Empanada gallega",
+  "synonyms": [
+   "Galician empanada"
+  ],
+  "cuisine": "es",
+  "cat": "BO"
+ },
+ {
+  "id": "es-479",
+  "name": "Escalivada",
+  "synonyms": [
+   "Escalivada catalana"
+  ],
+  "cuisine": "es",
+  "cat": "GZ"
+ },
+ {
+  "id": "es-460",
+  "name": "Fideuà",
+  "synonyms": [
+   "Fideua"
+  ],
+  "cuisine": "es",
+  "cat": "NA"
+ },
+ {
+  "id": "es-496",
+  "name": "Gambas al ajillo",
+  "synonyms": [
+   "Garlic prawns"
+  ],
+  "cuisine": "es",
+  "cat": "V"
+ },
+ {
+  "id": "es-587",
+  "name": "Horchata de chufa",
+  "synonyms": [
+   "Horchata"
+  ],
+  "cuisine": "es",
+  "cat": "GT"
+ },
+ {
+  "id": "es-582",
+  "name": "Magdalenas",
+  "synonyms": [
+   "Spanish magdalenas"
+  ],
+  "cuisine": "es",
+  "cat": "K"
+ },
+ {
+  "id": "es-481",
+  "name": "Menestra de verduras",
+  "synonyms": [
+   "Vegetable menestra"
+  ],
+  "cuisine": "es",
+  "cat": "GZ"
+ },
+ {
+  "id": "es-547",
+  "name": "Migas manchegas",
+  "synonyms": [
+   "Migas ruleras"
+  ],
+  "cuisine": "es",
+  "cat": "B"
+ },
+ {
+  "id": "es-567",
+  "name": "Natillas",
+  "synonyms": [
+   "Natillas caseras"
+  ],
+  "cuisine": "es",
+  "cat": "PU"
+ },
+ {
+  "id": "es-517",
+  "name": "Pan con tomate",
+  "synonyms": [
+   "Pa amb tomàquet"
+  ],
+  "cuisine": "es",
+  "cat": "V"
+ },
+ {
+  "id": "es-575",
+  "name": "Pestiños",
+  "synonyms": [
+   "Pestiños andaluces"
+  ],
+  "cuisine": "es",
+  "cat": "G"
+ },
+ {
+  "id": "es-478",
+  "name": "Pisto manchego",
+  "synonyms": [
+   "Pisto"
+  ],
+  "cuisine": "es",
+  "cat": "GZ"
+ },
+ {
+  "id": "es-572",
+  "name": "Porras",
+  "synonyms": [
+   "Porras madrileñas"
+  ],
+  "cuisine": "es",
+  "cat": "G"
+ },
+ {
+  "id": "es-614",
+  "name": "Rabas",
+  "synonyms": [
+   "Rabas de calamar"
+  ],
+  "cuisine": "es",
+  "cat": "HFi"
+ },
+ {
+  "id": "es-468",
+  "name": "Salmorejo cordobés",
+  "synonyms": [
+   "Salmorejo"
+  ],
+  "cuisine": "es",
+  "cat": "S"
+ },
+ {
+  "id": "es-608",
+  "name": "Setas al ajillo",
+  "synonyms": [
+   "Garlic mushrooms"
+  ],
+  "cuisine": "es",
+  "cat": "V"
+ },
+ {
+  "id": "es-563",
+  "name": "Tarta de queso vasca",
+  "synonyms": [
+   "Basque burnt cheesecake"
+  ],
+  "cuisine": "es",
+  "cat": "K"
+ },
+ {
+  "id": "es-579",
+  "name": "Turrón de Alicante",
+  "synonyms": [
+   "Turrón duro"
+  ],
+  "cuisine": "es",
+  "cat": "SW"
+ },
+ {
+  "id": "fi-1377",
+  "name": "Joulutorttu",
+  "synonyms": [
+   "Finnish Christmas tart"
+  ],
+  "cuisine": "fi",
+  "cat": "G"
+ },
+ {
+  "id": "fi-1368",
+  "name": "Korvapuusti",
+  "synonyms": [
+   "Finnish cinnamon roll"
+  ],
+  "cuisine": "fi",
+  "cat": "G"
+ },
+ {
+  "id": "fi-1357",
+  "name": "Lohikeitto",
+  "synonyms": [
+   "Finnish salmon soup"
+  ],
+  "cuisine": "fi",
+  "cat": "S"
+ },
+ {
+  "id": "fi-1366",
+  "name": "Mustikkapiirakka",
+  "synonyms": [
+   "Finnish blueberry pie"
+  ],
+  "cuisine": "fi",
+  "cat": "K"
+ },
+ {
+  "id": "fi-1365",
+  "name": "Ruisleipä",
+  "synonyms": [
+   "Finnish rye bread"
+  ],
+  "cuisine": "fi",
+  "cat": "BR"
+ },
+ {
+  "id": "fr-713",
+  "name": "Andouillette à la moutarde",
+  "synonyms": [
+   "Andouillette"
+  ],
+  "cuisine": "fr",
+  "cat": "WU"
+ },
+ {
+  "id": "fr-699",
+  "name": "Bavette à l'échalote",
+  "synonyms": [
+   "Bavette shallot"
+  ],
+  "cuisine": "fr",
+  "cat": "HF"
+ },
+ {
+  "id": "fr-737",
+  "name": "Bouchées à la reine",
+  "synonyms": [
+   "Vol-au-vent"
+  ],
+  "cuisine": "fr",
+  "cat": "G"
+ },
+ {
+  "id": "fr-680",
+  "name": "Brioche",
+  "synonyms": [
+   "Brioche française"
+  ],
+  "cuisine": "fr",
+  "cat": "G"
+ },
+ {
+  "id": "fr-702",
+  "name": "Canard à l'orange",
+  "synonyms": [
+   "Duck à l'orange"
+  ],
+  "cuisine": "fr",
+  "cat": "HG"
+ },
+ {
+  "id": "fr-742",
+  "name": "Cervelle de canut",
+  "synonyms": [
+   "Canut brain",
+   "Lyon herb cheese"
+  ],
+  "cuisine": "fr",
+  "cat": "SD"
+ },
+ {
+  "id": "fr-665",
+  "name": "Clafoutis aux cerises",
+  "synonyms": [
+   "Cherry clafoutis"
+  ],
+  "cuisine": "fr",
+  "cat": "K"
+ },
+ {
+  "id": "fr-774",
+  "name": "Cotriade bretonne",
+  "synonyms": [
+   "Cotriade"
+  ],
+  "cuisine": "fr",
+  "cat": "E"
+ },
+ {
+  "id": "fr-683",
+  "name": "Crème brûlée",
+  "synonyms": [
+   "Creme brulee"
+  ],
+  "cuisine": "fr",
+  "cat": "PU"
+ },
+ {
+  "id": "fr-646",
+  "name": "Cuisses de grenouille",
+  "synonyms": [
+   "Frog legs provençale"
+  ],
+  "cuisine": "fr",
+  "cat": "V"
+ },
+ {
+  "id": "fr-645",
+  "name": "Escargots de Bourgogne",
+  "synonyms": [
+   "Escargots",
+   "Snails in garlic butter"
+  ],
+  "cuisine": "fr",
+  "cat": "V"
+ },
+ {
+  "id": "fr-741",
+  "name": "Fondue au chocolat",
+  "synonyms": [
+   "Chocolate fondue French"
+  ],
+  "cuisine": "fr",
+  "cat": "D"
+ },
+ {
+  "id": "fr-750",
+  "name": "Galette des rois",
+  "synonyms": [
+   "Galette des Rois"
+  ],
+  "cuisine": "fr",
+  "cat": "K"
+ },
+ {
+  "id": "fr-657",
+  "name": "Gougères",
+  "synonyms": [
+   "Cheese gougères"
+  ],
+  "cuisine": "fr",
+  "cat": "SN"
+ },
+ {
+  "id": "fr-747",
+  "name": "Gâteau au chocolat fondant",
+  "synonyms": [
+   "Fondant au chocolat"
+  ],
+  "cuisine": "fr",
+  "cat": "K"
+ },
+ {
+  "id": "fr-644",
+  "name": "Huîtres",
+  "synonyms": [
+   "Oysters French"
+  ],
+  "cuisine": "fr",
+  "cat": "V"
+ },
+ {
+  "id": "fr-706",
+  "name": "Lapin à la moutarde",
+  "synonyms": [
+   "Rabbit in mustard sauce"
+  ],
+  "cuisine": "fr",
+  "cat": "HF"
+ },
+ {
+  "id": "fr-757",
+  "name": "Merveilles",
+  "synonyms": [
+   "Merveilles gourmandes"
+  ],
+  "cuisine": "fr",
+  "cat": "G"
+ },
+ {
+  "id": "fr-754",
+  "name": "Nougat de Montélimar",
+  "synonyms": [
+   "Montélimar nougat"
+  ],
+  "cuisine": "fr",
+  "cat": "SW"
+ },
+ {
+  "id": "fr-749",
+  "name": "Pain d'épices",
+  "synonyms": [
+   "French gingerbread"
+  ],
+  "cuisine": "fr",
+  "cat": "K"
+ },
+ {
+  "id": "fr-672",
+  "name": "Paris-Brest",
+  "synonyms": [
+   "Paris Brest"
+  ],
+  "cuisine": "fr",
+  "cat": "G"
+ },
+ {
+  "id": "fr-724",
+  "name": "Poireaux vinaigrette",
+  "synonyms": [
+   "Leeks vinaigrette"
+  ],
+  "cuisine": "fr",
+  "cat": "V"
+ },
+ {
+  "id": "fr-761",
+  "name": "Pot de crème",
+  "synonyms": [
+   "Pot de crème au chocolat"
+  ],
+  "cuisine": "fr",
+  "cat": "PU"
+ },
+ {
+  "id": "fr-705",
+  "name": "Poule au pot",
+  "synonyms": [
+   "Poule au pot Henri IV"
+  ],
+  "cuisine": "fr",
+  "cat": "E"
+ },
+ {
+  "id": "fr-650",
+  "name": "Pâté de campagne",
+  "synonyms": [
+   "Pâté en croûte"
+  ],
+  "cuisine": "fr",
+  "cat": "V"
+ },
+ {
+  "id": "fr-654",
+  "name": "Quiche lorraine",
+  "synonyms": [
+   "Lorraine quiche"
+  ],
+  "cuisine": "fr",
+  "cat": "PZ"
+ },
+ {
+  "id": "fr-649",
+  "name": "Rillettes de porc",
+  "synonyms": [
+   "Pork rillettes"
+  ],
+  "cuisine": "fr",
+  "cat": "V"
+ },
+ {
+  "id": "fr-765",
+  "name": "Saint-Honoré",
+  "synonyms": [
+   "Saint Honoré"
+  ],
+  "cuisine": "fr",
+  "cat": "K"
+ },
+ {
+  "id": "fr-640",
+  "name": "Saumon à l'oseille",
+  "synonyms": [
+   "Salmon with sorrel"
+  ],
+  "cuisine": "fr",
+  "cat": "HFi"
+ },
+ {
+  "id": "fr-735",
+  "name": "Soupe au pistou",
+  "synonyms": [
+   "Pistou soup"
+  ],
+  "cuisine": "fr",
+  "cat": "S"
+ },
+ {
+  "id": "fr-666",
+  "name": "Tarte Tatin",
+  "synonyms": [
+   "Tarte tatin"
+  ],
+  "cuisine": "fr",
+  "cat": "K"
+ },
+ {
+  "id": "fr-752",
+  "name": "Tarte aux noix du Périgord",
+  "synonyms": [
+   "Walnut tart Périgord"
+  ],
+  "cuisine": "fr",
+  "cat": "K"
+ },
+ {
+  "id": "fr-627",
+  "name": "Tian provençal",
+  "synonyms": [
+   "Tian de légumes"
+  ],
+  "cuisine": "fr",
+  "cat": "GZ"
+ },
+ {
+  "id": "fr-734",
+  "name": "Vichyssoise",
+  "synonyms": [
+   "Vichyssoise soup"
+  ],
+  "cuisine": "fr",
+  "cat": "S"
+ },
+ {
+  "id": "fr-685",
+  "name": "Île flottante",
+  "synonyms": [
+   "Floating island"
+  ],
+  "cuisine": "fr",
+  "cat": "D"
+ },
+ {
+  "id": "gb-833",
+  "name": "Bakewell tart",
+  "synonyms": [
+   "Bakewell pudding"
+  ],
+  "cuisine": "gb",
+  "cat": "K"
+ },
+ {
+  "id": "gb-822",
+  "name": "Bara brith",
+  "synonyms": [
+   "Welsh tea bread"
+  ],
+  "cuisine": "gb",
+  "cat": "K"
+ },
+ {
+  "id": "gb-830",
+  "name": "Bread and butter pudding",
+  "synonyms": [
+   "Bread & butter pudding"
+  ],
+  "cuisine": "gb",
+  "cat": "K"
+ },
+ {
+  "id": "gb-846",
+  "name": "Chelsea bun",
+  "synonyms": [
+   "Chelsea buns"
+  ],
+  "cuisine": "gb",
+  "cat": "G"
+ },
+ {
+  "id": "gb-806",
+  "name": "Cock-a-leekie soup",
+  "synonyms": [
+   "Cock-a-leekie"
+  ],
+  "cuisine": "gb",
+  "cat": "S"
+ },
+ {
+  "id": "gb-862",
+  "name": "Coronation chicken",
+  "synonyms": [
+   "Coronation chicken sandwich"
+  ],
+  "cuisine": "gb",
+  "cat": "HG"
+ },
+ {
+  "id": "gb-870",
+  "name": "Cumberland sausage",
+  "synonyms": [
+   "Cumberland sausage ring"
+  ],
+  "cuisine": "gb",
+  "cat": "WU"
+ },
+ {
+  "id": "gb-881",
+  "name": "Egg and cress sandwich",
+  "synonyms": [
+   "Egg and cress"
+  ],
+  "cuisine": "gb",
+  "cat": "SN"
+ },
+ {
+  "id": "gb-784",
+  "name": "Full English breakfast",
+  "synonyms": [
+   "English fry-up"
+  ],
+  "cuisine": "gb",
+  "cat": "FR"
+ },
+ {
+  "id": "gb-845",
+  "name": "Hot cross buns",
+  "synonyms": [
+   "Hot cross bun"
+  ],
+  "cuisine": "gb",
+  "cat": "G"
+ },
+ {
+  "id": "gb-824",
+  "name": "Laverbread",
+  "synonyms": [
+   "Bara lawr"
+  ],
+  "cuisine": "gb",
+  "cat": "B"
+ },
+ {
+  "id": "gb-875",
+  "name": "Mulligatawny soup",
+  "synonyms": [
+   "Mulligatawny"
+  ],
+  "cuisine": "gb",
+  "cat": "S"
+ },
+ {
+  "id": "gb-858",
+  "name": "Pease pudding",
+  "synonyms": [
+   "Pease pudding Newcastle"
+  ],
+  "cuisine": "gb",
+  "cat": "B"
+ },
+ {
+  "id": "gb-792",
+  "name": "Pork pie",
+  "synonyms": [
+   "Melton Mowbray pork pie"
+  ],
+  "cuisine": "gb",
+  "cat": "BO"
+ },
+ {
+  "id": "gb-795",
+  "name": "Sausage roll",
+  "synonyms": [
+   "British sausage roll"
+  ],
+  "cuisine": "gb",
+  "cat": "SN"
+ },
+ {
+  "id": "gb-788",
+  "name": "Shepherd's pie",
+  "synonyms": [
+   "Shepherds pie"
+  ],
+  "cuisine": "gb",
+  "cat": "AU"
+ },
+ {
+  "id": "gb-791",
+  "name": "Steak and ale pie",
+  "synonyms": [
+   "Steak and Guinness pie"
+  ],
+  "cuisine": "gb",
+  "cat": "BO"
+ },
+ {
+  "id": "gb-839",
+  "name": "Summer pudding",
+  "synonyms": [
+   "English summer pudding"
+  ],
+  "cuisine": "gb",
+  "cat": "D"
+ },
+ {
+  "id": "gb-826",
+  "name": "Trifle",
+  "synonyms": [
+   "English sherry trifle"
+  ],
+  "cuisine": "gb",
+  "cat": "D"
+ },
+ {
+  "id": "gr-959",
+  "name": "Arakas",
+  "synonyms": [
+   "Αρακάς λαδερός",
+   "Greek peas stew"
+  ],
+  "cuisine": "gr",
+  "cat": "GZ"
+ },
+ {
+  "id": "gr-977",
+  "name": "Dakos",
+  "synonyms": [
+   "Σαλάτα ντάκος",
+   "Cretan dakos"
+  ],
+  "cuisine": "gr",
+  "cat": "SA"
+ },
+ {
+  "id": "gr-1025",
+  "name": "Freddo espresso",
+  "synonyms": [
+   "Φρέντο εσπρέσο"
+  ],
+  "cuisine": "gr",
+  "cat": "GT"
+ },
+ {
+  "id": "gr-1038",
+  "name": "Greek chicken soup",
+  "synonyms": [
+   "Κοτόσουπα"
+  ],
+  "cuisine": "gr",
+  "cat": "S"
+ },
+ {
+  "id": "gr-924",
+  "name": "Gyros pita",
+  "synonyms": [
+   "Γύρος πίτα",
+   "Pita gyros"
+  ],
+  "cuisine": "gr",
+  "cat": "SN"
+ },
+ {
+  "id": "gr-951",
+  "name": "Kotopoulo lemonato",
+  "synonyms": [
+   "Κοτόπουλο λεμονάτο",
+   "Greek lemon chicken"
+  ],
+  "cuisine": "gr",
+  "cat": "HG"
+ },
+ {
+  "id": "gr-971",
+  "name": "Melitzanosalata",
+  "synonyms": [
+   "Μελιτζανοσαλάτα"
+  ],
+  "cuisine": "gr",
+  "cat": "SD"
+ },
+ {
+  "id": "gr-921",
+  "name": "Pastitsio",
+  "synonyms": [
+   "Παστίτσιο"
+  ],
+  "cuisine": "gr",
+  "cat": "AU"
+ },
+ {
+  "id": "gr-981",
+  "name": "Saganaki",
+  "synonyms": [
+   "Σαγανάκι",
+   "Fried cheese Greek"
+  ],
+  "cuisine": "gr",
+  "cat": "V"
+ },
+ {
+  "id": "gr-925",
+  "name": "Spanakopita",
+  "synonyms": [
+   "Σπανακόπιτα",
+   "Spinach pie Greek"
+  ],
+  "cuisine": "gr",
+  "cat": "BO"
+ },
+ {
+  "id": "gr-975",
+  "name": "Tirokafteri",
+  "synonyms": [
+   "Τυροκαφτερή"
+  ],
+  "cuisine": "gr",
+  "cat": "SD"
+ },
+ {
+  "id": "gr-969",
+  "name": "Tzatziki",
+  "synonyms": [
+   "Τζατζίκι",
+   "Greek tzatziki"
+  ],
+  "cuisine": "gr",
+  "cat": "SD"
+ },
+ {
+  "id": "hr-163",
+  "name": "Makovnjača",
+  "synonyms": [
+   "Croatian poppy seed roll"
+  ],
+  "cuisine": "hr",
+  "cat": "K"
+ },
+ {
+  "id": "hr-169",
+  "name": "Ričet",
+  "synonyms": [
+   "Croatian ričet"
+  ],
+  "cuisine": "hr",
+  "cat": "S"
+ },
+ {
+  "id": "hr-145",
+  "name": "Štrukli",
+  "synonyms": [
+   "Croatian štrukli"
+  ],
+  "cuisine": "hr",
+  "cat": "PZ"
+ },
+ {
+  "id": "hu-1552",
+  "name": "Gulyásleves",
+  "synonyms": [
+   "Hungarian goulash soup"
+  ],
+  "cuisine": "hu",
+  "cat": "S"
+ },
+ {
+  "id": "hu-1560",
+  "name": "Lecsó",
+  "synonyms": [
+   "Hungarian lecsó"
+  ],
+  "cuisine": "hu",
+  "cat": "GZ"
+ },
+ {
+  "id": "hu-1599",
+  "name": "Pálinka",
+  "synonyms": [
+   "Hungarian pálinka"
+  ],
+  "cuisine": "hu",
+  "cat": "GT"
+ },
+ {
+  "id": "hu-1589",
+  "name": "Szilvásgombóc",
+  "synonyms": [
+   "Hungarian plum dumplings"
+  ],
+  "cuisine": "hu",
+  "cat": "D"
+ },
+ {
+  "id": "hu-1558",
+  "name": "Töltött káposzta",
+  "synonyms": [
+   "Hungarian stuffed cabbage"
+  ],
+  "cuisine": "hu",
+  "cat": "DO"
+ },
+ {
+  "id": "ie-903",
+  "name": "Barmbrack",
+  "synonyms": [
+   "Irish barmbrack"
+  ],
+  "cuisine": "ie",
+  "cat": "K"
+ },
+ {
+  "id": "ie-905",
+  "name": "Corned beef and cabbage",
+  "synonyms": [
+   "Irish corned beef"
+  ],
+  "cuisine": "ie",
+  "cat": "HF"
+ },
+ {
+  "id": "ie-897",
+  "name": "Irish stew",
+  "synonyms": [
+   "Irish lamb stew"
+  ],
+  "cuisine": "ie",
+  "cat": "E"
+ },
+ {
+  "id": "is-1392",
+  "name": "Harðfiskur",
+  "synonyms": [
+   "Icelandic dried fish"
+  ],
+  "cuisine": "is",
+  "cat": "SN"
+ },
+ {
+  "id": "is-1389",
+  "name": "Rúgbrauð",
+  "synonyms": [
+   "Icelandic rye bread"
+  ],
+  "cuisine": "is",
+  "cat": "BR"
+ },
+ {
+  "id": "it-1157",
+  "name": "Antipasto misto italiano",
+  "synonyms": [
+   "Antipasto platter"
+  ],
+  "cuisine": "it",
+  "cat": "V"
+ },
+ {
+  "id": "it-1118",
+  "name": "Baccalà mantecato",
+  "synonyms": [
+   "Creamed salt cod"
+  ],
+  "cuisine": "it",
+  "cat": "V"
+ },
+ {
+  "id": "it-1201",
+  "name": "Bonet piemontese",
+  "synonyms": [
+   "Bonet"
+  ],
+  "cuisine": "it",
+  "cat": "PU"
+ },
+ {
+  "id": "it-1122",
+  "name": "Cacciucco alla livornese",
+  "synonyms": [
+   "Cacciucco",
+   "Livorno fish stew"
+  ],
+  "cuisine": "it",
+  "cat": "E"
+ },
+ {
+  "id": "it-1055",
+  "name": "Cannelloni ricotta e spinaci",
+  "synonyms": [
+   "Cannelloni",
+   "Cannelloni with ricotta"
+  ],
+  "cuisine": "it",
+  "cat": "AU"
+ },
+ {
+  "id": "it-1152",
+  "name": "Carciofi alla giudia",
+  "synonyms": [
+   "Jewish-style artichokes"
+  ],
+  "cuisine": "it",
+  "cat": "GZ"
+ },
+ {
+  "id": "it-1187",
+  "name": "Cassata siciliana",
+  "synonyms": [
+   "Cassata"
+  ],
+  "cuisine": "it",
+  "cat": "K"
+ },
+ {
+  "id": "it-1229",
+  "name": "Cotechino con purè",
+  "synonyms": [
+   "Cotechino"
+  ],
+  "cuisine": "it",
+  "cat": "WU"
+ },
+ {
+  "id": "it-1212",
+  "name": "Espresso italiano",
+  "synonyms": [
+   "Caffè espresso"
+  ],
+  "cuisine": "it",
+  "cat": "GT"
+ },
+ {
+  "id": "it-1175",
+  "name": "Focaccia barese",
+  "synonyms": [
+   "Focaccia di Bari"
+  ],
+  "cuisine": "it",
+  "cat": "BR"
+ },
+ {
+  "id": "it-1116",
+  "name": "Fritto misto di mare",
+  "synonyms": [
+   "Mixed fried seafood"
+  ],
+  "cuisine": "it",
+  "cat": "HFi"
+ },
+ {
+  "id": "it-1066",
+  "name": "Gnocchi alla romana",
+  "synonyms": [
+   "Roman semolina gnocchi"
+  ],
+  "cuisine": "it",
+  "cat": "AU"
+ },
+ {
+  "id": "it-1178",
+  "name": "Grissini",
+  "synonyms": [
+   "Italian breadsticks"
+  ],
+  "cuisine": "it",
+  "cat": "BR"
+ },
+ {
+  "id": "it-1131",
+  "name": "Insalata di riso",
+  "synonyms": [
+   "Italian rice salad"
+  ],
+  "cuisine": "it",
+  "cat": "SA"
+ },
+ {
+  "id": "it-1051",
+  "name": "Linguine allo scoglio",
+  "synonyms": [
+   "Spaghetti allo scoglio",
+   "Seafood pasta Italian"
+  ],
+  "cuisine": "it",
+  "cat": "NA"
+ },
+ {
+  "id": "it-1140",
+  "name": "Minestra di farro",
+  "synonyms": [
+   "Farro soup"
+  ],
+  "cuisine": "it",
+  "cat": "S"
+ },
+ {
+  "id": "it-1061",
+  "name": "Orecchiette con le cime di rapa",
+  "synonyms": [
+   "Orecchiette cime di rapa",
+   "Orecchiette with turnip tops"
+  ],
+  "cuisine": "it",
+  "cat": "NA"
+ },
+ {
+  "id": "it-1237",
+  "name": "Pane carasau con pomodoro",
+  "synonyms": [
+   "Pane guttiau"
+  ],
+  "cuisine": "it",
+  "cat": "BR"
+ },
+ {
+  "id": "it-1184",
+  "name": "Panna cotta",
+  "synonyms": [
+   "Panna cotta ai frutti di bosco"
+  ],
+  "cuisine": "it",
+  "cat": "PU"
+ },
+ {
+  "id": "it-1068",
+  "name": "Passatelli in brodo",
+  "synonyms": [
+   "Passatelli"
+  ],
+  "cuisine": "it",
+  "cat": "S"
+ },
+ {
+  "id": "it-1246",
+  "name": "Pasta alla Sorrentina",
+  "synonyms": [
+   "Sorrento pasta"
+  ],
+  "cuisine": "it",
+  "cat": "NA"
+ },
+ {
+  "id": "it-1190",
+  "name": "Pastiera napoletana",
+  "synonyms": [
+   "Pastiera"
+  ],
+  "cuisine": "it",
+  "cat": "K"
+ },
+ {
+  "id": "it-1176",
+  "name": "Piadina romagnola",
+  "synonyms": [
+   "Piadina"
+  ],
+  "cuisine": "it",
+  "cat": "BR"
+ },
+ {
+  "id": "it-1166",
+  "name": "Pizza Diavola",
+  "synonyms": [
+   "Devil pizza",
+   "Spicy salami pizza"
+  ],
+  "cuisine": "it",
+  "cat": "PZ"
+ },
+ {
+  "id": "it-1170",
+  "name": "Pizza Prosciutto e funghi",
+  "synonyms": [
+   "Ham and mushroom pizza"
+  ],
+  "cuisine": "it",
+  "cat": "PZ"
+ },
+ {
+  "id": "it-1062",
+  "name": "Pizzoccheri della Valtellina",
+  "synonyms": [
+   "Pizzoccheri"
+  ],
+  "cuisine": "it",
+  "cat": "NA"
+ },
+ {
+  "id": "it-1113",
+  "name": "Pollo alla diavola",
+  "synonyms": [
+   "Devilled chicken Tuscan"
+  ],
+  "cuisine": "it",
+  "cat": "HG"
+ },
+ {
+  "id": "it-1251",
+  "name": "Ravioli del plin",
+  "synonyms": [
+   "Agnolotti del plin"
+  ],
+  "cuisine": "it",
+  "cat": "NA"
+ },
+ {
+  "id": "it-1086",
+  "name": "Risotto agli asparagi",
+  "synonyms": [
+   "Asparagus risotto"
+  ],
+  "cuisine": "it",
+  "cat": "RP"
+ },
+ {
+  "id": "it-1084",
+  "name": "Risotto alla pescatora",
+  "synonyms": [
+   "Seafood risotto"
+  ],
+  "cuisine": "it",
+  "cat": "RP"
+ },
+ {
+  "id": "it-1119",
+  "name": "Sarde in saor",
+  "synonyms": [
+   "Sarde a beccafico",
+   "Sweet and sour sardines Venice"
+  ],
+  "cuisine": "it",
+  "cat": "HFi"
+ },
+ {
+  "id": "it-1188",
+  "name": "Sfogliatella riccia",
+  "synonyms": [
+   "Sfogliatella"
+  ],
+  "cuisine": "it",
+  "cat": "G"
+ },
+ {
+  "id": "it-1242",
+  "name": "Spaghetti al tonno",
+  "synonyms": [
+   "Tuna spaghetti"
+  ],
+  "cuisine": "it",
+  "cat": "NA"
+ },
+ {
+  "id": "it-1043",
+  "name": "Spaghetti cacio e pepe",
+  "synonyms": [
+   "Cacio e pepe",
+   "Pasta cacio e pepe"
+  ],
+  "cuisine": "it",
+  "cat": "NA"
+ },
+ {
+  "id": "it-1067",
+  "name": "Strozzapreti alla romagnola",
+  "synonyms": [
+   "Strozzapreti"
+  ],
+  "cuisine": "it",
+  "cat": "NA"
+ },
+ {
+  "id": "it-1053",
+  "name": "Tagliatelle al ragù",
+  "synonyms": [
+   "Ragù alla bolognese",
+   "Tagliatelle bolognese"
+  ],
+  "cuisine": "it",
+  "cat": "NA"
+ },
+ {
+  "id": "it-1199",
+  "name": "Torta della nonna",
+  "synonyms": [
+   "Nonna's cake"
+  ],
+  "cuisine": "it",
+  "cat": "K"
+ },
+ {
+  "id": "it-1104",
+  "name": "Trippa alla fiorentina",
+  "synonyms": [
+   "Florentine tripe"
+  ],
+  "cuisine": "it",
+  "cat": "HF"
+ },
+ {
+  "id": "it-1096",
+  "name": "Vitello tonnato",
+  "synonyms": [
+   "Veal with tuna sauce"
+  ],
+  "cuisine": "it",
+  "cat": "V"
+ },
+ {
+  "id": "it-1141",
+  "name": "Zuppa di lenticchie",
+  "synonyms": [
+   "Italian lentil soup"
+  ],
+  "cuisine": "it",
+  "cat": "S"
+ },
+ {
+  "id": "lt-1422",
+  "name": "Koldūnai",
+  "synonyms": [
+   "Lithuanian koldūnai"
+  ],
+  "cuisine": "lt",
+  "cat": "MA"
+ },
+ {
+  "id": "lu-371",
+  "name": "Bouchées à la reine luxembourgeoise",
+  "synonyms": [
+   "Luxembourg vol-au-vent"
+  ],
+  "cuisine": "lu",
+  "cat": "HG"
+ },
+ {
+  "id": "lv-1409",
+  "name": "Biezpiena sieriņš",
+  "synonyms": [
+   "Latvian curd snack"
+  ],
+  "cuisine": "lv",
+  "cat": "SN"
+ },
+ {
+  "id": "lv-1403",
+  "name": "Pelēkie zirņi ar speķi",
+  "synonyms": [
+   "Latvian grey peas with bacon"
+  ],
+  "cuisine": "lv",
+  "cat": "HH"
+ },
+ {
+  "id": "mt-354",
+  "name": "Imqaret",
+  "synonyms": [
+   "Maltese imqaret"
+  ],
+  "cuisine": "mt",
+  "cat": "G"
+ },
+ {
+  "id": "nl-395",
+  "name": "Appelflappen",
+  "synonyms": [
+   "Appelflap"
+  ],
+  "cuisine": "nl",
+  "cat": "G"
+ },
+ {
+  "id": "nl-399",
+  "name": "Boterkoek",
+  "synonyms": [
+   "Dutch butter cake"
+  ],
+  "cuisine": "nl",
+  "cat": "K"
+ },
+ {
+  "id": "nl-383",
+  "name": "Frikandel",
+  "synonyms": [
+   "Frikandel speciaal"
+  ],
+  "cuisine": "nl",
+  "cat": "SN"
+ },
+ {
+  "id": "nl-384",
+  "name": "Kaassoufflé",
+  "synonyms": [
+   "Cheese soufflé Dutch"
+  ],
+  "cuisine": "nl",
+  "cat": "SN"
+ },
+ {
+  "id": "nl-413",
+  "name": "Lekkerbek",
+  "synonyms": [
+   "Fried fish battered Dutch"
+  ],
+  "cuisine": "nl",
+  "cat": "HFi"
+ },
+ {
+  "id": "nl-392",
+  "name": "Poffertjes",
+  "synonyms": [
+   "Dutch mini pancakes"
+  ],
+  "cuisine": "nl",
+  "cat": "G"
+ },
+ {
+  "id": "nl-376",
+  "name": "Stamppot andijvie",
+  "synonyms": [
+   "Andijviestamppot"
+  ],
+  "cuisine": "nl",
+  "cat": "E"
+ },
+ {
+  "id": "nl-418",
+  "name": "Tompouce",
+  "synonyms": [
+   "Dutch tompouce"
+  ],
+  "cuisine": "nl",
+  "cat": "G"
+ },
+ {
+  "id": "no-1320",
+  "name": "Fenalår",
+  "synonyms": [
+   "Norwegian cured lamb leg"
+  ],
+  "cuisine": "no",
+  "cat": "V"
+ },
+ {
+  "id": "no-1308",
+  "name": "Lapskaus",
+  "synonyms": [
+   "Norwegian lapskaus"
+  ],
+  "cuisine": "no",
+  "cat": "E"
+ },
+ {
+  "id": "no-1307",
+  "name": "Ribbe",
+  "synonyms": [
+   "Norwegian pork belly Christmas"
+  ],
+  "cuisine": "no",
+  "cat": "HF"
+ },
+ {
+  "id": "pl-1488",
+  "name": "Babka wielkanocna",
+  "synonyms": [
+   "Polish Easter babka"
+  ],
+  "cuisine": "pl",
+  "cat": "K"
+ },
+ {
+  "id": "pl-1495",
+  "name": "Budyń",
+  "synonyms": [
+   "Polish pudding"
+  ],
+  "cuisine": "pl",
+  "cat": "PU"
+ },
+ {
+  "id": "pl-1438",
+  "name": "Gołąbki",
+  "synonyms": [
+   "Polish stuffed cabbage"
+  ],
+  "cuisine": "pl",
+  "cat": "DO"
+ },
+ {
+  "id": "pl-1494",
+  "name": "Kisiel",
+  "synonyms": [
+   "Polish kisiel"
+  ],
+  "cuisine": "pl",
+  "cat": "D"
+ },
+ {
+  "id": "pl-1439",
+  "name": "Kotlet schabowy",
+  "synonyms": [
+   "Polish pork cutlet"
+  ],
+  "cuisine": "pl",
+  "cat": "HF"
+ },
+ {
+  "id": "pl-1485",
+  "name": "Makowiec",
+  "synonyms": [
+   "Poppy seed roll Polish"
+  ],
+  "cuisine": "pl",
+  "cat": "K"
+ },
+ {
+  "id": "pl-1432",
+  "name": "Pierogi leniwe",
+  "synonyms": [
+   "Leniwe pierogi"
+  ],
+  "cuisine": "pl",
+  "cat": "KN"
+ },
+ {
+  "id": "pl-1428",
+  "name": "Pierogi z mięsem",
+  "synonyms": [
+   "Polish meat pierogi"
+  ],
+  "cuisine": "pl",
+  "cat": "MA"
+ },
+ {
+  "id": "pl-1489",
+  "name": "Pączki",
+  "synonyms": [
+   "Polish doughnuts"
+  ],
+  "cuisine": "pl",
+  "cat": "G"
+ },
+ {
+  "id": "pl-1482",
+  "name": "Smalec ze skwarkami",
+  "synonyms": [
+   "Polish lard spread"
+  ],
+  "cuisine": "pl",
+  "cat": "SD"
+ },
+ {
+  "id": "pl-1436",
+  "name": "Uszka",
+  "synonyms": [
+   "Polish uszka"
+  ],
+  "cuisine": "pl",
+  "cat": "MA"
+ },
+ {
+  "id": "pl-1452",
+  "name": "Zupa ogórkowa",
+  "synonyms": [
+   "Polish pickle soup"
+  ],
+  "cuisine": "pl",
+  "cat": "S"
+ },
+ {
+  "id": "pl-1448",
+  "name": "Żurek",
+  "synonyms": [
+   "Polish sour rye soup"
+  ],
+  "cuisine": "pl",
+  "cat": "S"
+ },
+ {
+  "id": "pt-1607",
+  "name": "Arroz de polvo",
+  "synonyms": [
+   "Octopus rice Portuguese"
+  ],
+  "cuisine": "pt",
+  "cat": "RP"
+ },
+ {
+  "id": "pt-1683",
+  "name": "Bacalhau espiritual",
+  "synonyms": [
+   "Bacalhau espiritual soufflé"
+  ],
+  "cuisine": "pt",
+  "cat": "AU"
+ },
+ {
+  "id": "pt-1631",
+  "name": "Bifana",
+  "synonyms": [
+   "Bifana no pão"
+  ],
+  "cuisine": "pt",
+  "cat": "SN"
+ },
+ {
+  "id": "pt-1662",
+  "name": "Bolo do caco",
+  "synonyms": [
+   "Madeiran bolo do caco"
+  ],
+  "cuisine": "pt",
+  "cat": "BR"
+ },
+ {
+  "id": "pt-1619",
+  "name": "Canja de galinha",
+  "synonyms": [
+   "Portuguese chicken soup"
+  ],
+  "cuisine": "pt",
+  "cat": "S"
+ },
+ {
+  "id": "pt-1659",
+  "name": "Filhós",
+  "synonyms": [
+   "Filhoses"
+  ],
+  "cuisine": "pt",
+  "cat": "G"
+ },
+ {
+  "id": "pt-1637",
+  "name": "Frango piri-piri",
+  "synonyms": [
+   "Piri-piri chicken"
+  ],
+  "cuisine": "pt",
+  "cat": "HG"
+ },
+ {
+  "id": "pt-1634",
+  "name": "Leitão assado da Bairrada",
+  "synonyms": [
+   "Leitão à Bairrada"
+  ],
+  "cuisine": "pt",
+  "cat": "HF"
+ },
+ {
+  "id": "pt-1606",
+  "name": "Pastéis de bacalhau",
+  "synonyms": [
+   "Bolinhos de bacalhau",
+   "Cod fritters Portuguese"
+  ],
+  "cuisine": "pt",
+  "cat": "SN"
+ },
+ {
+  "id": "pt-1653",
+  "name": "Queijadas de Sintra",
+  "synonyms": [
+   "Queijada"
+  ],
+  "cuisine": "pt",
+  "cat": "G"
+ },
+ {
+  "id": "pt-1616",
+  "name": "Sopa de feijão verde",
+  "synonyms": [
+   "Green bean soup Portuguese"
+  ],
+  "cuisine": "pt",
+  "cat": "S"
+ },
+ {
+  "id": "pt-1633",
+  "name": "Tripas à moda do Porto",
+  "synonyms": [
+   "Porto tripe"
+  ],
+  "cuisine": "pt",
+  "cat": "E"
+ },
+ {
+  "id": "ro-247",
+  "name": "Ciorbă de perișoare",
+  "synonyms": [
+   "Romanian meatball soup"
+  ],
+  "cuisine": "ro",
+  "cat": "S"
+ },
+ {
+  "id": "ro-275",
+  "name": "Cornulețe",
+  "synonyms": [
+   "Romanian cornulețe"
+  ],
+  "cuisine": "ro",
+  "cat": "G"
+ },
+ {
+  "id": "ro-262",
+  "name": "Drob de miel",
+  "synonyms": [
+   "Romanian lamb haggis"
+  ],
+  "cuisine": "ro",
+  "cat": "HF"
+ },
+ {
+  "id": "ro-267",
+  "name": "Iahnie de fasole",
+  "synonyms": [
+   "Romanian bean stew"
+  ],
+  "cuisine": "ro",
+  "cat": "E"
+ },
+ {
+  "id": "ro-257",
+  "name": "Plăcintă cu brânză",
+  "synonyms": [
+   "Romanian cheese pie"
+  ],
+  "cuisine": "ro",
+  "cat": "BO"
+ },
+ {
+  "id": "ro-251",
+  "name": "Zacuscă",
+  "synonyms": [
+   "Romanian zacuscă"
+  ],
+  "cuisine": "ro",
+  "cat": "SD"
+ },
+ {
+  "id": "rs-130",
+  "name": "Krempita",
+  "synonyms": [
+   "Serbian cream cake"
+  ],
+  "cuisine": "rs",
+  "cat": "K"
+ },
+ {
+  "id": "rs-117",
+  "name": "Proja",
+  "synonyms": [
+   "Serbian proja cornbread"
+  ],
+  "cuisine": "rs",
+  "cat": "BR"
+ },
+ {
+  "id": "rs-135",
+  "name": "Đuveč",
+  "synonyms": [
+   "Serbian djuvec"
+  ],
+  "cuisine": "rs",
+  "cat": "E"
+ },
+ {
+  "id": "ru-327",
+  "name": "Pelmeni Siberian",
+  "synonyms": [
+   "Siberian pelmeni"
+  ],
+  "cuisine": "ru",
+  "cat": "MA"
+ },
+ {
+  "id": "se-1278",
+  "name": "Biff à la Lindström",
+  "synonyms": [
+   "Biff Lindström"
+  ],
+  "cuisine": "se",
+  "cat": "KF"
+ },
+ {
+  "id": "se-1281",
+  "name": "Fiskgratäng",
+  "synonyms": [
+   "Swedish fish gratin"
+  ],
+  "cuisine": "se",
+  "cat": "AU"
+ },
+ {
+  "id": "se-1293",
+  "name": "Havregrynsgröt",
+  "synonyms": [
+   "Swedish oat porridge"
+  ],
+  "cuisine": "se",
+  "cat": "FR"
+ },
+ {
+  "id": "se-1283",
+  "name": "Kalops",
+  "synonyms": [
+   "Swedish kalops"
+  ],
+  "cuisine": "se",
+  "cat": "E"
+ },
+ {
+  "id": "se-1273",
+  "name": "Korv stroganoff",
+  "synonyms": [
+   "Swedish sausage stroganoff"
+  ],
+  "cuisine": "se",
+  "cat": "WU"
+ },
+ {
+  "id": "se-1294",
+  "name": "Ostkaka",
+  "synonyms": [
+   "Swedish ostkaka"
+  ],
+  "cuisine": "se",
+  "cat": "K"
+ },
+ {
+  "id": "se-1261",
+  "name": "Pytt i panna",
+  "synonyms": [
+   "Pyttipanna Swedish"
+  ],
+  "cuisine": "se",
+  "cat": "PF"
+ },
+ {
+  "id": "se-1268",
+  "name": "Skagenröra",
+  "synonyms": [
+   "Toast Skagen"
+  ],
+  "cuisine": "se",
+  "cat": "V"
+ },
+ {
+  "id": "se-1286",
+  "name": "Västerbottenpaj",
+  "synonyms": [
+   "Västerbotten cheese pie"
+  ],
+  "cuisine": "se",
+  "cat": "PZ"
+ },
+ {
+  "id": "si-231",
+  "name": "Ajdovi žganci",
+  "synonyms": [
+   "Slovenian buckwheat žganci"
+  ],
+  "cuisine": "si",
+  "cat": "B"
+ },
+ {
+  "id": "si-236",
+  "name": "Kraški pršut",
+  "synonyms": [
+   "Karst prosciutto"
+  ],
+  "cuisine": "si",
+  "cat": "V"
+ },
+ {
+  "id": "si-241",
+  "name": "Telečja obara",
+  "synonyms": [
+   "Slovenian veal stew"
+  ],
+  "cuisine": "si",
+  "cat": "E"
+ },
+ {
+  "id": "sk-1544",
+  "name": "Parené buchty",
+  "synonyms": [
+   "Slovak steamed buns"
+  ],
+  "cuisine": "sk",
+  "cat": "G"
+ },
+ {
+  "id": "ua-306",
+  "name": "Blini",
+  "synonyms": [
+   "Russian blini"
+  ],
+  "cuisine": "ua",
+  "cat": "PF"
+ },
+ {
+  "id": "ua-309",
+  "name": "Kasha buckwheat",
+  "synonyms": [
+   "Buckwheat kasha"
+  ],
+  "cuisine": "ua",
+  "cat": "B"
+ },
+ {
+  "id": "ua-303",
+  "name": "Okroshka",
+  "synonyms": [
+   "Okroshka"
+  ],
+  "cuisine": "ua",
+  "cat": "S"
+ },
+ {
+  "id": "ua-295",
+  "name": "Vinegret",
+  "synonyms": [
+   "Russian vinaigrette salad"
+  ],
+  "cuisine": "ua",
+  "cat": "SA"
+ }
+]

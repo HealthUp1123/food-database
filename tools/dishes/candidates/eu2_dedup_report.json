@@ -1,0 +1,13 @@
+{
+ "no_candidate": [],
+ "dup_existing": [
+  "Knödel di speck",
+  "Bündner Gerstensuppe"
+ ],
+ "dup_among_new": [
+  "Bouchées à la reine",
+  "Pastéis de bacalhau"
+ ],
+ "bad_line": [],
+ "syn_dropped": 78
+}

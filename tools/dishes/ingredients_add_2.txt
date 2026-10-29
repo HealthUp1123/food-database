@@ -1,0 +1,5 @@
+x2_haggis|Haggis|260|11|16|16|1.5
+x2_kutteln|Kutteln (Rindermagen, gegart)|85|12|0|4|0
+x2_biskuit|Löffelbiskuit|390|8|75|6|2
+x2_speculoos_creme|Spekulatius-Aufstrich (Biscoff-Art)|570|3|58|36|1
+x2_limonade|Limonade/Bitter-Orangen-Limonade|42|0|10.5|0|0

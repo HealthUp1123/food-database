@@ -3023,5 +3023,115 @@
       "fat": 44.0,
       "fiber": 0.0
     }
+  },
+  {
+    "key": "x2_haggis",
+    "name": "Haggis",
+    "per100g": {
+      "kcal": 260.0,
+      "protein": 11.0,
+      "carbs": 16.0,
+      "fat": 16.0,
+      "fiber": 1.5
+    }
+  },
+  {
+    "key": "x2_kutteln",
+    "name": "Kutteln (Rindermagen, gegart)",
+    "per100g": {
+      "kcal": 85.0,
+      "protein": 12.0,
+      "carbs": 0.0,
+      "fat": 4.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "x2_biskuit",
+    "name": "Löffelbiskuit",
+    "per100g": {
+      "kcal": 390.0,
+      "protein": 8.0,
+      "carbs": 75.0,
+      "fat": 6.0,
+      "fiber": 2.0
+    }
+  },
+  {
+    "key": "x2_speculoos_creme",
+    "name": "Spekulatius-Aufstrich (Biscoff-Art)",
+    "per100g": {
+      "kcal": 570.0,
+      "protein": 3.0,
+      "carbs": 58.0,
+      "fat": 36.0,
+      "fiber": 1.0
+    }
+  },
+  {
+    "key": "x2_limonade",
+    "name": "Limonade/Bitter-Orangen-Limonade",
+    "per100g": {
+      "kcal": 42.0,
+      "protein": 0.0,
+      "carbs": 10.5,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "x3_pizzateig",
+    "name": "Pizzateig (roh)",
+    "per100g": {
+      "kcal": 265.0,
+      "protein": 8.0,
+      "carbs": 52.0,
+      "fat": 2.0,
+      "fiber": 2.5
+    }
+  },
+  {
+    "key": "x4_buchweizen",
+    "name": "Buchweizen (Graupen/Mehl)",
+    "per100g": {
+      "kcal": 343.0,
+      "protein": 13.3,
+      "carbs": 71.5,
+      "fat": 3.4,
+      "fiber": 10.0
+    }
+  },
+  {
+    "key": "x4_roggenmehl",
+    "name": "Roggenmehl Type 1370",
+    "per100g": {
+      "kcal": 325.0,
+      "protein": 9.0,
+      "carbs": 68.0,
+      "fat": 1.7,
+      "fiber": 14.0
+    }
+  },
+  {
+    "key": "x4_seetang",
+    "name": "Seetang/Purpurtang (Laver), gegart",
+    "per100g": {
+      "kcal": 35.0,
+      "protein": 5.8,
+      "carbs": 5.1,
+      "fat": 0.3,
+      "fiber": 0.3
+    }
+  },
+  {
+    "key": "x4_erdmandel",
+    "name": "Erdmandeln (Tigernüsse)",
+    "per100g": {
+      "kcal": 415.0,
+      "protein": 5.0,
+      "carbs": 45.0,
+      "fat": 24.0,
+      "fiber": 10.0
+    }
   }
 ]
