@@ -11,7 +11,7 @@ const get = async (path, init) => {
 let t = await get('/health');
 assert.equal(t.res.status, 200);
 assert.equal(t.body.status, 'ok');
-assert.equal(t.body.count, 4540);
+assert.equal(t.body.count, 4849);
 
 // Karnıyarık: ASCII, Originalschreibweise, ein fehlendes i.
 t = await get('/search?q=karniyarik&limit=3');
@@ -85,6 +85,19 @@ assert.equal(t.body.fdc_id, 170457);
 assert.ok(t.body.source.startsWith('USDA FoodData Central'));
 assert.equal(t.body.per100g.kcal, 18);
 assert.equal(t.body.per100g.sugar, 2.6);
+
+// Zubereitungsvarianten der Grundzutaten (gegrillt, getrocknet, Dose, ...).
+t = await get('/search?q=tomate%20getrocknet&limit=3');
+assert.equal(t.body.results[0].id, 'tomate-getrocknet');
+assert.equal(t.body.results[0].prepared, 'base_ingredient');
+assert.equal(t.body.results[0].state, 'dried');
+t = await get('/item/tomate-getrocknet');
+assert.equal(t.body.fdc_id, 168567);
+assert.equal(t.body.quality, 'reference');
+assert.equal(t.body.note, 'Grundzutat (getrocknet), kein Fertigprodukt');
+t = await get('/search?q=haehnchenbrust%20gegrillt&limit=3');
+assert.equal(t.body.results[0].id, 'haehnchenbrust-gegrillt');
+assert.equal(t.body.results[0].state, 'grilled');
 
 t = await get('/item/gibt-es-nicht');
 assert.equal(t.res.status, 404);
