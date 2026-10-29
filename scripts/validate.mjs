@@ -3,7 +3,7 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { isValidEan } from '../src/search.mjs';
+import { isValidEan, LANGS, REQUIRED_LANGS } from '../src/search.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const file = process.argv[2] || join(root, 'data', 'foods.json');
@@ -41,6 +41,23 @@ data.forEach((e, i) => {
   else ids.set(e.id, i);
 
   if (typeof e.name !== 'string' || !e.name.trim()) err(ctx, 'name fehlt');
+  // Mehrsprachige Namen: de/en/tr/fr/es/pt Pflicht, it/zh optional. Etablierte Gerichtsnamen dürfen in allen Sprachen gleich sein.
+  if (!e.names || typeof e.names !== 'object' || Array.isArray(e.names)) err(ctx, `names fehlt (Objekt mit ${REQUIRED_LANGS.join('/')})`);
+  else {
+    for (const l of REQUIRED_LANGS) if (typeof e.names[l] !== 'string' || !e.names[l].trim()) err(ctx, `names.${l} fehlt oder ist leer`);
+    for (const [l, v] of Object.entries(e.names)) {
+      if (!LANGS.includes(l)) err(ctx, `names.${l}: unbekannte Sprache (erlaubt: ${LANGS.join(', ')})`);
+      else if (typeof v !== 'string' || !v.trim() || v !== v.trim()) err(ctx, `names.${l} muss ein nicht-leerer String ohne Rand-Leerzeichen sein`);
+    }
+  }
+  if ('aliases' in e) {
+    if (!e.aliases || typeof e.aliases !== 'object' || Array.isArray(e.aliases)) err(ctx, 'aliases muss ein Objekt {sprache: [..]} sein');
+    else for (const [l, arr] of Object.entries(e.aliases)) {
+      if (!LANGS.includes(l)) err(ctx, `aliases.${l}: unbekannte Sprache`);
+      else if (!Array.isArray(arr) || !arr.length || arr.some((a) => typeof a !== 'string' || !a.trim())) err(ctx, `aliases.${l} muss ein nicht-leeres Array nicht-leerer Strings sein`);
+      else if (new Set(arr).size !== arr.length) err(ctx, `aliases.${l} enthält Duplikate`);
+    }
+  }
   if (!['item', 'dish'].includes(e.type)) err(ctx, 'type muss "item" oder "dish" sein');
 
   if (!('barcode' in e)) err(ctx, 'barcode fehlt (string oder null)');

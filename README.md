@@ -43,6 +43,7 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
 {
   "id": "karniyarik",
   "name": "Karnıyarık",
+  "names": { "de": "Karnıyarık", "en": "Karnıyarık", "tr": "Karnıyarık", "fr": "Karnıyarık", "es": "Karnıyarık", "pt": "Karnıyarık", "it": "Karnıyarık", "zh": "Karnıyarık" },
   "type": "dish",
   "barcode": null,
   "synonyms": ["Karniyarik", "Gespaltener Bauch", "Gefüllte Aubergine mit Hack"],
@@ -65,6 +66,8 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
 | --- | --- | --- |
 | `id` | ja | Eindeutig, klein, mit Bindestrichen (`karniyarik`). Nicht mehr ändern, wenn die App sie speichert. |
 | `name` | ja | Anzeigename, deutsch oder in der Originalschreibung (z. B. `Karnıyarık`). |
+| `names` | ja | Name je Sprache: `de`, `en`, `tr`, `fr`, `es`, `pt` sind Pflicht (nicht leer), `it` und `zh` sind zusätzlich gesetzt. Siehe [Mehrsprachige Namen](#mehrsprachige-namen). |
+| `aliases` | nein | Weitere landesübliche Namen je Sprache, z. B. `{ "de": ["Paradeiser"], "es": ["Jitomate"], "pt": ["Curgete"] }`. Werden durchsucht, aber nicht angezeigt. |
 | `type` | ja | `"dish"` (Gericht) oder `"item"` (Artikel/Zutat/Produkt). Gerichte sind `dish`, Grundzutaten sind `item`. |
 | `barcode` | ja | EAN-8/EAN-13 als **String** (führende Nullen) oder `null`. `null` ist gültig und bei allen jetzigen Gerichten gesetzt (kein Verpackungs-Barcode). Ist ein String gesetzt, muss die Prüfziffer stimmen und der Code eindeutig sein. |
 | `synonyms` | ja | Alternative Namen und Schreibweisen (darf leer sein: `[]`). |
@@ -91,6 +94,32 @@ Gerichte sind pro 100 g angegeben. `portion.grams` ist das übliche Tellergewich
 Kategorien sind Küchengruppen, keine Ernährungslabels. Dieselbe Speise kann regional anders heißen; hier steht jeweils ein verbreitetes Standardrezept.
 
 `off_similar` steht nur, wenn der Dump ein gleichnamiges Fertigprodukt kannte (Beispiel: `wiener-schnitzel`). Fehlt das Feld, gab es keinen solchen Treffer. Die Barcodes gehören zum Fertigprodukt, nicht zum Gericht.
+
+## Mehrsprachige Namen
+
+Die App gibt es auf Deutsch, Englisch, Türkisch, Chinesisch, Spanisch und Italienisch. Deshalb hat jeder Eintrag ein Feld `names` mit dem Namen in jeder Sprache. `name` bleibt unverändert und ist weiterhin der Hauptname (Fallback).
+
+```json
+{
+  "id": "tomate-roh",
+  "name": "Tomate, roh",
+  "names": { "de": "Tomate, roh", "en": "Tomato, raw", "tr": "Domates, çiğ", "fr": "Tomate, crue", "es": "Tomate, crudo", "pt": "Tomate, cru", "it": "Pomodoro, crudo", "zh": "番茄（生）" },
+  "aliases": { "de": ["Paradeiser"], "es": ["Jitomate"], "zh": ["西红柿"] }
+}
+```
+
+**Pflicht-Sprachen:** `de`, `en`, `tr`, `fr`, `es`, `pt`. Der Validator bricht ab, wenn eine davon fehlt oder leer ist. **Zusätzlich:** `it` und `zh`. Andere Sprachcodes sind nicht erlaubt.
+
+**Regeln für die Namen:**
+
+- **Grundzutaten** (Tomate, Gurke, Reis, Hähnchenbrust …) und ihre Zubereitungen (gekocht, gegrillt, getrocknet, Dose …) haben in jeder Sprache den dort üblichen Namen: `Gurke` → `Cucumber`, `Salatalık`, `Concombre`, `Pepino`, `Pepino`, `Cetriolo`, `黄瓜`.
+- **Beschreibende Gerichte** werden übersetzt, z. B. `Gefüllte Paprika` → `Stuffed peppers`, `Biber dolması`, `Poivrons farcis` usw. Bei Landesgerichten steht oft der Originalname dabei, z. B. `Stifado (Rindfleisch-Zwiebel-Schmortopf)`.
+- **Gerichte mit etabliertem Eigennamen** behalten in allen Sprachen den Originalnamen, z. B. `Karnıyarık`, `Lahmacun`, `Moussaka`, `Pastitsio`, `Francesinha`, `Kaiserschmarrn`. Für `zh` kann dann eine übliche chinesische Form stehen (z. B. `Pastel de nata` → `葡式蛋挞`); der Originalname ist dann Alias.
+- Keine erfundenen Wort-für-Wort-Übersetzungen. Regionale Varianten stehen in `aliases`: Portugiesisch ist pt-PT zuerst, brasilianische Formen als Alias (z. B. `Curgete`/`Abobrinha`); Spanisch ist Spanien zuerst, lateinamerikanische Formen als Alias (`Patatas fritas`/`Papas fritas`).
+
+**In der App anzeigen:** `names[appSprache] ?? name`. Bei der API geht das auch direkt mit `?lang=` (siehe unten): dann enthält jeder Treffer `display_name`. Für Sprachen der App ohne eigenes Feld (z. B. später weitere) einfach `en` oder `name` als Fallback nehmen.
+
+**Suche:** Die Suche läuft immer über alle Sprachen gleichzeitig (`name`, `names.*`, `aliases.*`, `synonyms`). `domates`, `tomato`, `pomodoro`, `番茄` und `Tomate` finden also alle `tomate-roh`; `courgette`, `abobrinha` und `calabacín` finden `zucchini-roh`.
 
 ## Geprüfte Werte nachtragen
 
@@ -125,14 +154,16 @@ node scripts/search-local.mjs "Karnıyarık"   # ı = i
 node scripts/search-local.mjs karniyark       # ein Zeichen daneben
 node scripts/search-local.mjs koelsch         # oe = ö
 node scripts/search-local.mjs "Karnıyarık" --limit 3 --json
+node scripts/search-local.mjs domates --lang en  # sucht in allen Sprachen, zeigt englische Namen
 node scripts/test-worker.mjs                  # testet den API-Handler
 ```
 
 ### So funktioniert die Suche
 
-- Groß-/Kleinschreibung, Umlaute und türkische Buchstaben sind egal: `Karnıyarık`, `karniyarik` und `Karniyarik` finden dasselbe (`ı`/`İ` → `i`, `ş` → `s`, `ğ` → `g`, `ç` → `c`, `ä`/`ae` → `a`, `ö`/`oe` → `o`, `ü`/`ue` → `u`, `ß` → `ss`).
+- Groß-/Kleinschreibung, Umlaute, Akzente und türkische Buchstaben sind egal: `Karnıyarık`, `karniyarik` und `Karniyarik` finden dasselbe (`ı`/`İ` → `i`, `ş` → `s`, `ğ` → `g`, `ç` → `c`, `ä`/`ae` → `a`, `ö`/`oe` → `o`, `ü`/`ue` → `u`, `ß` → `ss`, `é`/`è`/`ñ`/`ã` usw. → Grundbuchstabe, `ø` → `o`, `æ` → `ae`, `ł` → `l`). Chinesische Schriftzeichen bleiben erhalten (`番茄`).
 - Reihenfolge der Treffer: exakt → Wortanfang (Präfix) → Teilstring → Tippfehler (Levenshtein-Distanz 1 bei 3–5 Zeichen, 2 ab 6 Zeichen; unter 3 Zeichen keine Fehlertoleranz). `karniyark` trifft deshalb `Karnıyarık`.
-- Gesucht wird in `name` und `synonyms`. Treffer im Namen stehen vor Treffern über Synonyme.
+- Gesucht wird in `name`, allen `names.*` (alle Sprachen), allen `aliases.*` und `synonyms`. Treffer in einem Namen stehen vor Treffern über Aliase/Synonyme.
+- Ist der ganze Suchbegriff gleich einem Namen oder dem Kopfwort eines Namens (`domates` ↔ `Domates, çiğ`), steht der Eintrag ganz oben. Bei Gleichstand kommt die rohe Grundzutat vor Zubereitungen und vor Gerichten.
 - Mehrere Wörter: Alle Wörter müssen passen.
 
 ## API
@@ -145,20 +176,23 @@ BASE="https://food-database-api.<dein-account>.workers.dev"
 
 | Endpunkt | Beschreibung |
 | --- | --- |
-| `GET /search?q=<text>&limit=<n>` | Suche in Name und Synonymen. `limit` 1–50, Standard 10. Treffer **ohne** `ingredients` (die Liste wäre in jeder Suche Ballast). Nährwerte, Portion, Küche und Kategorie sind dabei. |
-| `GET /item/{id}` | Voller Eintrag inklusive `ingredients`. 404, wenn die `id` fehlt. |
+| `GET /search?q=<text>&limit=<n>&lang=<sprache>` | Suche in Name, allen Sprachnamen, Aliasen und Synonymen. Optional `lang` (`de`, `en`, `tr`, `fr`, `es`, `pt`, `it`, `zh`; `pt-BR` usw. wird auf `pt` gekürzt): dann hat jeder Treffer zusätzlich `display_name` in dieser Sprache, und Treffer im Namen dieser Sprache werden bevorzugt. Unbekannte Sprache → 400. `limit` 1–50, Standard 10. Treffer **ohne** `ingredients` (die Liste wäre in jeder Suche Ballast). Nährwerte, Portion, Küche und Kategorie sind dabei. |
+| `GET /item/{id}?lang=<sprache>` | Voller Eintrag inklusive `ingredients` (mit `lang` zusätzlich `display_name`). 404, wenn die `id` fehlt. |
 | `GET /barcode/{ean}` | Voller Eintrag zu einer EAN-8/EAN-13. 400 bei ungültiger Prüfziffer, 404 wenn unbekannt. Aktuell hat kein Gericht einen Barcode (`null`), der Endpunkt ist für spätere geprüfte Produkte da. |
-| `GET /health` | Status und Anzahl der Einträge. |
+| `GET /health` | Status, Anzahl der Einträge und unterstützte Sprachen. |
 
 ```bash
 curl "$BASE/health"
-# {"status":"ok","count":4926}
+# {"status":"ok","count":4926,"languages":["de","en","tr","fr","es","pt","it","zh"]}
 
 curl "$BASE/search?q=karniyarik&limit=5"
 # {"query":"karniyarik","count":1,"results":[{"id":"karniyarik","name":"Karnıyarık","barcode":null, ...}]}
 
 curl "$BASE/search?q=Karn%C4%B1yar%C4%B1k"
 curl "$BASE/search?q=karniyark"
+
+curl "$BASE/search?q=domates&lang=en&limit=3"
+# {"query":"domates","lang":"en","count":3,"results":[{"id":"tomate-roh","name":"Tomate, roh","display_name":"Tomato, raw", ...}]}
 
 curl "$BASE/item/karniyarik"
 # voller Eintrag, inkl. ingredients
@@ -275,6 +309,7 @@ Das schreibt dort `foods.json`, eine aktualisierte `ingredients.json` und `build
 - [x] Gerichte und Fertigprodukte trennen; 2114 Gerichte mit `off_similar` aus dem OFF-Dump vom 29.10.2026 markiert, keines entfernt
 - [x] 295 Grundzutaten mit USDA-Referenzwerten (`quality: "reference"`, inkl. Zucker)
 - [x] 309 Zubereitungsvarianten der Grundzutaten (gekocht, gegrillt, gebraten, getrocknet, tiefgekühlt, Dose, Saft, geröstet, geräuchert), ebenfalls 1:1 aus USDA
+- [x] Mehrsprachige Namen (`names` de/en/tr/fr/es/pt Pflicht, dazu it/zh; `aliases`) und Suche über alle Sprachen, `?lang=` in der API
 - [ ] Einzelne Einträge mit geprüften Werten überschreiben (`quality: "verified"`, Quelle im Feld `source`)
 - [ ] Echte Barcodes ergänzen, wo ein verpacktes Produkt dahintersteht
 - [ ] API deployen und in die App einbinden

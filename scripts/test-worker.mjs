@@ -133,6 +133,49 @@ assert.equal(t.body.results[0].id, 'suesskartoffel-wedges-im-ofen-mit-oel');
 t = await get('/item/suesskartoffel-wedges-im-ofen-mit-oel');
 assert.equal(t.body.source_id, 'Livsmedelsverket:3771');
 
+// Mehrsprachige Namen (names/aliases): Suche in allen Sprachen, akzent- und groß/klein-unabhängig.
+t = await get('/item/tomate-roh');
+for (const l of ['de', 'en', 'tr', 'fr', 'es', 'pt']) assert.ok(t.body.names[l], 'names.' + l);
+assert.equal(t.body.names.tr, 'Domates, çiğ');
+assert.equal(t.body.names.en, 'Tomato, raw');
+for (const q of ['domates', 'Tomato', 'pomodoro', '番茄', 'TOMATE']) {
+  t = await get('/search?q=' + encodeURIComponent(q) + '&limit=3');
+  assert.equal(t.body.results[0].id, 'tomate-roh', q);
+}
+for (const q of ['courgette', 'abobrinha', 'calabacín', 'calabacin', 'kabak']) {
+  t = await get('/search?q=' + encodeURIComponent(q) + '&limit=3');
+  assert.equal(t.body.results[0].id, 'zucchini-roh', q);
+}
+for (const q of ['salatalık', 'salatalik', 'cucumber', 'concombre', 'pepino']) {
+  t = await get('/search?q=' + encodeURIComponent(q) + '&limit=3');
+  assert.equal(t.body.results[0].id, 'gurke-roh', q);
+}
+for (const q of ['patatas fritas', 'french fries', 'frites', 'batata frita', 'Pommes']) {
+  t = await get('/search?q=' + encodeURIComponent(q) + '&limit=3');
+  assert.ok(t.body.results.slice(0, 2).some((r) => r.id === 'pommes-frites'), q);
+}
+t = await get('/search?q=chicken%20breast%20raw&limit=3');
+assert.equal(t.body.results[0].id, 'haehnchenbrust-roh');
+// Etablierter Gerichtsname bleibt in allen Sprachen gleich.
+t = await get('/item/karniyarik');
+assert.equal(t.body.names.en, 'Karnıyarık');
+assert.equal(t.body.names.de, 'Karnıyarık');
+// lang: display_name in der gewünschten Sprache, Fallback name; unbekannte Sprache → 400.
+t = await get('/search?q=tomato&limit=3&lang=tr');
+assert.equal(t.res.status, 200);
+assert.equal(t.body.lang, 'tr');
+assert.equal(t.body.results[0].display_name, 'Domates, çiğ');
+t = await get('/search?q=domates&limit=3&lang=pt-BR');
+assert.equal(t.body.results[0].display_name, 'Tomate, cru');
+t = await get('/item/zucchini-roh?lang=fr');
+assert.equal(t.body.display_name, 'Courgette, crue');
+t = await get('/item/zucchini-roh');
+assert.equal('display_name' in t.body, false);
+t = await get('/search?q=tomate&lang=xx');
+assert.equal(t.res.status, 400);
+t = await get('/health');
+assert.deepEqual(t.body.languages, ['de', 'en', 'tr', 'fr', 'es', 'pt', 'it', 'zh']);
+
 t = await get('/item/gibt-es-nicht');
 assert.equal(t.res.status, 404);
 

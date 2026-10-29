@@ -3,25 +3,29 @@
 //   node scripts/search-local.mjs karniyarik
 //   node scripts/search-local.mjs "Karnıyarık"
 //   node scripts/search-local.mjs karniyark --limit 3 --json
+//   node scripts/search-local.mjs domates --lang en   (Anzeige in einer Sprache)
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { buildIndex, search, findByBarcode, isValidEan } from '../src/search.mjs';
+import { buildIndex, search, findByBarcode, isValidEan, displayName, LANGS } from '../src/search.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const foods = JSON.parse(readFileSync(join(root, 'data', 'foods.json'), 'utf8'));
 
 const args = process.argv.slice(2);
-let limit = 10, json = false, barcode = null;
+let limit = 10, json = false, barcode = null, lang = null;
 const words = [];
 for (let i = 0; i < args.length; i++) {
   if (args[i] === '--limit') limit = Number(args[++i]) || 10;
   else if (args[i] === '--json') json = true;
   else if (args[i] === '--barcode') barcode = args[++i];
+  else if (args[i] === '--lang') lang = String(args[++i] || '').toLowerCase().split(/[-_]/)[0];
   else words.push(args[i]);
 }
 
-const fmt = (f) => `${f.name} [${f.cuisine || '?'} · ${f.category || f.type}${f.prepared ? ' · ' + f.prepared : ''}]${f.barcode ? ' ' + f.barcode : ''} – ${f.per100g.kcal} kcal | P ${f.per100g.protein} | KH ${f.per100g.carbs} | F ${f.per100g.fat} | BS ${f.per100g.fiber} (pro 100 g)${f.quality ? ' · ' + f.quality : ''}`;
+if (lang && !LANGS.includes(lang)) { console.error(`Unbekannte Sprache (erlaubt: ${LANGS.join(', ')})`); process.exit(2); }
+
+const fmt = (f) => `${displayName(f, lang)}${lang && displayName(f, lang) !== f.name ? ' (' + f.name + ')' : ''} [${f.cuisine || '?'} · ${f.category || f.type}${f.prepared ? ' · ' + f.prepared : ''}]${f.barcode ? ' ' + f.barcode : ''} – ${f.per100g.kcal} kcal | P ${f.per100g.protein} | KH ${f.per100g.carbs} | F ${f.per100g.fat} | BS ${f.per100g.fiber} (pro 100 g)${f.quality ? ' · ' + f.quality : ''}`;
 
 let results;
 if (barcode) {
@@ -29,8 +33,8 @@ if (barcode) {
   const hit = findByBarcode(foods, barcode);
   results = hit ? [hit] : [];
 } else {
-  if (!words.length) { console.error('Nutzung: node scripts/search-local.mjs <suchbegriff> [--limit N] [--json] | --barcode <EAN>'); process.exit(2); }
-  results = search(buildIndex(foods), words.join(' '), limit);
+  if (!words.length) { console.error('Nutzung: node scripts/search-local.mjs <suchbegriff> [--limit N] [--lang de|en|tr|fr|es|pt|it|zh] [--json] | --barcode <EAN>'); process.exit(2); }
+  results = search(buildIndex(foods), words.join(' '), limit, lang);
 }
 
 if (json) console.log(JSON.stringify(results, null, 2));
