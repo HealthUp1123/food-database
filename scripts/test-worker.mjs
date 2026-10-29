@@ -11,7 +11,7 @@ const get = async (path, init) => {
 let t = await get('/health');
 assert.equal(t.res.status, 200);
 assert.equal(t.body.status, 'ok');
-assert.equal(t.body.count, 4849);
+assert.equal(t.body.count, 4876);
 
 // Karnıyarık: ASCII, Originalschreibweise, ein fehlendes i.
 t = await get('/search?q=karniyarik&limit=3');
@@ -98,6 +98,17 @@ assert.equal(t.body.note, 'Grundzutat (getrocknet), kein Fertigprodukt');
 t = await get('/search?q=haehnchenbrust%20gegrillt&limit=3');
 assert.equal(t.body.results[0].id, 'haehnchenbrust-gegrillt');
 assert.equal(t.body.results[0].state, 'grilled');
+// Geschätzte Zubereitung ohne USDA-Datensatz, abgeleitet aus der rohen Grundzutat
+t = await get('/search?q=tomate%20gegrillt&limit=3');
+assert.equal(t.body.results[0].id, 'tomate-gegrillt');
+assert.equal(t.body.results[0].prepared, 'base_ingredient');
+assert.equal(t.body.results[0].state, 'grilled');
+t = await get('/item/tomate-gegrillt');
+assert.equal(t.body.quality, 'estimate');
+assert.equal(t.body.note, 'Grundzutat (zubereitet, geschätzt), kein Fertigprodukt');
+assert.equal(t.body.derived_from, 'tomate-roh');
+assert.equal(t.body.barcode, null);
+assert.equal(t.body.is_packaged_product, false);
 
 t = await get('/item/gibt-es-nicht');
 assert.equal(t.res.status, 404);

@@ -247965,5 +247965,983 @@
     "source_missing": [
       "sugar"
     ]
+  },
+  {
+    "id": "tomate-gegrillt",
+    "name": "Tomate, gegrillt",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "gegrillte Tomate",
+      "gegrillte Tomaten",
+      "Tomaten gegrillt",
+      "Grilltomate"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "grilled",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 22,
+      "protein": 1.1,
+      "carbs": 4.8,
+      "fat": 0.2,
+      "fiber": 1.5,
+      "sugar": 3.3
+    },
+    "ingredients": [
+      {
+        "name": "Tomate, roh",
+        "grams": 124.1
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Tomate, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170457: Tomatoes, red, ripe, raw, year round average). Ausbeute 0,81 per Massenbilanz aus CoFID 2021 (PHE, OGL v3): 13-517 Tomatoes, standard, raw (Wasser 94,6 g, Fett 0,1 g) -> 13-518 Tomatoes, standard, grilled, flesh and seeds only (Wasser 93,3 g, Fett 0,2 g); ohne Fett 6-9 min gegrillt; Retention der Makronährstoffe 1,0 (nur Wasserverlust). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "tomate-roh"
+  },
+  {
+    "id": "spargel-gruen-gegrillt",
+    "name": "Spargel grün, gegrillt",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "gegrillter Spargel",
+      "Spargel gegrillt",
+      "grüner Spargel gegrillt"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "grilled",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 21,
+      "protein": 2.3,
+      "carbs": 4.1,
+      "fat": 0.1,
+      "fiber": 2.2,
+      "sugar": 2.0
+    },
+    "ingredients": [
+      {
+        "name": "Spargel grün, roh",
+        "grams": 105.8
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Spargel grün, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 168389: Asparagus, raw). Ausbeute 0,95 per Massenbilanz aus CoFID 2021 (PHE, OGL v3): 13-157 Asparagus, raw (Wasser 91,4 g, Fett 0,6 g) -> 13-639 Asparagus, grilled (Wasser 90,9 g, Fett 0,4 g); ohne Fett gegrillt; Retention der Makronährstoffe 1,0 (nur Wasserverlust). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "spargel-gruen-roh"
+  },
+  {
+    "id": "aubergine-gegrillt",
+    "name": "Aubergine, gegrillt",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Aubergine vom Grill",
+      "Melanzani gegrillt"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "grilled",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 62,
+      "protein": 2.4,
+      "carbs": 14.7,
+      "fat": 0.4,
+      "fiber": 7.5,
+      "sugar": 8.8
+    },
+    "ingredients": [
+      {
+        "name": "Aubergine, roh",
+        "grams": 250.0
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Aubergine, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 169228: Eggplant, raw). Ausbeute 0,40 aus Bergström 1994 (NLG-Projekt), veröffentlicht in Phenol-Explorer, http://phenol-explorer.eu/publications/1269 (\"Aubergine grilled\"); Retention der Makronährstoffe 1,0 (nur Wasserverlust). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "aubergine-roh"
+  },
+  {
+    "id": "paprika-rot-gegrillt",
+    "name": "Paprika rot, gegrillt",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "rote Paprika gegrillt",
+      "gegrillte rote Paprika",
+      "gegrillte Paprika",
+      "Paprika gegrillt"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "grilled",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 28,
+      "protein": 1.1,
+      "carbs": 6.5,
+      "fat": 0.3,
+      "fiber": 2.3,
+      "sugar": 4.5
+    },
+    "ingredients": [
+      {
+        "name": "Paprika rot, roh",
+        "grams": 107.5
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Paprika rot, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170108: Peppers, sweet, red, raw). Ausbeute 0,93 aus Bergström 1994 (NLG-Projekt), veröffentlicht in Phenol-Explorer, http://phenol-explorer.eu/publications/1269 (\"Pepper capsicum grilled\"); Retention der Makronährstoffe 1,0 (nur Wasserverlust). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "paprika-rot-roh"
+  },
+  {
+    "id": "paprika-gelb-gegrillt",
+    "name": "Paprika gelb, gegrillt",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "gelbe Paprika gegrillt",
+      "gegrillte gelbe Paprika"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "grilled",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 29,
+      "protein": 1.1,
+      "carbs": 6.8,
+      "fat": 0.2,
+      "fiber": 1.0
+    },
+    "ingredients": [
+      {
+        "name": "Paprika gelb, roh",
+        "grams": 107.5
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Paprika gelb, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 169383: Peppers, sweet, yellow, raw). Ausbeute 0,93 aus Bergström 1994 (NLG-Projekt), veröffentlicht in Phenol-Explorer, http://phenol-explorer.eu/publications/1269 (\"Pepper capsicum grilled\"); Retention der Makronährstoffe 1,0 (nur Wasserverlust). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "paprika-gelb-roh",
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "paprika-gruen-gegrillt",
+    "name": "Paprika grün, gegrillt",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "grüne Paprika gegrillt",
+      "gegrillte grüne Paprika"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "grilled",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 22,
+      "protein": 0.9,
+      "carbs": 5.0,
+      "fat": 0.2,
+      "fiber": 1.8,
+      "sugar": 2.6
+    },
+    "ingredients": [
+      {
+        "name": "Paprika grün, roh",
+        "grams": 107.5
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Paprika grün, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170427: Peppers, sweet, green, raw). Ausbeute 0,93 aus Bergström 1994 (NLG-Projekt), veröffentlicht in Phenol-Explorer, http://phenol-explorer.eu/publications/1269 (\"Pepper capsicum grilled\"); Retention der Makronährstoffe 1,0 (nur Wasserverlust). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "paprika-gruen-roh"
+  },
+  {
+    "id": "zucchini-im-ofen-geroestet-mit-oel",
+    "name": "Zucchini, im Ofen geröstet (mit Öl)",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Zucchini aus dem Ofen",
+      "Zucchini geröstet",
+      "geröstete Zucchini"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 40,
+      "protein": 1.9,
+      "carbs": 4.8,
+      "fat": 2.1,
+      "fiber": 1.5,
+      "sugar": 3.9
+    },
+    "ingredients": [
+      {
+        "name": "Zucchini, roh",
+        "grams": 154.2
+      },
+      {
+        "name": "Rapsöl",
+        "grams": 1.6
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Zucchini, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 169291: Squash, summer, zucchini, includes skin, raw). Ausbeute 0,65 und Fettaufnahme 1,0 g Öl/100 g roh per Massenbilanz aus CoFID 2021 (PHE, OGL v3): 13-627 Courgette, raw (Wasser 95,0 g, Fett 0,2 g) -> 13-629 Courgette, roasted in rapeseed oil (Wasser 90,7 g, Fett 1,9 g); im Ofen mit wenig Rapsöl geröstet; Retention der Makronährstoffe 1,0; Öl mit USDA-Werten von Rapsöl. Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "zucchini-roh"
+  },
+  {
+    "id": "aubergine-im-ofen-geroestet-mit-oel",
+    "name": "Aubergine, im Ofen geröstet (mit Öl)",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Aubergine aus dem Ofen",
+      "Aubergine geröstet",
+      "geröstete Aubergine"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 73,
+      "protein": 1.8,
+      "carbs": 10.8,
+      "fat": 3.4,
+      "fiber": 5.5,
+      "sugar": 6.5
+    },
+    "ingredients": [
+      {
+        "name": "Aubergine, roh",
+        "grams": 183.6
+      },
+      {
+        "name": "Rapsöl",
+        "grams": 3.1
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Aubergine, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 169228: Eggplant, raw). Ausbeute 0,54 und Fettaufnahme 1,7 g Öl/100 g roh per Massenbilanz aus CoFID 2021 (PHE, OGL v3): 13-161 Aubergine, raw (Wasser 92,9 g, Fett 0,4 g) -> 13-669 Aubergine, flesh and skin, roasted in rapeseed oil (Wasser 83,9 g, Fett 3,8 g); im Ofen mit wenig Rapsöl geröstet; Retention der Makronährstoffe 1,0; Öl mit USDA-Werten von Rapsöl. Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "aubergine-roh"
+  },
+  {
+    "id": "spargel-gruen-im-ofen-geroestet-mit-oel",
+    "name": "Spargel grün, im Ofen geröstet (mit Öl)",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Ofenspargel",
+      "Spargel aus dem Ofen",
+      "Spargel geröstet"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 29,
+      "protein": 2.4,
+      "carbs": 4.2,
+      "fat": 1.0,
+      "fiber": 2.3,
+      "sugar": 2.0
+    },
+    "ingredients": [
+      {
+        "name": "Spargel grün, roh",
+        "grams": 108.8
+      },
+      {
+        "name": "Rapsöl",
+        "grams": 0.8
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Spargel grün, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 168389: Asparagus, raw). Ausbeute 0,92 und Fettaufnahme 0,8 g Öl/100 g roh per Massenbilanz aus CoFID 2021 (PHE, OGL v3): 13-157 Asparagus, raw (Wasser 91,4 g, Fett 0,6 g) -> 13-640 Asparagus, roasted in rapeseed oil (Wasser 89,8 g, Fett 1,5 g); im Ofen mit wenig Rapsöl geröstet; Retention der Makronährstoffe 1,0; Öl mit USDA-Werten von Rapsöl. Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "spargel-gruen-roh"
+  },
+  {
+    "id": "lauch-im-ofen-geroestet-mit-oel",
+    "name": "Lauch, im Ofen geröstet (mit Öl)",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Ofenlauch",
+      "Lauch aus dem Ofen",
+      "Porree aus dem Ofen",
+      "Lauch geröstet"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 83,
+      "protein": 1.7,
+      "carbs": 15.9,
+      "fat": 2.0,
+      "fiber": 2.0,
+      "sugar": 4.4
+    },
+    "ingredients": [
+      {
+        "name": "Lauch, roh",
+        "grams": 112.1
+      },
+      {
+        "name": "Rapsöl",
+        "grams": 1.7
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Lauch, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 169246: Leeks, (bulb and lower leaf-portion), raw). Ausbeute 0,89 und Fettaufnahme 1,5 g Öl/100 g roh per Massenbilanz aus CoFID 2021 (PHE, OGL v3): 13-624 Leeks, raw (Wasser 90,7 g, Fett 0,2 g) -> 13-626 Leeks, roasted in rapeseed oil (Wasser 87,9 g, Fett 1,9 g); im Ofen mit wenig Rapsöl geröstet; Retention der Makronährstoffe 1,0; Öl mit USDA-Werten von Rapsöl. Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "lauch-roh"
+  },
+  {
+    "id": "pastinake-im-ofen-geroestet-mit-oel",
+    "name": "Pastinake, im Ofen geröstet (mit Öl)",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Ofenpastinaken",
+      "Pastinaken aus dem Ofen",
+      "Pastinake geröstet",
+      "geröstete Pastinaken"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 163,
+      "protein": 2.3,
+      "carbs": 33.9,
+      "fat": 3.0,
+      "fiber": 9.2,
+      "sugar": 9.0
+    },
+    "ingredients": [
+      {
+        "name": "Pastinake, roh",
+        "grams": 188.3
+      },
+      {
+        "name": "Rapsöl",
+        "grams": 2.4
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Pastinake, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170417: Parsnips, raw). Ausbeute 0,53 und Fettaufnahme 1,3 g Öl/100 g roh per Massenbilanz aus CoFID 2021 (PHE, OGL v3): 13-312 Parsnip, raw (Wasser 79,3 g, Fett 1,1 g) -> 13-632 Parsnip, roasted in rapeseed oil (Wasser 58,6 g, Fett 4,5 g); im Ofen mit wenig Rapsöl geröstet; Retention der Makronährstoffe 1,0; Öl mit USDA-Werten von Rapsöl. Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "pastinake-roh"
+  },
+  {
+    "id": "zwiebel-im-ofen-gebacken",
+    "name": "Zwiebel, im Ofen gebacken",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Ofenzwiebel",
+      "Zwiebel aus dem Ofen",
+      "gebackene Zwiebel"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 50,
+      "protein": 1.4,
+      "carbs": 11.7,
+      "fat": 0.1,
+      "fiber": 2.1,
+      "sugar": 5.3
+    },
+    "ingredients": [
+      {
+        "name": "Zwiebel, roh",
+        "grams": 125.0
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Zwiebel, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170000: Onions, raw). Ausbeute 0,80 aus CoFID 2021 (PHE, OGL v3), 13-589 Onions, baked: \"using weight loss of 20%, baked for 90 minutes at 180C\" (ohne Fett); Retention der Makronährstoffe 1,0 (nur Wasserverlust). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "zwiebel-roh"
+  },
+  {
+    "id": "zucchini-in-oel-gebraten",
+    "name": "Zucchini, in Öl gebraten",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Zucchini gebraten",
+      "gebratene Zucchini",
+      "Zucchini angebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 69,
+      "protein": 2.1,
+      "carbs": 5.4,
+      "fat": 5.0,
+      "fiber": 1.8,
+      "sugar": 4.4
+    },
+    "ingredients": [
+      {
+        "name": "Zucchini, roh",
+        "grams": 175.0
+      },
+      {
+        "name": "Rapsöl",
+        "grams": 4.4
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Zucchini, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 169291: Squash, summer, zucchini, includes skin, raw). Ausbeute 0,57 und Fettaufnahme 2,5 g Öl/100 g roh per Massenbilanz aus CoFID 2021 (PHE, OGL v3): 13-627 Courgette, raw (Wasser 95,0 g, Fett 0,2 g) -> 13-587 Courgette, fried in rapeseed oil (Wasser 86,8 g, Fett 4,8 g); in der Pfanne in Rapsöl gebraten; Retention der Makronährstoffe 1,0; Öl mit USDA-Werten von Rapsöl. Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "zucchini-roh"
+  },
+  {
+    "id": "aubergine-in-oel-gebraten",
+    "name": "Aubergine, in Öl gebraten",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Aubergine gebraten",
+      "gebratene Aubergine",
+      "Melanzani gebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 310,
+      "protein": 1.3,
+      "carbs": 7.5,
+      "fat": 31.6,
+      "fiber": 3.9,
+      "sugar": 4.5
+    },
+    "ingredients": [
+      {
+        "name": "Aubergine, roh",
+        "grams": 128.4
+      },
+      {
+        "name": "Rapsöl",
+        "grams": 31.4
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Aubergine, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 169228: Eggplant, raw). Ausbeute 0,78 und Fettaufnahme 24,5 g Öl/100 g roh per Massenbilanz aus CoFID 2021 (PHE, OGL v3): 13-161 Aubergine, raw (Wasser 92,9 g, Fett 0,4 g) -> 13-577 Aubergine, fried in rapeseed oil (Wasser 59,5 g, Fett 31,9 g); in der Pfanne in Rapsöl gebraten; Retention der Makronährstoffe 1,0; Öl mit USDA-Werten von Rapsöl. Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "aubergine-roh"
+  },
+  {
+    "id": "champignons-in-oel-gebraten",
+    "name": "Champignons, in Öl gebraten",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Champignons gebraten",
+      "Champignon gebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 126,
+      "protein": 4.4,
+      "carbs": 4.7,
+      "fat": 11.2,
+      "fiber": 1.4,
+      "sugar": 2.8
+    },
+    "ingredients": [
+      {
+        "name": "Champignons, roh",
+        "grams": 143.5
+      },
+      {
+        "name": "Rapsöl",
+        "grams": 10.7
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Champignons, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 169251: Mushrooms, white, raw). Ausbeute 0,70 und Fettaufnahme 7,5 g Öl/100 g roh per Massenbilanz aus CoFID 2021 (PHE, OGL v3): 13-505 Mushrooms, white, raw (Wasser 92,9 g, Fett 0,2 g) -> 13-507 Mushrooms, white, fried in rapeseed oil (Wasser 79,1 g, Fett 11,0 g); in der Pfanne in Rapsöl gebraten; Retention der Makronährstoffe 1,0; Öl mit USDA-Werten von Rapsöl. Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "champignons-roh"
+  },
+  {
+    "id": "tomate-in-oel-gebraten",
+    "name": "Tomate, in Öl gebraten",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Tomate gebraten",
+      "gebratene Tomate",
+      "gebratene Tomaten",
+      "Tomaten gebraten"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 94,
+      "protein": 1.3,
+      "carbs": 5.8,
+      "fat": 7.8,
+      "fiber": 1.8,
+      "sugar": 3.9
+    },
+    "ingredients": [
+      {
+        "name": "Tomate, roh",
+        "grams": 149.1
+      },
+      {
+        "name": "Rapsöl",
+        "grams": 7.6
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Tomate, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170457: Tomatoes, red, ripe, raw, year round average). Ausbeute 0,67 und Fettaufnahme 5,1 g Öl/100 g roh per Massenbilanz aus CoFID 2021 (PHE, OGL v3): 13-517 Tomatoes, standard, raw (Wasser 94,6 g, Fett 0,1 g) -> 13-602 Tomatoes, standard, fried in rapeseed oil (Wasser 84,4 g, Fett 7,7 g); in der Pfanne in Rapsöl gebraten; Retention der Makronährstoffe 1,0; Öl mit USDA-Werten von Rapsöl. Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "tomate-roh"
+  },
+  {
+    "id": "karotte-gedaempft",
+    "name": "Karotte, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Karotte gedämpft",
+      "Möhre gedämpft",
+      "Karotten gedämpft",
+      "Karotte dampfgegart"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 43,
+      "protein": 1.0,
+      "carbs": 10.1,
+      "fat": 0.3,
+      "fiber": 2.9,
+      "sugar": 5.0
+    },
+    "ingredients": [
+      {
+        "name": "Karotte, roh",
+        "grams": 111.1
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Karotte, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170393: Carrots, raw). Ausbeute 0,90 aus Bognár 2002, Tab. 17 (\"Carrot, steamed\", e(k,p)); Retention Protein/Fett/KH 0,95, Ballaststoffe 0,94 aus Bognár 2002, Tab. 26 (steam, A). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "karotte-roh"
+  },
+  {
+    "id": "kohlrabi-gedaempft",
+    "name": "Kohlrabi, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kohlrabi gedämpft",
+      "Kohlrabi dampfgegart"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 28,
+      "protein": 1.8,
+      "carbs": 6.5,
+      "fat": 0.1,
+      "fiber": 3.8,
+      "sugar": 2.7
+    },
+    "ingredients": [
+      {
+        "name": "Kohlrabi, roh",
+        "grams": 111.1
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Kohlrabi, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 168424: Kohlrabi, raw). Ausbeute 0,90 aus Bognár 2002, Tab. 17 (\"Kohlrabi, peeled, steamed\", e(k,p)); Retention Protein/Fett/KH 0,95, Ballaststoffe 0,94 aus Bognár 2002, Tab. 26 (steam, A). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "kohlrabi-roh"
+  },
+  {
+    "id": "brokkoli-gedaempft",
+    "name": "Brokkoli, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Brokkoli gedämpft",
+      "Broccoli gedämpft",
+      "Brokkoli dampfgegart"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 31,
+      "protein": 2.6,
+      "carbs": 6.1,
+      "fat": 0.3,
+      "fiber": 2.4,
+      "sugar": 1.6
+    },
+    "ingredients": [
+      {
+        "name": "Brokkoli, roh",
+        "grams": 96.2
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Brokkoli, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170379: Broccoli, raw). Ausbeute 1,04 aus Bognár 2002, Tab. 19 (\"Broccoli, steamed\", e(k,p)); Retention Protein/Fett/KH 0,95, Ballaststoffe 0,94 aus Bognár 2002, Tab. 28 (steam, A). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "brokkoli-roh"
+  },
+  {
+    "id": "blumenkohl-gedaempft",
+    "name": "Blumenkohl, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Blumenkohl gedämpft",
+      "Karfiol gedämpft",
+      "Blumenkohl dampfgegart"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 25,
+      "protein": 1.9,
+      "carbs": 5.0,
+      "fat": 0.3,
+      "fiber": 2.0,
+      "sugar": 1.9
+    },
+    "ingredients": [
+      {
+        "name": "Blumenkohl, roh",
+        "grams": 105.3
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Blumenkohl, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 169986: Cauliflower, raw). Ausbeute 0,95 aus Bognár 2002, Tab. 19 (\"Cauliflower, steamed\", e(k,p)); Retention Protein/Fett/KH 0,95, Ballaststoffe 0,94 aus Bognár 2002, Tab. 28 (steam, A). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "blumenkohl-roh"
+  },
+  {
+    "id": "gruene-bohnen-gedaempft",
+    "name": "Grüne Bohnen, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "grüne Bohnen gedämpft",
+      "Brechbohnen gedämpft",
+      "Bohnen dampfgegart"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 32,
+      "protein": 1.9,
+      "carbs": 7.3,
+      "fat": 0.2,
+      "fiber": 2.8,
+      "sugar": 3.4
+    },
+    "ingredients": [
+      {
+        "name": "Grüne Bohnen, roh",
+        "grams": 109.9
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Grüne Bohnen, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 169961: Beans, snap, green, raw). Ausbeute 0,91 aus Bognár 2002, Tab. 20 (\"Green beans, steamed\", e(k,p)); Retention Protein/Fett/KH 0,95, Ballaststoffe 0,94 aus Bognár 2002, Tab. 28 (steam, A). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "gruene-bohnen-roh"
+  },
+  {
+    "id": "erbsen-gruen-gedaempft",
+    "name": "Erbsen grün, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Erbsen gedämpft",
+      "grüne Erbsen gedämpft"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 88,
+      "protein": 5.9,
+      "carbs": 15.8,
+      "fat": 0.4,
+      "fiber": 6.2,
+      "sugar": 6.2
+    },
+    "ingredients": [
+      {
+        "name": "Erbsen grün, roh",
+        "grams": 114.9
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Erbsen grün, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170419: Peas, green, raw). Ausbeute 0,87 aus Bognár 2002, Tab. 20 (\"Green peas, steamed\", e(k,p)); Retention Protein/Fett/KH 0,95, Ballaststoffe 0,94 aus Bognár 2002, Tab. 28 (steam, A). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "erbsen-gruen-roh"
+  },
+  {
+    "id": "spargel-gruen-gedaempft",
+    "name": "Spargel grün, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Spargel gedämpft",
+      "grüner Spargel gedämpft"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 19,
+      "protein": 2.1,
+      "carbs": 3.7,
+      "fat": 0.1,
+      "fiber": 2.0,
+      "sugar": 1.8
+    },
+    "ingredients": [
+      {
+        "name": "Spargel grün, roh",
+        "grams": 100.0
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Spargel grün, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 168389: Asparagus, raw). Ausbeute 1,00 aus Bognár 2002, Tab. 17 (\"Asparagus, boiled, steamed\", e(k,p)); Retention Protein/Fett/KH 0,95, Ballaststoffe 0,94 aus Bognár 2002, Tab. 28 (steam, A). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "spargel-gruen-roh"
+  },
+  {
+    "id": "rosenkohl-gedaempft",
+    "name": "Rosenkohl, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Rosenkohl gedämpft",
+      "Kohlsprossen gedämpft"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 39,
+      "protein": 3.1,
+      "carbs": 8.2,
+      "fat": 0.3,
+      "fiber": 3.4,
+      "sugar": 2.0
+    },
+    "ingredients": [
+      {
+        "name": "Rosenkohl, roh",
+        "grams": 96.2
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Rosenkohl, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170383: Brussels sprouts, raw). Ausbeute 1,04 aus Bognár 2002, Tab. 18 (\"Brussels sprouts, steamed\", e(k,p)); Retention Protein/Fett/KH 0,95, Ballaststoffe 0,94 aus Bognár 2002, Tab. 28 (steam, A). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "rosenkohl-roh"
+  },
+  {
+    "id": "spinat-gedaempft",
+    "name": "Spinat, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Spinat gedämpft",
+      "Blattspinat gedämpft"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 29,
+      "protein": 3.6,
+      "carbs": 4.5,
+      "fat": 0.5,
+      "fiber": 2.7,
+      "sugar": 0.5
+    },
+    "ingredients": [
+      {
+        "name": "Spinat, roh",
+        "grams": 131.6
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Spinat, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 168462: Spinach, raw). Ausbeute 0,76 aus Bognár 2002, Tab. 18 (\"Spinach, steamed\", e(k,p)); Retention Protein/Fett/KH 0,95, Ballaststoffe 0,94 aus Bognár 2002, Tab. 30 (steam, A). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "spinat-roh"
+  },
+  {
+    "id": "weisskohl-gedaempft",
+    "name": "Weißkohl, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Weißkohl gedämpft",
+      "Weißkraut gedämpft"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 24,
+      "protein": 1.2,
+      "carbs": 5.5,
+      "fat": 0.1,
+      "fiber": 2.3,
+      "sugar": 3.0
+    },
+    "ingredients": [
+      {
+        "name": "Weißkohl, roh",
+        "grams": 100.0
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Weißkohl, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 169975: Cabbage, raw). Ausbeute 1,00 aus Bognár 2002, Tab. 18 (\"White cabbage, steamed\", e(k,p)); Retention Protein/Fett/KH 0,95, Ballaststoffe 0,94 aus Bognár 2002, Tab. 30 (steam, A). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "weisskohl-roh"
+  },
+  {
+    "id": "wirsing-gedaempft",
+    "name": "Wirsing, gedämpft",
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Wirsing gedämpft",
+      "Wirsingkohl gedämpft"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 26,
+      "protein": 1.9,
+      "carbs": 5.9,
+      "fat": 0.1,
+      "fiber": 2.9,
+      "sugar": 2.2
+    },
+    "ingredients": [
+      {
+        "name": "Wirsing, roh",
+        "grams": 101.0
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt aus Wirsing, roh (USDA FoodData Central, SR Legacy (April 2018), FDC ID 170388: Cabbage, savoy, raw). Ausbeute 0,99 aus Bognár 2002, Tab. 18 (\"Savoy cabbage, steamed\", e(k,p)); Retention Protein/Fett/KH 0,95, Ballaststoffe 0,94 aus Bognár 2002, Tab. 30 (steam, A). Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.",
+    "derived_from": "wirsing-roh"
   }
 ]
