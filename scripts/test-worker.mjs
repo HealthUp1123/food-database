@@ -11,7 +11,7 @@ const get = async (path, init) => {
 let t = await get('/health');
 assert.equal(t.res.status, 200);
 assert.equal(t.body.status, 'ok');
-assert.equal(t.body.count, 4245);
+assert.equal(t.body.count, 4540);
 
 // Karnıyarık: ASCII, Originalschreibweise, ein fehlendes i.
 t = await get('/search?q=karniyarik&limit=3');
@@ -58,6 +58,33 @@ t = await get('/item/wiener-schnitzel');
 assert.equal(t.res.status, 200);
 assert.equal(t.body.is_packaged_product, false);
 assert.ok(Array.isArray(t.body.off_similar) && t.body.off_similar.length > 0 && t.body.off_similar.length <= 3);
+
+// Grundzutaten (USDA-Referenzwerte, keine Fertigprodukte).
+t = await get('/search?q=tomate&limit=3');
+assert.equal(t.res.status, 200);
+assert.equal(t.body.results[0].id, 'tomate-roh');
+assert.equal(t.body.results[0].type, 'item');
+assert.equal(t.body.results[0].prepared, 'base_ingredient');
+assert.equal(t.body.results[0].quality, 'reference');
+assert.equal('ingredients' in t.body.results[0], false);
+
+t = await get('/search?q=haehnchenbrust%20roh&limit=3');
+assert.equal(t.body.results[0].id, 'haehnchenbrust-roh');
+
+t = await get('/item/tomate-roh');
+assert.equal(t.res.status, 200);
+assert.equal(t.body.name, 'Tomate, roh');
+assert.equal(t.body.type, 'item');
+assert.equal(t.body.barcode, null);
+assert.equal(t.body.is_packaged_product, false);
+assert.equal(t.body.note, 'Grundzutat, kein Fertigprodukt');
+assert.equal(t.body.unit, 'g');
+assert.equal(t.body.state, 'raw');
+assert.equal(t.body.category, 'Grundzutat: Gemüse');
+assert.equal(t.body.fdc_id, 170457);
+assert.ok(t.body.source.startsWith('USDA FoodData Central'));
+assert.equal(t.body.per100g.kcal, 18);
+assert.equal(t.body.per100g.sugar, 2.6);
 
 t = await get('/item/gibt-es-nicht');
 assert.equal(t.res.status, 404);
