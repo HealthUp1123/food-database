@@ -5,7 +5,8 @@
  * Normalisiert Text für die Suche: klein, ohne Akzente, Umlaute vereinheitlicht.
  * ä/ae -> a, ö/oe -> o, ü/ue -> u, ß/ss -> ss, türkisches ı/İ -> i.
  * ş, ğ, ç und weitere Akzente fallen über NFD weg (ş -> s, ğ -> g, ç -> c).
- * So findet "karniyarik" auch "Karnıyarık" und "aepfel" auch "Äpfel".
+ * ø/æ/œ/đ/ł/þ werden ebenfalls auf lateinische Grundbuchstaben gefaltet.
+ * So findet "karniyarik" auch "Karnıyarık", "aepfel" auch "Äpfel" und "calabacin" auch "Calabacín".
  * Die Normalisierung ist verlustbehaftet, aber auf beiden Seiten (Daten + Suchbegriff) gleich.
  */
 export function normalize(text) {
@@ -15,9 +16,11 @@ export function normalize(text) {
     .replace(/ß/g, 'ss')
     .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue')
     .replace(/ı/g, 'i')
+    .replace(/ø/g, 'o').replace(/æ/g, 'ae').replace(/œ/g, 'oe').replace(/đ/g, 'd').replace(/ł/g, 'l').replace(/þ/g, 'th')
     .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // übrige Akzente (é, è, ş, ğ, ç, ...)
     .replace(/ae/g, 'a').replace(/oe/g, 'o').replace(/ue/g, 'u')
-    .replace(/[^a-z0-9]+/g, ' ')
+    // Buchstaben/Ziffern aller Schriften bleiben erhalten (z. B. Chinesisch 番茄), Satzzeichen werden zu Leerzeichen.
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .trim();
 }
 
@@ -75,44 +78,131 @@ export function scoreToken(token, text) {
   return best <= allowed ? 4 + best : null;
 }
 
-/** Bereitet die Daten einmalig auf (normalisierte Namen/Synonyme). */
+/**
+ * Wort-Rang für die mehrsprachige Suche: 0 = ganzes Wort, 1 = Wortanfang, 2 = Teilstring, 3+ = Tippfehler.
+ * (Feiner als scoreToken bei ganzen Wörtern: "Reis" passt besser zu "Reis, gekocht" als zu "Reisnudeln".)
+ */
+export function wordRank(token, text) {
+  const sc = scoreToken(token, text);
+  if (sc === null) return null;
+  if (sc <= 2) return sc === 0 || text.split(' ').includes(token) ? 0 : 1;
+  return sc - 1;
+}
+
+/** Sprachen der mehrsprachigen Namen (`names`); die ersten sechs sind Pflicht. */
+export const LANGS = ['de', 'en', 'tr', 'fr', 'es', 'pt', 'it', 'zh'];
+export const REQUIRED_LANGS = ['de', 'en', 'tr', 'fr', 'es', 'pt'];
+
+const uniq = (arr) => [...new Set(arr.filter(Boolean))];
+
+/**
+ * Bereitet die Daten einmalig auf (normalisierte Texte).
+ * Haupttexte: `name` + alle `names.*`; Nebentexte: `synonyms` + alle `aliases.*`.
+ */
 export function buildIndex(foods) {
-  return foods.map((food) => ({
-    food,
-    name: normalize(food.name),
-    synonyms: (food.synonyms || []).map(normalize).filter(Boolean),
-  }));
+  const index = foods.map((food) => {
+    const names = Object.values(food.names || {}).map(normalize);
+    const aliases = Object.values(food.aliases || {}).flat().map(normalize);
+    const name = normalize(food.name);
+    const primary = uniq([name, ...names]);
+    // Kopfwort = Teil vor Komma/Klammer: "Tomate, roh" → "tomate", "番茄（生）" → "番茄".
+    const head = (t) => normalize(String(t).split(/[,，(（]/)[0]);
+    const heads = uniq([food.name, ...Object.values(food.names || {})].map(head));
+    return {
+      food,
+      name,
+      primary,
+      heads,
+      raw: food.state === 'raw',
+      synonyms: uniq([...(food.synonyms || []).map(normalize), ...aliases]).filter((t) => !primary.includes(t)),
+    };
+  });
+  // Wortverzeichnis: Wort → Einträge. Die Suche prüft Tippfehler einmal pro Wort statt pro Eintrag und Sprache.
+  const vocab = new Map();
+  index.forEach((entry, i) => {
+    for (const t of [...entry.primary, ...entry.synonyms]) {
+      for (const w of t.split(' ')) {
+        if (!w) continue;
+        let set = vocab.get(w);
+        if (!set) vocab.set(w, (set = new Set()));
+        set.add(i);
+      }
+    }
+  });
+  Object.defineProperty(index, 'vocab', { value: vocab, enumerable: false });
+  return index;
+}
+
+/** Anzeigename in einer Sprache (Fallback: `name`). */
+export function displayName(food, lang) {
+  return (lang && food.names && food.names[lang]) || food.name;
 }
 
 /**
- * Suche. Sortierung: Präfix-Treffer zuerst, dann Teilstring, dann Tippfehler.
- * Bei mehreren Wörtern müssen alle Wörter treffen.
+ * Suche über alle Sprachen. Sortierung: exakt, Präfix, Teilstring, dann Tippfehler.
+ * Bei mehreren Wörtern müssen alle Wörter treffen (in Name, einem Sprachnamen, Alias oder Synonym).
+ * Optional `lang`: Treffer im Namen dieser Sprache werden bei Gleichstand bevorzugt.
  */
-export function search(index, query, limit = 10) {
+export function search(index, query, limit = 10, lang = null) {
   const q = normalize(query);
   if (!q) return [];
   const tokens = q.split(' ');
   const results = [];
-  for (const entry of index) {
+  // Kandidaten: Einträge, in denen jedes Wort des Suchbegriffs zu mindestens einem Wort passt.
+  let candidates = null;
+  if (index.vocab) {
+    for (const token of tokens) {
+      const hits = new Set();
+      for (const [w, set] of index.vocab) {
+        if (scoreToken(token, w) !== null) for (const i of set) hits.add(i);
+      }
+      candidates = candidates ? new Set([...candidates].filter((i) => hits.has(i))) : hits;
+      if (!candidates.size) return [];
+    }
+  }
+  const pool = candidates ? [...candidates].sort((a, b) => a - b).map((i) => index[i]) : index;
+  for (const entry of pool) {
     let total = 0;
     let viaSynonym = false;
     let ok = true;
     for (const token of tokens) {
-      const nameScore = scoreToken(token, entry.name);
-      let best = nameScore;
+      let best = null;
       let syn = false;
-      for (const s of entry.synonyms) {
-        const sc = scoreToken(token, s);
-        if (sc !== null && (best === null || sc < best)) { best = sc; syn = true; }
+      for (const t of entry.primary) {
+        const sc = wordRank(token, t);
+        if (sc !== null && (best === null || sc < best)) best = sc;
+        if (best === 0) break;
+      }
+      if (best !== 0) {
+        for (const s of entry.synonyms) {
+          const sc = wordRank(token, s);
+          if (sc !== null && (best === null || sc < best)) { best = sc; syn = true; }
+        }
       }
       if (best === null) { ok = false; break; }
       total = Math.max(total, best);
       if (syn) viaSynonym = true;
     }
     if (!ok) continue;
-    results.push({ food: entry.food, score: total * 10 + (viaSynonym ? 1 : 0), len: entry.name.length });
+    // Stufen: 0 = ganzer Begriff gleich einem Namen, 1 = gleich dem Kopfwort eines Namens ("Domates" → "Domates, çiğ"),
+    // 2 = gleich einem Synonym/Alias, sonst nach Wort-Rang (Präfix, Teilstring, Tippfehler).
+    let score;
+    if (entry.primary.includes(q)) score = 0;
+    else if (entry.heads.includes(q)) score = 1;
+    else if (entry.synonyms.includes(q)) score = 2;
+    else score = 10 + total * 10 + (viaSynonym ? 1 : 0);
+    const shown = lang ? normalize(displayName(entry.food, lang)) : entry.name;
+    if (lang && !tokens.every((tk) => { const sc = scoreToken(tk, shown); return sc !== null && sc <= 3; })) score += 5;
+    // Länge des kürzesten Namens, in dem alle Wörter vorkommen (sonst Anzeigename).
+    let len = shown.length;
+    for (const t of entry.primary) {
+      if (t.length < len && tokens.every((tk) => { const sc = scoreToken(tk, t); return sc !== null && sc <= 3; })) len = t.length;
+    }
+    // Bei Gleichstand: rohe Grundzutat vor anderen Grundzutaten vor Gerichten.
+    const kind = entry.food.prepared === 'base_ingredient' ? (entry.raw ? 0 : 1) : 2;
+    results.push({ food: entry.food, score, kind, len });
   }
-  results.sort((a, b) => a.score - b.score || a.len - b.len || a.food.name.localeCompare(b.food.name, 'de'));
+  results.sort((a, b) => a.score - b.score || a.kind - b.kind || a.len - b.len || a.food.name.localeCompare(b.food.name, 'de'));
   return results.slice(0, Math.max(1, Math.min(limit, 50))).map((r) => r.food);
 }
 

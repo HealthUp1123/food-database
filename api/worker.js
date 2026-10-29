@@ -1,7 +1,7 @@
 // Cloudflare Worker: JSON-Such-API für die Lebensmittel-Datenbank.
-// Endpunkte: GET /search?q=&limit=  |  GET /item/{id}  |  GET /barcode/{ean}  |  GET /health
+// Endpunkte: GET /search?q=&limit=&lang=  |  GET /item/{id}?lang=  |  GET /item/{id}  |  GET /barcode/{ean}  |  GET /health
 import foods from '../data/foods.json' with { type: 'json' };
-import { buildIndex, search, findByBarcode, isValidEan } from '../src/search.mjs';
+import { buildIndex, search, findByBarcode, isValidEan, displayName, LANGS } from '../src/search.mjs';
 
 const CORS = {
   'Access-Control-Allow-Origin': '*',
@@ -24,6 +24,11 @@ export function toListItem(food) {
   return rest;
 }
 
+/** Optional ?lang=xx: ergänzt `display_name` (Name in dieser Sprache, Fallback `name`). */
+function withLang(food, lang) {
+  return lang ? { ...food, display_name: displayName(food, lang) } : food;
+}
+
 /** Erzeugt einen fetch-Handler für beliebige Daten (so testbar ohne Cloudflare). */
 export function createHandler(data) {
   const index = buildIndex(data);
@@ -36,21 +41,25 @@ export function createHandler(data) {
     const path = url.pathname.replace(/\/+$/, '') || '/';
     const cache = { 'Cache-Control': 'public, max-age=300' };
 
-    if (path === '/health') return json({ status: 'ok', count: data.length });
+    if (path === '/health') return json({ status: 'ok', count: data.length, languages: LANGS });
+
+    const langParam = (url.searchParams.get('lang') || '').trim().toLowerCase();
+    const lang = langParam ? langParam.split(/[-_]/)[0] : null; // "pt-BR" → "pt"
+    if (lang && !LANGS.includes(lang)) return json({ error: `Unbekannte Sprache "${langParam}" (erlaubt: ${LANGS.join(', ')})` }, 400);
 
     if (path === '/search') {
       const q = (url.searchParams.get('q') || '').trim();
       if (!q) return json({ error: 'Parameter q fehlt' }, 400);
       if (q.length > 100) return json({ error: 'q ist zu lang (max. 100 Zeichen)' }, 400);
       const limit = Math.max(1, Math.min(parseInt(url.searchParams.get('limit') || '10', 10) || 10, 50));
-      const results = search(index, q, limit).map(toListItem);
-      return json({ query: q, count: results.length, results }, 200, cache);
+      const results = search(index, q, limit, lang).map((f) => withLang(toListItem(f), lang));
+      return json({ query: q, ...(lang ? { lang } : {}), count: results.length, results }, 200, cache);
     }
 
     const item = path.match(/^\/item\/([a-z0-9]+(?:-[a-z0-9]+)*)$/);
     if (item) {
       const hit = byId.get(item[1]);
-      return hit ? json(hit, 200, cache) : json({ error: 'Eintrag nicht gefunden' }, 404);
+      return hit ? json(withLang(hit, lang), 200, cache) : json({ error: 'Eintrag nicht gefunden' }, 404);
     }
 
     const m = path.match(/^\/barcode\/(\d+)$/);
@@ -58,10 +67,10 @@ export function createHandler(data) {
       const ean = m[1];
       if (!isValidEan(ean)) return json({ error: 'Ungültiger Barcode (EAN-8/EAN-13 mit korrekter Prüfziffer erwartet)' }, 400);
       const hit = findByBarcode(data, ean);
-      return hit ? json(hit, 200, cache) : json({ error: 'Barcode nicht gefunden' }, 404);
+      return hit ? json(withLang(hit, lang), 200, cache) : json({ error: 'Barcode nicht gefunden' }, 404);
     }
 
-    return json({ error: 'Nicht gefunden', endpoints: ['/search?q=&limit=', '/item/{id}', '/barcode/{ean}', '/health'] }, 404);
+    return json({ error: 'Nicht gefunden', endpoints: ['/search?q=&limit=&lang=', '/item/{id}', '/barcode/{ean}', '/health'] }, 404);
   };
 }
 
