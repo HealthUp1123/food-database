@@ -17,3 +17,5 @@ tools/dishes/off_dump/
 tools/dishes/off_check_cache.sqlite
 tools/dishes/off_check_status.json
 tools/dishes/off_check_status_dump.json
+tools/base_ingredients/usda/
+tools/base_ingredients/*.zip

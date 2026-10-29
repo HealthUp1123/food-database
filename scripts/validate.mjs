@@ -22,7 +22,10 @@ if (!Array.isArray(data)) {
   process.exit(1);
 }
 
-const CUISINES = 'tr de it fr es pt gr gb ie nl be at ch se no dk fi is pl cz sk hu rs hr ba bg al mk si ro ee lv lt ua ru cy mt lu ge am az md by me xk ad li mc sm'.split(' ');
+// "int" = international/ohne Landesküche (Grundzutaten wie Tomate, Reis, Hähnchenbrust).
+const CUISINES = 'tr de it fr es pt gr gb ie nl be at ch se no dk fi is pl cz sk hu rs hr ba bg al mk si ro ee lv lt ua ru cy mt lu ge am az md by me xk ad li mc sm int'.split(' ');
+const QUALITIES = ['estimate', 'verified', 'reference'];
+const STATES = ['raw', 'cooked', 'dry', 'dried', 'processed'];
 const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
 const ids = new Map();
 const barcodes = new Map();
@@ -58,7 +61,7 @@ data.forEach((e, i) => {
     if (!isNum(ing.grams) || ing.grams <= 0) err(ctx, `ingredients[${j}].grams muss eine Zahl > 0 sein`);
   });
 
-  if (e.quality !== 'estimate' && e.quality !== 'verified') err(ctx, 'quality muss "estimate" oder "verified" sein');
+  if (!QUALITIES.includes(e.quality)) err(ctx, 'quality muss "estimate", "verified" oder "reference" sein');
   if (typeof e.source !== 'string' || !e.source.trim()) err(ctx, 'source fehlt (Herkunft der Nährwerte)');
 
   const p = e.per100g;
@@ -68,8 +71,13 @@ data.forEach((e, i) => {
     for (const m of MACROS) {
       if (!isNum(p[m]) || p[m] < 0 || p[m] > 100) err(ctx, `${m} ${p[m]} ungültig (0–100 pro 100 g)`);
     }
+    if ('sugar' in p) {
+      // Optional. Bei USDA-Daten kann Zucker (gemessen) leicht über Kohlenhydraten (Differenzrechnung) liegen, z. B. Milch.
+      if (!isNum(p.sugar) || p.sugar < 0 || p.sugar > 100) err(ctx, `sugar ${p.sugar} ungültig (0–100 pro 100 g)`);
+    }
     if (MACROS.every((m) => isNum(p[m]))) {
-      if (p.protein + p.carbs + p.fat > 100.0001) err(ctx, `Protein+Kohlenhydrate+Fett = ${(p.protein + p.carbs + p.fat).toFixed(1)} g > 100 g`);
+      // 0,15 g Rundungstoleranz: Referenzdaten (z. B. USDA Leinöl 0,11 g Eiweiß + 99,98 g Fett) summieren teils knapp über 100 g.
+      if (p.protein + p.carbs + p.fat > 100.15) err(ctx, `Protein+Kohlenhydrate+Fett = ${(p.protein + p.carbs + p.fat).toFixed(1)} g > 100 g`);
       if (p.fiber > p.carbs + 0.0001 && p.fiber > 0) {
         // Ballaststoffe zählen oft separat; nur Warnung, kein Fehler
         console.warn(`! ${ctx}: Ballaststoffe (${p.fiber}) > Kohlenhydrate (${p.carbs}) – bitte prüfen`);
@@ -84,7 +92,18 @@ data.forEach((e, i) => {
   }
 
   // Optionale Felder (Gericht vs. Fertigprodukt, Hinweis auf ähnliche OFF-Produkte)
-  if ('prepared' in e && !['homemade', 'restaurant'].includes(e.prepared)) err(ctx, 'prepared muss "homemade" oder "restaurant" sein');
+  if ('prepared' in e && !['homemade', 'restaurant', 'base_ingredient'].includes(e.prepared)) err(ctx, 'prepared muss "homemade", "restaurant" oder "base_ingredient" sein');
+  if (e.prepared === 'base_ingredient') {
+    // Grundzutat (z. B. Tomate roh, Reis gekocht): kein Gericht, kein Fertigprodukt, Referenzwerte pro 100 g.
+    if (e.type !== 'item') err(ctx, 'Grundzutat (prepared "base_ingredient") braucht type "item"');
+    if (e.is_packaged_product !== false) err(ctx, 'Grundzutat braucht is_packaged_product: false');
+    if (e.barcode !== null) err(ctx, 'Grundzutat hat keinen Barcode (barcode: null)');
+  }
+  if ('state' in e && !STATES.includes(e.state)) err(ctx, `state muss einer von ${STATES.join(', ')} sein`);
+  if ('unit' in e && e.unit !== 'g') err(ctx, 'unit muss "g" sein (Nährwerte pro 100 g)');
+  if ('note' in e && (typeof e.note !== 'string' || !e.note.trim())) err(ctx, 'note muss ein nicht-leerer String sein');
+  if ('fdc_id' in e && (!Number.isInteger(e.fdc_id) || e.fdc_id <= 0)) err(ctx, 'fdc_id muss eine positive Ganzzahl sein (USDA FoodData Central)');
+  if ('source_missing' in e && (!Array.isArray(e.source_missing) || e.source_missing.some((k) => !['fiber', 'sugar'].includes(k)))) err(ctx, 'source_missing darf nur "fiber"/"sugar" enthalten');
   if ('is_packaged_product' in e && typeof e.is_packaged_product !== 'boolean') err(ctx, 'is_packaged_product muss true/false sein');
   if (e.is_packaged_product === true && e.type === 'dish') err(ctx, 'ein Gericht (type "dish") darf nicht is_packaged_product=true sein');
   if ('off_similar' in e) {
