@@ -1,0 +1,8 @@
+xa_weizen|Weizenkörner (Dövme/Aşurelik, trocken)|335|12|68|2|11
+xa_sulguni|Sulguni/Imeruli (Salzlakenkäse, mild)|285|20|0.5|22.5|0
+xa_koriander|Koriandergrün frisch|23|2.1|3.7|0.5|2.8
+xa_traubensaft|Traubensaft|65|0.4|16|0.1|0.2
+xa_tkemali|Tkemali (saure Pflaumensauce)|60|0.6|14|0.3|1
+xa_kaese_hart|Hartkäse Schaf/Kuh (Kefalotyri/Kashkaval)|380|25|1|31|0
+xa_bohnen_rot|Rote Kidneybohnen (trocken)|333|22|60|1|15
+xa_kaese_salz_frisch|Frischer Salzkäse (Sirene/Brynza/Bryndza)|260|16|1|21|0

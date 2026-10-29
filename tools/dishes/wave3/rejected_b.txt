@@ -1,0 +1,154 @@
+de | Zwetschgendatschi | Duplikat Bestand: = Zwetschgenkuchen (Synonym)
+de | Saure Zipfel | Duplikat Bestand: = Blaue Zipfel
+de | Hefezopf mit Butter | Variante Bestand: Hefezopf
+de | Schwäbischer Fleischküchle | Duplikat Bestand: Fleischküchle = Synonym von Frikadellen
+de | Dresdner Christstollen mit Butter | Duplikat Bestand: Christstollen (Synonym Dresdner Stollen)
+de | Berliner Pfannkuchen mit Marmelade | Duplikat Bestand: Berliner (Synonym Berliner Pfannkuchen)
+de | Badisches Schäufele mit Brägele | Variante Bestand: Schäufele + Brägele (beide einzeln vorhanden)
+de | Rheinische Muscheln mit Schwarzbrot | Duplikat innerhalb Team B: Rheinischer Muscheltopf
+de | Lüngerl | Variante Bestand: = Beuschel (at)
+de | Bayerischer Wurstsalat | Variante Bestand: Wurstsalat
+de | Reiberdatschi | Variante Bestand: Kartoffelpuffer/Reibekuchen
+de | Rheinischer Reibekuchen mit Apfelkraut | Variante Bestand: Reibekuchen, Kartoffelpuffer mit Apfelmus
+de | Auszogne mit Puderzucker | Duplikat Bestand: Ausgezogne
+de | Rohrnudeln | Variante Bestand: Buchteln (at)
+de | Dresdner Eierschecke vom Blech | Duplikat Bestand: Eierschecke
+de | Quarkkäulchen sächsisch | Duplikat Bestand: Quarkkeulchen
+de | Bayerische Creme mit Himbeersoße | Variante Bestand: Bayerische Creme
+de | Allgäuer Kässpatzen | Variante Bestand: Käsespätzle
+de | Berliner Currywurst ohne Darm | Variante Bestand: Currywurst
+de | Kasslerbraten mit Sauerkraut und Kartoffelpüree | Duplikat Bestand: Kassler mit Püree und Sauerkraut
+de | Thüringer Kartoffelklöße mit Rouladen | Variante Bestand: Rinderrouladen mit Rotkohl und Klößen
+de | Thüringer Rostbratwurst mit Senf im Brötchen | Variante Bestand: Bratwurst im Brötchen / Thüringer Rostbratwurst
+de | Frankfurter Würstchen mit Brot | Variante Bestand: Wiener Würstchen / Bockwurst
+de | Schwäbischer Rostbraten | Variante Bestand: Zwiebelrostbraten
+de | Saitenwürstle mit Kartoffelsalat | Variante Bestand: Wiener Würstchen mit Kartoffelsalat
+de | Kutteln in Trollingersoße | Variante Bestand: Saure Kutteln
+de | Schwarzwälder Kirschwassertorte | Variante Bestand: Schwarzwälder Kirschtorte
+de | Fränkische Bratwurst mit Kraut | Variante Bestand: Bratwurst mit Sauerkraut
+de | Pfälzer Bratwurst mit Weinkraut | Variante Bestand: Bratwurst mit Sauerkraut
+de | Thüringer Schmandkuchen | Variante Bestand: Schmandtorte
+de | Broiler | Variante Bestand: Brathähnchen halb
+de | Hackepeterbrötchen mit Zwiebeln | Variante Bestand: Mettbrötchen/Hackepeter
+de | Röggelchen mit Käse | Variante Bestand: Halve Hahn
+de | Münsterländer Töttchen | Duplikat Bestand: Töttchen
+de | Nudeln mit Tomatensoße | Duplikat Bestand: Domates Soslu Makarna (tr, Synonym)
+de | Blumenkohlsuppe | Duplikat Bestand: Karnabahar Çorbası (tr, Synonym)
+de | Frittatensuppe mit Schnittlauch | Duplikat Bestand: Flädlesuppe / Rindsuppe mit Frittaten
+de | Hühnerreissuppe | Duplikat Bestand: Tavuklu Pirinç Çorbası (Synonym Hühnersuppe mit Reis)
+de | Radieschensalat | Duplikat Bestand: Turp Salatası (tr, Synonym)
+de | Thunfischsalat | Duplikat Bestand: Ton Balıklı Salata (tr, Synonym)
+at | Burgenländische Krautfleckerl | Variante Bestand: Krautfleckerl (at)
+at | Heurigenbrot (Liptauerbrot) | Variante Bestand: Liptauer (at)
+ch | Chäsbrätel | Unsicher, kein belegtes verbreitetes Gericht
+be | Flamiche | Bestand: Flamiche aux poireaux (fr)
+be | Tarte au sucre | Doppelt mit Team C (fr Tarte au sucre)
+be | Steak-frites | Bestand: Steak frites (fr)
+dk | Biksemad | Bestand: 'dk', 'Biksemad', 'name'
+dk | Kogt torsk med sennepssovs | Bestand: 'dk', 'Kogt torsk med sennepssovs', 'name'
+dk | Gule ærter | Bestand: 'dk', 'Gule ærter', 'name'
+dk | Æggekage | Bestand: 'dk', 'Æggekage', 'name'
+dk | Øllebrød | Bestand: 'dk', 'Øllebrød', 'name'
+dk | Brændende kærlighed | Bestand: 'dk', 'Brændende kærlighed', 'name'
+se | Pyttipanna | Bestand: 'se', 'Pytt i panna', 'name'
+se | Kåldolmar | Bestand: 'se', 'Kåldolmar', 'name'
+se | Kroppkakor | Bestand: 'se', 'Kroppkakor', 'name'
+se | Pitepalt | Bestand: 'se', 'Palt' (Variante)
+se | Wallenbergare | Bestand: 'se', 'Wallenbergare', 'name'
+se | Biff à la Lindström | Bestand: 'se', 'Biff à la Lindström', 'name'
+se | Isterband | Bestand: 'se', 'Isterband', 'name'
+se | Kalops | Bestand: 'se', 'Kalops', 'name'
+se | Stekt strömming | Bestand: 'se', 'Stekt strömming', 'name'
+se | Toast Skagen | Bestand: 'se', 'Skagenröra', 'syn'
+se | Västerbottenpaj | Bestand: 'se', 'Västerbottenpaj', 'name'
+se | Prinsesstårta | Bestand: 'se', 'Prinsesstårta', 'name'
+se | Kladdkaka | Bestand: 'se', 'Kladdkaka', 'name'
+se | Ostkaka | Bestand: 'se', 'Ostkaka', 'name'
+se | Smörgåstårta | Bestand: 'se', 'Smörgåstårta', 'name'
+no | Kjøttkaker i brun saus | Bestand: 'no', 'Kjøttkaker i brun saus', 'name'
+no | Raspeballer | Bestand: 'no', 'Raspeballer', 'name'
+no | Lapskaus | Bestand: 'no', 'Lapskaus', 'name'
+no | Rakfisk | Bestand: 'no', 'Rakfisk', 'name'
+no | Krumkake | Bestand: 'no', 'Krumkake', 'name'
+no | Kvæfjordkake | Bestand: 'no', 'Kvæfjordkake', 'name'
+no | Svinestek med rødkål | Bestand: 'no', 'Ribbe' (Variante)
+fi | Karjalanpaisti | Bestand: 'fi', 'Karjalanpaisti', 'name'
+fi | Lanttulaatikko | Bestand: 'fi', 'Lanttulaatikko', 'name'
+fi | Maksalaatikko | Bestand: 'fi', 'Maksalaatikko', 'name'
+fi | Kalakukko | Bestand: 'fi', 'Kalakukko', 'name'
+fi | Mämmi | Bestand: 'fi', 'Mämmi', 'name'
+fi | Pulla | Bestand: 'fi', 'Pulla', 'name'
+fi | Runebergintorttu | Bestand: 'fi', 'Runebergin torttu', 'name'
+fi | Poronkäristys | Bestand: 'fi', 'Poronkäristys', 'name'
+fi | Hernekeitto | Bestand: 'fi', 'Hernekeitto', 'name'
+fi | Silakkapihvit | Bestand: 'fi', 'Silakkapihvit', 'name'
+fi | Mustikkapiirakka | Bestand: 'fi', 'Mustikkapiirakka', 'name'
+fi | Lörtsy | Bestand: 'fi', 'Lörtsy', 'name'
+is | Plokkfiskur | Bestand: 'is', 'Plokkfiskur', 'name'
+is | Kjötsúpa | Bestand: 'is', 'Kjötsúpa', 'name'
+is | Hangikjöt | Bestand: 'is', 'Hangikjöt', 'name'
+dk | Hakkebøf med bløde løg | Variante Bestand: Hakkebøf med løg (dk)
+dk | Stegt rødspætte med persillesovs | Variante Bestand: Stegt rødspætte (dk)
+dk | Koldskål med kammerjunkere | Variante Bestand: Koldskål (dk)
+dk | Medisterpølse med rødkål | Variante Bestand: Medisterpølse (dk)
+se | Raggmunk med fläsk | Variante Bestand: Raggmunk (se)
+se | Flygande Jacob | Bestand: Flygande Jakob (se)
+se | Lussekatt | Bestand: Lussekatter (se)
+se | Ärtsoppa med pannkakor | Variante Bestand: Ärtsoppa med fläsk (se)
+no | Bergensk fiskesuppe | Variante Bestand: Fiskesuppe (no)
+no | Fiskeboller i hvit saus | Variante Bestand: Fiskeboller (no)
+no | Fiskegrateng | Variante Bestand: Fiskgratäng (se)
+fi | Leipäjuusto lakkahillolla | Variante Bestand: Leipäjuusto (fi)
+no | Skillingsboller | Variante Bestand: Kanelbulle (se) / Kanelsnegl (dk)
+dk | Klejner | Variante Bestand: Kleinur (is)
+dk | Pebernødder | Variante zu Kruidnoten (Team B, nl)
+dk | Fastelavnsbolle | Variante Bestand: Semla (se)
+fi | Laskiaispulla | Variante Bestand: Semla (se)
+fi | Mustamakkara | Variante Bestand: Blodpudding (se)
+ee | Kringel | Variante zu Kringle (Team B, dk)
+ee | Leivasupp | Variante Bestand: Maizes zupa (lv)
+ee | Mannavaht | Variante zu Debesmanna (Team B, lv), als Synonym geführt
+ee | Kohuke | Verpacktes Markenprodukt (Kühlregal-Quarkriegel)
+lv | Kliņģeris | Variante zu Kringle (Team B, dk)
+lt | Varškėčiai | Variante Bestand: Syrniki/Quarkkäulchen
+lt | Silkė pataluose | Variante Bestand: Shuba (Hering unter Pelzmantel)
+lt | Bulvių plokštainis | Variante Bestand: Kugelis (lt)
+lt | Virtiniai | Variante Bestand: Koldūnai (lt)
+at | Almdudler | Markenprodukt (verpacktes Getränk)
+at | Mozartkugel | Markenprodukt / verpackte Süßware
+at | Manner Schnitten | Markenprodukt (verpackte Waffel)
+de | Spezi | Markenprodukt (verpacktes Getränk)
+de | Fanta-Mix / Cola-Orange | Markenprodukt (verpacktes Getränk)
+de | Wiener Eiskaffee | Variante Bestand: Eiskaffee
+de | Zimtschnecke | Variante Bestand: Kanelbulle (se)
+ch | Rivella | Markenprodukt (verpacktes Getränk)
+ch | Ovomaltine | Markenprodukt (verpacktes Pulver/Getränk)
+ch | Luxemburgerli | Markenprodukt (Sprüngli)
+ch | Birnbrot | Variante zu Kletzenbrot (Team B, at)
+ch | Käseschnitte / Croûte au fromage | Variante Bestand: Käseschnitte
+ch | Fotzelschnitten | Variante Bestand: Armer Ritter
+ch | St. Galler Bratwurst | Variante Bestand: Ostschweizer Bratwurst
+li | Liechtensteiner Käsknöpfle | Variante Bestand: Käsespätzle
+li | Ribel | Bestand: Rheintaler Ribelmais
+lu | Äppelklatzen | Variante Bestand: Apfel im Schlafrock
+lu | Huesenziwwi | Variante Bestand: Hasenpfeffer
+nl | Balkenbrij | Variante Bestand: Panhas (de)
+nl | Wentelteefjes | Variante Bestand: Armer Ritter
+nl | Chocomel | Markenprodukt (verpacktes Getränk)
+nl | Drop | Verpackte Süßware, kein Gericht
+be | Bicky Burger | Markenprodukt
+be | Carbonnade flamande | Variante Bestand: Stoofvlees / Vlaamse stoverij
+be | Chicons au gratin | Variante Bestand: Witloof met hesp en kaas
+be | Rombosse | Variante Bestand: Apfel im Schlafrock
+gb | Deep-fried Mars bar | Markenprodukt
+gb | Arctic roll | Verpacktes Tiefkühlprodukt
+gb | Tattie scones | Variante Bestand: Potato farl (ie)
+gb | Clapshot | Variante Bestand: Haggis, neeps and tatties
+gb | Shandy | Variante Bestand: Radler
+gb | Steak and kidney pudding | Variante Bestand: Steak and kidney pie
+ie | Ulster fry | Variante Bestand: Irish breakfast
+ie | Irish brown bread | Variante Bestand: Soda bread
+ie | Tea brack | Variante Bestand: Barmbrack
+ie | Baileys | Markenprodukt (Likör)
+ie | Tayto crisp sandwich | Markenprodukt
+ie | Veda bread | Markenprodukt

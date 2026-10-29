@@ -1,0 +1,18 @@
+# Verworfen | Land | Gericht | Grund
+it | Cappuccino | Duplikat Bestand (de: Cappuccino)
+it | Jota triestina | Duplikat Bestand (hr: Jota, gleiches Gericht)
+it | Profiteroles al cioccolato | Duplikat Bestand (tr: Profiterol, gleiches Gericht)
+fr | Mousse au chocolat | Duplikat Bestand (de: Mousse au Chocolat)
+fr | Saucisse purée | Duplikat Bestand (de: Bratwurst mit Kartoffelpüree, gleiches Gericht)
+fr | Bouchées à la reine | Duplikat Bestand (be: Vol-au-vent, gleiches Gericht)
+ad | Escudella andorrana | Duplikat Bestand (es: Escudella i carn d'olla, gleiches Gericht)
+cz | Segedínský guláš | Duplikat Bestand (de: Szegediner Gulasch, gleiches Gericht)
+sk | Halušky s kapustou | Duplikat Bestand (sk: Strapačky = Halušky mit Kraut)
+cz | Jablečný závin | Duplikat Bestand (at: Apfelstrudel, gleiches Gericht)
+ru | Solyanka | Duplikat Bestand (de: Soljanka)
+ro | Ardei umpluți | Duplikat Team A (md: Ardei umpluți moldovenești, gleiches Gericht)
+ro | Chiftele | Duplikat Team A (md: Chiftele moldovenești)
+ro | Brânzoaice | Duplikat Team A (md: Brânzoaice)
+ro | Friptură de porc | Duplikat Team A (md: Friptură moldovenească)
+ro | Ciorbă de pește | Duplikat Team A (md: Ciorbă de pește moldovenească)
+sk | Pagáče s oškvarkami | Duplikat Team B (at: Grammelpogatscherl) bzw. Variante von hu Pogácsa

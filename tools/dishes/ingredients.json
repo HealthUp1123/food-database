@@ -3133,5 +3133,324 @@
       "fat": 24.0,
       "fiber": 10.0
     }
+  },
+  {
+    "key": "xa_weizen",
+    "name": "Weizenkörner (Dövme/Aşurelik, trocken)",
+    "per100g": {
+      "kcal": 335.0,
+      "protein": 12.0,
+      "carbs": 68.0,
+      "fat": 2.0,
+      "fiber": 11.0
+    }
+  },
+  {
+    "key": "xa_sulguni",
+    "name": "Sulguni/Imeruli (Salzlakenkäse, mild)",
+    "per100g": {
+      "kcal": 285.0,
+      "protein": 20.0,
+      "carbs": 0.5,
+      "fat": 22.5,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "xa_koriander",
+    "name": "Koriandergrün frisch",
+    "per100g": {
+      "kcal": 23.0,
+      "protein": 2.1,
+      "carbs": 3.7,
+      "fat": 0.5,
+      "fiber": 2.8
+    }
+  },
+  {
+    "key": "xa_traubensaft",
+    "name": "Traubensaft",
+    "per100g": {
+      "kcal": 65.0,
+      "protein": 0.4,
+      "carbs": 16.0,
+      "fat": 0.1,
+      "fiber": 0.2
+    }
+  },
+  {
+    "key": "xa_tkemali",
+    "name": "Tkemali (saure Pflaumensauce)",
+    "per100g": {
+      "kcal": 60.0,
+      "protein": 0.6,
+      "carbs": 14.0,
+      "fat": 0.3,
+      "fiber": 1.0
+    }
+  },
+  {
+    "key": "xa_kaese_hart",
+    "name": "Hartkäse Schaf/Kuh (Kefalotyri/Kashkaval)",
+    "per100g": {
+      "kcal": 380.0,
+      "protein": 25.0,
+      "carbs": 1.0,
+      "fat": 31.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "xa_bohnen_rot",
+    "name": "Rote Kidneybohnen (trocken)",
+    "per100g": {
+      "kcal": 333.0,
+      "protein": 22.0,
+      "carbs": 60.0,
+      "fat": 1.0,
+      "fiber": 15.0
+    }
+  },
+  {
+    "key": "xa_kaese_salz_frisch",
+    "name": "Frischer Salzkäse (Sirene/Brynza/Bryndza)",
+    "per100g": {
+      "kcal": 260.0,
+      "protein": 16.0,
+      "carbs": 1.0,
+      "fat": 21.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "xb_kohlrabi",
+    "name": "Kohlrabi",
+    "per100g": {
+      "kcal": 27.0,
+      "protein": 1.9,
+      "carbs": 4.5,
+      "fat": 0.1,
+      "fiber": 1.5
+    }
+  },
+  {
+    "key": "xb_fenchel",
+    "name": "Fenchel",
+    "per100g": {
+      "kcal": 31.0,
+      "protein": 1.2,
+      "carbs": 3.0,
+      "fat": 0.2,
+      "fiber": 2.9
+    }
+  },
+  {
+    "key": "xb_pastinake",
+    "name": "Pastinake/Petersilienwurzel",
+    "per100g": {
+      "kcal": 75.0,
+      "protein": 1.2,
+      "carbs": 15.0,
+      "fat": 0.3,
+      "fiber": 4.9
+    }
+  },
+  {
+    "key": "xb_schwarzwurzel",
+    "name": "Schwarzwurzel",
+    "per100g": {
+      "kcal": 78.0,
+      "protein": 3.0,
+      "carbs": 16.0,
+      "fat": 0.4,
+      "fiber": 3.3
+    }
+  },
+  {
+    "key": "xb_steckruebe",
+    "name": "Steckrübe",
+    "per100g": {
+      "kcal": 37.0,
+      "protein": 1.1,
+      "carbs": 7.0,
+      "fat": 0.2,
+      "fiber": 2.3
+    }
+  },
+  {
+    "key": "xb_johannisbeere",
+    "name": "Johannisbeere (rot/schwarz)",
+    "per100g": {
+      "kcal": 50.0,
+      "protein": 1.2,
+      "carbs": 10.0,
+      "fat": 0.2,
+      "fiber": 4.3
+    }
+  },
+  {
+    "key": "xb_stachelbeere",
+    "name": "Stachelbeere",
+    "per100g": {
+      "kcal": 44.0,
+      "protein": 0.9,
+      "carbs": 9.0,
+      "fat": 0.6,
+      "fiber": 3.5
+    }
+  },
+  {
+    "key": "xb_apfelsaft",
+    "name": "Apfelsaft",
+    "per100g": {
+      "kcal": 46.0,
+      "protein": 0.1,
+      "carbs": 11.0,
+      "fat": 0.1,
+      "fiber": 0.1
+    }
+  },
+  {
+    "key": "xb_orangensaft",
+    "name": "Orangensaft",
+    "per100g": {
+      "kcal": 45.0,
+      "protein": 0.7,
+      "carbs": 10.0,
+      "fat": 0.2,
+      "fiber": 0.2
+    }
+  },
+  {
+    "key": "xb_cola",
+    "name": "Cola/Limonade (gezuckert)",
+    "per100g": {
+      "kcal": 42.0,
+      "protein": 0.0,
+      "carbs": 10.5,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "xb_sirup",
+    "name": "Zuckerrübensirup/Golden Syrup/Sirup",
+    "per100g": {
+      "kcal": 320.0,
+      "protein": 0.5,
+      "carbs": 79.0,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "xb_lachs_geraeuchert",
+    "name": "Räucherlachs",
+    "per100g": {
+      "kcal": 180.0,
+      "protein": 22.0,
+      "carbs": 0.0,
+      "fat": 10.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "xb_matjes",
+    "name": "Matjeshering",
+    "per100g": {
+      "kcal": 255.0,
+      "protein": 16.0,
+      "carbs": 0.0,
+      "fat": 21.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "xb_cheddar",
+    "name": "Cheddar",
+    "per100g": {
+      "kcal": 400.0,
+      "protein": 25.0,
+      "carbs": 1.3,
+      "fat": 33.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "xb_nierenfett",
+    "name": "Rindernierenfett (Suet)",
+    "per100g": {
+      "kcal": 850.0,
+      "protein": 1.5,
+      "carbs": 0.0,
+      "fat": 94.0,
+      "fiber": 0.0
+    }
+  },
+  {
+    "key": "xb_gruenkern",
+    "name": "Grünkern/Dinkel (Korn)",
+    "per100g": {
+      "kcal": 330.0,
+      "protein": 11.0,
+      "carbs": 63.0,
+      "fat": 2.7,
+      "fiber": 8.8
+    }
+  },
+  {
+    "key": "xb_rote_gruetze_beeren",
+    "name": "Beerenmischung (rot)",
+    "per100g": {
+      "kcal": 45.0,
+      "protein": 1.0,
+      "carbs": 8.5,
+      "fat": 0.3,
+      "fiber": 4.0
+    }
+  },
+  {
+    "key": "xb_lebkuchen",
+    "name": "Lebkuchen/Honigkuchen",
+    "per100g": {
+      "kcal": 360.0,
+      "protein": 5.5,
+      "carbs": 70.0,
+      "fat": 6.0,
+      "fiber": 3.0
+    }
+  },
+  {
+    "key": "xc_fenchel",
+    "name": "Fenchel (Knolle)",
+    "per100g": {
+      "kcal": 31.0,
+      "protein": 1.2,
+      "carbs": 7.3,
+      "fat": 0.2,
+      "fiber": 3.1
+    }
+  },
+  {
+    "key": "xc_chicoree",
+    "name": "Chicorée/Endivie",
+    "per100g": {
+      "kcal": 17.0,
+      "protein": 1.3,
+      "carbs": 3.4,
+      "fat": 0.2,
+      "fiber": 3.1
+    }
+  },
+  {
+    "key": "xc_kichererbsenmehl",
+    "name": "Kichererbsenmehl",
+    "per100g": {
+      "kcal": 387.0,
+      "protein": 22.0,
+      "carbs": 58.0,
+      "fat": 6.7,
+      "fiber": 11.0
+    }
   }
 ]
