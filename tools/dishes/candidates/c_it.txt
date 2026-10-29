@@ -1,0 +1,217 @@
+it | Spaghetti alla Carbonara | Carbonara, Pasta carbonara | NA
+it | Spaghetti cacio e pepe | Cacio e pepe, Pasta cacio e pepe | NA
+it | Pasta alla gricia | Gricia | NA
+it | Bucatini all'amatriciana | Amatriciana, Pasta all'amatriciana | NA
+it | Spaghetti alla puttanesca | Puttanesca, Pasta puttanesca | NA
+it | Penne all'arrabbiata | Arrabbiata, Penne arrabbiata | NA
+it | Spaghetti aglio olio e peperoncino | Aglio e olio, Spaghetti aglio olio | NA
+it | Pasta alla Norma | Norma, Pasta Norma sicilian | NA
+it | Spaghetti alle vongole | Vongole, Spaghetti with clams | NA
+it | Linguine allo scoglio | Spaghetti allo scoglio, Seafood pasta Italian | NA
+it | Trofie al pesto | Pesto genovese pasta, Trofie al pesto genovese | NA
+it | Tagliatelle al ragù | Ragù alla bolognese, Tagliatelle bolognese | NA
+it | Lasagne alla bolognese | Lasagna al forno, Lasagne al forno | AU
+it | Cannelloni ricotta e spinaci | Cannelloni, Cannelloni with ricotta | AU
+it | Tortellini in brodo | Tortellini, Tortellini broth | S
+it | Tortelloni burro e salvia | Ravioli burro e salvia, Sage butter ravioli | NA
+it | Pasta e fagioli | Pasta and beans Italian | E
+it | Pasta e ceci | Pasta and chickpeas Italian | E
+it | Pasta al forno | Baked pasta Italian, Pasta al forno siciliana | AU
+it | Orecchiette con le cime di rapa | Orecchiette cime di rapa, Orecchiette with turnip tops | NA
+it | Pizzoccheri della Valtellina | Pizzoccheri | NA
+it | Casoncelli alla bergamasca | Casoncelli | NA
+it | Gnocchi alla sorrentina | Gnocchi sorrento style | AU
+it | Gnocchi al gorgonzola | Gorgonzola gnocchi | NA
+it | Gnocchi alla romana | Roman semolina gnocchi | AU
+it | Strozzapreti alla romagnola | Strozzapreti | NA
+it | Passatelli in brodo | Passatelli | S
+it | Canederli in brodo | Canederli | S
+it | Pappardelle al cinghiale | Wild boar pappardelle | NA
+it | Spaghetti alla Nerano | Spaghetti Nerano, Zucchini spaghetti Nerano | NA
+it | Paccheri al ragù di polpo | Paccheri with octopus ragù | NA
+it | Bigoli in salsa | Bigoli | NA
+it | Pasta alla Genovese | Genovese napoletana, Neapolitan onion ragù | NA
+it | Maccheroni alla chitarra | Spaghetti alla chitarra, Chitarra pasta Abruzzo | NA
+it | Cavatelli broccoli e salsiccia | Cavatelli with sausage | NA
+it | Ravioli di ricotta e spinaci | Ravioli ricotta spinaci | NA
+it | Culurgiones | Culurgiones sardi | NA
+it | Malloreddus alla campidanese | Malloreddus | NA
+it | Spaghetti al nero di seppia | Squid ink spaghetti | NA
+it | Risotto alla milanese | Risotto milanese, Saffron risotto | RP
+it | Risotto ai funghi porcini | Porcini risotto | RP
+it | Risotto al nero di seppia | Squid ink risotto | RP
+it | Risotto alla pescatora | Seafood risotto | RP
+it | Risi e bisi | Venetian rice and peas | RP
+it | Risotto agli asparagi | Asparagus risotto | RP
+it | Risotto al radicchio e gorgonzola | Radicchio risotto | RP
+it | Arancini siciliani | Arancini, Arancino al ragù | SN
+it | Supplì al telefono | Supplì | SN
+it | Polenta concia | Polenta with cheese, Polenta e formaggio | B
+it | Polenta e funghi | Polenta with mushrooms | HV
+it | Polenta e osei | Polenta and birds | HF
+it | Osso buco alla milanese | Ossobuco, Osso buco | HF
+it | Saltimbocca alla romana | Saltimbocca, Veal saltimbocca | HF
+it | Cotoletta alla milanese | Milanese veal cutlet, Costoletta milanese | HF
+it | Vitello tonnato | Veal with tuna sauce | V
+it | Bistecca alla fiorentina | Florentine steak | HF
+it | Tagliata di manzo con rucola | Tagliata, Sliced steak with rocket | HF
+it | Straccetti di manzo | Straccetti | HF
+it | Polpette al sugo | Italian meatballs in tomato sauce | KF
+it | Polpettone | Italian meatloaf | HF
+it | Brasato al Barolo | Barolo braised beef, Brasato | HF
+it | Stracotto di manzo | Stracotto | HF
+it | Trippa alla fiorentina | Florentine tripe | HF
+it | Trippa alla romana | Roman tripe | HF
+it | Coda alla vaccinara | Oxtail stew Roman | HF
+it | Abbacchio alla scottadito | Scottadito lamb chops | HF
+it | Abbacchio al forno con patate | Roast lamb with potatoes Roman | HF
+it | Porchetta | Roast pork porchetta | HF
+it | Arista di maiale al latte | Pork loin in milk | HF
+it | Involtini alla messinese | Messina beef rolls | HF
+it | Pollo alla cacciatora | Chicken cacciatore | HG
+it | Pollo alla diavola | Devilled chicken Tuscan | HG
+it | Pollo con i peperoni | Chicken with peppers Roman | HG
+it | Coniglio alla ligure | Ligurian rabbit | HF
+it | Fritto misto di mare | Mixed fried seafood | HFi
+it | Baccalà alla vicentina | Baccalà vicentina | HFi
+it | Baccalà mantecato | Creamed salt cod | V
+it | Sarde in saor | Sarde a beccafico, Sweet and sour sardines Venice | HFi
+it | Pesce spada alla ghiotta | Swordfish ghiotta | HFi
+it | Acqua pazza | Fish in crazy water | HFi
+it | Cacciucco alla livornese | Cacciucco, Livorno fish stew | E
+it | Brodetto di pesce | Adriatic fish stew | E
+it | Zuppa di cozze | Mussel soup Italian | S
+it | Impepata di cozze | Peppered mussels | HFi
+it | Spiedini di gamberi | Prawn skewers Italian | HFi
+it | Frittura di calamari | Fried calamari Italian | HFi
+it | Insalata di polpo e patate | Octopus potato salad | SA
+it | Insalata caprese | Caprese, Caprese salad | SA
+it | Panzanella | Tuscan bread salad | SA
+it | Insalata di riso | Italian rice salad | SA
+it | Insalata di arance e finocchi | Orange fennel salad Sicilian | SA
+it | Caponata siciliana | Caponata | V
+it | Melanzane alla parmigiana | Parmigiana di melanzane, Eggplant parmigiana | AU
+it | Peperonata | Italian pepper stew | GZ
+it | Ribollita | Tuscan bread soup | S
+it | Pappa al pomodoro | Tuscan tomato bread soup | S
+it | Acquacotta | Maremma vegetable soup | S
+it | Minestrone alla genovese | Minestrone, Genoese minestrone | S
+it | Minestra di farro | Farro soup | S
+it | Zuppa di lenticchie | Italian lentil soup | S
+it | Stracciatella alla romana | Stracciatella soup, Italian egg drop soup | S
+it | Zuppa pavese | Pavese soup | S
+it | Passata di ceci | Chickpea purée soup | S
+it | Cassoeula | Cassoeula milanese | E
+it | Fagioli all'uccelletto | Beans in tomato sage | HH
+it | Cicoria e fagioli | Chicory and beans | HH
+it | Frittata di zucchine | Zucchini frittata | EI
+it | Frittata di cipolle | Onion frittata | EI
+it | Uova in purgatorio | Eggs in purgatory | EI
+it | Carciofi alla romana | Roman artichokes | GZ
+it | Carciofi alla giudia | Jewish-style artichokes | GZ
+it | Fiori di zucca fritti | Fried zucchini flowers | V
+it | Verdure grigliate | Grilled vegetables Italian | GZ
+it | Bruschetta al pomodoro | Bruschetta | V
+it | Crostini toscani | Crostini di fegatini | V
+it | Antipasto misto italiano | Antipasto platter | V
+it | Prosciutto e melone | Ham and melon | V
+it | Carpaccio di manzo | Beef carpaccio | V
+it | Bresaola con rucola e grana | Bresaola rocket parmesan | V
+it | Burrata con pomodorini | Burrata and tomatoes | V
+it | Mozzarella in carrozza | Fried mozzarella sandwich | SN
+it | Pizza Margherita | Margherita pizza | PZ
+it | Pizza Napoletana | Neapolitan pizza | PZ
+it | Pizza Marinara | Marinara pizza | PZ
+it | Pizza Diavola | Devil pizza, Spicy salami pizza | PZ
+it | Pizza Quattro Stagioni | Four seasons pizza | PZ
+it | Pizza Quattro Formaggi | Four cheese pizza | PZ
+it | Pizza Capricciosa | Capricciosa | PZ
+it | Pizza Prosciutto e funghi | Ham and mushroom pizza | PZ
+it | Pizza Bianca romana | Pizza bianca | BR
+it | Pizza al taglio | Roman pizza by the slice | PZ
+it | Calzone | Calzone ripieno, Italian calzone | PZ
+it | Focaccia genovese | Focaccia, Ligurian focaccia | BR
+it | Focaccia barese | Focaccia di Bari | BR
+it | Piadina romagnola | Piadina | BR
+it | Crescentine | Tigelle | BR
+it | Grissini | Italian breadsticks | BR
+it | Ciabatta | Italian ciabatta | BR
+it | Panino con porchetta | Porchetta sandwich | SN
+it | Panino al lampredotto | Lampredotto sandwich | SN
+it | Pane e panelle | Panelle sandwich | SN
+it | Tiramisù | Tiramisu | D
+it | Panna cotta | Panna cotta ai frutti di bosco | PU
+it | Zabaione | Zabaglione | D
+it | Cannoli siciliani | Cannoli | G
+it | Cassata siciliana | Cassata | K
+it | Sfogliatella riccia | Sfogliatella | G
+it | Babà al rum | Babà | K
+it | Pastiera napoletana | Pastiera | K
+it | Zeppole di San Giuseppe | Zeppole | G
+it | Struffoli | Neapolitan honey balls | SW
+it | Panettone | Italian panettone | K
+it | Pandoro | Pandoro di Verona | K
+it | Colomba pasquale | Colomba di Pasqua | K
+it | Cantucci | Biscotti di Prato | G
+it | Amaretti | Italian amaretti | G
+it | Torta caprese | Caprese cake | K
+it | Torta della nonna | Nonna's cake | K
+it | Crostata di marmellata | Italian jam tart | K
+it | Bonet piemontese | Bonet | PU
+it | Gelato alla vaniglia | Italian vanilla gelato | D
+it | Affogato al caffè | Affogato | D
+it | Granita siciliana al limone | Lemon granita | D
+it | Semifreddo al torrone | Torrone semifreddo | D
+it | Panforte di Siena | Panforte | G
+it | Castagnaccio | Chestnut cake Tuscan | K
+it | Sbrisolona | Torta sbrisolona | K
+it | Zuppa inglese | Italian trifle | D
+it | Cassatelle di Agira | Cassatelle | G
+it | Mostaccioli | Italian mostaccioli | G
+it | Espresso italiano | Caffè espresso | GT
+it | Cappuccino | Italian cappuccino | GT
+it | Caffè macchiato | Macchiato | GT
+it | Cioccolata calda italiana | Italian hot chocolate | GT
+it | Spritz Aperol | Aperol Spritz | GT
+it | Bicerin | Bicerin torinese | GT
+it | Gnocco fritto | Torta fritta | SN
+it | Tigella con salumi | Tigelle emiliane | SN
+it | Torta pasqualina | Easter pie Ligurian | BO
+it | Torta di verdure | Italian vegetable pie | BO
+it | Farinata di ceci | Socca italian, Chickpea pancake Ligurian | SN
+it | Stoccafisso alla ligure | Stockfish Ligurian | HFi
+it | Vitello alla Marsala | Veal marsala | HF
+it | Scaloppine al limone | Lemon veal escalope | HF
+it | Rollatini di melanzane | Eggplant rollatini | AU
+it | Spezzatino di manzo con patate | Italian beef stew | E
+it | Bollito misto | Bollito misto piemontese | E
+it | Lenticchie con cotechino | Cotechino con lenticchie | E
+it | Cotechino con purè | Cotechino | WU
+it | Salsiccia e friarielli | Sausage and broccoli rabe | HF
+it | Salsiccia e patate al forno | Sausage and potatoes | HF
+it | Frico friulano | Frico, Friulian cheese potato crisp | KN
+it | Spätzle al ragù altoatesini | Spätzle Südtirol | NA
+it | Knödel di speck | Speckknödel, Südtiroler Speckknödel | KN
+it | Strangolapreti trentini | Strangolapreti | KN
+it | Fregola con arselle | Fregola sarda | NA
+it | Pane carasau con pomodoro | Pane guttiau | BR
+it | Porceddu | Sardinian roast suckling pig | HF
+it | Spaghetti al pomodoro | Pasta al pomodoro | NA
+it | Penne al pomodoro e basilico | Penne pomodoro basilico | NA
+it | Penne alla vodka | Penne vodka | NA
+it | Spaghetti al tonno | Tuna spaghetti | NA
+it | Pasta con le sarde | Sicilian sardine pasta | NA
+it | Pasta alla Siracusana | Siracusa pasta | NA
+it | Pasta ammuddicata | Pasta con la mollica | NA
+it | Pasta alla Sorrentina | Sorrento pasta | NA
+it | Spaghetti alla Assassina | Assassin's spaghetti | NA
+it | Fettuccine Alfredo | Fettuccine al burro | NA
+it | Tagliolini al tartufo | Truffle tagliolini | NA
+it | Pici cacio e pepe | Pici | NA
+it | Ravioli del plin | Agnolotti del plin | NA
+it | Agnolotti piemontesi | Agnolotti | NA
+it | Panissa vercellese | Panissa | RP
+it | Paniscia novarese | Paniscia | RP
+it | Pasta e patate | Pasta and potatoes Neapolitan | E
+it | Pasta e lenticchie | Pasta and lentils | E
+it | Carabaccia | Tuscan onion soup | S

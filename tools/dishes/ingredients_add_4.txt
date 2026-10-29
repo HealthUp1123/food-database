@@ -1,0 +1,4 @@
+x4_buchweizen|Buchweizen (Graupen/Mehl)|343|13.3|71.5|3.4|10.0
+x4_roggenmehl|Roggenmehl Type 1370|325|9.0|68.0|1.7|14.0
+x4_seetang|Seetang/Purpurtang (Laver), gegart|35|5.8|5.1|0.3|0.3
+x4_erdmandel|Erdmandeln (Tigernüsse)|415|5.0|45.0|24.0|10.0

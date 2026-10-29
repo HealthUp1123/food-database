@@ -1,5 +1,5 @@
 // Cloudflare Worker: JSON-Such-API für die Lebensmittel-Datenbank.
-// Endpunkte: GET /search?q=&limit=  |  GET /barcode/{ean}  |  GET /health
+// Endpunkte: GET /search?q=&limit=  |  GET /item/{id}  |  GET /barcode/{ean}  |  GET /health
 import foods from '../data/foods.json' with { type: 'json' };
 import { buildIndex, search, findByBarcode, isValidEan } from '../src/search.mjs';
 
@@ -17,9 +17,17 @@ function json(body, status = 200, extra = {}) {
   });
 }
 
+/** Listenantworten ohne Zutatenliste; das volle Objekt liegt unter GET /item/{id}. */
+export function toListItem(food) {
+  if (!food || typeof food !== 'object') return food;
+  const { ingredients, ...rest } = food;
+  return rest;
+}
+
 /** Erzeugt einen fetch-Handler für beliebige Daten (so testbar ohne Cloudflare). */
 export function createHandler(data) {
   const index = buildIndex(data);
+  const byId = new Map(data.map((food) => [food.id, food]));
   return async function handle(request) {
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: CORS });
     if (request.method !== 'GET') return json({ error: 'Methode nicht erlaubt' }, 405);
@@ -35,8 +43,14 @@ export function createHandler(data) {
       if (!q) return json({ error: 'Parameter q fehlt' }, 400);
       if (q.length > 100) return json({ error: 'q ist zu lang (max. 100 Zeichen)' }, 400);
       const limit = Math.max(1, Math.min(parseInt(url.searchParams.get('limit') || '10', 10) || 10, 50));
-      const results = search(index, q, limit);
+      const results = search(index, q, limit).map(toListItem);
       return json({ query: q, count: results.length, results }, 200, cache);
+    }
+
+    const item = path.match(/^\/item\/([a-z0-9]+(?:-[a-z0-9]+)*)$/);
+    if (item) {
+      const hit = byId.get(item[1]);
+      return hit ? json(hit, 200, cache) : json({ error: 'Eintrag nicht gefunden' }, 404);
     }
 
     const m = path.match(/^\/barcode\/(\d+)$/);
@@ -47,7 +61,7 @@ export function createHandler(data) {
       return hit ? json(hit, 200, cache) : json({ error: 'Barcode nicht gefunden' }, 404);
     }
 
-    return json({ error: 'Nicht gefunden', endpoints: ['/search?q=&limit=', '/barcode/{ean}', '/health'] }, 404);
+    return json({ error: 'Nicht gefunden', endpoints: ['/search?q=&limit=', '/item/{id}', '/barcode/{ean}', '/health'] }, 404);
   };
 }
 

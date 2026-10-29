@@ -1,0 +1,75 @@
+Kaiserschmarrn mit Zwetschkenröster | 0.9 | 1 Portion | mehl 60, ei 80, milch 100, butter 15, zucker 25, pflaume 150, rosinen 15
+Mehlspeise Wiener Krapfen | 0.95 | 1 Stück | mehl 60, milch 30, ei 15, butter 10, hefe 3, marmelade 25, oel 25, zucker 10
+Cordon bleu Schweiz | 0.85 | 1 Stück | kalb 180, schinken 30, emmentaler 40, paniermehl 25, ei 25, butter 25, mehl 10
+Sogan-dolma | 0.9 | 3 Stück | zwiebel 200, hack 100, reis 30, paprikapulver 2, oel 12, wasser 100
+Pasulj prebranac | 0.95 | 1 Portion | bohnen_trocken 80, wasser 300, zwiebel 80, paprikapulver 3, oel 25
+Bosanski ćevap sa kajmakom | 0.85 | 1 Portion | hack 150, lamm_hack 50, kaymak 30, zwiebel 40, fladenbrot 100
+Moussaka bulgarian | 0.9 | 1 Portion | kartoffel 200, hack 120, zwiebel 30, tomate 50, ei 40, joghurt 50, oel 15, paprikapulver 2
+Ajvar makedonski | 0.8 | 1 Portion (60 g) | paprika_rot 250, aubergine 80, oel 25, knoblauch 3, essig 5
+Kebapi makedonski | 0.85 | 5 Stück | hack 180, lamm_hack 60, zwiebel 40, paprikapulver 2, fladenbrot 80
+Polneti piperki | 0.9 | 2 Stück | paprika 250, hack 120, reis 30, zwiebel 30, tomatenmark 15, oel 12, wasser 60
+Kholodnyk | 0.95 | 1 Teller | rote_bete 150, buttermilch 250, gurke 60, ei 50, dill 8, fruehlingszwiebel 20
+Fried anchovies Greek | 0.85 | 1 Portion | sardelle 200, mehl 25, oel 30, zitrone 10
+Sole with lemon Greek | 0.85 | 1 Portion | fisch_mager 250, olivenoel 15, zitrone 20, petersilie 5
+Grilled red mullet | 0.85 | 1 Portion | fisch_mager 250, olivenoel 12, zitrone 10
+Abbacchio al forno con patate | 0.75 | 1 Portion | lamm 280, kartoffel 250, olivenoel 20, wein_weiss 40, knoblauch 5
+Rårakor | 0.9 | 3 Stück | kartoffel 200, ei 25, mehl 10, butter 20, preiselbeeren 25
+Sill och potatis | 1.0 | 1 Portion | hering 100, kartoffel 200, sauerrahm 30, dill 5, essig 10, zucker 5
+Räksmörgås | 1.0 | 1 Brot | weissbrot 50, garnele 80, mayonnaise 20, ei 30, gurke 20, dill 3, butter 5
+Kåldolmar | 0.9 | 3 Stück | weisskohl 200, hack 120, reis 25, preiselbeeren 25, milch 40, butter 10
+Lutfisk | 0.9 | 1 Portion | kabeljau 250, butter 30, kartoffel 150, erbsen 80, senf 10
+Gubbröra | 1.0 | 1 Portion | ei 120, sardelle 25, zwiebel 20, dill 5, mayonnaise 25, sauerrahm 20
+Knäckebröd med ost | 1.0 | 2 Scheiben | knaeckebrot 30, gouda 50, butter 8, gurke 20
+Ägghalva | 1.0 | 4 Hälften | ei 120, mayonnaise 15, dill 3
+Fårikål | 0.9 | 1 Teller | lamm 220, weisskohl 250, pfeffer 1, wasser 150, kartoffel 100
+Lutefisk norsk | 0.9 | 1 Portion | kabeljau 250, speck 40, erbsen 80, kartoffel 150, butter 25
+Kjøttkaker i brun saus | 0.9 | 3 Stück | gemischtes_hack 180, milch 40, mehl 20, ei 20, zwiebel 20, butter 20, bruehe 100, preiselbeeren 20, kartoffel 150
+Raspeballer | 0.95 | 2 Stück | kartoffel 250, mehl 60, speck 40, bruehe 250, schwein_bauch 80
+Bacalao norsk | 0.9 | 1 Portion | stockfisch 180, tomaten_dose 150, zwiebel 40, kartoffel 150, olivenoel 20, paprika 40, olive 10
+Brunost på brød | 1.0 | 2 Scheiben | vollkornbrot 70, gouda 30, butter 8
+Krumkake | 0.9 | 3 Stück | mehl 40, butter 25, zucker 30, ei 25, sahne 20
+Multekrem | 1.0 | 1 Schälchen | sahne 120, zucker 20, himbeere 60
+Kvæfjordkake | 0.95 | 1 Stück | mehl 50, zucker 70, ei 70, milch 40, butter 40, vanillepudding_pulver 15, mandel 15, eiweiss 30
+Hvit saus fiskekaker | 0.9 | 3 Stück | fisch_mager 180, milch 60, staerke 15, ei 20, butter 15, kartoffel 120
+Stegt flæsk med persillesovs | 0.85 | 1 Portion | schwein_bauch 150, milch 150, butter 20, mehl 15, petersilie 10, kartoffel 200
+Flæskesteg med rødkål | 0.75 | 1 Portion | schwein_nacken 250, rotkohl 150, kartoffel 150, preiselbeeren 20, butter 10, zucker 8, essig 10
+Smørrebrød med leverpostej | 0.95 | 1 Stück | roggenbrot 60, leberwurst 50, speck 15, gewuerzgurke 20, butter 8, rote_bete 20
+Smørrebrød med røget laks | 0.95 | 1 Stück | roggenbrot 60, lachs 60, mayonnaise 10, gurke 20, dill 3, butter 8
+Smørrebrød med roastbeef | 0.95 | 1 Stück | roggenbrot 60, rind_steak 60, mayonnaise 15, zwiebel 10, gewuerzgurke 15, butter 8
+Stjerneskud | 0.95 | 1 Stück | weissbrot 50, fisch_mager 60, lachs 40, garnele 30, mayonnaise 15, butter 8, zitrone 5
+Æggekage | 0.95 | 1 Portion | ei 160, milch 100, speck 50, mehl 12, butter 10
+Rødgrød med fløde | 1.0 | 1 Schälchen | himbeere 100, erdbeere 50, zucker 30, staerke 12, sahne 50, wasser 100
+Æbleflæsk | 0.9 | 1 Portion | speck 80, apfel 150, zwiebel 30, zucker 8
+Hakkebøf med løg | 0.85 | 1 Portion | hack 180, zwiebel 70, butter 15, kartoffel 150, bruehe 40
+Gullasch dansk | 0.8 | 1 Portion | rind 200, zwiebel 60, tomatenmark 20, paprikapulver 3, mehl 10, bruehe 200, kartoffel 150
+Øllebrød | 1.0 | 1 Schale | roggenbrot 100, bier 200, zucker 15, sahne 40
+Tarteletter med høns i asparges | 0.9 | 2 Stück | blaetterteig 70, hahn_brust 100, spargel 80, milch 100, butter 15, mehl 15
+Kogt torsk med sennepssovs | 0.9 | 1 Portion | kabeljau 220, butter 20, milch 150, mehl 15, senf 15, kartoffel 150, meerrettich 10
+Stegt rødspætte | 0.85 | 1 Portion | fisch_mager 250, paniermehl 25, ei 25, butter 30, kartoffel 150, mayonnaise 15
+Hønsekødssuppe med melboller | 0.95 | 1 Teller | hahn 80, bruehe 300, mehl 25, milch 30, ei 15, karotte 40, lauch 30, sellerie 20
+Rugbrød med ost | 1.0 | 2 Scheiben | roggenbrot 80, gouda 40, butter 10, gurke 20
+Kartoffelsalat dansk | 1.0 | 1 Portion | kartoffel 200, mayonnaise 30, joghurt 30, fruehlingszwiebel 20, senf 5
+Dansk leverpostej | 1.0 | 1 Scheibe (50 g) | leber 70, schwein_bauch 70, zwiebel 20, milch 40, mehl 15, butter 10, sardelle 5
+Kalakukko | 0.9 | 1 Stück | roggenbrot 80, mehl 50, fisch_fett 120, schwein_bauch 50, wasser 30
+Rieska | 0.95 | 1 Stück | mehl 80, buttermilch 100, butter 15, zucker 3, salz 1
+Pulla | 0.95 | 1 Stück | mehl 80, milch 40, butter 25, zucker 25, ei 20, hefe 3
+Silakkapihvit | 0.9 | 3 Stück | hering 200, mehl 25, butter 25, kartoffel 150
+Rössypottu | 0.9 | 1 Portion | kartoffel 200, schwein_bauch 70, wuerstchen_geraeuchert 60, zwiebel 30, wasser 100, kassler 40
+Kropsu | 0.9 | 1 Portion | milch 150, mehl 50, ei 50, butter 20
+Lörtsy | 0.95 | 1 Stück | mehl 60, butter 30, quark 40, pflaumenmus 40, zucker 10
+Voileipäkakku | 0.95 | 1 Stück | weissbrot 80, garnele 40, lachs 40, mayonnaise 40, sauerrahm 30, ei 40, gurke 20
+Kjötsúpa | 0.95 | 1 Teller | lamm 120, kartoffel 100, ruebe 60, karotte 40, reis 15, zwiebel 20, wasser 300
+Skyr með bláberjum | 1.0 | 1 Schale | quark_mager 150, blaubeere 60, milch_fettarm 30, zucker 10
+Hákarl | 1.0 | 1 Portion (30 g) | fisch_mager 30
+Rosolje | 1.0 | 1 Portion | rote_bete 100, kartoffel 100, hering 50, gewuerzgurke 30, apfel 30, karotte 30, sauerrahm 40, ei 25
+Hapukapsas hautis | 0.9 | 1 Portion | sauerkraut 250, schwein_nacken 120, speck 30, graupen 30, wasser 150, kartoffel 100
+Kiluvõileib | 1.0 | 1 Stück | roggenbrot 50, sardelle 40, ei 40, zwiebel 10, butter 8, dill 3
+Speķa pīrāgi | 0.95 | 3 Stück | mehl 70, milch 30, butter 20, hefe 3, speck 50, zwiebel 20, ei 15
+Kugelis | 0.85 | 1 Stück | kartoffel 300, speck 70, zwiebel 40, milch 50, ei 40, sauerrahm 30
+Kibinai | 0.9 | 2 Stück | mehl 90, butter 35, lamm 100, zwiebel 40, ei 15
+Balandėliai | 0.9 | 3 Stück | weisskohl 200, hack 120, reis 25, zwiebel 20, tomatenmark 15, sauerrahm 30
+Bulviniai blynai | 0.9 | 3 Stück | kartoffel 250, zwiebel 30, ei 25, mehl 15, oel 30, sauerrahm 30
+Skilandis | 1.0 | 1 Scheibe (50 g) | schwein_bauch 40, schwein_mager 40, knoblauch 1, salz 2
+Vėdarai | 0.9 | 1 Portion | kartoffel 250, schwein_bauch 70, zwiebel 30, milch 40, pfeffer 1
+Barščiai su ausytėmis | 0.95 | 1 Teller | rote_bete 120, bruehe 300, kartoffel 40, mehl 30, pilz 30, zwiebel 30, sauerrahm 20, ei 15
+Trakų pyragas | 0.95 | 1 Stück | mehl 70, ei 40, zucker 40, butter 35, kartoffel 40, rosinen 25

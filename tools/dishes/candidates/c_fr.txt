@@ -1,0 +1,171 @@
+fr | Boeuf bourguignon | Bœuf bourguignon, Beef Burgundy | E
+fr | Coq au vin | Coq au vin rouge, Chicken in red wine | HG
+fr | Blanquette de veau | Veal blanquette | E
+fr | Pot-au-feu | Pot au feu | E
+fr | Cassoulet toulousain | Cassoulet | E
+fr | Choucroute garnie | Alsatian choucroute | E
+fr | Tartiflette | Tartiflette savoyarde | AU
+fr | Raclette savoyarde | Raclette with potatoes and charcuterie | AU
+fr | Fondue savoyarde | Cheese fondue Savoie | SD
+fr | Gratin dauphinois | Dauphinoise potatoes | AU
+fr | Gratin de courgettes | Courgette gratin | AU
+fr | Ratatouille niçoise | Ratatouille | GZ
+fr | Tian provençal | Tian de légumes | GZ
+fr | Pissaladière | Pissaladière niçoise | PZ
+fr | Salade niçoise | Niçoise salad | SA
+fr | Socca niçoise | Socca | SN
+fr | Pan bagnat | Pan-bagnat | SN
+fr | Bouillabaisse marseillaise | Bouillabaisse | E
+fr | Soupe de poissons | French fish soup rouille | S
+fr | Brandade de morue | Brandade | HFi
+fr | Aïoli provençal | Grand aïoli | HFi
+fr | Moules marinières | Moules marinière | HFi
+fr | Moules frites | Mussels and fries | HFi
+fr | Sole meunière | Sole meuniere | HFi
+fr | Truite aux amandes | Trout almondine | HFi
+fr | Saumon à l'oseille | Salmon with sorrel | HFi
+fr | Quenelles de brochet | Pike quenelles Lyon | HFi
+fr | Coquilles Saint-Jacques | Scallops gratin | HFi
+fr | Plateau de fruits de mer | Seafood platter French | V
+fr | Huîtres | Oysters French | V
+fr | Escargots de Bourgogne | Escargots, Snails in garlic butter | V
+fr | Cuisses de grenouille | Frog legs provençale | V
+fr | Foie gras poêlé | Pan-seared foie gras | V
+fr | Terrine de campagne | Country terrine | V
+fr | Rillettes de porc | Pork rillettes | V
+fr | Pâté de campagne | Pâté en croûte | V
+fr | Jambon-beurre | Jambon beurre sandwich | SN
+fr | Croque-monsieur | Croque monsieur | SN
+fr | Croque-madame | Croque madame | SN
+fr | Quiche lorraine | Lorraine quiche | PZ
+fr | Quiche aux poireaux | Leek quiche | PZ
+fr | Tarte flambée | Flammekueche, Flammkuchen alsacien | PZ
+fr | Tarte à l'oignon alsacienne | Zewelwaï | PZ
+fr | Gougères | Cheese gougères | SN
+fr | Croque-monsieur végétarien | Veggie croque | SN
+fr | Galette complète | Galette bretonne complète, Buckwheat galette ham egg cheese | PF
+fr | Galette saucisse | Galette-saucisse rennaise | SN
+fr | Crêpes Suzette | Crepes Suzette | D
+fr | Crêpes au sucre | Sugar crêpe | D
+fr | Far breton | Far breton aux pruneaux | K
+fr | Kouign-amann | Kouign amann | G
+fr | Clafoutis aux cerises | Cherry clafoutis | K
+fr | Tarte Tatin | Tarte tatin | K
+fr | Tarte au citron meringuée | Lemon meringue tart French | K
+fr | Tarte aux fraises | Strawberry tart French | K
+fr | Tarte aux pommes alsacienne | Alsatian apple tart | K
+fr | Mille-feuille | Millefeuille | G
+fr | Éclair au chocolat | Chocolate éclair | G
+fr | Profiteroles | Profiteroles au chocolat | G
+fr | Paris-Brest | Paris Brest | G
+fr | Religieuse | Religieuse au chocolat | G
+fr | Macarons | French macarons | G
+fr | Madeleines | Madeleine de Commercy | G
+fr | Financiers | Financier aux amandes | G
+fr | Canelés bordelais | Canelé | G
+fr | Croissant au beurre | Croissant | G
+fr | Pain au chocolat | Chocolatine | G
+fr | Brioche | Brioche française | G
+fr | Baguette tradition | Baguette | BR
+fr | Pain de campagne | French country bread | BR
+fr | Crème brûlée | Creme brulee | PU
+fr | Crème caramel | Flan caramel | PU
+fr | Mousse au chocolat | Chocolate mousse French | D
+fr | Île flottante | Floating island | D
+fr | Riz au lait | French rice pudding | PU
+fr | Soufflé au fromage | Cheese soufflé | EI
+fr | Soufflé au Grand Marnier | Grand Marnier soufflé | D
+fr | Omelette aux fines herbes | French herb omelette | EI
+fr | Œufs mayonnaise | Oeufs mayo | V
+fr | Œufs en meurette | Oeufs en meurette | EI
+fr | Œufs cocotte | Oeufs en cocotte | EI
+fr | Gratin de macaroni | French macaroni gratin | AU
+fr | Parmentier de canard | Hachis parmentier de canard | AU
+fr | Hachis parmentier | Shepherd's pie French | AU
+fr | Steak frites | Steak-frites | HF
+fr | Steak tartare | Tartare de boeuf | HF
+fr | Entrecôte sauce béarnaise | Entrecôte béarnaise | HF
+fr | Bavette à l'échalote | Bavette shallot | HF
+fr | Magret de canard | Duck breast French | HG
+fr | Confit de canard | Duck confit | HG
+fr | Canard à l'orange | Duck à l'orange | HG
+fr | Poulet rôti | Poulet rôti français | HG
+fr | Poulet basquaise | Basque chicken | HG
+fr | Poule au pot | Poule au pot Henri IV | E
+fr | Lapin à la moutarde | Rabbit in mustard sauce | HF
+fr | Gigot d'agneau aux haricots | Gigot d'agneau | HF
+fr | Navarin d'agneau | Navarin printanier | E
+fr | Daube provençale | Daube de boeuf | E
+fr | Carbonnade flamande française | Carbonade nordiste | E
+fr | Potée auvergnate | Potée | E
+fr | Petit salé aux lentilles | Petit salé | E
+fr | Andouillette à la moutarde | Andouillette | WU
+fr | Boudin noir aux pommes | Boudin noir | WU
+fr | Saucisse de Toulouse | Toulouse sausage with lentils | WU
+fr | Aligot | Aligot de l'Aubrac | B
+fr | Truffade | Truffade auvergnate | B
+fr | Pommes dauphine | Dauphine potatoes | B
+fr | Pommes duchesse | Duchess potatoes | B
+fr | Purée de pommes de terre française | Pommes purée | B
+fr | Pommes sarladaises | Sarladaise potatoes | B
+fr | Haricots verts à l'ail | Garlic green beans French | GZ
+fr | Endives au jambon | Endives au gratin | AU
+fr | Poireaux vinaigrette | Leeks vinaigrette | V
+fr | Céleri rémoulade | Celeriac remoulade | SA
+fr | Carottes râpées | French grated carrot salad | SA
+fr | Salade lyonnaise | Lyonnaise salad | SA
+fr | Salade de chèvre chaud | Warm goat cheese salad | SA
+fr | Salade au lardons et croûtons | Frisée aux lardons | SA
+fr | Taboulé français | French tabbouleh | SA
+fr | Soupe à l'oignon gratinée | French onion soup | S
+fr | Velouté de potiron | Pumpkin velouté | S
+fr | Potage Parmentier | Leek potato soup French | S
+fr | Vichyssoise | Vichyssoise soup | S
+fr | Soupe au pistou | Pistou soup | S
+fr | Garbure | Garbure béarnaise | E
+fr | Bouchées à la reine | Vol-au-vent | G
+fr | Tarte au maroilles | Maroilles tart | PZ
+fr | Welsh | Welsh du Nord | AU
+fr | Fondue bourguignonne | Beef fondue Bourguignonne | HF
+fr | Fondue au chocolat | Chocolate fondue French | D
+fr | Cervelle de canut | Canut brain, Lyon herb cheese | SD
+fr | Rosette de Lyon | Saucisson de Lyon | WU
+fr | Tablier de sapeur | Tablier de sapeur lyonnais | HF
+fr | Quenelle de Lyon | Quenelle lyonnaise | HFi
+fr | Gâteau basque | Basque cake | K
+fr | Gâteau au chocolat fondant | Fondant au chocolat | K
+fr | Gâteau de Savoie | Savoy sponge | K
+fr | Pain d'épices | French gingerbread | K
+fr | Galette des rois | Galette des Rois | K
+fr | Bûche de Noël | Yule log | K
+fr | Tarte aux noix du Périgord | Walnut tart Périgord | K
+fr | Calissons d'Aix | Calisson | G
+fr | Nougat de Montélimar | Montélimar nougat | SW
+fr | Chouquettes | Chouquette | G
+fr | Beignets de carnaval | Bugnes lyonnaises | G
+fr | Merveilles | Merveilles gourmandes | G
+fr | Sablés bretons | Breton shortbread | G
+fr | Palmiers | Palmier cookie | G
+fr | Tuiles aux amandes | Almond tuiles | G
+fr | Pot de crème | Pot de crème au chocolat | PU
+fr | Dacquoise | Dacquoise aux noisettes | K
+fr | Opéra | Gâteau opéra | K
+fr | Fraisier | Fraisier cake | K
+fr | Saint-Honoré | Saint Honoré | K
+fr | Café au lait | French café au lait | GT
+fr | Chocolat chaud à l'ancienne | French hot chocolate | GT
+fr | Kir | Kir au vin blanc | GT
+fr | Vin chaud français | Vin chaud | GT
+fr | Panisse | Panisses marseillaises | SN
+fr | Brouillade de truffe | Truffle scrambled eggs | EI
+fr | Pot-au-feu de la mer | Seafood pot-au-feu | E
+fr | Marmite dieppoise | Marmite dieppoise fish stew | E
+fr | Cotriade bretonne | Cotriade | E
+fr | Salade de gésiers | Gizzard salad | SA
+fr | Tarte aux poireaux et lardons | Leek and bacon tart | PZ
+fr | Flamiche aux poireaux | Flamiche | PZ
+fr | Bretzel alsacien | Alsatian pretzel | BR
+fr | Spätzle alsaciennes | Alsatian spaetzle | NA
+fr | Baeckeoffe | Baeckeoffe alsacien | E
+fr | Jambon persillé | Parsley ham Burgundy | V
+fr | Gougère bourguignonne | Burgundy gougère | SN

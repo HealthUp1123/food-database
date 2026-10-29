@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 // Lokale Suche per CLI mit demselben Modul wie die API.
-//   node scripts/search-local.mjs apfel
-//   node scripts/search-local.mjs --barcode 2000000000015
-//   node scripts/search-local.mjs hafer --limit 3 --json
+//   node scripts/search-local.mjs karniyarik
+//   node scripts/search-local.mjs "Karnıyarık"
+//   node scripts/search-local.mjs karniyark --limit 3 --json
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
@@ -21,7 +21,7 @@ for (let i = 0; i < args.length; i++) {
   else words.push(args[i]);
 }
 
-const fmt = (f) => `${f.name} [${f.type}]${f.barcode ? ' ' + f.barcode : ''} – ${f.per100g.kcal} kcal | P ${f.per100g.protein} | KH ${f.per100g.carbs} | F ${f.per100g.fat} | BS ${f.per100g.fiber} (pro 100 g)`;
+const fmt = (f) => `${f.name} [${f.cuisine || '?'} · ${f.category || f.type}${f.prepared ? ' · ' + f.prepared : ''}]${f.barcode ? ' ' + f.barcode : ''} – ${f.per100g.kcal} kcal | P ${f.per100g.protein} | KH ${f.per100g.carbs} | F ${f.per100g.fat} | BS ${f.per100g.fiber} (pro 100 g)${f.quality ? ' · ' + f.quality : ''}`;
 
 let results;
 if (barcode) {

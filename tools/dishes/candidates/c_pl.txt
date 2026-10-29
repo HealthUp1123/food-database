@@ -1,0 +1,176 @@
+pl | Pierogi ruskie | Polish pierogi with potato and cheese | MA
+pl | Pierogi z mięsem | Polish meat pierogi | MA
+pl | Pierogi z kapustą i grzybami | Pierogi cabbage mushroom | MA
+pl | Pierogi z jagodami | Polish blueberry pierogi | MA
+pl | Pierogi z truskawkami | Polish strawberry pierogi | MA
+pl | Pierogi leniwe | Leniwe pierogi | KN
+pl | Kopytka | Polish potato dumplings kopytka | KN
+pl | Pyzy | Polish pyzy | KN
+pl | Kluski śląskie | Silesian dumplings | KN
+pl | Uszka | Polish uszka | MA
+pl | Bigos | Hunter's stew Polish | E
+pl | Gołąbki | Polish stuffed cabbage | DO
+pl | Kotlet schabowy | Polish pork cutlet | HF
+pl | Kotlet mielony | Polish mielony | KF
+pl | Zrazy wołowe | Polish zrazy | HF
+pl | Rolada śląska | Silesian beef roulade | HF
+pl | Żeberka w kapuście | Polish ribs in cabbage | E
+pl | Golonka po polsku | Polish pork knuckle | HF
+pl | Kaczka z jabłkami | Polish duck with apples | HG
+pl | Pieczeń rzymska | Polish meatloaf | HF
+pl | Flaki po polsku | Polish tripe soup | S
+pl | Żurek | Polish sour rye soup | S
+pl | Barszcz czerwony | Polish red borscht | S
+pl | Barszcz biały | Polish white borscht | S
+pl | Rosół z makaronem | Polish chicken noodle soup | S
+pl | Zupa ogórkowa | Polish pickle soup | S
+pl | Zupa pomidorowa z ryżem | Polish tomato soup with rice | S
+pl | Krupnik | Polish barley soup | S
+pl | Kapuśniak | Polish sauerkraut soup | S
+pl | Grochówka | Polish pea soup | S
+pl | Zupa grzybowa | Polish mushroom soup | S
+pl | Chłodnik litewski | Polish cold beet soup | S
+pl | Zupa szczawiowa | Polish sorrel soup | S
+pl | Zupa koperkowa | Polish dill soup | S
+pl | Fasolka po bretońsku | Polish beans Breton style | E
+pl | Placki ziemniaczane | Polish potato pancakes | PF
+pl | Placek po węgiersku | Polish Hungarian-style pancake | PF
+pl | Naleśniki z serem | Polish crepes cheese | D
+pl | Racuchy | Polish apple pancakes | PF
+pl | Kasza gryczana z boczkiem | Buckwheat with bacon | B
+pl | Kaszotto | Polish barley risotto | RP
+pl | Śledź w oleju | Polish herring in oil | V
+pl | Śledź po kaszubsku | Kashubian herring | V
+pl | Karp smażony | Polish fried carp | HFi
+pl | Ryba po grecku | Polish fish Greek style | HFi
+pl | Kiszona kapusta zasmażana | Polish braised sauerkraut | GZ
+pl | Mizeria | Polish cucumber salad | SA
+pl | Sałatka jarzynowa | Polish vegetable salad | SA
+pl | Surówka z marchewki | Polish carrot salad | SA
+pl | Ćwikła z chrzanem | Polish beet horseradish | SA
+pl | Kiełbasa z grilla | Polish grilled kielbasa | WU
+pl | Kaszanka | Polish black pudding | WU
+pl | Obwarzanek krakowski | Krakow obwarzanek | BR
+pl | Zapiekanka | Polish zapiekanka | SN
+pl | Oscypek z żurawiną | Oscypek with cranberry | SN
+pl | Śledzik w śmietanie | Polish herring in cream | V
+pl | Smalec ze skwarkami | Polish lard spread | SD
+pl | Tatar wołowy | Polish steak tartare | V
+pl | Sernik krakowski | Krakow cheesecake | K
+pl | Makowiec | Poppy seed roll Polish | K
+pl | Szarlotka | Polish apple cake | K
+pl | Mazurek | Polish mazurek | K
+pl | Babka wielkanocna | Polish Easter babka | K
+pl | Pączki | Polish doughnuts | G
+pl | Faworki | Chrusciki | G
+pl | Kremówka | Papal cream cake | K
+pl | Piernik toruński | Toruń gingerbread | K
+pl | Kutia | Polish kutia | D
+pl | Kisiel | Polish kisiel | D
+pl | Budyń | Polish pudding | PU
+pl | Kompot owocowy | Polish compote | GT
+pl | Żubrówka z sokiem jabłkowym | Szarlotka drink | GT
+pl | Gofry z owocami | Polish waffles with fruit | G
+pl | Drożdżówka z serem | Polish cheese bun | G
+cz | Svíčková na smetaně | Czech sirloin cream sauce | HF
+cz | Vepřo knedlo zelo | Czech roast pork dumplings sauerkraut | HF
+cz | Guláš s knedlíkem | Czech goulash | E
+cz | Smažený sýr | Czech fried cheese | HV
+cz | Řízek vepřový | Czech pork schnitzel | HF
+cz | Bramborák | Czech potato pancake | PF
+cz | Bramboračka | Czech potato soup | S
+cz | Kulajda | Czech dill potato soup | S
+cz | Dršťková polévka | Czech tripe soup | S
+cz | Česnečka | Czech garlic soup | S
+cz | Čočková polévka | Czech lentil soup | S
+cz | Zelňačka | Czech sauerkraut soup | S
+cz | Hovězí vývar s nudlemi | Czech beef broth noodles | S
+cz | Knedlíky houskové | Czech bread dumplings | KN
+cz | Bramborové knedlíky | Czech potato dumplings | KN
+cz | Ovocné knedlíky | Czech fruit dumplings | D
+cz | Svíčková knedlík | Czech sirloin dumpling | HF
+cz | Koprová omáčka | Czech dill sauce | SD
+cz | Rajská omáčka | Czech tomato sauce with meat | SD
+cz | Moravský vrabec | Moravian sparrow | HF
+cz | Pečená kachna se zelím | Czech roast duck | HG
+cz | Pečené vepřové koleno | Czech pork knee | HF
+cz | Utopenec | Czech pickled sausage | V
+cz | Nakládaný hermelín | Czech pickled cheese | V
+cz | Tlačenka | Czech head cheese | V
+cz | Jelito | Czech blood pudding | WU
+cz | Klobása | Czech grilled sausage | WU
+cz | Brambory s tvarohem | Czech potatoes with quark | HV
+cz | Lángoš | Czech lángos | SN
+cz | Palačinky | Czech palačinky | D
+cz | Buchty | Czech buchty | G
+cz | Koláče | Czech koláče | G
+cz | Trdelník | Czech trdelník | G
+cz | Medovník | Czech honey cake | K
+cz | Větrník | Czech větrník | G
+cz | Vánočka | Czech vánočka | K
+cz | Linecké cukroví | Czech Linzer cookies | G
+cz | Šátečky | Czech šátečky | G
+cz | Livanec | Czech livanec | G
+cz | Nakládaný sýr | Czech marinated cheese | V
+sk | Bryndzové halušky | Slovak sheep cheese dumplings | KN
+sk | Kapustnica | Slovak sauerkraut soup | S
+sk | Strapačky | Slovak strapačky | KN
+sk | Pirohy | Slovak pirohy | MA
+sk | Parené buchty | Slovak steamed buns | G
+sk | Lokše | Slovak lokše | PF
+sk | Demikát | Slovak demikát | S
+sk | Šúľance s makom | Slovak šúľance poppy seed | D
+sk | Plnená kapusta | Slovak stuffed cabbage | DO
+sk | Vyprážaný syr | Slovak fried cheese | HV
+sk | Žemľovka | Slovak žemľovka | D
+sk | Trdelník slovenský | Slovak trdelník | G
+hu | Gulyásleves | Hungarian goulash soup | S
+hu | Marhapörkölt | Hungarian beef pörkölt | E
+hu | Csirkepaprikás | Chicken paprikash | HG
+hu | Paprikás krumpli | Hungarian paprika potatoes | E
+hu | Halászlé | Hungarian fish soup | S
+hu | Székelygulyás | Székely goulash | E
+hu | Töltött káposzta | Hungarian stuffed cabbage | DO
+hu | Töltött paprika | Hungarian stuffed peppers | DO
+hu | Lecsó | Hungarian lecsó | GZ
+hu | Rakott krumpli | Hungarian layered potatoes | AU
+hu | Rántott hús | Hungarian breaded pork | HF
+hu | Rántott gomba | Hungarian breaded mushrooms | V
+hu | Rántott sajt | Hungarian fried cheese | V
+hu | Hortobágyi palacsinta | Hortobágy meat pancakes | PF
+hu | Brassói aprópecsenye | Brassói roast pork | HF
+hu | Jókai bableves | Jókai bean soup | S
+hu | Húsleves | Hungarian chicken soup | S
+hu | Gyümölcsleves | Hungarian fruit soup | S
+hu | Meggyleves | Hungarian sour cherry soup | S
+hu | Újházi tyúkleves | Újházi chicken soup | S
+hu | Főzelék | Hungarian főzelék | GZ
+hu | Tökfőzelék | Hungarian squash főzelék | GZ
+hu | Lencsefőzelék | Hungarian lentil főzelék | GZ
+hu | Pogácsa | Hungarian pogácsa | G
+hu | Lángos | Hungarian lángos | SN
+hu | Kürtőskalács | Chimney cake | G
+hu | Túrós csusza | Hungarian cottage cheese noodles | NA
+hu | Nokedli | Hungarian nokedli | NA
+hu | Tarhonya | Hungarian tarhonya | B
+hu | Gombapaprikás | Hungarian mushroom paprikash | HV
+hu | Dobostorta | Dobos torte | K
+hu | Somlói galuska | Somló sponge | K
+hu | Rigó Jancsi | Rigó Jancsi cake | K
+hu | Gundel palacsinta | Gundel pancake | D
+hu | Túrógombóc | Hungarian curd dumplings | D
+hu | Máktekercs | Hungarian poppy seed roll | K
+hu | Diósbejgli | Hungarian walnut roll | K
+hu | Zserbó | Zserbó cake | K
+hu | Szilvásgombóc | Hungarian plum dumplings | D
+hu | Lekváros bukta | Hungarian jam bun | G
+hu | Fatányéros | Hungarian mixed grill | HF
+hu | Sült kolbász | Hungarian roast sausage | WU
+hu | Hurka | Hungarian hurka | WU
+hu | Disznótoros | Hungarian pork slaughter platter | HF
+hu | Libamáj | Hungarian goose liver | V
+hu | Körözött | Hungarian körözött | SD
+hu | Tejfölös uborkasaláta | Hungarian cucumber salad sour cream | SA
+hu | Csípős paprika saláta | Hungarian pepper salad | SA
+hu | Pálinka | Hungarian pálinka | GT
+hu | Unicum | Hungarian Unicum | GT

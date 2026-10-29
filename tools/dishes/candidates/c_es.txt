@@ -1,0 +1,160 @@
+es | Paella valenciana | Paella | RP
+es | Paella de mariscos | Seafood paella | RP
+es | Arroz negro | Black rice with squid ink | RP
+es | Arroz a banda | Arroz a banda alicantino | RP
+es | Arroz al horno | Baked rice Valencian | RP
+es | Fideuà | Fideua | NA
+es | Arroz caldoso de bogavante | Lobster brothy rice | RP
+es | Arroz con conejo y caracoles | Rabbit and snail rice | RP
+es | Tortilla española | Tortilla de patatas, Spanish omelette | EI
+es | Tortilla de gambas | Shrimp tortilla Cádiz | EI
+es | Huevos rotos con jamón | Broken eggs with ham | EI
+es | Huevos a la flamenca | Flamenca eggs | EI
+es | Gazpacho andaluz | Gazpacho | S
+es | Salmorejo cordobés | Salmorejo | S
+es | Ajoblanco | White gazpacho | S
+es | Sopa de ajo castellana | Garlic soup | S
+es | Caldo gallego | Galician broth | S
+es | Fabada asturiana | Fabada | E
+es | Cocido madrileño | Cocido | E
+es | Olla podrida | Olla podrida burgalesa | E
+es | Lentejas estofadas | Spanish lentil stew | HH
+es | Potaje de garbanzos | Chickpea potage | HH
+es | Garbanzos con espinacas | Chickpeas with spinach Sevilla | HH
+es | Pisto manchego | Pisto | GZ
+es | Escalivada | Escalivada catalana | GZ
+es | Espinacas a la catalana | Catalan spinach | GZ
+es | Menestra de verduras | Vegetable menestra | GZ
+es | Pimientos de Padrón | Padrón peppers | V
+es | Pimientos del piquillo rellenos | Stuffed piquillo peppers | V
+es | Patatas bravas | Bravas | SN
+es | Patatas a lo pobre | Poor man's potatoes | B
+es | Patatas arrugadas con mojo | Canarian wrinkled potatoes | B
+es | Patatas a la riojana | Riojan potatoes with chorizo | E
+es | Ensaladilla rusa | Spanish Russian salad | SA
+es | Ensalada mixta española | Spanish mixed salad | SA
+es | Ensalada de tomate con ventresca | Tomato and tuna belly salad | SA
+es | Pipirrana | Andalusian pipirrana | SA
+es | Esqueixada | Esqueixada catalana | SA
+es | Croquetas de jamón | Ham croquettes | SN
+es | Croquetas de bacalao | Cod croquettes Spanish | SN
+es | Calamares a la romana | Fried squid rings | HFi
+es | Gambas al ajillo | Garlic prawns | V
+es | Gambas a la plancha | Grilled prawns | V
+es | Pulpo a la gallega | Pulpo a feira, Galician octopus | V
+es | Boquerones en vinagre | Marinated anchovies | V
+es | Boquerones fritos | Fried anchovies | V
+es | Pescaíto frito | Fried fish Andalusian | HFi
+es | Sardinas a la plancha | Grilled sardines Spanish | HFi
+es | Merluza a la vasca | Merluza en salsa verde | HFi
+es | Bacalao al pil pil | Cod pil pil | HFi
+es | Bacalao a la vizcaína | Cod Biscay style | HFi
+es | Bacalao con tomate | Cod with tomato | HFi
+es | Zarzuela de pescado | Zarzuela | E
+es | Marmitako | Basque tuna stew | E
+es | Atún encebollado | Tuna with onions | HFi
+es | Besugo al horno | Baked sea bream | HFi
+es | Rape a la marinera | Monkfish marinera | HFi
+es | Mejillones al vapor | Steamed mussels Galician | HFi
+es | Almejas a la marinera | Clams marinera | HFi
+es | Vieiras gallegas | Galician scallops | HFi
+es | Jamón ibérico | Iberian ham | V
+es | Tabla de jamón y queso | Spanish ham and cheese board | V
+es | Pan con tomate | Pa amb tomàquet | V
+es | Montadito de lomo | Lomo montadito | SN
+es | Bocadillo de calamares | Calamari sandwich Madrid | SN
+es | Bocadillo de jamón | Spanish ham baguette | SN
+es | Bocadillo de tortilla | Tortilla sandwich | SN
+es | Pincho de tortilla | Tortilla pincho | V
+es | Gilda | Gilda pintxo | V
+es | Txangurro | Txangurro al horno, Basque spider crab | HFi
+es | Callos a la madrileña | Madrid tripe stew | E
+es | Rabo de toro | Bull tail stew Córdoba | E
+es | Chuletón a la brasa | Grilled ribeye Basque | HF
+es | Cordero asado | Roast lamb Castilian | HF
+es | Cochinillo asado | Roast suckling pig Segovia | HF
+es | Lechazo asado | Roast milk lamb | HF
+es | Carrillada de cerdo | Pork cheeks Iberian | HF
+es | Secreto ibérico | Iberian pork secreto | HF
+es | Solomillo al whisky | Whisky pork tenderloin | HF
+es | Albóndigas en salsa | Spanish meatballs | KF
+es | Flamenquín | Flamenquín cordobés | HF
+es | Pollo al ajillo | Garlic chicken | HG
+es | Pollo asado con patatas | Spanish roast chicken | HG
+es | Pollo en pepitoria | Chicken in almond sauce | HG
+es | Conejo al ajillo | Garlic rabbit | HF
+es | Morcilla de Burgos | Burgos blood sausage | WU
+es | Chorizo a la sidra | Chorizo in cider | V
+es | Chorizo al vino | Chorizo in wine | V
+es | Butifarra con judías | Butifarra with beans | HF
+es | Cachopo asturiano | Cachopo | HF
+es | Fabes con almejas | Beans with clams | E
+es | Migas extremeñas | Migas | B
+es | Migas manchegas | Migas ruleras | B
+es | Gachas manchegas | Gachas | B
+es | Calçots con salsa romesco | Calçotada | V
+es | Salsa romesco | Romesco | SD
+es | Alioli | Allioli, Spanish aioli | SD
+es | Mojo picón | Canarian red mojo | SD
+es | Mojo verde | Canarian green mojo | SD
+es | Papas con mojo | Canarian potatoes with mojo | B
+es | Escudella i carn d'olla | Escudella | E
+es | Cargols a la llauna | Catalan snails | HF
+es | Botifarra amb mongetes | Catalan sausage and beans | HF
+es | Canelones catalanes | Catalan cannelloni | AU
+es | Empanada gallega | Galician empanada | BO
+es | Empanadillas de atún | Tuna empanadillas | SN
+es | Coca de recapte | Catalan coca | PZ
+es | Coca de Sant Joan | Coca de Sant Joan | K
+es | Tarta de queso vasca | Basque burnt cheesecake | K
+es | Tarta de Santiago | Santiago almond cake | K
+es | Crema catalana | Catalan cream | PU
+es | Flan de huevo | Spanish flan | PU
+es | Natillas | Natillas caseras | PU
+es | Arroz con leche | Spanish rice pudding | PU
+es | Leche frita | Fried milk | D
+es | Torrijas | Spanish French toast | D
+es | Churros con chocolate | Churros | G
+es | Porras | Porras madrileñas | G
+es | Buñuelos de viento | Buñuelos | G
+es | Rosquillas | Rosquillas de Alcalá | G
+es | Pestiños | Pestiños andaluces | G
+es | Ensaimada mallorquina | Ensaimada | G
+es | Polvorones | Polvorón | G
+es | Turrón de Jijona | Turrón blando | SW
+es | Turrón de Alicante | Turrón duro | SW
+es | Mazapán de Toledo | Toledo marzipan | SW
+es | Roscón de Reyes | Roscón | K
+es | Magdalenas | Spanish magdalenas | K
+es | Bizcocho de yogur | Spanish yogurt cake | K
+es | Carquiñyoles | Carquinyolis | G
+es | Mel i mató | Mató con miel | D
+es | Queso manchego con membrillo | Manchego and quince | V
+es | Horchata de chufa | Horchata | GT
+es | Sangría | Sangria | GT
+es | Tinto de verano | Summer red wine | GT
+es | Café con leche español | Café con leche | GT
+es | Cortado | Spanish cortado | GT
+es | Sidra asturiana | Asturian cider | GT
+es | Agua de Valencia | Valencia water | GT
+es | Pa amb oli | Pan con aceite | SN
+es | Zurrukutuna | Basque garlic cod soup | S
+es | Sopa castellana | Castilian egg garlic soup | S
+es | Cocido maragato | Maragato stew | E
+es | Pote asturiano | Asturian pote | E
+es | Michirones | Michirones murcianos | E
+es | Zarangollo | Zarangollo murciano | EI
+es | Caldereta de cordero | Lamb caldereta | E
+es | Ternasco asado | Roast Aragonese lamb | HF
+es | Pollo chilindrón | Chicken chilindrón | HG
+es | Ajoarriero | Ajoarriero cod | HFi
+es | Bonito con tomate | Tuna with tomato | HFi
+es | Espetos de sardinas | Málaga sardine skewers | HFi
+es | Berenjenas con miel | Fried aubergine with honey | V
+es | Setas al ajillo | Garlic mushrooms | V
+es | Champiñones al ajillo | Garlic champignons Spanish | V
+es | Pulpo a la brasa | Grilled octopus Spanish | V
+es | Pinchos morunos | Pinchos morunos | KB
+es | Sepia a la plancha | Grilled cuttlefish | HFi
+es | Chipirones en su tinta | Baby squid in ink | HFi
+es | Rabas | Rabas de calamar | HFi

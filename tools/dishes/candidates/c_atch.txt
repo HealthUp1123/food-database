@@ -1,0 +1,133 @@
+at | Tafelspitz | Tafelspitz mit Apfelkren | HF
+at | Gebackenes Backhendl | Wiener Backhendl | HG
+at | Zwiebelrostbraten | Wiener Zwiebelrostbraten | HF
+at | Beuschel | Wiener Beuschel | E
+at | Fiakergulasch | Fiaker goulash | E
+at | Wiener Saftgulasch | Saftgulasch | E
+at | Erdäpfelgulasch | Kartoffelgulasch österreichisch | E
+at | Kaspressknödel | Kaspressknödelsuppe | S
+at | Frittatensuppe | Flädlesuppe österreichisch | S
+at | Leberknödelsuppe | Leberknödel | S
+at | Grießnockerlsuppe | Grießnockerl | S
+at | Kärntner Kasnudeln | Kasnudeln | NA
+at | Tiroler Gröstl | Gröstl | PF
+at | Tiroler Knödel | Tiroler Speckknödel | KN
+at | Schlutzkrapfen | Schlutzer | NA
+at | Spinatknödel | Tiroler Spinatknödel | KN
+at | Steirisches Wurzelfleisch | Wurzelfleisch | HF
+at | Steirischer Backhendlsalat | Backhendlsalat | SA
+at | Steirische Käferbohnensalat | Käferbohnensalat | SA
+at | Steirisches Kürbiskernöl Salat | Kürbiskernöl Salat | SA
+at | Erdäpfelsalat österreichisch | Österreichischer Kartoffelsalat | SA
+at | Wiener Würstel | Wiener Würstel mit Senf | WU
+at | Käsekrainer | Käsekrainer mit Senf | WU
+at | Bosna | Salzburger Bosna | SN
+at | Leberkässemmel | Leberkäsesemmel | SN
+at | Liptauer | Liptauer Aufstrich | SD
+at | Obatzda österreichisch | Obazda Österreich | SD
+at | Schweinsbraten mit Knödel | Österreichischer Schweinsbraten | HF
+at | Stelze | Wiener Stelze | HF
+at | Rindsuppe mit Frittaten | Rindssuppe | S
+at | Kaiserschmarren | Kaiserschmarrn österreichisch | D
+at | Palatschinken | Palatschinke | D
+at | Marillenknödel | Marillenknödel mit Butterbröseln | D
+at | Topfenknödel | Topfenknödel mit Zwetschkenröster | D
+at | Germknödel | Germknödel mit Mohn | D
+at | Salzburger Nockerl | Nockerl | D
+at | Topfenstrudel | Topfenstrudel | K
+at | Milchrahmstrudel | Milchrahmstrudel | K
+at | Wiener Apfelstrudel | Apfelstrudel Wien | K
+at | Sachertorte | Original Sachertorte | K
+at | Linzer Augen | Linzer Plätzchen | G
+at | Vanillekipferl | Vanillekipferl österreichisch | G
+at | Kardinalschnitte | Kardinalschnitte Wien | K
+at | Esterházy-Torte | Esterhazy torte | K
+at | Dobos-Torte Wien | Dobostorte | K
+at | Mohnnudeln | Mohnnudeln mit Butter | D
+at | Buchteln | Wuchteln | D
+at | Powidltascherl | Powidltascherln | D
+at | Zwetschkenröster | Röster | D
+at | Kipferl | Wiener Kipferl | G
+at | Salzstangerl | Salzstangerl | G
+at | Wiener Melange | Melange | GT
+at | Einspänner | Wiener Einspänner | GT
+at | Verlängerter | Wiener Verlängerter | GT
+at | Kaiserschmarrn mit Zwetschkenröster | Kaiserschmarrn Röster | D
+at | Fleischlaberl | Fleischlaberln | KF
+at | Faschierte Laibchen | Faschiertes | KF
+at | Eierschwammerl mit Knödel | Eierschwammerlgulasch | HV
+at | Eierschwammerl-Sauce | Pfifferlinge Rahmsauce | SD
+at | Erdäpfelknödel | Österreichischer Kartoffelknödel | KN
+at | Serviettenknödel | Serviettenknödel österreichisch | KN
+at | Waldviertler Knödel | Waldviertler Knödel | KN
+at | Fisolen Gemüse | Fisolengemüse | GZ
+at | Krautfleckerl | Fleckerl mit Kraut | NA
+at | Eierschwammerl Omelett | Schwammerlomelett | EI
+at | Bratkartoffeln mit Zwiebel österreichisch | Röstkartoffeln | B
+at | Wiener Schnitzel Salat | Schnitzelsemmel | SN
+at | Backfleisch | Wiener Backfleisch | HF
+at | Gebackene Champignons | Gebackene Pilze | V
+at | Wiener Eiskaffee | Eiskaffee Wien | GT
+at | Marillenmarmelade Palatschinken | Marillenpalatschinke | D
+at | Vogerlsalat mit Erdäpfel | Vogerlsalat | SA
+at | Mehlspeise Wiener Krapfen | Krapfen Wien | G
+at | Kärntner Reindling | Reindling | K
+at | Osterpinze | Pinze | K
+at | Gugelhupf | Wiener Gugelhupf | K
+at | Zillertaler Krapfen | Zillertaler Krapfen | G
+at | Tiroler Schlipfkrapfen | Schlipfkrapfen | NA
+ch | Zürcher Geschnetzeltes | Geschnetzeltes Zürcher Art | HF
+ch | Rösti | Berner Rösti, Swiss rösti | B
+ch | Berner Platte | Bernese platter | E
+ch | Käsefondue | Swiss cheese fondue | SD
+ch | Fondue moitié-moitié | Moitié-moitié | SD
+ch | Raclette | Swiss raclette | AU
+ch | Älplermagronen | Älplermakkaroni | NA
+ch | Capuns | Bündner Capuns | NA
+ch | Bündner Gerstensuppe | Gerstensuppe | S
+ch | Pizokel | Pizokels | NA
+ch | Maluns | Bündner Maluns | B
+ch | Bündnerfleisch | Bündner Fleisch | V
+ch | Rheintaler Ribelmais | Ribel | B
+ch | Basler Mehlsuppe | Mehlsuppe | S
+ch | Basler Läckerli | Läckerli | G
+ch | Basler Fasnachtskiechli | Fasnachtschüechli | G
+ch | Luzerner Chögalipaschtetli | Chügelipastete | HG
+ch | Ostschweizer Bratwurst | St. Galler Bratwurst | WU
+ch | Cervelat | Swiss cervelat | WU
+ch | Berner Zungenwurst | Zungenwurst | WU
+ch | Kalbsbratwurst mit Zwiebelsauce | Kalbsbratwurst | WU
+ch | Riz Casimir | Swiss riz Casimir | HG
+ch | Birchermüsli | Swiss muesli | FR
+ch | Zürcher Eintopf | Swiss Eintopf | E
+ch | Schweizer Käseschnitte | Cheese toast Swiss | SN
+ch | Cholera | Walliser Cholera | BO
+ch | Walliser Teller | Valais platter | V
+ch | Cordon bleu Schweiz | Swiss cordon bleu | HF
+ch | Engadiner Nusstorte | Nusstorte | K
+ch | Zuger Kirschtorte | Kirschtorte | K
+ch | Schaffhauser Bölletünne | Bölletünne | PZ
+ch | Zwiebelkuchen Schweizer | Swiss onion tart | PZ
+ch | Chäschüechli | Chäschüechli Swiss | PZ
+ch | Zürcher Züri-Gschnätzlets mit Rösti | Züri-Gschnätzlets | HF
+ch | Tessiner Risotto | Risotto ticinese | RP
+ch | Tessiner Polenta | Polenta ticinese | B
+ch | Luganighe | Luganighe sausage | WU
+ch | Saltimbocca ticinese | Ticino saltimbocca | HF
+ch | Meringue mit Doppelrahm | Gruyère meringue cream | D
+ch | Vermicelles | Swiss vermicelles | D
+ch | Appenzeller Chäsmagronen | Chäsmagronen | NA
+ch | Appenzeller Biberli | Biberli | G
+ch | Rüeblitorte | Swiss carrot cake | K
+ch | Ovomaltine Brot | Ovo bread | SN
+ch | Schweizer Heisse Schoggi | Swiss hot chocolate | GT
+ch | Kalbsvoressen | Swiss veal ragout | E
+ch | Rindsvoressen | Swiss beef ragout | E
+ch | Suure Mocke | Sauerbraten Swiss | HF
+ch | Kutteln nach Basler Art | Basler Kutteln | E
+ch | Berner Haselnusslebkuchen | Bernese hazelnut cake | K
+ch | Pain de Seigle valaisan | Valais rye bread | BR
+ch | Salée au sucre | Salée au sucre Fribourg | PZ
+ch | Papet vaudois | Papet | E
+ch | Saucisson vaudois | Vaudois sausage | WU
+ch | Tarte à la crème de Gruyère | Gruyère double cream tart | K

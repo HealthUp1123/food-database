@@ -1,0 +1,78 @@
+Zrazy wołowe | 0.8 | 2 Stück | rind_steak 200, speck 30, zwiebel 30, gewuerzgurke 30, senf 8, oel 12, bruehe 80, sauerrahm 20
+Rolada śląska | 0.8 | 2 Scheiben | rind 220, speck 30, zwiebel 30, senf 10, gewuerzgurke 30, oel 12, bruehe 100
+Żeberka w kapuście | 0.85 | 1 Portion | schwein_bauch 200, sauerkraut 250, zwiebel 30, wasser 100
+Golonka po polsku | 0.7 | 1 Portion | schwein_haxe 300, zwiebel 30, wasser 50, bier 50, senf 10
+Kaczka z jabłkami | 0.65 | 1 Portion | ente 350, apfel 150, zwiebel 20
+Flaki po polsku | 0.95 | 1 Teller | innereien 150, karotte 40, sellerie 30, bruehe 300, paprikapulver 2, butter 10, mehl 8
+Rosół z makaronem | 0.95 | 1 Teller | hahn 100, nudeln 40, karotte 40, sellerie 30, petersilie 5, wasser 300
+Chłodnik litewski | 1.0 | 1 Teller | rote_bete 100, buttermilch 200, joghurt 50, gurke 50, dill 8, ei 50, fruehlingszwiebel 15
+Zupa szczawiowa | 0.95 | 1 Teller | spinat 100, kartoffel 80, bruehe 250, ei 50, sauerrahm 30, butter 8
+Placek po węgiersku | 0.85 | 1 Portion | kartoffel 250, mehl 30, ei 25, rind 150, paprika 40, zwiebel 40, sauerrahm 40, paprikapulver 3, oel 25
+Kasza gryczana z boczkiem | 1.0 | 1 Portion | hirse 70, wasser 150, speck 50, zwiebel 30, butter 5
+Śledź po kaszubsku | 1.0 | 1 Portion | hering 100, zwiebel 30, tomatenmark 20, karotte 20, oel 12, essig 10, zucker 3
+Karp smażony | 0.85 | 1 Portion | karpfen 250, mehl 25, paniermehl 15, ei 25, oel 30
+Kiszona kapusta zasmażana | 0.95 | 1 Portion | sauerkraut 200, zwiebel 30, speck 30, oel 8, wasser 50
+Sałatka jarzynowa | 1.0 | 1 Portion | kartoffel 100, karotte 40, erbsen 30, ei 40, gewuerzgurke 30, apfel 20, mayonnaise 50, senf 3
+Kiełbasa z grilla | 0.9 | 1 Portion | bratwurst 180, senf 15, weissbrot 50
+Obwarzanek krakowski | 0.95 | 1 Stück | mehl 100, wasser 60, hefe 3, mohn 5, salz 2
+Oscypek z żurawiną | 1.0 | 1 Portion | gouda 80, preiselbeeren 30
+Śledzik w śmietanie | 1.0 | 1 Portion | hering 100, sauerrahm 50, zwiebel 25, apfel 30, gewuerzgurke 20
+Mazurek | 0.95 | 1 Stück | mehl 60, butter 40, zucker 30, ei 20, marmelade 40, mandel 20
+Piernik toruński | 0.95 | 1 Stück | mehl 70, honig 40, zucker 15, ei 15, lebkuchen_gewuerz 3, walnuss 10
+Kompot owocowy | 1.0 | 1 Glas | wasser 250, apfel 40, kirsche 30, zucker 20
+Żubrówka z sokiem jabłkowym | 1.0 | 1 Glas | spirituose 40, apfel 150
+Gofry z owocami | 0.95 | 1 Waffel | mehl 60, milch 70, ei 30, butter 15, zucker 10, erdbeere 60, sahne 30
+Guláš s knedlíkem | 0.85 | 1 Teller | rind 180, zwiebel 80, paprikapulver 3, tomatenmark 10, mehl 10, schmalz 10, wasser 150, weissbrot 80
+Česnečka | 0.95 | 1 Teller | knoblauch 15, kartoffel 100, bruehe 300, weissbrot 40, gouda 20, butter 8
+Hovězí vývar s nudlemi | 0.95 | 1 Teller | rind 60, nudeln 30, karotte 40, sellerie 30, petersilie 5, wasser 300
+Knedlíky houskové | 1.0 | 4 Scheiben | semmel 120, milch 100, ei 40, mehl 40
+Ovocné knedlíky | 0.95 | 4 Stück | quark 120, mehl 100, ei 30, erdbeere 120, butter 25, zucker 20, griess 10
+Svíčková knedlík | 0.8 | 1 Teller | rind 180, karotte 50, sellerie 30, zwiebel 30, sahne 50, preiselbeeren 25, essig 10, weissbrot 100
+Moravský vrabec | 0.8 | 1 Teller | schwein_nacken 180, speck 20, zwiebel 20, kartoffel 40, sauerkraut 150, weissbrot 100
+Pečená kachna se zelím | 0.75 | 1 Teller | ente 220, sauerkraut 150, weissbrot 70, schmalz 5
+Pečené vepřové koleno | 0.7 | 1 Portion | schwein_haxe 300, bier 50, senf 15, meerrettich 15, gewuerzgurke 30
+Utopenec | 1.0 | 1 Stück | wuerstchen_geraeuchert 150, zwiebel 40, essig 40, gewuerzgurke 30, oel 12, paprika 20
+Jelito | 0.9 | 1 Portion | blutwurst 140, zwiebel 30, essig 8, weissbrot 50
+Brambory s tvarohem | 0.95 | 1 Portion | kartoffel 250, quark 100, zwiebel 20, butter 10, milch 30
+Lángoš | 0.9 | 1 Stück | mehl 100, kartoffel 40, hefe 3, oel 40, knoblauch 5, gouda 40, sauerrahm 20
+Koláče | 0.95 | 3 Stück | mehl 90, milch 40, butter 25, ei 20, hefe 3, quark 60, marmelade 30, zucker 20
+Trdelník | 0.95 | 1 Stück | mehl 90, milch 40, butter 30, ei 20, zucker 40, walnuss 15, hefe 3
+Medovník | 0.95 | 1 Stück | mehl 60, honig 30, zucker 30, butter 25, ei 25, sahne 40, kondensmilch 40
+Větrník | 0.9 | 1 Stück | mehl 30, butter 30, ei 60, wasser 50, sahne 70, vanillepudding_pulver 15, zucker 15, milch 60, schokolade 10
+Linecké cukroví | 0.95 | 4 Stück | mehl 50, butter 35, zucker 20, marmelade 25, mandel 15
+Šátečky | 0.95 | 3 Stück | blaetterteig 70, quark 40, marmelade 30, ei 10, zucker 8
+Livanec | 0.9 | 2 Stück | mehl 50, milch 60, ei 25, quark 60, marmelade 30, butter 15, zucker 10
+Nakládaný sýr | 1.0 | 1 Portion | camembert 100, zwiebel 20, olivenoel 20, chili 2, knoblauch 3
+Bryndzové halušky | 0.95 | 1 Teller | kartoffel 250, mehl 70, ricotta 70, beyaz_peynir 40, speck 40
+Strapačky | 0.9 | 1 Teller | kartoffel 220, mehl 70, sauerkraut 150, speck 40, zwiebel 20
+Demikát | 0.95 | 1 Teller | bruehe 300, hirse 15, ei 40, mehl 20, schwein_mager 40, karotte 30
+Šúľance s makom | 0.95 | 1 Portion | kartoffel 250, mehl 60, mohn 25, zucker 20, butter 15
+Plnená kapusta | 0.9 | 3 Stück | weisskohl 200, hack 120, reis 25, zwiebel 20, speck 20, sauerkraut 80
+Žemľovka | 0.95 | 1 Portion | semmel 80, apfel 150, milch 100, ei 50, zucker 30, quark 60, butter 10
+Marhapörkölt | 0.85 | 1 Portion | schwein_nacken 180, aprikose 60, zwiebel 50, paprikapulver 3, oel 10, wasser 100
+Székelygulyás | 0.9 | 1 Portion | schwein_nacken 160, sauerkraut 150, zwiebel 30, paprikapulver 2, sauerrahm 40, wasser 100, schmalz 8
+Töltött paprika | 0.9 | 2 Stück | paprika 250, hack 120, reis 25, zwiebel 20, tomatenmark 25, wasser 100
+Rakott krumpli | 0.9 | 1 Portion | kartoffel 250, ei 100, wuerstchen_geraeuchert 80, sauerrahm 80, speck 20
+Rántott hús | 0.85 | 1 Schnitzel | schwein_mager 180, mehl 15, ei 25, paniermehl 25, oel 35
+Rántott gomba | 0.85 | 1 Portion | pilz 200, mehl 25, ei 25, paniermehl 30, oel 35, mayonnaise 25
+Hortobágyi palacsinta | 0.9 | 2 Stück | mehl 60, ei 40, milch 100, hahn_brust 120, zwiebel 30, sauerrahm 60, paprikapulver 2, oel 20
+Húsleves | 0.95 | 1 Teller | hahn 120, nudeln 30, karotte 50, sellerie 30, ruebe 30, wasser 300
+Gyümölcsleves | 1.0 | 1 Teller | sauerkirsche 120, sahne 40, zucker 20, zimt 1, wasser 150, mehl 5
+Újházi tyúkleves | 0.95 | 1 Teller | hahn 150, nudeln 30, karotte 50, erbsen 30, pilz 30, ruebe 30, wasser 300
+Főzelék | 0.95 | 1 Portion | erbsen 200, mehl 20, oel 15, zucker 5, milch 50, wasser 100, ei 50
+Pogácsa | 0.95 | 4 Stück | mehl 80, butter 30, sauerrahm 30, ei 20, gouda 30, hefe 3
+Kürtőskalács | 0.95 | 1 Stück | mehl 100, milch 40, butter 25, ei 25, zucker 40, hefe 3, walnuss 15
+Túrós csusza | 0.95 | 1 Teller | nudeln 90, quark 100, sauerrahm 50, speck 40
+Nokedli | 0.95 | 1 Portion | mehl 100, ei 50, wasser 50, butter 10
+Gombapaprikás | 0.85 | 1 Portion | pilz 250, zwiebel 50, paprikapulver 3, sauerrahm 50, oel 15, mehl 8, wasser 100
+Dobostorta | 0.95 | 1 Stück | mehl 35, ei 70, zucker 70, butter 50, schokolade 40, kakao 8
+Gundel palacsinta | 0.9 | 2 Stück | mehl 50, ei 40, milch 100, walnuss 35, rosinen 10, schokolade 30, sahne 40, zucker 20, spirituose 10
+Máktekercs | 0.95 | 1 Stück | mehl 60, milch 40, butter 25, hefe 3, mohn 35, zucker 30, ei 20
+Diósbejgli | 0.95 | 1 Stück | mehl 60, butter 30, hefe 3, walnuss 45, zucker 35, milch 30, ei 20
+Zserbó | 0.95 | 1 Stück | mehl 60, butter 40, zucker 25, ei 15, marmelade 40, walnuss 25, schokolade 15
+Lekváros bukta | 0.95 | 2 Stück | mehl 80, milch 50, butter 25, hefe 3, ei 20, pflaumenmus 50, zucker 15
+Fatányéros | 0.8 | 1 Platte | schwein_nacken 150, rind_steak 100, hahn_brust 100, speck 40, kartoffel 150, oel 20
+Hurka | 0.9 | 1 Portion | schwein_bauch 80, reis 40, leber 50, zwiebel 20, paprikapulver 1, wasser 40
+Libamáj | 0.75 | 1 Portion | foie_gras 100, weissbrot 40, zwiebel 20
+Tejfölös uborkasaláta | 1.0 | 1 Portion | gurke 200, sauerrahm 50, knoblauch 3, paprikapulver 1, essig 5
+Csípős paprika saláta | 1.0 | 1 Portion | paprika 150, zwiebel 20, essig 10, oel 10, chili 5
