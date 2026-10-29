@@ -105,6 +105,7 @@ data.forEach((e, i) => {
   if ('unit' in e && e.unit !== 'g') err(ctx, 'unit muss "g" sein (Nährwerte pro 100 g)');
   if ('note' in e && (typeof e.note !== 'string' || !e.note.trim())) err(ctx, 'note muss ein nicht-leerer String sein');
   if ('fdc_id' in e && (!Number.isInteger(e.fdc_id) || e.fdc_id <= 0)) err(ctx, 'fdc_id muss eine positive Ganzzahl sein (USDA FoodData Central)');
+  if ('source_id' in e && (typeof e.source_id !== 'string' || !e.source_id.trim())) err(ctx, 'source_id muss ein nicht-leerer String sein (Datenbank:Code, z. B. "BLS 4.0:G582172")');
   if ('source_missing' in e && (!Array.isArray(e.source_missing) || e.source_missing.some((k) => !['fiber', 'sugar'].includes(k)))) err(ctx, 'source_missing darf nur "fiber"/"sugar" enthalten');
   if ('is_packaged_product' in e && typeof e.is_packaged_product !== 'boolean') err(ctx, 'is_packaged_product muss true/false sein');
   if (e.is_packaged_product === true && e.type === 'dish') err(ctx, 'ein Gericht (type "dish") darf nicht is_packaged_product=true sein');

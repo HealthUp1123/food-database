@@ -1,6 +1,6 @@
 # food-database
 
-Eigene Lebensmittel-Datenbank für einen Kalorientracker: **4245 Gerichte** aus **49 Küchen** — 926 türkisch (`tr`), 668 deutsch (`de`) und 2651 weitere aus Europa und dem Kaukasus — plus **631 Grundzutaten** (Basis-Lebensmittel roh und in üblichen Zubereitungen wie gekocht, gegrillt, getrocknet, tiefgekühlt oder aus der Dose, mit USDA-Referenzwerten; 27 Zubereitungen ohne USDA-Datensatz daraus geschätzt), mit Kalorien, Protein, Kohlenhydraten, Fett und Ballaststoffen (bei Grundzutaten meist auch Zucker), dazu eine kostenlose Such-API für das Suchfeld der App.
+Eigene Lebensmittel-Datenbank für einen Kalorientracker: **4245 Gerichte** aus **49 Küchen** — 926 türkisch (`tr`), 668 deutsch (`de`) und 2651 weitere aus Europa und dem Kaukasus — plus **681 Grundzutaten** (Basis-Lebensmittel roh und in üblichen Zubereitungen wie gekocht, gegrillt, getrocknet, tiefgekühlt oder aus der Dose, mit Referenzwerten aus USDA sowie direkten Datensätzen aus dem Bundeslebensmittelschlüssel BLS 4.0, Ciqual, der Schweizer und der schwedischen Nährwertdatenbank; nur 21 Zubereitungen ohne direkten Datensatz geschätzt), mit Kalorien, Protein, Kohlenhydraten, Fett und Ballaststoffen (bei Grundzutaten meist auch Zucker), dazu eine kostenlose Such-API für das Suchfeld der App.
 
 > **Die Werte der Gerichte sind berechnete Schätzungen, keine Labor- oder Herstellerangaben.**
 > Jedes Gericht hat `"quality": "estimate"` und `"source": "calculated from typical recipe and approximate reference values"`. Die Nährwerte entstehen aus einem typischen Hausrezept und einer Zutaten-Referenztabelle (ungefähre Werte in der Größenordnung von USDA/BLS), nicht aus einer Analyse des fertigen Gerichts. Abweichungen von etwa ±10–25 % gegenüber einem konkreten Rezept sind normal (Fettmenge, Garzeit, Portionsgröße). Bitte die Zahlen nicht als medizinische oder kennzeichnungsrechtliche Nährwertangabe verwenden. Geprüfte Werte können später **denselben Eintrag überschreiben** (siehe unten).
@@ -11,9 +11,9 @@ Die Rohdaten (Stand `main`):
 https://raw.githubusercontent.com/HealthUp1123/food-database/main/data/foods.json
 ```
 
-**Datenstand (29.10.2026, Welle 3 + Grundzutaten + Zubereitungsvarianten + geschätzte Zubereitungen):** 4876 Einträge. Davon sind 4245 Gerichte (`type: "dish"`, `quality: "estimate"`) aus 49 Küchen – tr 926, de 668, übrige Europa/Kaukasus 2651; davon 2114 mit `off_similar`-Hinweis, 0 Fertigprodukte entfernt. Dazu kommen 631 Grundzutaten (`type: "item"`, `prepared: "base_ingredient"`, Quelle USDA FoodData Central SR Legacy; 604 `quality: "reference"`, 27 `quality: "estimate"`): Gemüse 227, Obst 91, Getreide/Teigwaren/Brot 57, Fisch & Meeresfrüchte 50, Milchprodukte & Eier 47, Fleisch 40, Nüsse & Samen 36, Hülsenfrüchte 34, Geflügel 32, Fette & Öle 11, Zucker & Salz 6. Davon sind 309 Zubereitungs- und Haltbarkeitsvarianten mit eigenem USDA-Datensatz (z. B. `tomate-getrocknet`, `tomatenmark`, `haehnchenbrust-gegrillt`, `erbsen-gruen-tiefgekuehlt`, `mandeln-geroestet`) und 27 geschätzte Gemüse-Zubereitungen ohne USDA-Datensatz (z. B. `tomate-gegrillt`, `zucchini-in-oel-gebraten`, `brokkoli-gedaempft`, aus der rohen Grundzutat mit Ausbeute-, Retentions- und Fettaufnahmefaktoren aus CoFID 2021, Bognár 2002 und Bergström 1994 berechnet); nach Zustand: cooked 118, processed 75, dry 46, dried 42, canned 41, grilled 31, frozen 27, fried 24, baked 21, roasted 16, smoked 4, raw 186.
+**Datenstand (29.10.2026, Welle 3 + Grundzutaten + Zubereitungsvarianten + BLS/Ciqual/CH/SE-Zubereitungen + geschätzte Zubereitungen):** 4926 Einträge. Davon sind 4245 Gerichte (`type: "dish"`, `quality: "estimate"`) aus 49 Küchen – tr 926, de 668, übrige Europa/Kaukasus 2651; davon 2114 mit `off_similar`-Hinweis, 0 Fertigprodukte entfernt. Dazu kommen 681 Grundzutaten (`type: "item"`, `prepared: "base_ingredient"`; 604 aus USDA FoodData Central SR Legacy, 56 direkt aus BLS 4.0 (47), Schweizer Nährwertdatenbank (5), Ciqual 2025 (2) und Livsmedelsverket (2); 660 `quality: "reference"`, 21 `quality: "estimate"`): Gemüse 277, Obst 91, Getreide/Teigwaren/Brot 57, Fisch & Meeresfrüchte 50, Milchprodukte & Eier 47, Fleisch 40, Nüsse & Samen 36, Hülsenfrüchte 34, Geflügel 32, Fette & Öle 11, Zucker & Salz 6. Davon sind 309 Zubereitungs- und Haltbarkeitsvarianten mit eigenem USDA-Datensatz (z. B. `tomate-getrocknet`, `tomatenmark`, `haehnchenbrust-gegrillt`, `erbsen-gruen-tiefgekuehlt`, `mandeln-geroestet`) sowie 56 Gemüse-Zubereitungen mit direktem Datensatz aus einer nationalen Nährwertdatenbank (`source_id`, z. B. `zucchini-gegrillt` = BLS 4.0 G582172, `kuerbis-im-ofen-gebacken`, `paprika-gelb-gebraten-ohne-fett`, `rote-bete-gedaempft` = CH 1019, `suesskartoffel-wedges-im-ofen-mit-oel` = Livsmedelsverket 3771, `spargel-weiss-roh` = Ciqual 20282) und 21 geschätzte Gemüse-Zubereitungen ohne direkten Datensatz (z. B. `zucchini-in-oel-gebraten`, `brokkoli-gedaempft`, aus der rohen Grundzutat mit Ausbeute-, Retentions- und Fettaufnahmefaktoren aus CoFID 2021 und Bognár 2002 berechnet); nach Zustand: cooked 129, processed 75, dry 46, dried 42, canned 41, fried 40, baked 39, grilled 35, frozen 27, roasted 16, smoked 4, raw 187.
 
-**Grundzutaten** sind rohe oder kaum verarbeitete Basis-Lebensmittel (z. B. `tomate-roh`, `haferflocken`, `haehnchenbrust-roh`) und ihre üblichen Zubereitungen (z. B. `tomate-getrocknet`, `haehnchenbrust-gegrillt`), keine Fertig- oder Markenprodukte. Sie tragen `note: "Grundzutat, kein Fertigprodukt"` (Varianten z. B. `"Grundzutat (zubereitet), kein Fertigprodukt"`), `category: "Grundzutat: …"`, `cuisine: "int"`, `unit: "g"`, den Zustand in `state` und den USDA-Datensatz in `fdc_id` und `source`. Die Werte sind 1:1 aus USDA übernommen und nur gerundet; Ausnahme sind die geschätzten Zubereitungen (`quality: "estimate"`, `note: "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt"`, `derived_from` = ID der rohen Grundzutat, Faktoren und Quellen in `source`). Details: [`tools/base_ingredients/README.md`](tools/base_ingredients/README.md).
+**Grundzutaten** sind rohe oder kaum verarbeitete Basis-Lebensmittel (z. B. `tomate-roh`, `haferflocken`, `haehnchenbrust-roh`) und ihre üblichen Zubereitungen (z. B. `tomate-getrocknet`, `haehnchenbrust-gegrillt`), keine Fertig- oder Markenprodukte. Sie tragen `note: "Grundzutat, kein Fertigprodukt"` (Varianten z. B. `"Grundzutat (zubereitet), kein Fertigprodukt"`), `category: "Grundzutat: …"`, `cuisine: "int"`, `unit: "g"`, den Zustand in `state` und den Quelldatensatz in `fdc_id` (USDA) bzw. `source_id` (andere Datenbanken, z. B. `BLS 4.0:G582172`) und `source`. Die Werte sind 1:1 aus der Quelle übernommen und nur gerundet (bei BLS, Ciqual, CH und SE: Kohlenhydrate = verfügbare KH + Ballaststoffe, damit sie wie bei USDA Gesamt-KH sind); Ausnahme sind die geschätzten Zubereitungen (`quality: "estimate"`, `note: "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt"`, `derived_from` = ID der rohen Grundzutat, Faktoren und Quellen in `source`). Details: [`tools/base_ingredients/README.md`](tools/base_ingredients/README.md).
 
 **Gerichte und Fertigprodukte sind getrennt.** Ein Gericht (zuhause oder Restaurant, aus einem Rezept berechnet) bleibt in der Datenbank, auch wenn Open Food Facts ein gleichnamiges Fertigprodukt führt. Es bekommt `prepared` (`homemade` oder `restaurant`), `is_packaged_product: false` und bei einem Namenstreffer `off_similar` (höchstens drei Barcodes, nur als Hinweis). Marken- und Supermarktprodukte werden nicht aufgenommen. Nichts wurde entfernt: `removed_in_off.json` ist leer. **2114** der 4245 Gerichte tragen `off_similar`. Der Abgleich lief gegen einen Open-Food-Facts-Dump vom **29.10.2026**.
 
@@ -22,7 +22,7 @@ Aufbau der Schätzung, Garfaktor, Küchen und der OFF-Abgleich stehen in [`tools
 ## Inhalt
 
 ```
-data/foods.json                 Die Datenbank (JSON-Array, 4245 Gerichte aus 49 Küchen + 631 Grundzutaten)
+data/foods.json                 Die Datenbank (JSON-Array, 4245 Gerichte aus 49 Küchen + 681 Grundzutaten)
 src/search.mjs                  Gemeinsames Such-Modul (API + lokale CLI)
 api/worker.js                   Cloudflare Worker (Such-API)
 api/wrangler.toml               Worker-Konfiguration
@@ -75,6 +75,7 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
 | `unit` | nein | Bezugseinheit, immer `"g"` (Nährwerte pro 100 g). |
 | `note` | nein | Bei Grundzutaten `"Grundzutat, kein Fertigprodukt"`; bei Varianten je nach Zustand z. B. `"Grundzutat (zubereitet), kein Fertigprodukt"`, `"Grundzutat (getrocknet), kein Fertigprodukt"`, `"Grundzutat (tiefgekühlt, unzubereitet), kein Fertigprodukt"`, `"Grundzutat (Konserve, generisch), kein Markenprodukt"` oder `"Grundzutat (verarbeitet, generisch), kein Markenprodukt"`; bei geschätzten Zubereitungen `"Grundzutat (zubereitet, geschätzt), kein Fertigprodukt"`. |
 | `fdc_id` | nein | USDA-FoodData-Central-ID des Quelldatensatzes (positive Ganzzahl). |
+| `source_id` | nein | Kennung des Quelldatensatzes außerhalb von USDA als `Datenbank:Code` (nicht-leerer String), z. B. `BLS 4.0:G582172`, `CH 7.1:1019`, `Ciqual 2025:20282`, `Livsmedelsverket:3771`. |
 | `derived_from` | nein | Nur bei geschätzten Grundzutat-Zubereitungen: ID der rohen Grundzutat, aus der die Werte berechnet wurden (z. B. `tomate-roh`). |
 | `source_missing` | nein | Nährwerte, die in der Quelle fehlen (`"fiber"`, `"sugar"`). |
 | `is_packaged_product` | nein | `false` bei Gerichten. `true` wäre nur für `type: "item"` mit Barcode sinnvoll; bei `type: "dish"` ist `true` ungültig. |
@@ -82,7 +83,7 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
 | `per100g` | ja | `kcal` (0–950), `protein`, `carbs`, `fat`, `fiber` (je 0–100 g pro 100 g), optional `sugar` (0–100 g). Protein + Kohlenhydrate + Fett ≤ 100 g (0,15 g Rundungstoleranz). |
 | `portion` | nein | Typische Portion: `label` (Text) und `grams` (> 0, max. 5000). Die App rechnet damit von 100 g auf die Portion um. |
 | `ingredients` | ja | Zutaten der zugrunde gelegten Portion: `{ "name", "grams" }`, `grams` > 0. Das sind Rezeptmengen, keine zweite Nährwertquelle. |
-| `quality` | ja | `"estimate"` (berechnet, wie jetzt bei allen 4245 Gerichten), `"reference"` (aus einer amtlichen Nährwertdatenbank übernommen, wie bei 604 der 631 Grundzutaten) oder `"verified"` (später mit geprüften Werten überschrieben). Die 27 geschätzten Grundzutat-Zubereitungen sind `"estimate"`. |
+| `quality` | ja | `"estimate"` (berechnet, wie jetzt bei allen 4245 Gerichten), `"reference"` (aus einer amtlichen Nährwertdatenbank übernommen, wie bei 660 der 681 Grundzutaten) oder `"verified"` (später mit geprüften Werten überschrieben). Die 21 geschätzten Grundzutat-Zubereitungen sind `"estimate"`. |
 | `source` | ja | Herkunft der Nährwerte. Bei Schätzwerten der feste Hinweis auf Rezept plus Referenzwerte; bei geprüften Einträgen die konkrete Quelle. |
 
 Gerichte sind pro 100 g angegeben. `portion.grams` ist das übliche Tellergewicht nach dem Garen. `ingredients[].grams` sind die Rohmengen dieser Portion (aufgenommenes Wasser und Bratfett stehen mit in der Liste).
@@ -110,7 +111,7 @@ Solange `quality` auf `"estimate"` steht, gelten die berechneten Rezeptwerte. Di
 node scripts/validate.mjs
 ```
 
-Prüft Pflichtfelder (einschließlich `cuisine`, `category`, `ingredients`, `quality`, `source`), die optionalen Felder `prepared`, `is_packaged_product`, `off_similar`, `state`, `unit`, `note`, `fdc_id`, `source_missing` und `per100g.sugar`, die Regeln für Grundzutaten (`type: "item"`, kein Barcode, kein Fertigprodukt), Wertebereiche (kcal 0–950, Makros 0–100 g, Protein + Kohlenhydrate + Fett ≤ 100 g + 0,15 g Rundung), eindeutige `id`s, eindeutige Barcodes und die EAN-Prüfziffer. **`barcode: null` ist erlaubt** und erzeugt keinen Fehler. Ein Gericht mit `is_packaged_product: true` ist ein Fehler.
+Prüft Pflichtfelder (einschließlich `cuisine`, `category`, `ingredients`, `quality`, `source`), die optionalen Felder `prepared`, `is_packaged_product`, `off_similar`, `state`, `unit`, `note`, `fdc_id`, `source_id`, `source_missing` und `per100g.sugar`, die Regeln für Grundzutaten (`type: "item"`, kein Barcode, kein Fertigprodukt), Wertebereiche (kcal 0–950, Makros 0–100 g, Protein + Kohlenhydrate + Fett ≤ 100 g + 0,15 g Rundung), eindeutige `id`s, eindeutige Barcodes und die EAN-Prüfziffer. **`barcode: null` ist erlaubt** und erzeugt keinen Fehler. Ein Gericht mit `is_packaged_product: true` ist ein Fehler.
 
 Weicht `kcal` stark von `4·Protein + 4·Kohlenhydrate + 9·Fett` ab, gibt es eine **Warnung**, keinen Fehler. 29 Gerichte (Wein und Spirituosen) liegen darüber, weil Ethanol etwa 7 kcal/g liefert und in den Makros nicht vorkommt. Diese 29 Warnungen sind erwartet.
 
@@ -151,7 +152,7 @@ BASE="https://food-database-api.<dein-account>.workers.dev"
 
 ```bash
 curl "$BASE/health"
-# {"status":"ok","count":4876}
+# {"status":"ok","count":4926}
 
 curl "$BASE/search?q=karniyarik&limit=5"
 # {"query":"karniyarik","count":1,"results":[{"id":"karniyarik","name":"Karnıyarık","barcode":null, ...}]}
@@ -186,7 +187,7 @@ Wenn du keine API betreiben willst, lädst du die Rohdatei einmal und suchst lok
 https://raw.githubusercontent.com/HealthUp1123/food-database/main/data/foods.json
 ```
 
-Das ist bei diesem Datenumfang (4876 Einträge) praktikabel. Für die Zutatenliste brauchst du keinen zweiten Endpunkt, die Datei enthält sie bereits. In der Such-API fehlt `ingredients` in der Trefferliste absichtlich; `GET /item/{id}` liefert sie nach.
+Das ist bei diesem Datenumfang (4926 Einträge) praktikabel. Für die Zutatenliste brauchst du keinen zweiten Endpunkt, die Datei enthält sie bereits. In der Such-API fehlt `ingredients` in der Trefferliste absichtlich; `GET /item/{id}` liefert sie nach.
 
 ## Einbau in die App: Suchfeld mit Live-Suche (Debounce)
 
@@ -207,6 +208,7 @@ type Food = {
   unit?: "g";
   note?: string; // "Grundzutat, kein Fertigprodukt" bzw. "Grundzutat (zubereitet), kein Fertigprodukt" usw.
   fdc_id?: number; // USDA FoodData Central
+  source_id?: string; // andere Datenbank, z. B. "BLS 4.0:G582172"
   source_missing?: ("fiber" | "sugar")[];
   is_packaged_product?: boolean;
   off_similar?: string[];
@@ -282,4 +284,4 @@ Das schreibt dort `foods.json`, eine aktualisierte `ingredients.json` und `build
 
 ## Hinweis
 
-Die Rezepte stammen aus allgemeinem Küchenwissen, die Referenzwerte sind Näherungen. Die Werte der Grundzutaten stammen aus USDA FoodData Central (SR Legacy, Public Domain/CC0). Übernimm keine fremden Nährwerttabellen, ohne deren Lizenz zu prüfen. Wer einen Eintrag überschreibt, trägt die geprüfte Quelle in `source` ein.
+Die Rezepte stammen aus allgemeinem Küchenwissen, die Referenzwerte sind Näherungen. Die Werte der Grundzutaten stammen aus USDA FoodData Central (SR Legacy, Public Domain/CC0), dem Bundeslebensmittelschlüssel (Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 – Deutsche Nährstoffdatenbank. Karlsruhe. DOI: 10.25826/Data20251217-134202-0; CC BY 4.0), Ciqual 2025 (Anses, CC BY 4.0), der Schweizer Nährwertdatenbank V7.1 (BLV, naehrwertdaten.ch, frei mit Quellenangabe) und der Livsmedelsdatabasen von Livsmedelsverket (CC BY 4.0); Faktoren für Schätzungen aus CoFID 2021 (OGL v3). Die Namensnennung steht je Eintrag in `source`. Übernimm keine fremden Nährwerttabellen, ohne deren Lizenz zu prüfen. Wer einen Eintrag überschreibt, trägt die geprüfte Quelle in `source` ein.
