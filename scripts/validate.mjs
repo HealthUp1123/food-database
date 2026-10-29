@@ -25,7 +25,9 @@ if (!Array.isArray(data)) {
 // "int" = international/ohne Landesküche (Grundzutaten wie Tomate, Reis, Hähnchenbrust).
 const CUISINES = 'tr de it fr es pt gr gb ie nl be at ch se no dk fi is pl cz sk hu rs hr ba bg al mk si ro ee lv lt ua ru cy mt lu ge am az md by me xk ad li mc sm int'.split(' ');
 const QUALITIES = ['estimate', 'verified', 'reference'];
-const STATES = ['raw', 'cooked', 'dry', 'dried', 'processed'];
+// Zubereitungszustand: roh/trocken, gegart (cooked = gekocht/gedünstet/gedämpft/geschmort), gegrillt, gebraten/frittiert,
+// im Ofen gebacken/gebraten, geröstet, getrocknet, tiefgekühlt, Konserve (Dose/Glas), geräuchert, verarbeitet (Saft, Mark, Püree, Pulver).
+const STATES = ['raw', 'cooked', 'grilled', 'fried', 'baked', 'roasted', 'dry', 'dried', 'frozen', 'canned', 'smoked', 'processed'];
 const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
 const ids = new Map();
 const barcodes = new Map();

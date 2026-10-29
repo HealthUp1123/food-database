@@ -1,6 +1,6 @@
 # food-database
 
-Eigene Lebensmittel-Datenbank für einen Kalorientracker: **4245 Gerichte** aus **49 Küchen** — 926 türkisch (`tr`), 668 deutsch (`de`) und 2651 weitere aus Europa und dem Kaukasus — plus **295 Grundzutaten** (rohe Basis-Lebensmittel mit USDA-Referenzwerten), mit Kalorien, Protein, Kohlenhydraten, Fett und Ballaststoffen (bei Grundzutaten meist auch Zucker), dazu eine kostenlose Such-API für das Suchfeld der App.
+Eigene Lebensmittel-Datenbank für einen Kalorientracker: **4245 Gerichte** aus **49 Küchen** — 926 türkisch (`tr`), 668 deutsch (`de`) und 2651 weitere aus Europa und dem Kaukasus — plus **604 Grundzutaten** (Basis-Lebensmittel roh und in üblichen Zubereitungen wie gekocht, gegrillt, getrocknet, tiefgekühlt oder aus der Dose, mit USDA-Referenzwerten), mit Kalorien, Protein, Kohlenhydraten, Fett und Ballaststoffen (bei Grundzutaten meist auch Zucker), dazu eine kostenlose Such-API für das Suchfeld der App.
 
 > **Die Werte der Gerichte sind berechnete Schätzungen, keine Labor- oder Herstellerangaben.**
 > Jedes Gericht hat `"quality": "estimate"` und `"source": "calculated from typical recipe and approximate reference values"`. Die Nährwerte entstehen aus einem typischen Hausrezept und einer Zutaten-Referenztabelle (ungefähre Werte in der Größenordnung von USDA/BLS), nicht aus einer Analyse des fertigen Gerichts. Abweichungen von etwa ±10–25 % gegenüber einem konkreten Rezept sind normal (Fettmenge, Garzeit, Portionsgröße). Bitte die Zahlen nicht als medizinische oder kennzeichnungsrechtliche Nährwertangabe verwenden. Geprüfte Werte können später **denselben Eintrag überschreiben** (siehe unten).
@@ -11,9 +11,9 @@ Die Rohdaten (Stand `main`):
 https://raw.githubusercontent.com/HealthUp1123/food-database/main/data/foods.json
 ```
 
-**Datenstand (29.10.2026, Welle 3 + Grundzutaten):** 4540 Einträge. Davon sind 4245 Gerichte (`type: "dish"`, `quality: "estimate"`) aus 49 Küchen – tr 926, de 668, übrige Europa/Kaukasus 2651; davon 2114 mit `off_similar`-Hinweis, 0 Fertigprodukte entfernt. Dazu kommen 295 Grundzutaten (`type: "item"`, `prepared: "base_ingredient"`, `quality: "reference"`, Quelle USDA FoodData Central SR Legacy): Gemüse 87, Obst 50, Getreide/Teigwaren/Brot 33, Milchprodukte & Eier 29, Fisch & Meeresfrüchte 20, Nüsse & Samen 18, Hülsenfrüchte 17, Fleisch 14, Fette & Öle 11, Geflügel 10, Zucker & Salz 6.
+**Datenstand (29.10.2026, Welle 3 + Grundzutaten + Zubereitungsvarianten):** 4849 Einträge. Davon sind 4245 Gerichte (`type: "dish"`, `quality: "estimate"`) aus 49 Küchen – tr 926, de 668, übrige Europa/Kaukasus 2651; davon 2114 mit `off_similar`-Hinweis, 0 Fertigprodukte entfernt. Dazu kommen 604 Grundzutaten (`type: "item"`, `prepared: "base_ingredient"`, `quality: "reference"`, Quelle USDA FoodData Central SR Legacy): Gemüse 200, Obst 91, Getreide/Teigwaren/Brot 57, Fisch & Meeresfrüchte 50, Milchprodukte & Eier 47, Fleisch 40, Nüsse & Samen 36, Hülsenfrüchte 34, Geflügel 32, Fette & Öle 11, Zucker & Salz 6. Davon sind 309 Zubereitungs- und Haltbarkeitsvarianten (z. B. `tomate-getrocknet`, `tomatenmark`, `haehnchenbrust-gegrillt`, `erbsen-gruen-tiefgekuehlt`, `mandeln-geroestet`); nach Zustand: cooked 107, processed 75, dry 46, dried 42, canned 41, frozen 27, grilled 25, fried 20, roasted 16, baked 15, smoked 4, raw 186.
 
-**Grundzutaten** sind rohe oder kaum verarbeitete Basis-Lebensmittel (z. B. `tomate-roh`, `haferflocken`, `haehnchenbrust-roh`), keine Fertig- oder Markenprodukte. Sie tragen `note: "Grundzutat, kein Fertigprodukt"`, `category: "Grundzutat: …"`, `cuisine: "int"`, `unit: "g"`, den Zustand in `state` und den USDA-Datensatz in `fdc_id` und `source`. Die Werte sind 1:1 aus USDA übernommen und nur gerundet. Details: [`tools/base_ingredients/README.md`](tools/base_ingredients/README.md).
+**Grundzutaten** sind rohe oder kaum verarbeitete Basis-Lebensmittel (z. B. `tomate-roh`, `haferflocken`, `haehnchenbrust-roh`) und ihre üblichen Zubereitungen (z. B. `tomate-getrocknet`, `haehnchenbrust-gegrillt`), keine Fertig- oder Markenprodukte. Sie tragen `note: "Grundzutat, kein Fertigprodukt"` (Varianten z. B. `"Grundzutat (zubereitet), kein Fertigprodukt"`), `category: "Grundzutat: …"`, `cuisine: "int"`, `unit: "g"`, den Zustand in `state` und den USDA-Datensatz in `fdc_id` und `source`. Die Werte sind 1:1 aus USDA übernommen und nur gerundet. Details: [`tools/base_ingredients/README.md`](tools/base_ingredients/README.md).
 
 **Gerichte und Fertigprodukte sind getrennt.** Ein Gericht (zuhause oder Restaurant, aus einem Rezept berechnet) bleibt in der Datenbank, auch wenn Open Food Facts ein gleichnamiges Fertigprodukt führt. Es bekommt `prepared` (`homemade` oder `restaurant`), `is_packaged_product: false` und bei einem Namenstreffer `off_similar` (höchstens drei Barcodes, nur als Hinweis). Marken- und Supermarktprodukte werden nicht aufgenommen. Nichts wurde entfernt: `removed_in_off.json` ist leer. **2114** der 4245 Gerichte tragen `off_similar`. Der Abgleich lief gegen einen Open-Food-Facts-Dump vom **29.10.2026**.
 
@@ -22,7 +22,7 @@ Aufbau der Schätzung, Garfaktor, Küchen und der OFF-Abgleich stehen in [`tools
 ## Inhalt
 
 ```
-data/foods.json                 Die Datenbank (JSON-Array, 4245 Gerichte aus 49 Küchen + 295 Grundzutaten)
+data/foods.json                 Die Datenbank (JSON-Array, 4245 Gerichte aus 49 Küchen + 604 Grundzutaten)
 src/search.mjs                  Gemeinsames Such-Modul (API + lokale CLI)
 api/worker.js                   Cloudflare Worker (Such-API)
 api/wrangler.toml               Worker-Konfiguration
@@ -30,7 +30,7 @@ scripts/validate.mjs            Datenprüfung (ohne Abhängigkeiten)
 scripts/search-local.mjs        Lokale Suche per Kommandozeile
 scripts/test-worker.mjs         Schnelltest des API-Handlers
 tools/dishes/                   Generator, Batches (eu3_*.py), wave3/, Rezepte, Kandidaten
-tools/base_ingredients/         Grundzutaten-Liste und Generator (USDA SR Legacy)
+tools/base_ingredients/         Grundzutaten- und Variantenliste und Generator (USDA SR Legacy)
 tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo)
 .github/workflows/validate.yml  Prüfung bei jedem Push und Pull Request
 ```
@@ -71,9 +71,9 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
 | `cuisine` | ja | Ländercode aus der festen Liste, u. a. `tr`, `de`, `it`, `fr`, `es`, `gr`, `pl` und seit Welle 3 auch `ge`, `am`, `az`, `md`, `by`, `me`, `xk`, `ad`, `li`, `mc`, `sm`. `int` steht für länderübergreifende Grundzutaten. |
 | `category` | ja | Deutsche Kategorie, z. B. `Suppe`, `Kebap`, `Hauptgericht Fleisch`, `Kuchen`, `Getränk`. |
 | `prepared` | nein | Bei Gerichten `"homemade"` (zuhause) oder `"restaurant"` (Restaurant/Imbiss). Bei Grundzutaten `"base_ingredient"`; dann sind `type: "item"`, `is_packaged_product: false` und `barcode: null` Pflicht. |
-| `state` | nein | Zustand der Grundzutat: `raw` (roh), `cooked` (gegart), `dry` (trocken, z. B. Reis, Nudeln, Hülsenfrüchte), `dried` (getrocknet, z. B. Rosinen), `processed` (einfach verarbeitet, z. B. Mehl, Öl, Milch). |
+| `state` | nein | Zustand der Grundzutat: `raw` (roh), `cooked` (gekocht, gedünstet, geschmort), `grilled` (gegrillt), `fried` (in der Pfanne gebraten), `baked` (im Ofen gebacken/gebraten), `roasted` (geröstet, z. B. Nüsse), `dry` (trocken, z. B. Reis, Nudeln, Hülsenfrüchte), `dried` (getrocknet, z. B. Rosinen, getrocknete Tomaten), `frozen` (tiefgekühlt, unzubereitet), `canned` (Dose/Glas), `smoked` (geräuchert), `processed` (einfach verarbeitet, z. B. Mehl, Öl, Milch, Saft, Tomatenmark). |
 | `unit` | nein | Bezugseinheit, immer `"g"` (Nährwerte pro 100 g). |
-| `note` | nein | Bei Grundzutaten fest `"Grundzutat, kein Fertigprodukt"`. |
+| `note` | nein | Bei Grundzutaten `"Grundzutat, kein Fertigprodukt"`; bei Varianten je nach Zustand z. B. `"Grundzutat (zubereitet), kein Fertigprodukt"`, `"Grundzutat (getrocknet), kein Fertigprodukt"`, `"Grundzutat (tiefgekühlt, unzubereitet), kein Fertigprodukt"`, `"Grundzutat (Konserve, generisch), kein Markenprodukt"` oder `"Grundzutat (verarbeitet, generisch), kein Markenprodukt"`. |
 | `fdc_id` | nein | USDA-FoodData-Central-ID des Quelldatensatzes (positive Ganzzahl). |
 | `source_missing` | nein | Nährwerte, die in der Quelle fehlen (`"fiber"`, `"sugar"`). |
 | `is_packaged_product` | nein | `false` bei Gerichten. `true` wäre nur für `type: "item"` mit Barcode sinnvoll; bei `type: "dish"` ist `true` ungültig. |
@@ -81,7 +81,7 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
 | `per100g` | ja | `kcal` (0–950), `protein`, `carbs`, `fat`, `fiber` (je 0–100 g pro 100 g), optional `sugar` (0–100 g). Protein + Kohlenhydrate + Fett ≤ 100 g (0,15 g Rundungstoleranz). |
 | `portion` | nein | Typische Portion: `label` (Text) und `grams` (> 0, max. 5000). Die App rechnet damit von 100 g auf die Portion um. |
 | `ingredients` | ja | Zutaten der zugrunde gelegten Portion: `{ "name", "grams" }`, `grams` > 0. Das sind Rezeptmengen, keine zweite Nährwertquelle. |
-| `quality` | ja | `"estimate"` (berechnet, wie jetzt bei allen 4245 Gerichten), `"reference"` (aus einer amtlichen Nährwertdatenbank übernommen, wie bei den 295 Grundzutaten) oder `"verified"` (später mit geprüften Werten überschrieben). |
+| `quality` | ja | `"estimate"` (berechnet, wie jetzt bei allen 4245 Gerichten), `"reference"` (aus einer amtlichen Nährwertdatenbank übernommen, wie bei den 604 Grundzutaten) oder `"verified"` (später mit geprüften Werten überschrieben). |
 | `source` | ja | Herkunft der Nährwerte. Bei Schätzwerten der feste Hinweis auf Rezept plus Referenzwerte; bei geprüften Einträgen die konkrete Quelle. |
 
 Gerichte sind pro 100 g angegeben. `portion.grams` ist das übliche Tellergewicht nach dem Garen. `ingredients[].grams` sind die Rohmengen dieser Portion (aufgenommenes Wasser und Bratfett stehen mit in der Liste).
@@ -150,7 +150,7 @@ BASE="https://food-database-api.<dein-account>.workers.dev"
 
 ```bash
 curl "$BASE/health"
-# {"status":"ok","count":4540}
+# {"status":"ok","count":4849}
 
 curl "$BASE/search?q=karniyarik&limit=5"
 # {"query":"karniyarik","count":1,"results":[{"id":"karniyarik","name":"Karnıyarık","barcode":null, ...}]}
@@ -185,7 +185,7 @@ Wenn du keine API betreiben willst, lädst du die Rohdatei einmal und suchst lok
 https://raw.githubusercontent.com/HealthUp1123/food-database/main/data/foods.json
 ```
 
-Das ist bei diesem Datenumfang (4540 Einträge) praktikabel. Für die Zutatenliste brauchst du keinen zweiten Endpunkt, die Datei enthält sie bereits. In der Such-API fehlt `ingredients` in der Trefferliste absichtlich; `GET /item/{id}` liefert sie nach.
+Das ist bei diesem Datenumfang (4849 Einträge) praktikabel. Für die Zutatenliste brauchst du keinen zweiten Endpunkt, die Datei enthält sie bereits. In der Such-API fehlt `ingredients` in der Trefferliste absichtlich; `GET /item/{id}` liefert sie nach.
 
 ## Einbau in die App: Suchfeld mit Live-Suche (Debounce)
 
@@ -202,9 +202,9 @@ type Food = {
   cuisine: string;
   category: string;
   prepared?: "homemade" | "restaurant" | "base_ingredient";
-  state?: "raw" | "cooked" | "dry" | "dried" | "processed"; // nur Grundzutaten
+  state?: "raw" | "cooked" | "grilled" | "fried" | "baked" | "roasted" | "dry" | "dried" | "frozen" | "canned" | "smoked" | "processed"; // nur Grundzutaten
   unit?: "g";
-  note?: string; // "Grundzutat, kein Fertigprodukt"
+  note?: string; // "Grundzutat, kein Fertigprodukt" bzw. "Grundzutat (zubereitet), kein Fertigprodukt" usw.
   fdc_id?: number; // USDA FoodData Central
   source_missing?: ("fiber" | "sugar")[];
   is_packaged_product?: boolean;
@@ -271,6 +271,7 @@ Das schreibt dort `foods.json`, eine aktualisierte `ingredients.json` und `build
 - [x] Platzhalter durch 4245 berechnete Gerichte ersetzen (49 Küchen, davon 926 türkisch und 668 deutsch, `quality: "estimate"`)
 - [x] Gerichte und Fertigprodukte trennen; 2114 Gerichte mit `off_similar` aus dem OFF-Dump vom 29.10.2026 markiert, keines entfernt
 - [x] 295 Grundzutaten mit USDA-Referenzwerten (`quality: "reference"`, inkl. Zucker)
+- [x] 309 Zubereitungsvarianten der Grundzutaten (gekocht, gegrillt, gebraten, getrocknet, tiefgekühlt, Dose, Saft, geröstet, geräuchert), ebenfalls 1:1 aus USDA
 - [ ] Einzelne Einträge mit geprüften Werten überschreiben (`quality: "verified"`, Quelle im Feld `source`)
 - [ ] Echte Barcodes ergänzen, wo ein verpacktes Produkt dahintersteht
 - [ ] API deployen und in die App einbinden
