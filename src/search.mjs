@@ -24,20 +24,27 @@ export function normalize(text) {
     .trim();
 }
 
-/** Levenshtein-Distanz mit frühem Abbruch (max). Gibt max+1 zurück, wenn größer. */
+/**
+ * Damerau-Levenshtein-Distanz (Optimal String Alignment) mit frühem Abbruch (max). Gibt max+1 zurück, wenn größer.
+ * Ein Buchstabendreher zählt als EIN Fehler: "tomaet" → "tomate" = 1, "kartofel" → "kartoffel" = 1.
+ */
 export function levenshtein(a, b, max = 2) {
   if (a === b) return 0;
   if (Math.abs(a.length - b.length) > max) return max + 1;
+  let prev2 = null;
   let prev = Array.from({ length: b.length + 1 }, (_, i) => i);
   for (let i = 1; i <= a.length; i++) {
     const cur = [i];
     let rowMin = i;
     for (let j = 1; j <= b.length; j++) {
       const cost = a[i - 1] === b[j - 1] ? 0 : 1;
-      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost);
-      if (cur[j] < rowMin) rowMin = cur[j];
+      let v = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost);
+      if (prev2 && i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) v = Math.min(v, prev2[j - 2] + 1);
+      cur[j] = v;
+      if (v < rowMin) rowMin = v;
     }
     if (rowMin > max) return max + 1;
+    prev2 = prev;
     prev = cur;
   }
   return prev[b.length];
@@ -89,9 +96,20 @@ export function wordRank(token, text) {
   return sc - 1;
 }
 
-/** Sprachen der mehrsprachigen Namen (`names`); die ersten sechs sind Pflicht. */
-export const LANGS = ['de', 'en', 'tr', 'fr', 'es', 'pt', 'it', 'zh'];
-export const REQUIRED_LANGS = ['de', 'en', 'tr', 'fr', 'es', 'pt'];
+/** Sprachen der mehrsprachigen Namen (`names`/`aliases`): nur de, en, tr – alle drei Pflicht. */
+export const LANGS = ['de', 'en', 'tr'];
+export const REQUIRED_LANGS = ['de', 'en', 'tr'];
+/** Rückfallsprache für andere `lang`-Werte (z. B. zh, es, it): Englisch ist international am verständlichsten. */
+export const FALLBACK_LANG = 'en';
+/** Heimatküchen je Suchsprache (nur für die Rangfolge gleich guter, exakter Treffer). */
+const HOME_CUISINES = { de: ['de', 'at', 'ch'], tr: ['tr'], en: [] };
+
+/** Normalisiert einen Sprachwert ("pt-BR" → "pt") und bildet ihn auf de/en/tr ab; leer → null, sonst Rückfall auf Englisch. */
+export function resolveLang(value) {
+  const l = String(value || '').trim().toLowerCase().split(/[-_]/)[0];
+  if (!l) return null;
+  return LANGS.includes(l) ? l : FALLBACK_LANG;
+}
 
 const uniq = (arr) => [...new Set(arr.filter(Boolean))];
 
@@ -114,6 +132,8 @@ export function buildIndex(foods) {
       primary,
       heads,
       raw: food.state === 'raw',
+      // Aliase je Sprache (z. B. aliases.de = ["Fritten"]) – Treffer hier gelten als Treffer in dieser Sprache.
+      langAliases: Object.fromEntries(Object.entries(food.aliases || {}).map(([l, v]) => [l, v.map(normalize)])),
       synonyms: uniq([...(food.synonyms || []).map(normalize), ...aliases]).filter((t) => !primary.includes(t)),
     };
   });
@@ -141,7 +161,10 @@ export function displayName(food, lang) {
 /**
  * Suche über alle Sprachen. Sortierung: exakt, Präfix, Teilstring, dann Tippfehler.
  * Bei mehreren Wörtern müssen alle Wörter treffen (in Name, einem Sprachnamen, Alias oder Synonym).
- * Optional `lang`: Treffer im Namen dieser Sprache werden bei Gleichstand bevorzugt.
+ * Optional `lang`: Treffer im Namen (oder Alias) dieser Sprache werden bevorzugt.
+ * Rangfolge: 1. Trefferstufe (exakte Treffer in Name, Kopfwort, Alias, Synonym bilden EINE Stufe),
+ * 2. rohe Grundzutat vor Zubereitung vor Gericht, 3. mit `lang` innerhalb der exakten Treffer Gerichte der Heimatküche
+ * dieser Sprache (de → de/at/ch, tr → tr), 4. feinere Stufe, 5. kürzerer Name.
  */
 export function search(index, query, limit = 10, lang = null) {
   const q = normalize(query);
@@ -192,7 +215,8 @@ export function search(index, query, limit = 10, lang = null) {
     else if (entry.synonyms.includes(q)) score = 2;
     else score = 10 + total * 10 + (viaSynonym ? 1 : 0);
     const shown = lang ? normalize(displayName(entry.food, lang)) : entry.name;
-    if (lang && !tokens.every((tk) => { const sc = scoreToken(tk, shown); return sc !== null && sc <= 3; })) score += 5;
+    const inLang = (t) => tokens.every((tk) => { const sc = scoreToken(tk, t); return sc !== null && sc <= 3; });
+    if (lang && !inLang(shown) && !(entry.langAliases[lang] || []).some(inLang)) score += 5;
     // Länge des kürzesten Namens, in dem alle Wörter vorkommen (sonst Anzeigename).
     let len = shown.length;
     for (const t of entry.primary) {
@@ -200,9 +224,15 @@ export function search(index, query, limit = 10, lang = null) {
     }
     // Bei Gleichstand: rohe Grundzutat vor anderen Grundzutaten vor Gerichten.
     const kind = entry.food.prepared === 'base_ingredient' ? (entry.raw ? 0 : 1) : 2;
-    results.push({ food: entry.food, score, kind, len });
+    // Exakte Treffer (Stufen 0–2, ohne Sprach-Malus) bilden eine Gruppe; darin wird (nach der Art) mit `lang` die Heimatküche
+    // der Sprache bevorzugt. So liefert "Kartoffelpuffer" (Alias von Reibekuchen) mit lang=de den Reibekuchen vor dem
+    // türkischen Patates Mücveri, dessen deutscher Name ebenfalls "Kartoffelpuffer" ist.
+    const group = score <= 2 ? 0 : score;
+    const home = group === 0 && lang && (HOME_CUISINES[lang] || []).includes(entry.food.cuisine) ? 0 : 1;
+    results.push({ food: entry.food, group, score, kind, home, len });
   }
-  results.sort((a, b) => a.score - b.score || a.kind - b.kind || a.len - b.len || a.food.name.localeCompare(b.food.name, 'de'));
+  results.sort((a, b) => a.group - b.group || a.kind - b.kind || a.home - b.home || a.score - b.score || a.len - b.len
+    || a.food.name.localeCompare(b.food.name, 'de'));
   return results.slice(0, Math.max(1, Math.min(limit, 50))).map((r) => r.food);
 }
 

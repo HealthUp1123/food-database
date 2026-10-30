@@ -1,0 +1,5946 @@
+[
+ {
+  "id": "nuernberger-rostbratwuerstchen",
+  "name_de": "Nürnberger Rostbratwürstchen",
+  "alt": 0.3,
+  "neu": 0.6,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "BLS:G630100",
+   "CIQ:11016",
+   "COFID:13-258",
+   "SR:172234",
+   "BLS:R132000",
+   "CIQ:11013"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 185 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Meerrettich 3.0→6.2 g/100 g; Senf 3.0→4.0 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.3
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.5
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.6
+   }
+  ]
+ },
+ {
+  "id": "tafelspitz",
+  "name_de": "Tafelspitz",
+  "alt": 0.9,
+  "neu": 1.3,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170400",
+   "BLS:G660100",
+   "CIQ:20055",
+   "COFID:13-219",
+   "SR:170393",
+   "BLS:G620100",
+   "CIQ:20009",
+   "COFID:13-496",
+   "BLS:G630100",
+   "CIQ:11016",
+   "COFID:13-258"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 300 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knollensellerie 1.8→3.95 g/100 g; Karotte 2.8→2.9 g/100 g; Meerrettich 3.0→6.2 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.3
+   }
+  ]
+ },
+ {
+  "id": "rinderschmorbraten",
+  "name_de": "Rinderschmorbraten",
+  "alt": 0.8,
+  "neu": 1.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170400",
+   "BLS:G660100",
+   "CIQ:20055",
+   "COFID:13-219",
+   "SR:170393",
+   "BLS:G620100",
+   "CIQ:20009",
+   "COFID:13-496",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 325 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knollensellerie 1.8→3.95 g/100 g; Karotte 2.8→2.9 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.1
+   }
+  ]
+ },
+ {
+  "id": "fischstaebchen",
+  "name_de": "Fischstäbchen",
+  "alt": 1.0,
+  "neu": 1.4,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:174928",
+   "BLS:B821000",
+   "CIQ:7500"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 115 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Paniermehl 4.0→5.34 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.4
+   }
+  ]
+ },
+ {
+  "id": "kaltschale",
+  "name_de": "Kaltschale",
+  "alt": 0.8,
+  "neu": 1.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167762",
+   "BLS:F301100",
+   "CIQ:13014",
+   "COFID:14-324"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 260 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Erdbeere 2.0→2.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.1
+   }
+  ]
+ },
+ {
+  "id": "meerrettichsosse",
+  "name_de": "Meerrettichsoße",
+  "alt": 0.8,
+  "neu": 1.4,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "BLS:G630100",
+   "CIQ:11016",
+   "COFID:13-258",
+   "SR:168894",
+   "BLS:C214100",
+   "CIQ:9436"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 120 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Meerrettich 3.0→6.2 g/100 g; Weizenmehl 3.0→3.2 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.4
+   }
+  ]
+ },
+ {
+  "id": "selleriesalat",
+  "name_de": "Selleriesalat",
+  "alt": 1.5,
+  "neu": 2.7,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170400",
+   "BLS:G660100",
+   "CIQ:20055",
+   "COFID:13-219",
+   "SR:171688",
+   "BLS:F110100",
+   "SR:171009",
+   "BLS:Q991000",
+   "CIQ:11054"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 225 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knollensellerie 1.8→3.95 g/100 g; Apfel 2.4→2.33 g/100 g; Mayonnaise 0.0→0.26 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.9
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.7
+   }
+  ]
+ },
+ {
+  "id": "erdbeerkuchen",
+  "name_de": "Erdbeerkuchen",
+  "alt": 1.5,
+  "neu": 2.0,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167762",
+   "BLS:F301100",
+   "CIQ:13014",
+   "COFID:14-324",
+   "SR:168894",
+   "BLS:C214100",
+   "CIQ:9436",
+   "SR:169698",
+   "BLS:C446000"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 225 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Erdbeere 2.0→2.9 g/100 g; Weizenmehl 3.0→3.2 g/100 g; Speisestärke 0.9→0.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.8
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.0
+   }
+  ]
+ },
+ {
+  "id": "vanilleeis-mit-heissen-himbeeren",
+  "name_de": "Vanilleeis mit heißen Himbeeren",
+  "alt": 2.7,
+  "neu": 1.8,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167755",
+   "BLS:F302100",
+   "CIQ:13015",
+   "COFID:14-375",
+   "SR:169698",
+   "BLS:C446000"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 245 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Himbeere 6.5→4.5 g/100 g; Speisestärke 0.9→0.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.7
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.7
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.8
+   }
+  ]
+ },
+ {
+  "id": "apfelschorle",
+  "name_de": "Apfelschorle",
+  "alt": 1.2,
+  "neu": 0.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:173933",
+   "BLS:F110600",
+   "CIQ:2074"
+  ],
+  "method": "recipe",
+  "begruendung": "Saftgetränk: Das Rezept führt die ganze Frucht, getrunken wird aber Saft ohne Trester. Fruchtzutat(en) durch Saft-Quellwerte ersetzt: Apfel → Apfelsaft 0.23 g/100 g (Median SR:173933, BLS:F110600, CIQ:2074). Danach Rezeptberechnung (Summe Zutatenmenge × Ballaststoffe)/Portionsgewicht 255 g.",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "apfelsaft",
+  "name_de": "Apfelsaft",
+  "alt": 2.3,
+  "neu": 0.2,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:173933",
+   "BLS:F110600",
+   "CIQ:2074"
+  ],
+  "method": "recipe",
+  "begruendung": "Saftgetränk: Das Rezept führt die ganze Frucht, getrunken wird aber Saft ohne Trester. Fruchtzutat(en) durch Saft-Quellwerte ersetzt: Apfel → Apfelsaft 0.23 g/100 g (Median SR:173933, BLS:F110600, CIQ:2074). Danach Rezeptberechnung (Summe Zutatenmenge × Ballaststoffe)/Portionsgewicht 260 g.",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.3
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.2
+   }
+  ]
+ },
+ {
+  "id": "orangenschorle",
+  "name_de": "Orangenschorle",
+  "alt": 1.2,
+  "neu": 0.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169098",
+   "BLS:F603600",
+   "CIQ:2070"
+  ],
+  "method": "recipe",
+  "begruendung": "Saftgetränk: Das Rezept führt die ganze Frucht, getrunken wird aber Saft ohne Trester. Fruchtzutat(en) durch Saft-Quellwerte ersetzt: Orange → Orangensaft 0.28 g/100 g (Median SR:169098, BLS:F603600, CIQ:2070). Danach Rezeptberechnung (Summe Zutatenmenge × Ballaststoffe)/Portionsgewicht 250 g.",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "kirschsaft",
+  "name_de": "Kirschsaft",
+  "alt": 0.9,
+  "neu": 0.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "BLS:F212600",
+   "BLS:F212700"
+  ],
+  "method": "recipe",
+  "begruendung": "Saftgetränk: Das Rezept führt die ganze Frucht, getrunken wird aber Saft ohne Trester. Fruchtzutat(en) durch Saft-Quellwerte ersetzt: Sauerkirsche/Vişne → Sauerkirschsaft/-nektar 0.1 g/100 g (Median BLS:F212600, BLS:F212700). Danach Rezeptberechnung (Summe Zutatenmenge × Ballaststoffe)/Portionsgewicht 270 g.",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "kinderpunsch",
+  "name_de": "Kinderpunsch",
+  "alt": 2.0,
+  "neu": 0.4,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:171320",
+   "COFID:13-874",
+   "SR:173933",
+   "BLS:F110600",
+   "CIQ:2074",
+   "SR:173042",
+   "BLS:F310600",
+   "CIQ:2016",
+   "COFID:17-745"
+  ],
+  "method": "recipe",
+  "begruendung": "Saftgetränk: Das Rezept führt die ganze Frucht, getrunken wird aber Saft ohne Trester. Fruchtzutat(en) durch Saft-Quellwerte ersetzt: Weintraube → Traubensaft 0.17 g/100 g (Median SR:173042, BLS:F310600, CIQ:2016, COFID:17-745); Apfel → Apfelsaft 0.23 g/100 g (Median SR:173933, BLS:F110600, CIQ:2074); Orange → Orangensaft 0.28 g/100 g (Median SR:169098, BLS:F603600, CIQ:2070). Danach Rezeptberechnung (Summe Zutatenmenge × Ballaststoffe)/Portionsgewicht 270 g.",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.4
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.4
+   }
+  ]
+ },
+ {
+  "id": "keskek-corbasi",
+  "name_de": "Keşkek Çorbası",
+  "alt": 1.6,
+  "neu": 1.2,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170688",
+   "BLS:C119100"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 275 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Bulgur 12.5→9.6 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.2
+   }
+  ]
+ },
+ {
+  "id": "kelle-paca-corbasi",
+  "name_de": "Kelle Paça Çorbası",
+  "alt": 0.0,
+  "neu": 0.1,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 275 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knoblauch 2.1→4.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.5
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "semizotu-corbasi",
+  "name_de": "Semizotu Çorbası",
+  "alt": 0.5,
+  "neu": 0.9,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "BLS:G460100",
+   "SR:170026",
+   "BLS:K110100",
+   "CIQ:4008",
+   "COFID:13-489",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 320 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Portulak 0.5→1.6 g/100 g; Kartoffel 2.2→2.05 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.9
+   }
+  ]
+ },
+ {
+  "id": "doner-kebap-durum",
+  "name_de": "Döner Kebap (Dürüm)",
+  "alt": 1.2,
+  "neu": 1.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:175037",
+   "BLS:B783012",
+   "COFID:11-925",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499",
+   "SR:170457",
+   "BLS:G561100",
+   "CIQ:20385",
+   "COFID:13-517"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 280 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Lavaş/Wrap-Fladen 2.5→3.5 g/100 g; Zwiebel 1.7→1.7 g/100 g; Tomate 1.2→1.11 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.5
+   }
+  ]
+ },
+ {
+  "id": "tavuk-doner-durum",
+  "name_de": "Tavuk Döner Dürüm",
+  "alt": 1.2,
+  "neu": 1.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:175037",
+   "BLS:B783012",
+   "COFID:11-925",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499",
+   "SR:170457",
+   "BLS:G561100",
+   "CIQ:20385",
+   "COFID:13-517"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 275 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Lavaş/Wrap-Fladen 2.5→3.5 g/100 g; Zwiebel 1.7→1.7 g/100 g; Tomate 1.2→1.11 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.7
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.5
+   }
+  ]
+ },
+ {
+  "id": "yogurtlu-adana",
+  "name_de": "Yoğurtlu Adana",
+  "alt": 0.6,
+  "neu": 0.9,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:175037",
+   "BLS:B783012",
+   "COFID:11-925",
+   "SR:170459",
+   "BLS:R160000",
+   "COFID:13-531"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 265 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Lavaş/Wrap-Fladen 2.5→3.5 g/100 g; Tomatenmark 4.0→4.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.9
+   }
+  ]
+ },
+ {
+  "id": "etli-kereviz",
+  "name_de": "Etli Kereviz",
+  "alt": 1.3,
+  "neu": 2.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170400",
+   "BLS:G660100",
+   "CIQ:20055",
+   "COFID:13-219",
+   "SR:170393",
+   "BLS:G620100",
+   "CIQ:20009",
+   "COFID:13-496",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 360 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knollensellerie 1.8→3.95 g/100 g; Karotte 2.8→2.9 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.7
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.5
+   }
+  ]
+ },
+ {
+  "id": "etli-semizotu",
+  "name_de": "Etli Semizotu",
+  "alt": 0.6,
+  "neu": 1.2,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "BLS:G460100",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499",
+   "SR:170457",
+   "BLS:G561100",
+   "CIQ:20385",
+   "COFID:13-517"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 375 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Portulak 0.5→1.6 g/100 g; Zwiebel 1.7→1.7 g/100 g; Tomate 1.2→1.11 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.2
+   }
+  ]
+ },
+ {
+  "id": "tavuk-wrap",
+  "name_de": "Tavuk Wrap",
+  "alt": 1.1,
+  "neu": 1.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:175037",
+   "BLS:B783012",
+   "COFID:11-925",
+   "SR:170457",
+   "BLS:G561100",
+   "CIQ:20385",
+   "COFID:13-517",
+   "SR:169247",
+   "BLS:G105100",
+   "CIQ:20031",
+   "COFID:13-520"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 250 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Lavaş/Wrap-Fladen 2.5→3.5 g/100 g; Tomate 1.2→1.11 g/100 g; Blattsalat (Romana/Eisberg) 1.3→1.45 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.7
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.5
+   }
+  ]
+ },
+ {
+  "id": "zeytinyagli-kereviz",
+  "name_de": "Zeytinyağlı Kereviz",
+  "alt": 1.8,
+  "neu": 3.2,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170400",
+   "BLS:G660100",
+   "CIQ:20055",
+   "COFID:13-219",
+   "SR:170393",
+   "BLS:G620100",
+   "CIQ:20009",
+   "COFID:13-496",
+   "SR:170419",
+   "BLS:G760100",
+   "COFID:13-438"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 320 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knollensellerie 1.8→3.95 g/100 g; Karotte 2.8→2.9 g/100 g; Grüne Erbsen 5.7→5.3 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.8
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.8
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 3.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 3.2
+   }
+  ]
+ },
+ {
+  "id": "zeytinyagli-semizotu",
+  "name_de": "Zeytinyağlı Semizotu",
+  "alt": 0.6,
+  "neu": 1.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "BLS:G460100",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499",
+   "SR:170457",
+   "BLS:G561100",
+   "CIQ:20385",
+   "COFID:13-517"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 330 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Portulak 0.5→1.6 g/100 g; Zwiebel 1.7→1.7 g/100 g; Tomate 1.2→1.11 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.5
+   }
+  ]
+ },
+ {
+  "id": "zeytinyagli-biber-kizarmis",
+  "name_de": "Zeytinyağlı Biber (Kızarmış)",
+  "alt": 2.8,
+  "neu": 1.9,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170427",
+   "BLS:G541100",
+   "CIQ:20085",
+   "COFID:13-318",
+   "SR:170457",
+   "BLS:G561100",
+   "CIQ:20385",
+   "COFID:13-517",
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 205 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Spitzpaprika (Sivri Biber) 3.0→1.85 g/100 g; Tomate 1.2→1.11 g/100 g; Knoblauch 2.1→4.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.8
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.7
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.9
+   }
+  ]
+ },
+ {
+  "id": "yaprak-sarma-zeytinyagli",
+  "name_de": "Yaprak Sarma (Zeytinyağlı)",
+  "alt": 1.9,
+  "neu": 3.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169393",
+   "SR:168877",
+   "BLS:C352000",
+   "CIQ:9100",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 230 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Weinblätter (eingelegt) 5.0→9.9 g/100 g; Reis (trocken) 1.3→1.53 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 3.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 3.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 3.1
+   }
+  ]
+ },
+ {
+  "id": "yaprak-sarma-etli",
+  "name_de": "Yaprak Sarma (Etli)",
+  "alt": 1.6,
+  "neu": 2.7,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169393",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499",
+   "SR:168877",
+   "BLS:C352000",
+   "CIQ:9100"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 230 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Weinblätter (eingelegt) 5.0→9.9 g/100 g; Zwiebel 1.7→1.7 g/100 g; Reis (trocken) 1.3→1.53 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.7
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.8
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.7
+   }
+  ]
+ },
+ {
+  "id": "tantuni",
+  "name_de": "Tantuni",
+  "alt": 1.6,
+  "neu": 2.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:175037",
+   "BLS:B783012",
+   "COFID:11-925",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 215 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Lavaş/Wrap-Fladen 2.5→3.5 g/100 g; Sumak 20.0→20.0 g/100 g; Zwiebel 1.7→1.7 g/100 g. Hinweis: enthält Zutat(en) ohne freie Quelle (Sumak), Anteil am Ergebnis 9%, dort alter Wert verwendet",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.1
+   }
+  ]
+ },
+ {
+  "id": "hamsi-tava",
+  "name_de": "Hamsi Tava",
+  "alt": 1.0,
+  "neu": 0.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:167747",
+   "BLS:F601600",
+   "CIQ:2028",
+   "COFID:14-277"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 220 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Zitronensaft 0.3→0.21 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.5
+   }
+  ]
+ },
+ {
+  "id": "hamsili-misir-ekmegi",
+  "name_de": "Hamsili Mısır Ekmeği",
+  "alt": 1.9,
+  "neu": 1.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 240 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.5
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.1
+   }
+  ]
+ },
+ {
+  "id": "kozlenmis-biber-salatasi",
+  "name_de": "Közlenmiş Biber Salatası",
+  "alt": 2.7,
+  "neu": 1.7,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170427",
+   "BLS:G541100",
+   "CIQ:20085",
+   "COFID:13-318",
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244",
+   "SR:170416",
+   "BLS:G250100",
+   "CIQ:11014",
+   "COFID:13-844"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 175 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Spitzpaprika (Sivri Biber) 3.0→1.85 g/100 g; Knoblauch 2.1→4.95 g/100 g; Petersilie 3.3→4.28 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.7
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.7
+   }
+  ]
+ },
+ {
+  "id": "semizotu-salatasi",
+  "name_de": "Semizotu Salatası",
+  "alt": 0.3,
+  "neu": 1.0,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "BLS:G460100",
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 210 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Portulak 0.5→1.6 g/100 g; Knoblauch 2.1→4.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.3
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.0
+   }
+  ]
+ },
+ {
+  "id": "salatalik-tursusu",
+  "name_de": "Salatalık Turşusu",
+  "alt": 0.5,
+  "neu": 0.8,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168409",
+   "BLS:G520100",
+   "COFID:13-523",
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244",
+   "SR:172233",
+   "CIQ:11093",
+   "COFID:13-824"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 135 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Gurke 0.5→0.7 g/100 g; Knoblauch 2.1→4.95 g/100 g; Dill 2.1→2.5 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.8
+   }
+  ]
+ },
+ {
+  "id": "biber-tursusu",
+  "name_de": "Biber Turşusu",
+  "alt": 2.7,
+  "neu": 1.7,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170427",
+   "BLS:G541100",
+   "CIQ:20085",
+   "COFID:13-318"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 110 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Spitzpaprika (Sivri Biber) 3.0→1.85 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.7
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.8
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.7
+   }
+  ]
+ },
+ {
+  "id": "sarimsak-tursusu",
+  "name_de": "Sarımsak Turşusu",
+  "alt": 1.4,
+  "neu": 3.3,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 45 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knoblauch 2.1→4.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 18.9
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 3.3
+   }
+  ]
+ },
+ {
+  "id": "mihlama",
+  "name_de": "Mıhlama",
+  "alt": 0.9,
+  "neu": 0.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 200 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.5
+   }
+  ]
+ },
+ {
+  "id": "tahin-helvasi",
+  "name_de": "Tahin Helvası",
+  "alt": 3.0,
+  "neu": 4.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167996"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 50 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Tahin-Halva 3.0→4.5 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 3.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 4.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 4.5
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 4.5
+   }
+  ]
+ },
+ {
+  "id": "visne-suyu",
+  "name_de": "Vişne Suyu",
+  "alt": 0.6,
+  "neu": 0.0,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "BLS:F212600",
+   "BLS:F212700"
+  ],
+  "method": "recipe",
+  "begruendung": "Saftgetränk: Das Rezept führt die ganze Frucht, getrunken wird aber Saft ohne Trester. Fruchtzutat(en) durch Saft-Quellwerte ersetzt: Sauerkirsche/Vişne → Sauerkirschsaft/-nektar 0.1 g/100 g (Median BLS:F212600, BLS:F212700). Danach Rezeptberechnung (Summe Zutatenmenge × Ballaststoffe)/Portionsgewicht 250 g.",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.0
+   }
+  ]
+ },
+ {
+  "id": "nar-suyu",
+  "name_de": "Nar Suyu",
+  "alt": 4.0,
+  "neu": 0.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167787",
+   "CIQ:2017",
+   "CIQ:2039",
+   "COFID:14-341"
+  ],
+  "method": "recipe",
+  "begruendung": "Saftgetränk: Das Rezept führt die ganze Frucht, getrunken wird aber Saft ohne Trester. Fruchtzutat(en) durch Saft-Quellwerte ersetzt: Granatapfel → Granatapfelsaft 0.1 g/100 g (Median SR:167787, CIQ:2017, CIQ:2039, COFID:14-341). Danach Rezeptberechnung (Summe Zutatenmenge × Ballaststoffe)/Portionsgewicht 250 g.",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 4.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "portakal-suyu",
+  "name_de": "Portakal Suyu",
+  "alt": 2.4,
+  "neu": 0.3,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169098",
+   "BLS:F603600",
+   "CIQ:2070"
+  ],
+  "method": "recipe",
+  "begruendung": "Saftgetränk: Das Rezept führt die ganze Frucht, getrunken wird aber Saft ohne Trester. Fruchtzutat(en) durch Saft-Quellwerte ersetzt: Orange → Orangensaft 0.28 g/100 g (Median SR:169098, BLS:F603600, CIQ:2070). Danach Rezeptberechnung (Summe Zutatenmenge × Ballaststoffe)/Portionsgewicht 250 g.",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.4
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.3
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.3
+   }
+  ]
+ },
+ {
+  "id": "lavas-ekmegi",
+  "name_de": "Lavaş Ekmeği",
+  "alt": 2.5,
+  "neu": 3.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:175037",
+   "BLS:B783012",
+   "COFID:11-925"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 60 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Lavaş/Wrap-Fladen 2.5→3.5 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 3.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 3.5
+   }
+  ]
+ },
+ {
+  "id": "misir-ekmegi",
+  "name_de": "Mısır Ekmeği",
+  "alt": 3.6,
+  "neu": 2.2,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:168894",
+   "BLS:C214100",
+   "CIQ:9436"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 135 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Weizenmehl 3.0→3.2 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 3.6
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 5.0
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.2
+   }
+  ]
+ },
+ {
+  "id": "kuzu-tandir",
+  "name_de": "Kuzu Tandır",
+  "alt": 0.0,
+  "neu": 0.1,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 205 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knoblauch 2.1→4.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "biber-kebabi",
+  "name_de": "Biber Kebabı",
+  "alt": 1.7,
+  "neu": 1.2,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170427",
+   "BLS:G541100",
+   "CIQ:20085",
+   "COFID:13-318",
+   "SR:170457",
+   "BLS:G561100",
+   "CIQ:20385",
+   "COFID:13-517"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 250 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Spitzpaprika (Sivri Biber) 3.0→1.85 g/100 g; Tomate 1.2→1.11 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.7
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.2
+   }
+  ]
+ },
+ {
+  "id": "kozlenmis-domates-biber",
+  "name_de": "Közlenmiş Domates Biber",
+  "alt": 2.3,
+  "neu": 1.7,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170427",
+   "BLS:G541100",
+   "CIQ:20085",
+   "COFID:13-318",
+   "SR:170457",
+   "BLS:G561100",
+   "CIQ:20385",
+   "COFID:13-517"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 205 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Spitzpaprika (Sivri Biber) 3.0→1.85 g/100 g; Tomate 1.2→1.11 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.3
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.7
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.7
+   }
+  ]
+ },
+ {
+  "id": "japrak",
+  "name_de": "Japrak",
+  "alt": 1.2,
+  "neu": 2.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169393",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499",
+   "SR:168877",
+   "BLS:C352000",
+   "CIQ:9100"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 220 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Weinblätter (eingelegt) 5.0→9.9 g/100 g; Zwiebel 1.7→1.7 g/100 g; Reis (trocken) 1.3→1.53 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.1
+   }
+  ]
+ },
+ {
+  "id": "afelia",
+  "name_de": "Afelia",
+  "alt": 0.0,
+  "neu": 0.1,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170923",
+   "CIQ:11042",
+   "COFID:13-889"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 205 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Kreuzkümmel 10.0→10.5 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "koupepia",
+  "name_de": "Koupepia",
+  "alt": 1.2,
+  "neu": 2.0,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169393",
+   "SR:168877",
+   "BLS:C352000",
+   "CIQ:9100",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 250 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Weinblätter (eingelegt) 5.0→9.9 g/100 g; Reis (trocken) 1.3→1.53 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.0
+   }
+  ]
+ },
+ {
+  "id": "agua-de-valencia",
+  "name_de": "Agua de Valencia",
+  "alt": 1.5,
+  "neu": 0.2,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169098",
+   "BLS:F603600",
+   "CIQ:2070"
+  ],
+  "method": "recipe",
+  "begruendung": "Saftgetränk: Das Rezept führt die ganze Frucht, getrunken wird aber Saft ohne Trester. Fruchtzutat(en) durch Saft-Quellwerte ersetzt: Orange → Orangensaft 0.28 g/100 g (Median SR:169098, BLS:F603600, CIQ:2070). Danach Rezeptberechnung (Summe Zutatenmenge × Ballaststoffe)/Portionsgewicht 310 g.",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.2
+   }
+  ]
+ },
+ {
+  "id": "patsas",
+  "name_de": "Patsas",
+  "alt": 0.0,
+  "neu": 0.1,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244",
+   "SR:167747",
+   "BLS:F601600",
+   "CIQ:2028",
+   "COFID:14-277"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 515 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knoblauch 2.1→4.95 g/100 g; Zitronensaft 0.3→0.21 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "gavros-marinatos",
+  "name_de": "Gavros marinatos",
+  "alt": 0.0,
+  "neu": 0.1,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 150 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knoblauch 2.1→4.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "polenta-e-osei",
+  "name_de": "Polenta e osei",
+  "alt": 1.0,
+  "neu": 0.6,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 470 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.6
+   }
+  ]
+ },
+ {
+  "id": "coda-alla-vaccinara",
+  "name_de": "Coda alla vaccinara",
+  "alt": 0.9,
+  "neu": 1.3,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170400",
+   "BLS:G660100",
+   "CIQ:20055",
+   "COFID:13-219",
+   "SR:170051",
+   "BLS:G568900",
+   "CIQ:20137",
+   "COFID:13-530",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 445 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knollensellerie 1.8→3.95 g/100 g; Tomaten (Dose) 1.0→1.4 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.3
+   }
+  ]
+ },
+ {
+  "id": "arista-di-maiale-al-latte",
+  "name_de": "Arista di maiale al latte",
+  "alt": 0.0,
+  "neu": 0.1,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 350 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knoblauch 2.1→4.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "skilandis",
+  "name_de": "Skilandis",
+  "alt": 0.0,
+  "neu": 0.1,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 85 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knoblauch 2.1→4.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "multekrem",
+  "name_de": "Multekrem",
+  "alt": 1.9,
+  "neu": 1.4,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167755",
+   "BLS:F302100",
+   "CIQ:13015",
+   "COFID:14-375"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 200 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Himbeere 6.5→4.5 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.4
+   }
+  ]
+ },
+ {
+  "id": "zubrowka-z-sokiem-jablkowym",
+  "name_de": "Żubrówka z sokiem jabłkowym",
+  "alt": 1.9,
+  "neu": 0.2,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:173933",
+   "BLS:F110600",
+   "CIQ:2074"
+  ],
+  "method": "recipe",
+  "begruendung": "Saftgetränk: Das Rezept führt die ganze Frucht, getrunken wird aber Saft ohne Trester. Fruchtzutat(en) durch Saft-Quellwerte ersetzt: Apfel → Apfelsaft 0.23 g/100 g (Median SR:173933, BLS:F110600, CIQ:2074). Danach Rezeptberechnung (Summe Zutatenmenge × Ballaststoffe)/Portionsgewicht 190 g.",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.2
+   }
+  ]
+ },
+ {
+  "id": "ameijoas-a-bulhao-pato",
+  "name_de": "Amêijoas à Bulhão Pato",
+  "alt": 0.0,
+  "neu": 0.1,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244",
+   "SR:167747",
+   "BLS:F601600",
+   "CIQ:2028",
+   "COFID:14-277"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 445 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knoblauch 2.1→4.95 g/100 g; Zitronensaft 0.3→0.21 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.5
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "papas-de-sarrabulho",
+  "name_de": "Papas de sarrabulho",
+  "alt": 1.0,
+  "neu": 0.6,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 465 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.6
+   }
+  ]
+ },
+ {
+  "id": "mamaliga-cu-branza-si-smantana",
+  "name_de": "Mămăligă cu brânză și smântână",
+  "alt": 1.1,
+  "neu": 0.6,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 455 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.6
+   }
+  ]
+ },
+ {
+  "id": "mamaliga-cu-oua",
+  "name_de": "Mămăligă cu ouă",
+  "alt": 1.0,
+  "neu": 0.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 430 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.5
+   }
+  ]
+ },
+ {
+  "id": "mamaliga-tocana",
+  "name_de": "Mămăligă tocană",
+  "alt": 1.2,
+  "neu": 0.8,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499",
+   "SR:170457",
+   "BLS:G561100",
+   "CIQ:20385",
+   "COFID:13-517"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 465 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Zwiebel 1.7→1.7 g/100 g; Tomate 1.2→1.11 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.8
+   }
+  ]
+ },
+ {
+  "id": "kacamak",
+  "name_de": "Kačamak",
+  "alt": 1.5,
+  "neu": 1.0,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:170026",
+   "BLS:K110100",
+   "CIQ:4008",
+   "COFID:13-489"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 470 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Kartoffel 2.2→2.05 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.7
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.0
+   }
+  ]
+ },
+ {
+  "id": "knackebrod-med-ost",
+  "name_de": "Knäckebröd med ost",
+  "alt": 3.9,
+  "neu": 5.6,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:172744",
+   "BLS:B6A2000",
+   "COFID:11-822",
+   "SR:168409",
+   "BLS:G520100",
+   "COFID:13-523"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 110 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knäckebrot 14.0→20.0 g/100 g; Gurke 0.5→0.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 3.9
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 6.3
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 5.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 5.6
+   }
+  ]
+ },
+ {
+  "id": "agghalva",
+  "name_de": "Ägghalva",
+  "alt": 0.0,
+  "neu": 0.1,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:172233",
+   "CIQ:11093",
+   "COFID:13-824",
+   "SR:171009",
+   "BLS:Q991000",
+   "CIQ:11054"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 140 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Dill 2.1→2.5 g/100 g; Mayonnaise 0.0→0.26 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "banosh",
+  "name_de": "Banosh",
+  "alt": 1.1,
+  "neu": 0.6,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 390 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.6
+   }
+  ]
+ },
+ {
+  "id": "wiener-eiskaffee",
+  "name_de": "Wiener Eiskaffee",
+  "alt": 0.0,
+  "neu": 0.2,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167575",
+   "BLS:S243000",
+   "COFID:12-508"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 275 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Speiseeis 0.0→0.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.2
+   }
+  ]
+ },
+ {
+  "id": "dame-blanche",
+  "name_de": "Dame blanche",
+  "alt": 1.2,
+  "neu": 1.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170272",
+   "BLS:S570000",
+   "CIQ:31005",
+   "SR:167575",
+   "BLS:S243000",
+   "COFID:12-508"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 205 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Zartbitterschokolade 10.0→8.31 g/100 g; Speiseeis 0.0→0.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.5
+   }
+  ]
+ },
+ {
+  "id": "tessiner-polenta",
+  "name_de": "Tessiner Polenta",
+  "alt": 1.2,
+  "neu": 0.7,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 405 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.7
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.7
+   }
+  ]
+ },
+ {
+  "id": "rheintaler-ribelmais",
+  "name_de": "Rheintaler Ribelmais",
+  "alt": 1.1,
+  "neu": 0.6,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 435 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.6
+   }
+  ]
+ },
+ {
+  "id": "pollo-al-ajillo",
+  "name_de": "Pollo al ajillo",
+  "alt": 0.3,
+  "neu": 0.6,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244",
+   "SR:170416",
+   "BLS:G250100",
+   "CIQ:11014",
+   "COFID:13-844"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 255 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knoblauch 2.1→4.95 g/100 g; Petersilie 3.3→4.28 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.3
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.3
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.9
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.6
+   }
+  ]
+ },
+ {
+  "id": "alioli",
+  "name_de": "Alioli",
+  "alt": 0.2,
+  "neu": 0.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244",
+   "SR:167747",
+   "BLS:F601600",
+   "CIQ:2028",
+   "COFID:14-277"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 60 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knoblauch 2.1→4.95 g/100 g; Zitronensaft 0.3→0.21 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.8
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.5
+   }
+  ]
+ },
+ {
+  "id": "mojo-verde",
+  "name_de": "Mojo verde",
+  "alt": 1.3,
+  "neu": 1.8,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170416",
+   "BLS:G250100",
+   "CIQ:11014",
+   "COFID:13-844",
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244",
+   "SR:170923",
+   "CIQ:11042",
+   "COFID:13-889"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 40 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Petersilie 3.3→4.28 g/100 g; Knoblauch 2.1→4.95 g/100 g; Kreuzkümmel 10.0→10.5 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 4.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.8
+   }
+  ]
+ },
+ {
+  "id": "celeri-remoulade",
+  "name_de": "Céleri rémoulade",
+  "alt": 1.3,
+  "neu": 2.8,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170400",
+   "BLS:G660100",
+   "CIQ:20055",
+   "COFID:13-219",
+   "SR:172234",
+   "BLS:R132000",
+   "CIQ:11013",
+   "SR:171009",
+   "BLS:Q991000",
+   "CIQ:11054"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 195 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knollensellerie 1.8→3.95 g/100 g; Senf 3.0→4.0 g/100 g; Mayonnaise 0.0→0.26 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 3.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.8
+   }
+  ]
+ },
+ {
+  "id": "tarte-aux-fraises",
+  "name_de": "Tarte aux fraises",
+  "alt": 1.4,
+  "neu": 1.9,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167762",
+   "BLS:F301100",
+   "CIQ:13014",
+   "COFID:14-324",
+   "SR:168894",
+   "BLS:C214100",
+   "CIQ:9436",
+   "SR:169609",
+   "BLS:R481100",
+   "COFID:11-1138"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 275 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Erdbeere 2.0→2.9 g/100 g; Weizenmehl 3.0→3.2 g/100 g; Puddingpulver 0.5→0.6 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.9
+   }
+  ]
+ },
+ {
+  "id": "eton-mess",
+  "name_de": "Eton mess",
+  "alt": 0.8,
+  "neu": 1.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167762",
+   "BLS:F301100",
+   "CIQ:13014",
+   "COFID:14-324"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 265 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Erdbeere 2.0→2.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.1
+   }
+  ]
+ },
+ {
+  "id": "haggis-neeps-and-tatties",
+  "name_de": "Haggis, neeps and tatties",
+  "alt": 1.7,
+  "neu": 1.2,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170026",
+   "BLS:K110100",
+   "CIQ:4008",
+   "COFID:13-489",
+   "SR:170465",
+   "CIQ:20064",
+   "COFID:13-389",
+   "COFID:19-132"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 425 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Kartoffel 2.2→2.05 g/100 g; Weiße Rübe 1.8→1.8 g/100 g; Haggis 1.5→0.2 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.7
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.2
+   }
+  ]
+ },
+ {
+  "id": "cock-a-leekie-soup",
+  "name_de": "Cock-a-leekie soup",
+  "alt": 1.3,
+  "neu": 0.9,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169246",
+   "BLS:G470100",
+   "CIQ:20039",
+   "COFID:13-624",
+   "SR:170284",
+   "BLS:C148000",
+   "SR:168162",
+   "BLS:F220400",
+   "CIQ:13042",
+   "COFID:14-391"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 450 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Lauch/Porree 2.6→2.0 g/100 g; Graupen (Gerste) 15.0→10.1 g/100 g; Pflaumen getrocknet 7.0→5.66 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.9
+   }
+  ]
+ },
+ {
+  "id": "dolmades",
+  "name_de": "Dolmades",
+  "alt": 2.0,
+  "neu": 3.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169393",
+   "SR:168877",
+   "BLS:C352000",
+   "CIQ:9100",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 205 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Weinblätter (eingelegt) 5.0→9.9 g/100 g; Reis (trocken) 1.3→1.53 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 3.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 3.7
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 3.5
+   }
+  ]
+ },
+ {
+  "id": "affogato-al-caffe",
+  "name_de": "Affogato al caffè",
+  "alt": 0.0,
+  "neu": 0.5,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167575",
+   "BLS:S243000",
+   "COFID:12-508"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 140 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Speiseeis 0.0→0.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.5
+   }
+  ]
+ },
+ {
+  "id": "penne-all-arrabbiata",
+  "name_de": "Penne all'arrabbiata",
+  "alt": 1.0,
+  "neu": 1.3,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169736",
+   "BLS:E401000",
+   "COFID:11-716",
+   "SR:170051",
+   "BLS:G568900",
+   "CIQ:20137",
+   "COFID:13-530",
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 430 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Nudeln/Şehriye (trocken) 3.0→3.41 g/100 g; Tomaten (Dose) 1.0→1.4 g/100 g; Knoblauch 2.1→4.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.3
+   }
+  ]
+ },
+ {
+  "id": "polenta-concia",
+  "name_de": "Polenta concia",
+  "alt": 1.1,
+  "neu": 0.6,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 435 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.6
+   }
+  ]
+ },
+ {
+  "id": "gelato-alla-vaniglia",
+  "name_de": "Gelato alla vaniglia",
+  "alt": 0.0,
+  "neu": 0.7,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167575",
+   "BLS:S243000",
+   "COFID:12-508"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 120 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Speiseeis 0.0→0.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.7
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.7
+   }
+  ]
+ },
+ {
+  "id": "polenta-e-funghi",
+  "name_de": "Polenta e funghi",
+  "alt": 1.3,
+  "neu": 0.9,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:169251",
+   "BLS:K701100",
+   "CIQ:20056",
+   "COFID:13-505",
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 460 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Champignons 1.0→1.0 g/100 g; Knoblauch 2.1→4.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.9
+   }
+  ]
+ },
+ {
+  "id": "suppli-al-telefono",
+  "name_de": "Supplì al telefono",
+  "alt": 0.8,
+  "neu": 1.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:174928",
+   "BLS:B821000",
+   "CIQ:7500",
+   "SR:168877",
+   "BLS:C352000",
+   "CIQ:9100",
+   "SR:170051",
+   "BLS:G568900",
+   "CIQ:20137",
+   "COFID:13-530"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 265 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Paniermehl 4.0→5.34 g/100 g; Reis (trocken) 1.3→1.53 g/100 g; Tomaten (Dose) 1.0→1.4 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.1
+   }
+  ]
+ },
+ {
+  "id": "vitello-tonnato",
+  "name_de": "Vitello tonnato",
+  "alt": 0.0,
+  "neu": 0.1,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:171009",
+   "BLS:Q991000",
+   "CIQ:11054",
+   "SR:167747",
+   "BLS:F601600",
+   "CIQ:2028",
+   "COFID:14-277"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 230 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Mayonnaise 0.0→0.26 g/100 g; Zitronensaft 0.3→0.21 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "kaszanka",
+  "name_de": "Kaszanka",
+  "alt": 2.5,
+  "neu": 1.8,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170284",
+   "BLS:C148000",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 215 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Graupen (Gerste) 15.0→10.1 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.8
+   }
+  ]
+ },
+ {
+  "id": "ryba-po-grecku",
+  "name_de": "Ryba po grecku",
+  "alt": 1.2,
+  "neu": 1.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170393",
+   "BLS:G620100",
+   "CIQ:20009",
+   "COFID:13-496",
+   "SR:170459",
+   "BLS:R160000",
+   "COFID:13-531",
+   "SR:170400",
+   "BLS:G660100",
+   "CIQ:20055",
+   "COFID:13-219"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 305 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Karotte 2.8→2.9 g/100 g; Tomatenmark 4.0→4.7 g/100 g; Knollensellerie 1.8→3.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.5
+   }
+  ]
+ },
+ {
+  "id": "kaszotto",
+  "name_de": "Kaszotto",
+  "alt": 2.7,
+  "neu": 1.9,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170284",
+   "BLS:C148000",
+   "SR:169251",
+   "BLS:K701100",
+   "CIQ:20056",
+   "COFID:13-505",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 450 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Graupen (Gerste) 15.0→10.1 g/100 g; Champignons 1.0→1.0 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.7
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.8
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.9
+   }
+  ]
+ },
+ {
+  "id": "broa-de-milho",
+  "name_de": "Broa de milho",
+  "alt": 3.0,
+  "neu": 2.2,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:168894",
+   "BLS:C214100",
+   "CIQ:9436",
+   "SR:175042",
+   "BLS:R459000"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 105 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Weizenmehl 3.0→3.2 g/100 g; Hefe 7.0→6.64 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 3.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 4.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.2
+   }
+  ]
+ },
+ {
+  "id": "coliva",
+  "name_de": "Colivă",
+  "alt": 4.9,
+  "neu": 3.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170284",
+   "BLS:C148000",
+   "SR:170187",
+   "BLS:H120100",
+   "CIQ:15005",
+   "COFID:14-879",
+   "SR:171320",
+   "COFID:13-874"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 230 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Graupen (Gerste) 15.0→10.1 g/100 g; Walnüsse 6.7→5.65 g/100 g; Zimt 53.0→53.1 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 4.9
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 5.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 3.5
+   }
+  ]
+ },
+ {
+  "id": "proja",
+  "name_de": "Proja",
+  "alt": 2.3,
+  "neu": 1.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:168894",
+   "BLS:C214100",
+   "CIQ:9436"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 205 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Weizenmehl 3.0→3.2 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.3
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 3.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.5
+   }
+  ]
+ },
+ {
+  "id": "isterband",
+  "name_de": "Isterband",
+  "alt": 3.0,
+  "neu": 2.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170284",
+   "BLS:C148000",
+   "SR:172231",
+   "SR:171326",
+   "SR:171321",
+   "SR:171320",
+   "SR:170923",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 175 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Graupen (Gerste) 15.0→10.1 g/100 g; Gewürzmischung (Sumak, Muskat, Kurkuma usw.) 25.0→22.7 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 3.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 3.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.1
+   }
+  ]
+ },
+ {
+  "id": "skagenrora",
+  "name_de": "Skagenröra",
+  "alt": 0.0,
+  "neu": 0.1,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:171009",
+   "BLS:Q991000",
+   "CIQ:11054",
+   "SR:172233",
+   "CIQ:11093",
+   "COFID:13-824",
+   "SR:167747",
+   "BLS:F601600",
+   "CIQ:2028",
+   "COFID:14-277"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 170 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Mayonnaise 0.0→0.26 g/100 g; Dill 2.1→2.5 g/100 g; Zitronensaft 0.3→0.21 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "ajdovi-zganci",
+  "name_de": "Ajdovi žganci",
+  "alt": 3.1,
+  "neu": 1.7,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170685",
+   "BLS:C322000",
+   "COFID:11-006"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 225 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Buchweizen (Graupen/Mehl) 10.0→5.53 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 3.1
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 3.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.7
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.7
+   }
+  ]
+ },
+ {
+  "id": "kasha-buckwheat",
+  "name_de": "Kasha buckwheat",
+  "alt": 3.4,
+  "neu": 1.9,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170685",
+   "BLS:C322000",
+   "COFID:11-006"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 205 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Buchweizen (Graupen/Mehl) 10.0→5.53 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 3.4
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 3.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.9
+   }
+  ]
+ },
+ {
+  "id": "ballokume",
+  "name_de": "Ballokume",
+  "alt": 3.0,
+  "neu": 1.7,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 70 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 3.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.7
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 4.0
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.7
+   }
+  ]
+ },
+ {
+  "id": "pershesh",
+  "name_de": "Përshesh",
+  "alt": 1.0,
+  "neu": 0.6,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 345 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.6
+   }
+  ]
+ },
+ {
+  "id": "pispili",
+  "name_de": "Pispili",
+  "alt": 2.9,
+  "neu": 2.0,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:168462",
+   "BLS:G211100",
+   "CIQ:20059",
+   "COFID:13-572",
+   "SR:169246",
+   "BLS:G470100",
+   "CIQ:20039",
+   "COFID:13-624"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 220 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Spinat 2.2→2.15 g/100 g; Lauch/Porree 2.6→2.0 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.9
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 3.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.0
+   }
+  ]
+ },
+ {
+  "id": "heidensterz",
+  "name_de": "Heidensterz",
+  "alt": 3.5,
+  "neu": 1.9,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170685",
+   "BLS:C322000",
+   "COFID:11-006"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 230 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Buchweizen (Graupen/Mehl) 10.0→5.53 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 3.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 3.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.9
+   }
+  ]
+ },
+ {
+  "id": "frigga",
+  "name_de": "Frigga",
+  "alt": 1.2,
+  "neu": 0.7,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 280 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.7
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.7
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.7
+   }
+  ]
+ },
+ {
+  "id": "brasato-ticinese-con-polenta",
+  "name_de": "Brasato ticinese con polenta",
+  "alt": 1.1,
+  "neu": 0.8,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:170393",
+   "BLS:G620100",
+   "CIQ:20009",
+   "COFID:13-496",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 490 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Karotte 2.8→2.9 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.8
+   }
+  ]
+ },
+ {
+  "id": "polenta-e-luganighe",
+  "name_de": "Polenta e luganighe",
+  "alt": 1.1,
+  "neu": 0.6,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 430 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.6
+   }
+  ]
+ },
+ {
+  "id": "glistrida-salata",
+  "name_de": "Glistrida salata",
+  "alt": 0.7,
+  "neu": 1.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "BLS:G460100",
+   "SR:170457",
+   "BLS:G561100",
+   "CIQ:20385",
+   "COFID:13-517",
+   "SR:168409",
+   "BLS:G520100",
+   "COFID:13-523"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 200 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Portulak 0.5→1.6 g/100 g; Tomate 1.2→1.11 g/100 g; Gurke 0.5→0.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.7
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.1
+   }
+  ]
+ },
+ {
+  "id": "kronfleisch",
+  "name_de": "Kronfleisch",
+  "alt": 0.8,
+  "neu": 1.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:175031",
+   "BLS:B511000",
+   "BLS:G630100",
+   "CIQ:11016",
+   "COFID:13-258"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 310 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Brötchen/Semmel 3.0→2.95 g/100 g; Meerrettich 3.0→6.2 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.1
+   }
+  ]
+ },
+ {
+  "id": "buchweizentorte",
+  "name_de": "Buchweizentorte",
+  "alt": 1.4,
+  "neu": 0.9,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170685",
+   "BLS:C322000",
+   "COFID:11-006",
+   "SR:173961",
+   "BLS:F4A1900"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 170 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Buchweizen (Graupen/Mehl) 10.0→5.53 g/100 g; Preiselbeerkompott 1.0→1.2 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.9
+   }
+  ]
+ },
+ {
+  "id": "erdbeermilch",
+  "name_de": "Erdbeermilch",
+  "alt": 0.6,
+  "neu": 0.9,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167762",
+   "BLS:F301100",
+   "CIQ:13014",
+   "COFID:14-324"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 330 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Erdbeere 2.0→2.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.9
+   }
+  ]
+ },
+ {
+  "id": "johannisbeerschorle",
+  "name_de": "Johannisbeerschorle",
+  "alt": 1.0,
+  "neu": 0.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "BLS:F323600",
+   "BLS:F321600"
+  ],
+  "method": "recipe",
+  "begruendung": "Saftgetränk: Das Rezept führt die ganze Frucht, getrunken wird aber Saft ohne Trester. Fruchtzutat(en) durch Saft-Quellwerte ersetzt: Johannisbeere (rot/schwarz) → Johannisbeersaft 0.4 g/100 g (Median BLS:F323600, BLS:F321600). Danach Rezeptberechnung (Summe Zutatenmenge × Ballaststoffe)/Portionsgewicht 415 g.",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.1
+   }
+  ]
+ },
+ {
+  "id": "gruetzwurst",
+  "name_de": "Grützwurst",
+  "alt": 1.6,
+  "neu": 1.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170284",
+   "BLS:C148000",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 215 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Graupen (Gerste) 15.0→10.1 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.1
+   }
+  ]
+ },
+ {
+  "id": "kohlrabigemuese-in-rahmsosse",
+  "name_de": "Kohlrabigemüse in Rahmsoße",
+  "alt": 1.1,
+  "neu": 2.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168424",
+   "BLS:G331100",
+   "CIQ:20065",
+   "COFID:13-261",
+   "SR:168894",
+   "BLS:C214100",
+   "CIQ:9436"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 355 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Kohlrabi 1.5→2.9 g/100 g; Weizenmehl 3.0→3.2 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.1
+   }
+  ]
+ },
+ {
+  "id": "kohlrabisuppe",
+  "name_de": "Kohlrabisuppe",
+  "alt": 0.8,
+  "neu": 1.4,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168424",
+   "BLS:G331100",
+   "CIQ:20065",
+   "COFID:13-261",
+   "SR:170026",
+   "BLS:K110100",
+   "CIQ:4008",
+   "COFID:13-489"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 520 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Kohlrabi 1.5→2.9 g/100 g; Kartoffel 2.2→2.05 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.7
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.4
+   }
+  ]
+ },
+ {
+  "id": "kohlrabisalat",
+  "name_de": "Kohlrabisalat",
+  "alt": 1.4,
+  "neu": 2.2,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168424",
+   "BLS:G331100",
+   "CIQ:20065",
+   "COFID:13-261",
+   "SR:171688",
+   "BLS:F110100"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 250 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Kohlrabi 1.5→2.9 g/100 g; Apfel 2.4→2.33 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.2
+   }
+  ]
+ },
+ {
+  "id": "carne-con-tomate",
+  "name_de": "Carne con tomate",
+  "alt": 0.7,
+  "neu": 1.0,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170051",
+   "BLS:G568900",
+   "CIQ:20137",
+   "COFID:13-530",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499",
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 365 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Tomaten (Dose) 1.0→1.4 g/100 g; Zwiebel 1.7→1.7 g/100 g; Knoblauch 2.1→4.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.7
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.0
+   }
+  ]
+ },
+ {
+  "id": "talo-con-chistorra",
+  "name_de": "Talo con chistorra",
+  "alt": 2.5,
+  "neu": 1.4,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 140 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 3.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.4
+   }
+  ]
+ },
+ {
+  "id": "endives-braisees",
+  "name_de": "Endives braisées",
+  "alt": 3.5,
+  "neu": 2.3,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170404",
+   "CIQ:20026",
+   "SR:167747",
+   "BLS:F601600",
+   "CIQ:2028",
+   "COFID:14-277"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 270 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Chicorée/Endivie 3.1→2.1 g/100 g; Zitronensaft 0.3→0.21 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 3.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 3.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.3
+   }
+  ]
+ },
+ {
+  "id": "knickerbocker-glory",
+  "name_de": "Knickerbocker glory",
+  "alt": 0.5,
+  "neu": 1.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167762",
+   "BLS:F301100",
+   "CIQ:13014",
+   "COFID:14-324",
+   "SR:167575",
+   "BLS:S243000",
+   "COFID:12-508",
+   "SR:169641",
+   "BLS:S132000"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 250 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Erdbeere 2.0→2.9 g/100 g; Speiseeis 0.0→0.7 g/100 g; Marmelade/Konfitüre 1.0→1.1 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.1
+   }
+  ]
+ },
+ {
+  "id": "elarji",
+  "name_de": "Elarji",
+  "alt": 1.7,
+  "neu": 0.9,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 250 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.7
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.9
+   }
+  ]
+ },
+ {
+  "id": "ghomi",
+  "name_de": "Ghomi",
+  "alt": 2.0,
+  "neu": 1.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 240 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.7
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.1
+   }
+  ]
+ },
+ {
+  "id": "mchadi",
+  "name_de": "Mchadi",
+  "alt": 4.9,
+  "neu": 2.7,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 100 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 4.9
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.7
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 6.6
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.7
+   }
+  ]
+ },
+ {
+  "id": "batzina",
+  "name_de": "Batzina",
+  "alt": 1.6,
+  "neu": 1.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:169291",
+   "BLS:G582100",
+   "COFID:13-627"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 190 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Zucchini 1.0→1.0 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.1
+   }
+  ]
+ },
+ {
+  "id": "hirino-me-selino",
+  "name_de": "Hirino me selino",
+  "alt": 0.7,
+  "neu": 1.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170400",
+   "BLS:G660100",
+   "CIQ:20055",
+   "COFID:13-219",
+   "SR:167747",
+   "BLS:F601600",
+   "CIQ:2028",
+   "COFID:14-277"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 395 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knollensellerie 1.8→3.95 g/100 g; Zitronensaft 0.3→0.21 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.7
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.7
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.5
+   }
+  ]
+ },
+ {
+  "id": "astakomakaronada",
+  "name_de": "Astakomakaronada",
+  "alt": 1.0,
+  "neu": 1.3,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169736",
+   "BLS:E401000",
+   "COFID:11-716",
+   "SR:170051",
+   "BLS:G568900",
+   "CIQ:20137",
+   "COFID:13-530",
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 425 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Nudeln/Şehriye (trocken) 3.0→3.41 g/100 g; Tomaten (Dose) 1.0→1.4 g/100 g; Knoblauch 2.1→4.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.3
+   }
+  ]
+ },
+ {
+  "id": "zlevanka",
+  "name_de": "Zlevanka",
+  "alt": 1.9,
+  "neu": 1.0,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 150 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.5
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.0
+   }
+  ]
+ },
+ {
+  "id": "polenta-taragna",
+  "name_de": "Polenta taragna",
+  "alt": 1.4,
+  "neu": 0.8,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:170685",
+   "BLS:C322000",
+   "COFID:11-006"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 460 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Buchweizen (Graupen/Mehl) 10.0→5.53 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.8
+   }
+  ]
+ },
+ {
+  "id": "carne-alla-pizzaiola",
+  "name_de": "Carne alla pizzaiola",
+  "alt": 0.7,
+  "neu": 1.0,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170051",
+   "BLS:G568900",
+   "CIQ:20137",
+   "COFID:13-530",
+   "SR:171328",
+   "SR:170938",
+   "CIQ:11035",
+   "CIQ:11038",
+   "COFID:13-878",
+   "COFID:13-883",
+   "SR:169096",
+   "BLS:H510802",
+   "SR:169094"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 305 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Tomaten (Dose) 1.0→1.4 g/100 g; Oregano/Thymian/Majoran (trocken) 40.0→39.75 g/100 g; Oliven 3.0→2.36 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.7
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.0
+   }
+  ]
+ },
+ {
+  "id": "braciole-napoletane",
+  "name_de": "Braciole napoletane",
+  "alt": 0.7,
+  "neu": 1.0,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170051",
+   "BLS:G568900",
+   "CIQ:20137",
+   "COFID:13-530",
+   "SR:170591",
+   "BLS:H320100",
+   "CIQ:15025",
+   "COFID:14-839",
+   "SR:168165",
+   "BLS:F840100",
+   "CIQ:13046",
+   "COFID:14-393"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 360 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Tomaten (Dose) 1.0→1.4 g/100 g; Pinienkerne 3.7→5.05 g/100 g; Rosinen/Sultaninen 3.7→4.35 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.7
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.0
+   }
+  ]
+ },
+ {
+  "id": "calamari-ripieni",
+  "name_de": "Calamari ripieni",
+  "alt": 0.7,
+  "neu": 1.0,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170051",
+   "BLS:G568900",
+   "CIQ:20137",
+   "COFID:13-530",
+   "SR:174928",
+   "BLS:B821000",
+   "CIQ:7500",
+   "SR:170416",
+   "BLS:G250100",
+   "CIQ:11014",
+   "COFID:13-844"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 355 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Tomaten (Dose) 1.0→1.4 g/100 g; Paniermehl 4.0→5.34 g/100 g; Petersilie 3.3→4.28 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.7
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.0
+   }
+  ]
+ },
+ {
+  "id": "puntarelle-alla-romana",
+  "name_de": "Puntarelle alla romana",
+  "alt": 2.5,
+  "neu": 1.8,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170404",
+   "CIQ:20026",
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 185 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Chicorée/Endivie 3.1→2.1 g/100 g; Knoblauch 2.1→4.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.8
+   }
+  ]
+ },
+ {
+  "id": "gelato-al-pistacchio",
+  "name_de": "Gelato al pistacchio",
+  "alt": 1.3,
+  "neu": 2.0,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170184",
+   "BLS:H250100",
+   "CIQ:15044",
+   "SR:167575",
+   "BLS:S243000",
+   "COFID:12-508"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 115 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Pistazien 10.0→10.6 g/100 g; Speiseeis 0.0→0.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.6
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.0
+   }
+  ]
+ },
+ {
+  "id": "staerzelen",
+  "name_de": "Stäerzelen",
+  "alt": 3.3,
+  "neu": 1.8,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170685",
+   "BLS:C322000",
+   "COFID:11-006"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 245 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Buchweizen (Graupen/Mehl) 10.0→5.53 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 3.3
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 3.4
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.8
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.8
+   }
+  ]
+ },
+ {
+  "id": "sarmale-in-foi-de-vita",
+  "name_de": "Sarmale în foi de viță",
+  "alt": 1.1,
+  "neu": 1.9,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169393",
+   "SR:170051",
+   "BLS:G568900",
+   "CIQ:20137",
+   "COFID:13-530",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 305 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Weinblätter (eingelegt) 5.0→9.9 g/100 g; Tomaten (Dose) 1.0→1.4 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.9
+   }
+  ]
+ },
+ {
+  "id": "cicvara",
+  "name_de": "Cicvara",
+  "alt": 1.5,
+  "neu": 0.8,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 240 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.8
+   }
+  ]
+ },
+ {
+  "id": "makalo",
+  "name_de": "Makalo",
+  "alt": 1.2,
+  "neu": 2.0,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244",
+   "SR:174924",
+   "BLS:B311000",
+   "COFID:11-980"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 75 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knoblauch 2.1→4.95 g/100 g; Weißbrot/Toast 2.5→2.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 8.6
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.0
+   }
+  ]
+ },
+ {
+  "id": "pastrama-de-oaie",
+  "name_de": "Pastramă de oaie",
+  "alt": 1.3,
+  "neu": 0.9,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:171329",
+   "CIQ:11049",
+   "COFID:13-879",
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 310 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Paprikapulver 35.0→34.9 g/100 g; Knoblauch 2.1→4.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.9
+   }
+  ]
+ },
+ {
+  "id": "bulz",
+  "name_de": "Bulz",
+  "alt": 1.2,
+  "neu": 0.7,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 410 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.7
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.7
+   }
+  ]
+ },
+ {
+  "id": "balmos",
+  "name_de": "Balmoș",
+  "alt": 1.4,
+  "neu": 0.8,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 300 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.8
+   }
+  ]
+ },
+ {
+  "id": "alivenci",
+  "name_de": "Alivenci",
+  "alt": 1.5,
+  "neu": 0.8,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 185 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.8
+   }
+  ]
+ },
+ {
+  "id": "kasha-s-gribami",
+  "name_de": "Kasha s gribami",
+  "alt": 2.4,
+  "neu": 1.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170685",
+   "BLS:C322000",
+   "COFID:11-006",
+   "SR:169251",
+   "BLS:K701100",
+   "CIQ:20056",
+   "COFID:13-505",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 365 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Buchweizen (Graupen/Mehl) 10.0→5.53 g/100 g; Champignons 1.0→1.0 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.4
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.4
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.8
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.5
+   }
+  ]
+ },
+ {
+  "id": "ajdovi-krapi",
+  "name_de": "Ajdovi krapi",
+  "alt": 3.1,
+  "neu": 2.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170685",
+   "BLS:C322000",
+   "COFID:11-006",
+   "SR:168894",
+   "BLS:C214100",
+   "CIQ:9436",
+   "SR:170026",
+   "BLS:K110100",
+   "CIQ:4008",
+   "COFID:13-489"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 220 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Buchweizen (Graupen/Mehl) 10.0→5.53 g/100 g; Weizenmehl 3.0→3.2 g/100 g; Kartoffel 2.2→2.05 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 3.1
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 3.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.1
+   }
+  ]
+ },
+ {
+  "id": "ajdova-kasa-z-jurcki",
+  "name_de": "Ajdova kaša z jurčki",
+  "alt": 2.6,
+  "neu": 1.6,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170685",
+   "BLS:C322000",
+   "COFID:11-006",
+   "SR:169251",
+   "BLS:K701100",
+   "CIQ:20056",
+   "COFID:13-505",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 315 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Buchweizen (Graupen/Mehl) 10.0→5.53 g/100 g; Champignons 1.0→1.0 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.6
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.7
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.8
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.6
+   }
+  ]
+ },
+ {
+  "id": "hamsikoli",
+  "name_de": "Hamsikoli",
+  "alt": 3.1,
+  "neu": 2.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:170406",
+   "BLS:G322100",
+   "CIQ:20346",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 205 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Schwarzkohl 3.6→4.1 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 3.1
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 4.6
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.1
+   }
+  ]
+ },
+ {
+  "id": "hamsi-koftesi",
+  "name_de": "Hamsi Köftesi",
+  "alt": 1.4,
+  "neu": 1.0,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:170416",
+   "BLS:G250100",
+   "CIQ:11014",
+   "COFID:13-844",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 175 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Petersilie 3.3→4.28 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.7
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.0
+   }
+  ]
+ },
+ {
+  "id": "misir-unlu-hamsi-tava",
+  "name_de": "Mısır Unlu Hamsi Tava",
+  "alt": 0.8,
+  "neu": 0.4,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 225 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.4
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.4
+   }
+  ]
+ },
+ {
+  "id": "misir-ekmegi-tirit",
+  "name_de": "Mısır Ekmeği Tirit",
+  "alt": 1.5,
+  "neu": 0.8,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 235 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.8
+   }
+  ]
+ },
+ {
+  "id": "ayvalik-sardalya-sarma",
+  "name_de": "Ayvalık Sardalya Sarma",
+  "alt": 0.5,
+  "neu": 1.1,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:169393",
+   "SR:167747",
+   "BLS:F601600",
+   "CIQ:2028",
+   "COFID:14-277"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 190 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Weinblätter (eingelegt) 5.0→9.9 g/100 g; Zitronensaft 0.3→0.21 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.5
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.0
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.1
+   }
+  ]
+ },
+ {
+  "id": "firin-helva",
+  "name_de": "Fırın Helva",
+  "alt": 2.7,
+  "neu": 3.6,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167996",
+   "SR:170187",
+   "BLS:H120100",
+   "CIQ:15005",
+   "COFID:14-879"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 115 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Tahin-Halva 3.0→4.5 g/100 g; Walnüsse 6.7→5.65 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 2.7
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 3.7
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 3.5
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 3.6
+   }
+  ]
+ },
+ {
+  "id": "kaymakli-dondurma",
+  "name_de": "Kaymaklı Dondurma",
+  "alt": 0.0,
+  "neu": 0.7,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167575",
+   "BLS:S243000",
+   "COFID:12-508"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 100 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Speiseeis 0.0→0.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.0
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.7
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.7
+   }
+  ]
+ },
+ {
+  "id": "tavuk-durum",
+  "name_de": "Tavuk Dürüm",
+  "alt": 1.2,
+  "neu": 1.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:175037",
+   "BLS:B783012",
+   "COFID:11-925",
+   "SR:170457",
+   "BLS:G561100",
+   "CIQ:20385",
+   "COFID:13-517",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 280 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Lavaş/Wrap-Fladen 2.5→3.5 g/100 g; Tomate 1.2→1.11 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.5
+   }
+  ]
+ },
+ {
+  "id": "kofte-durum",
+  "name_de": "Köfte Dürüm",
+  "alt": 1.2,
+  "neu": 1.5,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:175037",
+   "BLS:B783012",
+   "COFID:11-925",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499",
+   "SR:170457",
+   "BLS:G561100",
+   "CIQ:20385",
+   "COFID:13-517"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 275 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Lavaş/Wrap-Fladen 2.5→3.5 g/100 g; Zwiebel 1.7→1.7 g/100 g; Tomate 1.2→1.11 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.8
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.5
+   }
+  ]
+ },
+ {
+  "id": "kelle-paca-sogus-durum",
+  "name_de": "Kelle Paça Söğüş Dürüm",
+  "alt": 1.2,
+  "neu": 1.6,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:175037",
+   "BLS:B783012",
+   "COFID:11-925",
+   "SR:170457",
+   "BLS:G561100",
+   "CIQ:20385",
+   "COFID:13-517",
+   "SR:170416",
+   "BLS:G250100",
+   "CIQ:11014",
+   "COFID:13-844"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 255 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Lavaş/Wrap-Fladen 2.5→3.5 g/100 g; Tomate 1.2→1.11 g/100 g; Petersilie 3.3→4.28 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.6
+   }
+  ]
+ },
+ {
+  "id": "islak-durum",
+  "name_de": "Islak Dürüm",
+  "alt": 1.3,
+  "neu": 1.8,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:175037",
+   "BLS:B783012",
+   "COFID:11-925",
+   "SR:170459",
+   "BLS:R160000",
+   "COFID:13-531",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 205 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Lavaş/Wrap-Fladen 2.5→3.5 g/100 g; Tomatenmark 4.0→4.7 g/100 g; Zwiebel 1.7→1.7 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.7
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.8
+   }
+  ]
+ },
+ {
+  "id": "cevizli-kereviz-salatasi",
+  "name_de": "Cevizli Kereviz Salatası",
+  "alt": 1.6,
+  "neu": 2.6,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170400",
+   "BLS:G660100",
+   "CIQ:20055",
+   "COFID:13-219",
+   "SR:170187",
+   "BLS:H120100",
+   "CIQ:15005",
+   "COFID:14-879",
+   "SR:171009",
+   "BLS:Q991000",
+   "CIQ:11054"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 140 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Knollensellerie 1.8→3.95 g/100 g; Walnüsse 6.7→5.65 g/100 g; Mayonnaise 0.0→0.26 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.7
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 2.6
+   }
+  ]
+ },
+ {
+  "id": "yogurtlu-semizotu",
+  "name_de": "Yoğurtlu Semizotu",
+  "alt": 0.2,
+  "neu": 0.7,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "BLS:G460100",
+   "SR:169230",
+   "BLS:G490100",
+   "CIQ:11000",
+   "COFID:13-244"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 160 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Portulak 0.5→1.6 g/100 g; Knoblauch 2.1→4.95 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.2
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.7
+   }
+  ]
+ },
+ {
+  "id": "cilek-kompostosu",
+  "name_de": "Çilek Kompostosu",
+  "alt": 0.6,
+  "neu": 0.9,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:167762",
+   "BLS:F301100",
+   "CIQ:13014",
+   "COFID:14-324"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 250 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Erdbeere 2.0→2.9 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 0.6
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 0.9
+   }
+  ]
+ },
+ {
+  "id": "hrechanyky",
+  "name_de": "Hrechanyky",
+  "alt": 1.9,
+  "neu": 1.2,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:170685",
+   "BLS:C322000",
+   "COFID:11-006",
+   "SR:170000",
+   "BLS:G480100",
+   "CIQ:20034",
+   "COFID:13-499",
+   "SR:168894",
+   "BLS:C214100",
+   "CIQ:9436"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 250 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Buchweizen (Graupen/Mehl) 10.0→5.53 g/100 g; Zwiebel 1.7→1.7 g/100 g; Weizenmehl 3.0→3.2 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.2
+   }
+  ]
+ },
+ {
+  "id": "kacamak-me-kos",
+  "name_de": "Kaçamak me kos",
+  "alt": 1.8,
+  "neu": 1.2,
+  "art": "korrigiert",
+  "quality": "estimate",
+  "source": "Rezeptberechnung (Rezept und Portionsgewicht aus der Datenbank) mit Zutatenwerten aus USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021 (Median)",
+  "source_id": [
+   "SR:168867",
+   "BLS:C346000",
+   "COFID:11-011",
+   "SR:170026",
+   "BLS:K110100",
+   "CIQ:4008",
+   "COFID:13-489"
+  ],
+  "method": "recipe",
+  "begruendung": "Rezeptgericht neu berechnet: Summe(Zutatenmenge × Ballaststoffe je Zutat)/Portionsgewicht 300 g. Zutatenwerte = Median freier Quellen statt der bisherigen ungeprüften Näherungswerte. Hauptbeiträge: Maismehl/Polenta 7.0→3.9 g/100 g; Kartoffel 2.2→2.05 g/100 g",
+  "vergleichswerte": [
+   {
+    "quelle": "bisheriger Wert (Rezept mit alten Näherungswerten)",
+    "wert": 1.8
+   },
+   {
+    "quelle": "Rezept nur mit USDA-SR-Zutatenwerten",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Rezept nur mit BLS-4.0-Zutatenwerten",
+    "wert": 2.2
+   },
+   {
+    "quelle": "Rezept mit Median aller freien Quellen (übernommen)",
+    "wert": 1.2
+   }
+  ]
+ },
+ {
+  "id": "jasminreis-gekocht",
+  "name_de": "Jasminreis, gekocht",
+  "alt": 0.0,
+  "neu": 0.6,
+  "art": "ergänzt",
+  "quality": "estimate",
+  "source": "Ähnliches Lebensmittel in freien Quellen (Median)",
+  "source_id": [
+   "SR:168878",
+   "BLS:C352032",
+   "CIQ:9104"
+  ],
+  "method": "similar_food",
+  "begruendung": "CoFID 11-875 führt für gekochten Jasminreis 0 g Ballaststoffe (NSP-Methode, Spuren als 0). Gekochter weißer Reis enthält nach AOAC-Methode messbar Ballaststoffe; Median dreier freier Quellen für gekochten weißen Reis = 0,61 → 0,6 g. Kohlenhydrate 32,1 g, also plausibel.",
+  "vergleichswerte": [
+   {
+    "quelle": "bisherige Quelle COFID:11-875",
+    "wert": 0.0
+   },
+   {
+    "quelle": "USDA SR 168878 Reis weiß Langkorn gekocht",
+    "wert": 0.4
+   },
+   {
+    "quelle": "BLS C352032 Reis poliert gekocht",
+    "wert": 0.61
+   },
+   {
+    "quelle": "Ciqual 9104 Reis weiß gekocht",
+    "wert": 1.4
+   }
+  ]
+ }
+]

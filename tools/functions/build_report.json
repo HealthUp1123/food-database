@@ -1,0 +1,214 @@
+{
+ "coverage": {
+  "cooked_id:item": 36,
+  "raw_id:item": 36,
+  "salt:dish:recipe_estimate": 571,
+  "salt:dish:source": 99,
+  "salt:item:source": 884,
+  "sat_fat:dish:recipe_estimate": 4234,
+  "sat_fat:dish:source": 100,
+  "sat_fat:item:source": 874,
+  "sugar:dish": 100,
+  "sugar:item": 838,
+  "yield:item": 36
+ },
+ "report": {
+  "class_veg_n": 90,
+  "class_fruit_n": 83,
+  "yield": 36
+ },
+ "class": {
+  "VEG": [
+   1.0,
+   0.16170212765957448,
+   0.03
+  ],
+  "FRUIT": [
+   1.0,
+   0.12941176470588234,
+   0.005
+  ]
+ },
+ "yield": [
+  [
+   "amaranth-roh",
+   "amaranth-gekocht",
+   3.57
+  ],
+  [
+   "augenbohnen-roh",
+   "augenbohnen-gekocht",
+   2.94
+  ],
+  [
+   "basmatireis-roh",
+   "basmatireis-gekocht",
+   2.38
+  ],
+  [
+   "buchweizen-geroestet-roh",
+   "buchweizen-geroestet-gekocht",
+   3.76
+  ],
+  [
+   "bulgur-roh",
+   "bulgur-gekocht",
+   4.09
+  ],
+  [
+   "couscous-roh",
+   "couscous-gekocht",
+   3.33
+  ],
+  [
+   "dicke-bohnen-roh-getrocknet",
+   "dicke-bohnen-gekocht",
+   3.13
+  ],
+  [
+   "dinkel-korn",
+   "dinkel-gekocht",
+   2.66
+  ],
+  [
+   "eiernudeln-roh",
+   "eiernudeln-gekocht",
+   2.82
+  ],
+  [
+   "gruenkern-roh",
+   "gruenkern-gekocht",
+   1.86
+  ],
+  [
+   "haferflocken",
+   "haferflocken-mit-wasser-gekocht",
+   5.44
+  ],
+  [
+   "haferkleie-roh",
+   "haferkleie-gekocht",
+   5.84
+  ],
+  [
+   "hirse-roh",
+   "hirse-gekocht",
+   3.19
+  ],
+  [
+   "jasminreis-roh",
+   "jasminreis-gekocht",
+   2.73
+  ],
+  [
+   "kichererbsen-roh",
+   "kichererbsen-gekocht",
+   2.32
+  ],
+  [
+   "kidneybohnen-roh",
+   "kidneybohnen-gekocht",
+   2.67
+  ],
+  [
+   "klebreis-roh",
+   "klebreis-gekocht",
+   3.83
+  ],
+  [
+   "linsen-roh",
+   "linsen-gekocht",
+   3.02
+  ],
+  [
+   "maisgriess",
+   "maisgriess-mit-wasser-gekocht",
+   5.68
+  ],
+  [
+   "mungbohnen-roh",
+   "mungbohnen-gekocht",
+   3.33
+  ],
+  [
+   "naturreis-roh",
+   "naturreis-gekocht",
+   2.97
+  ],
+  [
+   "nudeln-roh",
+   "nudeln-gekocht",
+   2.38
+  ],
+  [
+   "perlgraupen-roh",
+   "perlgraupen-gekocht",
+   2.88
+  ],
+  [
+   "pintobohnen-roh",
+   "pintobohnen-gekocht",
+   2.39
+  ],
+  [
+   "quinoa-roh",
+   "quinoa-gekocht",
+   3.05
+  ],
+  [
+   "reis-parboiled-roh",
+   "reis-parboiled-gekocht",
+   3.04
+  ],
+  [
+   "reis-weiss-roh",
+   "reis-weiss-gekocht",
+   2.8
+  ],
+  [
+   "reisnudeln-roh",
+   "reisnudeln-gekocht",
+   3.36
+  ],
+  [
+   "rote-linsen-roh",
+   "rote-linsen-gekocht",
+   2.76
+  ],
+  [
+   "schaelerbsen-roh",
+   "schaelerbsen-gekocht",
+   2.99
+  ],
+  [
+   "schwarze-bohnen-roh",
+   "schwarze-bohnen-gekocht",
+   2.6
+  ],
+  [
+   "sojabohnen-roh",
+   "sojabohnen-gekocht",
+   2.44
+  ],
+  [
+   "teff-roh",
+   "teff-gekocht",
+   3.64
+  ],
+  [
+   "vollkornnudeln-roh",
+   "vollkornnudeln-gekocht",
+   2.4
+  ],
+  [
+   "weisse-bohnen-roh",
+   "weisse-bohnen-gekocht",
+   2.4
+  ],
+  [
+   "wildreis-roh",
+   "wildreis-gekocht",
+   3.54
+  ]
+ ]
+}

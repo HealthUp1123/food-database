@@ -7,7 +7,7 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { buildIndex, search, findByBarcode, isValidEan, displayName, LANGS } from '../src/search.mjs';
+import { buildIndex, search, findByBarcode, isValidEan, displayName, resolveLang } from '../src/search.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const foods = JSON.parse(readFileSync(join(root, 'data', 'foods.json'), 'utf8'));
@@ -19,11 +19,10 @@ for (let i = 0; i < args.length; i++) {
   if (args[i] === '--limit') limit = Number(args[++i]) || 10;
   else if (args[i] === '--json') json = true;
   else if (args[i] === '--barcode') barcode = args[++i];
-  else if (args[i] === '--lang') lang = String(args[++i] || '').toLowerCase().split(/[-_]/)[0];
+  else if (args[i] === '--lang') lang = resolveLang(args[++i]); // nur de/en/tr, sonst Englisch
   else words.push(args[i]);
 }
 
-if (lang && !LANGS.includes(lang)) { console.error(`Unbekannte Sprache (erlaubt: ${LANGS.join(', ')})`); process.exit(2); }
 
 const fmt = (f) => `${displayName(f, lang)}${lang && displayName(f, lang) !== f.name ? ' (' + f.name + ')' : ''} [${f.cuisine || '?'} · ${f.category || f.type}${f.prepared ? ' · ' + f.prepared : ''}]${f.barcode ? ' ' + f.barcode : ''} – ${f.per100g.kcal} kcal | P ${f.per100g.protein} | KH ${f.per100g.carbs} | F ${f.per100g.fat} | BS ${f.per100g.fiber} (pro 100 g)${f.quality ? ' · ' + f.quality : ''}`;
 
@@ -33,7 +32,7 @@ if (barcode) {
   const hit = findByBarcode(foods, barcode);
   results = hit ? [hit] : [];
 } else {
-  if (!words.length) { console.error('Nutzung: node scripts/search-local.mjs <suchbegriff> [--limit N] [--lang de|en|tr|fr|es|pt|it|zh] [--json] | --barcode <EAN>'); process.exit(2); }
+  if (!words.length) { console.error('Nutzung: node scripts/search-local.mjs <suchbegriff> [--limit N] [--lang de|en|tr] [--json] | --barcode <EAN>'); process.exit(2); }
   results = search(buildIndex(foods), words.join(' '), limit, lang);
 }
 

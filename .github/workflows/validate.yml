@@ -16,3 +16,7 @@ jobs:
         run: node scripts/validate.mjs
       - name: Worker-Handler testen
         run: node scripts/test-worker.mjs
+      - name: App-Datei prüfen (data/foods.app.json muss dem Build entsprechen, kein Auto-Commit)
+        run: node scripts/build-app.mjs --check
+      - name: App-Datei testen (Dekodierung und Suche Top 10 identisch)
+        run: node scripts/test-app.mjs

@@ -1,7 +1,7 @@
 // Cloudflare Worker: JSON-Such-API für die Lebensmittel-Datenbank.
 // Endpunkte: GET /search?q=&limit=&lang=  |  GET /item/{id}?lang=  |  GET /item/{id}  |  GET /barcode/{ean}  |  GET /health
 import foods from '../data/foods.json' with { type: 'json' };
-import { buildIndex, search, findByBarcode, isValidEan, displayName, LANGS } from '../src/search.mjs';
+import { buildIndex, search, findByBarcode, isValidEan, displayName, LANGS, resolveLang } from '../src/search.mjs';
 
 const CORS = {
   'Access-Control-Allow-Origin': '*',
@@ -44,8 +44,9 @@ export function createHandler(data) {
     if (path === '/health') return json({ status: 'ok', count: data.length, languages: LANGS });
 
     const langParam = (url.searchParams.get('lang') || '').trim().toLowerCase();
-    const lang = langParam ? langParam.split(/[-_]/)[0] : null; // "pt-BR" → "pt"
-    if (lang && !LANGS.includes(lang)) return json({ error: `Unbekannte Sprache "${langParam}" (erlaubt: ${LANGS.join(', ')})` }, 400);
+    // Nur de/en/tr; jede andere Sprache (z. B. zh, es, it, "pt-BR") fällt auf Englisch zurück, kein Fehler.
+    const lang = resolveLang(langParam);
+    const langInfo = lang ? { lang, ...(langParam.split(/[-_]/)[0] !== lang ? { lang_requested: langParam } : {}) } : {};
 
     if (path === '/search') {
       const q = (url.searchParams.get('q') || '').trim();
@@ -53,7 +54,7 @@ export function createHandler(data) {
       if (q.length > 100) return json({ error: 'q ist zu lang (max. 100 Zeichen)' }, 400);
       const limit = Math.max(1, Math.min(parseInt(url.searchParams.get('limit') || '10', 10) || 10, 50));
       const results = search(index, q, limit, lang).map((f) => withLang(toListItem(f), lang));
-      return json({ query: q, ...(lang ? { lang } : {}), count: results.length, results }, 200, cache);
+      return json({ query: q, ...langInfo, count: results.length, results }, 200, cache);
     }
 
     const item = path.match(/^\/item\/([a-z0-9]+(?:-[a-z0-9]+)*)$/);

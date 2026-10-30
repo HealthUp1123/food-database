@@ -32,6 +32,7 @@ const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
 const ids = new Map();
 const barcodes = new Map();
 const MACROS = ['protein', 'carbs', 'fat', 'fiber'];
+const allIds = new Set(data.map((e) => e && e.id));
 data.forEach((e, i) => {
   const ctx = `Eintrag #${i} (${e && e.id ? e.id : '?'})`;
   if (!e || typeof e !== 'object' || Array.isArray(e)) return err(ctx, 'ist kein Objekt');
@@ -41,7 +42,7 @@ data.forEach((e, i) => {
   else ids.set(e.id, i);
 
   if (typeof e.name !== 'string' || !e.name.trim()) err(ctx, 'name fehlt');
-  // Mehrsprachige Namen: de/en/tr/fr/es/pt Pflicht, it/zh optional. Etablierte Gerichtsnamen dürfen in allen Sprachen gleich sein.
+  // Mehrsprachige Namen: nur de/en/tr, alle drei Pflicht (andere Sprachen sind nicht erlaubt). Etablierte Gerichtsnamen dürfen in allen Sprachen gleich sein.
   if (!e.names || typeof e.names !== 'object' || Array.isArray(e.names)) err(ctx, `names fehlt (Objekt mit ${REQUIRED_LANGS.join('/')})`);
   else {
     for (const l of REQUIRED_LANGS) if (typeof e.names[l] !== 'string' || !e.names[l].trim()) err(ctx, `names.${l} fehlt oder ist leer`);
@@ -86,9 +87,11 @@ data.forEach((e, i) => {
   const p = e.per100g;
   if (!p || typeof p !== 'object') err(ctx, 'per100g fehlt');
   else {
-    if (!isNum(p.kcal) || p.kcal < 0 || p.kcal > 950) err(ctx, `kcal ${p.kcal} ungültig (0–950)`);
+    // Pflicht: kcal, protein, carbs, fat, fiber sind in JEDEM Eintrag vorhanden und Zahlen (null/fehlend = Fehler).
+    for (const k of ['kcal', ...MACROS]) if (!(k in p) || !isNum(p[k])) err(ctx, `per100g.${k} fehlt oder ist keine Zahl (Pflichtfeld)`);
+    if (isNum(p.kcal) && (p.kcal < 0 || p.kcal > 950)) err(ctx, `kcal ${p.kcal} ungültig (0–950)`);
     for (const m of MACROS) {
-      if (!isNum(p[m]) || p[m] < 0 || p[m] > 100) err(ctx, `${m} ${p[m]} ungültig (0–100 pro 100 g)`);
+      if (isNum(p[m]) && (p[m] < 0 || p[m] > 100)) err(ctx, `${m} ${p[m]} ungültig (0–100 pro 100 g)`);
     }
     if ('sugar' in p) {
       // Optional. Bei USDA-Daten kann Zucker (gemessen) leicht über Kohlenhydraten (Differenzrechnung) liegen, z. B. Milch.
@@ -142,6 +145,35 @@ data.forEach((e, i) => {
   if ('off_similar' in e) {
     if (!Array.isArray(e.off_similar) || e.off_similar.length > 3 || e.off_similar.some((c) => typeof c !== 'string' || !/^\d{6,14}$/.test(c))) err(ctx, 'off_similar muss ein Array von höchstens 3 Barcode-Strings (nur Ziffern) sein');
   }
+
+  // ---- Welle 5: Ausbeute roh→gekocht, Salz/ges. Fettsäuren (alle optional) ----
+  if ('portions' in e) err(ctx, 'portions wird nicht mehr verwendet (entfernt); typische Portion steht in portion');
+  if ('yield' in e) {
+    const y = e.yield;
+    if (!y || !isNum(y.factor) || y.factor <= 0 || y.factor > 15 || y.from !== 'raw' || y.to !== 'cooked' || typeof y.source !== 'string' || !y.source.trim()) err(ctx, 'yield braucht {factor: Zahl > 0, from: "raw", to: "cooked", source}');
+    if (!('cooked_id' in e)) err(ctx, 'yield braucht cooked_id');
+  }
+  for (const k of ['raw_id', 'cooked_id']) {
+    if (k in e && (typeof e[k] !== 'string' || !allIds.has(e[k]) || e[k] === e.id)) err(ctx, `${k} "${e[k]}" verweist auf keine andere vorhandene id`);
+  }
+  if (p && typeof p === 'object') {
+    if ('salt' in p && (!isNum(p.salt) || p.salt < 0 || p.salt > 100)) err(ctx, `salt ${p.salt} ungültig (0–100 g pro 100 g)`);
+    if ('sat_fat' in p && (!isNum(p.sat_fat) || p.sat_fat < 0 || p.sat_fat > p.fat + 0.05)) err(ctx, `sat_fat ${p.sat_fat} ungültig (0 bis fat)`);
+  }
+  if ('nutrient_basis' in e) {
+    const nb = e.nutrient_basis;
+    if (!nb || typeof nb !== 'object' || Array.isArray(nb) || !Object.keys(nb).length) err(ctx, 'nutrient_basis muss ein nicht-leeres Objekt sein');
+    else for (const [k, v] of Object.entries(nb)) {
+      if (!['salt', 'sat_fat', 'sugar'].includes(k)) err(ctx, `nutrient_basis.${k}: unbekanntes Feld`);
+      else if (!['source', 'recipe_estimate'].includes(v)) err(ctx, `nutrient_basis.${k} muss "source" oder "recipe_estimate" sein`);
+      else if (!(p && k in p)) err(ctx, `nutrient_basis.${k} ohne Wert in per100g`);
+    }
+  }
+  for (const k of ['salt', 'sat_fat']) if (p && k in p && !(e.nutrient_basis && e.nutrient_basis[k])) err(ctx, `per100g.${k} braucht nutrient_basis.${k}`);
+  // Seit der schlanken Welle 5 entfernt: Allergene und redaktionelle Beliebtheit.
+  for (const k of ['allergens', 'allergens_basis', 'popularity']) if (k in e) err(ctx, `${k} wird nicht mehr verwendet (entfernt)`);
+  // Fehlt protein/fat/fiber in der Quelle, steht 0 in per100g (nur bei Getränken bzw. ballaststofffreien Tierprodukten).
+  if (p && Array.isArray(e.source_missing)) for (const k of ['protein', 'fat', 'fiber']) if (e.source_missing.includes(k) && p[k] !== 0) err(ctx, `source_missing enthält ${k}, dann muss per100g.${k} 0 sein`);
 
   if ('portion' in e && e.portion !== undefined) {
     const po = e.portion;

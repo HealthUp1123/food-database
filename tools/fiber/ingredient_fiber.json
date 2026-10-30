@@ -1,0 +1,6923 @@
+{
+ "Rinderhackfleisch": {
+  "key": "hack",
+  "name": "Rinderhackfleisch",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Lammhackfleisch": {
+  "key": "lamm_hack",
+  "name": "Lammhackfleisch",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Rindfleisch (Schmor/Gulasch)": {
+  "key": "rind",
+  "name": "Rindfleisch (Schmor/Gulasch)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Rindfleisch (Steak/Filet/Lende)": {
+  "key": "rind_steak",
+  "name": "Rindfleisch (Steak/Filet/Lende)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Rindfleisch fett (Brust/Querrippe)": {
+  "key": "rind_fett",
+  "name": "Rindfleisch fett (Brust/Querrippe)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Lammfleisch": {
+  "key": "lamm",
+  "name": "Lammfleisch",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Lammkotelett": {
+  "key": "lamm_kotelett",
+  "name": "Lammkotelett",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Leber (Rind/Lamm)": {
+  "key": "leber",
+  "name": "Leber (Rind/Lamm)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Innereien (Lamm, gemischt)": {
+  "key": "innereien",
+  "name": "Innereien (Lamm, gemischt)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Rinderzunge": {
+  "key": "zunge",
+  "name": "Rinderzunge",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Lammschwanzfett": {
+  "key": "schwanzfett",
+  "name": "Lammschwanzfett",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Sucuk (Knoblauchwurst)": {
+  "key": "sucuk",
+  "name": "Sucuk (Knoblauchwurst)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Pastırma": {
+  "key": "pastirma",
+  "name": "Pastırma",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Hähnchenbrust": {
+  "key": "hahn_brust",
+  "name": "Hähnchenbrust",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Hähnchenkeule (ohne Knochen)": {
+  "key": "hahn_keule",
+  "name": "Hähnchenkeule (ohne Knochen)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Hähnchen mit Haut (ohne Knochen)": {
+  "key": "hahn",
+  "name": "Hähnchen mit Haut (ohne Knochen)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Putenbrust": {
+  "key": "pute",
+  "name": "Putenbrust",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Hühnerleber": {
+  "key": "huhn_leber",
+  "name": "Hühnerleber",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Ente": {
+  "key": "ente",
+  "name": "Ente",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Gans": {
+  "key": "gans",
+  "name": "Gans",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Schweineschnitzel/-filet": {
+  "key": "schwein_mager",
+  "name": "Schweineschnitzel/-filet",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Schweinenacken": {
+  "key": "schwein_nacken",
+  "name": "Schweinenacken",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Schweinebauch": {
+  "key": "schwein_bauch",
+  "name": "Schweinebauch",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Schweinshaxe (ausgelöst)": {
+  "key": "schwein_haxe",
+  "name": "Schweinshaxe (ausgelöst)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Schweinehackfleisch": {
+  "key": "schwein_hack",
+  "name": "Schweinehackfleisch",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Hackfleisch gemischt": {
+  "key": "gemischtes_hack",
+  "name": "Hackfleisch gemischt",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Kochschinken": {
+  "key": "schinken",
+  "name": "Kochschinken",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Bauchspeck geräuchert": {
+  "key": "speck",
+  "name": "Bauchspeck geräuchert",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Kasseler": {
+  "key": "kassler",
+  "name": "Kasseler",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Bratwurst": {
+  "key": "bratwurst",
+  "name": "Bratwurst",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Bockwurst": {
+  "key": "bockwurst",
+  "name": "Bockwurst",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Weißwurst": {
+  "key": "weisswurst",
+  "name": "Weißwurst",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Leberwurst": {
+  "key": "leberwurst",
+  "name": "Leberwurst",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Leberkäse": {
+  "key": "leberkaese",
+  "name": "Leberkäse",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Mettwurst": {
+  "key": "mettwurst",
+  "name": "Mettwurst",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Salami": {
+  "key": "salami",
+  "name": "Salami",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Blutwurst": {
+  "key": "blutwurst",
+  "name": "Blutwurst",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Lachs": {
+  "key": "lachs",
+  "name": "Lachs",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Forelle": {
+  "key": "forelle",
+  "name": "Forelle",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Karpfen": {
+  "key": "karpfen",
+  "name": "Karpfen",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Hering": {
+  "key": "hering",
+  "name": "Hering",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Makrele": {
+  "key": "makrele",
+  "name": "Makrele",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Sardelle (Hamsi)": {
+  "key": "sardelle",
+  "name": "Sardelle (Hamsi)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Sardine": {
+  "key": "sardine",
+  "name": "Sardine",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Wolfsbarsch/Dorade": {
+  "key": "wolfsbarsch",
+  "name": "Wolfsbarsch/Dorade",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Kabeljau": {
+  "key": "kabeljau",
+  "name": "Kabeljau",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Seelachs": {
+  "key": "seelachs",
+  "name": "Seelachs",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Thunfisch": {
+  "key": "thunfisch",
+  "name": "Thunfisch",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Schwertfisch": {
+  "key": "schwertfisch",
+  "name": "Schwertfisch",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Fisch fettreich (Lüfer, Palamut, Bonito)": {
+  "key": "fisch_fett",
+  "name": "Fisch fettreich (Lüfer, Palamut, Bonito)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Fisch mager (Weißfisch)": {
+  "key": "fisch_mager",
+  "name": "Fisch mager (Weißfisch)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Aal": {
+  "key": "aal",
+  "name": "Aal",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Garnelen": {
+  "key": "garnele",
+  "name": "Garnelen",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Miesmuscheln": {
+  "key": "muschel",
+  "name": "Miesmuscheln",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Kalmar": {
+  "key": "kalmar",
+  "name": "Kalmar",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Oktopus": {
+  "key": "oktopus",
+  "name": "Oktopus",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Ei": {
+  "key": "ei",
+  "name": "Ei",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Eiweiß": {
+  "key": "eiweiss",
+  "name": "Eiweiß",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Vollmilch": {
+  "key": "milch",
+  "name": "Vollmilch",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Milch 1,5%": {
+  "key": "milch_fettarm",
+  "name": "Milch 1,5%",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Joghurt (3,5%)": {
+  "key": "joghurt",
+  "name": "Joghurt (3,5%)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Strained Yogurt (Süzme)": {
+  "key": "suzme",
+  "name": "Strained Yogurt (Süzme)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Ayran": {
+  "key": "ayran",
+  "name": "Ayran",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Schlagsahne": {
+  "key": "sahne",
+  "name": "Schlagsahne",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Crème fraîche": {
+  "key": "creme_fraiche",
+  "name": "Crème fraîche",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Schmand": {
+  "key": "schmand",
+  "name": "Schmand",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Magerquark": {
+  "key": "quark_mager",
+  "name": "Magerquark",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Speisequark 40%": {
+  "key": "quark",
+  "name": "Speisequark 40%",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Frischkäse": {
+  "key": "frischkaese",
+  "name": "Frischkäse",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Mascarpone": {
+  "key": "mascarpone",
+  "name": "Mascarpone",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Butter": {
+  "key": "butter",
+  "name": "Butter",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Kaymak": {
+  "key": "kaymak",
+  "name": "Kaymak",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Beyaz Peynir (Schafskäse)": {
+  "key": "beyaz_peynir",
+  "name": "Beyaz Peynir (Schafskäse)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Kaşar": {
+  "key": "kasar",
+  "name": "Kaşar",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Tulum Peyniri": {
+  "key": "tulum",
+  "name": "Tulum Peyniri",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Lor Peyniri": {
+  "key": "lor",
+  "name": "Lor Peyniri",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Hellim/Halloumi": {
+  "key": "hellim",
+  "name": "Hellim/Halloumi",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Mozzarella": {
+  "key": "mozzarella",
+  "name": "Mozzarella",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Parmesan": {
+  "key": "parmesan",
+  "name": "Parmesan",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Gouda": {
+  "key": "gouda",
+  "name": "Gouda",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Emmentaler/Bergkäse": {
+  "key": "emmentaler",
+  "name": "Emmentaler/Bergkäse",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Camembert": {
+  "key": "camembert",
+  "name": "Camembert",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Zwiebel": {
+  "key": "zwiebel",
+  "name": "Zwiebel",
+  "alt": 1.7,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170000",
+    "lebensmittel": "Onions, raw",
+    "wert": 1.7
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G480100",
+    "lebensmittel": "Speisezwiebel roh",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20034",
+    "lebensmittel": "Onion, raw",
+    "wert": 1.7
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-499",
+    "lebensmittel": "Onions, raw",
+    "wert": 2.2
+   }
+  ],
+  "neu": 1.7,
+  "status": "median",
+  "spanne": [
+   1.4,
+   2.2
+  ],
+  "streuung_gross": false
+ },
+ "Knoblauch": {
+  "key": "knoblauch",
+  "name": "Knoblauch",
+  "alt": 2.1,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169230",
+    "lebensmittel": "Garlic, raw",
+    "wert": 2.1
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G490100",
+    "lebensmittel": "Knoblauch roh",
+    "wert": 28.3
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11000",
+    "lebensmittel": "Garlic, raw",
+    "wert": 5.8
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-244",
+    "lebensmittel": "Garlic, raw",
+    "wert": 4.1
+   }
+  ],
+  "neu": 4.95,
+  "status": "median",
+  "spanne": [
+   2.1,
+   28.3
+  ],
+  "streuung_gross": true
+ },
+ "Tomate": {
+  "key": "tomate",
+  "name": "Tomate",
+  "alt": 1.2,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170457",
+    "lebensmittel": "Tomatoes, red, ripe, raw, year round average",
+    "wert": 1.2
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G561100",
+    "lebensmittel": "Tomate roh",
+    "wert": 1.3
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20385",
+    "lebensmittel": "Tomato, raw (average)",
+    "wert": 1.02
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-517",
+    "lebensmittel": "Tomatoes, standard, raw",
+    "wert": 1.0
+   }
+  ],
+  "neu": 1.11,
+  "status": "median",
+  "spanne": [
+   1.0,
+   1.3
+  ],
+  "streuung_gross": false
+ },
+ "Paprika grün": {
+  "key": "paprika",
+  "name": "Paprika grün",
+  "alt": 1.7,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170427",
+    "lebensmittel": "Peppers, sweet, green, raw",
+    "wert": 1.7
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G541100",
+    "lebensmittel": "Gemüsepaprika grün, roh",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20085",
+    "lebensmittel": "Sweet pepper, green, raw",
+    "wert": 3.2
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-318",
+    "lebensmittel": "Peppers, capsicum, green, raw",
+    "wert": 1.6
+   }
+  ],
+  "neu": 1.85,
+  "status": "median",
+  "spanne": [
+   1.6,
+   3.2
+  ],
+  "streuung_gross": true
+ },
+ "Paprika rot": {
+  "key": "paprika_rot",
+  "name": "Paprika rot",
+  "alt": 2.1,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170108",
+    "lebensmittel": "Peppers, sweet, red, raw",
+    "wert": 2.1
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G543100",
+    "lebensmittel": "Gemüsepaprika rot, roh",
+    "wert": 2.2
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20087",
+    "lebensmittel": "Sweet pepper, red, raw",
+    "wert": 3.2
+   }
+  ],
+  "neu": 2.2,
+  "status": "median",
+  "spanne": [
+   2.1,
+   3.2
+  ],
+  "streuung_gross": false
+ },
+ "Spitzpaprika (Sivri Biber)": {
+  "key": "sivri",
+  "name": "Spitzpaprika (Sivri Biber)",
+  "alt": 3.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170427",
+    "lebensmittel": "Peppers, sweet, green, raw",
+    "wert": 1.7
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G541100",
+    "lebensmittel": "Gemüsepaprika grün, roh",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20085",
+    "lebensmittel": "Sweet pepper, green, raw",
+    "wert": 3.2
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-318",
+    "lebensmittel": "Peppers, capsicum, green, raw",
+    "wert": 1.6
+   }
+  ],
+  "neu": 1.85,
+  "status": "median",
+  "spanne": [
+   1.6,
+   3.2
+  ],
+  "streuung_gross": true
+ },
+ "Chilischote": {
+  "key": "chili",
+  "name": "Chilischote",
+  "alt": 1.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170497",
+    "lebensmittel": "Peppers, hot chili, green, raw",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20151",
+    "lebensmittel": "Chili pepper, raw",
+    "wert": 1.5
+   }
+  ],
+  "neu": 1.5,
+  "status": "median",
+  "spanne": [
+   1.5,
+   1.5
+  ],
+  "streuung_gross": false
+ },
+ "Aubergine": {
+  "key": "aubergine",
+  "name": "Aubergine",
+  "alt": 3.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169228",
+    "lebensmittel": "Eggplant, raw",
+    "wert": 3.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G510100",
+    "lebensmittel": "Aubergine roh",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20053",
+    "lebensmittel": "Eggplant, raw",
+    "wert": 3.0
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-161",
+    "lebensmittel": "Aubergine, raw",
+    "wert": 2.0
+   }
+  ],
+  "neu": 2.5,
+  "status": "median",
+  "spanne": [
+   1.4,
+   3.0
+  ],
+  "streuung_gross": true
+ },
+ "Zucchini": {
+  "key": "zucchini",
+  "name": "Zucchini",
+  "alt": 1.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169291",
+    "lebensmittel": "Squash, summer, zucchini, includes skin, raw",
+    "wert": 1.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G582100",
+    "lebensmittel": "Zucchini roh",
+    "wert": 1.1
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-627",
+    "lebensmittel": "Courgette, raw",
+    "wert": 0.5
+   }
+  ],
+  "neu": 1.0,
+  "status": "median",
+  "spanne": [
+   0.5,
+   1.1
+  ],
+  "streuung_gross": false
+ },
+ "Gurke": {
+  "key": "gurke",
+  "name": "Gurke",
+  "alt": 0.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168409",
+    "lebensmittel": "Cucumber, with peel, raw",
+    "wert": 0.5
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G520100",
+    "lebensmittel": "Gurke roh",
+    "wert": 0.9
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-523",
+    "lebensmittel": "Cucumber, raw, flesh and skin",
+    "wert": 0.7
+   }
+  ],
+  "neu": 0.7,
+  "status": "median",
+  "spanne": [
+   0.5,
+   0.9
+  ],
+  "streuung_gross": false
+ },
+ "Kartoffel": {
+  "key": "kartoffel",
+  "name": "Kartoffel",
+  "alt": 2.2,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170026",
+    "lebensmittel": "Potatoes, flesh and skin, raw",
+    "wert": 2.1
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:K110100",
+    "lebensmittel": "Kartoffel geschält, roh",
+    "wert": 1.42
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:4008",
+    "lebensmittel": "Potato, peeled, raw",
+    "wert": 2.2
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-489",
+    "lebensmittel": "Potatoes, old, raw, flesh only",
+    "wert": 2.0
+   }
+  ],
+  "neu": 2.05,
+  "status": "median",
+  "spanne": [
+   1.42,
+   2.2
+  ],
+  "streuung_gross": false
+ },
+ "Süßkartoffel": {
+  "key": "suesskartoffel",
+  "name": "Süßkartoffel",
+  "alt": 3.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168482",
+    "lebensmittel": "Sweet potato, raw, unprepared (Includes foods for USDA's Food Distribution Program)",
+    "wert": 3.0
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:4101",
+    "lebensmittel": "Sweet potato, raw",
+    "wert": 3.0
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-463",
+    "lebensmittel": "Sweet potato, raw, flesh only",
+    "wert": 2.4
+   }
+  ],
+  "neu": 3.0,
+  "status": "median",
+  "spanne": [
+   2.4,
+   3.0
+  ],
+  "streuung_gross": false
+ },
+ "Karotte": {
+  "key": "karotte",
+  "name": "Karotte",
+  "alt": 2.8,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170393",
+    "lebensmittel": "Carrots, raw",
+    "wert": 2.8
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G620100",
+    "lebensmittel": "Karotte/Möhre, roh",
+    "wert": 2.9
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20009",
+    "lebensmittel": "Carrot, raw",
+    "wert": 2.9
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-496",
+    "lebensmittel": "Carrots, old, raw",
+    "wert": 3.9
+   }
+  ],
+  "neu": 2.9,
+  "status": "median",
+  "spanne": [
+   2.8,
+   3.9
+  ],
+  "streuung_gross": false
+ },
+ "Knollensellerie": {
+  "key": "sellerie",
+  "name": "Knollensellerie",
+  "alt": 1.8,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170400",
+    "lebensmittel": "Celeriac, raw",
+    "wert": 1.8
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G660100",
+    "lebensmittel": "Knollensellerie roh",
+    "wert": 4.2
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20055",
+    "lebensmittel": "Celeriac, raw",
+    "wert": 4.5
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-219",
+    "lebensmittel": "Celeriac, raw",
+    "wert": 3.7
+   }
+  ],
+  "neu": 3.95,
+  "status": "median",
+  "spanne": [
+   1.8,
+   4.5
+  ],
+  "streuung_gross": true
+ },
+ "Lauch/Porree": {
+  "key": "lauch",
+  "name": "Lauch/Porree",
+  "alt": 2.6,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169246",
+    "lebensmittel": "Leeks, (bulb and lower leaf-portion), raw",
+    "wert": 1.8
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G470100",
+    "lebensmittel": "Porree/Lauch, roh",
+    "wert": 2.2
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20039",
+    "lebensmittel": "Leek, raw",
+    "wert": 1.8
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-624",
+    "lebensmittel": "Leeks, raw",
+    "wert": 2.8
+   }
+  ],
+  "neu": 2.0,
+  "status": "median",
+  "spanne": [
+   1.8,
+   2.8
+  ],
+  "streuung_gross": false
+ },
+ "Spinat": {
+  "key": "spinat",
+  "name": "Spinat",
+  "alt": 2.2,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168462",
+    "lebensmittel": "Spinach, raw",
+    "wert": 2.2
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G211100",
+    "lebensmittel": "Spinat roh",
+    "wert": 1.8
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20059",
+    "lebensmittel": "Spinach, raw",
+    "wert": 2.6
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-572",
+    "lebensmittel": "Spinach, mature, raw",
+    "wert": 2.1
+   }
+  ],
+  "neu": 2.15,
+  "status": "median",
+  "spanne": [
+   1.8,
+   2.6
+  ],
+  "streuung_gross": false
+ },
+ "Weißkohl": {
+  "key": "weisskohl",
+  "name": "Weißkohl",
+  "alt": 2.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169975",
+    "lebensmittel": "Cabbage, raw",
+    "wert": 2.5
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G342100",
+    "lebensmittel": "Weißkohl roh",
+    "wert": 3.0
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20116",
+    "lebensmittel": "White cabbage, raw",
+    "wert": 3.5
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-509",
+    "lebensmittel": "Cabbage, white, raw",
+    "wert": 3.0
+   }
+  ],
+  "neu": 3.0,
+  "status": "median",
+  "spanne": [
+   2.5,
+   3.5
+  ],
+  "streuung_gross": false
+ },
+ "Rotkohl": {
+  "key": "rotkohl",
+  "name": "Rotkohl",
+  "alt": 2.1,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169977",
+    "lebensmittel": "Cabbage, red, raw",
+    "wert": 2.1
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G341100",
+    "lebensmittel": "Rotkohl roh",
+    "wert": 2.5
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20014",
+    "lebensmittel": "Red cabbage, raw",
+    "wert": 2.8
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-190",
+    "lebensmittel": "Cabbage, red, raw",
+    "wert": 2.9
+   }
+  ],
+  "neu": 2.65,
+  "status": "median",
+  "spanne": [
+   2.1,
+   2.9
+  ],
+  "streuung_gross": false
+ },
+ "Blumenkohl": {
+  "key": "blumenkohl",
+  "name": "Blumenkohl",
+  "alt": 2.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169986",
+    "lebensmittel": "Cauliflower, raw",
+    "wert": 2.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G311100",
+    "lebensmittel": "Blumenkohl roh",
+    "wert": 2.9
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20016",
+    "lebensmittel": "Cauliflower, raw",
+    "wert": 2.2
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-512",
+    "lebensmittel": "Cauliflower, raw",
+    "wert": 1.8
+   }
+  ],
+  "neu": 2.1,
+  "status": "median",
+  "spanne": [
+   1.8,
+   2.9
+  ],
+  "streuung_gross": true
+ },
+ "Brokkoli": {
+  "key": "brokkoli",
+  "name": "Brokkoli",
+  "alt": 2.6,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170379",
+    "lebensmittel": "Broccoli, raw",
+    "wert": 2.6
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G312100",
+    "lebensmittel": "Broccoli roh",
+    "wert": 3.0
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20057",
+    "lebensmittel": "Broccoli, raw",
+    "wert": 2.6
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-502",
+    "lebensmittel": "Broccoli, green, raw",
+    "wert": 4.0
+   }
+  ],
+  "neu": 2.8,
+  "status": "median",
+  "spanne": [
+   2.6,
+   4.0
+  ],
+  "streuung_gross": false
+ },
+ "Grüne Bohnen": {
+  "key": "gruene_bohnen",
+  "name": "Grüne Bohnen",
+  "alt": 2.7,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169961",
+    "lebensmittel": "Beans, snap, green, raw",
+    "wert": 2.7
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G710100",
+    "lebensmittel": "Bohne grün, roh",
+    "wert": 1.89
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-514",
+    "lebensmittel": "Beans, green, raw",
+    "wert": 3.4
+   }
+  ],
+  "neu": 2.7,
+  "status": "median",
+  "spanne": [
+   1.89,
+   3.4
+  ],
+  "streuung_gross": true
+ },
+ "Grüne Erbsen": {
+  "key": "erbsen",
+  "name": "Grüne Erbsen",
+  "alt": 5.7,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170419",
+    "lebensmittel": "Peas, green, raw",
+    "wert": 5.7
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G760100",
+    "lebensmittel": "Erbse grün, roh",
+    "wert": 5.0
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-438",
+    "lebensmittel": "Peas, raw",
+    "wert": 5.3
+   }
+  ],
+  "neu": 5.3,
+  "status": "median",
+  "spanne": [
+   5.0,
+   5.7
+  ],
+  "streuung_gross": false
+ },
+ "Mais": {
+  "key": "mais",
+  "name": "Mais",
+  "alt": 2.7,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169998",
+    "lebensmittel": "Corn, sweet, yellow, raw",
+    "wert": 2.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G570100",
+    "lebensmittel": "Zuckermais roh",
+    "wert": 2.8
+   }
+  ],
+  "neu": 2.4,
+  "status": "median",
+  "spanne": [
+   2.0,
+   2.8
+  ],
+  "streuung_gross": false
+ },
+ "Rote Bete": {
+  "key": "rote_bete",
+  "name": "Rote Bete",
+  "alt": 2.8,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169145",
+    "lebensmittel": "Beets, raw",
+    "wert": 2.8
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G613100",
+    "lebensmittel": "Rote Rübe/Rote Bete, roh",
+    "wert": 2.5
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20091",
+    "lebensmittel": "Beetroot, raw",
+    "wert": 2.8
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-164",
+    "lebensmittel": "Beetroot, raw",
+    "wert": 1.9
+   }
+  ],
+  "neu": 2.65,
+  "status": "median",
+  "spanne": [
+   1.9,
+   2.8
+  ],
+  "streuung_gross": false
+ },
+ "Rettich/Rübe": {
+  "key": "rettich",
+  "name": "Rettich/Rübe",
+  "alt": 1.6,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169276",
+    "lebensmittel": "Radishes, raw",
+    "wert": 1.6
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G680100",
+    "lebensmittel": "Rettich roh",
+    "wert": 1.2
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20045",
+    "lebensmittel": "Radish, raw",
+    "wert": 1.4
+   }
+  ],
+  "neu": 1.4,
+  "status": "median",
+  "spanne": [
+   1.2,
+   1.6
+  ],
+  "streuung_gross": false
+ },
+ "Kürbis": {
+  "key": "kuerbis",
+  "name": "Kürbis",
+  "alt": 0.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168448",
+    "lebensmittel": "Pumpkin, raw",
+    "wert": 0.5
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G581000",
+    "lebensmittel": "Kürbis Hokkaido (C. maxima) roh",
+    "wert": 0.78
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20166",
+    "lebensmittel": "Pumpkin, flesh without skin, raw",
+    "wert": 0.5
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-326",
+    "lebensmittel": "Pumpkin, flesh only, raw",
+    "wert": 1.0
+   }
+  ],
+  "neu": 0.64,
+  "status": "median",
+  "spanne": [
+   0.5,
+   1.0
+  ],
+  "streuung_gross": false
+ },
+ "Okra": {
+  "key": "okra",
+  "name": "Okra",
+  "alt": 3.2,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169260",
+    "lebensmittel": "Okra, raw",
+    "wert": 3.2
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G530100",
+    "lebensmittel": "Okra roh",
+    "wert": 4.9
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:58100",
+    "lebensmittel": "Okra, raw",
+    "wert": 3.2
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-300",
+    "lebensmittel": "Okra, raw",
+    "wert": 4.0
+   }
+  ],
+  "neu": 3.6,
+  "status": "median",
+  "spanne": [
+   3.2,
+   4.9
+  ],
+  "streuung_gross": false
+ },
+ "Weiße Rübe": {
+  "key": "ruebe",
+  "name": "Weiße Rübe",
+  "alt": 1.8,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170465",
+    "lebensmittel": "Turnips, raw",
+    "wert": 1.8
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20064",
+    "lebensmittel": "Turnip, peeled, raw",
+    "wert": 1.8
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-389",
+    "lebensmittel": "Turnip, flesh only, raw",
+    "wert": 2.4
+   }
+  ],
+  "neu": 1.8,
+  "status": "median",
+  "spanne": [
+   1.8,
+   2.4
+  ],
+  "streuung_gross": false
+ },
+ "Artischocke": {
+  "key": "artischocke",
+  "name": "Artischocke",
+  "alt": 5.4,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169205",
+    "lebensmittel": "Artichokes, (globe or french), raw",
+    "wert": 5.4
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G410100",
+    "lebensmittel": "Artischocke roh",
+    "wert": 10.79
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20052",
+    "lebensmittel": "Artichoke, globe, raw",
+    "wert": 5.4
+   }
+  ],
+  "neu": 5.4,
+  "status": "median",
+  "spanne": [
+   5.4,
+   10.79
+  ],
+  "streuung_gross": true
+ },
+ "Spargel": {
+  "key": "spargel",
+  "name": "Spargel",
+  "alt": 2.1,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168389",
+    "lebensmittel": "Asparagus, raw",
+    "wert": 2.1
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G450100",
+    "lebensmittel": "Spargel roh",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20279",
+    "lebensmittel": "Asparagus, green, raw",
+    "wert": 2.15
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-157",
+    "lebensmittel": "Asparagus, raw",
+    "wert": 1.7
+   }
+  ],
+  "neu": 1.9,
+  "status": "median",
+  "spanne": [
+   1.4,
+   2.15
+  ],
+  "streuung_gross": false
+ },
+ "Champignons": {
+  "key": "pilz",
+  "name": "Champignons",
+  "alt": 1.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169251",
+    "lebensmittel": "Mushrooms, white, raw",
+    "wert": 1.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:K701100",
+    "lebensmittel": "Champignon roh",
+    "wert": 1.9
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20056",
+    "lebensmittel": "Button mushroom or cultivated mushroom, raw",
+    "wert": 1.0
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-505",
+    "lebensmittel": "Mushrooms, white, raw",
+    "wert": 0.7
+   }
+  ],
+  "neu": 1.0,
+  "status": "median",
+  "spanne": [
+   0.7,
+   1.9
+  ],
+  "streuung_gross": true
+ },
+ "Blattsalat (Romana/Eisberg)": {
+  "key": "salat",
+  "name": "Blattsalat (Romana/Eisberg)",
+  "alt": 1.3,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169247",
+    "lebensmittel": "Lettuce, cos or romaine, raw",
+    "wert": 2.1
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G105100",
+    "lebensmittel": "Kopfsalat roh",
+    "wert": 1.4
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20031",
+    "lebensmittel": "Lettuce, raw",
+    "wert": 1.1
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-520",
+    "lebensmittel": "Lettuce, average, raw",
+    "wert": 1.5
+   }
+  ],
+  "neu": 1.45,
+  "status": "median",
+  "spanne": [
+   1.1,
+   2.1
+  ],
+  "streuung_gross": false
+ },
+ "Rucola": {
+  "key": "rucola",
+  "name": "Rucola",
+  "alt": 1.6,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169387",
+    "lebensmittel": "Arugula, raw",
+    "wert": 1.6
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G130100",
+    "lebensmittel": "Rucola roh",
+    "wert": 1.7
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-522",
+    "lebensmittel": "Rocket, raw",
+    "wert": 1.7
+   }
+  ],
+  "neu": 1.7,
+  "status": "median",
+  "spanne": [
+   1.6,
+   1.7
+  ],
+  "streuung_gross": false
+ },
+ "Petersilie": {
+  "key": "petersilie",
+  "name": "Petersilie",
+  "alt": 3.3,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170416",
+    "lebensmittel": "Parsley, fresh",
+    "wert": 3.3
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G250100",
+    "lebensmittel": "Petersilienblatt roh",
+    "wert": 4.25
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11014",
+    "lebensmittel": "Parsley, fresh",
+    "wert": 4.3
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-844",
+    "lebensmittel": "Parsley, fresh",
+    "wert": 5.0
+   }
+  ],
+  "neu": 4.28,
+  "status": "median",
+  "spanne": [
+   3.3,
+   5.0
+  ],
+  "streuung_gross": false
+ },
+ "Dill": {
+  "key": "dill",
+  "name": "Dill",
+  "alt": 2.1,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:172233",
+    "lebensmittel": "Dill weed, fresh",
+    "wert": 2.1
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11093",
+    "lebensmittel": "Dill, fresh",
+    "wert": 3.5
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-824",
+    "lebensmittel": "Dill, fresh",
+    "wert": 2.5
+   }
+  ],
+  "neu": 2.5,
+  "status": "median",
+  "spanne": [
+   2.1,
+   3.5
+  ],
+  "streuung_gross": true
+ },
+ "Minze frisch": {
+  "key": "minze",
+  "name": "Minze frisch",
+  "alt": 6.8,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:173475",
+    "lebensmittel": "Spearmint, fresh",
+    "wert": 6.8
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11027",
+    "lebensmittel": "Mint, fresh",
+    "wert": 7.4
+   }
+  ],
+  "neu": 7.1,
+  "status": "median",
+  "spanne": [
+   6.8,
+   7.4
+  ],
+  "streuung_gross": false
+ },
+ "Frühlingszwiebel": {
+  "key": "fruehlingszwiebel",
+  "name": "Frühlingszwiebel",
+  "alt": 2.6,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170005",
+    "lebensmittel": "Onions, spring or scallions (includes tops and bulb), raw",
+    "wert": 2.6
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G482100",
+    "lebensmittel": "Frühlingszwiebel/Lauchzwiebel, roh",
+    "wert": 2.6
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-352",
+    "lebensmittel": "Spring onions, bulbs and tops, raw",
+    "wert": 1.5
+   }
+  ],
+  "neu": 2.6,
+  "status": "median",
+  "spanne": [
+   1.5,
+   2.6
+  ],
+  "streuung_gross": false
+ },
+ "Schwarzkohl": {
+  "key": "karalahana",
+  "name": "Schwarzkohl",
+  "alt": 3.6,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170406",
+    "lebensmittel": "Collards, raw",
+    "wert": 4.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G322100",
+    "lebensmittel": "Grünkohl roh",
+    "wert": 8.39
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20346",
+    "lebensmittel": "Kale, raw",
+    "wert": 4.1
+   }
+  ],
+  "neu": 4.1,
+  "status": "median",
+  "spanne": [
+   4.0,
+   8.39
+  ],
+  "streuung_gross": true
+ },
+ "Mangold": {
+  "key": "mangold",
+  "name": "Mangold",
+  "alt": 1.6,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169991",
+    "lebensmittel": "Chard, swiss, raw",
+    "wert": 1.6
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G230100",
+    "lebensmittel": "Mangold roh",
+    "wert": 1.8
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20004",
+    "lebensmittel": "Swiss chard, stalk without leaves, raw",
+    "wert": 1.8
+   }
+  ],
+  "neu": 1.8,
+  "status": "median",
+  "spanne": [
+   1.6,
+   1.8
+  ],
+  "streuung_gross": false
+ },
+ "Portulak": {
+  "key": "portulak",
+  "name": "Portulak",
+  "alt": 0.5,
+  "werte": [
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G460100",
+    "lebensmittel": "Portulak roh",
+    "wert": 1.6
+   }
+  ],
+  "neu": 1.6,
+  "status": "single",
+  "spanne": [
+   1.6,
+   1.6
+  ],
+  "streuung_gross": false
+ },
+ "Wildkräuter (Otlar)": {
+  "key": "wildkraut",
+  "name": "Wildkräuter (Otlar)",
+  "alt": 3.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169226",
+    "lebensmittel": "Dandelion greens, raw",
+    "wert": 3.5
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G262100",
+    "lebensmittel": "Löwenzahn roh",
+    "wert": 3.02
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20038",
+    "lebensmittel": "Dandelion, raw",
+    "wert": 3.5
+   }
+  ],
+  "neu": 3.5,
+  "status": "median",
+  "spanne": [
+   3.02,
+   3.5
+  ],
+  "streuung_gross": false
+ },
+ "Weinblätter (eingelegt)": {
+  "key": "weinblatt",
+  "name": "Weinblätter (eingelegt)",
+  "alt": 5.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169393",
+    "lebensmittel": "Grape leaves, canned",
+    "wert": 9.9
+   }
+  ],
+  "neu": 9.9,
+  "status": "single",
+  "spanne": [
+   9.9,
+   9.9
+  ],
+  "streuung_gross": false
+ },
+ "Weiße Bohnen (trocken)": {
+  "key": "bohnen_trocken",
+  "name": "Weiße Bohnen (trocken)",
+  "alt": 15.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:175202",
+    "lebensmittel": "Beans, white, mature seeds, raw",
+    "wert": 15.2
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20501",
+    "lebensmittel": "Haricot bean, dried",
+    "wert": 15.2
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-086",
+    "lebensmittel": "Beans, haricot, whole, dried, raw",
+    "wert": 17.0
+   }
+  ],
+  "neu": 15.2,
+  "status": "median",
+  "spanne": [
+   15.2,
+   17.0
+  ],
+  "streuung_gross": false
+ },
+ "Kichererbsen (trocken)": {
+  "key": "kichererbsen_trocken",
+  "name": "Kichererbsen (trocken)",
+  "alt": 17.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:173756",
+    "lebensmittel": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+    "wert": 12.2
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G770400",
+    "lebensmittel": "Kichererbse reif",
+    "wert": 15.51
+   }
+  ],
+  "neu": 13.86,
+  "status": "median",
+  "spanne": [
+   12.2,
+   15.51
+  ],
+  "streuung_gross": false
+ },
+ "Kichererbsen (gekocht)": {
+  "key": "kichererbsen",
+  "name": "Kichererbsen (gekocht)",
+  "alt": 7.6,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:173757",
+    "lebensmittel": "Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",
+    "wert": 7.6
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G770432",
+    "lebensmittel": "Kichererbse reif, gekocht",
+    "wert": 10.6
+   }
+  ],
+  "neu": 9.1,
+  "status": "median",
+  "spanne": [
+   7.6,
+   10.6
+  ],
+  "streuung_gross": false
+ },
+ "Rote Linsen (trocken)": {
+  "key": "rote_linsen",
+  "name": "Rote Linsen (trocken)",
+  "alt": 11.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:174284",
+    "lebensmittel": "Lentils, pink or red, raw",
+    "wert": 10.8
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H730000",
+    "lebensmittel": "Linse rot reif",
+    "wert": 8.5
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-657",
+    "lebensmittel": "Lentils, red, split, dried, raw",
+    "wert": 17.4
+   }
+  ],
+  "neu": 10.8,
+  "status": "median",
+  "spanne": [
+   8.5,
+   17.4
+  ],
+  "streuung_gross": true
+ },
+ "Grüne/Braune Linsen (trocken)": {
+  "key": "linsen",
+  "name": "Grüne/Braune Linsen (trocken)",
+  "alt": 11.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:172420",
+    "lebensmittel": "Lentils, raw",
+    "wert": 10.7
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H725100",
+    "lebensmittel": "Linse reif",
+    "wert": 17.6
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-089",
+    "lebensmittel": "Lentils, green and brown, whole, dried, raw",
+    "wert": 8.9
+   }
+  ],
+  "neu": 10.7,
+  "status": "median",
+  "spanne": [
+   8.9,
+   17.6
+  ],
+  "streuung_gross": true
+ },
+ "Dicke Bohnen (Bakla)": {
+  "key": "dicke_bohnen",
+  "name": "Dicke Bohnen (Bakla)",
+  "alt": 5.0,
+  "werte": [
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G730100",
+    "lebensmittel": "Dicke Bohne unreif, roh",
+    "wert": 5.8
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20517",
+    "lebensmittel": "Broad bean, to shell, fresh, raw",
+    "wert": 5.85
+   }
+  ],
+  "neu": 5.82,
+  "status": "median",
+  "spanne": [
+   5.8,
+   5.85
+  ],
+  "streuung_gross": false
+ },
+ "Tomatenmark": {
+  "key": "tomatenmark",
+  "name": "Tomatenmark",
+  "alt": 4.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170459",
+    "lebensmittel": "Tomato products, canned, paste, without salt added (Includes foods for USDA's Food Distribution Program)",
+    "wert": 4.1
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:R160000",
+    "lebensmittel": "Tomatenmark",
+    "wert": 4.7
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-531",
+    "lebensmittel": "Tomato puree",
+    "wert": 4.7
+   }
+  ],
+  "neu": 4.7,
+  "status": "median",
+  "spanne": [
+   4.1,
+   4.7
+  ],
+  "streuung_gross": false
+ },
+ "Paprikamark (Biber Salçası)": {
+  "key": "paprikamark",
+  "name": "Paprikamark (Biber Salçası)",
+  "alt": 5.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170108",
+    "lebensmittel": "Peppers, sweet, red, raw",
+    "wert": 2.1,
+    "verhaeltnis_fib_zu_gesamtKH": 0.3483
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G543100",
+    "lebensmittel": "Gemüsepaprika rot, roh",
+    "wert": 2.2,
+    "verhaeltnis_fib_zu_gesamtKH": 0.2622
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20087",
+    "lebensmittel": "Sweet pepper, red, raw",
+    "wert": 3.2,
+    "verhaeltnis_fib_zu_gesamtKH": 0.3486
+   }
+  ],
+  "neu": 5.9,
+  "status": "derived",
+  "begr": "Paprikamark ist eingekochte rote Paprika (+Salz, ohne Zucker); Ballaststoffe konzentrieren sich im gleichen Verhältnis wie die Kohlenhydrate. Verhältnis Ballaststoffe/Gesamt-KH (Median 0.3483) × Gesamt-KH des Produkts (17.0 g) = 5.9 g."
+ },
+ "Tomaten (Dose)": {
+  "key": "tomaten_dose",
+  "name": "Tomaten (Dose)",
+  "alt": 1.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170051",
+    "lebensmittel": "Tomatoes, red, ripe, canned, packed in tomato juice",
+    "wert": 1.9
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G568900",
+    "lebensmittel": "Tomate geschält, Konserve",
+    "wert": 0.9
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20137",
+    "lebensmittel": "Tomato, peeled, canned, in juice, solids and liquids",
+    "wert": 1.9
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-530",
+    "lebensmittel": "Tomatoes, canned, whole contents",
+    "wert": 0.8
+   }
+  ],
+  "neu": 1.4,
+  "status": "median",
+  "spanne": [
+   0.8,
+   1.9
+  ],
+  "streuung_gross": true
+ },
+ "Reis (trocken)": {
+  "key": "reis",
+  "name": "Reis (trocken)",
+  "alt": 1.3,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168877",
+    "lebensmittel": "Rice, white, long-grain, regular, raw, enriched",
+    "wert": 1.3
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:C352000",
+    "lebensmittel": "Reis poliert, roh",
+    "wert": 2.5
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:9100",
+    "lebensmittel": "Rice, white, raw",
+    "wert": 1.53
+   }
+  ],
+  "neu": 1.53,
+  "status": "median",
+  "spanne": [
+   1.3,
+   2.5
+  ],
+  "streuung_gross": true
+ },
+ "Bulgur": {
+  "key": "bulgur",
+  "name": "Bulgur",
+  "alt": 12.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170688",
+    "lebensmittel": "Bulgur, dry",
+    "wert": 12.5
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:C119100",
+    "lebensmittel": "Bulgur (Hartweizen) roh",
+    "wert": 6.7
+   }
+  ],
+  "neu": 9.6,
+  "status": "median",
+  "spanne": [
+   6.7,
+   12.5
+  ],
+  "streuung_gross": true
+ },
+ "Couscous": {
+  "key": "couscous",
+  "name": "Couscous",
+  "alt": 5.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169699",
+    "lebensmittel": "Couscous, dry",
+    "wert": 5.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:C119200",
+    "lebensmittel": "Couscous (Hartweizen) roh",
+    "wert": 6.17
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:11-901",
+    "lebensmittel": "Couscous, plain, raw",
+    "wert": 3.7
+   }
+  ],
+  "neu": 5.0,
+  "status": "median",
+  "spanne": [
+   3.7,
+   6.17
+  ],
+  "streuung_gross": false
+ },
+ "Nudeln/Şehriye (trocken)": {
+  "key": "nudeln",
+  "name": "Nudeln/Şehriye (trocken)",
+  "alt": 3.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169736",
+    "lebensmittel": "Pasta, dry, enriched",
+    "wert": 3.2
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:E401000",
+    "lebensmittel": "Teigwaren eifrei, roh",
+    "wert": 3.41
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:11-716",
+    "lebensmittel": "Pasta, white, dried, raw",
+    "wert": 3.7
+   }
+  ],
+  "neu": 3.41,
+  "status": "median",
+  "spanne": [
+   3.2,
+   3.7
+  ],
+  "streuung_gross": false
+ },
+ "Weizenmehl": {
+  "key": "mehl",
+  "name": "Weizenmehl",
+  "alt": 3.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168894",
+    "lebensmittel": "Wheat flour, white, all-purpose, enriched, bleached",
+    "wert": 2.7
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:C214100",
+    "lebensmittel": "Weizen Mehl, Type 405",
+    "wert": 5.3
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:9436",
+    "lebensmittel": "Wheat flour, type 55 (for bread)",
+    "wert": 3.2
+   }
+  ],
+  "neu": 3.2,
+  "status": "median",
+  "spanne": [
+   2.7,
+   5.3
+  ],
+  "streuung_gross": true
+ },
+ "Grieß": {
+  "key": "griess",
+  "name": "Grieß",
+  "alt": 4.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169715",
+    "lebensmittel": "Semolina, enriched",
+    "wert": 3.9
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:C219300",
+    "lebensmittel": "Hartweizen Grieß",
+    "wert": 4.84
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:9610",
+    "lebensmittel": "Durum wheat semolina, raw",
+    "wert": 3.7
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:11-903",
+    "lebensmittel": "Semolina, raw",
+    "wert": 2.9
+   }
+  ],
+  "neu": 3.8,
+  "status": "median",
+  "spanne": [
+   2.9,
+   4.84
+  ],
+  "streuung_gross": true
+ },
+ "Speisestärke": {
+  "key": "staerke",
+  "name": "Speisestärke",
+  "alt": 0.9,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169698",
+    "lebensmittel": "Cornstarch",
+    "wert": 0.9
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:C446000",
+    "lebensmittel": "Mais Stärke",
+    "wert": 1.0
+   }
+  ],
+  "neu": 0.95,
+  "status": "median",
+  "spanne": [
+   0.9,
+   1.0
+  ],
+  "streuung_gross": false
+ },
+ "Reismehl": {
+  "key": "reismehl",
+  "name": "Reismehl",
+  "alt": 2.4,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169714",
+    "lebensmittel": "Rice flour, white, unenriched",
+    "wert": 2.4
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:C453000",
+    "lebensmittel": "Reis Mehl",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:9520",
+    "lebensmittel": "Rice flour",
+    "wert": 3.3
+   }
+  ],
+  "neu": 2.4,
+  "status": "median",
+  "spanne": [
+   2.0,
+   3.3
+  ],
+  "streuung_gross": true
+ },
+ "Haferflocken": {
+  "key": "haferflocken",
+  "name": "Haferflocken",
+  "alt": 10.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:173904",
+    "lebensmittel": "Cereals, oats, regular and quick, not fortified, dry",
+    "wert": 10.1
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:C133000",
+    "lebensmittel": "Hafer Flocken",
+    "wert": 10.98
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:32140",
+    "lebensmittel": "Oat flakes",
+    "wert": 11.2
+   }
+  ],
+  "neu": 10.98,
+  "status": "median",
+  "spanne": [
+   10.1,
+   11.2
+  ],
+  "streuung_gross": false
+ },
+ "Paniermehl": {
+  "key": "paniermehl",
+  "name": "Paniermehl",
+  "alt": 4.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:174928",
+    "lebensmittel": "Bread, crumbs, dry, grated, plain",
+    "wert": 4.5
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:B821000",
+    "lebensmittel": "Paniermehl/Semmelbrösel/Semmelmehl",
+    "wert": 5.34
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:7500",
+    "lebensmittel": "Breadcrumbs",
+    "wert": 5.4
+   }
+  ],
+  "neu": 5.34,
+  "status": "median",
+  "spanne": [
+   4.5,
+   5.4
+  ],
+  "streuung_gross": false
+ },
+ "Brötchen/Semmel": {
+  "key": "semmel",
+  "name": "Brötchen/Semmel",
+  "alt": 3.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:175031",
+    "lebensmittel": "Rolls, hard (includes kaiser)",
+    "wert": 2.3
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:B511000",
+    "lebensmittel": "Weizenbrötchen",
+    "wert": 3.6
+   }
+  ],
+  "neu": 2.95,
+  "status": "median",
+  "spanne": [
+   2.3,
+   3.6
+  ],
+  "streuung_gross": false
+ },
+ "Weißbrot/Toast": {
+  "key": "weissbrot",
+  "name": "Weißbrot/Toast",
+  "alt": 2.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:174924",
+    "lebensmittel": "Bread, white, commercially prepared (includes soft bread crumbs)",
+    "wert": 2.7
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:B311000",
+    "lebensmittel": "Weizenbrot/Weißbrot",
+    "wert": 4.0
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:11-980",
+    "lebensmittel": "Bread, white, sliced",
+    "wert": 2.5
+   }
+  ],
+  "neu": 2.7,
+  "status": "median",
+  "spanne": [
+   2.5,
+   4.0
+  ],
+  "streuung_gross": true
+ },
+ "Vollkornbrot": {
+  "key": "vollkornbrot",
+  "name": "Vollkornbrot",
+  "alt": 7.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:172688",
+    "lebensmittel": "Bread, whole-wheat, commercially prepared",
+    "wert": 6.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:B121000",
+    "lebensmittel": "Roggenvollkornbrot",
+    "wert": 9.62
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:11-981",
+    "lebensmittel": "Bread, wholemeal, average",
+    "wert": 7.0
+   }
+  ],
+  "neu": 7.0,
+  "status": "median",
+  "spanne": [
+   6.0,
+   9.62
+  ],
+  "streuung_gross": true
+ },
+ "Roggenmischbrot": {
+  "key": "roggenbrot",
+  "name": "Roggenmischbrot",
+  "alt": 6.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:172684",
+    "lebensmittel": "Bread, rye",
+    "wert": 5.8
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:B271000",
+    "lebensmittel": "Roggenmischbrot",
+    "wert": 6.1
+   }
+  ],
+  "neu": 5.95,
+  "status": "median",
+  "spanne": [
+   5.8,
+   6.1
+  ],
+  "streuung_gross": false
+ },
+ "Türkisches Brot (Ekmek)": {
+  "key": "ekmek",
+  "name": "Türkisches Brot (Ekmek)",
+  "alt": 2.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:174924",
+    "lebensmittel": "Bread, white, commercially prepared (includes soft bread crumbs)",
+    "wert": 2.7
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:B311000",
+    "lebensmittel": "Weizenbrot/Weißbrot",
+    "wert": 4.0
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:11-980",
+    "lebensmittel": "Bread, white, sliced",
+    "wert": 2.5
+   }
+  ],
+  "neu": 2.7,
+  "status": "median",
+  "spanne": [
+   2.5,
+   4.0
+  ],
+  "streuung_gross": true
+ },
+ "Lavaş/Wrap-Fladen": {
+  "key": "lavas",
+  "name": "Lavaş/Wrap-Fladen",
+  "alt": 2.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:175037",
+    "lebensmittel": "Tortillas, ready-to-bake or -fry, flour, refrigerated",
+    "wert": 3.5
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:B783012",
+    "lebensmittel": "Weizentortilla",
+    "wert": 1.2
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:11-925",
+    "lebensmittel": "Tortilla, wheat, soft",
+    "wert": 3.6
+   }
+  ],
+  "neu": 3.5,
+  "status": "median",
+  "spanne": [
+   1.2,
+   3.6
+  ],
+  "streuung_gross": true
+ },
+ "Yufka/Filoteig": {
+  "key": "yufka",
+  "name": "Yufka/Filoteig",
+  "alt": 2.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:172791",
+    "lebensmittel": "Phyllo dough",
+    "wert": 1.9
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:11-855",
+    "lebensmittel": "Pastry, filo, retail, uncooked",
+    "wert": 3.4
+   }
+  ],
+  "neu": 2.65,
+  "status": "median",
+  "spanne": [
+   1.9,
+   3.4
+  ],
+  "streuung_gross": true
+ },
+ "Tel Kadayıf": {
+  "key": "kadayif",
+  "name": "Tel Kadayıf",
+  "alt": 3.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:172791",
+    "lebensmittel": "Phyllo dough",
+    "wert": 1.9
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:11-855",
+    "lebensmittel": "Pastry, filo, retail, uncooked",
+    "wert": 3.4
+   }
+  ],
+  "neu": 2.65,
+  "status": "median",
+  "spanne": [
+   1.9,
+   3.4
+  ],
+  "streuung_gross": true
+ },
+ "Blätterteig": {
+  "key": "blaetterteig",
+  "name": "Blätterteig",
+  "alt": 2.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:172790",
+    "lebensmittel": "Puff pastry, frozen, ready-to-bake",
+    "wert": 1.5
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:D072000",
+    "lebensmittel": "Blätterteig eifrei, roh",
+    "wert": 2.12
+   }
+  ],
+  "neu": 1.81,
+  "status": "median",
+  "spanne": [
+   1.5,
+   2.12
+  ],
+  "streuung_gross": false
+ },
+ "Hefe": {
+  "key": "hefe",
+  "name": "Hefe",
+  "alt": 7.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:175042",
+    "lebensmittel": "Leavening agents, yeast, baker's, compressed",
+    "wert": 8.1
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:R459000",
+    "lebensmittel": "Backhefe frisch (Frischbackhefe)",
+    "wert": 5.18
+   }
+  ],
+  "neu": 6.64,
+  "status": "median",
+  "spanne": [
+   5.18,
+   8.1
+  ],
+  "streuung_gross": false
+ },
+ "Maismehl/Polenta": {
+  "key": "maismehl",
+  "name": "Maismehl/Polenta",
+  "alt": 7.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168867",
+    "lebensmittel": "Cornmeal, degermed, enriched, yellow",
+    "wert": 3.9
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:C346000",
+    "lebensmittel": "Mais Grieß",
+    "wert": 9.42
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:11-011",
+    "lebensmittel": "Cornmeal, sifted",
+    "wert": 2.2
+   }
+  ],
+  "neu": 3.9,
+  "status": "median",
+  "spanne": [
+   2.2,
+   9.42
+  ],
+  "streuung_gross": true
+ },
+ "Hirse": {
+  "key": "hirse",
+  "name": "Hirse",
+  "alt": 8.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169702",
+    "lebensmittel": "Millet, raw",
+    "wert": 8.5
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:C332000",
+    "lebensmittel": "Hirse roh",
+    "wert": 3.3
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:9330",
+    "lebensmittel": "Millet, wholegrain, raw",
+    "wert": 8.5
+   }
+  ],
+  "neu": 8.5,
+  "status": "median",
+  "spanne": [
+   3.3,
+   8.5
+  ],
+  "streuung_gross": true
+ },
+ "Tarhana (trocken)": {
+  "key": "tarhana",
+  "name": "Tarhana (trocken)",
+  "alt": 5.0,
+  "werte": [],
+  "neu": 5.0,
+  "status": "keep",
+  "begr": "Keine freie Datenbank führt Tarhana; Zusammensetzung (Mehl, Joghurt, Gemüse, Anteile regional stark schwankend) zu unsicher für eine Rezeptrechnung. Alter Wert 5 g bleibt vorläufig."
+ },
+ "Kastanie": {
+  "key": "kastanie",
+  "name": "Kastanie",
+  "alt": 8.0,
+  "werte": [
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H230100",
+    "lebensmittel": "Edelkastanie/Marone",
+    "wert": 8.37
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:15024",
+    "lebensmittel": "Chestnut, raw",
+    "wert": 8.1
+   }
+  ],
+  "neu": 8.23,
+  "status": "median",
+  "spanne": [
+   8.1,
+   8.37
+  ],
+  "streuung_gross": false
+ },
+ "Zucker": {
+  "key": "zucker",
+  "name": "Zucker",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Honig": {
+  "key": "honig",
+  "name": "Honig",
+  "alt": 0.2,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169640",
+    "lebensmittel": "Honey",
+    "wert": 0.2
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:31008",
+    "lebensmittel": "Honey",
+    "wert": 0.0
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:17-050",
+    "lebensmittel": "Honey",
+    "wert": 0.0
+   }
+  ],
+  "neu": 0.0,
+  "status": "median",
+  "spanne": [
+   0.0,
+   0.2
+  ],
+  "streuung_gross": false
+ },
+ "Pekmez/Traubensirup": {
+  "key": "pekmez",
+  "name": "Pekmez/Traubensirup",
+  "alt": 0.0,
+  "werte": [
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:S157000",
+    "lebensmittel": "Traubendicksaft",
+    "wert": 1.24
+   }
+  ],
+  "neu": 1.24,
+  "status": "single",
+  "spanne": [
+   1.24,
+   1.24
+  ],
+  "streuung_gross": false
+ },
+ "Marmelade/Konfitüre": {
+  "key": "marmelade",
+  "name": "Marmelade/Konfitüre",
+  "alt": 1.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169641",
+    "lebensmittel": "Jams and preserves",
+    "wert": 1.1
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:S132000",
+    "lebensmittel": "Konfitüre extra",
+    "wert": 1.1
+   }
+  ],
+  "neu": 1.1,
+  "status": "median",
+  "spanne": [
+   1.1,
+   1.1
+  ],
+  "streuung_gross": false
+ },
+ "Tahin": {
+  "key": "tahin",
+  "name": "Tahin",
+  "alt": 9.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170189",
+    "lebensmittel": "Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)",
+    "wert": 9.3
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:Q901000",
+    "lebensmittel": "Tahin (Sesammus)",
+    "wert": 8.2
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:15203",
+    "lebensmittel": "Tahini (sesame paste)",
+    "wert": 7.0
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-847",
+    "lebensmittel": "Tahini paste",
+    "wert": 8.0
+   }
+  ],
+  "neu": 8.1,
+  "status": "median",
+  "spanne": [
+   7.0,
+   9.3
+  ],
+  "streuung_gross": false
+ },
+ "Tahin-Halva": {
+  "key": "helva",
+  "name": "Tahin-Halva",
+  "alt": 3.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:167996",
+    "lebensmittel": "Candies, halavah, plain",
+    "wert": 4.5
+   }
+  ],
+  "neu": 4.5,
+  "status": "single",
+  "spanne": [
+   4.5,
+   4.5
+  ],
+  "streuung_gross": false
+ },
+ "Walnüsse": {
+  "key": "walnuss",
+  "name": "Walnüsse",
+  "alt": 6.7,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170187",
+    "lebensmittel": "Nuts, walnuts, english",
+    "wert": 6.7
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H120100",
+    "lebensmittel": "Walnuss",
+    "wert": 4.6
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:15005",
+    "lebensmittel": "Walnut, kernel, dried",
+    "wert": 6.7
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-879",
+    "lebensmittel": "Walnuts, kernel only",
+    "wert": 3.5
+   }
+  ],
+  "neu": 5.65,
+  "status": "median",
+  "spanne": [
+   3.5,
+   6.7
+  ],
+  "streuung_gross": true
+ },
+ "Mandeln": {
+  "key": "mandel",
+  "name": "Mandeln",
+  "alt": 12.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170567",
+    "lebensmittel": "Nuts, almonds",
+    "wert": 12.5
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H210100",
+    "lebensmittel": "Mandel süß",
+    "wert": 10.0
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-896",
+    "lebensmittel": "Almonds, whole kernels",
+    "wert": 12.5
+   }
+  ],
+  "neu": 12.5,
+  "status": "median",
+  "spanne": [
+   10.0,
+   12.5
+  ],
+  "streuung_gross": false
+ },
+ "Haselnüsse": {
+  "key": "haselnuss",
+  "name": "Haselnüsse",
+  "alt": 10.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170581",
+    "lebensmittel": "Nuts, hazelnuts or filberts",
+    "wert": 9.7
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H130100",
+    "lebensmittel": "Haselnuss",
+    "wert": 7.6
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:15004",
+    "lebensmittel": "Hazelnut, no added salt",
+    "wert": 11.6
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-874",
+    "lebensmittel": "Hazelnuts, kernel only",
+    "wert": 6.9
+   }
+  ],
+  "neu": 8.65,
+  "status": "median",
+  "spanne": [
+   6.9,
+   11.6
+  ],
+  "streuung_gross": true
+ },
+ "Pistazien": {
+  "key": "pistazie",
+  "name": "Pistazien",
+  "alt": 10.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170184",
+    "lebensmittel": "Nuts, pistachio nuts, raw",
+    "wert": 10.6
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H250100",
+    "lebensmittel": "Pistazie",
+    "wert": 10.61
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:15044",
+    "lebensmittel": "Pistachio nut, grilled, no added salt",
+    "wert": 10.2
+   }
+  ],
+  "neu": 10.6,
+  "status": "median",
+  "spanne": [
+   10.2,
+   10.61
+  ],
+  "streuung_gross": false
+ },
+ "Erdnüsse": {
+  "key": "erdnuss",
+  "name": "Erdnüsse",
+  "alt": 8.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:172430",
+    "lebensmittel": "Peanuts, all types, raw",
+    "wert": 8.5
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H110600",
+    "lebensmittel": "Erdnuss geröstet",
+    "wert": 8.4
+   }
+  ],
+  "neu": 8.45,
+  "status": "median",
+  "spanne": [
+   8.4,
+   8.5
+  ],
+  "streuung_gross": false
+ },
+ "Pinienkerne": {
+  "key": "pinienkerne",
+  "name": "Pinienkerne",
+  "alt": 3.7,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170591",
+    "lebensmittel": "Nuts, pine nuts, dried",
+    "wert": 3.7
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H320100",
+    "lebensmittel": "Pinienkern",
+    "wert": 6.4
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:15025",
+    "lebensmittel": "Pine nut",
+    "wert": 10.0
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-839",
+    "lebensmittel": "Pine nuts, kernel only",
+    "wert": 1.9
+   }
+  ],
+  "neu": 5.05,
+  "status": "median",
+  "spanne": [
+   1.9,
+   10.0
+  ],
+  "streuung_gross": true
+ },
+ "Kokosraspeln": {
+  "key": "kokos",
+  "name": "Kokosraspeln",
+  "alt": 16.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170170",
+    "lebensmittel": "Nuts, coconut meat, dried (desiccated), not sweetened",
+    "wert": 16.3
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H150400",
+    "lebensmittel": "Kokos Fruchtfleisch, geraspelt, getrocknet",
+    "wert": 14.8
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-873",
+    "lebensmittel": "Coconut, desiccated",
+    "wert": 13.7
+   }
+  ],
+  "neu": 14.8,
+  "status": "median",
+  "spanne": [
+   13.7,
+   16.3
+  ],
+  "streuung_gross": false
+ },
+ "Sesam": {
+  "key": "sesam",
+  "name": "Sesam",
+  "alt": 12.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170150",
+    "lebensmittel": "Seeds, sesame seeds, whole, dried",
+    "wert": 11.8
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H420100",
+    "lebensmittel": "Sesam",
+    "wert": 11.18
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:15010",
+    "lebensmittel": "Sesame seed",
+    "wert": 11.8
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-844",
+    "lebensmittel": "Sesame seeds",
+    "wert": 7.9
+   }
+  ],
+  "neu": 11.49,
+  "status": "median",
+  "spanne": [
+   7.9,
+   11.8
+  ],
+  "streuung_gross": false
+ },
+ "Sonnenblumenkerne": {
+  "key": "sonnenblumenkerne",
+  "name": "Sonnenblumenkerne",
+  "alt": 9.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170562",
+    "lebensmittel": "Seeds, sunflower seed kernels, dried",
+    "wert": 8.6
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H430100",
+    "lebensmittel": "Sonnenblumenkern",
+    "wert": 5.8
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-845",
+    "lebensmittel": "Sunflower seeds",
+    "wert": 6.0
+   }
+  ],
+  "neu": 6.0,
+  "status": "median",
+  "spanne": [
+   5.8,
+   8.6
+  ],
+  "streuung_gross": false
+ },
+ "Kürbiskerne": {
+  "key": "kuerbiskerne",
+  "name": "Kürbiskerne",
+  "alt": 6.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170556",
+    "lebensmittel": "Seeds, pumpkin and squash seed kernels, dried",
+    "wert": 6.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H310100",
+    "lebensmittel": "Kürbiskern",
+    "wert": 8.66
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-842",
+    "lebensmittel": "Pumpkin seeds",
+    "wert": 5.3
+   }
+  ],
+  "neu": 6.0,
+  "status": "median",
+  "spanne": [
+   5.3,
+   8.66
+  ],
+  "streuung_gross": true
+ },
+ "Mohn": {
+  "key": "mohn",
+  "name": "Mohn",
+  "alt": 20.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171330",
+    "lebensmittel": "Spices, poppy seed",
+    "wert": 19.5
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H450100",
+    "lebensmittel": "Mohn",
+    "wert": 20.5
+   }
+  ],
+  "neu": 20.0,
+  "status": "median",
+  "spanne": [
+   19.5,
+   20.5
+  ],
+  "streuung_gross": false
+ },
+ "Rosinen/Sultaninen": {
+  "key": "rosinen",
+  "name": "Rosinen/Sultaninen",
+  "alt": 3.7,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168165",
+    "lebensmittel": "Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",
+    "wert": 4.5
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F840100",
+    "lebensmittel": "Rosine/Sultanine (Weinbeere getrocknet)",
+    "wert": 5.4
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:13046",
+    "lebensmittel": "Raisin",
+    "wert": 4.2
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-393",
+    "lebensmittel": "Raisins, dried",
+    "wert": 2.7
+   }
+  ],
+  "neu": 4.35,
+  "status": "median",
+  "spanne": [
+   2.7,
+   5.4
+  ],
+  "streuung_gross": true
+ },
+ "Aprikosen getrocknet": {
+  "key": "aprikose_tr",
+  "name": "Aprikosen getrocknet",
+  "alt": 7.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:173941",
+    "lebensmittel": "Apricots, dried, sulfured, uncooked",
+    "wert": 7.3
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F201400",
+    "lebensmittel": "Aprikose getrocknet",
+    "wert": 6.04
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-392",
+    "lebensmittel": "Apricots, ready-to-eat, semi-dried",
+    "wert": 5.3
+   }
+  ],
+  "neu": 6.04,
+  "status": "median",
+  "spanne": [
+   5.3,
+   7.3
+  ],
+  "streuung_gross": false
+ },
+ "Datteln": {
+  "key": "dattel",
+  "name": "Datteln",
+  "alt": 8.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171726",
+    "lebensmittel": "Dates, deglet noor",
+    "wert": 8.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F504400",
+    "lebensmittel": "Dattel getrocknet",
+    "wert": 11.16
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-394",
+    "lebensmittel": "Dates, dried, flesh and skin",
+    "wert": 7.5
+   }
+  ],
+  "neu": 8.0,
+  "status": "median",
+  "spanne": [
+   7.5,
+   11.16
+  ],
+  "streuung_gross": false
+ },
+ "Feigen getrocknet": {
+  "key": "feige_tr",
+  "name": "Feigen getrocknet",
+  "alt": 9.8,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:174665",
+    "lebensmittel": "Figs, dried, uncooked",
+    "wert": 9.8
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F505400",
+    "lebensmittel": "Feige getrocknet",
+    "wert": 13.0
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:13013",
+    "lebensmittel": "Fig, dried",
+    "wert": 8.15
+   }
+  ],
+  "neu": 9.8,
+  "status": "median",
+  "spanne": [
+   8.15,
+   13.0
+  ],
+  "streuung_gross": false
+ },
+ "Pflaumen getrocknet": {
+  "key": "pflaume_tr",
+  "name": "Pflaumen getrocknet",
+  "alt": 7.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168162",
+    "lebensmittel": "Plums, dried (prunes), uncooked",
+    "wert": 7.1
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F220400",
+    "lebensmittel": "Pflaume getrocknet",
+    "wert": 6.12
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:13042",
+    "lebensmittel": "Prune, pitted",
+    "wert": 5.1
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-391",
+    "lebensmittel": "Prunes, ready-to-eat, semi-dried",
+    "wert": 5.2
+   }
+  ],
+  "neu": 5.66,
+  "status": "median",
+  "spanne": [
+   5.1,
+   7.1
+  ],
+  "streuung_gross": false
+ },
+ "Aprikose": {
+  "key": "aprikose",
+  "name": "Aprikose",
+  "alt": 2.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171697",
+    "lebensmittel": "Apricots, raw",
+    "wert": 2.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F201100",
+    "lebensmittel": "Aprikose roh",
+    "wert": 1.54
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-025",
+    "lebensmittel": "Apricots, raw, flesh and skin",
+    "wert": 1.7
+   }
+  ],
+  "neu": 1.7,
+  "status": "median",
+  "spanne": [
+   1.54,
+   2.0
+  ],
+  "streuung_gross": false
+ },
+ "Apfel": {
+  "key": "apfel",
+  "name": "Apfel",
+  "alt": 2.4,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171688",
+    "lebensmittel": "Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",
+    "wert": 2.4
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F110100",
+    "lebensmittel": "Apfel roh",
+    "wert": 2.27
+   }
+  ],
+  "neu": 2.33,
+  "status": "median",
+  "spanne": [
+   2.27,
+   2.4
+  ],
+  "streuung_gross": false
+ },
+ "Birne": {
+  "key": "birne",
+  "name": "Birne",
+  "alt": 3.1,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169118",
+    "lebensmittel": "Pears, raw",
+    "wert": 3.1
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F130100",
+    "lebensmittel": "Birne roh",
+    "wert": 2.8
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-365",
+    "lebensmittel": "Pears, average, raw, flesh only",
+    "wert": 2.7
+   }
+  ],
+  "neu": 2.8,
+  "status": "median",
+  "spanne": [
+   2.7,
+   3.1
+  ],
+  "streuung_gross": false
+ },
+ "Quitte": {
+  "key": "quitte",
+  "name": "Quitte",
+  "alt": 1.9,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168163",
+    "lebensmittel": "Quinces, raw",
+    "wert": 1.9
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F140100",
+    "lebensmittel": "Quitte roh",
+    "wert": 5.92
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:13010",
+    "lebensmittel": "Quince, raw",
+    "wert": 1.9
+   }
+  ],
+  "neu": 1.9,
+  "status": "median",
+  "spanne": [
+   1.9,
+   5.92
+  ],
+  "streuung_gross": true
+ },
+ "Banane": {
+  "key": "banane",
+  "name": "Banane",
+  "alt": 2.6,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:173944",
+    "lebensmittel": "Bananas, raw",
+    "wert": 2.6
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F503100",
+    "lebensmittel": "Banane roh",
+    "wert": 2.0
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-318",
+    "lebensmittel": "Bananas, flesh only",
+    "wert": 1.4
+   }
+  ],
+  "neu": 2.0,
+  "status": "median",
+  "spanne": [
+   1.4,
+   2.6
+  ],
+  "streuung_gross": true
+ },
+ "Orange": {
+  "key": "orange",
+  "name": "Orange",
+  "alt": 2.4,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169097",
+    "lebensmittel": "Oranges, raw, all commercial varieties",
+    "wert": 2.4
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F603100",
+    "lebensmittel": "Orange roh",
+    "wert": 2.2
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-327",
+    "lebensmittel": "Oranges, flesh only",
+    "wert": 1.2
+   }
+  ],
+  "neu": 2.2,
+  "status": "median",
+  "spanne": [
+   1.2,
+   2.4
+  ],
+  "streuung_gross": true
+ },
+ "Zitronensaft": {
+  "key": "zitrone",
+  "name": "Zitronensaft",
+  "alt": 0.3,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:167747",
+    "lebensmittel": "Lemon juice, raw",
+    "wert": 0.3
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F601600",
+    "lebensmittel": "Zitronensaft",
+    "wert": 0.13
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:2028",
+    "lebensmittel": "Lemon juice, pure juice",
+    "wert": 0.4
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-277",
+    "lebensmittel": "Lemon juice, fresh",
+    "wert": 0.1
+   }
+  ],
+  "neu": 0.21,
+  "status": "median",
+  "spanne": [
+   0.1,
+   0.4
+  ],
+  "streuung_gross": false
+ },
+ "Granatapfel": {
+  "key": "granatapfel",
+  "name": "Granatapfel",
+  "alt": 4.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169134",
+    "lebensmittel": "Pomegranates, raw",
+    "wert": 4.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F506100",
+    "lebensmittel": "Granatapfel roh",
+    "wert": 2.24
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:13018",
+    "lebensmittel": "Pomegranate, flesh without skin, with seeds, raw",
+    "wert": 2.3
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-226",
+    "lebensmittel": "Pomegranate, flesh and pips",
+    "wert": 3.4
+   }
+  ],
+  "neu": 2.85,
+  "status": "median",
+  "spanne": [
+   2.24,
+   4.0
+  ],
+  "streuung_gross": true
+ },
+ "Granatapfelsirup (Nar Ekşisi)": {
+  "key": "nar_eksisi",
+  "name": "Granatapfelsirup (Nar Ekşisi)",
+  "alt": 0.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:167787",
+    "lebensmittel": "Pomegranate juice, bottled",
+    "wert": 0.1,
+    "verhaeltnis_fib_zu_gesamtKH": 0.0076
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:2017",
+    "lebensmittel": "Pomegranate juice, pure juice",
+    "wert": 0.1,
+    "verhaeltnis_fib_zu_gesamtKH": 0.0078
+   }
+  ],
+  "neu": 0.3,
+  "status": "derived",
+  "begr": "Nar Ekşisi ist eingekochter Granatapfelsaft ohne Zuckerzusatz; Ableitung aus Granatapfelsaft. Verhältnis Ballaststoffe/Gesamt-KH (Median 0.0077) × Gesamt-KH des Produkts (37.0 g) = 0.3 g."
+ },
+ "Weintraube": {
+  "key": "traube",
+  "name": "Weintraube",
+  "alt": 0.9,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:174683",
+    "lebensmittel": "Grapes, red or green (European type, such as Thompson seedless), raw",
+    "wert": 0.9
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F310100",
+    "lebensmittel": "Weintraube roh",
+    "wert": 1.6
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:13044",
+    "lebensmittel": "Grape, white, raw",
+    "wert": 1.0
+   }
+  ],
+  "neu": 1.0,
+  "status": "median",
+  "spanne": [
+   0.9,
+   1.6
+  ],
+  "streuung_gross": false
+ },
+ "Erdbeere": {
+  "key": "erdbeere",
+  "name": "Erdbeere",
+  "alt": 2.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:167762",
+    "lebensmittel": "Strawberries, raw",
+    "wert": 2.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F301100",
+    "lebensmittel": "Erdbeere roh",
+    "wert": 2.0
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:13014",
+    "lebensmittel": "Strawberry, raw",
+    "wert": 3.8
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-324",
+    "lebensmittel": "Strawberries, raw",
+    "wert": 3.8
+   }
+  ],
+  "neu": 2.9,
+  "status": "median",
+  "spanne": [
+   2.0,
+   3.8
+  ],
+  "streuung_gross": true
+ },
+ "Kirsche": {
+  "key": "kirsche",
+  "name": "Kirsche",
+  "alt": 2.1,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171719",
+    "lebensmittel": "Cherries, sweet, raw",
+    "wert": 2.1
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F211100",
+    "lebensmittel": "Süßkirsche roh",
+    "wert": 1.9
+   }
+  ],
+  "neu": 2.0,
+  "status": "median",
+  "spanne": [
+   1.9,
+   2.1
+  ],
+  "streuung_gross": false
+ },
+ "Sauerkirsche/Vişne": {
+  "key": "sauerkirsche",
+  "name": "Sauerkirsche/Vişne",
+  "alt": 1.6,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:173954",
+    "lebensmittel": "Cherries, sour, red, raw",
+    "wert": 1.6
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F212100",
+    "lebensmittel": "Sauerkirsche roh",
+    "wert": 1.1
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:13110",
+    "lebensmittel": "Morello cherry, raw",
+    "wert": 1.6
+   }
+  ],
+  "neu": 1.6,
+  "status": "median",
+  "spanne": [
+   1.1,
+   1.6
+  ],
+  "streuung_gross": false
+ },
+ "Pflaume/Zwetschge": {
+  "key": "pflaume",
+  "name": "Pflaume/Zwetschge",
+  "alt": 1.4,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169949",
+    "lebensmittel": "Plums, raw",
+    "wert": 1.4
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F220100",
+    "lebensmittel": "Pflaume roh",
+    "wert": 1.7
+   }
+  ],
+  "neu": 1.55,
+  "status": "median",
+  "spanne": [
+   1.4,
+   1.7
+  ],
+  "streuung_gross": false
+ },
+ "Pfirsich": {
+  "key": "pfirsich",
+  "name": "Pfirsich",
+  "alt": 1.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169928",
+    "lebensmittel": "Peaches, yellow, raw",
+    "wert": 1.5
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F203100",
+    "lebensmittel": "Pfirsich roh",
+    "wert": 1.7
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-299",
+    "lebensmittel": "Peaches, raw, flesh and skin",
+    "wert": 1.5
+   }
+  ],
+  "neu": 1.5,
+  "status": "median",
+  "spanne": [
+   1.5,
+   1.7
+  ],
+  "streuung_gross": false
+ },
+ "Wassermelone": {
+  "key": "wassermelone",
+  "name": "Wassermelone",
+  "alt": 0.4,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:167765",
+    "lebensmittel": "Watermelon, raw",
+    "wert": 0.4
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F535100",
+    "lebensmittel": "Wassermelone roh",
+    "wert": 0.2
+   }
+  ],
+  "neu": 0.3,
+  "status": "median",
+  "spanne": [
+   0.2,
+   0.4
+  ],
+  "streuung_gross": false
+ },
+ "Zuckermelone": {
+  "key": "melone",
+  "name": "Zuckermelone",
+  "alt": 0.9,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169911",
+    "lebensmittel": "Melons, honeydew, raw",
+    "wert": 0.8
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F533100",
+    "lebensmittel": "Honigmelone roh",
+    "wert": 1.13
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:13026",
+    "lebensmittel": "Melon, cantaloupe (ex Charentais melon), flesh without skin, without seeds, raw",
+    "wert": 1.3
+   }
+  ],
+  "neu": 1.13,
+  "status": "median",
+  "spanne": [
+   0.8,
+   1.3
+  ],
+  "streuung_gross": false
+ },
+ "Himbeere": {
+  "key": "himbeere",
+  "name": "Himbeere",
+  "alt": 6.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:167755",
+    "lebensmittel": "Raspberries, raw",
+    "wert": 6.5
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F302100",
+    "lebensmittel": "Himbeere roh",
+    "wert": 4.7
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:13015",
+    "lebensmittel": "Raspberry, raw",
+    "wert": 4.3
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-375",
+    "lebensmittel": "Raspberries, raw",
+    "wert": 3.7
+   }
+  ],
+  "neu": 4.5,
+  "status": "median",
+  "spanne": [
+   3.7,
+   6.5
+  ],
+  "streuung_gross": true
+ },
+ "Blaubeere": {
+  "key": "blaubeere",
+  "name": "Blaubeere",
+  "alt": 2.4,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171711",
+    "lebensmittel": "Blueberries, raw",
+    "wert": 2.4
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F304100",
+    "lebensmittel": "Heidelbeere roh",
+    "wert": 4.9
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:13028",
+    "lebensmittel": "Blueberry, raw",
+    "wert": 2.4
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-325",
+    "lebensmittel": "Blueberries",
+    "wert": 1.5
+   }
+  ],
+  "neu": 2.4,
+  "status": "median",
+  "spanne": [
+   1.5,
+   4.9
+  ],
+  "streuung_gross": true
+ },
+ "Maulbeere": {
+  "key": "maulbeere",
+  "name": "Maulbeere",
+  "alt": 1.7,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169913",
+    "lebensmittel": "Mulberries, raw",
+    "wert": 1.7
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F331100",
+    "lebensmittel": "Maulbeere roh",
+    "wert": 1.7
+   }
+  ],
+  "neu": 1.7,
+  "status": "median",
+  "spanne": [
+   1.7,
+   1.7
+  ],
+  "streuung_gross": false
+ },
+ "Preiselbeerkompott": {
+  "key": "preiselbeeren",
+  "name": "Preiselbeerkompott",
+  "alt": 1.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:173961",
+    "lebensmittel": "Cranberry sauce, canned, sweetened",
+    "wert": 1.1
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F4A1900",
+    "lebensmittel": "Preiselbeere gezuckert (mit Pektin) Konserve",
+    "wert": 1.3
+   }
+  ],
+  "neu": 1.2,
+  "status": "median",
+  "spanne": [
+   1.1,
+   1.3
+  ],
+  "streuung_gross": false
+ },
+ "Sonnenblumenöl": {
+  "key": "oel",
+  "name": "Sonnenblumenöl",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Olivenöl": {
+  "key": "olivenoel",
+  "name": "Olivenöl",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Butterschmalz": {
+  "key": "butterschmalz",
+  "name": "Butterschmalz",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Schweineschmalz": {
+  "key": "schmalz",
+  "name": "Schweineschmalz",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Margarine": {
+  "key": "margarine",
+  "name": "Margarine",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Salz": {
+  "key": "salz",
+  "name": "Salz",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Pfeffer": {
+  "key": "pfeffer",
+  "name": "Pfeffer",
+  "alt": 25.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170931",
+    "lebensmittel": "Spices, pepper, black",
+    "wert": 25.3
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:R258100",
+    "lebensmittel": "Pfeffer schwarz, getrocknet",
+    "wert": 25.5
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11015",
+    "lebensmittel": "Black pepper, powder",
+    "wert": 25.3
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-880",
+    "lebensmittel": "Pepper, black",
+    "wert": 25.3
+   }
+  ],
+  "neu": 25.3,
+  "status": "median",
+  "spanne": [
+   25.3,
+   25.5
+  ],
+  "streuung_gross": false
+ },
+ "Paprikapulver": {
+  "key": "paprikapulver",
+  "name": "Paprikapulver",
+  "alt": 35.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171329",
+    "lebensmittel": "Spices, paprika",
+    "wert": 34.9
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11049",
+    "lebensmittel": "Paprika, powder",
+    "wert": 34.9
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-879",
+    "lebensmittel": "Paprika",
+    "wert": 34.9
+   }
+  ],
+  "neu": 34.9,
+  "status": "median",
+  "spanne": [
+   34.9,
+   34.9
+  ],
+  "streuung_gross": false
+ },
+ "Pul Biber (Chiliflocken)": {
+  "key": "pul_biber",
+  "name": "Pul Biber (Chiliflocken)",
+  "alt": 28.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170932",
+    "lebensmittel": "Spices, pepper, red or cayenne",
+    "wert": 27.2
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-873",
+    "lebensmittel": "Chilli powder",
+    "wert": 34.8
+   }
+  ],
+  "neu": 31.0,
+  "status": "median",
+  "spanne": [
+   27.2,
+   34.8
+  ],
+  "streuung_gross": false
+ },
+ "Kreuzkümmel": {
+  "key": "kreuzkuemmel",
+  "name": "Kreuzkümmel",
+  "alt": 10.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170923",
+    "lebensmittel": "Spices, cumin seed",
+    "wert": 10.5
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11042",
+    "lebensmittel": "Cumin, seed",
+    "wert": 10.5
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-889",
+    "lebensmittel": "Cumin seeds",
+    "wert": 10.5
+   }
+  ],
+  "neu": 10.5,
+  "status": "median",
+  "spanne": [
+   10.5,
+   10.5
+  ],
+  "streuung_gross": false
+ },
+ "Zimt": {
+  "key": "zimt",
+  "name": "Zimt",
+  "alt": 53.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171320",
+    "lebensmittel": "Spices, cinnamon, ground",
+    "wert": 53.1
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-874",
+    "lebensmittel": "Cinnamon, ground",
+    "wert": 53.1
+   }
+  ],
+  "neu": 53.1,
+  "status": "median",
+  "spanne": [
+   53.1,
+   53.1
+  ],
+  "streuung_gross": false
+ },
+ "Oregano/Thymian/Majoran (trocken)": {
+  "key": "oregano",
+  "name": "Oregano/Thymian/Majoran (trocken)",
+  "alt": 40.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171328",
+    "lebensmittel": "Spices, oregano, dried",
+    "wert": 42.5
+   },
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170938",
+    "lebensmittel": "Spices, thyme, dried",
+    "wert": 37.0
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11035",
+    "lebensmittel": "Oregano, dried",
+    "wert": 42.5
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11038",
+    "lebensmittel": "Thyme, dried",
+    "wert": 37.0
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-878",
+    "lebensmittel": "Oregano, dried, ground",
+    "wert": 42.5
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-883",
+    "lebensmittel": "Thyme, dried, ground",
+    "wert": 37.0
+   }
+  ],
+  "neu": 39.75,
+  "status": "median",
+  "spanne": [
+   37.0,
+   42.5
+  ],
+  "streuung_gross": false
+ },
+ "Minze getrocknet": {
+  "key": "minze_trocken",
+  "name": "Minze getrocknet",
+  "alt": 30.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:172239",
+    "lebensmittel": "Spearmint, dried",
+    "wert": 29.8
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11029",
+    "lebensmittel": "Mint, dried",
+    "wert": 29.8
+   }
+  ],
+  "neu": 29.8,
+  "status": "median",
+  "spanne": [
+   29.8,
+   29.8
+  ],
+  "streuung_gross": false
+ },
+ "Gewürzmischung (Sumak, Muskat, Kurkuma usw.)": {
+  "key": "gewuerz",
+  "name": "Gewürzmischung (Sumak, Muskat, Kurkuma usw.)",
+  "alt": 25.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:172231",
+    "lebensmittel": "Spices, turmeric, ground",
+    "wert": 22.7
+   },
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171326",
+    "lebensmittel": "Spices, nutmeg, ground",
+    "wert": 20.8
+   },
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171321",
+    "lebensmittel": "Spices, cloves, ground",
+    "wert": 33.9
+   },
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171320",
+    "lebensmittel": "Spices, cinnamon, ground",
+    "wert": 53.1
+   },
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170923",
+    "lebensmittel": "Spices, cumin seed",
+    "wert": 10.5
+   }
+  ],
+  "neu": 22.7,
+  "status": "median",
+  "spanne": [
+   10.5,
+   53.1
+  ],
+  "streuung_gross": true
+ },
+ "Kakaopulver": {
+  "key": "kakao",
+  "name": "Kakaopulver",
+  "alt": 33.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169593",
+    "lebensmittel": "Cocoa, dry powder, unsweetened",
+    "wert": 37.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:S711000",
+    "lebensmittel": "Kakaopulver schwach entölt",
+    "wert": 26.32
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:12-545",
+    "lebensmittel": "Cocoa powder",
+    "wert": 12.1
+   }
+  ],
+  "neu": 26.32,
+  "status": "median",
+  "spanne": [
+   12.1,
+   37.0
+  ],
+  "streuung_gross": true
+ },
+ "Zartbitterschokolade": {
+  "key": "schokolade",
+  "name": "Zartbitterschokolade",
+  "alt": 10.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170272",
+    "lebensmittel": "Chocolate, dark, 60-69% cacao solids",
+    "wert": 8.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:S570000",
+    "lebensmittel": "Bitterschokolade",
+    "wert": 10.11
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:31005",
+    "lebensmittel": "Dark chocolate, 50% cocoa, bar",
+    "wert": 8.31
+   }
+  ],
+  "neu": 8.31,
+  "status": "median",
+  "spanne": [
+   8.0,
+   10.11
+  ],
+  "streuung_gross": false
+ },
+ "Vollmilchschokolade": {
+  "key": "schokolade_milch",
+  "name": "Vollmilchschokolade",
+  "alt": 3.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:167587",
+    "lebensmittel": "Candies, milk chocolate",
+    "wert": 3.4
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:S539900",
+    "lebensmittel": "Vollmilchschokolade",
+    "wert": 2.52
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:31004",
+    "lebensmittel": "Milk chocolate, bar",
+    "wert": 2.9
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:17-648",
+    "lebensmittel": "Chocolate, milk",
+    "wert": 2.3
+   }
+  ],
+  "neu": 2.71,
+  "status": "median",
+  "spanne": [
+   2.3,
+   3.4
+  ],
+  "streuung_gross": false
+ },
+ "Gelatine": {
+  "key": "gelatine",
+  "name": "Gelatine",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Senf": {
+  "key": "senf",
+  "name": "Senf",
+  "alt": 3.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:172234",
+    "lebensmittel": "Mustard, prepared, yellow",
+    "wert": 4.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:R132000",
+    "lebensmittel": "Senf mittelscharf",
+    "wert": 4.5
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11013",
+    "lebensmittel": "Mustard",
+    "wert": 1.0
+   }
+  ],
+  "neu": 4.0,
+  "status": "median",
+  "spanne": [
+   1.0,
+   4.5
+  ],
+  "streuung_gross": true
+ },
+ "Ketchup": {
+  "key": "ketchup",
+  "name": "Ketchup",
+  "alt": 1.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168556",
+    "lebensmittel": "Catsup",
+    "wert": 0.3
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:R141100",
+    "lebensmittel": "Tomatenketchup",
+    "wert": 1.81
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11008",
+    "lebensmittel": "Ketchup, prepacked",
+    "wert": 1.77
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:17-709",
+    "lebensmittel": "Tomato ketchup",
+    "wert": 0.9
+   }
+  ],
+  "neu": 1.33,
+  "status": "median",
+  "spanne": [
+   0.3,
+   1.81
+  ],
+  "streuung_gross": true
+ },
+ "Mayonnaise": {
+  "key": "mayonnaise",
+  "name": "Mayonnaise",
+  "alt": 0.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171009",
+    "lebensmittel": "Salad dressing, mayonnaise, regular",
+    "wert": 0.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:Q991000",
+    "lebensmittel": "Mayonnaise (Fertigprodukt)",
+    "wert": 0.64
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11054",
+    "lebensmittel": "Mayonnaise (70% fat min.), prepacked",
+    "wert": 0.26
+   }
+  ],
+  "neu": 0.26,
+  "status": "median",
+  "spanne": [
+   0.0,
+   0.64
+  ],
+  "streuung_gross": false
+ },
+ "Essig": {
+  "key": "essig",
+  "name": "Essig",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Rotwein": {
+  "key": "wein_rot",
+  "name": "Rotwein",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Weißwein": {
+  "key": "wein_weiss",
+  "name": "Weißwein",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Bier": {
+  "key": "bier",
+  "name": "Bier",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Brühe": {
+  "key": "bruehe",
+  "name": "Brühe",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Wasser": {
+  "key": "wasser",
+  "name": "Wasser",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Tee/Kaffee (ungesüßt)": {
+  "key": "tee",
+  "name": "Tee/Kaffee (ungesüßt)",
+  "alt": 0.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171890",
+    "lebensmittel": "Beverages, coffee, brewed, prepared with tap water",
+    "wert": 0.0
+   },
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:173227",
+    "lebensmittel": "Beverages, tea, black, brewed, prepared with tap water",
+    "wert": 0.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:N410100",
+    "lebensmittel": "Kaffee (Getränk)",
+    "wert": 0.31
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:17-833",
+    "lebensmittel": "Coffee, infusion, average",
+    "wert": 0.0
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:17-165",
+    "lebensmittel": "Tea, black, infusion, average",
+    "wert": 0.0
+   }
+  ],
+  "neu": 0.0,
+  "status": "median",
+  "spanne": [
+   0.0,
+   0.31
+  ],
+  "streuung_gross": false
+ },
+ "Sauerkraut": {
+  "key": "sauerkraut",
+  "name": "Sauerkraut",
+  "alt": 2.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169279",
+    "lebensmittel": "Sauerkraut, canned, solids and liquids",
+    "wert": 2.9
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G345902",
+    "lebensmittel": "Sauerkraut Konserve, abgetropft",
+    "wert": 3.95
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-336",
+    "lebensmittel": "Sauerkraut",
+    "wert": 2.2
+   }
+  ],
+  "neu": 2.9,
+  "status": "median",
+  "spanne": [
+   2.2,
+   3.95
+  ],
+  "streuung_gross": true
+ },
+ "Gewürzgurke": {
+  "key": "gewuerzgurke",
+  "name": "Gewürzgurke",
+  "alt": 1.2,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168558",
+    "lebensmittel": "Pickles, cucumber, dill or kosher dill",
+    "wert": 1.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G520802",
+    "lebensmittel": "Gurke gesäuert (Gewürzgurke) abgetropft",
+    "wert": 0.88
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11004",
+    "lebensmittel": "Gherkin, pickled in vinegar",
+    "wert": 1.5
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-246",
+    "lebensmittel": "Gherkins, pickled, drained",
+    "wert": 1.5
+   }
+  ],
+  "neu": 1.25,
+  "status": "median",
+  "spanne": [
+   0.88,
+   1.5
+  ],
+  "streuung_gross": false
+ },
+ "Oliven": {
+  "key": "olive",
+  "name": "Oliven",
+  "alt": 3.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169096",
+    "lebensmittel": "Olives, pickled, canned or bottled, green",
+    "wert": 3.3
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H510802",
+    "lebensmittel": "Oliven grün, gesäuert, abgetropft",
+    "wert": 2.36
+   },
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169094",
+    "lebensmittel": "Olives, ripe, canned (small-extra large)",
+    "wert": 1.6
+   }
+  ],
+  "neu": 2.36,
+  "status": "median",
+  "spanne": [
+   1.6,
+   3.3
+  ],
+  "streuung_gross": true
+ },
+ "Sumak": {
+  "key": "sumak_pulver",
+  "name": "Sumak",
+  "alt": 20.0,
+  "werte": [],
+  "neu": 20.0,
+  "status": "keep",
+  "begr": "Sumach ist in keiner der freien Datenbanken (SR, BLS, Ciqual, CoFID, CH) enthalten. Alter Wert 20 g bleibt vorläufig."
+ },
+ "Kalbfleisch (Schnitzel/Keule)": {
+  "key": "kalb",
+  "name": "Kalbfleisch (Schnitzel/Keule)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Wildfleisch (Reh/Hirsch)": {
+  "key": "wild",
+  "name": "Wildfleisch (Reh/Hirsch)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Wildschweinfleisch": {
+  "key": "wildschwein",
+  "name": "Wildschweinfleisch",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Kaninchenfleisch": {
+  "key": "kaninchen",
+  "name": "Kaninchenfleisch",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Rhabarber": {
+  "key": "rhabarber",
+  "name": "Rhabarber",
+  "alt": 1.8,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:167758",
+    "lebensmittel": "Rhubarb, raw",
+    "wert": 1.8
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F081100",
+    "lebensmittel": "Rhabarber roh",
+    "wert": 3.2
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:13047",
+    "lebensmittel": "Rhubarb, stalk, raw",
+    "wert": 1.8
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-252",
+    "lebensmittel": "Rhubarb, stems only, raw",
+    "wert": 1.4
+   }
+  ],
+  "neu": 1.8,
+  "status": "median",
+  "spanne": [
+   1.4,
+   3.2
+  ],
+  "streuung_gross": true
+ },
+ "Rosenkohl": {
+  "key": "rosenkohl",
+  "name": "Rosenkohl",
+  "alt": 3.8,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170383",
+    "lebensmittel": "Brussels sprouts, raw",
+    "wert": 3.8
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G332100",
+    "lebensmittel": "Rosenkohl roh",
+    "wert": 4.4
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20058",
+    "lebensmittel": "Brussels sprout, raw",
+    "wert": 3.8
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-177",
+    "lebensmittel": "Brussels sprouts, raw",
+    "wert": 4.1
+   }
+  ],
+  "neu": 3.95,
+  "status": "median",
+  "spanne": [
+   3.8,
+   4.4
+  ],
+  "streuung_gross": false
+ },
+ "Grünkohl": {
+  "key": "gruenkohl",
+  "name": "Grünkohl",
+  "alt": 4.2,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168421",
+    "lebensmittel": "Kale, raw",
+    "wert": 4.1
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G322100",
+    "lebensmittel": "Grünkohl roh",
+    "wert": 8.39
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20346",
+    "lebensmittel": "Kale, raw",
+    "wert": 4.1
+   }
+  ],
+  "neu": 4.1,
+  "status": "median",
+  "spanne": [
+   4.1,
+   8.39
+  ],
+  "streuung_gross": true
+ },
+ "Meerrettich": {
+  "key": "meerrettich",
+  "name": "Meerrettich",
+  "alt": 3.0,
+  "werte": [
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G630100",
+    "lebensmittel": "Meerrettich roh",
+    "wert": 4.29
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11016",
+    "lebensmittel": "Horseradish, raw",
+    "wert": 7.5
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-258",
+    "lebensmittel": "Horseradish, raw",
+    "wert": 6.2
+   }
+  ],
+  "neu": 6.2,
+  "status": "median",
+  "spanne": [
+   4.29,
+   7.5
+  ],
+  "streuung_gross": true
+ },
+ "Marzipan": {
+  "key": "marzipan",
+  "name": "Marzipan",
+  "alt": 4.0,
+  "werte": [
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:S421000",
+    "lebensmittel": "Marzipan Rohmasse",
+    "wert": 4.99
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:15201",
+    "lebensmittel": "Marzipan or almond paste, prepacked",
+    "wert": 2.8
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-893",
+    "lebensmittel": "Marzipan, homemade",
+    "wert": 3.3
+   }
+  ],
+  "neu": 3.3,
+  "status": "median",
+  "spanne": [
+   2.8,
+   4.99
+  ],
+  "streuung_gross": true
+ },
+ "Graupen (Gerste)": {
+  "key": "graupen",
+  "name": "Graupen (Gerste)",
+  "alt": 15.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170284",
+    "lebensmittel": "Barley, pearled, raw",
+    "wert": 15.6
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:C148000",
+    "lebensmittel": "Gerste Graupen",
+    "wert": 4.6
+   }
+  ],
+  "neu": 10.1,
+  "status": "median",
+  "spanne": [
+   4.6,
+   15.6
+  ],
+  "streuung_gross": true
+ },
+ "Erbsen getrocknet": {
+  "key": "erbsen_trocken",
+  "name": "Erbsen getrocknet",
+  "alt": 16.0,
+  "werte": [
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G760400",
+    "lebensmittel": "Erbse reif",
+    "wert": 22.03
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-130",
+    "lebensmittel": "Peas, dried, raw",
+    "wert": 13.0
+   }
+  ],
+  "neu": 17.52,
+  "status": "median",
+  "spanne": [
+   13.0,
+   22.03
+  ],
+  "streuung_gross": true
+ },
+ "Lebkuchengewürz/Zimt-Nelke": {
+  "key": "lebkuchen_gewuerz",
+  "name": "Lebkuchengewürz/Zimt-Nelke",
+  "alt": 25.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171320",
+    "lebensmittel": "Spices, cinnamon, ground",
+    "wert": 53.1
+   },
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171321",
+    "lebensmittel": "Spices, cloves, ground",
+    "wert": 33.9
+   },
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171326",
+    "lebensmittel": "Spices, nutmeg, ground",
+    "wert": 20.8
+   }
+  ],
+  "neu": 33.9,
+  "status": "median",
+  "spanne": [
+   20.8,
+   53.1
+  ],
+  "streuung_gross": true
+ },
+ "Speisequark 20 % Fett": {
+  "key": "speisequark_20",
+  "name": "Speisequark 20 % Fett",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Puddingpulver": {
+  "key": "vanillepudding_pulver",
+  "name": "Puddingpulver",
+  "alt": 0.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169609",
+    "lebensmittel": "Puddings, vanilla, dry mix, regular",
+    "wert": 0.6
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:R481100",
+    "lebensmittel": "Puddingpulver Vanille, ungezuckert",
+    "wert": 0.99
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:11-1138",
+    "lebensmittel": "Custard powder",
+    "wert": 0.1
+   }
+  ],
+  "neu": 0.6,
+  "status": "median",
+  "spanne": [
+   0.1,
+   0.99
+  ],
+  "streuung_gross": false
+ },
+ "Sauerrahm (10 % Fett)": {
+  "key": "sauerrahm",
+  "name": "Sauerrahm (10 % Fett)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Rotkohl (gegart, Glas)": {
+  "key": "rotkohl_glas",
+  "name": "Rotkohl (gegart, Glas)",
+  "alt": 2.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169978",
+    "lebensmittel": "Cabbage, red, cooked, boiled, drained, without salt",
+    "wert": 2.6
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G341900",
+    "lebensmittel": "Rotkohlgemüse (küchenfertig) Konserve",
+    "wert": 3.21
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20355",
+    "lebensmittel": "Red cabbage, cooked (average)",
+    "wert": 2.9
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-540",
+    "lebensmittel": "Cabbage, red, boiled in unsalted water",
+    "wert": 2.3
+   }
+  ],
+  "neu": 2.75,
+  "status": "median",
+  "spanne": [
+   2.3,
+   3.21
+  ],
+  "streuung_gross": false
+ },
+ "Ananas": {
+  "key": "ananas",
+  "name": "Ananas",
+  "alt": 1.4,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169124",
+    "lebensmittel": "Pineapple, raw, all varieties",
+    "wert": 1.4
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F501100",
+    "lebensmittel": "Ananas roh",
+    "wert": 1.4
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-376",
+    "lebensmittel": "Pineapple, flesh only, raw",
+    "wert": 1.2
+   }
+  ],
+  "neu": 1.4,
+  "status": "median",
+  "spanne": [
+   1.2,
+   1.4
+  ],
+  "streuung_gross": false
+ },
+ "Ricotta": {
+  "key": "ricotta",
+  "name": "Ricotta",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Pecorino": {
+  "key": "pecorino",
+  "name": "Pecorino",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Rohschinken (Prosciutto/Jamón)": {
+  "key": "rohschinken",
+  "name": "Rohschinken (Prosciutto/Jamón)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Chorizo": {
+  "key": "chorizo",
+  "name": "Chorizo",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Stockfisch/Bacalao (gewässert)": {
+  "key": "stockfisch",
+  "name": "Stockfisch/Bacalao (gewässert)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Schnecken": {
+  "key": "schnecke",
+  "name": "Schnecken",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Krabbe/Krebsfleisch": {
+  "key": "krabbe",
+  "name": "Krabbe/Krebsfleisch",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Hummer/Langustine": {
+  "key": "hummer",
+  "name": "Hummer/Langustine",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Blauschimmelkäse (Gorgonzola)": {
+  "key": "blauschimmelkaese",
+  "name": "Blauschimmelkäse (Gorgonzola)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Ziegenkäse": {
+  "key": "ziegenkaese",
+  "name": "Ziegenkäse",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Buttermilch": {
+  "key": "buttermilch",
+  "name": "Buttermilch",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Knäckebrot": {
+  "key": "knaeckebrot",
+  "name": "Knäckebrot",
+  "alt": 14.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:172744",
+    "lebensmittel": "Crackers, rye, wafers, plain",
+    "wert": 22.9
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:B6A2000",
+    "lebensmittel": "Roggenknäckebrot",
+    "wert": 18.16
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:11-822",
+    "lebensmittel": "Crispbread, rye",
+    "wert": 20.0
+   }
+  ],
+  "neu": 20.0,
+  "status": "median",
+  "spanne": [
+   18.16,
+   22.9
+  ],
+  "streuung_gross": false
+ },
+ "Speiseeis": {
+  "key": "eis",
+  "name": "Speiseeis",
+  "alt": 0.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:167575",
+    "lebensmittel": "Ice creams, vanilla",
+    "wert": 0.7
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:S243000",
+    "lebensmittel": "Speiseeis (Schoko, Vanille) gemischt",
+    "wert": 1.38
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:12-508",
+    "lebensmittel": "Ice cream, dairy, vanilla, soft scoop",
+    "wert": 0.2
+   }
+  ],
+  "neu": 0.7,
+  "status": "median",
+  "spanne": [
+   0.2,
+   1.38
+  ],
+  "streuung_gross": true
+ },
+ "Butterkeks": {
+  "key": "keks",
+  "name": "Butterkeks",
+  "alt": 2.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:172819",
+    "lebensmittel": "Cookies, butter, commercially prepared, unenriched",
+    "wert": 0.8
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:D630400",
+    "lebensmittel": "Butterkekse/Butterplätzchen (Mürbeteig)",
+    "wert": 2.41
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:24015",
+    "lebensmittel": "Butter biscuit (cookie)",
+    "wert": 2.54
+   }
+  ],
+  "neu": 2.41,
+  "status": "median",
+  "spanne": [
+   0.8,
+   2.54
+  ],
+  "streuung_gross": true
+ },
+ "Spirituose 40 %": {
+  "key": "spirituose",
+  "name": "Spirituose 40 %",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Sherry/Portwein/Likörwein": {
+  "key": "likoerwein",
+  "name": "Sherry/Portwein/Likörwein",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Likör": {
+  "key": "likoer",
+  "name": "Likör",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Apfelwein/Cider": {
+  "key": "apfelwein",
+  "name": "Apfelwein/Cider",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Kaffee (aufgebrüht)": {
+  "key": "kaffee",
+  "name": "Kaffee (aufgebrüht)",
+  "alt": 0.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:171890",
+    "lebensmittel": "Beverages, coffee, brewed, prepared with tap water",
+    "wert": 0.0
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:N410100",
+    "lebensmittel": "Kaffee (Getränk)",
+    "wert": 0.31
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:17-833",
+    "lebensmittel": "Coffee, infusion, average",
+    "wert": 0.0
+   }
+  ],
+  "neu": 0.0,
+  "status": "median",
+  "spanne": [
+   0.0,
+   0.31
+  ],
+  "streuung_gross": false
+ },
+ "Kondensmilch gezuckert": {
+  "key": "kondensmilch",
+  "name": "Kondensmilch gezuckert",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Pflaumenmus": {
+  "key": "pflaumenmus",
+  "name": "Pflaumenmus",
+  "alt": 1.5,
+  "werte": [
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:S161000",
+    "lebensmittel": "Pflaumenmus",
+    "wert": 1.66
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:17-688",
+    "lebensmittel": "Jam, stone fruit",
+    "wert": 1.0
+   }
+  ],
+  "neu": 1.33,
+  "status": "median",
+  "spanne": [
+   1.0,
+   1.66
+  ],
+  "streuung_gross": false
+ },
+ "Fladenbrot/Pita": {
+  "key": "fladenbrot",
+  "name": "Fladenbrot/Pita",
+  "alt": 2.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:174915",
+    "lebensmittel": "Bread, pita, white, enriched",
+    "wert": 2.2
+   }
+  ],
+  "neu": 2.2,
+  "status": "single",
+  "spanne": [
+   2.2,
+   2.2
+  ],
+  "streuung_gross": false
+ },
+ "Räucherwürstchen/Kielbasa": {
+  "key": "wuerstchen_geraeuchert",
+  "name": "Räucherwürstchen/Kielbasa",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Quittenbrot": {
+  "key": "quittenbrot",
+  "name": "Quittenbrot",
+  "alt": 1.0,
+  "werte": [],
+  "neu": 1.0,
+  "status": "keep",
+  "begr": "Keine freie Quelle; Ableitung aus Quitte scheitert, weil Zuckerzusatz und Einkochverlust unbekannt sind und die Quellen für Quitte selbst 1,9 bis 5,9 g streuen. Alter Wert 1 g bleibt vorläufig."
+ },
+ "Weinbrand/Rum": {
+  "key": "weinbrand",
+  "name": "Weinbrand/Rum",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Foie gras": {
+  "key": "foie_gras",
+  "name": "Foie gras",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Haggis": {
+  "key": "x2_haggis",
+  "name": "Haggis",
+  "alt": 1.5,
+  "werte": [
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:19-132",
+    "lebensmittel": "Haggis, boiled",
+    "wert": 0.2
+   }
+  ],
+  "neu": 0.2,
+  "status": "single",
+  "spanne": [
+   0.2,
+   0.2
+  ],
+  "streuung_gross": false
+ },
+ "Kutteln (Rindermagen, gegart)": {
+  "key": "x2_kutteln",
+  "name": "Kutteln (Rindermagen, gegart)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Löffelbiskuit": {
+  "key": "x2_biskuit",
+  "name": "Löffelbiskuit",
+  "alt": 2.0,
+  "werte": [
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:D710200",
+    "lebensmittel": "Löffelbiskuits",
+    "wert": 1.93
+   }
+  ],
+  "neu": 1.93,
+  "status": "single",
+  "spanne": [
+   1.93,
+   1.93
+  ],
+  "streuung_gross": false
+ },
+ "Spekulatius-Aufstrich (Biscoff-Art)": {
+  "key": "x2_speculoos_creme",
+  "name": "Spekulatius-Aufstrich (Biscoff-Art)",
+  "alt": 1.0,
+  "werte": [],
+  "neu": 1.0,
+  "status": "keep",
+  "begr": "Markenprodukt-Typ, keine freie Datenbank; Keksanteil unbekannt. Alter Wert 1 g bleibt vorläufig."
+ },
+ "Limonade/Bitter-Orangen-Limonade": {
+  "key": "x2_limonade",
+  "name": "Limonade/Bitter-Orangen-Limonade",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Pizzateig (roh)": {
+  "key": "x3_pizzateig",
+  "name": "Pizzateig (roh)",
+  "alt": 2.5,
+  "werte": [
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:X9A6030",
+    "lebensmittel": "Hefeteig für Pizza/Pizzateig, roh",
+    "wert": 3.0
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:37001",
+    "lebensmittel": "Pizza dough, prepacked, raw",
+    "wert": 2.2
+   }
+  ],
+  "neu": 2.6,
+  "status": "median",
+  "spanne": [
+   2.2,
+   3.0
+  ],
+  "streuung_gross": false
+ },
+ "Buchweizen (Graupen/Mehl)": {
+  "key": "x4_buchweizen",
+  "name": "Buchweizen (Graupen/Mehl)",
+  "alt": 10.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170685",
+    "lebensmittel": "Buckwheat groats, roasted, dry",
+    "wert": 10.3
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:C322000",
+    "lebensmittel": "Buchweizen roh",
+    "wert": 5.53
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:11-006",
+    "lebensmittel": "Buckwheat, groats",
+    "wert": 2.1
+   }
+  ],
+  "neu": 5.53,
+  "status": "median",
+  "spanne": [
+   2.1,
+   10.3
+  ],
+  "streuung_gross": true
+ },
+ "Roggenmehl Type 1370": {
+  "key": "x4_roggenmehl",
+  "name": "Roggenmehl Type 1370",
+  "alt": 14.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168886",
+    "lebensmittel": "Rye flour, medium",
+    "wert": 11.8
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:C223400",
+    "lebensmittel": "Roggen Mehl, Type 1370",
+    "wert": 17.66
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:9533",
+    "lebensmittel": "Rye flour, type 130",
+    "wert": 9.5
+   }
+  ],
+  "neu": 11.8,
+  "status": "median",
+  "spanne": [
+   9.5,
+   17.66
+  ],
+  "streuung_gross": true
+ },
+ "Seetang/Purpurtang (Laver), gegart": {
+  "key": "x4_seetang",
+  "name": "Seetang/Purpurtang (Laver), gegart",
+  "alt": 0.3,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168458",
+    "lebensmittel": "Seaweed, laver, raw",
+    "wert": 0.3
+   }
+  ],
+  "neu": 0.3,
+  "status": "single",
+  "spanne": [
+   0.3,
+   0.3
+  ],
+  "streuung_gross": false
+ },
+ "Erdmandeln (Tigernüsse)": {
+  "key": "x4_erdmandel",
+  "name": "Erdmandeln (Tigernüsse)",
+  "alt": 10.0,
+  "werte": [
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-848",
+    "lebensmittel": "Tigernuts",
+    "wert": 11.7
+   }
+  ],
+  "neu": 11.7,
+  "status": "single",
+  "spanne": [
+   11.7,
+   11.7
+  ],
+  "streuung_gross": false
+ },
+ "Weizenkörner (Dövme/Aşurelik, trocken)": {
+  "key": "xa_weizen",
+  "name": "Weizenkörner (Dövme/Aşurelik, trocken)",
+  "alt": 11.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168890",
+    "lebensmittel": "Wheat, hard red winter",
+    "wert": 12.2
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:C111000",
+    "lebensmittel": "Weizen ganzes Korn, roh",
+    "wert": 13.26
+   }
+  ],
+  "neu": 12.73,
+  "status": "median",
+  "spanne": [
+   12.2,
+   13.26
+  ],
+  "streuung_gross": false
+ },
+ "Sulguni/Imeruli (Salzlakenkäse, mild)": {
+  "key": "xa_sulguni",
+  "name": "Sulguni/Imeruli (Salzlakenkäse, mild)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Koriandergrün frisch": {
+  "key": "xa_koriander",
+  "name": "Koriandergrün frisch",
+  "alt": 2.8,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169997",
+    "lebensmittel": "Coriander (cilantro) leaves, raw",
+    "wert": 2.8
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:11094",
+    "lebensmittel": "Coriander, fresh",
+    "wert": 2.8
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-888",
+    "lebensmittel": "Coriander leaves, fresh",
+    "wert": 2.8
+   }
+  ],
+  "neu": 2.8,
+  "status": "median",
+  "spanne": [
+   2.8,
+   2.8
+  ],
+  "streuung_gross": false
+ },
+ "Traubensaft": {
+  "key": "xa_traubensaft",
+  "name": "Traubensaft",
+  "alt": 0.2,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:173042",
+    "lebensmittel": "Grape juice, canned or bottled, unsweetened, without added ascorbic acid",
+    "wert": 0.2
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F310600",
+    "lebensmittel": "Traubensaft",
+    "wert": 0.31
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:2016",
+    "lebensmittel": "Grape juice, pure juice",
+    "wert": 0.14
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:17-745",
+    "lebensmittel": "Grape juice, unsweetened",
+    "wert": 0.0
+   }
+  ],
+  "neu": 0.17,
+  "status": "median",
+  "spanne": [
+   0.0,
+   0.31
+  ],
+  "streuung_gross": false
+ },
+ "Tkemali (saure Pflaumensauce)": {
+  "key": "xa_tkemali",
+  "name": "Tkemali (saure Pflaumensauce)",
+  "alt": 1.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169949",
+    "lebensmittel": "Plums, raw",
+    "wert": 1.4,
+    "verhaeltnis_fib_zu_gesamtKH": 0.1226
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F220100",
+    "lebensmittel": "Pflaume roh",
+    "wert": 1.7,
+    "verhaeltnis_fib_zu_gesamtKH": 0.137
+   }
+  ],
+  "neu": 1.8,
+  "status": "derived",
+  "begr": "Tkemali ist eingekochte Sauerpflaume mit Knoblauch/Kräutern (ohne Zucker); Ableitung aus roher Pflaume. Verhältnis Ballaststoffe/Gesamt-KH (Median 0.1298) × Gesamt-KH des Produkts (14.0 g) = 1.8 g."
+ },
+ "Hartkäse Schaf/Kuh (Kefalotyri/Kashkaval)": {
+  "key": "xa_kaese_hart",
+  "name": "Hartkäse Schaf/Kuh (Kefalotyri/Kashkaval)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Rote Kidneybohnen (trocken)": {
+  "key": "xa_bohnen_rot",
+  "name": "Rote Kidneybohnen (trocken)",
+  "alt": 15.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:173744",
+    "lebensmittel": "Beans, kidney, red, mature seeds, raw",
+    "wert": 15.2
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H742100",
+    "lebensmittel": "Kidneybohne reif",
+    "wert": 24.9
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20525",
+    "lebensmittel": "Red kidney bean, dried",
+    "wert": 15.2
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-109",
+    "lebensmittel": "Beans, red kidney, dried, raw",
+    "wert": 15.7
+   }
+  ],
+  "neu": 15.45,
+  "status": "median",
+  "spanne": [
+   15.2,
+   24.9
+  ],
+  "streuung_gross": true
+ },
+ "Frischer Salzkäse (Sirene/Brynza/Bryndza)": {
+  "key": "xa_kaese_salz_frisch",
+  "name": "Frischer Salzkäse (Sirene/Brynza/Bryndza)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Kohlrabi": {
+  "key": "xb_kohlrabi",
+  "name": "Kohlrabi",
+  "alt": 1.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168424",
+    "lebensmittel": "Kohlrabi, raw",
+    "wert": 3.6
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G331100",
+    "lebensmittel": "Kohlrabi roh",
+    "wert": 1.5
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20065",
+    "lebensmittel": "Kohlrabi, raw",
+    "wert": 3.6
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-261",
+    "lebensmittel": "Kohl rabi, raw",
+    "wert": 2.2
+   }
+  ],
+  "neu": 2.9,
+  "status": "median",
+  "spanne": [
+   1.5,
+   3.6
+  ],
+  "streuung_gross": true
+ },
+ "Fenchel": {
+  "key": "xb_fenchel",
+  "name": "Fenchel",
+  "alt": 2.9,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169385",
+    "lebensmittel": "Fennel, bulb, raw",
+    "wert": 3.1
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20028",
+    "lebensmittel": "Fennel, raw",
+    "wert": 2.6
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-241",
+    "lebensmittel": "Fennel, Florence, raw",
+    "wert": 2.4
+   }
+  ],
+  "neu": 2.6,
+  "status": "median",
+  "spanne": [
+   2.4,
+   3.1
+  ],
+  "streuung_gross": false
+ },
+ "Pastinake/Petersilienwurzel": {
+  "key": "xb_pastinake",
+  "name": "Pastinake/Petersilienwurzel",
+  "alt": 4.9,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170417",
+    "lebensmittel": "Parsnips, raw",
+    "wert": 4.9
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G640100",
+    "lebensmittel": "Pastinake roh",
+    "wert": 2.13
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20181",
+    "lebensmittel": "Parsnip, raw",
+    "wert": 4.9
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-312",
+    "lebensmittel": "Parsnip, raw",
+    "wert": 4.7
+   }
+  ],
+  "neu": 4.8,
+  "status": "median",
+  "spanne": [
+   2.13,
+   4.9
+  ],
+  "streuung_gross": true
+ },
+ "Schwarzwurzel": {
+  "key": "xb_schwarzwurzel",
+  "name": "Schwarzwurzel",
+  "alt": 3.3,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169277",
+    "lebensmittel": "Salsify, (vegetable oyster), raw",
+    "wert": 3.3
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G650100",
+    "lebensmittel": "Schwarzwurzel roh",
+    "wert": 5.0
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20197",
+    "lebensmittel": "Salsify, black, raw",
+    "wert": 3.3
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-334",
+    "lebensmittel": "Salsify, flesh only, raw",
+    "wert": 3.2
+   }
+  ],
+  "neu": 3.3,
+  "status": "median",
+  "spanne": [
+   3.2,
+   5.0
+  ],
+  "streuung_gross": true
+ },
+ "Steckrübe": {
+  "key": "xb_steckruebe",
+  "name": "Steckrübe",
+  "alt": 2.3,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:168454",
+    "lebensmittel": "Rutabagas, raw",
+    "wert": 2.3
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:G611100",
+    "lebensmittel": "Kohlrübe/Steckrübe, roh",
+    "wert": 2.9
+   }
+  ],
+  "neu": 2.6,
+  "status": "median",
+  "spanne": [
+   2.3,
+   2.9
+  ],
+  "streuung_gross": false
+ },
+ "Johannisbeere (rot/schwarz)": {
+  "key": "xb_johannisbeere",
+  "name": "Johannisbeere (rot/schwarz)",
+  "alt": 4.3,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:173964",
+    "lebensmittel": "Currants, red and white, raw",
+    "wert": 4.3
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F321100",
+    "lebensmittel": "Johannisbeere rot, roh",
+    "wert": 3.5
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-249",
+    "lebensmittel": "Redcurrants, raw",
+    "wert": 3.4
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-053",
+    "lebensmittel": "Blackcurrants, raw",
+    "wert": 3.6
+   }
+  ],
+  "neu": 3.55,
+  "status": "median",
+  "spanne": [
+   3.4,
+   4.3
+  ],
+  "streuung_gross": false
+ },
+ "Stachelbeere": {
+  "key": "xb_stachelbeere",
+  "name": "Stachelbeere",
+  "alt": 3.5,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:173030",
+    "lebensmittel": "Gooseberries, raw",
+    "wert": 4.3
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F305100",
+    "lebensmittel": "Stachelbeere roh",
+    "wert": 2.95
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:13020",
+    "lebensmittel": "Gooseberry, raw",
+    "wert": 4.3
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:14-100",
+    "lebensmittel": "Gooseberries, cooking, raw",
+    "wert": 2.4
+   }
+  ],
+  "neu": 3.62,
+  "status": "median",
+  "spanne": [
+   2.4,
+   4.3
+  ],
+  "streuung_gross": true
+ },
+ "Apfelsaft": {
+  "key": "xb_apfelsaft",
+  "name": "Apfelsaft",
+  "alt": 0.1,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:173933",
+    "lebensmittel": "Apple juice, canned or bottled, unsweetened, without added ascorbic acid",
+    "wert": 0.2
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F110600",
+    "lebensmittel": "Apfelsaft",
+    "wert": 0.31
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:2074",
+    "lebensmittel": "Apple juice, pure juice",
+    "wert": 0.23
+   }
+  ],
+  "neu": 0.23,
+  "status": "median",
+  "spanne": [
+   0.2,
+   0.31
+  ],
+  "streuung_gross": false
+ },
+ "Orangensaft": {
+  "key": "xb_orangensaft",
+  "name": "Orangensaft",
+  "alt": 0.2,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169098",
+    "lebensmittel": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+    "wert": 0.2
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F603600",
+    "lebensmittel": "Orangensaft",
+    "wert": 0.31
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:2070",
+    "lebensmittel": "Orange juice, pure juice",
+    "wert": 0.28
+   }
+  ],
+  "neu": 0.28,
+  "status": "median",
+  "spanne": [
+   0.2,
+   0.31
+  ],
+  "streuung_gross": false
+ },
+ "Cola/Limonade (gezuckert)": {
+  "key": "xb_cola",
+  "name": "Cola/Limonade (gezuckert)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Zuckerrübensirup/Golden Syrup/Sirup": {
+  "key": "xb_sirup",
+  "name": "Zuckerrübensirup/Golden Syrup/Sirup",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Räucherlachs": {
+  "key": "xb_lachs_geraeuchert",
+  "name": "Räucherlachs",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Matjeshering": {
+  "key": "xb_matjes",
+  "name": "Matjeshering",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Cheddar": {
+  "key": "xb_cheddar",
+  "name": "Cheddar",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Rindernierenfett (Suet)": {
+  "key": "xb_nierenfett",
+  "name": "Rindernierenfett (Suet)",
+  "alt": 0.0,
+  "werte": [],
+  "neu": 0.0,
+  "status": "zero",
+  "begr": "tierisches Lebensmittel, Fett, Zucker, Salz oder Getränk ohne Pflanzenzellwand; freie Quellen führen 0 bzw. < 0,1 g"
+ },
+ "Grünkern/Dinkel (Korn)": {
+  "key": "xb_gruenkern",
+  "name": "Grünkern/Dinkel (Korn)",
+  "alt": 8.8,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169745",
+    "lebensmittel": "Spelt, uncooked",
+    "wert": 10.7
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:C236000",
+    "lebensmittel": "Dinkel ganzes Korn, roh",
+    "wert": 11.53
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:9001",
+    "lebensmittel": "Spelt, raw",
+    "wert": 10.7
+   }
+  ],
+  "neu": 10.7,
+  "status": "median",
+  "spanne": [
+   10.7,
+   11.53
+  ],
+  "streuung_gross": false
+ },
+ "Beerenmischung (rot)": {
+  "key": "xb_rote_gruetze_beeren",
+  "name": "Beerenmischung (rot)",
+  "alt": 4.0,
+  "werte": [
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:F092100",
+    "lebensmittel": "Beerenmischung mit Sauerkirschen, ungesüßt, roh",
+    "wert": 3.5
+   }
+  ],
+  "neu": 3.5,
+  "status": "single",
+  "spanne": [
+   3.5,
+   3.5
+  ],
+  "streuung_gross": false
+ },
+ "Lebkuchen/Honigkuchen": {
+  "key": "xb_lebkuchen",
+  "name": "Lebkuchen/Honigkuchen",
+  "alt": 3.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:174956",
+    "lebensmittel": "Cookies, gingersnaps",
+    "wert": 2.2
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:D650600",
+    "lebensmittel": "Lebkuchen schokoliert",
+    "wert": 3.92
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:23200",
+    "lebensmittel": "Gingerbread, prepacked",
+    "wert": 3.78
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:11-1079",
+    "lebensmittel": "Gingerbread, homemade",
+    "wert": 1.7
+   }
+  ],
+  "neu": 2.99,
+  "status": "median",
+  "spanne": [
+   1.7,
+   3.92
+  ],
+  "streuung_gross": true
+ },
+ "Fenchel (Knolle)": {
+  "key": "xc_fenchel",
+  "name": "Fenchel (Knolle)",
+  "alt": 3.1,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:169385",
+    "lebensmittel": "Fennel, bulb, raw",
+    "wert": 3.1
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20028",
+    "lebensmittel": "Fennel, raw",
+    "wert": 2.6
+   },
+   {
+    "quelle": "CoFID 2021",
+    "code": "COFID:13-241",
+    "lebensmittel": "Fennel, Florence, raw",
+    "wert": 2.4
+   }
+  ],
+  "neu": 2.6,
+  "status": "median",
+  "spanne": [
+   2.4,
+   3.1
+  ],
+  "streuung_gross": false
+ },
+ "Chicorée/Endivie": {
+  "key": "xc_chicoree",
+  "name": "Chicorée/Endivie",
+  "alt": 3.1,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:170404",
+    "lebensmittel": "Chicory, witloof, raw",
+    "wert": 3.1
+   },
+   {
+    "quelle": "Ciqual 2025",
+    "code": "CIQ:20026",
+    "lebensmittel": "Chicory, raw",
+    "wert": 1.1
+   }
+  ],
+  "neu": 2.1,
+  "status": "median",
+  "spanne": [
+   1.1,
+   3.1
+  ],
+  "streuung_gross": true
+ },
+ "Kichererbsenmehl": {
+  "key": "xc_kichererbsenmehl",
+  "name": "Kichererbsenmehl",
+  "alt": 11.0,
+  "werte": [
+   {
+    "quelle": "USDA SR Legacy",
+    "code": "SR:174288",
+    "lebensmittel": "Chickpea flour (besan)",
+    "wert": 10.8
+   },
+   {
+    "quelle": "BLS 4.0",
+    "code": "BLS:H720400",
+    "lebensmittel": "Kichererbsenmehl",
+    "wert": 15.4
+   }
+  ],
+  "neu": 13.1,
+  "status": "median",
+  "spanne": [
+   10.8,
+   15.4
+  ],
+  "streuung_gross": false
+ }
+}
