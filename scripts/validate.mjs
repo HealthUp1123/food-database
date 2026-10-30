@@ -23,7 +23,7 @@ if (!Array.isArray(data)) {
 }
 
 // "int" = international/ohne Landesküche (Grundzutaten wie Tomate, Reis, Hähnchenbrust).
-const CUISINES = 'tr de it fr es pt gr gb ie nl be at ch se no dk fi is pl cz sk hu rs hr ba bg al mk si ro ee lv lt ua ru cy mt lu ge am az md by me xk ad li mc sm int'.split(' ');
+const CUISINES = 'tr de it fr es pt gr gb ie nl be at ch se no dk fi is pl cz sk hu rs hr ba bg al mk si ro ee lv lt ua ru cy mt lu ge am az md by me xk ad li mc sm cn jp kr th vn in id int'.split(' ');
 const QUALITIES = ['estimate', 'verified', 'reference'];
 // Zubereitungszustand: roh/trocken, gegart (cooked = gekocht/gedünstet/gedämpft/geschmort), gegrillt, gebraten/frittiert,
 // im Ofen gebacken/gebraten, geröstet, getrocknet, tiefgekühlt, Konserve (Dose/Glas), geräuchert, verarbeitet (Saft, Mark, Püree, Pulver).
@@ -94,6 +94,10 @@ data.forEach((e, i) => {
       // Optional. Bei USDA-Daten kann Zucker (gemessen) leicht über Kohlenhydraten (Differenzrechnung) liegen, z. B. Milch.
       if (!isNum(p.sugar) || p.sugar < 0 || p.sugar > 100) err(ctx, `sugar ${p.sugar} ungültig (0–100 pro 100 g)`);
     }
+    if ('alcohol' in p) {
+      // Optional: Alkohol (Ethanol) in g pro 100 g, z. B. Bier ≈ 3,8, Wein ≈ 9–10, Spirituosen ≈ 30–35.
+      if (!isNum(p.alcohol) || p.alcohol < 0 || p.alcohol > 100) err(ctx, `alcohol ${p.alcohol} ungültig (0–100 g pro 100 g)`);
+    }
     if (MACROS.every((m) => isNum(p[m]))) {
       // 0,15 g Rundungstoleranz: Referenzdaten (z. B. USDA Leinöl 0,11 g Eiweiß + 99,98 g Fett) summieren teils knapp über 100 g.
       if (p.protein + p.carbs + p.fat > 100.15) err(ctx, `Protein+Kohlenhydrate+Fett = ${(p.protein + p.carbs + p.fat).toFixed(1)} g > 100 g`);
@@ -102,7 +106,8 @@ data.forEach((e, i) => {
         console.warn(`! ${ctx}: Ballaststoffe (${p.fiber}) > Kohlenhydrate (${p.carbs}) – bitte prüfen`);
       }
       if (isNum(p.kcal)) {
-        const est = p.protein * 4 + p.carbs * 4 + p.fat * 9;
+        // Ist per100g.alcohol gesetzt, zählt Ethanol mit 7 kcal/g in die Schätzung.
+        const est = p.protein * 4 + p.carbs * 4 + p.fat * 9 + (isNum(p.alcohol) ? p.alcohol * 7 : 0);
         // Alkohol (Wein, Spirituosen) liegt oft über der 4/4/9-Schätzung (Ethanol ≈ 7 kcal/g).
         // Das ist eine Warnung, kein Fehler.
         if (Math.abs(est - p.kcal) > Math.max(60, p.kcal * 0.35)) console.warn(`! ${ctx}: kcal (${p.kcal}) weicht stark von Makro-Schätzung (${est.toFixed(0)}) ab – bitte prüfen`);
@@ -123,7 +128,15 @@ data.forEach((e, i) => {
   if ('note' in e && (typeof e.note !== 'string' || !e.note.trim())) err(ctx, 'note muss ein nicht-leerer String sein');
   if ('fdc_id' in e && (!Number.isInteger(e.fdc_id) || e.fdc_id <= 0)) err(ctx, 'fdc_id muss eine positive Ganzzahl sein (USDA FoodData Central)');
   if ('source_id' in e && (typeof e.source_id !== 'string' || !e.source_id.trim())) err(ctx, 'source_id muss ein nicht-leerer String sein (Datenbank:Code, z. B. "BLS 4.0:G582172")');
-  if ('source_missing' in e && (!Array.isArray(e.source_missing) || e.source_missing.some((k) => !['fiber', 'sugar'].includes(k)))) err(ctx, 'source_missing darf nur "fiber"/"sugar" enthalten');
+  // Fehlt ein Wert in der Quelle, steht er hier (bei protein/fat/fiber ist dann 0 eingetragen, sugar fehlt dann ganz).
+  if ('source_missing' in e && (!Array.isArray(e.source_missing) || e.source_missing.some((k) => !['protein', 'fat', 'fiber', 'sugar'].includes(k)))) err(ctx, 'source_missing darf nur "protein"/"fat"/"fiber"/"sugar" enthalten');
+  if ('derived_from' in e) {
+    const d = e.derived_from;
+    const ok = (v) => typeof v === 'string' && v.trim() !== '';
+    if (!(ok(d) || (Array.isArray(d) && d.length > 0 && d.every(ok)))) err(ctx, 'derived_from muss eine ID/Quellkennung (String) oder ein nicht-leeres Array davon sein');
+    if (e.quality !== 'estimate') err(ctx, 'derived_from nur bei quality "estimate"');
+  }
+  if ('method' in e && !['yield_factor', 'similar_food', 'recipe'].includes(e.method)) err(ctx, 'method muss "yield_factor", "similar_food" oder "recipe" sein');
   if ('is_packaged_product' in e && typeof e.is_packaged_product !== 'boolean') err(ctx, 'is_packaged_product muss true/false sein');
   if (e.is_packaged_product === true && e.type === 'dish') err(ctx, 'ein Gericht (type "dish") darf nicht is_packaged_product=true sein');
   if ('off_similar' in e) {
