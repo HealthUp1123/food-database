@@ -139,7 +139,27 @@ def main():
         if pk < 15 and cat != 'GT': reasons.append(f'Portion nur {pk:.0f} kcal')
         if reasons: flags.append(f'{e["id"]}: ' + '; '.join(reasons))
     out = [d[0] for d in dishes]
-    json.dump(out, open(os.path.join(HERE,'foods.json'),'w',encoding='utf8'), ensure_ascii=False, indent=2)
+    # BLS-Referenzen, die dieselben IDs wie diese Rezepte haben. Die Prüfung oben
+    # gilt für die Rezeptschätzung; erst danach ersetzen, damit ein Neubau die
+    # Quellwerte, source_id und die festgehaltenen Namen nicht verwirft.
+    ov_path = os.path.join(HERE, 'reference_overrides.json')
+    overrides = json.load(open(ov_path, encoding='utf-8'))
+    by_id = {e['id']: e for e in out}
+    for o in overrides:
+        e = by_id.get(o['id'])
+        if e is None:
+            errors.append(f'reference_overrides.json: id {o["id"]} kommt in den Batches nicht vor')
+            continue
+        e['per100g'] = o['per100g']
+        e['quality'] = o['quality']
+        e['source'] = o['source']
+        e['source_id'] = o['source_id']
+        if o.get('source_missing'):
+            e['source_missing'] = o['source_missing']
+        if o.get('names'):
+            e['names'] = o['names']
+    txt = json.dumps(out, ensure_ascii=False, indent=2) + '\n'
+    open(os.path.join(HERE,'foods.json'),'w',encoding='utf8').write(txt)
     json.dump([dict(key=k, name=v['name'], per100g={f:v[f] for f in ('kcal','protein','carbs','fat','fiber')}) for k,v in ing.items()],
               open(os.path.join(HERE,'ingredients.json'),'w',encoding='utf8'), ensure_ascii=False, indent=2)
     cnt = collections.Counter(d['cuisine'] for d in out)
