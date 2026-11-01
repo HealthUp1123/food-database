@@ -271706,12 +271706,12 @@
     "unit": "g",
     "note": "Grundzutat, kein Fertigprodukt",
     "per100g": {
-      "kcal": 149,
-      "protein": 6.4,
-      "carbs": 33.1,
+      "kcal": 109,
+      "protein": 5.3,
+      "carbs": 24.4,
       "fat": 0.5,
-      "fiber": 2.1,
-      "sugar": 1.0
+      "fiber": 5.8,
+      "sugar": 1.2
     },
     "ingredients": [
       {
@@ -271720,8 +271720,8 @@
       }
     ],
     "quality": "reference",
-    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 169230: Garlic, raw",
-    "fdc_id": 169230
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, doi:10.57745/RDMHWY, Lizenz Etalab 2.0; Code 11000 \"Ail, cru\". Datensatz der Datenbank (Tabellenwert). Protein 5,31 g auf 5,3 g gerundet. Fett in der Quelle \"< 0,5 g\", als 0,5 g (Bestimmungsgrenze) geführt, wie bei der Rezeptzutat. Kohlenhydrate = verfügbare KH 18,6 g + Ballaststoffe 5,8 g = 24,4 g (Gesamt-KH). kcal 109 (EU 1169/2011). Derselbe AOAC-Satz wie die Rezeptzutat Knoblauch; USDA SR 169230 (Ballaststoffe 2,1 g) wird nicht mehr verwendet.",
+    "source_id": "Ciqual 2025:11000"
   },
   {
     "id": "paprika-rot-roh",
@@ -304404,7 +304404,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 20282 \"Asparagus, white or purple, peeled, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.62 g + Ballaststoffe 2.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 20282 \"Asparagus, white or purple, peeled, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.62 g + Ballaststoffe 2.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:20282"
   },
   {
@@ -304449,7 +304449,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 20277 \"Asparagus, white, boiled/cooked in water\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.63 g + Ballaststoffe 1.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 20277 \"Asparagus, white, boiled/cooked in water\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.63 g + Ballaststoffe 1.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:20277"
   },
   {
@@ -306973,12 +306973,12 @@
     "unit": "g",
     "note": "Grundzutat (zubereitet), kein Fertigprodukt",
     "per100g": {
-      "kcal": 112,
-      "protein": 7.1,
-      "carbs": 36.3,
+      "kcal": 125,
+      "protein": 5.6,
+      "carbs": 26.5,
       "fat": 0.5,
-      "fiber": 33.3,
-      "sugar": 2.4
+      "fiber": 2.7,
+      "sugar": 1.4
     },
     "ingredients": [
       {
@@ -306987,8 +306987,8 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G490162 \"Knoblauch gebacken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 3 g + Ballaststoffe 33.291 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
-    "source_id": "BLS 4.0:G490162"
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, doi:10.57745/RDMHWY, Lizenz Etalab 2.0; Code 11306 \"Ail, rôti/cuit au four\". Datensatz der Datenbank (Tabellenwert). Protein 5,56 g auf 5,6 g gerundet. Fett in der Quelle \"< 0,5 g\", als 0,5 g (Bestimmungsgrenze) geführt. Kohlenhydrate = verfügbare KH 23,8 g + Ballaststoffe 2,7 g = 26,5 g (Gesamt-KH). kcal 125 (EU 1169/2011). Ersetzt BLS G490162 (Ballaststoffe 33,291 g inklusive Fructane).",
+    "source_id": "Ciqual 2025:11306"
   },
   {
     "id": "knoblauch-gebraten-ohne-fett",
@@ -307014,12 +307014,12 @@
     "unit": "g",
     "note": "Grundzutat (zubereitet), kein Fertigprodukt",
     "per100g": {
-      "kcal": 155,
-      "protein": 9.6,
-      "carbs": 49.9,
-      "fat": 0.7,
-      "fiber": 44.9,
-      "sugar": 3.3
+      "kcal": 130,
+      "protein": 6.0,
+      "carbs": 27.8,
+      "fat": 0.4,
+      "fiber": 5.8,
+      "sugar": 1.0
     },
     "ingredients": [
       {
@@ -307028,8 +307028,8 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G490182 \"Knoblauch gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 5 g + Ballaststoffe 44.916 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
-    "source_id": "BLS 4.0:G490182"
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, doi:10.57745/RDMHWY, Lizenz Etalab 2.0; Code 11307 \"Ail, grillé/poêlé, sans matière grasse\". Datensatz der Datenbank (Tabellenwert). Kohlenhydrate = verfügbare KH 22,0 g + Ballaststoffe 5,8 g = 27,8 g (Gesamt-KH). kcal 130 (EU 1169/2011). Ersetzt BLS G490182 (Ballaststoffe 44,916 g inklusive Fructane).",
+    "source_id": "Ciqual 2025:11307"
   },
   {
     "id": "schalotten-gebraten-ohne-fett",
@@ -307479,14 +307479,14 @@
     "is_packaged_product": false,
     "state": "baked",
     "unit": "g",
-    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt. Ciqual 2025 unterscheidet gebacken und gebraten nicht; beide Einträge verwenden Code 20050 \"Topinambour, cuit\".",
     "per100g": {
-      "kcal": 70,
-      "protein": 3.1,
-      "carbs": 20.6,
-      "fat": 0.5,
-      "fiber": 15.5,
-      "sugar": 5.1
+      "kcal": 69,
+      "protein": 1.8,
+      "carbs": 16.6,
+      "fat": 0.0,
+      "fiber": 2.2,
+      "sugar": 1.7
     },
     "ingredients": [
       {
@@ -307495,8 +307495,8 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code K430162 \"Topinambur/Erdartischocke, gebacken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 5.128 g + Ballaststoffe 15.474 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
-    "source_id": "BLS 4.0:K430162"
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, doi:10.57745/RDMHWY, Lizenz Etalab 2.0; Code 20050 \"Topinambour, cuit\". Datensatz der Datenbank (Tabellenwert). Kohlenhydrate = verfügbare KH 14,4 g + Ballaststoffe 2,2 g = 16,6 g (Gesamt-KH). Fett 0,01 g auf 0,0 g gerundet. kcal 69,3 veröffentlicht, als 69 geführt (EU 1169/2011). Fructane/Inulin zählen nicht als Ballaststoff; der BLS-Wert mit Inulin wird nicht verwendet.",
+    "source_id": "Ciqual 2025:20050"
   },
   {
     "id": "topinambur-gebraten-ohne-fett",
@@ -307520,14 +307520,14 @@
     "is_packaged_product": false,
     "state": "fried",
     "unit": "g",
-    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt. Ciqual 2025 unterscheidet gebacken und gebraten nicht; beide Einträge verwenden Code 20050 \"Topinambour, cuit\".",
     "per100g": {
-      "kcal": 62,
-      "protein": 2.8,
-      "carbs": 18.3,
-      "fat": 0.5,
-      "fiber": 13.7,
-      "sugar": 4.5
+      "kcal": 69,
+      "protein": 1.8,
+      "carbs": 16.6,
+      "fat": 0.0,
+      "fiber": 2.2,
+      "sugar": 1.7
     },
     "ingredients": [
       {
@@ -307536,8 +307536,8 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code K430182 \"Topinambur/Erdartischocke, gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 4.545 g + Ballaststoffe 13.716 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
-    "source_id": "BLS 4.0:K430182"
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, doi:10.57745/RDMHWY, Lizenz Etalab 2.0; Code 20050 \"Topinambour, cuit\". Datensatz der Datenbank (Tabellenwert). Kohlenhydrate = verfügbare KH 14,4 g + Ballaststoffe 2,2 g = 16,6 g (Gesamt-KH). Fett 0,01 g auf 0,0 g gerundet. kcal 69,3 veröffentlicht, als 69 geführt (EU 1169/2011). Fructane/Inulin zählen nicht als Ballaststoff; der BLS-Wert mit Inulin wird nicht verwendet.",
+    "source_id": "Ciqual 2025:20050"
   },
   {
     "id": "pfifferlinge-im-ofen-gebacken",
@@ -311908,7 +311908,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Kaşar ist ein halbfester Filata-Käse aus Kuhmilch; ähnlichstes frei verfügbares Lebensmittel ist Provolone aus Kuhmilch (ebenfalls Pasta filata). Werte unverändert übernommen (Methode similar_food); echter Kaşar kann je nach Reife/Fettstufe abweichen. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 12716 \"Provolone cheese, from cow's milk\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Geschätzt (Methode similar_food): Kaşar ist ein halbfester Filata-Käse aus Kuhmilch; ähnlichstes frei verfügbares Lebensmittel ist Provolone aus Kuhmilch (ebenfalls Pasta filata). Werte unverändert übernommen (Methode similar_food); echter Kaşar kann je nach Reife/Fettstufe abweichen. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 12716 \"Provolone cheese, from cow's milk\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "derived_from": "Ciqual 2025:12716",
     "method": "similar_food"
   },
@@ -311956,7 +311956,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Pastırma ist luftgetrocknetes, gepökeltes Rindfleisch; ähnlichstes frei verfügbares Lebensmittel ist Bresaola (luftgetrocknetes Rindfleisch). Werte unverändert übernommen (Methode similar_food); die Çemen-Würzkruste ist nicht berücksichtigt. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 28503 \"Bresaola\". Kohlenhydrate = verfügbare KH 0.49 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Geschätzt (Methode similar_food): Pastırma ist luftgetrocknetes, gepökeltes Rindfleisch; ähnlichstes frei verfügbares Lebensmittel ist Bresaola (luftgetrocknetes Rindfleisch). Werte unverändert übernommen (Methode similar_food); die Çemen-Würzkruste ist nicht berücksichtigt. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 28503 \"Bresaola\". Kohlenhydrate = verfügbare KH 0.49 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "derived_from": "Ciqual 2025:28503",
     "method": "similar_food"
   },
@@ -312101,7 +312101,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Yufka ist ein dünn ausgerollter Mehl-Wasser-Teig, ähnlich Filo/Phyllo; Werte von Ciqual \"Phyllo or filo dough, raw\" übernommen (Methode similar_food). Yufka ist etwas dicker; Fettgehalt hängt vom Hersteller ab. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 23445 \"Phyllo or filo dough, raw\". Kohlenhydrate = verfügbare KH 50.7 g + Ballaststoffe 1.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Geschätzt (Methode similar_food): Yufka ist ein dünn ausgerollter Mehl-Wasser-Teig, ähnlich Filo/Phyllo; Werte von Ciqual \"Phyllo or filo dough, raw\" übernommen (Methode similar_food). Yufka ist etwas dicker; Fettgehalt hängt vom Hersteller ab. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 23445 \"Phyllo or filo dough, raw\". Kohlenhydrate = verfügbare KH 50.7 g + Ballaststoffe 1.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "derived_from": "Ciqual 2025:23445",
     "method": "similar_food"
   },
@@ -316370,12 +316370,12 @@
     "unit": "g",
     "note": "Grundzutat (zubereitet), kein Fertigprodukt",
     "per100g": {
-      "kcal": 133,
-      "protein": 2.3,
-      "carbs": 32.1,
-      "fat": 0.4,
-      "fiber": 0.0,
-      "sugar": 0.0
+      "kcal": 130,
+      "protein": 2.7,
+      "carbs": 28.2,
+      "fat": 0.3,
+      "fiber": 0.4,
+      "sugar": 0.1
     },
     "ingredients": [
       {
@@ -316384,8 +316384,8 @@
       }
     ],
     "quality": "reference",
-    "source": "Public Health England (2021): McCance and Widdowson's The Composition of Foods Integrated Dataset (CoFID) 2021, Open Government Licence v3.0; Code 11-875 \"Rice, Thai fragrant, boiled in unsalted water\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: LGC, Nutrient survey of flours and grains, 2005). Kohlenhydrate = verfügbare KH 32.1 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
-    "source_id": "CoFID 2021:11-875"
+    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 169757: Rice, white, long-grain, regular, unenriched, cooked without salt",
+    "fdc_id": 169757
   },
   {
     "id": "jasminreis-roh",
@@ -316472,7 +316472,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 9125 \"Rice, basmati, cooked, no added salt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 32.9 g + Ballaststoffe 0.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 9125 \"Rice, basmati, cooked, no added salt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 32.9 g + Ballaststoffe 0.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:9125"
   },
   {
@@ -316513,7 +316513,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 9119 \"Rice, basmati, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 78.4 g + Ballaststoffe 1.06 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 9119 \"Rice, basmati, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 78.4 g + Ballaststoffe 1.06 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:9119"
   },
   {
@@ -316804,7 +316804,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 25565 \"Yakitori (grilled meat on skewers, Japanese-style, with sauce)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 9.3 g + Ballaststoffe 0.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 25565 \"Yakitori (grilled meat on skewers, Japanese-style, with sauce)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 9.3 g + Ballaststoffe 0.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:25565"
   },
   {
@@ -316849,7 +316849,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 25419 \"Spring roll\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 16.6 g + Ballaststoffe 1.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 25419 \"Spring roll\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 16.6 g + Ballaststoffe 1.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:25419"
   },
   {

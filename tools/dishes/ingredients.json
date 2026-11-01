@@ -2822,7 +2822,7 @@
       "record": "Cornmeal, degermed, unenriched, yellow",
       "license": "CC0 1.0",
       "base_id": "maisgriess",
-      "note": "Maismehl/Polenta ist hier Maisgrieß (entkeimt), nicht Vollkorn-Maismehl."
+      "note": "Maismehl/Polenta ist hier Maisgrieß (entkeimt), nicht Vollkorn-Maismehl. Abgesichert gegen Ciqual 2025 Code 9614 (Polenta oder Maissemmel, vorgegart, 3,2 g) und die Schweizer Nährwertdatenbank 7.1, Maisgriess trocken, DBID 351578 (5,0 g Nahrungsfasern). Median mit USDA 3,9 g ist 3,9 g, der Wert bleibt. BLS C346000 (9,42 g) wird nicht gemittelt."
     }
   },
   {
@@ -5132,7 +5132,8 @@
       "dataset_id": "170286",
       "record": "Buckwheat",
       "license": "CC0 1.0",
-      "base_id": "buchweizen-roh"
+      "base_id": "buchweizen-roh",
+      "note": "AOAC-Wert USDA SR 170286, 10,0 g Ballaststoffe. CoFID 11-006 (nur NSP, 2,1 g) ist keine AOAC-Quelle und wird nicht verwendet. Zum Vergleich gelesen: Ciqual 2025 9380 Sarrasin complet 4,0 g und Schweizer Nährwertdatenbank 7.1, Buchweizen Korn geschält, DBID 351193, 5,8 g. Nicht gemittelt, damit diese Zutat und die Grundzutat buchweizen-roh denselben USDA-Satz behalten."
     }
   },
   {
