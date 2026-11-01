@@ -15,10 +15,10 @@ Regeln:
 - source_missing-Felder protein/fat/fiber: 0 wird null. Gemessene Nullen bleiben 0.
   Zucker bleibt weggelassen.
 
-Gerichte aus tools/dishes/build.py sind schon netto (der Generator zieht die
-Ballaststoffe der Zutat ab). Dieses Skript nicht auf diese Ausgabe und nicht
-ein zweites Mal anwenden. Erkannt wird die Gesamt-KH-Basis an den beiden
-Sätzen oben. Ausgabe: json.dumps(indent=2, ensure_ascii=False) plus Zeilenumbruch.
+Schon umgestellte Einträge tragen „ohne Ballaststoffe“ oder „[KH netto]“.
+Ein zweiter Lauf überspringt sie einzeln, auch in einer gemischten Datei.
+build.py schreibt denselben Marker. Ausgabe: json.dumps(indent=2,
+ensure_ascii=False) plus Zeilenumbruch.
 
 Aufruf:
   python3 tools/carbs_net.py            # Bericht, schreibt nicht
@@ -40,6 +40,8 @@ ALIGN_SUM = re.compile(
 )
 ZERO_SET = re.compile(r'\(als 0 g gesetzt, außer Zucker\)')
 NULL_FIELDS = ('protein', 'fat', 'fiber')
+# Pro Eintrag, nicht nur pro Datei. build.py schreibt denselben Marker.
+NET_MARK = '[KH netto]'
 
 
 def r1(x):
@@ -91,19 +93,17 @@ def bucket(e):
     return 'andere'
 
 
+def already_net(src):
+    return NET_MARK in src or 'ohne Ballaststoffe' in src
+
+
 def convert(data):
-    """Ändert data in place. Liefert den Bericht."""
-    hits = sum(1 for e in data if documented(e.get('source') or ''))
-    if hits == 0:
-        raise SystemExit(
-            'Keine Gesamt-KH-Basis erkannt (weder „an USDA-Gesamt-KH angeglichen“ '
-            'noch „g (Gesamt-KH)“). Das Skript nicht auf eine schon umgestellte Datei '
-            'und nicht auf die Netto-Ausgabe von tools/dishes/build.py anwenden.'
-        )
+    """Ändert data in place. Liefert den Bericht. Zweiter Lauf auf demselben Eintrag ist wirkungslos."""
     changed = Counter()
     unchanged = Counter()
     documented_n = Counter()
     subtracted = Counter()
+    skipped = Counter()
     examples = {}
     nulls = []
     showcase = {
@@ -123,6 +123,12 @@ def convert(data):
             new = r1(parse_num(token))
             documented_n[b] += 1
             how = 'Quelle'
+        elif already_net(src):
+            skipped[b] += 1
+            new = old
+            how = 'schon netto'
+            kind = None
+            token = None
         else:
             kind = None
             token = None
@@ -137,15 +143,19 @@ def convert(data):
         if new == 0:
             new = 0.0
         p['carbs'] = new
-        if new != old:
+        if how == 'schon netto':
+            pass
+        elif new != old:
             changed[b] += 1
         else:
             unchanged[b] += 1
-        if e['id'] in showcase or (how == 'Quelle' and b in ('Ciqual', 'CoFID') and b not in {x[1] for x in examples.values()}):
+        if how != 'schon netto' and (e['id'] in showcase or (how == 'Quelle' and b in ('Ciqual', 'CoFID') and b not in {x[1] for x in examples.values()})):
             examples[e['id']] = (e['id'], b, how, old, new, p.get('fiber'))
         if doc:
             src = rewrite_source(src, token, kind)
             e['source'] = src
+        elif how == 'carbs−fiber' and NET_MARK not in (e.get('source') or ''):
+            e['source'] = ((e.get('source') or '').rstrip() + ' ' + NET_MARK).strip()
         if ZERO_SET.search(e.get('source') or ''):
             e['source'] = ZERO_SET.sub('(als null gesetzt, außer Zucker)', e['source'], count=1)
         for k in NULL_FIELDS:
@@ -161,7 +171,8 @@ def convert(data):
         'subtracted': subtracted,
         'examples': examples,
         'nulls': nulls,
-        'text_hits': hits,
+        'skipped': skipped,
+        'text_hits': sum(documented_n.values()),
     }
 
 
@@ -175,12 +186,12 @@ def main():
     if not isinstance(data, list):
         raise SystemExit('foods.json muss ein Array sein')
     rep = convert(data)
-    buckets = sorted(set(rep['changed']) | set(rep['unchanged']))
-    print(f'Datei: {path}  Einträge: {len(data)}  Quelltexte mit dokumentierten verfügbaren KH: {rep["text_hits"]}')
-    print(f'{"Quelle":<42} {"geändert":>8} {"unverändert":>12} {"davon Quelle":>12} {"davon Differenz":>16}')
+    buckets = sorted(set(rep['changed']) | set(rep['unchanged']) | set(rep['skipped']))
+    print(f'Datei: {path}  Einträge: {len(data)}  neu aus Quelle: {rep["text_hits"]}  übersprungen (schon netto): {sum(rep["skipped"].values())}')
+    print(f'{"Quelle":<42} {"geändert":>8} {"unverändert":>12} {"schon netto":>12} {"davon Quelle":>12} {"davon Differenz":>16}')
     for b in buckets:
-        print(f'{b:<42} {rep["changed"][b]:8d} {rep["unchanged"][b]:12d} {rep["documented"][b]:12d} {rep["subtracted"][b]:16d}')
-    print(f'{"SUMME":<42} {sum(rep["changed"].values()):8d} {sum(rep["unchanged"].values()):12d} {sum(rep["documented"].values()):12d} {sum(rep["subtracted"].values()):16d}')
+        print(f'{b:<42} {rep["changed"][b]:8d} {rep["unchanged"][b]:12d} {rep["skipped"][b]:12d} {rep["documented"][b]:12d} {rep["subtracted"][b]:16d}')
+    print(f'{"SUMME":<42} {sum(rep["changed"].values()):8d} {sum(rep["unchanged"].values()):12d} {sum(rep["skipped"].values()):12d} {sum(rep["documented"].values()):12d} {sum(rep["subtracted"].values()):16d}')
     print('\nBeispiele (alt → neu):')
     order = ['zucchini-gegrillt', 'paprika-rot-gegrillt', 'knoblauch-gebraten-ohne-fett', 'jasminreis-gekocht',
              'tomate-roh', 'karniyarik', 'spargel-weiss-roh', 'chicken-nuggets-imbiss',

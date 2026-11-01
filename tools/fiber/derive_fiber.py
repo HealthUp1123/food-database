@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 """Ballaststoff-Korrekturen (Welle 5 final) -> tools/fiber/fiber_final.json
 
+Nur für die Gesamt-KH-Basis (per100g.carbs inklusive Ballaststoffe).
+Auf netto (Marker „[KH netto]“ oder „ohne Ballaststoffe“) bricht das Skript ab:
+dort ist fiber > carbs normal, die Prüfung unten wäre falsch.
+
 Eingaben (alle im Repo):
   tools/fiber/ingredient_fiber.json   Zutatenwerte je Rezeptzutat mit allen freien Quellwerten (SR, BLS, Ciqual, CoFID)
   tools/fiber/review_decisions.json   Prüfentscheidungen zu den 158 Vorschlägen (übernehmen/anpassen/verwerfen)
@@ -18,11 +22,14 @@ import json, os, statistics, subprocess, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
+if len(sys.argv) > 1: base = json.load(open(sys.argv[1]))
+else: base = json.loads(subprocess.check_output(['git', 'show', '161fe97:data/foods.json'], cwd=ROOT))
+# Nur Gesamt-KH. Auf netto ist fiber > carbs normal; die Prüfung weiter unten setzt Gesamt-KH voraus.
+if any('[KH netto]' in (f.get('source') or '') or 'ohne Ballaststoffe' in (f.get('source') or '') for f in base):
+    raise SystemExit('derive_fiber.py gilt nur für die Gesamt-KH-Basis. Diese foods.json ist schon netto (Marker [KH netto] oder „ohne Ballaststoffe“).')
 ING = json.load(open(os.path.join(HERE, 'ingredient_fiber.json')))
 DEC = {e['id']: e for e in json.load(open(os.path.join(HERE, 'review_decisions.json')))['entscheidungen']}
 PROP = {e['id']: e for e in json.load(open(os.path.join(HERE, 'fiber_changes_proposal.json')))}
-if len(sys.argv) > 1: base = json.load(open(sys.argv[1]))
-else: base = json.loads(subprocess.check_output(['git', 'show', '161fe97:data/foods.json'], cwd=ROOT))
 B = {f['id']: f for f in base}
 
 GARLIC = 'Knoblauch'
@@ -76,7 +83,9 @@ for i, f in B.items():
         rec = dict(id=i, alt=old, neu=new, art='knoblauch', method='recipe', source_codes=G_CODES,
                    grund=f'Knoblauchanteil neu gerechnet: Knoblauch {G_OLD_SRC} → {G_NEW} g/100 g (Median USDA SR, Ciqual, CoFID; {AOAC})')
     if rec and rec['neu'] != old:
-        if rec['neu'] > f['per100g']['carbs'] + 0.05: raise SystemExit(f'{i}: Ballaststoffe > Kohlenhydrate')
+        # Gesamt-KH: Ballaststoffe stecken in carbs, fiber > carbs ist dann ein Datenfehler.
+        # Auf der Netto-Basis (siehe Abbruch oben) gilt das nicht.
+        if rec['neu'] > f['per100g']['carbs'] + 0.05: raise SystemExit(f'{i}: Ballaststoffe > Kohlenhydrate (Gesamt-KH-Basis vorausgesetzt)')
         out.append(rec)
 
 # Referenzeinträge aus der Prüfung (z. B. Jasminreis gekocht: CoFID-NSP 0 g -> Median AOAC-Quellen)

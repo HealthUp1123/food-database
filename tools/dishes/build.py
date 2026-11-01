@@ -117,7 +117,7 @@ def main():
             for k,g in lst: merged[k] = merged.get(k,0)+g
             e['ingredients']=[{'name':ing[k]['name'],'grams':(int(g) if float(g).is_integer() else g)} for k,g in merged.items()]
             e['quality']='estimate'
-            e['source']='calculated from typical recipe and approximate reference values'
+            e['source']='calculated from typical recipe and approximate reference values [KH netto]'
             if did in ids: errors.append(f'{ctx} {name}: doppelte id {did} (auch {ids[did]})')
             ids[did] = ctx
             nk = (cuisine, slug(name,cuisine))
