@@ -72,7 +72,8 @@ def rewrite_source(src, token, kind):
 
 def bucket(e):
     s = e.get('source') or ''
-    if s.startswith('calculated from typical recipe'):
+    # Aktueller Text aus tools/dishes/build.py; der ältere Wortlaut bleibt lesbar.
+    if s.startswith('calculated from a typical recipe') or s.startswith('calculated from typical recipe'):
         return 'Rezept (Zutatentabelle)'
     if 'Geschätzt aus' in s or (e.get('quality') == 'estimate' and e.get('method') == 'similar_food'):
         return 'Schätzung (USDA-Rohwert bzw. similar_food)'

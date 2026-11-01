@@ -35,6 +35,14 @@ NOTE = {
 }
 NOTE_ESTIMATE = 'Grundzutat (zubereitet, geschätzt), kein Fertigprodukt'
 OIL = 'Rapsöl'  # Fettaufnahme beim Braten/Rösten, Werte aus der USDA-Grundzutat
+# Derselbe Marker wie in tools/carbs_net.py und tools/dishes/build.py.
+# Ohne ihn würde carbs_net.py die hier schon netto gespeicherten KH noch einmal um fiber kürzen.
+NET_MARK = '[KH netto]'
+
+def with_net_mark(src):
+    if NET_MARK in src or 'ohne Ballaststoffe' in src:
+        return src
+    return src.rstrip() + ' ' + NET_MARK
 
 def note_for(state):
     if state in RAW_STATES:
@@ -124,7 +132,7 @@ def main():
             'per100g': p,
             'ingredients': [{'name': name, 'grams': 100}],
             'quality': 'reference',
-            'source': f'USDA FoodData Central, SR Legacy (April 2018), FDC ID {fid}: {en}',
+            'source': with_net_mark(f'USDA FoodData Central, SR Legacy (April 2018), FDC ID {fid}: {en}'),
             'fdc_id': int(fid),
         }
         if miss:
@@ -255,8 +263,9 @@ def estimates(items, out, ids, names, taken, dropped_syn, clashes):
             'per100g': p,
             'ingredients': ing,
             'quality': 'estimate',
-            'source': (f'Geschätzt aus {base_name} ({b["source"]}). {m["src"]}. '
-                       f'Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.'),
+            'source': with_net_mark(
+                f'Geschätzt aus {base_name} ({b["source"]}). {m["src"]}. '
+                f'Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.'),
             'derived_from': b['id'],
         }
         if 'source_missing' in b:
