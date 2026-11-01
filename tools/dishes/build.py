@@ -109,7 +109,10 @@ def main():
             for k,g in lst: merged[k] = merged.get(k,0)+g
             e['ingredients']=[{'name':ing[k]['name'],'grams':(int(g) if float(g).is_integer() else g)} for k,g in merged.items()]
             e['quality']='estimate'
-            e['source']='calculated from a typical recipe; ingredient values from named datasets or labeled estimates'
+            if did == 'bundnerfleisch':
+                e['source']='Schweizer Nährwertdatenbank V7.1, Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV), naehrwertdaten.ch (frei verwendbar mit Quellenangabe); ID 709 "Dried meat (Hobel-, Bündner-, Walliser-, Tessiner- dried meat)".'
+            else:
+                e['source']='calculated from a typical recipe; ingredient values from named datasets or labeled estimates'
             if did in ids: errors.append(f'{ctx} {name}: doppelte id {did} (auch {ids[did]})')
             ids[did] = ctx
             nk = (cuisine, slug(name,cuisine))
