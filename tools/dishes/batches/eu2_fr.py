@@ -53,7 +53,7 @@ Jambon-beurre | Jambon beurre sandwich | SN | 1.0 | 1 Baguette-Sandwich | weissb
 Madeleines | Madeleine de Commercy | G | 0.85 | 3 Stück | mehl 30, zucker 25, ei 30, butter 25, zitrone 3
 Moules marinières | Moules marinière | HFi | 0.75 | 1 Portion | muschel 200, wein_weiss 80, zwiebel 20, butter 15, petersilie 3, sahne 20, weissbrot 40
 Opéra | Gâteau opéra | K | 0.95 | 1 Stück | mandel 30, ei 50, zucker 40, mehl 10, butter 40, kaffee 20, schokolade 30, sahne 20
-Palmiers | Palmier cookie | G | 1.0 | 3 Stück | blaetterteig 50, zucker 15
+Palmiers | Palmier cookie | G | 0.95 | 3 Stück | blaetterteig 50, zucker 15
 Petit salé aux lentilles | Petit salé | E | 0.9 | 1 Teller | linsen 70, wasser 175, schwein_bauch 70, speck 20, zwiebel 30, karotte 30
 Pommes duchesse | Duchess potatoes | B | 0.9 | 5 Stück | kartoffel 200, butter 20, ei 25, milch 15
 Pot-au-feu de la mer | Seafood pot-au-feu | E | 0.95 | 1 Teller | kabeljau 100, garnele 40, muschel 40, kartoffel 120, karotte 40, lauch 40, bruehe 250, mayonnaise 15
@@ -85,7 +85,8 @@ Gigot d'agneau aux haricots | Gigot d'agneau | HF | 0.75 | 1 Teller | lamm 220, 
 Gratin de macaroni | French macaroni gratin | AU | 0.95 | 1 Portion | nudeln 80, wasser 120, milch 150, emmentaler 50, butter 15, mehl 10
 Hachis parmentier | Shepherd's pie French | AU | 0.9 | 1 Portion | hack 120, kartoffel 250, milch 50, butter 20, zwiebel 40, tomatenmark 10
 Kouign-amann |  | G | 0.85 | 1 Stück | mehl 60, butter 45, zucker 35, hefe 2, wasser 30
-Magret de canard | Duck breast French | HG | 0.7 | 1 Portion | ente 250, honig 8, salz 1
+# Gebratene Ente mit Haut (USDA 172409). 180 g ist die bisherige gegarte Menge (250 g roh × 0,7), ohne zweite Aufkonzentration.
+Magret de canard | Duck breast French | HG | 1.0 | 1 Portion | ente_gegart 180, honig 8, salz 1
 Navarin d'agneau | Navarin printanier | E | 0.85 | 1 Teller | lamm 180, kartoffel 120, karotte 60, zwiebel 40, erbsen 40, tomatenmark 10, bruehe 150
 Pain au chocolat | Chocolatine | G | 0.95 | 1 Stück | blaetterteig 60, schokolade 12, ei 10, milch 15, mehl 10
 Panisse | Panisses marseillaises | SN | 0.9 | 4 Stück | kichererbsen_trocken 50, wasser 150, olivenoel 15, oel 15

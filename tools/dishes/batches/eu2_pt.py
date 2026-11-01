@@ -23,7 +23,8 @@ Ginjinha | Ginja liqueur | GT | 1.0 | 1 Glas 4 cl | sauerkirsche 10, spirituose 
 Ovos moles de Aveiro | Ovos moles | SW | 0.9 | 3 Stück | ei 50, zucker 40, wasser 20
 Pudim flan português | Pudim flan | PU | 0.95 | 1 Stück | ei 100, milch 100, kondensmilch 30, zucker 25
 Rojões à moda do Minho | Rojões | HF | 0.75 | 1 Portion | schwein_nacken 200, wein_weiss 60, schmalz 12, knoblauch 4, paprikapulver 2, kartoffel 120, oel 10
-Torresmos | Portuguese pork rinds | SN | 0.65 | 1 Portion | schwein_bauch 100, salz 1
+# Gegarte Grieben (CoFID 18-216), Menge = bisherige gegarte Portion (100 g roh × 0,65).
+Torresmos | Portuguese pork rinds | SN | 1.0 | 1 Portion | grieben 65, salz 1
 Arroz de pato | Duck rice | RP | 0.95 | 1 Teller | reis 80, wasser 200, ente 150, chorizo 30, zwiebel 30, olivenoel 10
 Bacalhau com natas | Cod with cream | AU | 0.9 | 1 Portion | stockfisch 120, kartoffel 150, sahne 80, zwiebel 40, olivenoel 15, milch 40, mehl 8
 Bica | Portuguese bica espresso | GT | 1.0 | 1 Tasse | kaffee 40

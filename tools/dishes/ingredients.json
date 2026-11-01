@@ -217,7 +217,7 @@
       "license": "CC BY 4.0",
       "base_id": "sucuk",
       "method": "similar_food",
-      "note": "Grundzutat: BLS Knoblauchwurst roh, Methode similar_food. Kein TürKomp. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
+      "note": "Grundzutat: BLS Knoblauchwurst roh, Methode similar_food. Kein TürKomp. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS W171100: FIBT 0,14 g, FIBHMW nicht veröffentlicht. Fructananteil unklar; Wert unverändert."
     }
   },
   {
@@ -407,19 +407,18 @@
     "key": "schwein_bauch",
     "name": "Schweinebauch",
     "per100g": {
-      "kcal": 518.0,
-      "protein": 9.3,
+      "kcal": 324.0,
+      "protein": 17.7,
       "carbs": 0.0,
-      "fat": 53.0,
+      "fat": 28.1,
       "fiber": 0.0
     },
     "source": {
-      "database": "USDA SR Legacy",
-      "dataset_id": "167812",
-      "record": "Pork, fresh, belly, raw",
-      "license": "CC0 1.0",
-      "base_id": "schweinebauch-roh",
-      "note": "Roher Schweinebauch; die bisherigen 30 g Fett waren zu niedrig."
+      "database": "BLS 4.0",
+      "dataset_id": "U642100",
+      "record": "Schwein Bauch (wie gewachsen) roh",
+      "license": "CC BY 4.0",
+      "note": "Roher Bauch, wie gewachsen. Ersetzt USDA SR Legacy 167812 (53 g Fett, eher Speck). Kohlenhydrate = verfügbare KH 0 + Ballaststoffe 0. FIBT und FIBHMW sind beide 0."
     }
   },
   {
@@ -494,7 +493,7 @@
       "record": "Schwein Kochschinken, Kochpökelware",
       "license": "CC BY 4.0",
       "base_id": "kochschinken",
-      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS W424000: FIBT 0 und FIBHMW 0, beide veröffentlicht. Kein offener Fructananteil."
     }
   },
   {
@@ -531,7 +530,7 @@
       "record": "Kasseler, Rohpökelware, geräuchert",
       "license": "CC BY 4.0",
       "base_id": "kasseler-gepoekelt-geraeuchert",
-      "note": "Kasseler aus der Lende, nicht der fettere Kasseler Kamm. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
+      "note": "Kasseler aus der Lende, nicht der fettere Kasseler Kamm. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS W510000: FIBT unter der Bestimmungsgrenze, FIBHMW 0. Kein offener Fructananteil; Ballaststoffe bleiben 0."
     }
   },
   {
@@ -605,7 +604,7 @@
       "record": "Leberwurst einfach",
       "license": "CC BY 4.0",
       "base_id": "leberwurst-einfach",
-      "note": "BLS Leberwurst einfach, nicht eine fettere Sorte. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
+      "note": "BLS Leberwurst einfach, nicht eine fettere Sorte. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS W327000: FIBT 0,1 g, FIBHMW nicht veröffentlicht. Fructananteil unklar; Wert unverändert."
     }
   },
   {
@@ -624,7 +623,7 @@
       "record": "Leberkäse",
       "license": "CC BY 4.0",
       "base_id": "leberkaese-aufschnitt",
-      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS W256100: FIBT 0,06 g, FIBHMW nicht veröffentlicht. Fructananteil unklar; Wert unverändert."
     }
   },
   {
@@ -643,7 +642,7 @@
       "record": "Mettwurst",
       "license": "CC BY 4.0",
       "base_id": "mettwurst",
-      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS W151000: FIBT 0,1 g, FIBHMW nicht veröffentlicht. Fructananteil unklar; Wert unverändert."
     }
   },
   {
@@ -662,7 +661,7 @@
       "record": "Salami",
       "license": "CC BY 4.0",
       "base_id": "salami",
-      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS W140000: FIBT 0 und FIBHMW 0, beide veröffentlicht. Kein offener Fructananteil."
     }
   },
   {
@@ -1257,18 +1256,18 @@
     "key": "frischkaese",
     "name": "Frischkäse",
     "per100g": {
-      "kcal": 350.0,
-      "protein": 6.2,
-      "carbs": 5.5,
-      "fat": 34.4,
+      "kcal": 252.0,
+      "protein": 6.6,
+      "carbs": 3.7,
+      "fat": 23.2,
       "fiber": 0.0
     },
     "source": {
-      "database": "USDA SR Legacy",
-      "dataset_id": "173418",
-      "record": "Cheese, cream",
-      "license": "CC0 1.0",
-      "base_id": "frischkaese-doppelrahmstufe"
+      "database": "BLS 4.0",
+      "dataset_id": "M710800",
+      "record": "Frischkäsezubereitung Natur, mind. 60 % Fett i. Tr.",
+      "license": "CC BY 4.0",
+      "note": "Deutsche Frischkäsezubereitung, nicht USDA Cheese, cream (Doppelrahmstufe, 34,4 g Fett). Fett ungerundet 23,25 g. FIBT und FIBHMW sind 0. Kohlenhydrate = verfügbare KH 3,69 g."
     }
   },
   {
@@ -1538,18 +1537,18 @@
     "key": "knoblauch",
     "name": "Knoblauch",
     "per100g": {
-      "kcal": 149.0,
-      "protein": 6.4,
-      "carbs": 33.1,
+      "kcal": 109.0,
+      "protein": 5.3,
+      "carbs": 24.4,
       "fat": 0.5,
-      "fiber": 2.1
+      "fiber": 5.8
     },
     "source": {
-      "database": "USDA SR Legacy",
-      "dataset_id": "169230",
+      "database": "Ciqual 2025",
+      "dataset_id": "11000",
       "record": "Garlic, raw",
-      "license": "CC0 1.0",
-      "base_id": "knoblauch-roh"
+      "license": "Etalab 2.0",
+      "note": "Lizenz Etalab 2.0, nicht CC BY. Protein 5,31 g, verfügbare KH 18,6 g, Ballaststoffe 5,8 g, kcal 109 (EU 1169/2011). Fett ist in Ciqual \"< 0,5 g\" und hier als 0,5 g (Bestimmungsgrenze) eingetragen. Kohlenhydrate = 18,6 + 5,8 = 24,4 g Gesamt-KH."
     }
   },
   {
@@ -2226,18 +2225,18 @@
     "key": "portulak",
     "name": "Portulak",
     "per100g": {
-      "kcal": 20.0,
-      "protein": 2.0,
-      "carbs": 3.4,
-      "fat": 0.4,
-      "fiber": 0.0
+      "kcal": 14.0,
+      "protein": 1.5,
+      "carbs": 2.2,
+      "fat": 0.3,
+      "fiber": 1.6
     },
     "source": {
-      "database": "USDA SR Legacy",
-      "dataset_id": "169274",
-      "record": "Purslane, raw",
-      "license": "CC0 1.0",
-      "note": "Ciqual 20127 nennt dasselbe Blatt, ohne Energie, Kohlenhydrate und Ballaststoffe. Ballaststoffe in SR Legacy nicht veröffentlicht und als 0 eingetragen, nicht geschätzt. carbs ist Carbohydrate by difference und enthält diese nicht ausgewiesenen Ballaststoffe."
+      "database": "BLS 4.0",
+      "dataset_id": "G460100",
+      "record": "Portulak roh",
+      "license": "CC BY 4.0",
+      "note": "Ganzer Datensatz. FIBT und FIBHMW sind beide 1,6 g (kein zusätzlicher Fructananteil). Kohlenhydrate = verfügbare KH 0,587 g + 1,6 g. USDA 169274 hat keine Ballaststoffe und wird nicht verwendet."
     }
   },
   {
@@ -2422,7 +2421,7 @@
       "license": "CC0 1.0",
       "base_id": "tomatenmark",
       "method": "similar_food",
-      "note": "Paprikamark (Biber salçası) fehlt in den freien Tabellen. Süße chinesische Saucen und Paprikapulver sind andere Lebensmittel. Nächstes belegtes Nasskonzentrat ist Tomatenmark; Werte unverändert, nicht auf Paprika umgerechnet."
+      "note": "Paprikamark (Biber salçası) fehlt in den freien Tabellen. Süße chinesische Saucen und Paprikapulver sind andere Lebensmittel. Nächstes belegtes Nasskonzentrat ist Tomatenmark; Werte unverändert, nicht auf Paprika umgerechnet. Näherung: Paprikamark fehlt in den freien Tabellen. Werte sind Tomatenmark (USDA 170459), unverändert, nicht auf Paprika umgerechnet."
     }
   },
   {
@@ -2728,7 +2727,7 @@
       "license": "CC BY 4.0",
       "base_id": "weizenfladenbrot",
       "method": "similar_food",
-      "note": "Lavaş ist ein Weizenfladen. Werte des BLS-Weizenfladenbrots unverändert. Pitabrot ist ein anderes Lebensmittel. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
+      "note": "Lavaş ist ein Weizenfladen. Werte des BLS-Weizenfladenbrots unverändert. Pitabrot ist ein anderes Lebensmittel. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS B782100: FIBT 3,34 g, FIBHMW nicht veröffentlicht. Fructananteil der Ballaststoffe unklar; Wert unverändert."
     }
   },
   {
@@ -2775,17 +2774,18 @@
     "key": "blaetterteig",
     "name": "Blätterteig",
     "per100g": {
-      "kcal": 551.0,
-      "protein": 7.3,
-      "carbs": 45.1,
-      "fat": 38.1,
-      "fiber": 1.5
+      "kcal": 465.0,
+      "protein": 5.2,
+      "carbs": 31.9,
+      "fat": 35.7,
+      "fiber": 2.2
     },
     "source": {
-      "database": "USDA SR Legacy",
-      "dataset_id": "172790",
-      "record": "Puff pastry, frozen, ready-to-bake",
-      "license": "CC0 1.0"
+      "database": "BLS 4.0",
+      "dataset_id": "X9A6020",
+      "record": "Blätterteig (mit Butter) roh",
+      "license": "CC BY 4.0",
+      "note": "Roh, mit Butter. USDA 172790 ist der gebackene Blätterteig und wird nicht verwendet. Kohlenhydrate = verfügbare KH 29,75 g + FIBT 2,18 g. FIBHMW ist in BLS nicht veröffentlicht; der Fructananteil der 2,2 g Ballaststoffe ist deshalb unklar."
     }
   },
   {
@@ -2847,20 +2847,19 @@
     "key": "tarhana",
     "name": "Tarhana (trocken)",
     "per100g": {
-      "kcal": 434.0,
-      "protein": 19.5,
-      "carbs": 57.4,
-      "fat": 13.9,
-      "fiber": 1.4
+      "kcal": 356.0,
+      "protein": 16.0,
+      "carbs": 61.9,
+      "fat": 5.4,
+      "fiber": 1.0
     },
     "source": {
       "database": "Schätzung",
-      "method": "recipe",
+      "method": "similar_food",
       "derived_from": [
-        "USDA SR Legacy:171284",
-        "USDA SR Legacy:169761"
+        "Siyamoğlu 1961"
       ],
-      "note": "Tarhana fehlt in den freien Tabellen. Modell, keine amtliche Analyse: Trockenmasse aus Joghurt natur (FDC 171284, Wasser 87.9 g/100 g, Faktor 8.26) und Weizenmehl Type 405 zu gleichen Teilen. Gemüse und Fermentation sind nicht eingerechnet. Die 1:1-Annahme ist ein Modell, kein Datensatz."
+      "note": "Schätzung nach Siyamoğlu, B. (1961), zitiert in Erbaş, M., Certel, M. & Uslu, M. K. (2005): Microbiological and chemical properties of Tarhana during fermentation and storage as wet. LWT 38, 409–416, Mittel von 134 Proben aus der Türkei: Wasser 10,2 g, Protein 16,0 g, Kohlenhydrate 60,9 g, Fett 5,4 g, Rohfaser 1,0 g, Asche 6,2 g, Salz 3,8 g je 100 g. Die Summe mit Wasser und Asche ist 99,7 g, die 60,9 g sind also ohne die Rohfaser. Gesamt-KH = 60,9 + 1,0 = 61,9 g. kcal fehlen in der Quelle; Atwater 4·16,0 + 4·60,9 + 9·5,4 = 356. Die Rohfaser ist nicht AOAC und als Untergrenze gekennzeichnet. Die frühere 1:1-Mehl/Joghurt-Trockenmasse (434 kcal) ist ersetzt."
     }
   },
   {
@@ -2933,7 +2932,7 @@
       "record": "Traubendicksaft",
       "license": "CC BY 4.0",
       "base_id": "uezuem-pekmezi-traubensirup",
-      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS S157000: FIBT 1,238 g, FIBHMW nicht veröffentlicht. Fructananteil unklar; Wert unverändert."
     }
   },
   {
@@ -3440,7 +3439,7 @@
       "license": "CC BY 4.0",
       "base_id": "uezuem-pekmezi-traubensirup",
       "method": "similar_food",
-      "note": "Granatapfelsirup fehlt als eigener Satz. Traubenpekmez ist der belegte Fruchtsirup; Rohr-Melasse ist nicht verwendet. Werte unverändert. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
+      "note": "Granatapfelsirup fehlt als eigener Satz. Traubenpekmez ist der belegte Fruchtsirup; Rohr-Melasse ist nicht verwendet. Werte unverändert. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). Näherung, kein Granatapfelsirup. Datensatz ist Traubendicksaft BLS S157000. FIBT 1,238 g, FIBHMW nicht veröffentlicht, Fructananteil unklar."
     }
   },
   {
@@ -3895,20 +3894,21 @@
     "key": "gewuerz",
     "name": "Gewürzmischung (Sumak, Muskat, Kurkuma usw.)",
     "per100g": {
-      "kcal": 418.0,
-      "protein": 7.8,
-      "carbs": 58.2,
-      "fat": 19.8,
-      "fiber": 21.8
+      "kcal": 406.0,
+      "protein": 5.6,
+      "carbs": 57.4,
+      "fat": 20.4,
+      "fiber": 21.3
     },
     "source": {
       "database": "Schätzung",
       "method": "recipe",
       "derived_from": [
+        "FAO/INFOODS BioFoodComp 4.0:0400102",
         "USDA SR Legacy:171326",
         "USDA SR Legacy:172231"
       ],
-      "note": "Die Beispiele im Namen sind Sumach, Muskat und Kurkuma. Sumach hat keinen verwertbaren Datensatz und ist nicht eingesetzt. Gleichgewichtiges Mittel aus Muskat und Kurkuma."
+      "note": "Gleichgewichtiges Mittel der drei im Namen genannten Beispiele, ungerundet: Sumach (FAO/INFOODS 0400102, Fett 21,49 g), Muskat (USDA 171326, Fett 36,31 g) und Kurkuma (USDA 172231, Fett 3,25 g). Fettmittel 20,35 g, gespeichert 20,4 g. Das frühere Fett von 19,8 g kam von 50 % Muskat und 50 % Kurkuma ohne Sumach. Paprika ist nicht enthalten. \"usw.\" ist nicht weiter aufgefüllt."
     }
   },
   {
@@ -4213,19 +4213,18 @@
     "key": "sumak_pulver",
     "name": "Sumak",
     "per100g": {
-      "kcal": 282.0,
-      "protein": 14.1,
-      "carbs": 54.0,
-      "fat": 12.9,
-      "fiber": 34.9
+      "kcal": 381.0,
+      "protein": 1.2,
+      "carbs": 55.7,
+      "fat": 21.5,
+      "fiber": 20.3
     },
     "source": {
-      "database": "USDA SR Legacy",
-      "dataset_id": "171329",
-      "record": "Spices, paprika",
-      "license": "CC0 1.0",
-      "method": "similar_food",
-      "note": "Sumach fehlt in USDA SR Legacy, CoFID, Ciqual, BLS-Bestand und Livsmedelsverket. Ein Marken-Label in FDC Branded war unbrauchbar (Nährwerte 0). Als schwache Analogie gemahlene Paprika (gemahlene getrocknete Frucht), Werte unverändert. Sumach ist nicht Paprika."
+      "database": "FAO/INFOODS BioFoodComp 4.0",
+      "dataset_id": "0400102",
+      "record": "Elm-leaved sumach, fruits, seeds, dried (Rhus coriaria)",
+      "license": "CC BY 4.0",
+      "note": "Sumach ist Rhus coriaria, kein Paprika. Kein Treffer in USDA SR Legacy, BLS, Ciqual, CoFID oder Livsmedelsverket. Geprüft und nicht als Zahlensatz verwendet: Lo Vecchio et al. (2022), Foods 11, 538 (MDPI, CC BY 4.0), sizilianische Früchte: Protein 3,47 g, Rohfett 9,56 g, Rohfaser 33,21 g (Weende, AOAC 962.09), Wasser 6,64 g, Asche 4,78 g; Kohlenhydrate und Energie dort nicht bestimmt. Deshalb der nächste vollständige freie Satz: FAO/INFOODS BioFoodComp 4.0, Food Item 0400102, Türkei, n=6, getrocknete Früchte und Samen (Bibliography tr001: Biodiversity for Food and Nutrition Project, 2016, unveröffentlichte Analyse, kompiliert von FAO 2017). kcal 380,51, Protein 1,16 g, Fett 21,49 g, verfügbare KH (CHOAVLDF) 35,46 g, Ballaststoffe FIBTG 20,27 g. Gesamt-KH = 35,46 + 20,27. FIBTG ist Gesamtfaser, nicht als hochmolekular ohne Fructane ausgewiesen. Lizenz der FAO-Datensätze CC BY 4.0; die Originalanalyse ist unveröffentlicht."
     }
   },
   {
@@ -4741,19 +4740,18 @@
     "key": "knaeckebrot",
     "name": "Knäckebrot",
     "per100g": {
-      "kcal": 327.0,
-      "protein": 9.4,
-      "carbs": 79.2,
+      "kcal": 284.0,
+      "protein": 8.6,
+      "carbs": 83.4,
       "fat": 1.4,
-      "fiber": 19.9
+      "fiber": 20.0
     },
     "source": {
-      "database": "BLS 4.0",
-      "dataset_id": "B6A2100",
-      "record": "Roggenvollkornknäckebrot",
-      "license": "CC BY 4.0",
-      "base_id": "roggenvollkorn-knaeckebrot",
-      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
+      "database": "CoFID 2021",
+      "dataset_id": "11-822",
+      "record": "Crispbread, rye",
+      "license": "Open Government Licence v3.0",
+      "note": "Roggen-Knäckebrot, 5 Proben (Ryvita original und dark). AOAC-Ballaststoffe 20,0 g, NSP 14,2 g (nicht verwendet). CoFID-Kohlenhydrate 63,4 g sind Monosaccharid-Äquivalente (Stärke 60,0 + Zucker 3,4). Gespeichert ist Gesamt-KH = 63,4 + AOAC 20,0 = 83,4 g. kcal wie veröffentlicht."
     }
   },
   {
@@ -4914,7 +4912,7 @@
       "record": "Pflaumenmus",
       "license": "CC BY 4.0",
       "base_id": "pflaumenmus",
-      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS S161000: FIBT 1,66 g, FIBHMW nicht veröffentlicht. Fructananteil unklar; Wert unverändert."
     }
   },
   {
@@ -5017,16 +5015,16 @@
     "per100g": {
       "kcal": 310.0,
       "protein": 10.7,
-      "carbs": 19.2,
+      "carbs": 21.3,
       "fat": 21.7,
-      "fiber": 0.0
+      "fiber": 2.1
     },
     "source": {
       "database": "CoFID 2021",
       "dataset_id": "19-132",
       "record": "Haggis, boiled",
       "license": "Open Government Licence v3.0",
-      "note": "Haggis, boiled.  AOAC-Ballaststoffe in CoFID nicht veröffentlicht (NSP nicht als AOAC übernommen) und als 0 eingetragen. carbs ist hier die verfügbare KH der Quelle."
+      "note": "kcal 310, Protein 10,7 g, Fett 21,7 g, verfügbare KH 19,2 g wie CoFID (8 Proben, MW4 1978, reviewed 2013). AOAC-Ballaststoffe sind \"N\", NSP nur 0,2 g; das passt nicht zu 19,2 g Stärke. Schätzung: die Stärke stammt aus Haferflocken (CoFID 11-788, Stärke 70,4 g, AOAC 7,8 g). Anteil 19,2/70,4 × 7,8 = 2,13 g AOAC, gerundet 2,1 g. Eine pauschale 1,5 g ohne diese Herleitung wird nicht verwendet. Gesamt-KH = 19,2 + 2,1. CoFID-Kohlenhydrate sind Monosaccharid-Äquivalente (hier gleich der Stärke)."
     }
   },
   {
@@ -5172,26 +5170,25 @@
       "record": "Seaweed, laver, raw",
       "license": "CC0 1.0",
       "method": "similar_food",
-      "note": "Der Schlüssel sagt gegart. Belegt ist Laver roh; ein gegarter Satz ohne Fett fehlt. Werte unverändert, nicht auf gegart hochgerechnet."
+      "note": "Der Schlüssel sagt gegart. Belegt ist Laver roh; ein gegarter Satz ohne Fett fehlt. Werte unverändert, nicht auf gegart hochgerechnet. Näherung: der Schlüssel sagt gegart, der Datensatz USDA 168458 ist Laver roh. Keine Umrechnung auf gegart."
     }
   },
   {
     "key": "x4_erdmandel",
     "name": "Erdmandeln (Tigernüsse)",
     "per100g": {
-      "kcal": 500.0,
-      "protein": 6.7,
-      "carbs": 63.3,
-      "fat": 23.3,
-      "fiber": 33.3
+      "kcal": 403.0,
+      "protein": 4.3,
+      "carbs": 57.4,
+      "fat": 23.8,
+      "fiber": 11.7
     },
     "source": {
-      "database": "USDA FoodData Central Branded",
-      "dataset_id": "2625934",
-      "record": "WHOLE TIGERNUTS",
-      "license": "CC0 1.0",
-      "method": "similar_food",
-      "note": "Kein generischer SR-Legacy-, CoFID- oder Ciqual-Satz. Einziger vollständiger USDA-Satz ist ein Markenlabel (Zutat ausschließlich Cyperus esculentus). Werte der Kennzeichnung unverändert; kein generischer Tabellenwert."
+      "database": "CoFID 2021",
+      "dataset_id": "14-848",
+      "record": "Tigernuts",
+      "license": "Open Government Licence v3.0",
+      "note": "Makros aus CoFID (Literatur, Fruit and Nuts Supplement 1992): kcal 403, Protein 4,3 g, Fett 23,8 g, Kohlenhydrate 45,7 g als Monosaccharid-Äquivalente (Stärke 29,6 + Zucker 16,1). AOAC-Ballaststoffe fehlen in CoFID. Schweizer Nährwertdatenbank 7.1 (Generic und Branded, Stand 01.07.2026, naehrwertdaten.ch, kommerziell nutzbar mit Quellenangabe; Datei Swiss_food_composition_database.xlsx) enthält keine Erdmandel, Cyperus oder Chufa. Ballaststoffe deshalb als gekennzeichnete Schätzung: CoFID-NSP 11,7 g, Untergrenze, nicht AOAC. Gesamt-KH = 45,7 + 11,7 = 57,4 g. USDA-Branded-Label wird nicht verwendet."
     }
   },
   {
@@ -5617,9 +5614,9 @@
     "per100g": {
       "kcal": 329.0,
       "protein": 11.1,
-      "carbs": 71.3,
+      "carbs": 69.8,
       "fat": 2.7,
-      "fiber": 12.2
+      "fiber": 10.6
     },
     "source": {
       "database": "BLS 4.0",
@@ -5627,7 +5624,7 @@
       "record": "Grünkern ganzes Korn, roh",
       "license": "CC BY 4.0",
       "base_id": "gruenkern-roh",
-      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
+      "note": "Dieselbe Grundzutat, aber Ballaststoffe FIBHMW 10,62 g (hochmolekular, ohne Fructane) statt FIBT 12,16 g. Kohlenhydrate = verfügbare KH 59,18 g + 10,62 g = 69,8 g. kcal, Protein und Fett wie BLS."
     }
   },
   {
@@ -5723,6 +5720,60 @@
       "dataset_id": "174288",
       "record": "Chickpea flour (besan)",
       "license": "CC0 1.0"
+    }
+  },
+  {
+    "key": "grieben",
+    "name": "Schweinegrieben, gegart",
+    "per100g": {
+      "kcal": 550.0,
+      "protein": 36.2,
+      "carbs": 0.0,
+      "fat": 45.0,
+      "fiber": 0.0
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "18-216",
+      "record": "Pork, crackling, cooked",
+      "license": "Open Government Licence v3.0",
+      "note": "Gegarte Grieben von verschiedenen Schweinestücken, gegrillt und gebraten (LGC 1992–1993). kcal 550, Protein 36,2 g, Fett 45,0 g, KH 0. AOAC nicht bestimmt, NSP 0, daher Ballaststoffe 0. Für Torresmos, Jumări und Sremski čvarci, nicht für rohen Bauch."
+    }
+  },
+  {
+    "key": "ente_gegart",
+    "name": "Ente mit Haut, gebraten",
+    "per100g": {
+      "kcal": 337.0,
+      "protein": 19.0,
+      "carbs": 0.0,
+      "fat": 28.4,
+      "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172409",
+      "record": "Duck, domesticated, meat and skin, cooked, roasted",
+      "license": "CC0 1.0",
+      "note": "Gebratenes Entenfleisch mit Haut. Für gegarte Entengerichte (Magret, Kaczka), damit das Rechenmodell den rohen Satz nicht noch einmal aufkonzentriert. Protein 18,99 g und Fett 28,35 g auf 19,0 g und 28,4 g gerundet."
+    }
+  },
+  {
+    "key": "gans_gegart",
+    "name": "Gans mit Haut, gebraten",
+    "per100g": {
+      "kcal": 305.0,
+      "protein": 25.2,
+      "carbs": 0.0,
+      "fat": 21.9,
+      "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172412",
+      "record": "Goose, domesticated, meat and skin, cooked, roasted",
+      "license": "CC0 1.0",
+      "note": "Gebratene Gans mit Haut. Für den fertigen Teller Gänsebraten mit Rotkohl und Klößen (Garfaktor dort 1,0, die Gramm sind die angerichtete Menge). Protein 25,16 g und Fett 21,92 g auf 25,2 g und 21,9 g gerundet. Der Braten selbst bleibt beim rohen Satz mit Garfaktor 0,65."
     }
   }
 ]

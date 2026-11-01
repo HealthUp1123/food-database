@@ -995,10 +995,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 358,
-      "protein": 11.0,
+      "kcal": 259,
+      "protein": 15.2,
       "carbs": 2.0,
-      "fat": 33.1,
+      "fat": 20.5,
       "fiber": 0.2
     },
     "portion": {
@@ -5592,10 +5592,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 168,
-      "protein": 6.8,
+      "kcal": 144,
+      "protein": 7.9,
       "carbs": 4.1,
-      "fat": 14.2,
+      "fat": 11.2,
       "fiber": 2.4
     },
     "portion": {
@@ -7618,10 +7618,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 81,
-      "protein": 1.9,
+      "kcal": 60,
+      "protein": 2.8,
       "carbs": 5.2,
-      "fat": 5.9,
+      "fat": 3.2,
       "fiber": 0.9
     },
     "portion": {
@@ -9737,7 +9737,7 @@
     "per100g": {
       "kcal": 167,
       "protein": 5.0,
-      "carbs": 12.7,
+      "carbs": 12.6,
       "fat": 11.0,
       "fiber": 1.4
     },
@@ -13333,10 +13333,10 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 262,
-      "protein": 12.7,
-      "carbs": 22.7,
-      "fat": 13.3,
+      "kcal": 245,
+      "protein": 12.8,
+      "carbs": 22.4,
+      "fat": 11.3,
       "fiber": 1.0
     },
     "portion": {
@@ -15853,10 +15853,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 317,
-      "protein": 13.4,
-      "carbs": 2.4,
-      "fat": 28.4,
+      "kcal": 300,
+      "protein": 13.5,
+      "carbs": 2.1,
+      "fat": 26.4,
       "fiber": 0.3
     },
     "portion": {
@@ -21173,11 +21173,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 258,
-      "protein": 3.3,
-      "carbs": 32.3,
-      "fat": 13.5,
-      "fiber": 2.1
+      "kcal": 228,
+      "protein": 2.6,
+      "carbs": 27.7,
+      "fat": 12.7,
+      "fiber": 2.4
     },
     "portion": {
       "label": "1 Stück",
@@ -23324,10 +23324,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 151,
-      "protein": 9.1,
+      "kcal": 124,
+      "protein": 10.3,
       "carbs": 7.4,
-      "fat": 9.4,
+      "fat": 5.9,
       "fiber": 1.7
     },
     "portion": {
@@ -23787,10 +23787,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 174,
-      "protein": 5.7,
+      "kcal": 143,
+      "protein": 7.1,
       "carbs": 7.0,
-      "fat": 13.9,
+      "fat": 9.8,
       "fiber": 1.7
     },
     "portion": {
@@ -24308,10 +24308,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 293,
-      "protein": 15.5,
+      "kcal": 214,
+      "protein": 18.9,
       "carbs": 0.9,
-      "fat": 24.7,
+      "fat": 14.6,
       "fiber": 0.1
     },
     "portion": {
@@ -24712,11 +24712,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 375,
-      "protein": 10.7,
-      "carbs": 18.7,
-      "fat": 28.7,
-      "fiber": 0.7
+      "kcal": 341,
+      "protein": 9.9,
+      "carbs": 13.4,
+      "fat": 27.7,
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Stück",
@@ -25074,10 +25074,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 170,
-      "protein": 6.4,
+      "kcal": 147,
+      "protein": 9.6,
       "carbs": 9.6,
-      "fat": 11.8,
+      "fat": 7.7,
       "fiber": 1.1
     },
     "portion": {
@@ -25086,7 +25086,7 @@
     },
     "ingredients": [
       {
-        "name": "Gans",
+        "name": "Gans mit Haut, gebraten",
         "grams": 280
       },
       {
@@ -26758,11 +26758,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 383,
-      "protein": 3.4,
-      "carbs": 26.5,
-      "fat": 29.8,
-      "fiber": 0.5
+      "kcal": 362,
+      "protein": 2.9,
+      "carbs": 23.2,
+      "fat": 29.2,
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Stück",
@@ -28365,10 +28365,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 103,
+      "kcal": 96,
       "protein": 3.9,
-      "carbs": 4.1,
-      "fat": 8.1,
+      "carbs": 3.9,
+      "fat": 7.2,
       "fiber": 0.4
     },
     "portion": {
@@ -29773,11 +29773,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 279,
-      "protein": 3.6,
-      "carbs": 30.9,
-      "fat": 16.2,
-      "fiber": 1.8
+      "kcal": 244,
+      "protein": 2.7,
+      "carbs": 25.4,
+      "fat": 15.2,
+      "fiber": 2.1
     },
     "portion": {
       "label": "1 Stück",
@@ -31695,11 +31695,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 75,
-      "protein": 2.5,
-      "carbs": 7.4,
-      "fat": 4.0,
-      "fiber": 0.3
+      "kcal": 66,
+      "protein": 2.1,
+      "carbs": 8.0,
+      "fat": 3.0,
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Schüssel",
@@ -32803,9 +32803,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 118,
+      "kcal": 117,
       "protein": 5.6,
-      "carbs": 10.1,
+      "carbs": 10.0,
       "fat": 6.3,
       "fiber": 1.4
     },
@@ -33594,9 +33594,9 @@
     "per100g": {
       "kcal": 51,
       "protein": 5.2,
-      "carbs": 0.9,
+      "carbs": 0.7,
       "fat": 2.8,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Schüssel",
@@ -33657,11 +33657,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 50,
+      "kcal": 48,
       "protein": 4.7,
-      "carbs": 1.2,
+      "carbs": 1.0,
       "fat": 2.7,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Schüssel",
@@ -33722,11 +33722,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 76,
+      "kcal": 75,
       "protein": 5.7,
-      "carbs": 2.9,
+      "carbs": 2.7,
       "fat": 4.4,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Schüssel",
@@ -33943,9 +33943,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 116,
-      "protein": 4.5,
-      "carbs": 9.2,
+      "kcal": 115,
+      "protein": 4.4,
+      "carbs": 9.0,
       "fat": 6.8,
       "fiber": 0.4
     },
@@ -34594,11 +34594,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 48,
-      "protein": 1.4,
-      "carbs": 4.4,
+      "kcal": 46,
+      "protein": 1.2,
+      "carbs": 4.0,
       "fat": 3.0,
-      "fiber": 0.4
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Schüssel",
@@ -35169,11 +35169,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 318,
-      "protein": 13.9,
+      "kcal": 319,
+      "protein": 13.8,
       "carbs": 14.7,
-      "fat": 22.7,
-      "fiber": 1.8
+      "fat": 22.8,
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion (mit Lavaş)",
@@ -35605,9 +35605,9 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 151,
+      "kcal": 150,
       "protein": 7.1,
-      "carbs": 5.5,
+      "carbs": 5.4,
       "fat": 11.4,
       "fiber": 1.8
     },
@@ -35738,11 +35738,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 162,
+      "kcal": 161,
       "protein": 9.4,
-      "carbs": 2.8,
+      "carbs": 2.7,
       "fat": 12.4,
-      "fiber": 0.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion",
@@ -35807,9 +35807,9 @@
     "per100g": {
       "kcal": 198,
       "protein": 9.7,
-      "carbs": 8.1,
+      "carbs": 7.9,
       "fat": 14.2,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -35875,9 +35875,9 @@
     "per100g": {
       "kcal": 182,
       "protein": 10.0,
-      "carbs": 7.9,
+      "carbs": 7.7,
       "fat": 12.3,
-      "fiber": 1.2
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -39940,11 +39940,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 174,
+      "kcal": 173,
       "protein": 7.4,
-      "carbs": 8.0,
+      "carbs": 7.8,
       "fat": 12.7,
-      "fiber": 1.7
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Portion",
@@ -40322,7 +40322,7 @@
     "per100g": {
       "kcal": 174,
       "protein": 8.7,
-      "carbs": 5.7,
+      "carbs": 5.6,
       "fat": 12.9,
       "fiber": 0.8
     },
@@ -42896,11 +42896,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 79,
-      "protein": 4.4,
-      "carbs": 3.2,
+      "kcal": 76,
+      "protein": 4.1,
+      "carbs": 2.5,
       "fat": 5.8,
-      "fiber": 0.3
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion",
@@ -45593,9 +45593,9 @@
     "per100g": {
       "kcal": 84,
       "protein": 1.2,
-      "carbs": 6.7,
+      "carbs": 6.5,
       "fat": 6.5,
-      "fiber": 2.6
+      "fiber": 2.7
     },
     "portion": {
       "label": "1 Portion",
@@ -45650,9 +45650,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 106,
+      "kcal": 105,
       "protein": 1.7,
-      "carbs": 5.9,
+      "carbs": 5.7,
       "fat": 8.9,
       "fiber": 2.1
     },
@@ -45709,11 +45709,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 110,
+      "kcal": 109,
       "protein": 2.2,
-      "carbs": 6.1,
+      "carbs": 6.0,
       "fat": 8.9,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -45770,7 +45770,7 @@
     "per100g": {
       "kcal": 96,
       "protein": 1.6,
-      "carbs": 5.0,
+      "carbs": 4.9,
       "fat": 8.2,
       "fiber": 1.6
     },
@@ -46206,9 +46206,9 @@
     "per100g": {
       "kcal": 77,
       "protein": 3.7,
-      "carbs": 4.5,
+      "carbs": 4.3,
       "fat": 5.9,
-      "fiber": 1.2
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -46396,9 +46396,9 @@
     "per100g": {
       "kcal": 137,
       "protein": 7.2,
-      "carbs": 3.7,
+      "carbs": 3.6,
       "fat": 10.5,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -47266,9 +47266,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 63,
+      "kcal": 62,
       "protein": 1.4,
-      "carbs": 6.2,
+      "carbs": 6.1,
       "fat": 4.2,
       "fiber": 2.1
     },
@@ -47338,9 +47338,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 83,
+      "kcal": 82,
       "protein": 1.2,
-      "carbs": 7.3,
+      "carbs": 7.2,
       "fat": 6.0,
       "fiber": 2.7
     },
@@ -48182,11 +48182,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 58,
-      "protein": 1.7,
-      "carbs": 3.8,
-      "fat": 4.6,
-      "fiber": 0.3
+      "kcal": 53,
+      "protein": 1.3,
+      "carbs": 2.9,
+      "fat": 4.5,
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -48506,9 +48506,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 72,
+      "kcal": 71,
       "protein": 2.3,
-      "carbs": 4.5,
+      "carbs": 4.4,
       "fat": 5.7,
       "fiber": 2.2
     },
@@ -48797,7 +48797,7 @@
     "per100g": {
       "kcal": 91,
       "protein": 0.9,
-      "carbs": 6.9,
+      "carbs": 6.8,
       "fat": 7.2,
       "fiber": 1.1
     },
@@ -48924,7 +48924,7 @@
     "per100g": {
       "kcal": 100,
       "protein": 2.5,
-      "carbs": 8.0,
+      "carbs": 7.9,
       "fat": 7.0,
       "fiber": 1.9
     },
@@ -52298,11 +52298,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 389,
-      "protein": 11.3,
-      "carbs": 21.6,
-      "fat": 28.5,
-      "fiber": 0.9
+      "kcal": 350,
+      "protein": 10.4,
+      "carbs": 15.7,
+      "fat": 27.4,
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Stück",
@@ -54059,9 +54059,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 187,
+      "kcal": 186,
       "protein": 6.6,
-      "carbs": 20.4,
+      "carbs": 20.3,
       "fat": 8.6,
       "fiber": 0.9
     },
@@ -57184,9 +57184,9 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 281,
+      "kcal": 280,
       "protein": 12.5,
-      "carbs": 26.8,
+      "carbs": 26.6,
       "fat": 13.8,
       "fiber": 1.4
     },
@@ -57247,11 +57247,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 277,
-      "protein": 11.9,
+      "kcal": 278,
+      "protein": 11.8,
       "carbs": 23.1,
       "fat": 15.7,
-      "fiber": 2.1
+      "fiber": 2.0
     },
     "portion": {
       "label": "1 Wrap",
@@ -59344,9 +59344,9 @@
     "per100g": {
       "kcal": 129,
       "protein": 4.2,
-      "carbs": 18.9,
+      "carbs": 18.8,
       "fat": 4.0,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -59787,7 +59787,7 @@
     "per100g": {
       "kcal": 135,
       "protein": 4.2,
-      "carbs": 19.2,
+      "carbs": 19.1,
       "fat": 4.6,
       "fiber": 0.8
     },
@@ -61540,9 +61540,9 @@
     "per100g": {
       "kcal": 120,
       "protein": 14.6,
-      "carbs": 2.2,
+      "carbs": 2.1,
       "fat": 6.2,
-      "fiber": 0.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Tontopf",
@@ -61604,9 +61604,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 187,
+      "kcal": 186,
       "protein": 20.5,
-      "carbs": 6.9,
+      "carbs": 6.8,
       "fat": 8.7,
       "fiber": 0.3
     },
@@ -61665,11 +61665,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 111,
-      "protein": 15.9,
-      "carbs": 2.0,
+      "kcal": 110,
+      "protein": 15.8,
+      "carbs": 1.9,
       "fat": 4.6,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -62385,11 +62385,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 167,
+      "kcal": 166,
       "protein": 8.8,
-      "carbs": 5.4,
+      "carbs": 5.2,
       "fat": 12.7,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Schälchen",
@@ -62459,11 +62459,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 54,
+      "kcal": 53,
       "protein": 2.3,
-      "carbs": 4.3,
+      "carbs": 4.2,
       "fat": 3.2,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Schälchen",
@@ -62527,11 +62527,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 230,
+      "kcal": 229,
       "protein": 7.6,
-      "carbs": 20.5,
+      "carbs": 20.3,
       "fat": 14.2,
-      "fiber": 5.8
+      "fiber": 5.9
     },
     "portion": {
       "label": "1 Schälchen",
@@ -62596,10 +62596,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 84,
-      "protein": 1.1,
-      "carbs": 8.0,
-      "fat": 5.8,
+      "kcal": 85,
+      "protein": 1.0,
+      "carbs": 8.1,
+      "fat": 5.9,
       "fiber": 1.5
     },
     "portion": {
@@ -62679,7 +62679,7 @@
     "per100g": {
       "kcal": 86,
       "protein": 1.0,
-      "carbs": 6.0,
+      "carbs": 5.9,
       "fat": 7.1,
       "fiber": 2.7
     },
@@ -62747,9 +62747,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 130,
+      "kcal": 129,
       "protein": 2.8,
-      "carbs": 8.2,
+      "carbs": 8.1,
       "fat": 10.6,
       "fiber": 3.6
     },
@@ -62812,11 +62812,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 89,
+      "kcal": 88,
       "protein": 0.8,
-      "carbs": 6.4,
+      "carbs": 6.3,
       "fat": 7.2,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Schälchen",
@@ -62874,7 +62874,7 @@
     "per100g": {
       "kcal": 107,
       "protein": 1.1,
-      "carbs": 5.8,
+      "carbs": 5.7,
       "fat": 9.5,
       "fiber": 2.4
     },
@@ -62936,11 +62936,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 145,
+      "kcal": 143,
       "protein": 8.4,
-      "carbs": 6.4,
+      "carbs": 6.1,
       "fat": 9.9,
-      "fiber": 0.7
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Schälchen",
@@ -63000,11 +63000,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 398,
+      "kcal": 397,
       "protein": 8.5,
-      "carbs": 20.6,
+      "carbs": 20.4,
       "fat": 34.1,
-      "fiber": 4.4
+      "fiber": 4.5
     },
     "portion": {
       "label": "1 Schälchen",
@@ -63072,11 +63072,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 331,
+      "kcal": 330,
       "protein": 10.5,
-      "carbs": 4.0,
+      "carbs": 3.8,
       "fat": 31.2,
-      "fiber": 1.1
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Schälchen",
@@ -63201,11 +63201,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 239,
+      "kcal": 238,
       "protein": 14.2,
-      "carbs": 9.5,
+      "carbs": 9.4,
       "fat": 16.8,
-      "fiber": 1.8
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Portion",
@@ -63269,11 +63269,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 108,
-      "protein": 1.4,
-      "carbs": 9.0,
-      "fat": 8.0,
-      "fiber": 2.3
+      "kcal": 110,
+      "protein": 1.2,
+      "carbs": 9.1,
+      "fat": 8.2,
+      "fiber": 2.0
     },
     "portion": {
       "label": "1 Schälchen",
@@ -63409,11 +63409,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 112,
+      "kcal": 111,
       "protein": 2.1,
-      "carbs": 5.8,
+      "carbs": 5.7,
       "fat": 9.4,
-      "fiber": 1.8
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Portion",
@@ -63465,9 +63465,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 60,
-      "protein": 3.4,
-      "carbs": 4.7,
+      "kcal": 59,
+      "protein": 3.3,
+      "carbs": 4.5,
       "fat": 3.6,
       "fiber": 1.3
     },
@@ -63525,7 +63525,7 @@
     "per100g": {
       "kcal": 92,
       "protein": 2.2,
-      "carbs": 7.8,
+      "carbs": 7.7,
       "fat": 6.1,
       "fiber": 1.6
     },
@@ -63579,9 +63579,9 @@
     "per100g": {
       "kcal": 101,
       "protein": 2.9,
-      "carbs": 4.7,
+      "carbs": 4.6,
       "fat": 8.5,
-      "fiber": 1.0
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Schälchen",
@@ -63711,11 +63711,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 345,
+      "kcal": 344,
       "protein": 7.8,
-      "carbs": 19.4,
+      "carbs": 19.2,
       "fat": 29.0,
-      "fiber": 4.5
+      "fiber": 4.6
     },
     "portion": {
       "label": "1 Schälchen",
@@ -63783,11 +63783,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 108,
-      "protein": 1.3,
+      "kcal": 109,
+      "protein": 1.2,
       "carbs": 5.8,
       "fat": 9.6,
-      "fiber": 1.7
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Schälchen",
@@ -64050,11 +64050,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 63,
-      "protein": 3.6,
-      "carbs": 5.6,
+      "kcal": 62,
+      "protein": 3.5,
+      "carbs": 5.3,
       "fat": 3.1,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Schälchen",
@@ -64293,11 +64293,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 171,
-      "protein": 2.7,
+      "kcal": 172,
+      "protein": 2.6,
       "carbs": 9.3,
       "fat": 14.8,
-      "fiber": 2.1
+      "fiber": 2.0
     },
     "portion": {
       "label": "1 Schüssel",
@@ -64556,9 +64556,9 @@
     "per100g": {
       "kcal": 71,
       "protein": 1.4,
-      "carbs": 8.5,
+      "carbs": 8.4,
       "fat": 3.8,
-      "fiber": 2.1
+      "fiber": 2.2
     },
     "portion": {
       "label": "1 Schälchen",
@@ -64772,11 +64772,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 70,
-      "protein": 2.6,
-      "carbs": 4.2,
-      "fat": 5.3,
-      "fiber": 0.0
+      "kcal": 66,
+      "protein": 2.3,
+      "carbs": 3.4,
+      "fat": 5.2,
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -65246,11 +65246,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 45,
+      "kcal": 44,
       "protein": 1.2,
-      "carbs": 4.0,
+      "carbs": 3.9,
       "fat": 3.0,
-      "fiber": 0.4
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Schüssel",
@@ -65482,9 +65482,9 @@
     "per100g": {
       "kcal": 72,
       "protein": 2.1,
-      "carbs": 8.3,
+      "carbs": 8.2,
       "fat": 3.7,
-      "fiber": 1.9
+      "fiber": 2.0
     },
     "portion": {
       "label": "1 Schälchen",
@@ -65540,11 +65540,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 62,
+      "kcal": 61,
       "protein": 1.9,
-      "carbs": 3.9,
+      "carbs": 3.7,
       "fat": 4.6,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Schälchen",
@@ -65842,11 +65842,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 18,
+      "kcal": 17,
       "protein": 0.8,
-      "carbs": 4.1,
+      "carbs": 3.9,
       "fat": 0.1,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -66182,11 +66182,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 28,
+      "kcal": 27,
       "protein": 1.1,
-      "carbs": 6.3,
+      "carbs": 6.0,
       "fat": 0.2,
-      "fiber": 2.7
+      "fiber": 2.8
     },
     "portion": {
       "label": "1 Portion",
@@ -66343,11 +66343,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 105,
-      "protein": 4.3,
-      "carbs": 22.1,
+      "kcal": 79,
+      "protein": 3.5,
+      "carbs": 16.3,
       "fat": 0.3,
-      "fiber": 1.4
+      "fiber": 3.9
     },
     "portion": {
       "label": "1 Portion",
@@ -73430,9 +73430,9 @@
     "per100g": {
       "kcal": 370,
       "protein": 23.6,
-      "carbs": 0.5,
+      "carbs": 0.4,
       "fat": 29.8,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Portion",
@@ -74913,9 +74913,9 @@
     "per100g": {
       "kcal": 93,
       "protein": 1.6,
-      "carbs": 7.0,
+      "carbs": 6.9,
       "fat": 7.3,
-      "fiber": 2.2
+      "fiber": 2.3
     },
     "portion": {
       "label": "1 Portion",
@@ -75877,11 +75877,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 158,
-      "protein": 13.8,
+      "kcal": 159,
+      "protein": 13.7,
       "carbs": 19.7,
-      "fat": 2.7,
-      "fiber": 1.6
+      "fat": 2.8,
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Dürüm",
@@ -77375,11 +77375,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 192,
-      "protein": 14.1,
+      "kcal": 193,
+      "protein": 14.0,
       "carbs": 18.4,
       "fat": 7.1,
-      "fiber": 1.6
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Dürüm",
@@ -77552,9 +77552,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 74,
+      "kcal": 73,
       "protein": 1.2,
-      "carbs": 7.1,
+      "carbs": 7.0,
       "fat": 5.1,
       "fiber": 3.3
     },
@@ -77609,9 +77609,9 @@
     "per100g": {
       "kcal": 60,
       "protein": 1.4,
-      "carbs": 3.9,
+      "carbs": 3.8,
       "fat": 4.8,
-      "fiber": 1.1
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion",
@@ -77970,7 +77970,7 @@
     "per100g": {
       "kcal": 71,
       "protein": 2.0,
-      "carbs": 4.4,
+      "carbs": 4.2,
       "fat": 5.5,
       "fiber": 0.9
     },
@@ -78023,9 +78023,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 113,
+      "kcal": 112,
       "protein": 1.2,
-      "carbs": 6.4,
+      "carbs": 6.3,
       "fat": 9.9,
       "fiber": 2.8
     },
@@ -78446,9 +78446,9 @@
     "per100g": {
       "kcal": 86,
       "protein": 3.6,
-      "carbs": 4.7,
+      "carbs": 4.6,
       "fat": 6.2,
-      "fiber": 1.4
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -78502,11 +78502,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 73,
-      "protein": 2.5,
-      "carbs": 7.1,
-      "fat": 4.0,
-      "fiber": 0.3
+      "kcal": 65,
+      "protein": 2.2,
+      "carbs": 7.6,
+      "fat": 3.0,
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Teller",
@@ -80588,7 +80588,7 @@
       "protein": 9.7,
       "carbs": 25.0,
       "fat": 9.9,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -81430,11 +81430,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 303,
-      "protein": 5.9,
-      "carbs": 27.6,
-      "fat": 19.0,
-      "fiber": 0.5
+      "kcal": 274,
+      "protein": 5.2,
+      "carbs": 23.2,
+      "fat": 18.2,
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Stück",
@@ -81841,9 +81841,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 67,
+      "kcal": 66,
       "protein": 5.0,
-      "carbs": 3.1,
+      "carbs": 3.0,
       "fat": 3.7,
       "fiber": 0.1
     },
@@ -81971,7 +81971,7 @@
     "per100g": {
       "kcal": 103,
       "protein": 3.3,
-      "carbs": 5.1,
+      "carbs": 5.0,
       "fat": 8.2,
       "fiber": 0.6
     },
@@ -82609,10 +82609,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 238,
-      "protein": 8.7,
+      "kcal": 200,
+      "protein": 10.4,
       "carbs": 6.7,
-      "fat": 19.5,
+      "fat": 14.6,
       "fiber": 1.6
     },
     "portion": {
@@ -82788,11 +82788,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 293,
-      "protein": 13.4,
-      "carbs": 13.5,
-      "fat": 20.1,
-      "fiber": 0.5
+      "kcal": 273,
+      "protein": 12.9,
+      "carbs": 10.5,
+      "fat": 19.5,
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion",
@@ -82984,11 +82984,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 315,
-      "protein": 8.7,
-      "carbs": 24.5,
-      "fat": 20.5,
-      "fiber": 1.7
+      "kcal": 285,
+      "protein": 8.0,
+      "carbs": 19.9,
+      "fat": 19.7,
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Stück",
@@ -84674,11 +84674,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 77,
+      "kcal": 75,
       "protein": 2.9,
-      "carbs": 9.5,
+      "carbs": 9.3,
       "fat": 3.1,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Teller",
@@ -85344,11 +85344,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 411,
+      "kcal": 410,
       "protein": 9.9,
-      "carbs": 38.8,
+      "carbs": 38.6,
       "fat": 24.0,
-      "fiber": 1.7
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Stück",
@@ -85755,11 +85755,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 385,
-      "protein": 7.2,
-      "carbs": 40.9,
-      "fat": 21.5,
-      "fiber": 0.9
+      "kcal": 345,
+      "protein": 6.3,
+      "carbs": 34.7,
+      "fat": 20.4,
+      "fiber": 1.2
     },
     "portion": {
       "label": "3 Stück",
@@ -85880,11 +85880,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 338,
-      "protein": 14.0,
-      "carbs": 2.4,
+      "kcal": 337,
+      "protein": 13.9,
+      "carbs": 2.3,
       "fat": 30.6,
-      "fiber": 0.3
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Portion",
@@ -85939,10 +85939,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 263,
-      "protein": 5.3,
+      "kcal": 201,
+      "protein": 8.0,
       "carbs": 11.7,
-      "fat": 21.7,
+      "fat": 13.7,
       "fiber": 1.1
     },
     "portion": {
@@ -86681,11 +86681,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 219,
-      "protein": 10.0,
-      "carbs": 15.0,
-      "fat": 13.2,
-      "fiber": 0.9
+      "kcal": 201,
+      "protein": 9.6,
+      "carbs": 12.3,
+      "fat": 12.7,
+      "fiber": 1.1
     },
     "portion": {
       "label": "2 Stück",
@@ -87056,10 +87056,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 271,
-      "protein": 10.8,
+      "kcal": 212,
+      "protein": 13.4,
       "carbs": 7.8,
-      "fat": 21.5,
+      "fat": 13.9,
       "fiber": 0.3
     },
     "portion": {
@@ -87707,11 +87707,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 137,
+      "kcal": 136,
       "protein": 4.2,
-      "carbs": 11.6,
+      "carbs": 11.5,
       "fat": 9.7,
-      "fiber": 2.9
+      "fiber": 3.0
     },
     "portion": {
       "label": "1 Portion",
@@ -87765,11 +87765,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 141,
+      "kcal": 140,
       "protein": 2.1,
-      "carbs": 17.1,
+      "carbs": 16.9,
       "fat": 7.5,
-      "fiber": 2.2
+      "fiber": 2.3
     },
     "portion": {
       "label": "1 Portion",
@@ -88097,11 +88097,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 139,
+      "kcal": 138,
       "protein": 19.8,
-      "carbs": 1.1,
+      "carbs": 0.9,
       "fat": 6.4,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -88817,11 +88817,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 280,
+      "kcal": 279,
       "protein": 15.5,
-      "carbs": 8.2,
+      "carbs": 8.0,
       "fat": 19.4,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -88925,11 +88925,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 220,
+      "kcal": 218,
       "protein": 21.1,
-      "carbs": 1.3,
+      "carbs": 1.0,
       "fat": 11.4,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -89096,11 +89096,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 162,
+      "kcal": 161,
       "protein": 3.9,
-      "carbs": 10.9,
+      "carbs": 10.7,
       "fat": 12.6,
-      "fiber": 3.5
+      "fiber": 3.6
     },
     "portion": {
       "label": "1 Portion",
@@ -89166,9 +89166,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 148,
-      "protein": 16.4,
-      "carbs": 3.1,
+      "kcal": 147,
+      "protein": 16.3,
+      "carbs": 2.9,
       "fat": 7.4,
       "fiber": 0.2
     },
@@ -89517,9 +89517,9 @@
     "per100g": {
       "kcal": 102,
       "protein": 9.4,
-      "carbs": 7.9,
+      "carbs": 7.8,
       "fat": 3.7,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Teller",
@@ -89577,11 +89577,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 106,
+      "kcal": 105,
       "protein": 5.6,
-      "carbs": 7.9,
+      "carbs": 7.7,
       "fat": 5.7,
-      "fiber": 0.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Teller",
@@ -89824,7 +89824,7 @@
     "per100g": {
       "kcal": 189,
       "protein": 12.7,
-      "carbs": 3.5,
+      "carbs": 3.4,
       "fat": 13.7,
       "fiber": 0.9
     },
@@ -89993,11 +89993,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 101,
+      "kcal": 100,
       "protein": 3.5,
-      "carbs": 4.8,
+      "carbs": 4.5,
       "fat": 7.8,
-      "fiber": 1.2
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -90105,11 +90105,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 150,
+      "kcal": 149,
       "protein": 17.1,
-      "carbs": 4.2,
+      "carbs": 4.0,
       "fat": 6.8,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -90159,10 +90159,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 285,
-      "protein": 14.7,
+      "kcal": 252,
+      "protein": 16.1,
       "carbs": 26.0,
-      "fat": 13.3,
+      "fat": 9.1,
       "fiber": 2.0
     },
     "portion": {
@@ -90392,10 +90392,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 170,
-      "protein": 5.8,
+      "kcal": 140,
+      "protein": 7.1,
       "carbs": 8.9,
-      "fat": 12.4,
+      "fat": 8.6,
       "fiber": 1.0
     },
     "portion": {
@@ -90888,15 +90888,15 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 602,
-      "protein": 9.4,
-      "carbs": 10.8,
-      "fat": 57.6,
-      "fiber": 1.9
+      "kcal": 457,
+      "protein": 7.1,
+      "carbs": 8.2,
+      "fat": 43.8,
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
-      "grams": 95
+      "grams": 125
     },
     "ingredients": [
       {
@@ -91491,11 +91491,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 78,
-      "protein": 2.1,
-      "carbs": 7.9,
+      "kcal": 77,
+      "protein": 2.0,
+      "carbs": 7.7,
       "fat": 5.1,
-      "fiber": 2.8
+      "fiber": 2.9
     },
     "portion": {
       "label": "1 Portion",
@@ -92955,7 +92955,7 @@
     "per100g": {
       "kcal": 162,
       "protein": 9.5,
-      "carbs": 14.2,
+      "carbs": 14.1,
       "fat": 7.4,
       "fiber": 0.3
     },
@@ -93603,11 +93603,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 266,
-      "protein": 8.3,
-      "carbs": 21.1,
-      "fat": 16.5,
-      "fiber": 1.6
+      "kcal": 248,
+      "protein": 7.9,
+      "carbs": 18.3,
+      "fat": 16.0,
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Portion",
@@ -94083,11 +94083,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 322,
-      "protein": 14.3,
-      "carbs": 16.9,
-      "fat": 21.9,
-      "fiber": 0.7
+      "kcal": 291,
+      "protein": 13.5,
+      "carbs": 12.2,
+      "fat": 21.0,
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Stück",
@@ -94203,11 +94203,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 493,
-      "protein": 4.9,
-      "carbs": 61.4,
-      "fat": 27.0,
-      "fiber": 2.6
+      "kcal": 449,
+      "protein": 3.8,
+      "carbs": 54.5,
+      "fat": 25.7,
+      "fiber": 3.0
     },
     "portion": {
       "label": "1 Stück",
@@ -94685,9 +94685,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 111,
-      "protein": 1.2,
-      "carbs": 6.8,
+      "kcal": 110,
+      "protein": 1.1,
+      "carbs": 6.7,
       "fat": 9.4,
       "fiber": 2.6
     },
@@ -95064,11 +95064,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 50,
+      "kcal": 49,
       "protein": 6.9,
-      "carbs": 1.2,
+      "carbs": 1.0,
       "fat": 1.8,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Teller",
@@ -96270,7 +96270,7 @@
     "per100g": {
       "kcal": 95,
       "protein": 1.8,
-      "carbs": 8.2,
+      "carbs": 8.1,
       "fat": 6.5,
       "fiber": 2.1
     },
@@ -96735,7 +96735,7 @@
       "protein": 11.0,
       "carbs": 4.2,
       "fat": 3.5,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Portion",
@@ -96789,11 +96789,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 263,
+      "kcal": 262,
       "protein": 16.8,
-      "carbs": 14.0,
+      "carbs": 13.7,
       "fat": 15.9,
-      "fiber": 1.2
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -96853,7 +96853,7 @@
     "per100g": {
       "kcal": 124,
       "protein": 10.2,
-      "carbs": 6.3,
+      "carbs": 6.2,
       "fat": 6.4,
       "fiber": 1.0
     },
@@ -96913,11 +96913,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 211,
+      "kcal": 210,
       "protein": 13.7,
-      "carbs": 0.7,
+      "carbs": 0.5,
       "fat": 16.5,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Portion",
@@ -98796,9 +98796,9 @@
     "per100g": {
       "kcal": 123,
       "protein": 6.3,
-      "carbs": 14.5,
+      "carbs": 14.4,
       "fat": 3.5,
-      "fiber": 0.3
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Teller",
@@ -99299,10 +99299,10 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 128,
-      "protein": 10.9,
-      "carbs": 8.5,
+      "protein": 10.8,
+      "carbs": 8.3,
       "fat": 4.7,
-      "fiber": 1.0
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion",
@@ -99362,9 +99362,9 @@
     "per100g": {
       "kcal": 201,
       "protein": 4.5,
-      "carbs": 27.6,
+      "carbs": 27.5,
       "fat": 8.3,
-      "fiber": 2.0
+      "fiber": 2.1
     },
     "portion": {
       "label": "1 Stück",
@@ -101279,10 +101279,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 304,
-      "protein": 9.9,
+      "kcal": 230,
+      "protein": 13.1,
       "carbs": 17.3,
-      "fat": 21.3,
+      "fat": 11.8,
       "fiber": 0.6
     },
     "portion": {
@@ -101393,11 +101393,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 38,
-      "protein": 1.3,
-      "carbs": 4.1,
+      "kcal": 37,
+      "protein": 1.2,
+      "carbs": 4.0,
       "fat": 2.1,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -102086,11 +102086,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 272,
-      "protein": 11.1,
-      "carbs": 15.6,
-      "fat": 17.5,
-      "fiber": 0.9
+      "kcal": 251,
+      "protein": 10.6,
+      "carbs": 12.4,
+      "fat": 16.9,
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Stück",
@@ -102313,10 +102313,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 183,
-      "protein": 6.4,
+      "kcal": 161,
+      "protein": 7.4,
       "carbs": 18.9,
-      "fat": 8.9,
+      "fat": 6.1,
       "fiber": 0.9
     },
     "portion": {
@@ -102504,9 +102504,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 146,
+      "kcal": 145,
       "protein": 5.5,
-      "carbs": 14.9,
+      "carbs": 14.8,
       "fat": 7.2,
       "fiber": 1.3
     },
@@ -103053,9 +103053,9 @@
     "per100g": {
       "kcal": 236,
       "protein": 14.2,
-      "carbs": 3.2,
+      "carbs": 3.1,
       "fat": 18.2,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Portion",
@@ -103233,11 +103233,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 229,
+      "kcal": 228,
       "protein": 18.7,
-      "carbs": 2.0,
+      "carbs": 1.9,
       "fat": 14.4,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -103361,9 +103361,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 82,
+      "kcal": 81,
       "protein": 10.8,
-      "carbs": 1.4,
+      "carbs": 1.3,
       "fat": 3.5,
       "fiber": 0.4
     },
@@ -103784,10 +103784,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 211,
-      "protein": 8.7,
+      "kcal": 173,
+      "protein": 10.4,
       "carbs": 4.3,
-      "fat": 17.2,
+      "fat": 12.3,
       "fiber": 1.4
     },
     "portion": {
@@ -104298,10 +104298,10 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 419,
-      "protein": 10.1,
+      "kcal": 317,
+      "protein": 14.5,
       "carbs": 24.6,
-      "fat": 31.0,
+      "fat": 17.9,
       "fiber": 0.9
     },
     "portion": {
@@ -105011,10 +105011,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 634,
-      "protein": 18.9,
+      "kcal": 448,
+      "protein": 26.9,
       "carbs": 0.0,
-      "fat": 61.3,
+      "fat": 37.4,
       "fiber": 0.0
     },
     "portion": {
@@ -105325,11 +105325,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 99,
+      "kcal": 98,
       "protein": 2.5,
-      "carbs": 13.7,
+      "carbs": 13.6,
       "fat": 3.9,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Teller",
@@ -105601,9 +105601,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 246,
+      "kcal": 245,
       "protein": 12.0,
-      "carbs": 10.4,
+      "carbs": 10.3,
       "fat": 16.4,
       "fiber": 1.2
     },
@@ -105904,11 +105904,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 313,
-      "protein": 14.5,
-      "carbs": 0.4,
-      "fat": 27.6,
-      "fiber": 0.0
+      "kcal": 221,
+      "protein": 18.5,
+      "carbs": 0.3,
+      "fat": 15.9,
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Scheibe (50 g)",
@@ -105959,10 +105959,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 170,
-      "protein": 3.8,
+      "kcal": 131,
+      "protein": 5.4,
       "carbs": 14.0,
-      "fat": 11.1,
+      "fat": 6.1,
       "fiber": 1.7
     },
     "portion": {
@@ -106522,11 +106522,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 266,
-      "protein": 13.0,
-      "carbs": 12.3,
-      "fat": 17.1,
-      "fiber": 0.5
+      "kcal": 244,
+      "protein": 12.5,
+      "carbs": 9.0,
+      "fat": 16.5,
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Stück",
@@ -107263,10 +107263,10 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 151,
-      "protein": 12.8,
-      "carbs": 7.9,
+      "protein": 12.7,
+      "carbs": 7.8,
       "fat": 6.0,
-      "fiber": 1.4
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -107461,8 +107461,8 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 60,
-      "protein": 4.9,
-      "carbs": 4.8,
+      "protein": 4.8,
+      "carbs": 4.7,
       "fat": 2.3,
       "fiber": 0.3
     },
@@ -107522,11 +107522,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 271,
-      "protein": 11.6,
-      "carbs": 24.6,
-      "fat": 13.7,
-      "fiber": 1.5
+      "kcal": 258,
+      "protein": 11.3,
+      "carbs": 22.6,
+      "fat": 13.3,
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Stück",
@@ -107658,11 +107658,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 296,
-      "protein": 12.5,
-      "carbs": 17.1,
-      "fat": 20.1,
-      "fiber": 1.3
+      "kcal": 266,
+      "protein": 11.7,
+      "carbs": 12.6,
+      "fat": 19.3,
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Stück",
@@ -108791,10 +108791,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 155,
-      "protein": 4.0,
+      "kcal": 131,
+      "protein": 5.0,
       "carbs": 14.0,
-      "fat": 9.1,
+      "fat": 6.0,
       "fiber": 1.1
     },
     "portion": {
@@ -109346,10 +109346,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 221,
-      "protein": 4.3,
+      "kcal": 143,
+      "protein": 7.7,
       "carbs": 2.7,
-      "fat": 21.5,
+      "fat": 11.4,
       "fiber": 1.6
     },
     "portion": {
@@ -109459,20 +109459,20 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 441,
-      "protein": 12.0,
-      "carbs": 6.6,
-      "fat": 40.6,
-      "fiber": 1.2
+      "kcal": 215,
+      "protein": 11.1,
+      "carbs": 5.6,
+      "fat": 16.4,
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
-      "grams": 340
+      "grams": 400
     },
     "ingredients": [
       {
-        "name": "Ente",
-        "grams": 350
+        "name": "Ente mit Haut, gebraten",
+        "grams": 230
       },
       {
         "name": "Apfel",
@@ -110664,11 +110664,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 196,
+      "kcal": 195,
       "protein": 17.5,
-      "carbs": 10.5,
+      "carbs": 10.4,
       "fat": 9.6,
-      "fiber": 1.2
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -110721,7 +110721,7 @@
     "per100g": {
       "kcal": 163,
       "protein": 16.0,
-      "carbs": 11.6,
+      "carbs": 11.5,
       "fat": 6.1,
       "fiber": 2.3
     },
@@ -110918,10 +110918,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 97,
-      "protein": 4.2,
+      "kcal": 85,
+      "protein": 4.8,
       "carbs": 7.5,
-      "fat": 5.8,
+      "fat": 4.1,
       "fiber": 1.7
     },
     "portion": {
@@ -110985,11 +110985,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 104,
+      "kcal": 103,
       "protein": 3.3,
-      "carbs": 10.8,
+      "carbs": 10.6,
       "fat": 5.2,
-      "fiber": 0.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Teller",
@@ -111044,9 +111044,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 107,
+      "kcal": 106,
       "protein": 7.1,
-      "carbs": 8.9,
+      "carbs": 8.7,
       "fat": 4.8,
       "fiber": 0.5
     },
@@ -111229,9 +111229,9 @@
     "per100g": {
       "kcal": 170,
       "protein": 9.8,
-      "carbs": 10.2,
+      "carbs": 10.0,
       "fat": 10.1,
-      "fiber": 1.0
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion",
@@ -111358,9 +111358,9 @@
     "per100g": {
       "kcal": 139,
       "protein": 10.8,
-      "carbs": 4.4,
+      "carbs": 4.2,
       "fat": 7.6,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Portion",
@@ -111415,10 +111415,10 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 147,
-      "protein": 11.8,
-      "carbs": 9.9,
+      "protein": 11.7,
+      "carbs": 9.8,
       "fat": 6.6,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -111652,11 +111652,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 243,
+      "kcal": 242,
       "protein": 15.6,
-      "carbs": 21.4,
+      "carbs": 21.1,
       "fat": 9.6,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Brötchen",
@@ -111710,9 +111710,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 273,
-      "protein": 14.9,
-      "carbs": 8.0,
+      "kcal": 272,
+      "protein": 14.8,
+      "carbs": 7.8,
       "fat": 18.6,
       "fiber": 0.9
     },
@@ -112285,11 +112285,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 261,
+      "kcal": 260,
       "protein": 31.0,
-      "carbs": 0.9,
+      "carbs": 0.7,
       "fat": 14.1,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Spieß",
@@ -112448,11 +112448,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 369,
-      "protein": 7.4,
-      "carbs": 24.8,
-      "fat": 26.6,
-      "fiber": 1.4
+      "kcal": 306,
+      "protein": 10.1,
+      "carbs": 24.5,
+      "fat": 18.6,
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -112884,7 +112884,7 @@
     "per100g": {
       "kcal": 305,
       "protein": 15.0,
-      "carbs": 2.9,
+      "carbs": 2.8,
       "fat": 24.4,
       "fiber": 0.3
     },
@@ -113007,10 +113007,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 411,
-      "protein": 15.0,
+      "kcal": 325,
+      "protein": 18.7,
       "carbs": 2.0,
-      "fat": 37.7,
+      "fat": 26.6,
       "fiber": 0.3
     },
     "portion": {
@@ -113121,7 +113121,7 @@
     "per100g": {
       "kcal": 191,
       "protein": 12.2,
-      "carbs": 4.3,
+      "carbs": 4.1,
       "fat": 13.9,
       "fiber": 0.9
     },
@@ -113839,10 +113839,10 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 518,
-      "protein": 9.3,
+      "kcal": 550,
+      "protein": 36.2,
       "carbs": 0.0,
-      "fat": 53.0,
+      "fat": 45.0,
       "fiber": 0.0
     },
     "portion": {
@@ -113851,7 +113851,7 @@
     },
     "ingredients": [
       {
-        "name": "Schweinebauch",
+        "name": "Schweinegrieben, gegart",
         "grams": 80
       }
     ],
@@ -114739,11 +114739,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 419,
-      "protein": 13.2,
-      "carbs": 28.7,
-      "fat": 27.7,
-      "fiber": 0.9
+      "kcal": 379,
+      "protein": 12.3,
+      "carbs": 22.5,
+      "fat": 26.6,
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Stück",
@@ -115665,9 +115665,9 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 306,
-      "protein": 14.1,
-      "carbs": 23.3,
+      "kcal": 294,
+      "protein": 13.8,
+      "carbs": 24.4,
       "fat": 18.8,
       "fiber": 5.5
     },
@@ -116713,11 +116713,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 386,
-      "protein": 8.7,
-      "carbs": 21.4,
-      "fat": 29.3,
-      "fiber": 2.5
+      "kcal": 283,
+      "protein": 13.1,
+      "carbs": 21.1,
+      "fat": 16.2,
+      "fiber": 2.6
     },
     "portion": {
       "label": "1 Portion",
@@ -117003,11 +117003,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 328,
+      "kcal": 326,
       "protein": 7.3,
-      "carbs": 50.5,
+      "carbs": 50.3,
       "fat": 10.4,
-      "fiber": 1.8
+      "fiber": 1.9
     },
     "portion": {
       "label": "3 Stück",
@@ -117133,9 +117133,9 @@
     "per100g": {
       "kcal": 188,
       "protein": 7.8,
-      "carbs": 9.7,
+      "carbs": 9.6,
       "fat": 13.2,
-      "fiber": 1.5
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion",
@@ -117187,9 +117187,9 @@
     "per100g": {
       "kcal": 112,
       "protein": 11.8,
-      "carbs": 1.4,
+      "carbs": 1.3,
       "fat": 6.3,
-      "fiber": 0.3
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Portion",
@@ -118040,7 +118040,7 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 281,
-      "protein": 11.1,
+      "protein": 11.0,
       "carbs": 24.8,
       "fat": 15.3,
       "fiber": 1.3
@@ -120016,11 +120016,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 263,
-      "protein": 9.4,
-      "carbs": 14.5,
-      "fat": 18.7,
-      "fiber": 0.7
+      "kcal": 243,
+      "protein": 8.9,
+      "carbs": 11.4,
+      "fat": 18.2,
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion",
@@ -121514,11 +121514,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 243,
-      "protein": 9.0,
-      "carbs": 13.9,
-      "fat": 17.0,
-      "fiber": 0.6
+      "kcal": 223,
+      "protein": 8.5,
+      "carbs": 10.8,
+      "fat": 16.4,
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Stück",
@@ -121585,11 +121585,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 122,
+      "kcal": 121,
       "protein": 1.4,
-      "carbs": 10.5,
+      "carbs": 10.3,
       "fat": 9.0,
-      "fiber": 2.7
+      "fiber": 2.8
     },
     "portion": {
       "label": "3 EL",
@@ -121724,7 +121724,7 @@
     "per100g": {
       "kcal": 80,
       "protein": 2.5,
-      "carbs": 4.0,
+      "carbs": 3.9,
       "fat": 6.4,
       "fiber": 0.4
     },
@@ -121847,11 +121847,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 344,
+      "kcal": 343,
       "protein": 22.5,
-      "carbs": 1.2,
+      "carbs": 1.0,
       "fat": 27.1,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "2 Stück",
@@ -122097,8 +122097,8 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 276,
-      "protein": 12.8,
-      "carbs": 23.9,
+      "protein": 12.7,
+      "carbs": 23.8,
       "fat": 11.7,
       "fiber": 1.2
     },
@@ -122228,7 +122228,7 @@
     "per100g": {
       "kcal": 154,
       "protein": 7.2,
-      "carbs": 15.3,
+      "carbs": 15.2,
       "fat": 7.0,
       "fiber": 0.6
     },
@@ -122564,11 +122564,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 292,
+      "kcal": 291,
       "protein": 14.4,
-      "carbs": 21.7,
+      "carbs": 21.6,
       "fat": 13.9,
-      "fiber": 1.0
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion",
@@ -122629,7 +122629,7 @@
     "per100g": {
       "kcal": 356,
       "protein": 18.4,
-      "carbs": 1.1,
+      "carbs": 1.0,
       "fat": 29.9,
       "fiber": 0.3
     },
@@ -123540,11 +123540,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 393,
-      "protein": 12.3,
-      "carbs": 19.4,
-      "fat": 29.7,
-      "fiber": 0.6
+      "kcal": 360,
+      "protein": 11.5,
+      "carbs": 14.2,
+      "fat": 28.8,
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Stück",
@@ -124111,7 +124111,7 @@
     "per100g": {
       "kcal": 74,
       "protein": 5.1,
-      "carbs": 3.5,
+      "carbs": 3.4,
       "fat": 4.3,
       "fiber": 0.4
     },
@@ -124181,7 +124181,7 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 341,
-      "protein": 13.5,
+      "protein": 13.4,
       "carbs": 2.3,
       "fat": 31.2,
       "fiber": 0.4
@@ -124733,11 +124733,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 208,
+      "kcal": 207,
       "protein": 4.2,
-      "carbs": 21.7,
+      "carbs": 21.5,
       "fat": 11.8,
-      "fiber": 2.0
+      "fiber": 2.1
     },
     "portion": {
       "label": "2 Stück",
@@ -125431,10 +125431,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 134,
-      "protein": 5.1,
+      "kcal": 107,
+      "protein": 6.2,
       "carbs": 10.6,
-      "fat": 8.1,
+      "fat": 4.6,
       "fiber": 3.5
     },
     "portion": {
@@ -126571,9 +126571,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 185,
+      "kcal": 184,
       "protein": 9.3,
-      "carbs": 8.2,
+      "carbs": 8.1,
       "fat": 12.6,
       "fiber": 1.3
     },
@@ -126654,11 +126654,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 204,
-      "protein": 4.6,
-      "carbs": 19.7,
-      "fat": 11.7,
-      "fiber": 1.4
+      "kcal": 180,
+      "protein": 5.6,
+      "carbs": 19.6,
+      "fat": 8.7,
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -126732,7 +126732,7 @@
     "per100g": {
       "kcal": 142,
       "protein": 15.4,
-      "carbs": 6.2,
+      "carbs": 6.1,
       "fat": 6.5,
       "fiber": 1.2
     },
@@ -127069,7 +127069,7 @@
     "per100g": {
       "kcal": 131,
       "protein": 9.3,
-      "carbs": 12.2,
+      "carbs": 12.1,
       "fat": 4.8,
       "fiber": 0.6
     },
@@ -127138,10 +127138,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 472,
-      "protein": 21.9,
+      "kcal": 334,
+      "protein": 27.9,
       "carbs": 0.0,
-      "fat": 41.9,
+      "fat": 24.1,
       "fiber": 0.0
     },
     "portion": {
@@ -127326,10 +127326,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 108,
-      "protein": 4.5,
+      "kcal": 94,
+      "protein": 5.1,
       "carbs": 9.0,
-      "fat": 6.0,
+      "fat": 4.2,
       "fiber": 1.4
     },
     "portion": {
@@ -127468,9 +127468,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 149,
+      "kcal": 148,
       "protein": 6.2,
-      "carbs": 18.3,
+      "carbs": 18.2,
       "fat": 6.4,
       "fiber": 5.0
     },
@@ -127660,7 +127660,7 @@
     "per100g": {
       "kcal": 116,
       "protein": 11.9,
-      "carbs": 4.4,
+      "carbs": 4.3,
       "fat": 4.7,
       "fiber": 0.7
     },
@@ -127738,11 +127738,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 538,
-      "protein": 2.0,
-      "carbs": 8.3,
+      "kcal": 534,
+      "protein": 1.9,
+      "carbs": 7.3,
       "fat": 57.0,
-      "fiber": 2.8
+      "fiber": 3.2
     },
     "portion": {
       "label": "3 EL",
@@ -127807,9 +127807,9 @@
     "per100g": {
       "kcal": 211,
       "protein": 5.2,
-      "carbs": 28.9,
+      "carbs": 28.8,
       "fat": 8.4,
-      "fiber": 2.0
+      "fiber": 2.1
     },
     "portion": {
       "label": "1 Portion",
@@ -127993,11 +127993,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 307,
-      "protein": 16.8,
-      "carbs": 4.0,
+      "kcal": 303,
+      "protein": 16.7,
+      "carbs": 3.1,
       "fat": 23.5,
-      "fiber": 0.3
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -128202,11 +128202,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 279,
-      "protein": 4.5,
-      "carbs": 7.8,
+      "kcal": 278,
+      "protein": 4.4,
+      "carbs": 7.6,
       "fat": 27.0,
-      "fiber": 3.3
+      "fiber": 3.4
     },
     "portion": {
       "label": "3 EL",
@@ -128445,11 +128445,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 482,
-      "protein": 2.8,
-      "carbs": 3.8,
+      "kcal": 478,
+      "protein": 2.6,
+      "carbs": 2.9,
       "fat": 51.6,
-      "fiber": 0.2
+      "fiber": 0.6
     },
     "portion": {
       "label": "2 EL",
@@ -128575,11 +128575,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 337,
+      "kcal": 336,
       "protein": 29.0,
-      "carbs": 1.7,
+      "carbs": 1.3,
       "fat": 24.4,
-      "fiber": 0.1
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Portion",
@@ -128695,9 +128695,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 226,
+      "kcal": 225,
       "protein": 12.4,
-      "carbs": 10.3,
+      "carbs": 10.2,
       "fat": 15.0,
       "fiber": 2.6
     },
@@ -129303,7 +129303,7 @@
     "per100g": {
       "kcal": 66,
       "protein": 1.1,
-      "carbs": 5.5,
+      "carbs": 5.4,
       "fat": 4.7,
       "fiber": 1.0
     },
@@ -129499,10 +129499,10 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 157,
-      "protein": 10.1,
-      "carbs": 14.5,
+      "protein": 10.0,
+      "carbs": 14.4,
       "fat": 6.9,
-      "fiber": 3.7
+      "fiber": 3.8
     },
     "portion": {
       "label": "1 Teller",
@@ -129573,11 +129573,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 478,
-      "protein": 1.8,
-      "carbs": 6.0,
+      "kcal": 474,
+      "protein": 1.7,
+      "carbs": 5.1,
       "fat": 50.8,
-      "fiber": 1.3
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Portion",
@@ -129646,8 +129646,8 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 136,
-      "protein": 8.0,
-      "carbs": 18.1,
+      "protein": 7.9,
+      "carbs": 18.0,
       "fat": 3.4,
       "fiber": 0.8
     },
@@ -129734,7 +129734,7 @@
     "per100g": {
       "kcal": 145,
       "protein": 2.0,
-      "carbs": 16.5,
+      "carbs": 16.4,
       "fat": 8.3,
       "fiber": 2.2
     },
@@ -129868,7 +129868,7 @@
     "per100g": {
       "kcal": 238,
       "protein": 15.2,
-      "carbs": 9.4,
+      "carbs": 9.3,
       "fat": 15.4,
       "fiber": 1.2
     },
@@ -130149,9 +130149,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 82,
+      "kcal": 81,
       "protein": 3.9,
-      "carbs": 5.9,
+      "carbs": 5.7,
       "fat": 4.8,
       "fiber": 0.5
     },
@@ -130285,11 +130285,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 148,
+      "kcal": 147,
       "protein": 13.1,
-      "carbs": 10.1,
+      "carbs": 9.9,
       "fat": 6.5,
-      "fiber": 1.4
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -130352,9 +130352,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 134,
+      "kcal": 133,
       "protein": 9.7,
-      "carbs": 5.9,
+      "carbs": 5.8,
       "fat": 6.4,
       "fiber": 0.3
     },
@@ -130424,8 +130424,8 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 116,
-      "protein": 4.8,
-      "carbs": 15.8,
+      "protein": 4.7,
+      "carbs": 15.7,
       "fat": 3.6,
       "fiber": 0.6
     },
@@ -130498,9 +130498,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 131,
+      "kcal": 130,
       "protein": 15.2,
-      "carbs": 3.7,
+      "carbs": 3.6,
       "fat": 6.5,
       "fiber": 1.3
     },
@@ -130625,9 +130625,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 271,
+      "kcal": 270,
       "protein": 12.7,
-      "carbs": 16.1,
+      "carbs": 16.0,
       "fat": 17.4,
       "fiber": 3.6
     },
@@ -130874,11 +130874,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 226,
+      "kcal": 224,
       "protein": 18.3,
-      "carbs": 2.4,
+      "carbs": 1.9,
       "fat": 13.9,
-      "fiber": 0.1
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Portion",
@@ -131074,9 +131074,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 121,
+      "kcal": 120,
       "protein": 7.8,
-      "carbs": 13.5,
+      "carbs": 13.4,
       "fat": 3.6,
       "fiber": 3.0
     },
@@ -131145,9 +131145,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 158,
-      "protein": 3.4,
-      "carbs": 15.9,
+      "kcal": 157,
+      "protein": 3.3,
+      "carbs": 15.7,
       "fat": 8.9,
       "fiber": 0.8
     },
@@ -131343,7 +131343,7 @@
     "per100g": {
       "kcal": 105,
       "protein": 12.5,
-      "carbs": 5.0,
+      "carbs": 4.9,
       "fat": 2.3,
       "fiber": 0.1
     },
@@ -131403,11 +131403,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 395,
+      "kcal": 393,
       "protein": 12.5,
-      "carbs": 32.2,
+      "carbs": 31.8,
       "fat": 24.1,
-      "fiber": 2.3
+      "fiber": 2.4
     },
     "portion": {
       "label": "1 Portion",
@@ -131602,9 +131602,9 @@
     "per100g": {
       "kcal": 141,
       "protein": 2.0,
-      "carbs": 15.7,
+      "carbs": 15.6,
       "fat": 8.3,
-      "fiber": 2.4
+      "fiber": 2.5
     },
     "portion": {
       "label": "1 Portion",
@@ -131665,11 +131665,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 237,
+      "kcal": 236,
       "protein": 26.4,
-      "carbs": 1.9,
+      "carbs": 1.7,
       "fat": 13.3,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion",
@@ -131924,10 +131924,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 697,
-      "protein": 12.0,
+      "kcal": 447,
+      "protein": 22.8,
       "carbs": 0.0,
-      "fat": 71.6,
+      "fat": 39.5,
       "fiber": 0.0
     },
     "portion": {
@@ -132110,7 +132110,7 @@
     "per100g": {
       "kcal": 156,
       "protein": 3.5,
-      "carbs": 9.2,
+      "carbs": 9.1,
       "fat": 12.4,
       "fiber": 1.9
     },
@@ -132185,7 +132185,7 @@
     "per100g": {
       "kcal": 130,
       "protein": 6.9,
-      "carbs": 15.9,
+      "carbs": 15.8,
       "fat": 4.1,
       "fiber": 0.5
     },
@@ -132261,9 +132261,9 @@
     "per100g": {
       "kcal": 114,
       "protein": 11.0,
-      "carbs": 5.2,
+      "carbs": 5.1,
       "fat": 4.5,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -132389,11 +132389,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 170,
+      "kcal": 169,
       "protein": 13.8,
-      "carbs": 1.0,
+      "carbs": 0.8,
       "fat": 11.6,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Tapa",
@@ -132525,8 +132525,8 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 164,
-      "protein": 8.5,
-      "carbs": 6.1,
+      "protein": 8.4,
+      "carbs": 6.0,
       "fat": 11.1,
       "fiber": 0.9
     },
@@ -132601,9 +132601,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 204,
+      "kcal": 203,
       "protein": 11.2,
-      "carbs": 3.5,
+      "carbs": 3.4,
       "fat": 14.1,
       "fiber": 0.6
     },
@@ -132869,7 +132869,7 @@
     "per100g": {
       "kcal": 86,
       "protein": 1.4,
-      "carbs": 8.9,
+      "carbs": 8.8,
       "fat": 5.7,
       "fiber": 3.1
     },
@@ -132932,9 +132932,9 @@
     "per100g": {
       "kcal": 140,
       "protein": 9.4,
-      "carbs": 16.2,
+      "carbs": 16.1,
       "fat": 4.1,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Teller",
@@ -133014,11 +133014,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 214,
+      "kcal": 212,
       "protein": 17.6,
-      "carbs": 2.0,
+      "carbs": 1.6,
       "fat": 14.8,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Tapa",
@@ -133081,11 +133081,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 119,
-      "protein": 1.1,
-      "carbs": 20.1,
-      "fat": 3.7,
-      "fiber": 5.3
+      "kcal": 103,
+      "protein": 0.7,
+      "carbs": 19.2,
+      "fat": 3.8,
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Glas",
@@ -133283,11 +133283,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 324,
-      "protein": 10.9,
-      "carbs": 25.8,
+      "kcal": 323,
+      "protein": 10.8,
+      "carbs": 25.6,
       "fat": 19.8,
-      "fiber": 1.7
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Portion",
@@ -133428,9 +133428,9 @@
     "per100g": {
       "kcal": 217,
       "protein": 5.3,
-      "carbs": 29.3,
+      "carbs": 29.2,
       "fat": 8.8,
-      "fiber": 2.0
+      "fiber": 2.1
     },
     "portion": {
       "label": "2 Scheiben",
@@ -133561,11 +133561,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 72,
+      "kcal": 71,
       "protein": 1.3,
-      "carbs": 6.4,
+      "carbs": 6.3,
       "fat": 5.1,
-      "fiber": 2.1
+      "fiber": 2.2
     },
     "portion": {
       "label": "1 Portion",
@@ -133755,11 +133755,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 142,
+      "kcal": 141,
       "protein": 3.7,
-      "carbs": 9.2,
+      "carbs": 9.1,
       "fat": 10.2,
-      "fiber": 1.1
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Schale",
@@ -133826,11 +133826,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 118,
+      "kcal": 116,
       "protein": 3.9,
-      "carbs": 5.7,
+      "carbs": 5.3,
       "fat": 9.0,
-      "fiber": 1.3
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Tapa",
@@ -133893,10 +133893,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 340,
-      "protein": 6.6,
-      "carbs": 20.5,
-      "fat": 26.3,
+      "kcal": 300,
+      "protein": 6.8,
+      "carbs": 19.7,
+      "fat": 21.7,
       "fiber": 0.0
     },
     "portion": {
@@ -135066,11 +135066,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 453,
-      "protein": 6.2,
-      "carbs": 48.3,
-      "fat": 26.2,
-      "fiber": 1.6
+      "kcal": 395,
+      "protein": 4.8,
+      "carbs": 39.5,
+      "fat": 24.6,
+      "fiber": 2.1
     },
     "portion": {
       "label": "2 Stück",
@@ -135392,11 +135392,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 141,
+      "kcal": 140,
       "protein": 7.6,
-      "carbs": 9.1,
+      "carbs": 9.0,
       "fat": 8.4,
-      "fiber": 1.5
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion",
@@ -136115,7 +136115,7 @@
     "per100g": {
       "kcal": 281,
       "protein": 14.2,
-      "carbs": 19.1,
+      "carbs": 19.0,
       "fat": 14.2,
       "fiber": 0.9
     },
@@ -136247,11 +136247,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 178,
+      "kcal": 177,
       "protein": 3.8,
-      "carbs": 12.9,
+      "carbs": 12.8,
       "fat": 12.7,
-      "fiber": 1.3
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -136513,11 +136513,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 279,
-      "protein": 4.9,
-      "carbs": 27.7,
-      "fat": 16.7,
-      "fiber": 0.4
+      "kcal": 257,
+      "protein": 4.4,
+      "carbs": 24.4,
+      "fat": 16.1,
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Stück",
@@ -136908,7 +136908,7 @@
       "protein": 9.8,
       "carbs": 3.8,
       "fat": 11.8,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -137291,8 +137291,8 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 61,
-      "protein": 4.9,
-      "carbs": 3.5,
+      "protein": 4.8,
+      "carbs": 3.4,
       "fat": 3.1,
       "fiber": 0.6
     },
@@ -137503,7 +137503,7 @@
     "per100g": {
       "kcal": 215,
       "protein": 9.9,
-      "carbs": 12.3,
+      "carbs": 12.2,
       "fat": 14.2,
       "fiber": 1.5
     },
@@ -137626,7 +137626,7 @@
     "per100g": {
       "kcal": 144,
       "protein": 7.4,
-      "carbs": 10.7,
+      "carbs": 10.6,
       "fat": 6.4,
       "fiber": 1.4
     },
@@ -137790,7 +137790,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 83,
+      "kcal": 82,
       "protein": 6.4,
       "carbs": 6.3,
       "fat": 3.5,
@@ -138287,7 +138287,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 190,
+      "kcal": 189,
       "protein": 8.9,
       "carbs": 8.1,
       "fat": 11.1,
@@ -138583,9 +138583,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 140,
+      "kcal": 139,
       "protein": 5.1,
-      "carbs": 3.5,
+      "carbs": 3.4,
       "fat": 12.1,
       "fiber": 0.8
     },
@@ -138980,15 +138980,15 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 513,
-      "protein": 5.6,
-      "carbs": 57.8,
-      "fat": 29.3,
-      "fiber": 1.2
+      "kcal": 484,
+      "protein": 4.3,
+      "carbs": 51.6,
+      "fat": 29.8,
+      "fiber": 1.8
     },
     "portion": {
       "label": "3 Stück",
-      "grams": 65
+      "grams": 60
     },
     "ingredients": [
       {
@@ -139032,10 +139032,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 201,
-      "protein": 7.6,
+      "kcal": 162,
+      "protein": 9.3,
       "carbs": 14.1,
-      "fat": 12.8,
+      "fat": 7.9,
       "fiber": 2.5
     },
     "portion": {
@@ -139364,9 +139364,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 84,
+      "kcal": 83,
       "protein": 1.4,
-      "carbs": 6.7,
+      "carbs": 6.6,
       "fat": 6.4,
       "fiber": 2.3
     },
@@ -139699,11 +139699,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 376,
-      "protein": 10.8,
-      "carbs": 15.4,
-      "fat": 30.3,
-      "fiber": 0.5
+      "kcal": 349,
+      "protein": 10.1,
+      "carbs": 11.2,
+      "fat": 29.6,
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Stück",
@@ -139956,7 +139956,7 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 203,
-      "protein": 8.2,
+      "protein": 8.1,
       "carbs": 11.5,
       "fat": 14.1,
       "fiber": 1.3
@@ -140165,9 +140165,9 @@
     "per100g": {
       "kcal": 161,
       "protein": 12.9,
-      "carbs": 10.4,
+      "carbs": 10.3,
       "fat": 7.8,
-      "fiber": 1.1
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion",
@@ -140820,11 +140820,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 238,
+      "kcal": 237,
       "protein": 14.8,
-      "carbs": 11.4,
+      "carbs": 11.3,
       "fat": 14.7,
-      "fiber": 2.7
+      "fiber": 2.8
     },
     "portion": {
       "label": "1 Teller",
@@ -141087,20 +141087,20 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 575,
-      "protein": 16.0,
-      "carbs": 3.7,
-      "fat": 54.6,
+      "kcal": 332,
+      "protein": 18.0,
+      "carbs": 3.5,
+      "fat": 26.9,
       "fiber": 0.0
     },
     "portion": {
       "label": "1 Portion",
-      "grams": 180
+      "grams": 190
     },
     "ingredients": [
       {
-        "name": "Ente",
-        "grams": 250
+        "name": "Ente mit Haut, gebraten",
+        "grams": 180
       },
       {
         "name": "Honig",
@@ -141218,11 +141218,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 460,
-      "protein": 7.9,
-      "carbs": 41.8,
-      "fat": 29.0,
-      "fiber": 2.1
+      "kcal": 408,
+      "protein": 6.6,
+      "carbs": 33.8,
+      "fat": 27.5,
+      "fiber": 2.6
     },
     "portion": {
       "label": "1 Stück",
@@ -141408,11 +141408,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 163,
+      "kcal": 162,
       "protein": 3.7,
-      "carbs": 16.6,
+      "carbs": 16.4,
       "fat": 9.2,
-      "fiber": 2.0
+      "fiber": 2.1
     },
     "portion": {
       "label": "1 Portion",
@@ -142525,10 +142525,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 256,
-      "protein": 7.6,
-      "carbs": 4.7,
-      "fat": 23.2,
+      "kcal": 213,
+      "protein": 7.8,
+      "carbs": 3.8,
+      "fat": 18.4,
       "fiber": 0.3
     },
     "portion": {
@@ -142796,11 +142796,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 292,
+      "kcal": 291,
       "protein": 12.0,
-      "carbs": 6.7,
+      "carbs": 6.3,
       "fat": 24.4,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "6 Stück",
@@ -142916,11 +142916,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 551,
-      "protein": 9.6,
-      "carbs": 42.3,
-      "fat": 39.4,
-      "fiber": 3.1
+      "kcal": 507,
+      "protein": 8.6,
+      "carbs": 35.5,
+      "fat": 38.2,
+      "fiber": 3.5
     },
     "portion": {
       "label": "1 Stück",
@@ -143695,7 +143695,7 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 264,
-      "protein": 17.8,
+      "protein": 17.7,
       "carbs": 2.0,
       "fat": 19.3,
       "fiber": 0.2
@@ -143832,10 +143832,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 697,
-      "protein": 9.3,
+      "kcal": 503,
+      "protein": 17.7,
       "carbs": 0.5,
-      "fat": 71.2,
+      "fat": 46.3,
       "fiber": 0.0
     },
     "portion": {
@@ -143891,11 +143891,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 385,
-      "protein": 5.7,
-      "carbs": 27.2,
-      "fat": 28.7,
-      "fiber": 0.5
+      "kcal": 369,
+      "protein": 5.3,
+      "carbs": 24.6,
+      "fat": 28.2,
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Stück",
@@ -144119,11 +144119,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 267,
-      "protein": 1.9,
-      "carbs": 35.3,
-      "fat": 13.9,
-      "fiber": 2.1
+      "kcal": 247,
+      "protein": 1.5,
+      "carbs": 32.2,
+      "fat": 13.4,
+      "fiber": 2.3
     },
     "portion": {
       "label": "1 Stück",
@@ -144249,11 +144249,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 72,
+      "kcal": 71,
       "protein": 1.3,
       "carbs": 5.9,
       "fat": 5.3,
-      "fiber": 1.9
+      "fiber": 2.0
     },
     "portion": {
       "label": "1 Portion",
@@ -144504,9 +144504,9 @@
     "per100g": {
       "kcal": 186,
       "protein": 10.8,
-      "carbs": 4.5,
+      "carbs": 4.4,
       "fat": 13.9,
-      "fiber": 1.1
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion",
@@ -144569,11 +144569,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 301,
-      "protein": 18.0,
-      "carbs": 14.9,
-      "fat": 18.6,
-      "fiber": 0.8
+      "kcal": 274,
+      "protein": 17.4,
+      "carbs": 10.8,
+      "fat": 17.8,
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Stück",
@@ -144703,9 +144703,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 150,
-      "protein": 8.2,
-      "carbs": 13.6,
+      "kcal": 149,
+      "protein": 8.1,
+      "carbs": 13.5,
       "fat": 6.9,
       "fiber": 1.1
     },
@@ -145464,11 +145464,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 275,
-      "protein": 12.1,
-      "carbs": 16.0,
-      "fat": 17.9,
-      "fiber": 0.7
+      "kcal": 252,
+      "protein": 11.5,
+      "carbs": 12.4,
+      "fat": 17.2,
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Stück",
@@ -146343,9 +146343,9 @@
     "per100g": {
       "kcal": 173,
       "protein": 4.9,
-      "carbs": 14.8,
+      "carbs": 15.5,
       "fat": 10.8,
-      "fiber": 1.2
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Teller",
@@ -146457,8 +146457,8 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 326,
-      "protein": 19.5,
+      "kcal": 325,
+      "protein": 19.4,
       "carbs": 8.0,
       "fat": 23.4,
       "fiber": 0.7
@@ -146780,10 +146780,10 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 235,
-      "protein": 9.9,
-      "carbs": 24.2,
-      "fat": 10.8,
+      "kcal": 217,
+      "protein": 10.0,
+      "carbs": 23.9,
+      "fat": 8.8,
       "fiber": 1.4
     },
     "portion": {
@@ -147491,11 +147491,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 510,
-      "protein": 4.6,
-      "carbs": 63.0,
-      "fat": 28.4,
-      "fiber": 2.3
+      "kcal": 471,
+      "protein": 3.7,
+      "carbs": 57.0,
+      "fat": 27.4,
+      "fiber": 2.6
     },
     "portion": {
       "label": "1 Stück",
@@ -148703,7 +148703,7 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 284,
-      "protein": 16.7,
+      "protein": 16.6,
       "carbs": 9.1,
       "fat": 19.7,
       "fiber": 0.9
@@ -149260,11 +149260,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 400,
-      "protein": 13.3,
-      "carbs": 24.4,
-      "fat": 27.5,
-      "fiber": 1.1
+      "kcal": 364,
+      "protein": 12.4,
+      "carbs": 18.9,
+      "fat": 26.5,
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Stück",
@@ -149402,11 +149402,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 238,
-      "protein": 9.7,
-      "carbs": 14.1,
-      "fat": 15.0,
-      "fiber": 0.7
+      "kcal": 220,
+      "protein": 9.3,
+      "carbs": 11.3,
+      "fat": 14.5,
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Stück",
@@ -149624,7 +149624,7 @@
     "per100g": {
       "kcal": 80,
       "protein": 1.7,
-      "carbs": 7.3,
+      "carbs": 7.2,
       "fat": 5.6,
       "fiber": 2.9
     },
@@ -150135,11 +150135,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 214,
-      "protein": 2.0,
-      "carbs": 15.0,
+      "kcal": 210,
+      "protein": 1.9,
+      "carbs": 14.1,
       "fat": 16.8,
-      "fiber": 1.6
+      "fiber": 2.0
     },
     "portion": {
       "label": "3 EL",
@@ -150393,9 +150393,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 73,
-      "protein": 1.6,
-      "carbs": 8.2,
+      "kcal": 72,
+      "protein": 1.5,
+      "carbs": 8.1,
       "fat": 4.3,
       "fiber": 2.3
     },
@@ -150462,11 +150462,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 110,
+      "kcal": 109,
       "protein": 4.1,
-      "carbs": 12.1,
+      "carbs": 12.0,
       "fat": 5.4,
-      "fiber": 3.2
+      "fiber": 3.3
     },
     "portion": {
       "label": "1 Portion",
@@ -150954,7 +150954,7 @@
     "per100g": {
       "kcal": 210,
       "protein": 10.6,
-      "carbs": 5.9,
+      "carbs": 5.8,
       "fat": 13.9,
       "fiber": 1.1
     },
@@ -151268,9 +151268,9 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 246,
-      "protein": 12.4,
-      "carbs": 18.1,
+      "kcal": 245,
+      "protein": 12.3,
+      "carbs": 18.0,
       "fat": 13.5,
       "fiber": 1.0
     },
@@ -152054,7 +152054,7 @@
     "per100g": {
       "kcal": 208,
       "protein": 8.2,
-      "carbs": 18.2,
+      "carbs": 18.1,
       "fat": 11.3,
       "fiber": 1.2
     },
@@ -152136,10 +152136,10 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 191,
-      "protein": 11.4,
-      "carbs": 6.9,
+      "protein": 11.3,
+      "carbs": 6.8,
       "fat": 13.1,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -152202,11 +152202,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 169,
+      "kcal": 168,
       "protein": 1.7,
-      "carbs": 10.1,
+      "carbs": 9.8,
       "fat": 14.6,
-      "fiber": 4.5
+      "fiber": 4.6
     },
     "portion": {
       "label": "1 Portion",
@@ -152534,11 +152534,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 99,
+      "kcal": 98,
       "protein": 5.8,
-      "carbs": 4.3,
+      "carbs": 4.2,
       "fat": 6.7,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Schälchen",
@@ -152962,11 +152962,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 263,
-      "protein": 4.4,
-      "carbs": 25.2,
-      "fat": 16.3,
-      "fiber": 0.4
+      "kcal": 244,
+      "protein": 3.9,
+      "carbs": 22.3,
+      "fat": 15.8,
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Stück",
@@ -153386,7 +153386,7 @@
     "per100g": {
       "kcal": 221,
       "protein": 9.8,
-      "carbs": 11.6,
+      "carbs": 11.5,
       "fat": 15.1,
       "fiber": 1.6
     },
@@ -156585,7 +156585,7 @@
     "per100g": {
       "kcal": 108,
       "protein": 5.0,
-      "carbs": 13.4,
+      "carbs": 13.3,
       "fat": 4.2,
       "fiber": 3.6
     },
@@ -156836,7 +156836,7 @@
     "per100g": {
       "kcal": 141,
       "protein": 12.0,
-      "carbs": 9.1,
+      "carbs": 9.0,
       "fat": 6.1,
       "fiber": 0.5
     },
@@ -157347,7 +157347,7 @@
     "per100g": {
       "kcal": 127,
       "protein": 4.7,
-      "carbs": 18.2,
+      "carbs": 18.1,
       "fat": 4.2,
       "fiber": 3.1
     },
@@ -157749,7 +157749,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 198,
+      "kcal": 197,
       "protein": 10.7,
       "carbs": 7.1,
       "fat": 13.9,
@@ -158104,11 +158104,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 170,
-      "protein": 3.9,
-      "carbs": 22.0,
+      "kcal": 169,
+      "protein": 3.8,
+      "carbs": 21.8,
       "fat": 7.3,
-      "fiber": 1.0
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Teller",
@@ -158172,10 +158172,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 179,
-      "protein": 7.3,
+      "kcal": 160,
+      "protein": 8.1,
       "carbs": 16.9,
-      "fat": 8.9,
+      "fat": 6.4,
       "fiber": 0.8
     },
     "portion": {
@@ -158428,11 +158428,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 241,
-      "protein": 8.1,
-      "carbs": 14.5,
-      "fat": 17.0,
-      "fiber": 1.2
+      "kcal": 219,
+      "protein": 7.6,
+      "carbs": 11.1,
+      "fat": 16.4,
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Stück",
@@ -158500,7 +158500,7 @@
       "protein": 4.9,
       "carbs": 19.3,
       "fat": 7.7,
-      "fiber": 1.3
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Teller",
@@ -158911,11 +158911,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 161,
+      "kcal": 160,
       "protein": 3.9,
-      "carbs": 21.3,
+      "carbs": 21.2,
       "fat": 6.8,
-      "fiber": 1.7
+      "fiber": 1.8
     },
     "portion": {
       "label": "2 Scheiben",
@@ -159356,9 +159356,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 144,
+      "kcal": 143,
       "protein": 6.1,
-      "carbs": 18.7,
+      "carbs": 18.6,
       "fat": 3.9,
       "fiber": 1.5
     },
@@ -159770,9 +159770,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 131,
+      "kcal": 130,
       "protein": 6.3,
-      "carbs": 17.4,
+      "carbs": 17.3,
       "fat": 3.3,
       "fiber": 1.2
     },
@@ -160281,8 +160281,8 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 210,
-      "protein": 5.3,
-      "carbs": 37.5,
+      "protein": 5.2,
+      "carbs": 37.4,
       "fat": 4.1,
       "fiber": 2.2
     },
@@ -160436,7 +160436,7 @@
     "per100g": {
       "kcal": 100,
       "protein": 2.8,
-      "carbs": 11.8,
+      "carbs": 11.7,
       "fat": 4.8,
       "fiber": 0.9
     },
@@ -160665,11 +160665,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 139,
+      "kcal": 138,
       "protein": 5.9,
       "carbs": 18.5,
       "fat": 3.7,
-      "fiber": 0.4
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Teller",
@@ -160740,9 +160740,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 191,
+      "kcal": 190,
       "protein": 9.9,
-      "carbs": 4.6,
+      "carbs": 4.5,
       "fat": 15.1,
       "fiber": 1.7
     },
@@ -160951,9 +160951,9 @@
     "per100g": {
       "kcal": 135,
       "protein": 4.0,
-      "carbs": 19.5,
+      "carbs": 19.4,
       "fat": 4.7,
-      "fiber": 1.7
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Teller",
@@ -161316,7 +161316,7 @@
     "per100g": {
       "kcal": 88,
       "protein": 1.4,
-      "carbs": 6.5,
+      "carbs": 6.4,
       "fat": 7.0,
       "fiber": 2.6
     },
@@ -161657,10 +161657,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 134,
-      "protein": 4.6,
+      "kcal": 119,
+      "protein": 5.3,
       "carbs": 14.9,
-      "fat": 6.2,
+      "fat": 4.2,
       "fiber": 1.1
     },
     "portion": {
@@ -162022,7 +162022,7 @@
     "per100g": {
       "kcal": 224,
       "protein": 6.2,
-      "carbs": 28.9,
+      "carbs": 28.8,
       "fat": 9.4,
       "fiber": 2.0
     },
@@ -162728,9 +162728,9 @@
     "per100g": {
       "kcal": 110,
       "protein": 3.8,
-      "carbs": 12.2,
+      "carbs": 12.0,
       "fat": 5.5,
-      "fiber": 2.3
+      "fiber": 2.4
     },
     "portion": {
       "label": "1 Teller",
@@ -163252,11 +163252,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 680,
-      "protein": 11.8,
-      "carbs": 1.0,
-      "fat": 69.4,
-      "fiber": 0.1
+      "kcal": 436,
+      "protein": 22.3,
+      "carbs": 0.8,
+      "fat": 38.3,
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -163579,7 +163579,7 @@
     "per100g": {
       "kcal": 106,
       "protein": 3.5,
-      "carbs": 15.6,
+      "carbs": 15.5,
       "fat": 3.3,
       "fiber": 1.3
     },
@@ -163654,7 +163654,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 134,
+      "kcal": 133,
       "protein": 5.9,
       "carbs": 14.8,
       "fat": 4.8,
@@ -164046,7 +164046,7 @@
     "per100g": {
       "kcal": 115,
       "protein": 8.6,
-      "carbs": 7.1,
+      "carbs": 7.0,
       "fat": 5.0,
       "fiber": 0.7
     },
@@ -164183,9 +164183,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 250,
+      "kcal": 249,
       "protein": 17.3,
-      "carbs": 1.6,
+      "carbs": 1.5,
       "fat": 19.2,
       "fiber": 0.1
     },
@@ -164316,7 +164316,7 @@
     "per100g": {
       "kcal": 98,
       "protein": 9.3,
-      "carbs": 6.2,
+      "carbs": 6.1,
       "fat": 3.3,
       "fiber": 0.7
     },
@@ -164611,10 +164611,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 219,
-      "protein": 7.3,
+      "kcal": 193,
+      "protein": 8.4,
       "carbs": 10.3,
-      "fat": 16.5,
+      "fat": 13.2,
       "fiber": 1.2
     },
     "portion": {
@@ -165090,8 +165090,8 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 178,
-      "protein": 10.5,
-      "carbs": 21.0,
+      "protein": 10.4,
+      "carbs": 20.9,
       "fat": 5.2,
       "fiber": 1.3
     },
@@ -165248,7 +165248,7 @@
     "per100g": {
       "kcal": 157,
       "protein": 5.3,
-      "carbs": 23.0,
+      "carbs": 22.9,
       "fat": 5.1,
       "fiber": 2.0
     },
@@ -165496,9 +165496,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 188,
+      "kcal": 187,
       "protein": 8.6,
-      "carbs": 20.1,
+      "carbs": 20.0,
       "fat": 8.0,
       "fiber": 1.4
     },
@@ -165850,11 +165850,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 181,
-      "protein": 6.9,
+      "kcal": 180,
+      "protein": 6.8,
       "carbs": 20.5,
       "fat": 8.3,
-      "fiber": 2.2
+      "fiber": 2.3
     },
     "portion": {
       "label": "1 Teller",
@@ -165929,9 +165929,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 354,
+      "kcal": 353,
       "protein": 26.1,
-      "carbs": 1.1,
+      "carbs": 0.9,
       "fat": 26.7,
       "fiber": 0.1
     },
@@ -166370,9 +166370,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 155,
+      "kcal": 154,
       "protein": 7.9,
-      "carbs": 20.7,
+      "carbs": 20.6,
       "fat": 4.4,
       "fiber": 1.5
     },
@@ -167160,11 +167160,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 412,
+      "kcal": 410,
       "protein": 11.0,
-      "carbs": 40.3,
+      "carbs": 40.0,
       "fat": 23.0,
-      "fiber": 4.7
+      "fiber": 4.9
     },
     "portion": {
       "label": "1 Portion",
@@ -168184,11 +168184,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 403,
-      "protein": 8.6,
-      "carbs": 30.0,
-      "fat": 27.8,
-      "fiber": 0.9
+      "kcal": 353,
+      "protein": 7.3,
+      "carbs": 22.2,
+      "fat": 26.4,
+      "fiber": 1.3
     },
     "portion": {
       "label": "2 Stück",
@@ -169208,11 +169208,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 466,
-      "protein": 13.8,
-      "carbs": 29.3,
-      "fat": 32.3,
-      "fiber": 1.2
+      "kcal": 418,
+      "protein": 12.7,
+      "carbs": 22.0,
+      "fat": 31.0,
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Stück",
@@ -169338,11 +169338,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 436,
-      "protein": 14.9,
-      "carbs": 25.4,
-      "fat": 30.3,
-      "fiber": 1.1
+      "kcal": 397,
+      "protein": 13.9,
+      "carbs": 19.5,
+      "fat": 29.2,
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Stück",
@@ -169469,10 +169469,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 110,
-      "protein": 4.7,
+      "kcal": 100,
+      "protein": 5.1,
       "carbs": 10.7,
-      "fat": 5.6,
+      "fat": 4.4,
       "fiber": 3.2
     },
     "portion": {
@@ -169942,11 +169942,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 373,
-      "protein": 5.1,
-      "carbs": 42.0,
-      "fat": 21.2,
-      "fiber": 2.4
+      "kcal": 326,
+      "protein": 3.9,
+      "carbs": 34.9,
+      "fat": 19.9,
+      "fiber": 2.8
     },
     "portion": {
       "label": "1 Stück",
@@ -170072,8 +170072,8 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 338,
-      "protein": 17.0,
+      "kcal": 337,
+      "protein": 16.9,
       "carbs": 7.5,
       "fat": 26.3,
       "fiber": 0.7
@@ -170404,11 +170404,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 348,
-      "protein": 4.6,
-      "carbs": 43.8,
-      "fat": 17.5,
-      "fiber": 0.5
+      "kcal": 322,
+      "protein": 4.0,
+      "carbs": 39.8,
+      "fat": 16.8,
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Stück",
@@ -171133,10 +171133,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 364,
-      "protein": 7.0,
+      "kcal": 241,
+      "protein": 12.3,
       "carbs": 8.0,
-      "fat": 33.7,
+      "fat": 17.9,
       "fiber": 1.7
     },
     "portion": {
@@ -171461,11 +171461,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 259,
-      "protein": 4.7,
-      "carbs": 22.1,
-      "fat": 17.0,
-      "fiber": 0.3
+      "kcal": 242,
+      "protein": 4.3,
+      "carbs": 19.6,
+      "fat": 16.5,
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Stück",
@@ -174456,7 +174456,7 @@
     "per100g": {
       "kcal": 85,
       "protein": 3.8,
-      "carbs": 6.3,
+      "carbs": 6.2,
       "fat": 5.0,
       "fiber": 0.7
     },
@@ -174535,7 +174535,7 @@
     "per100g": {
       "kcal": 196,
       "protein": 12.8,
-      "carbs": 14.9,
+      "carbs": 14.8,
       "fat": 9.3,
       "fiber": 1.4
     },
@@ -174612,7 +174612,7 @@
       "protein": 1.8,
       "carbs": 17.5,
       "fat": 3.0,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -175497,7 +175497,7 @@
     "per100g": {
       "kcal": 155,
       "protein": 12.9,
-      "carbs": 9.7,
+      "carbs": 9.6,
       "fat": 7.5,
       "fiber": 1.3
     },
@@ -175699,11 +175699,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 321,
+      "kcal": 320,
       "protein": 10.1,
-      "carbs": 32.9,
+      "carbs": 32.6,
       "fat": 15.5,
-      "fiber": 1.8
+      "fiber": 2.0
     },
     "portion": {
       "label": "1 Portion",
@@ -176027,8 +176027,8 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 269,
-      "protein": 12.3,
-      "carbs": 8.2,
+      "protein": 12.2,
+      "carbs": 8.1,
       "fat": 19.1,
       "fiber": 1.1
     },
@@ -176095,10 +176095,10 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 797,
-      "protein": 14.3,
+      "kcal": 550,
+      "protein": 36.2,
       "carbs": 0.0,
-      "fat": 81.5,
+      "fat": 45.0,
       "fiber": 0.0
     },
     "portion": {
@@ -176107,8 +176107,8 @@
     },
     "ingredients": [
       {
-        "name": "Schweinebauch",
-        "grams": 100
+        "name": "Schweinegrieben, gegart",
+        "grams": 65
       },
       {
         "name": "Salz",
@@ -176538,9 +176538,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 306,
+      "kcal": 305,
       "protein": 23.8,
-      "carbs": 1.0,
+      "carbs": 0.8,
       "fat": 22.4,
       "fiber": 0.3
     },
@@ -176667,11 +176667,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 299,
-      "protein": 5.6,
-      "carbs": 30.3,
-      "fat": 17.6,
-      "fiber": 0.5
+      "kcal": 277,
+      "protein": 5.0,
+      "carbs": 26.8,
+      "fat": 16.9,
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Stück",
@@ -176790,10 +176790,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 84,
-      "protein": 3.9,
+      "kcal": 75,
+      "protein": 4.3,
       "carbs": 7.8,
-      "fat": 4.4,
+      "fat": 3.2,
       "fiber": 1.8
     },
     "portion": {
@@ -176865,11 +176865,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 489,
-      "protein": 9.7,
-      "carbs": 49.0,
-      "fat": 29.3,
-      "fiber": 2.6
+      "kcal": 445,
+      "protein": 8.6,
+      "carbs": 42.1,
+      "fat": 28.0,
+      "fiber": 3.0
     },
     "portion": {
       "label": "1 Stück",
@@ -176924,11 +176924,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 116,
+      "kcal": 115,
       "protein": 6.3,
-      "carbs": 14.1,
+      "carbs": 14.0,
       "fat": 3.1,
-      "fiber": 0.4
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Teller",
@@ -177078,9 +177078,9 @@
     "per100g": {
       "kcal": 251,
       "protein": 15.8,
-      "carbs": 22.4,
+      "carbs": 22.3,
       "fat": 9.7,
-      "fiber": 1.5
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Sandwich",
@@ -177147,9 +177147,9 @@
     "per100g": {
       "kcal": 303,
       "protein": 6.8,
-      "carbs": 50.7,
+      "carbs": 50.5,
       "fat": 7.9,
-      "fiber": 2.4
+      "fiber": 2.5
     },
     "portion": {
       "label": "1 Stück",
@@ -177351,11 +177351,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 348,
+      "kcal": 347,
       "protein": 25.6,
-      "carbs": 1.5,
+      "carbs": 1.3,
       "fat": 26.1,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -177419,9 +177419,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 370,
+      "kcal": 369,
       "protein": 21.7,
-      "carbs": 1.3,
+      "carbs": 1.1,
       "fat": 28.8,
       "fiber": 0.1
     },
@@ -177476,10 +177476,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 380,
-      "protein": 7.7,
-      "carbs": 49.6,
-      "fat": 17.1,
+      "kcal": 348,
+      "protein": 7.9,
+      "carbs": 49.0,
+      "fat": 13.4,
       "fiber": 1.0
     },
     "portion": {
@@ -177907,11 +177907,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 159,
+      "kcal": 158,
       "protein": 5.9,
-      "carbs": 16.4,
+      "carbs": 16.2,
       "fat": 8.2,
-      "fiber": 3.9
+      "fiber": 4.0
     },
     "portion": {
       "label": "1 Portion",
@@ -177975,20 +177975,20 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 797,
-      "protein": 14.3,
+      "kcal": 550,
+      "protein": 36.2,
       "carbs": 0.0,
-      "fat": 81.5,
+      "fat": 45.0,
       "fiber": 0.0
     },
     "portion": {
       "label": "1 Portion",
-      "grams": 130
+      "grams": 100
     },
     "ingredients": [
       {
-        "name": "Schweinebauch",
-        "grams": 200
+        "name": "Schweinegrieben, gegart",
+        "grams": 100
       },
       {
         "name": "Salz",
@@ -178093,7 +178093,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 48,
+      "kcal": 47,
       "protein": 3.8,
       "carbs": 2.5,
       "fat": 2.4,
@@ -178400,11 +178400,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 283,
+      "kcal": 282,
       "protein": 18.2,
-      "carbs": 2.1,
+      "carbs": 1.9,
       "fat": 22.0,
-      "fiber": 0.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "3 Stück mit Senf",
@@ -178681,9 +178681,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 312,
-      "protein": 21.4,
-      "carbs": 0.8,
+      "kcal": 311,
+      "protein": 21.3,
+      "carbs": 0.6,
       "fat": 24.2,
       "fiber": 0.1
     },
@@ -179029,10 +179029,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 470,
-      "protein": 6.4,
-      "carbs": 53.9,
-      "fat": 25.7,
+      "kcal": 454,
+      "protein": 6.5,
+      "carbs": 53.6,
+      "fat": 23.9,
       "fiber": 1.3
     },
     "portion": {
@@ -179373,11 +179373,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 133,
+      "kcal": 132,
       "protein": 1.4,
-      "carbs": 8.5,
+      "carbs": 8.3,
       "fat": 11.3,
-      "fiber": 3.1
+      "fiber": 3.2
     },
     "portion": {
       "label": "3 EL",
@@ -179929,11 +179929,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 249,
-      "protein": 4.4,
-      "carbs": 24.9,
-      "fat": 14.8,
-      "fiber": 0.3
+      "kcal": 236,
+      "protein": 4.1,
+      "carbs": 22.8,
+      "fat": 14.5,
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Stück",
@@ -180221,9 +180221,9 @@
     "per100g": {
       "kcal": 392,
       "protein": 7.2,
-      "carbs": 75.0,
+      "carbs": 74.9,
       "fat": 7.6,
-      "fiber": 1.7
+      "fiber": 1.6
     },
     "portion": {
       "label": "3 Stück",
@@ -180426,11 +180426,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 293,
-      "protein": 5.0,
-      "carbs": 28.8,
-      "fat": 17.8,
-      "fiber": 0.4
+      "kcal": 276,
+      "protein": 4.6,
+      "carbs": 26.3,
+      "fat": 17.3,
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Stück",
@@ -180954,10 +180954,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 210,
-      "protein": 4.2,
+      "kcal": 186,
+      "protein": 5.2,
       "carbs": 26.8,
-      "fat": 9.6,
+      "fat": 6.6,
       "fiber": 1.9
     },
     "portion": {
@@ -181324,7 +181324,7 @@
       "protein": 0.9,
       "carbs": 11.8,
       "fat": 1.7,
-      "fiber": 0.8
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Tasse 150 ml",
@@ -181454,7 +181454,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 378,
+      "kcal": 377,
       "protein": 6.6,
       "carbs": 54.7,
       "fat": 14.8,
@@ -181611,7 +181611,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 471,
+      "kcal": 470,
       "protein": 5.5,
       "carbs": 74.9,
       "fat": 17.2,
@@ -182367,9 +182367,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 155,
+      "kcal": 152,
       "protein": 9.2,
-      "carbs": 15.2,
+      "carbs": 15.4,
       "fat": 6.7,
       "fiber": 2.6
     },
@@ -183171,11 +183171,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 257,
-      "protein": 4.9,
-      "carbs": 22.2,
-      "fat": 16.7,
-      "fiber": 0.3
+      "kcal": 242,
+      "protein": 4.5,
+      "carbs": 19.9,
+      "fat": 16.3,
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Stück",
@@ -183373,7 +183373,7 @@
     "per100g": {
       "kcal": 324,
       "protein": 17.2,
-      "carbs": 10.9,
+      "carbs": 10.8,
       "fat": 23.0,
       "fiber": 0.8
     },
@@ -184543,10 +184543,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 64,
-      "protein": 1.5,
+      "kcal": 48,
+      "protein": 2.1,
       "carbs": 5.1,
-      "fat": 4.3,
+      "fat": 2.3,
       "fiber": 1.3
     },
     "portion": {
@@ -185073,11 +185073,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 169,
+      "kcal": 168,
       "protein": 12.1,
-      "carbs": 3.3,
+      "carbs": 3.2,
       "fat": 11.8,
-      "fiber": 0.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Topf (300 g)",
@@ -186603,11 +186603,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 110,
+      "kcal": 109,
       "protein": 1.2,
-      "carbs": 6.9,
+      "carbs": 6.7,
       "fat": 9.3,
-      "fiber": 2.7
+      "fiber": 2.8
     },
     "portion": {
       "label": "1 Portion (150 g)",
@@ -187780,11 +187780,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 360,
-      "protein": 7.8,
-      "carbs": 34.2,
-      "fat": 21.5,
-      "fiber": 0.8
+      "kcal": 322,
+      "protein": 6.9,
+      "carbs": 28.3,
+      "fat": 20.5,
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Stück",
@@ -188102,11 +188102,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 174,
-      "protein": 12.3,
-      "carbs": 9.3,
+      "kcal": 173,
+      "protein": 12.2,
+      "carbs": 9.1,
       "fat": 9.7,
-      "fiber": 1.1
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion",
@@ -188235,10 +188235,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 204,
-      "protein": 4.3,
+      "kcal": 141,
+      "protein": 7.0,
       "carbs": 7.9,
-      "fat": 17.3,
+      "fat": 9.2,
       "fiber": 1.2
     },
     "portion": {
@@ -189939,11 +189939,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 310,
-      "protein": 9.7,
+      "kcal": 311,
+      "protein": 9.6,
       "carbs": 33.6,
       "fat": 15.0,
-      "fiber": 1.5
+      "fiber": 1.4
     },
     "portion": {
       "label": "2 Stück (160 g)",
@@ -191553,11 +191553,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 282,
-      "protein": 21.7,
-      "carbs": 1.7,
+      "kcal": 281,
+      "protein": 21.6,
+      "carbs": 1.5,
       "fat": 20.5,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion (200 g)",
@@ -192068,10 +192068,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 151,
-      "protein": 4.9,
+      "kcal": 116,
+      "protein": 6.4,
       "carbs": 6.6,
-      "fat": 11.7,
+      "fat": 7.3,
       "fiber": 1.2
     },
     "portion": {
@@ -193009,9 +193009,9 @@
     "per100g": {
       "kcal": 280,
       "protein": 7.2,
-      "carbs": 49.6,
+      "carbs": 49.5,
       "fat": 5.4,
-      "fiber": 1.7
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Stück (100 g)",
@@ -193133,11 +193133,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 129,
+      "kcal": 128,
       "protein": 1.4,
-      "carbs": 7.9,
+      "carbs": 7.6,
       "fat": 11.0,
-      "fiber": 3.3
+      "fiber": 3.4
     },
     "portion": {
       "label": "1 Portion (150 g)",
@@ -193656,10 +193656,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 299,
-      "protein": 6.6,
+      "kcal": 222,
+      "protein": 9.9,
       "carbs": 5.9,
-      "fat": 27.5,
+      "fat": 17.6,
       "fiber": 0.3
     },
     "portion": {
@@ -195392,11 +195392,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 456,
-      "protein": 7.9,
-      "carbs": 48.6,
-      "fat": 27.1,
-      "fiber": 4.0
+      "kcal": 413,
+      "protein": 6.8,
+      "carbs": 42.0,
+      "fat": 25.9,
+      "fiber": 4.4
     },
     "portion": {
       "label": "1 Stück",
@@ -196257,11 +196257,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 88,
-      "protein": 4.9,
-      "carbs": 7.4,
-      "fat": 4.2,
-      "fiber": 0.2
+      "kcal": 78,
+      "protein": 4.5,
+      "carbs": 8.0,
+      "fat": 3.2,
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Teller (350 g)",
@@ -196534,11 +196534,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 70,
-      "protein": 1.2,
-      "carbs": 3.5,
+      "kcal": 68,
+      "protein": 1.0,
+      "carbs": 3.0,
       "fat": 6.2,
-      "fiber": 0.5
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Schale (200 g)",
@@ -197876,11 +197876,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 409,
-      "protein": 6.4,
-      "carbs": 54.0,
-      "fat": 19.1,
-      "fiber": 0.8
+      "kcal": 366,
+      "protein": 5.3,
+      "carbs": 47.4,
+      "fat": 17.9,
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Stück",
@@ -198118,11 +198118,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 369,
+      "kcal": 368,
       "protein": 7.3,
-      "carbs": 41.6,
+      "carbs": 41.3,
       "fat": 19.4,
-      "fiber": 4.9
+      "fiber": 5.1
     },
     "portion": {
       "label": "2 Stück",
@@ -202079,10 +202079,10 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 367,
-      "protein": 6.5,
+      "kcal": 245,
+      "protein": 11.7,
       "carbs": 10.3,
-      "fat": 33.5,
+      "fat": 17.8,
       "fiber": 1.3
     },
     "portion": {
@@ -202346,10 +202346,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 176,
-      "protein": 5.0,
+      "kcal": 151,
+      "protein": 6.1,
       "carbs": 12.0,
-      "fat": 12.0,
+      "fat": 8.8,
       "fiber": 0.8
     },
     "portion": {
@@ -204689,11 +204689,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 484,
-      "protein": 13.1,
-      "carbs": 30.5,
-      "fat": 34.5,
-      "fiber": 1.0
+      "kcal": 427,
+      "protein": 11.7,
+      "carbs": 21.7,
+      "fat": 32.9,
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Stück",
@@ -204751,11 +204751,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 518,
-      "protein": 5.8,
-      "carbs": 56.1,
-      "fat": 30.5,
-      "fiber": 1.2
+      "kcal": 449,
+      "protein": 4.2,
+      "carbs": 45.5,
+      "fat": 28.6,
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Stück",
@@ -204803,11 +204803,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 366,
-      "protein": 8.0,
-      "carbs": 34.9,
-      "fat": 21.7,
-      "fiber": 0.7
+      "kcal": 328,
+      "protein": 7.1,
+      "carbs": 29.1,
+      "fat": 20.7,
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Stück",
@@ -204865,11 +204865,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 334,
-      "protein": 3.9,
-      "carbs": 39.0,
-      "fat": 18.4,
-      "fiber": 1.4
+      "kcal": 293,
+      "protein": 2.9,
+      "carbs": 32.7,
+      "fat": 17.3,
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Stück",
@@ -205874,11 +205874,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 506,
-      "protein": 5.5,
-      "carbs": 54.9,
-      "fat": 29.8,
-      "fiber": 1.3
+      "kcal": 460,
+      "protein": 4.4,
+      "carbs": 47.7,
+      "fat": 28.5,
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Stück",
@@ -208687,9 +208687,9 @@
     "per100g": {
       "kcal": 81,
       "protein": 2.0,
-      "carbs": 9.9,
+      "carbs": 9.7,
       "fat": 4.1,
-      "fiber": 1.7
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Teller",
@@ -209978,11 +209978,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 493,
-      "protein": 5.0,
-      "carbs": 52.0,
-      "fat": 30.6,
-      "fiber": 1.5
+      "kcal": 448,
+      "protein": 3.9,
+      "carbs": 45.1,
+      "fat": 29.3,
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Stück",
@@ -210822,10 +210822,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 154,
-      "protein": 3.3,
+      "kcal": 115,
+      "protein": 5.0,
       "carbs": 11.1,
-      "fat": 10.8,
+      "fat": 5.8,
       "fiber": 2.6
     },
     "portion": {
@@ -211021,10 +211021,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 254,
-      "protein": 5.1,
+      "kcal": 174,
+      "protein": 8.6,
       "carbs": 8.7,
-      "fat": 22.2,
+      "fat": 11.8,
       "fiber": 1.8
     },
     "portion": {
@@ -211889,10 +211889,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 54,
-      "protein": 1.3,
+      "kcal": 50,
+      "protein": 1.4,
       "carbs": 4.3,
-      "fat": 3.7,
+      "fat": 3.3,
       "fiber": 0.8
     },
     "portion": {
@@ -212031,9 +212031,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 121,
-      "protein": 11.2,
-      "carbs": 3.0,
+      "kcal": 120,
+      "protein": 11.1,
+      "carbs": 2.9,
       "fat": 7.0,
       "fiber": 1.2
     },
@@ -212094,11 +212094,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 192,
+      "kcal": 191,
       "protein": 13.9,
-      "carbs": 9.7,
+      "carbs": 9.6,
       "fat": 10.8,
-      "fiber": 1.5
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion",
@@ -212161,11 +212161,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 633,
-      "protein": 10.7,
-      "carbs": 1.8,
-      "fat": 63.5,
-      "fiber": 0.5
+      "kcal": 416,
+      "protein": 20.0,
+      "carbs": 1.6,
+      "fat": 35.8,
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -212219,11 +212219,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 637,
-      "protein": 10.2,
-      "carbs": 1.3,
-      "fat": 65.4,
-      "fiber": 0.1
+      "kcal": 426,
+      "protein": 19.3,
+      "carbs": 1.0,
+      "fat": 38.5,
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -212642,9 +212642,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 177,
+      "kcal": 176,
       "protein": 20.6,
-      "carbs": 0.7,
+      "carbs": 0.5,
       "fat": 9.6,
       "fiber": 0.1
     },
@@ -212702,9 +212702,9 @@
     "per100g": {
       "kcal": 224,
       "protein": 21.6,
-      "carbs": 1.0,
+      "carbs": 0.9,
       "fat": 15.2,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -212968,9 +212968,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 94,
+      "kcal": 93,
       "protein": 4.9,
-      "carbs": 7.1,
+      "carbs": 7.0,
       "fat": 5.7,
       "fiber": 2.6
     },
@@ -213025,7 +213025,7 @@
     "per100g": {
       "kcal": 125,
       "protein": 7.0,
-      "carbs": 10.1,
+      "carbs": 10.0,
       "fat": 6.6,
       "fiber": 4.9
     },
@@ -213217,9 +213217,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 169,
+      "kcal": 168,
       "protein": 3.8,
-      "carbs": 16.9,
+      "carbs": 16.8,
       "fat": 9.9,
       "fiber": 2.4
     },
@@ -213277,7 +213277,7 @@
     "per100g": {
       "kcal": 131,
       "protein": 7.7,
-      "carbs": 2.6,
+      "carbs": 2.5,
       "fat": 10.3,
       "fiber": 0.6
     },
@@ -214110,11 +214110,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 130,
+      "kcal": 129,
       "protein": 14.3,
       "carbs": 12.5,
       "fat": 2.7,
-      "fiber": 1.6
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Portion",
@@ -214231,10 +214231,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 86,
-      "protein": 3.5,
+      "kcal": 71,
+      "protein": 4.1,
       "carbs": 9.0,
-      "fat": 4.3,
+      "fat": 2.5,
       "fiber": 1.8
     },
     "portion": {
@@ -214496,7 +214496,7 @@
     "per100g": {
       "kcal": 98,
       "protein": 8.4,
-      "carbs": 6.2,
+      "carbs": 6.1,
       "fat": 4.4,
       "fiber": 1.0
     },
@@ -214764,7 +214764,7 @@
     "per100g": {
       "kcal": 128,
       "protein": 3.2,
-      "carbs": 12.3,
+      "carbs": 12.2,
       "fat": 7.8,
       "fiber": 2.4
     },
@@ -214892,11 +214892,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 330,
-      "protein": 6.4,
-      "carbs": 32.9,
-      "fat": 19.5,
-      "fiber": 1.4
+      "kcal": 297,
+      "protein": 5.6,
+      "carbs": 28.0,
+      "fat": 18.6,
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Stück",
@@ -215068,11 +215068,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 227,
-      "protein": 11.5,
-      "carbs": 9.3,
+      "kcal": 226,
+      "protein": 11.4,
+      "carbs": 9.2,
       "fat": 15.9,
-      "fiber": 1.1
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion",
@@ -215749,11 +215749,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 320,
-      "protein": 5.4,
-      "carbs": 35.7,
-      "fat": 17.4,
-      "fiber": 0.6
+      "kcal": 286,
+      "protein": 4.5,
+      "carbs": 30.4,
+      "fat": 16.5,
+      "fiber": 0.9
     },
     "portion": {
       "label": "2 Stück",
@@ -217842,11 +217842,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 358,
-      "protein": 12.5,
-      "carbs": 21.8,
-      "fat": 23.8,
-      "fiber": 0.8
+      "kcal": 319,
+      "protein": 11.5,
+      "carbs": 15.7,
+      "fat": 22.7,
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Stück",
@@ -218116,9 +218116,9 @@
     "per100g": {
       "kcal": 116,
       "protein": 7.7,
-      "carbs": 7.8,
+      "carbs": 7.7,
       "fat": 6.0,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -218380,11 +218380,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 110,
+      "kcal": 109,
       "protein": 10.6,
-      "carbs": 4.2,
+      "carbs": 4.1,
       "fat": 4.9,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -220073,11 +220073,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 426,
-      "protein": 12.0,
-      "carbs": 25.7,
-      "fat": 30.5,
-      "fiber": 1.0
+      "kcal": 379,
+      "protein": 10.9,
+      "carbs": 18.4,
+      "fat": 29.1,
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Stück",
@@ -220136,11 +220136,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 349,
-      "protein": 4.2,
-      "carbs": 34.9,
-      "fat": 22.0,
-      "fiber": 1.8
+      "kcal": 306,
+      "protein": 3.1,
+      "carbs": 28.3,
+      "fat": 20.8,
+      "fiber": 2.1
     },
     "portion": {
       "label": "1 Stück",
@@ -222110,11 +222110,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 228,
-      "protein": 8.9,
-      "carbs": 17.3,
-      "fat": 13.8,
-      "fiber": 1.2
+      "kcal": 210,
+      "protein": 8.4,
+      "carbs": 14.5,
+      "fat": 13.3,
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Stück",
@@ -224801,11 +224801,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 462,
-      "protein": 13.9,
-      "carbs": 26.6,
-      "fat": 33.3,
-      "fiber": 0.9
+      "kcal": 412,
+      "protein": 12.7,
+      "carbs": 18.8,
+      "fat": 31.9,
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Stück (180 g)",
@@ -224927,11 +224927,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 175,
+      "kcal": 174,
       "protein": 7.7,
-      "carbs": 20.5,
+      "carbs": 20.4,
       "fat": 7.5,
-      "fiber": 5.1
+      "fiber": 5.2
     },
     "portion": {
       "label": "1 Topf (300 g)",
@@ -225071,7 +225071,7 @@
     "per100g": {
       "kcal": 247,
       "protein": 12.1,
-      "carbs": 29.7,
+      "carbs": 29.5,
       "fat": 8.4,
       "fiber": 1.4
     },
@@ -225140,11 +225140,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 246,
-      "protein": 4.1,
-      "carbs": 8.9,
+      "kcal": 245,
+      "protein": 4.0,
+      "carbs": 8.7,
       "fat": 23.3,
-      "fiber": 3.9
+      "fiber": 4.0
     },
     "portion": {
       "label": "4 Stück (180 g)",
@@ -225213,7 +225213,7 @@
     "per100g": {
       "kcal": 172,
       "protein": 5.9,
-      "carbs": 7.2,
+      "carbs": 7.1,
       "fat": 15.1,
       "fiber": 3.5
     },
@@ -225335,7 +225335,7 @@
     "per100g": {
       "kcal": 149,
       "protein": 10.7,
-      "carbs": 3.6,
+      "carbs": 3.5,
       "fat": 10.2,
       "fiber": 0.9
     },
@@ -225404,11 +225404,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 263,
-      "protein": 16.9,
-      "carbs": 2.9,
+      "kcal": 262,
+      "protein": 16.8,
+      "carbs": 2.5,
       "fat": 20.3,
-      "fiber": 0.1
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Portion (350 g)",
@@ -225467,11 +225467,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 249,
+      "kcal": 248,
       "protein": 14.1,
-      "carbs": 4.3,
+      "carbs": 4.1,
       "fat": 20.1,
-      "fiber": 1.5
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion (300 g)",
@@ -225694,9 +225694,9 @@
     "per100g": {
       "kcal": 220,
       "protein": 10.4,
-      "carbs": 10.7,
+      "carbs": 10.6,
       "fat": 15.0,
-      "fiber": 1.3
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion (400 g)",
@@ -225826,11 +225826,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 183,
+      "kcal": 182,
       "protein": 11.8,
-      "carbs": 3.5,
+      "carbs": 3.4,
       "fat": 13.4,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion (350 g)",
@@ -226007,11 +226007,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 101,
+      "kcal": 100,
       "protein": 1.3,
-      "carbs": 8.2,
+      "carbs": 8.1,
       "fat": 7.6,
-      "fiber": 2.5
+      "fiber": 2.6
     },
     "portion": {
       "label": "1 Portion (300 g)",
@@ -226254,8 +226254,8 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 273,
-      "protein": 19.0,
-      "carbs": 2.5,
+      "protein": 18.9,
+      "carbs": 2.4,
       "fat": 20.3,
       "fiber": 0.6
     },
@@ -226319,9 +226319,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 233,
+      "kcal": 232,
       "protein": 16.9,
-      "carbs": 5.8,
+      "carbs": 5.7,
       "fat": 16.3,
       "fiber": 1.5
     },
@@ -226504,9 +226504,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 335,
+      "kcal": 334,
       "protein": 25.2,
-      "carbs": 0.8,
+      "carbs": 0.6,
       "fat": 25.1,
       "fiber": 0.1
     },
@@ -226558,11 +226558,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 34,
+      "kcal": 33,
       "protein": 1.4,
-      "carbs": 7.5,
+      "carbs": 7.4,
       "fat": 0.2,
-      "fiber": 2.0
+      "fiber": 2.1
     },
     "portion": {
       "label": "1 Portion (100 g)",
@@ -226746,11 +226746,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 154,
+      "kcal": 153,
       "protein": 16.3,
-      "carbs": 4.3,
+      "carbs": 4.0,
       "fat": 7.5,
-      "fiber": 0.2
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Portion (300 g)",
@@ -228829,10 +228829,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 423,
-      "protein": 19.6,
+      "kcal": 299,
+      "protein": 24.9,
       "carbs": 0.6,
-      "fat": 37.4,
+      "fat": 21.5,
       "fiber": 0.2
     },
     "portion": {
@@ -229325,9 +229325,9 @@
     "per100g": {
       "kcal": 164,
       "protein": 9.7,
-      "carbs": 20.5,
+      "carbs": 20.4,
       "fat": 4.4,
-      "fiber": 1.4
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion (400 g)",
@@ -229393,11 +229393,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 156,
+      "kcal": 155,
       "protein": 9.2,
-      "carbs": 19.1,
+      "carbs": 19.0,
       "fat": 4.2,
-      "fiber": 1.3
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion (450 g)",
@@ -230305,11 +230305,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 208,
+      "kcal": 207,
       "protein": 16.8,
-      "carbs": 8.9,
+      "carbs": 8.7,
       "fat": 10.0,
-      "fiber": 0.3
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Portion (300 g)",
@@ -230372,11 +230372,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 163,
-      "protein": 18.6,
-      "carbs": 3.3,
+      "kcal": 162,
+      "protein": 18.5,
+      "carbs": 3.1,
       "fat": 7.7,
-      "fiber": 0.4
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Portion (250 g)",
@@ -230439,11 +230439,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 185,
+      "kcal": 184,
       "protein": 18.9,
-      "carbs": 4.5,
+      "carbs": 4.3,
       "fat": 9.7,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion (250 g)",
@@ -230497,9 +230497,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 192,
+      "kcal": 191,
       "protein": 16.4,
-      "carbs": 11.1,
+      "carbs": 10.9,
       "fat": 8.6,
       "fiber": 0.2
     },
@@ -230569,9 +230569,9 @@
     "per100g": {
       "kcal": 155,
       "protein": 11.8,
-      "carbs": 10.5,
+      "carbs": 10.4,
       "fat": 6.8,
-      "fiber": 1.0
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion (400 g)",
@@ -230696,11 +230696,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 155,
+      "kcal": 154,
       "protein": 8.1,
-      "carbs": 7.7,
+      "carbs": 7.5,
       "fat": 10.3,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion (300 g)",
@@ -230834,7 +230834,7 @@
     "per100g": {
       "kcal": 182,
       "protein": 21.3,
-      "carbs": 0.5,
+      "carbs": 0.4,
       "fat": 10.0,
       "fiber": 0.1
     },
@@ -232190,11 +232190,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 236,
+      "kcal": 235,
       "protein": 12.0,
-      "carbs": 8.7,
+      "carbs": 8.6,
       "fat": 16.8,
-      "fiber": 1.0
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion",
@@ -232379,11 +232379,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 85,
+      "kcal": 84,
       "protein": 4.9,
       "carbs": 7.0,
       "fat": 4.5,
-      "fiber": 1.6
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Portion",
@@ -233371,11 +233371,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 233,
-      "protein": 5.7,
-      "carbs": 27.5,
-      "fat": 11.2,
-      "fiber": 0.4
+      "kcal": 214,
+      "protein": 5.2,
+      "carbs": 24.5,
+      "fat": 10.6,
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Stück",
@@ -233692,7 +233692,7 @@
       "protein": 16.7,
       "carbs": 18.7,
       "fat": 18.4,
-      "fiber": 2.2
+      "fiber": 2.1
     },
     "portion": {
       "label": "1 Portion",
@@ -234788,9 +234788,9 @@
     "per100g": {
       "kcal": 155,
       "protein": 4.7,
-      "carbs": 21.2,
+      "carbs": 21.1,
       "fat": 5.8,
-      "fiber": 1.3
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Teller",
@@ -234857,9 +234857,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 190,
+      "kcal": 189,
       "protein": 5.8,
-      "carbs": 22.6,
+      "carbs": 22.5,
       "fat": 8.7,
       "fiber": 2.0
     },
@@ -234930,9 +234930,9 @@
     "per100g": {
       "kcal": 152,
       "protein": 5.4,
-      "carbs": 19.5,
+      "carbs": 19.4,
       "fat": 6.0,
-      "fiber": 1.2
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Teller",
@@ -235221,7 +235221,7 @@
     "per100g": {
       "kcal": 144,
       "protein": 4.8,
-      "carbs": 20.2,
+      "carbs": 20.1,
       "fat": 5.1,
       "fiber": 1.8
     },
@@ -235426,11 +235426,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 134,
+      "kcal": 133,
       "protein": 8.0,
-      "carbs": 15.6,
+      "carbs": 15.5,
       "fat": 3.7,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Teller",
@@ -236809,11 +236809,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 85,
+      "kcal": 84,
       "protein": 2.0,
       "carbs": 11.1,
       "fat": 3.7,
-      "fiber": 1.0
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Teller",
@@ -236996,11 +236996,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 142,
+      "kcal": 141,
       "protein": 14.0,
-      "carbs": 2.5,
+      "carbs": 2.4,
       "fat": 8.3,
-      "fiber": 1.2
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -237125,11 +237125,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 242,
+      "kcal": 241,
       "protein": 15.6,
-      "carbs": 3.1,
+      "carbs": 2.9,
       "fat": 14.3,
-      "fiber": 0.4
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Portion",
@@ -237622,7 +237622,7 @@
     "per100g": {
       "kcal": 187,
       "protein": 8.6,
-      "carbs": 10.7,
+      "carbs": 10.6,
       "fat": 12.3,
       "fiber": 2.6
     },
@@ -237799,11 +237799,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 161,
+      "kcal": 160,
       "protein": 20.3,
-      "carbs": 5.5,
+      "carbs": 5.4,
       "fat": 6.7,
-      "fiber": 1.0
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion",
@@ -237934,10 +237934,10 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 117,
-      "protein": 12.7,
-      "carbs": 3.6,
+      "protein": 12.6,
+      "carbs": 3.5,
       "fat": 5.6,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -237996,10 +237996,10 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 174,
-      "protein": 14.3,
-      "carbs": 2.3,
+      "protein": 14.2,
+      "carbs": 2.2,
       "fat": 11.9,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Portion",
@@ -238058,9 +238058,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 179,
-      "protein": 13.5,
-      "carbs": 10.5,
+      "kcal": 178,
+      "protein": 13.4,
+      "carbs": 10.4,
       "fat": 8.9,
       "fiber": 0.5
     },
@@ -238193,9 +238193,9 @@
     "per100g": {
       "kcal": 108,
       "protein": 12.6,
-      "carbs": 2.1,
+      "carbs": 2.0,
       "fat": 5.4,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -238318,7 +238318,7 @@
     "per100g": {
       "kcal": 107,
       "protein": 1.3,
-      "carbs": 3.7,
+      "carbs": 3.6,
       "fat": 10.1,
       "fiber": 1.2
     },
@@ -238380,10 +238380,10 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 105,
-      "protein": 1.3,
-      "carbs": 6.7,
+      "protein": 1.2,
+      "carbs": 6.6,
       "fat": 8.9,
-      "fiber": 3.0
+      "fiber": 3.1
     },
     "portion": {
       "label": "1 Portion",
@@ -238517,7 +238517,7 @@
     "per100g": {
       "kcal": 64,
       "protein": 1.5,
-      "carbs": 4.0,
+      "carbs": 3.9,
       "fat": 5.0,
       "fiber": 2.0
     },
@@ -238647,11 +238647,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 96,
+      "kcal": 95,
       "protein": 1.9,
-      "carbs": 3.8,
+      "carbs": 3.6,
       "fat": 8.5,
-      "fiber": 2.5
+      "fiber": 2.6
     },
     "portion": {
       "label": "1 Portion",
@@ -238705,11 +238705,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 169,
-      "protein": 2.6,
-      "carbs": 22.0,
+      "kcal": 168,
+      "protein": 2.5,
+      "carbs": 21.8,
       "fat": 8.3,
-      "fiber": 2.6
+      "fiber": 2.7
     },
     "portion": {
       "label": "1 Portion",
@@ -238759,9 +238759,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 94,
+      "kcal": 93,
       "protein": 3.9,
-      "carbs": 4.8,
+      "carbs": 4.6,
       "fat": 7.5,
       "fiber": 1.4
     },
@@ -238885,11 +238885,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 123,
+      "kcal": 122,
       "protein": 2.1,
-      "carbs": 17.4,
+      "carbs": 17.3,
       "fat": 5.2,
-      "fiber": 1.6
+      "fiber": 1.7
     },
     "portion": {
       "label": "2 Stück",
@@ -238947,11 +238947,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 208,
-      "protein": 3.2,
-      "carbs": 8.1,
+      "kcal": 205,
+      "protein": 3.1,
+      "carbs": 7.5,
       "fat": 18.8,
-      "fiber": 2.1
+      "fiber": 2.4
     },
     "portion": {
       "label": "1 Portion",
@@ -239530,10 +239530,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 361,
-      "protein": 6.6,
-      "carbs": 31.2,
-      "fat": 23.4,
+      "kcal": 318,
+      "protein": 6.8,
+      "carbs": 30.5,
+      "fat": 18.5,
       "fiber": 1.0
     },
     "portion": {
@@ -241751,10 +241751,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 69,
-      "protein": 1.9,
+      "kcal": 53,
+      "protein": 2.5,
       "carbs": 4.8,
-      "fat": 4.8,
+      "fat": 2.8,
       "fiber": 1.1
     },
     "portion": {
@@ -242437,10 +242437,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 76,
-      "protein": 1.8,
+      "kcal": 57,
+      "protein": 2.7,
       "carbs": 4.4,
-      "fat": 5.7,
+      "fat": 3.2,
       "fiber": 1.1
     },
     "portion": {
@@ -242692,11 +242692,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 435,
+      "kcal": 432,
       "protein": 9.4,
-      "carbs": 36.6,
+      "carbs": 36.1,
       "fat": 28.0,
-      "fiber": 4.3
+      "fiber": 4.5
     },
     "portion": {
       "label": "1 Portion",
@@ -243413,9 +243413,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 148,
+      "kcal": 147,
       "protein": 14.5,
-      "carbs": 0.8,
+      "carbs": 0.6,
       "fat": 9.2,
       "fiber": 0.1
     },
@@ -243472,9 +243472,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 304,
+      "kcal": 303,
       "protein": 18.6,
-      "carbs": 2.1,
+      "carbs": 1.9,
       "fat": 23.4,
       "fiber": 0.3
     },
@@ -244233,7 +244233,7 @@
     "per100g": {
       "kcal": 189,
       "protein": 11.8,
-      "carbs": 7.6,
+      "carbs": 7.5,
       "fat": 12.2,
       "fiber": 0.7
     },
@@ -244475,7 +244475,7 @@
     "per100g": {
       "kcal": 214,
       "protein": 22.4,
-      "carbs": 0.7,
+      "carbs": 0.6,
       "fat": 13.0,
       "fiber": 0.1
     },
@@ -244536,11 +244536,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 122,
-      "protein": 1.4,
-      "carbs": 7.6,
+      "kcal": 120,
+      "protein": 1.3,
+      "carbs": 7.3,
       "fat": 10.3,
-      "fiber": 2.5
+      "fiber": 2.6
     },
     "portion": {
       "label": "1 Portion (150 g)",
@@ -244598,11 +244598,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 348,
-      "protein": 4.1,
-      "carbs": 22.0,
+      "kcal": 337,
+      "protein": 3.8,
+      "carbs": 19.7,
       "fat": 27.7,
-      "fiber": 1.3
+      "fiber": 2.3
     },
     "portion": {
       "label": "1 Portion (80 g)",
@@ -245170,11 +245170,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 107,
-      "protein": 2.0,
-      "carbs": 4.6,
+      "kcal": 106,
+      "protein": 1.9,
+      "carbs": 4.4,
       "fat": 9.3,
-      "fiber": 1.4
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -245557,7 +245557,7 @@
       "protein": 17.6,
       "carbs": 13.0,
       "fat": 20.4,
-      "fiber": 1.1
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -246486,11 +246486,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 465,
-      "protein": 6.8,
-      "carbs": 52.3,
-      "fat": 26.6,
-      "fiber": 1.8
+      "kcal": 418,
+      "protein": 5.7,
+      "carbs": 45.0,
+      "fat": 25.3,
+      "fiber": 2.2
     },
     "portion": {
       "label": "1 Stück",
@@ -248418,9 +248418,9 @@
     "per100g": {
       "kcal": 158,
       "protein": 14.3,
-      "carbs": 9.8,
+      "carbs": 9.7,
       "fat": 6.7,
-      "fiber": 1.3
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -248958,9 +248958,9 @@
     "per100g": {
       "kcal": 193,
       "protein": 6.9,
-      "carbs": 25.9,
+      "carbs": 25.8,
       "fat": 6.9,
-      "fiber": 1.7
+      "fiber": 1.8
     },
     "portion": {
       "label": "8 Stück",
@@ -250320,9 +250320,9 @@
     "per100g": {
       "kcal": 214,
       "protein": 19.8,
-      "carbs": 16.8,
+      "carbs": 16.7,
       "fat": 7.7,
-      "fiber": 1.5
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion",
@@ -250698,9 +250698,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 232,
+      "kcal": 231,
       "protein": 11.5,
-      "carbs": 6.7,
+      "carbs": 6.6,
       "fat": 14.3,
       "fiber": 0.7
     },
@@ -250815,9 +250815,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 166,
+      "kcal": 165,
       "protein": 13.8,
-      "carbs": 8.7,
+      "carbs": 8.6,
       "fat": 7.0,
       "fiber": 1.0
     },
@@ -250873,9 +250873,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 316,
-      "protein": 19.3,
-      "carbs": 1.1,
+      "kcal": 315,
+      "protein": 19.2,
+      "carbs": 0.9,
       "fat": 25.6,
       "fiber": 0.1
     },
@@ -251630,8 +251630,8 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 382,
-      "protein": 10.2,
+      "kcal": 381,
+      "protein": 10.1,
       "carbs": 20.9,
       "fat": 28.9,
       "fiber": 1.2
@@ -252486,7 +252486,7 @@
     "per100g": {
       "kcal": 51,
       "protein": 6.0,
-      "carbs": 1.6,
+      "carbs": 1.5,
       "fat": 2.1,
       "fiber": 0.2
     },
@@ -252739,9 +252739,9 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 233,
-      "protein": 12.3,
-      "carbs": 11.3,
+      "kcal": 232,
+      "protein": 12.2,
+      "carbs": 11.2,
       "fat": 15.1,
       "fiber": 0.9
     },
@@ -253732,10 +253732,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 491,
-      "protein": 18.9,
+      "kcal": 335,
+      "protein": 25.6,
       "carbs": 0.0,
-      "fat": 45.4,
+      "fat": 25.5,
       "fiber": 0.0
     },
     "portion": {
@@ -254139,11 +254139,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 337,
-      "protein": 10.4,
-      "carbs": 5.8,
+      "kcal": 336,
+      "protein": 10.3,
+      "carbs": 5.5,
       "fat": 30.8,
-      "fiber": 0.9
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion (100 g)",
@@ -254546,11 +254546,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 141,
+      "kcal": 140,
       "protein": 14.2,
-      "carbs": 1.2,
+      "carbs": 1.0,
       "fat": 8.5,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Portion (200 g)",
@@ -254790,11 +254790,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 308,
-      "protein": 5.1,
-      "carbs": 51.5,
-      "fat": 9.6,
-      "fiber": 0.4
+      "kcal": 287,
+      "protein": 4.6,
+      "carbs": 48.2,
+      "fat": 9.0,
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Stück (100 g)",
@@ -259638,9 +259638,9 @@
     "per100g": {
       "kcal": 66,
       "protein": 5.1,
-      "carbs": 3.6,
+      "carbs": 3.4,
       "fat": 3.4,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Teller (300 g)",
@@ -259970,9 +259970,9 @@
     "per100g": {
       "kcal": 87,
       "protein": 3.2,
-      "carbs": 10.1,
+      "carbs": 9.9,
       "fat": 3.8,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Teller (300 g)",
@@ -260312,10 +260312,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 66,
-      "protein": 2.2,
-      "carbs": 6.6,
-      "fat": 3.7,
+      "kcal": 59,
+      "protein": 1.9,
+      "carbs": 7.0,
+      "fat": 2.9,
       "fiber": 0.5
     },
     "portion": {
@@ -261048,9 +261048,9 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 184,
+      "kcal": 183,
       "protein": 9.1,
-      "carbs": 4.4,
+      "carbs": 4.2,
       "fat": 14.6,
       "fiber": 1.6
     },
@@ -261176,7 +261176,7 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 404,
-      "protein": 7.1,
+      "protein": 7.0,
       "carbs": 54.8,
       "fat": 17.6,
       "fiber": 2.3
@@ -261238,10 +261238,10 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 277,
-      "protein": 6.5,
+      "protein": 6.4,
       "carbs": 44.2,
       "fat": 8.3,
-      "fiber": 2.7
+      "fiber": 2.6
     },
     "portion": {
       "label": "1 Stück (150 g)",
@@ -261374,11 +261374,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 130,
+      "kcal": 129,
       "protein": 3.0,
-      "carbs": 9.2,
+      "carbs": 9.0,
       "fat": 10.1,
-      "fiber": 3.6
+      "fiber": 3.7
     },
     "portion": {
       "label": "1 Portion (150 g)",
@@ -263798,11 +263798,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 121,
-      "protein": 1.8,
-      "carbs": 7.4,
+      "kcal": 120,
+      "protein": 1.7,
+      "carbs": 7.2,
       "fat": 10.2,
-      "fiber": 2.4
+      "fiber": 2.5
     },
     "portion": {
       "label": "1 Portion (150 g)",
@@ -263986,10 +263986,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 77,
-      "protein": 2.7,
-      "carbs": 7.1,
-      "fat": 4.2,
+      "kcal": 69,
+      "protein": 2.4,
+      "carbs": 7.5,
+      "fat": 3.4,
       "fiber": 0.2
     },
     "portion": {
@@ -264371,10 +264371,10 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 311,
-      "protein": 19.7,
-      "carbs": 7.9,
+      "protein": 19.6,
+      "carbs": 7.7,
       "fat": 21.9,
-      "fiber": 0.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion (200 g)",
@@ -266886,7 +266886,7 @@
       "protein": 10.8,
       "carbs": 16.8,
       "fat": 12.1,
-      "fiber": 1.6
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Stück (300 g)",
@@ -267273,10 +267273,10 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 206,
-      "protein": 13.1,
+      "protein": 13.0,
       "carbs": 22.3,
       "fat": 6.9,
-      "fiber": 1.5
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion (280 g)",
@@ -267338,11 +267338,11 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 261,
+      "kcal": 260,
       "protein": 10.9,
-      "carbs": 20.0,
+      "carbs": 19.8,
       "fat": 15.6,
-      "fiber": 1.6
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Stück (250 g)",
@@ -267857,9 +267857,9 @@
     "per100g": {
       "kcal": 102,
       "protein": 1.8,
-      "carbs": 6.0,
+      "carbs": 5.9,
       "fat": 8.4,
-      "fiber": 2.0
+      "fiber": 2.1
     },
     "portion": {
       "label": "1 Portion (180 g)",
@@ -268139,11 +268139,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 233,
+      "kcal": 232,
       "protein": 3.8,
-      "carbs": 8.1,
+      "carbs": 7.9,
       "fat": 22.2,
-      "fiber": 2.9
+      "fiber": 3.0
     },
     "portion": {
       "label": "1 Portion (120 g)",
@@ -268198,11 +268198,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 137,
+      "kcal": 136,
       "protein": 3.3,
-      "carbs": 9.5,
+      "carbs": 9.3,
       "fat": 10.7,
-      "fiber": 4.1
+      "fiber": 4.2
     },
     "portion": {
       "label": "1 Portion (150 g)",
@@ -268261,11 +268261,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 72,
-      "protein": 2.8,
-      "carbs": 4.5,
-      "fat": 5.1,
-      "fiber": 0.0
+      "kcal": 69,
+      "protein": 2.6,
+      "carbs": 3.9,
+      "fat": 5.0,
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion (150 g)",
@@ -268321,9 +268321,9 @@
     "per100g": {
       "kcal": 86,
       "protein": 3.3,
-      "carbs": 8.1,
+      "carbs": 7.9,
       "fat": 5.1,
-      "fiber": 1.7
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Portion (150 g)",
@@ -268379,9 +268379,9 @@
     "per100g": {
       "kcal": 79,
       "protein": 2.2,
-      "carbs": 4.5,
+      "carbs": 4.4,
       "fat": 6.2,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion (200 g)",
@@ -268495,11 +268495,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 366,
-      "protein": 5.6,
-      "carbs": 14.5,
+      "kcal": 364,
+      "protein": 5.5,
+      "carbs": 14.0,
       "fat": 34.3,
-      "fiber": 4.0
+      "fiber": 4.2
     },
     "portion": {
       "label": "1 Portion (60 g)",
@@ -269238,9 +269238,9 @@
     "per100g": {
       "kcal": 134,
       "protein": 13.8,
-      "carbs": 4.1,
+      "carbs": 4.0,
       "fat": 6.8,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion (300 g)",
