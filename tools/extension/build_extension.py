@@ -42,7 +42,7 @@ FNDDS_PORTIONS = os.environ.get('FNDDS_PORTIONS', '/workspace/base_ingredients/s
 
 CITE = {
  'BLS': ('BLS 4.0', 'Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0'),
- 'CIQ': ('Ciqual 2025', 'Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0'),
+ 'CIQ': ('Ciqual 2025', 'Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0 (Licence Ouverte)'),
  'COFID': ('CoFID 2021', 'Public Health England (2021): McCance and Widdowson\'s The Composition of Foods Integrated Dataset (CoFID) 2021, Open Government Licence v3.0'),
  'CH': ('CH 7.1', 'Schweizer Nährwertdatenbank V7.1, Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV), naehrwertdaten.ch (frei verwendbar mit Quellenangabe)'),
  'FNDDS': (None, 'USDA FoodData Central, FNDDS 2021-2023 (Survey Foods, Release 2024-10-31), gemeinfrei (CC0 1.0)'),
