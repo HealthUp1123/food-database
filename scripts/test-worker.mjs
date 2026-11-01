@@ -23,7 +23,7 @@ assert.equal(t.body.results[0].barcode, null);
 assert.equal(t.body.results[0].quality, 'estimate');
 assert.equal(t.body.results[0].prepared, 'homemade');
 assert.equal(t.body.results[0].is_packaged_product, false);
-assert.equal(t.body.results[0].per100g.kcal, 104);
+assert.equal(t.body.results[0].per100g.kcal, 103);
 assert.equal('ingredients' in t.body.results[0], false);
 assert.ok(t.body.results.length <= 3);
 assert.equal(t.res.headers.get('access-control-allow-origin'), '*');

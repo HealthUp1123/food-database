@@ -4,31 +4,25 @@ und setzt in der Quelle unbekannte Werte auf null.
 
 Die Eingabe ist die Gesamt-KH-Basis: carbs enthält die Ballaststoffe,
 fehlende protein/fat/fiber stehen als 0 und sind in source_missing genannt.
+fiber ist der Wert, der zum Laufzeitpunkt in der Datei steht (nach PR #12
+die AOAC-Ballaststoffe).
 
-Regeln (D1):
-- Die Quelle dokumentiert „verfügbare KH X g“ (BLS, Ciqual, CoFID, CH, SE, FNDDS):
-  carbs wird X, auf 0,1 g gerundet. Der Wert hängt nicht von fiber ab.
-  Ändert D6 die Ballaststoffe, bleibt der Quellwert richtig (nicht doppelt,
-  nicht gar nicht verrechnet).
-- Alle anderen Einträge (USDA SR Legacy, geschätzte Zubereitungen, Gerichte
-  aus der Zutatentabelle): carbs = max(0, carbs − fiber), auf 0,1 g.
-  fiber ist der zum Laufzeitpunkt in der Datei stehende Wert. Nach dem Rebase
-  auf D6 ist das die dann aktuelle Ballaststoffzahl.
+Regeln:
+- Die Quelle dokumentiert „verfügbare KH X g“ (alter Satz „an USDA-Gesamt-KH
+  angeglichen“ oder „= … g (Gesamt-KH)“, auch mit Dezimalkomma): carbs wird X,
+  auf 0,1 g gerundet. Der Wert hängt nicht von fiber ab.
+- Alle anderen Einträge: carbs = max(0, carbs − fiber), auf 0,1 g.
+- source_missing-Felder protein/fat/fiber: 0 wird null. Gemessene Nullen bleiben 0.
+  Zucker bleibt weggelassen.
 
-Regeln (D2):
-- Steht ein Feld in source_missing und ist protein, fat oder fiber, wird 0 zu null.
-- Gemessene Nullen (nicht in source_missing) bleiben 0.
-- sugar steht bei source_missing weiterhin nicht im Objekt (kein erfundener Wert).
-
-Nicht zweimal auf eine schon umgestellte Datei anwenden. Erkannt wird die
-Gesamt-KH-Basis am Satz „an USDA-Gesamt-KH angeglichen“. Nach dem Rebase auf D6
-die foods.json von D6 behalten (Gesamt-KH, neue fiber) und dieses Skript
-erneut mit --write ausführen. Konflikte in data/foods.json so auflösen,
-nicht von Hand die Netto-Zahlen mergen.
+Gerichte aus tools/dishes/build.py sind schon netto (der Generator zieht die
+Ballaststoffe der Zutat ab). Dieses Skript nicht auf diese Ausgabe und nicht
+ein zweites Mal anwenden. Erkannt wird die Gesamt-KH-Basis an den beiden
+Sätzen oben. Ausgabe: json.dumps(indent=2, ensure_ascii=False) plus Zeilenumbruch.
 
 Aufruf:
-  python3 tools/convert_carbs_net.py            # Bericht, schreibt nicht
-  python3 tools/convert_carbs_net.py --write    # data/foods.json ersetzen
+  python3 tools/carbs_net.py            # Bericht, schreibt nicht
+  python3 tools/carbs_net.py --write    # data/foods.json ersetzen
 """
 import argparse, json, re, sys
 from collections import Counter
@@ -37,21 +31,41 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT = ROOT / 'data' / 'foods.json'
 
-# Satz der Gesamt-KH-Angleichung. Gruppe 1 ist der dokumentierte verfügbare Wert,
-# unverändert (nicht gerundet), damit ein späterer Lauf denselben Quellwert liest.
-ALIGN = re.compile(
-    r'Kohlenhydrate = verfügbare KH ([0-9]+(?:\.[0-9]+)?) g \+ Ballaststoffe [0-9]+(?:\.[0-9]+)? g \(an USDA-Gesamt-KH angeglichen\)'
+NUM = r'[0-9]+(?:[.,][0-9]+)?'
+ALIGN_USDA = re.compile(
+    rf'Kohlenhydrate = verfügbare KH ({NUM}) g \+ Ballaststoffe {NUM} g \(an USDA-Gesamt-KH angeglichen\)'
 )
-DOC = re.compile(r'verfügbare KH ([0-9]+(?:\.[0-9]+)?) g')
+ALIGN_SUM = re.compile(
+    rf'Kohlenhydrate = verfügbare KH ({NUM}) g \+ Ballaststoffe {NUM} g = {NUM} g \(Gesamt-KH\)'
+)
 ZERO_SET = re.compile(r'\(als 0 g gesetzt, außer Zucker\)')
-BASIS_MARK = 'an USDA-Gesamt-KH angeglichen'
-
 NULL_FIELDS = ('protein', 'fat', 'fiber')
 
 
 def r1(x):
-    """Wie tools/extension/build_extension.py: eine Dezimalstelle, Halbe aufwärts."""
+    """Eine Dezimalstelle, Halbe aufwärts (wie tools/extension/build_extension.py)."""
     return round(float(x) + 1e-9, 1)
+
+
+def parse_num(token):
+    return float(token.replace(',', '.'))
+
+
+def documented(src):
+    """(Token, welches Muster) oder None. Token bleibt unverändert für den Quelltext."""
+    m = ALIGN_USDA.search(src)
+    if m:
+        return m.group(1), 'usda'
+    m = ALIGN_SUM.search(src)
+    if m:
+        return m.group(1), 'sum'
+    return None
+
+
+def rewrite_source(src, token, kind):
+    repl = f'Kohlenhydrate = verfügbare KH {token} g (ohne Ballaststoffe)'
+    pat = ALIGN_USDA if kind == 'usda' else ALIGN_SUM
+    return pat.sub(repl, src, count=1)
 
 
 def bucket(e):
@@ -62,11 +76,9 @@ def bucket(e):
         return 'Schätzung (USDA-Rohwert bzw. similar_food)'
     if 'FNDDS' in s:
         return 'USDA FNDDS'
-    if 'USDA FoodData Central, SR Legacy' in s or 'USDA FoodData Central, SR Legacy' in s:
+    if 'USDA FoodData Central, SR Legacy' in s:
         return 'USDA SR Legacy'
-    if 'Bundeslebensmittelschlüssel' in s or 'BLS' in s:
-        return 'BLS 4.0'
-    if 'Ciqual' in s:
+    if 'Ciqual' in s or 'Anses' in s:
         return 'Ciqual'
     if 'CoFID' in s or 'McCance' in s:
         return 'CoFID'
@@ -74,21 +86,23 @@ def bucket(e):
         return 'CH'
     if 'Livsmedelsverket' in s:
         return 'SE'
+    if 'Bundeslebensmittelschlüssel' in s:
+        return 'BLS 4.0'
     return 'andere'
 
 
 def convert(data):
     """Ändert data in place. Liefert den Bericht."""
-    text_hits = sum(1 for e in data if BASIS_MARK in (e.get('source') or ''))
-    if text_hits == 0:
+    hits = sum(1 for e in data if documented(e.get('source') or ''))
+    if hits == 0:
         raise SystemExit(
-            'Keine Gesamt-KH-Basis erkannt (Satz „an USDA-Gesamt-KH angeglichen“ fehlt). '
-            'Das Skript nicht auf eine schon umgestellte Datei anwenden. '
-            'Nach dem Rebase auf D6 die foods.json von D6 nehmen und erneut laufen lassen.'
+            'Keine Gesamt-KH-Basis erkannt (weder „an USDA-Gesamt-KH angeglichen“ '
+            'noch „g (Gesamt-KH)“). Das Skript nicht auf eine schon umgestellte Datei '
+            'und nicht auf die Netto-Ausgabe von tools/dishes/build.py anwenden.'
         )
     changed = Counter()
     unchanged = Counter()
-    documented = Counter()
+    documented_n = Counter()
     subtracted = Counter()
     examples = {}
     nulls = []
@@ -96,18 +110,22 @@ def convert(data):
         'zucchini-gegrillt', 'paprika-rot-gegrillt', 'tomate-roh', 'wiener-schnitzel',
         'zucchini-in-oel-gebraten', 'chicken-nuggets-imbiss', 'rote-bete-gedaempft',
         'suesskartoffel-wedges-im-ofen-mit-oel', 'karniyarik', 'weizenkleie',
+        'knoblauch-gebraten-ohne-fett', 'jasminreis-gekocht', 'spargel-weiss-roh',
     }
     for e in data:
         b = bucket(e)
         p = e['per100g']
         old = p['carbs']
         src = e.get('source') or ''
-        m = ALIGN.search(src)
-        if m:
-            new = r1(m.group(1))
-            documented[b] += 1
+        doc = documented(src)
+        if doc:
+            token, kind = doc
+            new = r1(parse_num(token))
+            documented_n[b] += 1
             how = 'Quelle'
         else:
+            kind = None
+            token = None
             fib = p.get('fiber')
             if not isinstance(fib, (int, float)):
                 raise SystemExit(f'{e.get("id")}: fiber ist nicht numerisch, Subtraktion nicht möglich')
@@ -116,7 +134,6 @@ def convert(data):
                 new = 0.0
             subtracted[b] += 1
             how = 'carbs−fiber'
-        # 0.0 statt 0, damit json 0.0 schreibt wie der übrige Bestand.
         if new == 0:
             new = 0.0
         p['carbs'] = new
@@ -126,15 +143,11 @@ def convert(data):
             unchanged[b] += 1
         if e['id'] in showcase or (how == 'Quelle' and b in ('Ciqual', 'CoFID') and b not in {x[1] for x in examples.values()}):
             examples[e['id']] = (e['id'], b, how, old, new, p.get('fiber'))
-        if m:
-            e['source'] = ALIGN.sub(
-                lambda mm, _m=m: f'Kohlenhydrate = verfügbare KH {_m.group(1)} g (ohne Ballaststoffe)',
-                src,
-                count=1,
-            )
-            src = e['source']
-        if ZERO_SET.search(src):
-            e['source'] = ZERO_SET.sub('(als null gesetzt, außer Zucker)', src, count=1)
+        if doc:
+            src = rewrite_source(src, token, kind)
+            e['source'] = src
+        if ZERO_SET.search(e.get('source') or ''):
+            e['source'] = ZERO_SET.sub('(als null gesetzt, außer Zucker)', e['source'], count=1)
         for k in NULL_FIELDS:
             if k in e.get('source_missing', []) and p.get(k) == 0:
                 p[k] = None
@@ -144,11 +157,11 @@ def convert(data):
     return {
         'changed': changed,
         'unchanged': unchanged,
-        'documented': documented,
+        'documented': documented_n,
         'subtracted': subtracted,
         'examples': examples,
         'nulls': nulls,
-        'text_hits': text_hits,
+        'text_hits': hits,
     }
 
 
@@ -163,15 +176,15 @@ def main():
         raise SystemExit('foods.json muss ein Array sein')
     rep = convert(data)
     buckets = sorted(set(rep['changed']) | set(rep['unchanged']))
-    print(f'Datei: {path}  Einträge: {len(data)}  Quelltexte mit Gesamt-KH-Angleichung: {rep["text_hits"]}')
+    print(f'Datei: {path}  Einträge: {len(data)}  Quelltexte mit dokumentierten verfügbaren KH: {rep["text_hits"]}')
     print(f'{"Quelle":<42} {"geändert":>8} {"unverändert":>12} {"davon Quelle":>12} {"davon Differenz":>16}')
     for b in buckets:
         print(f'{b:<42} {rep["changed"][b]:8d} {rep["unchanged"][b]:12d} {rep["documented"][b]:12d} {rep["subtracted"][b]:16d}')
     print(f'{"SUMME":<42} {sum(rep["changed"].values()):8d} {sum(rep["unchanged"].values()):12d} {sum(rep["documented"].values()):12d} {sum(rep["subtracted"].values()):16d}')
     print('\nBeispiele (alt → neu):')
-    order = ['zucchini-gegrillt', 'paprika-rot-gegrillt', 'tomate-roh', 'karniyarik', 'wiener-schnitzel',
-             'zucchini-in-oel-gebraten', 'chicken-nuggets-imbiss', 'rote-bete-gedaempft',
-             'suesskartoffel-wedges-im-ofen-mit-oel', 'weizenkleie']
+    order = ['zucchini-gegrillt', 'paprika-rot-gegrillt', 'knoblauch-gebraten-ohne-fett', 'jasminreis-gekocht',
+             'tomate-roh', 'karniyarik', 'spargel-weiss-roh', 'chicken-nuggets-imbiss',
+             'rote-bete-gedaempft', 'suesskartoffel-wedges-im-ofen-mit-oel']
     shown = []
     for i in order:
         if i in rep['examples']:
@@ -181,13 +194,17 @@ def main():
             shown.append(row)
     for i, b, how, old, new, fib in shown:
         print(f'  {i}: {old} → {new}  ({b}, {how}, fiber={fib})')
-    print(f'\nnull-Felder: {len(rep["nulls"])}')
+    print(f'\nnull-Felder: {len(rep["nulls"])}  Einträge: {len({i for i, _, _ in rep["nulls"]})}')
     by = Counter(k for _, k, _ in rep['nulls'])
     print('  je Feld:', dict(by))
     for i, k, b in rep['nulls']:
         print(f'  {i}.{k}  ({b})')
     if a.write:
-        path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        text = json.dumps(data, ensure_ascii=False, indent=2) + '\n'
+        path.write_text(text, encoding='utf-8')
+        again = json.dumps(json.loads(text), ensure_ascii=False, indent=2) + '\n'
+        if again != text:
+            raise SystemExit('json.dumps-Runde ist nicht stabil')
         print(f'\ngeschrieben: {path}')
     else:
         print('\nProbelauf, nichts geschrieben. Zum Schreiben: --write')

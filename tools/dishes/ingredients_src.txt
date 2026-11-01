@@ -1,316 +1,318 @@
-# key|Name (de)|kcal|protein|carbs|fat|fiber   (pro 100 g, roh/wie verwendet; Schätzwerte nach USDA/BLS-Art)
-hack|Rinderhackfleisch|250|17|0|20|0
-lamm_hack|Lammhackfleisch|280|16|0|24|0
-rind|Rindfleisch (Schmor/Gulasch)|150|21|0|7|0
-rind_steak|Rindfleisch (Steak/Filet/Lende)|180|20|0|11|0
-rind_fett|Rindfleisch fett (Brust/Querrippe)|270|17|0|22|0
-lamm|Lammfleisch|220|17|0|17|0
-lamm_kotelett|Lammkotelett|250|16|0|20|0
-leber|Leber (Rind/Lamm)|135|20|3|4.5|0
-innereien|Innereien (Lamm, gemischt)|150|15|0|10|0
-zunge|Rinderzunge|225|15|0|18|0
-schwanzfett|Lammschwanzfett|800|1|0|90|0
-sucuk|Sucuk (Knoblauchwurst)|450|19|3|40|0
-pastirma|Pastırma|190|35|1|5|0
-hahn_brust|Hähnchenbrust|120|23|0|2.6|0
-hahn_keule|Hähnchenkeule (ohne Knochen)|190|17|0|13|0
-hahn|Hähnchen mit Haut (ohne Knochen)|215|18|0|15.5|0
-pute|Putenbrust|115|24|0|1.5|0
-huhn_leber|Hühnerleber|120|17|1|5|0
-ente|Ente|330|16|0|29|0
-gans|Gans|305|25|0|22|0
-schwein_mager|Schweineschnitzel/-filet|130|21|0|5|0
-schwein_nacken|Schweinenacken|210|18|0|15|0
-schwein_bauch|Schweinebauch|330|14|0|30|0
-schwein_haxe|Schweinshaxe (ausgelöst)|260|19|0|20|0
-schwein_hack|Schweinehackfleisch|260|17|0|21|0
-gemischtes_hack|Hackfleisch gemischt|250|17|0|20|0
-schinken|Kochschinken|110|19|1|3|0
-speck|Bauchspeck geräuchert|450|12|0|45|0
-kassler|Kasseler|150|20|0|8|0
-bratwurst|Bratwurst|300|12|1|27|0
-bockwurst|Bockwurst|260|12|1.5|23|0
-weisswurst|Weißwurst|265|12|1|24|0
-leberwurst|Leberwurst|330|13|2|30|0
-leberkaese|Leberkäse|290|12|2|26|0
-mettwurst|Mettwurst|350|14|1|32|0
-salami|Salami|420|22|1|37|0
-blutwurst|Blutwurst|330|13|3|30|0
-lachs|Lachs|205|20|0|13|0
-forelle|Forelle|140|20|0|6|0
-karpfen|Karpfen|125|18|0|6|0
-hering|Hering|200|18|0|14|0
-makrele|Makrele|205|19|0|14|0
-sardelle|Sardelle (Hamsi)|130|20|0|5|0
-sardine|Sardine|160|21|0|8|0
-wolfsbarsch|Wolfsbarsch/Dorade|100|19|0|2.5|0
-kabeljau|Kabeljau|80|18|0|0.7|0
-seelachs|Seelachs|85|18|0|1|0
-thunfisch|Thunfisch|140|24|0|5|0
-schwertfisch|Schwertfisch|140|20|0|6|0
-fisch_fett|Fisch fettreich (Lüfer, Palamut, Bonito)|160|19|0|9|0
-fisch_mager|Fisch mager (Weißfisch)|90|18|0|1.5|0
-aal|Aal|285|15|0|25|0
-garnele|Garnelen|90|19|0.5|1|0
-muschel|Miesmuscheln|85|12|4|2|0
-kalmar|Kalmar|90|16|3|1.5|0
-oktopus|Oktopus|85|15|2|1|0
-ei|Ei|143|12.5|0.7|10|0
-eiweiss|Eiweiß|50|11|0.7|0.2|0
-milch|Vollmilch|64|3.3|4.8|3.6|0
-milch_fettarm|Milch 1,5%|47|3.4|4.9|1.5|0
-joghurt|Joghurt (3,5%)|65|3.5|4.7|3.5|0
-suzme|Strained Yogurt (Süzme)|120|6|4|9|0
-ayran|Ayran|36|1.8|2.8|1.9|0
-sahne|Schlagsahne|340|2.4|3|35|0
-creme_fraiche|Crème fraîche|290|2.5|3|30|0
-schmand|Schmand|200|3|3.5|20|0
-quark_mager|Magerquark|67|12|3.7|0.3|0
-quark|Speisequark 40%|110|10|3.5|6.5|0
-frischkaese|Frischkäse|250|6|3|24|0
-mascarpone|Mascarpone|400|4.5|4|40|0
-butter|Butter|740|0.7|0.6|82|0
-kaymak|Kaymak|380|3|3|40|0
-beyaz_peynir|Beyaz Peynir (Schafskäse)|265|14|4|21|0
-kasar|Kaşar|350|25|2|27|0
-tulum|Tulum Peyniri|330|20|1|27|0
-lor|Lor Peyniri|100|12|3|4|0
-hellim|Hellim/Halloumi|320|22|2|25|0
-mozzarella|Mozzarella|250|18|2|19|0
-parmesan|Parmesan|400|35|0|28|0
-gouda|Gouda|355|25|2|28|0
-emmentaler|Emmentaler/Bergkäse|380|28|0|30|0
-camembert|Camembert|300|20|0|24|0
-zwiebel|Zwiebel|40|1.1|9|0.1|1.7
-knoblauch|Knoblauch|150|6.4|33|0.5|2.1
-tomate|Tomate|20|0.9|3.9|0.2|1.2
-paprika|Paprika grün|22|0.9|4.6|0.2|1.7
-paprika_rot|Paprika rot|31|1|6|0.3|2.1
-sivri|Spitzpaprika (Sivri Biber)|30|1.7|6|0.2|3
-chili|Chilischote|42|2|9|0.4|1.5
-aubergine|Aubergine|27|1|5.9|0.2|3
-zucchini|Zucchini|18|1.2|3.1|0.3|1
-gurke|Gurke|16|0.7|3.6|0.1|0.5
-kartoffel|Kartoffel|77|2|17|0.1|2.2
-suesskartoffel|Süßkartoffel|86|1.6|20|0.1|3
-karotte|Karotte|41|0.9|10|0.2|2.8
-sellerie|Knollensellerie|42|1.5|9|0.3|1.8
-lauch|Lauch/Porree|34|1.8|7|0.3|2.6
-spinat|Spinat|26|2.9|3.6|0.4|2.2
-weisskohl|Weißkohl|26|1.3|5.8|0.1|2.5
-rotkohl|Rotkohl|31|1.4|7|0.2|2.1
-blumenkohl|Blumenkohl|26|1.9|5|0.3|2
-brokkoli|Brokkoli|38|2.8|6.6|0.4|2.6
-gruene_bohnen|Grüne Bohnen|33|1.8|7|0.2|2.7
-erbsen|Grüne Erbsen|80|5.4|14|0.4|5.7
-mais|Mais|88|3.2|19|1.2|2.7
+# key|Name (de)|kcal|protein|carbs|fat|fiber   (pro 100 g; Quellen und Herleitung in ingredients.json)
+hack|Rinderhackfleisch|254|17.2|0|20|0
+lamm_hack|Lammhackfleisch|282|16.6|0|23.4|0
+rind|Rindfleisch (Schmor/Gulasch)|244|19.2|0|18|0
+rind_steak|Rindfleisch (Steak/Filet/Lende)|155|22.8|0|6.4|0
+rind_fett|Rindfleisch fett (Brust/Querrippe)|253|18.4|0.6|19.1|0
+lamm|Lammfleisch|244|17.2|0|18.9|0
+lamm_kotelett|Lammkotelett|279|17.2|0|22.8|0
+leber|Leber (Rind/Lamm)|135|20.4|3.9|3.6|0
+innereien|Innereien (Lamm, gemischt)|119|17.5|0.9|4.6|0
+zunge|Rinderzunge|224|14.9|3.7|16.1|0
+schwanzfett|Lammschwanzfett|648|6.3|0|68.9|0
+sucuk|Sucuk (Knoblauchwurst)|348|22.8|0.1|28.5|0.1
+pastirma|Pastırma|172|32.8|0.5|4.3|0
+hahn_brust|Hähnchenbrust|120|22.5|0|2.6|0
+hahn_keule|Hähnchenkeule (ohne Knochen)|214|16.4|0.2|15.9|0
+hahn|Hähnchen mit Haut (ohne Knochen)|215|18.6|0|15.1|0
+pute|Putenbrust|114|23.3|0|2.3|0
+huhn_leber|Hühnerleber|119|16.9|0.7|4.8|0
+ente|Ente|404|11.5|0|39.3|0
+gans|Gans|371|15.9|0|33.6|0
+schwein_mager|Schweineschnitzel/-filet|143|21.4|0|5.7|0
+schwein_nacken|Schweinenacken|236|17.2|0|18|0
+schwein_bauch|Schweinebauch|324|17.7|0|28.1|0
+schwein_haxe|Schweinshaxe (ausgelöst)|193|19.9|0|12|0
+schwein_hack|Schweinehackfleisch|263|16.9|0|21.2|0
+gemischtes_hack|Hackfleisch gemischt|258|17|0|20.6|0
+schinken|Kochschinken|130|22.5|0.7|3.7|0
+speck|Bauchspeck geräuchert|393|13.7|0|37.1|0
+kassler|Kasseler|107|22|0|2.2|0
+bratwurst|Bratwurst|323|14.3|3|27.8|0
+bockwurst|Bockwurst|287|13.6|1.2|25.4|0.1
+weisswurst|Weißwurst|244|10|3.6|21|0
+leberwurst|Leberwurst|236|17.6|0.7|18.1|0.1
+leberkaese|Leberkäse|295|11.8|0.2|27.4|0.1
+mettwurst|Mettwurst|349|22.9|0.3|28.5|0.1
+salami|Salami|374|23.5|0|30.9|0
+blutwurst|Blutwurst|297|12.2|1.7|27.1|1.4
+lachs|Lachs|208|20.4|0|13.4|0
+forelle|Forelle|141|19.9|0|6.2|0
+karpfen|Karpfen|127|17.8|0|5.6|0
+hering|Hering|158|18|0|9|0
+makrele|Makrele|205|18.6|0|13.9|0
+sardelle|Sardelle (Hamsi)|131|20.4|0|4.8|0
+sardine|Sardine|160|19.5|0|9.2|0
+wolfsbarsch|Wolfsbarsch/Dorade|97|18.4|0|2|0
+kabeljau|Kabeljau|82|17.8|0|0.7|0
+seelachs|Seelachs|92|19.4|0|1|0
+thunfisch|Thunfisch|109|24.4|0|0.5|0
+schwertfisch|Schwertfisch|144|19.7|0|6.7|0
+fisch_fett|Fisch fettreich (Lüfer, Palamut, Bonito)|161|22.3|0|8|0
+fisch_mager|Fisch mager (Weißfisch)|90|18.5|0|1.2|0
+aal|Aal|184|18.4|0|11.7|0
+garnele|Garnelen|85|20.1|0|0.5|0
+muschel|Miesmuscheln|86|11.9|3.7|2.2|0
+kalmar|Kalmar|92|15.6|3.1|1.4|0
+oktopus|Oktopus|82|14.9|2.2|1|0
+ei|Ei|143|12.6|0.7|9.5|0
+eiweiss|Eiweiß|52|10.9|0.7|0.2|0
+milch|Vollmilch|61|3.1|4.8|3.2|0
+milch_fettarm|Milch 1,5%|44|3.5|3.9|1.5|0
+joghurt|Joghurt (3,5%)|61|3.5|4.7|3.2|0
+suzme|Strained Yogurt (Süzme)|97|9|4|5|0
+ayran|Ayran|28|1.7|2.3|1.4|0
+sahne|Schlagsahne|340|2.8|2.8|36.1|0
+creme_fraiche|Crème fraîche|265|2.4|2.6|27|0
+schmand|Schmand|206|2.8|3|20|0
+quark_mager|Magerquark|66|11.9|3.7|0.2|0
+quark|Speisequark 40%|159|10.9|2.6|11.4|0
+frischkaese|Frischkäse|252|6.6|3.7|23.2|0
+mascarpone|Mascarpone|435|4.6|4.3|44.5|0
+butter|Butter|717|0.8|0.1|81.1|0
+kaymak|Kaymak|586|1.6|2.3|63.5|0
+beyaz_peynir|Beyaz Peynir (Schafskäse)|283|15.4|0|24.1|0
+kasar|Kaşar|340|25.6|0|26.6|0
+tulum|Tulum Peyniri|383|25.5|1|31|0
+lor|Lor Peyniri|138|11.4|5.1|7.9|0
+hellim|Hellim/Halloumi|315|21.5|0.1|25.1|0
+mozzarella|Mozzarella|299|22.2|2.4|22.1|0
+parmesan|Parmesan|392|35.8|3.2|25|0
+gouda|Gouda|356|24.9|2.2|27.4|0
+emmentaler|Emmentaler/Bergkäse|393|27|1.4|31|0
+camembert|Camembert|300|19.8|0.5|24.3|0
+zwiebel|Zwiebel|40|1.1|9.3|0.1|1.7
+knoblauch|Knoblauch|109|5.3|24.4|0.5|5.8
+tomate|Tomate|18|0.9|3.9|0.2|1.2
+paprika|Paprika grün|20|0.9|4.6|0.2|1.7
+paprika_rot|Paprika rot|26|1|6|0.3|2.1
+sivri|Spitzpaprika (Sivri Biber)|29|0.8|6.7|0.4|1
+chili|Chilischote|40|1.9|8.8|0.4|1.5
+aubergine|Aubergine|25|1|5.9|0.2|3
+zucchini|Zucchini|17|1.2|3.1|0.3|1
+gurke|Gurke|15|0.7|3.6|0.1|0.5
+kartoffel|Kartoffel|77|2|17.5|0.1|2.1
+suesskartoffel|Süßkartoffel|86|1.6|20.1|0.1|3
+karotte|Karotte|41|0.9|9.6|0.2|2.8
+sellerie|Knollensellerie|42|1.5|9.2|0.3|1.8
+lauch|Lauch/Porree|61|1.5|14.2|0.3|1.8
+spinat|Spinat|23|2.9|3.6|0.4|2.2
+weisskohl|Weißkohl|25|1.3|5.8|0.1|2.5
+rotkohl|Rotkohl|31|1.4|7.4|0.2|2.1
+blumenkohl|Blumenkohl|25|1.9|5|0.3|2
+brokkoli|Brokkoli|34|2.8|6.6|0.4|2.6
+gruene_bohnen|Grüne Bohnen|31|1.8|7|0.2|2.7
+erbsen|Grüne Erbsen|81|5.4|14.4|0.4|5.7
+mais|Mais|86|3.3|18.7|1.4|2
 rote_bete|Rote Bete|43|1.6|9.6|0.2|2.8
-rettich|Rettich/Rübe|18|0.7|3.4|0.1|1.6
-kuerbis|Kürbis|28|1|6.5|0.1|0.5
-okra|Okra|34|1.9|7.5|0.2|3.2
+rettich|Rettich/Rübe|18|0.6|4.1|0.1|1.6
+kuerbis|Kürbis|26|1|6.5|0.1|0.5
+okra|Okra|33|1.9|7.5|0.2|3.2
 ruebe|Weiße Rübe|28|0.9|6.4|0.1|1.8
-artischocke|Artischocke|52|3.3|11|0.2|5.4
-spargel|Spargel|22|2.2|3.9|0.1|2.1
-pilz|Champignons|24|3.1|3.3|0.3|1
-salat|Blattsalat (Romana/Eisberg)|17|1.4|2.9|0.2|1.3
-rucola|Rucola|28|2.6|3.7|0.7|1.6
-petersilie|Petersilie|39|3|6.3|0.8|3.3
-dill|Dill|45|3.5|7|1.1|2.1
-minze|Minze frisch|46|3.3|8.4|0.7|6.8
-fruehlingszwiebel|Frühlingszwiebel|33|1.8|7.3|0.2|2.6
-karalahana|Schwarzkohl|53|4.3|9|0.9|3.6
-mangold|Mangold|21|1.8|3.7|0.2|1.6
-portulak|Portulak|17|1.3|3.4|0.1|0.5
-wildkraut|Wildkräuter (Otlar)|33|2.5|5|0.4|3
-weinblatt|Weinblätter (eingelegt)|70|5|11|1.5|5
-bohnen_trocken|Weiße Bohnen (trocken)|340|22|61|1.5|15
-kichererbsen_trocken|Kichererbsen (trocken)|364|20|60|6|17
-kichererbsen|Kichererbsen (gekocht)|165|9|27|2.6|7.6
-rote_linsen|Rote Linsen (trocken)|345|25|60|1|11
-linsen|Grüne/Braune Linsen (trocken)|349|25|60|1.1|11
-dicke_bohnen|Dicke Bohnen (Bakla)|73|5|12|0.6|5
-tomatenmark|Tomatenmark|90|4.3|19|0.5|4
-paprikamark|Paprikamark (Biber Salçası)|90|4|17|1.5|5
-tomaten_dose|Tomaten (Dose)|23|1|4.2|0.2|1
-reis|Reis (trocken)|360|7|79|0.6|1.3
-bulgur|Bulgur|345|12|75|1.3|12.5
-couscous|Couscous|365|13|73|0.6|5
-nudeln|Nudeln/Şehriye (trocken)|360|12.5|72|1.5|3
-mehl|Weizenmehl|345|10|72|1|3
-griess|Grieß|345|11|73|1|4
-staerke|Speisestärke|354|0.3|88|0.1|0.9
-reismehl|Reismehl|360|6|80|1.4|2.4
-haferflocken|Haferflocken|355|13|60|7|10
-paniermehl|Paniermehl|381|12|72|5|4
-semmel|Brötchen/Semmel|262|9|53|1.5|3
-weissbrot|Weißbrot/Toast|263|9|50|3|2.5
-vollkornbrot|Vollkornbrot|210|8|38|2|7
-roggenbrot|Roggenmischbrot|215|6|43|1.2|6
-ekmek|Türkisches Brot (Ekmek)|255|8.5|52|1.5|2.5
-lavas|Lavaş/Wrap-Fladen|273|9|56|1.5|2.5
-yufka|Yufka/Filoteig|290|9|60|1.5|2.5
-kadayif|Tel Kadayıf|325|9|70|1|3
-blaetterteig|Blätterteig|541|7|45|37|2
-hefe|Hefe|98|8|12|2|7
-maismehl|Maismehl/Polenta|363|7|77|3|7
-hirse|Hirse|372|11|73|4|8.5
-tarhana|Tarhana (trocken)|324|12|60|4|5
-kastanie|Kastanie|198|2|44|1.5|8
-zucker|Zucker|400|0|100|0|0
-honig|Honig|305|0.3|82|0|0.2
-pekmez|Pekmez/Traubensirup|290|1|72|0|0
-marmelade|Marmelade/Konfitüre|250|0.4|62|0.1|1
-tahin|Tahin|595|17|21|54|9
-helva|Tahin-Halva|520|12|50|29|3
-walnuss|Walnüsse|654|15|14|65|6.7
-mandel|Mandeln|580|21|22|50|12
-haselnuss|Haselnüsse|630|15|17|61|10
-pistazie|Pistazien|560|20|28|45|10
-erdnuss|Erdnüsse|570|26|16|49|8.5
-pinienkerne|Pinienkerne|670|14|13|68|3.7
-kokos|Kokosraspeln|660|6.9|24|65|16
-sesam|Sesam|570|18|23|50|12
-sonnenblumenkerne|Sonnenblumenkerne|585|21|20|51|9
-kuerbiskerne|Kürbiskerne|560|30|11|49|6
-mohn|Mohn|525|18|28|42|20
-rosinen|Rosinen/Sultaninen|300|3|79|0.5|3.7
-aprikose_tr|Aprikosen getrocknet|240|3.4|63|0.5|7
-dattel|Datteln|280|2.5|75|0.4|8
-feige_tr|Feigen getrocknet|250|3.3|64|0.9|9.8
-pflaume_tr|Pflaumen getrocknet|240|2.2|64|0.4|7
-aprikose|Aprikose|48|1.4|11|0.4|2
-apfel|Apfel|52|0.3|14|0.2|2.4
-birne|Birne|57|0.4|15|0.1|3.1
-quitte|Quitte|57|0.4|15|0.1|1.9
-banane|Banane|89|1.1|23|0.3|2.6
-orange|Orange|47|0.9|12|0.1|2.4
-zitrone|Zitronensaft|28|0.4|7|0.2|0.3
-granatapfel|Granatapfel|83|1.7|19|1.2|4
-nar_eksisi|Granatapfelsirup (Nar Ekşisi)|150|0.5|37|0|0
-traube|Weintraube|69|0.7|18|0.2|0.9
+artischocke|Artischocke|47|3.3|10.5|0.1|5.4
+spargel|Spargel|20|2.2|3.9|0.1|2.1
+pilz|Champignons|22|3.1|3.3|0.3|1
+salat|Blattsalat (Romana/Eisberg)|17|1.2|3.3|0.3|2.1
+rucola|Rucola|25|2.6|3.6|0.7|1.6
+petersilie|Petersilie|36|3|6.3|0.8|3.3
+dill|Dill|43|3.5|7|1.1|2.1
+minze|Minze frisch|44|3.3|8.4|0.7|6.8
+fruehlingszwiebel|Frühlingszwiebel|32|1.8|7.3|0.2|2.6
+karalahana|Schwarzkohl|35|2.9|4.4|1.5|4.1
+mangold|Mangold|19|1.8|3.7|0.2|1.6
+portulak|Portulak|14|1.5|2.2|0.3|1.6
+wildkraut|Wildkräuter (Otlar)|36|3|6.3|0.8|3.8
+weinblatt|Weinblätter (eingelegt)|69|4.3|11.7|2|9.9
+bohnen_trocken|Weiße Bohnen (trocken)|333|23.4|60.3|0.8|15.2
+kichererbsen_trocken|Kichererbsen (trocken)|378|20.5|63|6|12.2
+kichererbsen|Kichererbsen (gekocht)|164|8.9|27.4|2.6|7.6
+rote_linsen|Rote Linsen (trocken)|358|23.9|63.1|2.2|10.8
+linsen|Grüne/Braune Linsen (trocken)|352|24.6|63.4|1.1|10.7
+dicke_bohnen|Dicke Bohnen (Bakla)|72|5.6|11.7|0.6|4.2
+tomatenmark|Tomatenmark|82|4.3|18.9|0.5|4.1
+paprikamark|Paprikamark (Biber Salçası)|82|4.3|18.9|0.5|4.1
+tomaten_dose|Tomaten (Dose)|16|0.8|3.5|0.2|1.9
+reis|Reis (trocken)|365|7.1|80|0.7|1.3
+bulgur|Bulgur|342|12.3|75.9|1.3|12.5
+couscous|Couscous|376|12.8|77.4|0.6|5
+nudeln|Nudeln/Şehriye (trocken)|371|13|74.7|1.5|3.2
+mehl|Weizenmehl|364|10.3|76.3|1|2.7
+griess|Grieß|360|12.7|72.8|1.1|3.9
+staerke|Speisestärke|381|0.3|91.3|0.1|0.9
+reismehl|Reismehl|366|6|80.1|1.4|2.4
+haferflocken|Haferflocken|379|13.2|67.7|6.5|10.1
+paniermehl|Paniermehl|395|13.3|72|5.3|4.5
+semmel|Brötchen/Semmel|310|10.9|52|6.5|2
+weissbrot|Weißbrot/Toast|266|8.8|49.4|3.3|2.7
+vollkornbrot|Vollkornbrot|252|12.4|42.7|3.5|6
+roggenbrot|Roggenmischbrot|259|8.5|48.3|3.3|5.8
+ekmek|Türkisches Brot (Ekmek)|266|8.8|49.4|3.3|2.7
+lavas|Lavaş/Wrap-Fladen|248|8.2|50.3|2.3|3.3
+yufka|Yufka/Filoteig|289|7.1|52.6|6|1.9
+kadayif|Tel Kadayıf|289|7.1|52.6|6|1.9
+blaetterteig|Blätterteig|465|5.2|31.9|35.7|2.2
+hefe|Hefe|105|8.4|18.1|1.9|8.1
+maismehl|Maismehl/Polenta|370|7.1|79.5|1.8|3.9
+hirse|Hirse|378|11|72.8|4.2|8.5
+tarhana|Tarhana (trocken)|356|16|61.9|5.4|1
+kastanie|Kastanie|213|2.4|45.5|2.3|8.1
+zucker|Zucker|387|0|100|0|0
+honig|Honig|304|0.3|82.4|0|0.2
+pekmez|Pekmez/Traubensirup|270|0.8|66.5|0|1.2
+marmelade|Marmelade/Konfitüre|278|0.4|68.9|0.1|1.1
+tahin|Tahin|595|17|21.2|53.8|9.3
+helva|Tahin-Halva|516|11.6|50.3|33.3|7.7
+walnuss|Walnüsse|654|15.2|13.7|65.2|6.7
+mandel|Mandeln|579|21.1|21.6|49.9|12.5
+haselnuss|Haselnüsse|628|14.9|16.7|60.8|9.7
+pistazie|Pistazien|560|20.2|27.2|45.3|10.6
+erdnuss|Erdnüsse|567|25.8|16.1|49.2|8.5
+pinienkerne|Pinienkerne|673|13.7|13.1|68.4|3.7
+kokos|Kokosraspeln|660|6.9|23.6|64.5|16.3
+sesam|Sesam|573|17.7|23.4|49.7|11.8
+sonnenblumenkerne|Sonnenblumenkerne|584|20.8|20|51.5|8.6
+kuerbiskerne|Kürbiskerne|559|30.2|10.7|49|6
+mohn|Mohn|525|18|28.1|41.6|19.5
+rosinen|Rosinen/Sultaninen|299|3.3|79.3|0.2|4.5
+aprikose_tr|Aprikosen getrocknet|241|3.4|62.6|0.5|7.3
+dattel|Datteln|282|2.5|75|0.4|8
+feige_tr|Feigen getrocknet|249|3.3|63.9|0.9|9.8
+pflaume_tr|Pflaumen getrocknet|240|2.2|63.9|0.4|7.1
+aprikose|Aprikose|48|1.4|11.1|0.4|2
+apfel|Apfel|52|0.3|13.8|0.2|2.4
+birne|Birne|57|0.4|15.2|0.1|3.1
+quitte|Quitte|57|0.4|15.3|0.1|1.9
+banane|Banane|89|1.1|22.8|0.3|2.6
+orange|Orange|47|0.9|11.8|0.1|2.4
+zitrone|Zitronensaft|22|0.3|6.9|0.2|0.3
+granatapfel|Granatapfel|83|1.7|18.7|1.2|4
+nar_eksisi|Granatapfelsirup (Nar Ekşisi)|270|0.8|66.5|0|1.2
+traube|Weintraube|69|0.7|18.1|0.2|0.9
 erdbeere|Erdbeere|32|0.7|7.7|0.3|2
-kirsche|Kirsche|63|1|16|0.2|2.1
-sauerkirsche|Sauerkirsche/Vişne|50|1|12|0.3|1.6
-pflaume|Pflaume/Zwetschge|46|0.7|11|0.3|1.4
-pfirsich|Pfirsich|39|0.9|9.5|0.3|1.5
-wassermelone|Wassermelone|30|0.6|7.6|0.2|0.4
+kirsche|Kirsche|63|1.1|16|0.2|2.1
+sauerkirsche|Sauerkirsche/Vişne|50|1|12.2|0.3|1.6
+pflaume|Pflaume/Zwetschge|46|0.7|11.4|0.3|1.4
+pfirsich|Pfirsich|39|0.9|9.5|0.2|1.5
+wassermelone|Wassermelone|30|0.6|7.5|0.1|0.4
 melone|Zuckermelone|34|0.8|8.2|0.2|0.9
-himbeere|Himbeere|52|1.2|12|0.7|6.5
-blaubeere|Blaubeere|57|0.7|14|0.3|2.4
-maulbeere|Maulbeere|43|1.4|10|0.4|1.7
-preiselbeeren|Preiselbeerkompott|130|0.2|32|0.1|1
+himbeere|Himbeere|52|1.2|11.9|0.7|6.5
+blaubeere|Blaubeere|57|0.7|14.5|0.3|2.4
+maulbeere|Maulbeere|43|1.4|9.8|0.4|1.7
+preiselbeeren|Preiselbeerkompott|159|0.9|40.4|0.1|1.1
 oel|Sonnenblumenöl|884|0|0|100|0
 olivenoel|Olivenöl|884|0|0|100|0
-butterschmalz|Butterschmalz|891|0|0|99|0
-schmalz|Schweineschmalz|897|0|0|99.5|0
-margarine|Margarine|722|0.2|0.4|80|0
+butterschmalz|Butterschmalz|876|0.3|0|99.5|0
+schmalz|Schweineschmalz|902|0|0|100|0
+margarine|Margarine|717|0.2|0.7|80.7|0
 salz|Salz|0|0|0|0|0
-pfeffer|Pfeffer|300|10|64|3.3|25
-paprikapulver|Paprikapulver|335|14|54|13|35
-pul_biber|Pul Biber (Chiliflocken)|360|12|50|15|28
-kreuzkuemmel|Kreuzkümmel|380|18|44|22|10
-zimt|Zimt|300|4|81|1.2|53
-oregano|Oregano/Thymian/Majoran (trocken)|305|9|65|5|40
-minze_trocken|Minze getrocknet|295|20|52|6|30
-gewuerz|Gewürzmischung (Sumak, Muskat, Kurkuma usw.)|300|10|55|8|25
-kakao|Kakaopulver|375|20|58|14|33
-schokolade|Zartbitterschokolade|539|6|50|35|10
-schokolade_milch|Vollmilchschokolade|528|7.5|57|30|3
-gelatine|Gelatine|340|85|0|0|0
-senf|Senf|66|4|6|4|3
-ketchup|Ketchup|106|1.2|25|0.2|1
-mayonnaise|Mayonnaise|687|1|2|75|0
-essig|Essig|10|0|0.6|0|0
+pfeffer|Pfeffer|251|10.4|64|3.3|25.3
+paprikapulver|Paprikapulver|282|14.1|54|12.9|34.9
+pul_biber|Pul Biber (Chiliflocken)|318|12|56.6|17.3|27.2
+kreuzkuemmel|Kreuzkümmel|375|17.8|44.2|22.3|10.5
+zimt|Zimt|247|4|80.6|1.2|53.1
+oregano|Oregano/Thymian/Majoran (trocken)|265|9|68.9|4.3|42.5
+minze_trocken|Minze getrocknet|285|19.9|52|6|29.8
+gewuerz|Gewürzmischung (Sumak, Muskat, Kurkuma usw.)|406|5.6|57.4|20.4|21.3
+kakao|Kakaopulver|228|19.6|57.9|13.7|37
+schokolade|Zartbitterschokolade|579|6.1|52.4|38.3|8
+schokolade_milch|Vollmilchschokolade|535|7.7|59.4|29.7|3.4
+gelatine|Gelatine|335|85.6|0|0.1|0
+senf|Senf|111|5.5|7.4|7|4.5
+ketchup|Ketchup|101|1|27.4|0.1|0.3
+mayonnaise|Mayonnaise|680|1|0.6|74.8|0
+essig|Essig|18|0|0|0|0
 wein_rot|Rotwein|85|0.1|2.6|0|0
 wein_weiss|Weißwein|82|0.1|2.6|0|0
-bier|Bier|43|0.5|3.6|0|0
-bruehe|Brühe|5|0.5|0.5|0.1|0
+bier|Bier|43|0.5|3.5|0|0
+bruehe|Brühe|6|0.6|0.4|0.2|0
 wasser|Wasser|0|0|0|0|0
-tee|Tee/Kaffee (ungesüßt)|2|0.1|0.2|0|0
-sauerkraut|Sauerkraut|20|1|3.4|0.2|2.5
-gewuerzgurke|Gewürzgurke|15|0.5|2.8|0.2|1.2
-olive|Oliven|140|1|4|14|3
-sumak_pulver|Sumak|270|3|60|7|20
-kalb|Kalbfleisch (Schnitzel/Keule)|107|21|0|2.5|0
-wild|Wildfleisch (Reh/Hirsch)|115|22|0|2.5|0
-wildschwein|Wildschweinfleisch|122|21|0|4|0
-kaninchen|Kaninchenfleisch|136|21|0|5|0
-rhabarber|Rhabarber|13|0.9|2.3|0.2|1.8
-rosenkohl|Rosenkohl|43|3.4|8|0.3|3.8
-gruenkohl|Grünkohl|49|4.3|8.5|0.9|4.2
-meerrettich|Meerrettich|48|1.2|11|0.3|3
-marzipan|Marzipan|480|9|50|27|4
-graupen|Graupen (Gerste)|350|10|73|1.5|15
-erbsen_trocken|Erbsen getrocknet|340|23|50|1.5|16
-lebkuchen_gewuerz|Lebkuchengewürz/Zimt-Nelke|260|4|55|3|25
-speisequark_20|Speisequark 20 % Fett|120|11|3.5|7|0
-vanillepudding_pulver|Puddingpulver|350|0.3|86|0.3|0.5
-sauerrahm|Sauerrahm (10 % Fett)|120|3|4|10|0
-rotkohl_glas|Rotkohl (gegart, Glas)|50|1.2|9|1|2.5
-ananas|Ananas|50|0.5|13|0.1|1.4
-# --- Ergänzung europäische Gerichte ---
-ricotta|Ricotta|150|11|3|10|0
-pecorino|Pecorino|390|28|0.5|30|0
-rohschinken|Rohschinken (Prosciutto/Jamón)|250|26|0.3|17|0
-chorizo|Chorizo|450|24|2|38|0
-stockfisch|Stockfisch/Bacalao (gewässert)|100|22|0|0.8|0
-schnecke|Schnecken|90|16|2|1.4|0
-krabbe|Krabbe/Krebsfleisch|85|18|0.5|1|0
-hummer|Hummer/Langustine|90|19|0.5|1|0
-blauschimmelkaese|Blauschimmelkäse (Gorgonzola)|350|21|0|29|0
-ziegenkaese|Ziegenkäse|270|18|1|21|0
-buttermilch|Buttermilch|40|3.3|4|0.9|0
-knaeckebrot|Knäckebrot|340|10|66|1.5|14
-eis|Speiseeis|200|3.5|24|10|0
-keks|Butterkeks|450|7|70|16|2
+tee|Tee/Kaffee (ungesüßt)|1|0|0.3|0|0
+sauerkraut|Sauerkraut|19|0.9|4.3|0.1|2.9
+gewuerzgurke|Gewürzgurke|12|0.5|2.4|0.3|1
+olive|Oliven|145|1|3.8|15.3|3.3
+sumak_pulver|Sumak|381|1.2|55.7|21.5|20.3
+kalb|Kalbfleisch (Schnitzel/Keule)|107|21.3|0|1.8|0
+wild|Wildfleisch (Reh/Hirsch)|120|23|0|2.4|0
+wildschwein|Wildschweinfleisch|122|21.5|0|3.3|0
+kaninchen|Kaninchenfleisch|136|20.1|0|5.5|0
+rhabarber|Rhabarber|21|0.9|4.5|0.2|1.8
+rosenkohl|Rosenkohl|43|3.4|8.9|0.3|3.8
+gruenkohl|Grünkohl|35|2.9|4.4|1.5|4.1
+meerrettich|Meerrettich|84|5.9|16|0.3|4.3
+marzipan|Marzipan|389|5.3|70|12.7|2.4
+graupen|Graupen (Gerste)|352|9.9|77.7|1.2|15.6
+erbsen_trocken|Erbsen getrocknet|364|23.1|61.6|3.9|22.2
+lebkuchen_gewuerz|Lebkuchengewürz/Zimt-Nelke|342|5.8|69.3|12.6|14.8
+speisequark_20|Speisequark 20 % Fett|110|12.2|3|5.1|0
+vanillepudding_pulver|Puddingpulver|379|0.3|93.5|0.4|0.6
+sauerrahm|Sauerrahm (10 % Fett)|119|3.1|4.1|10|0
+rotkohl_glas|Rotkohl (gegart, Glas)|29|1.5|6.9|0.1|2.6
+ananas|Ananas|50|0.5|13.1|0.1|1.4
+ricotta|Ricotta|150|7.5|7.3|10.2|0
+pecorino|Pecorino|383|25.5|1|31|0
+rohschinken|Rohschinken (Prosciutto/Jamón)|195|27.8|0.3|8.3|0
+chorizo|Chorizo|395|24|3.4|32.2|1
+stockfisch|Stockfisch/Bacalao (gewässert)|138|32.5|0|0.9|0
+schnecke|Schnecken|90|16.1|2|1.4|0
+krabbe|Krabbe/Krebsfleisch|87|18.1|0|1.1|0
+hummer|Hummer/Langustine|77|16.5|0|0.8|0
+blauschimmelkaese|Blauschimmelkäse (Gorgonzola)|353|21.4|2.3|28.7|0
+ziegenkaese|Ziegenkäse|264|18.5|0|21.1|0
+buttermilch|Buttermilch|40|3.3|4.8|1.1|0
+knaeckebrot|Knäckebrot|284|8.6|83.4|1.4|20
+eis|Speiseeis|207|3.5|23.6|11|0.7
+keks|Butterkeks|514|5.4|63.8|26.2|1.3
 spirituose|Spirituose 40 %|231|0|0|0|0
-likoerwein|Sherry/Portwein/Likörwein|150|0|12|0|0
-likoer|Likör|300|0|30|0|0
-apfelwein|Apfelwein/Cider|45|0|3|0|0
-kaffee|Kaffee (aufgebrüht)|2|0.1|0|0|0
-kondensmilch|Kondensmilch gezuckert|325|8|55|9|0
-pflaumenmus|Pflaumenmus|240|1|60|0.3|1.5
-fladenbrot|Fladenbrot/Pita|275|9|55|1.2|2
-wuerstchen_geraeuchert|Räucherwürstchen/Kielbasa|300|14|2|27|0
-quittenbrot|Quittenbrot|250|0.3|63|0.1|1
-weinbrand|Weinbrand/Rum|231|0|0|0|0
-foie_gras|Foie gras|460|11|4|44|0
-x2_haggis|Haggis|260|11|16|16|1.5
-x2_kutteln|Kutteln (Rindermagen, gegart)|85|12|0|4|0
-x2_biskuit|Löffelbiskuit|390|8|75|6|2
-x2_speculoos_creme|Spekulatius-Aufstrich (Biscoff-Art)|570|3|58|36|1
-x2_limonade|Limonade/Bitter-Orangen-Limonade|42|0|10.5|0|0
-x3_pizzateig|Pizzateig (roh)|265|8|52|2|2.5
-x4_buchweizen|Buchweizen (Graupen/Mehl)|343|13.3|71.5|3.4|10.0
-x4_roggenmehl|Roggenmehl Type 1370|325|9.0|68.0|1.7|14.0
+likoerwein|Sherry/Portwein/Likörwein|116|0.1|5.9|0|0
+likoer|Likör|262|0|32.8|0|0
+apfelwein|Apfelwein/Cider|36|0|2.6|0|0
+kaffee|Kaffee (aufgebrüht)|1|0.1|0|0|0
+kondensmilch|Kondensmilch gezuckert|321|7.9|54.4|8.7|0
+pflaumenmus|Pflaumenmus|195|0.9|47.6|0.2|1.7
+fladenbrot|Fladenbrot/Pita|275|9.1|55.7|1.2|2.2
+wuerstchen_geraeuchert|Räucherwürstchen/Kielbasa|325|10.8|3.7|29.6|0
+quittenbrot|Quittenbrot|336|1.7|80.5|1.8|3.9
+weinbrand|Weinbrand/Rum|221|0|0|0|0
+foie_gras|Foie gras|526|8.4|0.4|54.6|0.3
+x2_haggis|Haggis|310|10.7|21.3|21.7|2.1
+x2_kutteln|Kutteln (Rindermagen, gegart)|94|11.7|2|4|0
+x2_biskuit|Löffelbiskuit|363|10.6|59.7|9.1|1
+x2_speculoos_creme|Spekulatius-Aufstrich (Biscoff-Art)|575|3.3|61.4|37.7|2
+x2_limonade|Limonade/Bitter-Orangen-Limonade|38|0|9.3|0|0
+x3_pizzateig|Pizzateig (roh)|290|7.8|60|4.8|2.5
+x4_buchweizen|Buchweizen (Graupen/Mehl)|343|13.2|71.5|3.4|10
+x4_roggenmehl|Roggenmehl Type 1370|344|7.2|80.4|1.1|9.5
 x4_seetang|Seetang/Purpurtang (Laver), gegart|35|5.8|5.1|0.3|0.3
-x4_erdmandel|Erdmandeln (Tigernüsse)|415|5.0|45.0|24.0|10.0
-xa_weizen|Weizenkörner (Dövme/Aşurelik, trocken)|335|12|68|2|11
-xa_sulguni|Sulguni/Imeruli (Salzlakenkäse, mild)|285|20|0.5|22.5|0
+x4_erdmandel|Erdmandeln (Tigernüsse)|403|4.3|57.4|23.8|11.7
+xa_weizen|Weizenkörner (Dövme/Aşurelik, trocken)|327|12.6|71.2|1.5|12.2
+xa_sulguni|Sulguni/Imeruli (Salzlakenkäse, mild)|315|21.5|0.1|25.1|0
 xa_koriander|Koriandergrün frisch|23|2.1|3.7|0.5|2.8
-xa_traubensaft|Traubensaft|65|0.4|16|0.1|0.2
-xa_tkemali|Tkemali (saure Pflaumensauce)|60|0.6|14|0.3|1
-xa_kaese_hart|Hartkäse Schaf/Kuh (Kefalotyri/Kashkaval)|380|25|1|31|0
-xa_bohnen_rot|Rote Kidneybohnen (trocken)|333|22|60|1|15
-xa_kaese_salz_frisch|Frischer Salzkäse (Sirene/Brynza/Bryndza)|260|16|1|21|0
-xb_kohlrabi|Kohlrabi|27|1.9|4.5|0.1|1.5
-xb_fenchel|Fenchel|31|1.2|3.0|0.2|2.9
-xb_pastinake|Pastinake/Petersilienwurzel|75|1.2|15.0|0.3|4.9
-xb_schwarzwurzel|Schwarzwurzel|78|3.0|16.0|0.4|3.3
-xb_steckruebe|Steckrübe|37|1.1|7.0|0.2|2.3
-xb_johannisbeere|Johannisbeere (rot/schwarz)|50|1.2|10.0|0.2|4.3
-xb_stachelbeere|Stachelbeere|44|0.9|9.0|0.6|3.5
-xb_apfelsaft|Apfelsaft|46|0.1|11.0|0.1|0.1
-xb_orangensaft|Orangensaft|45|0.7|10.0|0.2|0.2
-xb_cola|Cola/Limonade (gezuckert)|42|0|10.5|0|0
-xb_sirup|Zuckerrübensirup/Golden Syrup/Sirup|320|0.5|79.0|0|0
-xb_lachs_geraeuchert|Räucherlachs|180|22.0|0|10.0|0
-xb_matjes|Matjeshering|255|16.0|0|21.0|0
-xb_cheddar|Cheddar|400|25.0|1.3|33.0|0
-xb_nierenfett|Rindernierenfett (Suet)|850|1.5|0|94.0|0
-xb_gruenkern|Grünkern/Dinkel (Korn)|330|11.0|63.0|2.7|8.8
-xb_rote_gruetze_beeren|Beerenmischung (rot)|45|1.0|8.5|0.3|4.0
-xb_lebkuchen|Lebkuchen/Honigkuchen|360|5.5|70.0|6.0|3.0
+xa_traubensaft|Traubensaft|60|0.4|14.8|0.1|0.2
+xa_tkemali|Tkemali (saure Pflaumensauce)|46|0.7|11.4|0.3|1.4
+xa_kaese_hart|Hartkäse Schaf/Kuh (Kefalotyri/Kashkaval)|383|25.5|1|31|0
+xa_bohnen_rot|Rote Kidneybohnen (trocken)|337|22.5|61.3|1.1|15.2
+xa_kaese_salz_frisch|Frischer Salzkäse (Sirene/Brynza/Bryndza)|265|14.2|3.9|21.5|0
+xb_kohlrabi|Kohlrabi|27|1.7|6.2|0.1|3.6
+xb_fenchel|Fenchel|31|1.2|7.3|0.2|3.1
+xb_pastinake|Pastinake/Petersilienwurzel|75|1.2|18|0.3|4.9
+xb_schwarzwurzel|Schwarzwurzel|82|3.3|18.6|0.2|3.3
+xb_steckruebe|Steckrübe|37|1.1|8.6|0.2|2.3
+xb_johannisbeere|Johannisbeere (rot/schwarz)|56|1.4|13.8|0.2|4.3
+xb_stachelbeere|Stachelbeere|44|0.9|10.2|0.6|4.3
+xb_apfelsaft|Apfelsaft|46|0.1|11.3|0.1|0.2
+xb_orangensaft|Orangensaft|45|0.7|10.4|0.2|0.2
+xb_cola|Cola/Limonade (gezuckert)|42|0|10.4|0.2|0
+xb_sirup|Zuckerrübensirup/Golden Syrup/Sirup|298|0.3|79|0|0
+xb_lachs_geraeuchert|Räucherlachs|117|18.3|0|4.3|0
+xb_matjes|Matjeshering|208|16.5|0|16|0
+xb_cheddar|Cheddar|403|22.9|3.4|33.3|0
+xb_nierenfett|Rindernierenfett (Suet)|854|1.5|0|94|0
+xb_gruenkern|Grünkern/Dinkel (Korn)|329|11.1|69.8|2.7|10.6
+xb_rote_gruetze_beeren|Beerenmischung (rot)|51|1.1|12.3|0.3|3.7
+xb_lebkuchen|Lebkuchen/Honigkuchen|416|5.6|76.9|9.8|2.2
 xc_fenchel|Fenchel (Knolle)|31|1.2|7.3|0.2|3.1
-xc_chicoree|Chicorée/Endivie|17|1.3|3.4|0.2|3.1
-xc_kichererbsenmehl|Kichererbsenmehl|387|22|58|6.7|11
+xc_chicoree|Chicorée/Endivie|17|0.9|4|0.1|3.1
+xc_kichererbsenmehl|Kichererbsenmehl|387|22.4|57.8|6.7|10.8
+grieben|Schweinegrieben, gegart|550|36.2|0|45|0
+ente_gegart|Ente mit Haut, gebraten|337|19|0|28.4|0
+gans_gegart|Gans mit Haut, gebraten|305|25.2|0|21.9|0

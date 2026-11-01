@@ -4,7 +4,8 @@ Amandină | Romanian amandină | K | 0.95 | 1 Stück | ei 50, zucker 40, mehl 20
 Ciorbă de văcuță | Romanian beef sour soup | S | 0.95 | 1 Teller | rind 100, karotte 40, sellerie 30, zwiebel 30, kartoffel 60, paprika 40, essig 10, reis 15, wasser 40, bruehe 250
 Covrigi | Romanian covrigi | BR | 0.9 | 1 Stück | mehl 90, wasser 50, hefe 3, salz 3, sesam 4
 Fasole bătută | Romanian beaten beans | SD | 0.9 | 1 Portion | bohnen_trocken 60, wasser 160, zwiebel 30, knoblauch 5, olivenoel 20, zitrone 5
-Jumări | Romanian jumări | SN | 0.5 | 1 Portion | schwein_bauch 200, salz 2
+# Gegarte Grieben (CoFID 18-216). Garfaktor 1,0: 0,5 wäre der Rohverlust und würde den gegarten Satz noch einmal verdoppeln.
+Jumări | Romanian jumări | SN | 1.0 | 1 Portion | grieben 100, salz 2
 Plăcintă cu mere | Romanian apple pie | K | 0.95 | 1 Stück | mehl 60, butter 25, zucker 30, apfel 150, zimt 1, ei 10
 Ciorbă de burtă | Romanian tripe soup | S | 0.95 | 1 Teller | x2_kutteln 100, bruehe 250, sauerrahm 50, ei 15, knoblauch 4, essig 8, karotte 20, sellerie 15, zwiebel 20
 Clătite | Romanian crepes | D | 0.85 | 2 Stück | mehl 50, milch 120, ei 40, oel 8, marmelade 40, zucker 10
