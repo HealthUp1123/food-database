@@ -96,7 +96,7 @@ Kiba | Kirsch-Banane-Saft, KiBa | GT | 1.0 | 1 Glas | kirsche 80, banane 50, was
 Eisschokolade | Eisschokolade mit Sahne | GT | 1.0 | 1 Glas | milch 200, kakao 10, zucker 12, eis 80, sahne 30
 Bananenmilch | Bananenmilch selbstgemacht, Bananenshake | GT | 1.0 | 1 Glas | milch 220, banane 100, zucker 5
 Erdbeermilch | Erdbeershake selbstgemacht | GT | 1.0 | 1 Glas | milch 220, erdbeere 100, zucker 10
-Johannisbeerschorle | Johannisbeersaftschorle | GT | 1.0 | 0,4 l | xb_johannisbeere 100, zucker 15, wasser 300
+Johannisbeerschorle | Johannisbeersaftschorle | GT | 1.0 | 0,4 l | xb_johannisbeersaft 100, zucker 15, wasser 300
 Eierlikör | Eierlikör selbstgemacht | GT | 1.0 | 1 Glas (4 cl) | likoer 40
 Apfelpunsch | Heißer Apfelpunsch alkoholfrei | GT | 1.0 | 1 Tasse | xb_apfelsaft 200, xb_orangensaft 50, zimt 1
 Heißer Apfelwein | Heißer Ebbelwoi, Apfelwein warm mit Zimt | GT | 1.0 | 1 Glas | apfelwein 250, zucker 10, zimt 1
