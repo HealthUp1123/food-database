@@ -11,7 +11,7 @@
 
 ## Plausibilitätsprüfungen (`build.py`, Exit 1 bei Fehlern)
 - unbekannte Zutat, doppelte ID/Name, Garfaktor außerhalb 0,5–1,05 → Fehler
-- kcal ≈ 4·Eiweiß + 4·KH + 9·Fett (±15 %, min. ±12 kcal), Eiweiß+KH+Fett ≤ 100 g, kcal 0–950, Ballaststoffe ≤ KH
+- kcal ≈ 4·Eiweiß + 4·verfügbare KH + 2·Ballaststoffe + 9·Fett (±15 %, min. ±12 kcal, zusätzlich 2 kcal je g Ballaststoffe, weil die Zutaten-kcal Ballaststoffe oft noch mit ~4 kcal/g führen). Eiweiß + verfügbare KH + Ballaststoffe + Fett ≤ 100 g, kcal 0–950. `per100g.carbs` ist die verfügbare Menge (Zutatentabelle bleibt Gesamt-KH, der Generator zieht die Ballaststoffe der Zutat ab).
 - **Alkohol-Ausnahme:** Einträge mit Wein/Bier (Glühwein, Bier, Weinschorle, Bowle, Federweißer …) liegen bewusst über der Makro-Schätzung (Alkohol ≈ 7 kcal/g); geprüft wird nur, dass kcal nicht darunter liegen. Der Repo-Validator zeigt dafür 3 Warnungen (Weißwein, Rotwein, Glühwein) – erwartet.
 - Zusätzlich: Repo-Validator `scripts/validate.mjs` → 2884 gültig (angepasste Kopie in `repo_patch/`, siehe unten).
 

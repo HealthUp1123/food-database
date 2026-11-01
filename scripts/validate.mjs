@@ -84,32 +84,37 @@ data.forEach((e, i) => {
   if (typeof e.source !== 'string' || !e.source.trim()) err(ctx, 'source fehlt (Herkunft der Nährwerte)');
 
   const p = e.per100g;
+  // null nur mit Begründung in source_missing. Pflichtfelder bleiben als Schlüssel vorhanden.
+  const missing = Array.isArray(e.source_missing) ? e.source_missing : [];
+  const nullableOk = (key) => missing.includes(key);
   if (!p || typeof p !== 'object') err(ctx, 'per100g fehlt');
   else {
-    if (!isNum(p.kcal) || p.kcal < 0 || p.kcal > 950) err(ctx, `kcal ${p.kcal} ungültig (0–950)`);
+    if (!('kcal' in p)) err(ctx, 'kcal fehlt (Zahl oder null)');
+    else if (p.kcal === null) { if (!nullableOk('kcal')) err(ctx, 'kcal ist null, fehlt aber in source_missing'); }
+    else if (!isNum(p.kcal) || p.kcal < 0 || p.kcal > 950) err(ctx, `kcal ${p.kcal} ungültig (0–950 oder null)`);
     for (const m of MACROS) {
-      if (!isNum(p[m]) || p[m] < 0 || p[m] > 100) err(ctx, `${m} ${p[m]} ungültig (0–100 pro 100 g)`);
+      if (!(m in p)) err(ctx, `${m} fehlt (Zahl oder null)`);
+      else if (p[m] === null) { if (!nullableOk(m)) err(ctx, `${m} ist null, fehlt aber in source_missing`); }
+      else if (!isNum(p[m]) || p[m] < 0 || p[m] > 100) err(ctx, `${m} ${p[m]} ungültig (0–100 pro 100 g oder null)`);
     }
     if ('sugar' in p) {
-      // Optional. Bei USDA-Daten kann Zucker (gemessen) leicht über Kohlenhydraten (Differenzrechnung) liegen, z. B. Milch.
-      if (!isNum(p.sugar) || p.sugar < 0 || p.sugar > 100) err(ctx, `sugar ${p.sugar} ungültig (0–100 pro 100 g)`);
+      // Optional. Bei USDA kann Zucker (gemessen) leicht über den verfügbaren Kohlenhydraten liegen, z. B. Milch.
+      if (p.sugar === null) { if (!nullableOk('sugar')) err(ctx, 'sugar ist null, fehlt aber in source_missing'); }
+      else if (!isNum(p.sugar) || p.sugar < 0 || p.sugar > 100) err(ctx, `sugar ${p.sugar} ungültig (0–100 pro 100 g oder null)`);
     }
     if ('alcohol' in p) {
       // Optional: Alkohol (Ethanol) in g pro 100 g, z. B. Bier ≈ 3,8, Wein ≈ 9–10, Spirituosen ≈ 30–35.
       if (!isNum(p.alcohol) || p.alcohol < 0 || p.alcohol > 100) err(ctx, `alcohol ${p.alcohol} ungültig (0–100 g pro 100 g)`);
     }
-    if (MACROS.every((m) => isNum(p[m]))) {
+    if (isNum(p.protein) && isNum(p.carbs) && isNum(p.fat)) {
+      // carbs = verfügbare KH. Ballaststoffe zählen extra in die Masse, null (unbekannt) nicht.
       // 0,15 g Rundungstoleranz: Referenzdaten (z. B. USDA Leinöl 0,11 g Eiweiß + 99,98 g Fett) summieren teils knapp über 100 g.
-      if (p.protein + p.carbs + p.fat > 100.15) err(ctx, `Protein+Kohlenhydrate+Fett = ${(p.protein + p.carbs + p.fat).toFixed(1)} g > 100 g`);
-      if (p.fiber > p.carbs + 0.0001 && p.fiber > 0) {
-        // Ballaststoffe zählen oft separat; nur Warnung, kein Fehler
-        console.warn(`! ${ctx}: Ballaststoffe (${p.fiber}) > Kohlenhydrate (${p.carbs}) – bitte prüfen`);
-      }
+      const fib = isNum(p.fiber) ? p.fiber : 0;
+      const sum = p.protein + p.carbs + fib + p.fat;
+      if (sum > 100.15) err(ctx, `Protein+Kohlenhydrate+Ballaststoffe+Fett = ${sum.toFixed(1)} g > 100 g`);
       if (isNum(p.kcal)) {
-        // Ist per100g.alcohol gesetzt, zählt Ethanol mit 7 kcal/g in die Schätzung.
-        const est = p.protein * 4 + p.carbs * 4 + p.fat * 9 + (isNum(p.alcohol) ? p.alcohol * 7 : 0);
-        // Alkohol (Wein, Spirituosen) liegt oft über der 4/4/9-Schätzung (Ethanol ≈ 7 kcal/g).
-        // Das ist eine Warnung, kein Fehler.
+        // EU-Faktoren: verfügbare KH 4, Ballaststoffe 2, Protein 4, Fett 9, Ethanol 7 kcal/g.
+        const est = p.protein * 4 + p.carbs * 4 + fib * 2 + p.fat * 9 + (isNum(p.alcohol) ? p.alcohol * 7 : 0);
         if (Math.abs(est - p.kcal) > Math.max(60, p.kcal * 0.35)) console.warn(`! ${ctx}: kcal (${p.kcal}) weicht stark von Makro-Schätzung (${est.toFixed(0)}) ab – bitte prüfen`);
       }
     }
@@ -128,8 +133,19 @@ data.forEach((e, i) => {
   if ('note' in e && (typeof e.note !== 'string' || !e.note.trim())) err(ctx, 'note muss ein nicht-leerer String sein');
   if ('fdc_id' in e && (!Number.isInteger(e.fdc_id) || e.fdc_id <= 0)) err(ctx, 'fdc_id muss eine positive Ganzzahl sein (USDA FoodData Central)');
   if ('source_id' in e && (typeof e.source_id !== 'string' || !e.source_id.trim())) err(ctx, 'source_id muss ein nicht-leerer String sein (Datenbank:Code, z. B. "BLS 4.0:G582172")');
-  // Fehlt ein Wert in der Quelle, steht er hier (bei protein/fat/fiber ist dann 0 eingetragen, sugar fehlt dann ganz).
-  if ('source_missing' in e && (!Array.isArray(e.source_missing) || e.source_missing.some((k) => !['protein', 'fat', 'fiber', 'sugar'].includes(k)))) err(ctx, 'source_missing darf nur "protein"/"fat"/"fiber"/"sugar" enthalten');
+  // Fehlt ein Wert in der Quelle, steht der Schlüssel hier. protein/fat/fiber/kcal/carbs sind dann null, sugar fehlt oder ist null.
+  const SM_KEYS = ['kcal', 'protein', 'carbs', 'fat', 'fiber', 'sugar'];
+  if ('source_missing' in e) {
+    if (!Array.isArray(e.source_missing) || e.source_missing.some((k) => !SM_KEYS.includes(k))) err(ctx, `source_missing darf nur ${SM_KEYS.map((k) => `"${k}"`).join('/')} enthalten`);
+    else if (new Set(e.source_missing).size !== e.source_missing.length) err(ctx, 'source_missing enthält Duplikate');
+    else if (p && typeof p === 'object') {
+      for (const k of e.source_missing) {
+        if (k === 'sugar') {
+          if ('sugar' in p && p.sugar !== null) err(ctx, 'sugar steht in source_missing und muss fehlen oder null sein');
+        } else if (p[k] !== null) err(ctx, `${k} steht in source_missing und muss null sein`);
+      }
+    }
+  }
   if ('derived_from' in e) {
     const d = e.derived_from;
     const ok = (v) => typeof v === 'string' && v.trim() !== '';
