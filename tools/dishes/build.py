@@ -10,7 +10,7 @@ Zeilenformat in den Batch-Dateien (eine Zeile pro Gericht):
 - Zutatenmengen = rohe Mengen für EINE typische Portion (Wasser wird explizit gelistet, wenn es mitgekocht wird).
 - Garfaktor = Gewicht nach dem Garen / Summe der Zutaten (Verdunstung, Fettverlust; < 1.0).
 - Portionsgramm = Summe * Garfaktor (auf 5 g gerundet); Nährwerte pro 100 g = Summe(Zutat g * Zutat-pro-100g) / Portionsgramm * 100.
-Alle Werte sind SCHÄTZWERTE aus typischen Rezepten und ungefähren Referenzwerten, keine Laborwerte.
+Alle Gerichtswerte sind berechnete Schätzungen aus typischen Rezepten. Die Zutaten stammen aus benannten Datensätzen (USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021, Livsmedelsverket, Schweizer Nährwertdatenbank) oder aus gekennzeichneten Schätzungen, nicht aus einer Analyse des fertigen Gerichts.
 """
 import importlib.util, json, glob, os, re, sys, unicodedata, collections
 
@@ -109,7 +109,7 @@ def main():
             for k,g in lst: merged[k] = merged.get(k,0)+g
             e['ingredients']=[{'name':ing[k]['name'],'grams':(int(g) if float(g).is_integer() else g)} for k,g in merged.items()]
             e['quality']='estimate'
-            e['source']='calculated from typical recipe and approximate reference values'
+            e['source']='calculated from a typical recipe; ingredient values from named datasets or labeled estimates'
             if did in ids: errors.append(f'{ctx} {name}: doppelte id {did} (auch {ids[did]})')
             ids[did] = ctx
             nk = (cuisine, slug(name,cuisine))

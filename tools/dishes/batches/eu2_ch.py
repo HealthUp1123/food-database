@@ -1,7 +1,7 @@
 CUISINE = 'ch'
 TEXT = """
 Basler Läckerli | Läckerli | G | 0.9 | 3 Stück | honig 25, zucker 10, mehl 40, mandel 15, zitrone 3, lebkuchen_gewuerz 1, spirituose 3
-Bündnerfleisch | Bündner Fleisch | V | 1.0 | 5 Scheiben | rind 60
+Bündnerfleisch | Bündner Fleisch | V | 1.0 | 5 Scheiben | buendnerfleisch 60
 Engadiner Nusstorte | Nusstorte | K | 0.95 | 1 Stück | mehl 50, butter 30, zucker 35, walnuss 35, sahne 25, honig 8, ei 15
 Käsefondue | Swiss cheese fondue | SD | 0.95 | 1 Portion | emmentaler 80, wein_weiss 60, staerke 5, weissbrot 100, knoblauch 2, spirituose 5
 Papet vaudois | Papet | E | 0.85 | 1 Portion | lauch 150, kartoffel 150, bratwurst 100, bruehe 60, butter 8
