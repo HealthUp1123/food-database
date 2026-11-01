@@ -11,7 +11,7 @@ const get = async (path, init) => {
 let t = await get('/health');
 assert.equal(t.res.status, 200);
 assert.equal(t.body.status, 'ok');
-assert.equal(t.body.count, 5257);
+assert.equal(t.body.count, 5248);
 
 // Karnıyarık: ASCII, Originalschreibweise, ein fehlendes i.
 t = await get('/search?q=karniyarik&limit=3');
@@ -57,7 +57,7 @@ assert.equal(t.res.headers.get('cache-control'), 'public, max-age=300');
 t = await get('/item/wiener-schnitzel');
 assert.equal(t.res.status, 200);
 assert.equal(t.body.is_packaged_product, false);
-assert.ok(Array.isArray(t.body.off_similar) && t.body.off_similar.length > 0 && t.body.off_similar.length <= 3);
+assert.equal('off_similar' in t.body, false);
 
 // Grundzutaten (USDA-Referenzwerte, keine Fertigprodukte).
 t = await get('/search?q=tomate&limit=3');

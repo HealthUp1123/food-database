@@ -115,7 +115,7 @@ data.forEach((e, i) => {
     }
   }
 
-  // Optionale Felder (Gericht vs. Fertigprodukt, Hinweis auf ähnliche OFF-Produkte)
+  // Optionale Felder (Gericht vs. Fertigprodukt). off_similar gehört nicht mehr zum Format.
   if ('prepared' in e && !['homemade', 'restaurant', 'base_ingredient'].includes(e.prepared)) err(ctx, 'prepared muss "homemade", "restaurant" oder "base_ingredient" sein');
   if (e.prepared === 'base_ingredient') {
     // Grundzutat (z. B. Tomate roh, Reis gekocht): kein Gericht, kein Fertigprodukt, Referenzwerte pro 100 g.
@@ -139,9 +139,7 @@ data.forEach((e, i) => {
   if ('method' in e && !['yield_factor', 'similar_food', 'recipe'].includes(e.method)) err(ctx, 'method muss "yield_factor", "similar_food" oder "recipe" sein');
   if ('is_packaged_product' in e && typeof e.is_packaged_product !== 'boolean') err(ctx, 'is_packaged_product muss true/false sein');
   if (e.is_packaged_product === true && e.type === 'dish') err(ctx, 'ein Gericht (type "dish") darf nicht is_packaged_product=true sein');
-  if ('off_similar' in e) {
-    if (!Array.isArray(e.off_similar) || e.off_similar.length > 3 || e.off_similar.some((c) => typeof c !== 'string' || !/^\d{6,14}$/.test(c))) err(ctx, 'off_similar muss ein Array von höchstens 3 Barcode-Strings (nur Ziffern) sein');
-  }
+  if ('off_similar' in e) err(ctx, 'off_similar wird nicht mehr erwartet (Hinweise stehen in tools/dishes/off_check_report.json)');
 
   if ('portion' in e && e.portion !== undefined) {
     const po = e.portion;
