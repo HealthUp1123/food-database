@@ -72,7 +72,7 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
   "category": "Gemüse mit Fleisch",
   "prepared": "homemade",
   "is_packaged_product": false,
-  "per100g": { "kcal": 104, "protein": 3.9, "carbs": 2.8, "fat": 7.8, "fiber": 2.2 },
+  "per100g": { "kcal": 103, "protein": 3.9, "carbs": 3.0, "fat": 7.8, "fiber": 2.1 },
   "portion": { "label": "1 Portion (2 Hälften)", "grams": 445 },
   "ingredients": [
     { "name": "Aubergine", "grams": 250 },
