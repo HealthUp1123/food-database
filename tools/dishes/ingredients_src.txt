@@ -86,7 +86,7 @@ knoblauch|Knoblauch|109|5.3|24.4|0.5|5.8
 tomate|Tomate|18|0.9|3.9|0.2|1.2
 paprika|Paprika grün|20|0.9|4.6|0.2|1.7
 paprika_rot|Paprika rot|26|1|6|0.3|2.1
-sivri|Spitzpaprika (Sivri Biber)|29|0.8|6.7|0.4|1
+sivri|Spitzpaprika (Sivri Biber)|29|0.8|6.7|0.4|2
 chili|Chilischote|40|1.9|8.8|0.4|1.5
 aubergine|Aubergine|25|1|5.9|0.2|3
 zucchini|Zucchini|17|1.2|3.1|0.3|1
@@ -94,7 +94,7 @@ gurke|Gurke|15|0.7|3.6|0.1|0.5
 kartoffel|Kartoffel|77|2|17.5|0.1|2.1
 suesskartoffel|Süßkartoffel|86|1.6|20.1|0.1|3
 karotte|Karotte|41|0.9|9.6|0.2|2.8
-sellerie|Knollensellerie|42|1.5|9.2|0.3|1.8
+sellerie|Knollensellerie|42|1.5|9.2|0.3|4.2
 lauch|Lauch/Porree|61|1.5|14.2|0.3|1.8
 spinat|Spinat|23|2.9|3.6|0.4|2.2
 weisskohl|Weißkohl|25|1.3|5.8|0.1|2.5
@@ -114,7 +114,7 @@ spargel|Spargel|20|2.2|3.9|0.1|2.1
 pilz|Champignons|22|3.1|3.3|0.3|1
 salat|Blattsalat (Romana/Eisberg)|17|1.2|3.3|0.3|2.1
 rucola|Rucola|25|2.6|3.6|0.7|1.6
-petersilie|Petersilie|36|3|6.3|0.8|3.3
+petersilie|Petersilie|36|3|6.3|0.8|4.3
 dill|Dill|43|3.5|7|1.1|2.1
 minze|Minze frisch|44|3.3|8.4|0.7|6.8
 fruehlingszwiebel|Frühlingszwiebel|32|1.8|7.3|0.2|2.6
@@ -238,7 +238,7 @@ kaninchen|Kaninchenfleisch|136|20.1|0|5.5|0
 rhabarber|Rhabarber|21|0.9|4.5|0.2|1.8
 rosenkohl|Rosenkohl|43|3.4|8.9|0.3|3.8
 gruenkohl|Grünkohl|35|2.9|4.4|1.5|4.1
-meerrettich|Meerrettich|84|5.9|16|0.3|4.3
+meerrettich|Meerrettich|84|5.9|16|0.3|5.9
 marzipan|Marzipan|389|5.3|70|12.7|2.4
 graupen|Graupen (Gerste)|352|9.9|77.7|1.2|15.6
 erbsen_trocken|Erbsen getrocknet|364|23.1|61.6|3.9|22.2
@@ -280,7 +280,7 @@ x2_biskuit|Löffelbiskuit|363|10.6|59.7|9.1|1
 x2_speculoos_creme|Spekulatius-Aufstrich (Biscoff-Art)|575|3.3|61.4|37.7|2
 x2_limonade|Limonade/Bitter-Orangen-Limonade|38|0|9.3|0|0
 x3_pizzateig|Pizzateig (roh)|290|7.8|60|4.8|2.5
-x4_buchweizen|Buchweizen (Graupen/Mehl)|343|13.2|71.5|3.4|10
+x4_buchweizen|Buchweizen (Graupen/Mehl)|343|13.2|71.5|3.4|5.6
 x4_roggenmehl|Roggenmehl Type 1370|344|7.2|80.4|1.1|9.5
 x4_seetang|Seetang/Purpurtang (Laver), roh|35|5.8|5.1|0.3|0.3
 x4_erdmandel|Erdmandeln (Tigernüsse)|403|4.3|57.4|23.8|11.7
@@ -300,7 +300,11 @@ xb_steckruebe|Steckrübe|37|1.1|8.6|0.2|2.3
 xb_johannisbeere|Johannisbeere (rot/schwarz)|56|1.4|13.8|0.2|4.3
 xb_stachelbeere|Stachelbeere|44|0.9|10.2|0.6|4.3
 xb_apfelsaft|Apfelsaft|46|0.1|11.3|0.1|0.2
-xb_orangensaft|Orangensaft|45|0.7|10.4|0.2|0.2
+xb_orangensaft|Orangensaft|45|0.6|9.9|0.1|0.3
+xb_granatapfelsaft|Granatapfelsaft|54|0.1|13.1|0.3|0.1
+xb_traubensaft|Traubensaft|60|0.4|14.8|0.1|0.2
+xb_sauerkirschsaft|Sauerkirschsaft|59|0.3|13.7|0.5|0.1
+xb_johannisbeersaft|Johannisbeersaft|55|1.2|10.4|0.2|0.4
 xb_cola|Cola/Limonade (gezuckert)|42|0|10.4|0.2|0
 xb_sirup|Zuckerrübensirup/Golden Syrup/Sirup|298|0.3|79|0|0
 xb_lachs_geraeuchert|Räucherlachs|117|18.3|0|4.3|0

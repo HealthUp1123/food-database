@@ -1613,7 +1613,7 @@
       "protein": 0.8,
       "carbs": 6.7,
       "fat": 0.4,
-      "fiber": 1.0
+      "fiber": 2.0
     },
     "source": {
       "database": "USDA SR Legacy",
@@ -1621,7 +1621,7 @@
       "record": "Peppers, hungarian, raw",
       "license": "CC0 1.0",
       "method": "similar_food",
-      "note": "Sivri ist die türkische Spitzpaprika. Nächster SR-Legacy-Satz ist die ungarische lange Paprika; Werte unverändert."
+      "note": "Ballaststoffe 2,0 g: Median USDA SR 170427 grüne Paprika (1,7 g), BLS 4.0 G541100 (2,0 g) und Ciqual 2025 20085 (3,2 g). Der ungarische SR-Satz 168578 (1,0 g) beschreibt die Form, nicht die Faser. Übrige Nährwerte bleiben USDA SR 168578."
     }
   },
   {
@@ -1758,14 +1758,15 @@
       "protein": 1.5,
       "carbs": 9.2,
       "fat": 0.3,
-      "fiber": 1.8
+      "fiber": 4.2
     },
     "source": {
       "database": "USDA SR Legacy",
       "dataset_id": "170400",
       "record": "Celeriac, raw",
       "license": "CC0 1.0",
-      "base_id": "knollensellerie-roh"
+      "base_id": "knollensellerie-roh",
+      "note": "Ballaststoffe 4,2 g: Median aus USDA SR 170400 (1,8 g), BLS 4.0 G660100 (4,2 g) und Ciqual 2025 20055 Céleri-rave cru (4,5 g). Der Median trifft den BLS-Wert. Übrige Nährwerte bleiben USDA SR 170400. Grundzutat knollensellerie-roh bleibt der USDA-Satz."
     }
   },
   {
@@ -2120,14 +2121,15 @@
       "protein": 3.0,
       "carbs": 6.3,
       "fat": 0.8,
-      "fiber": 3.3
+      "fiber": 4.3
     },
     "source": {
       "database": "USDA SR Legacy",
       "dataset_id": "170416",
       "record": "Parsley, fresh",
       "license": "CC0 1.0",
-      "base_id": "petersilie-frisch"
+      "base_id": "petersilie-frisch",
+      "note": "Ballaststoffe 4,3 g: Median USDA SR 170416 (3,3 g), BLS 4.0 G250100 (4,25 g) und Ciqual 2025 11014 Persil frais (4,3 g) = 4,25 g, auf 4,3 g gerundet. Übrige Nährwerte USDA SR 170416."
     }
   },
   {
@@ -2822,7 +2824,7 @@
       "record": "Cornmeal, degermed, unenriched, yellow",
       "license": "CC0 1.0",
       "base_id": "maisgriess",
-      "note": "Maismehl/Polenta ist hier Maisgrieß (entkeimt), nicht Vollkorn-Maismehl. Abgesichert gegen Ciqual 2025 Code 9614 (Polenta oder Maissemmel, vorgegart, 3,2 g) und die Schweizer Nährwertdatenbank 7.1, Maisgriess trocken, DBID 351578 (5,0 g Nahrungsfasern). Median mit USDA 3,9 g ist 3,9 g, der Wert bleibt. BLS C346000 (9,42 g) wird nicht gemittelt."
+      "note": "Maismehl/Polenta ist hier Maisgrieß (entkeimt), nicht Vollkorn-Maismehl. Kačamak und Proja verwenden diese Zutat, nicht Vollkornmais. Abgesichert gegen Ciqual 2025 Code 9614 (Polenta, 3,2 g) und die Schweizer Nährwertdatenbank V7.1 ID 425 (Maisgriess, trocken, 5,0 g). Median mit USDA 3,9 g ist 3,9 g, der Wert bleibt. BLS C346000 (9,42 g) wird nicht gemittelt."
     }
   },
   {
@@ -4365,7 +4367,7 @@
       "protein": 5.9,
       "carbs": 16.0,
       "fat": 0.3,
-      "fiber": 4.3
+      "fiber": 5.9
     },
     "source": {
       "database": "BLS 4.0",
@@ -4373,7 +4375,7 @@
       "record": "Meerrettich roh",
       "license": "CC BY 4.0",
       "base_id": "meerrettich-roh",
-      "note": "Werte der Grundzutat (BLS) unverändert, inklusive der dort gespeicherten Ballaststoffe. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
+      "note": "Ballaststoffe 5,9 g: Median BLS 4.0 G630100 (4,29 g) und Ciqual 2025 11016 Raifort frais (7,5 g) = 5,895 g, gerundet 5,9 g. Übrige Nährwerte bleiben BLS G630100. Kohlenhydrate wie in der Grundzutat (Gesamt-KH)."
     }
   },
   {
@@ -5136,7 +5138,7 @@
       "protein": 13.2,
       "carbs": 71.5,
       "fat": 3.4,
-      "fiber": 10.0
+      "fiber": 5.6
     },
     "source": {
       "database": "USDA SR Legacy",
@@ -5144,7 +5146,7 @@
       "record": "Buckwheat",
       "license": "CC0 1.0",
       "base_id": "buchweizen-roh",
-      "note": "AOAC-Wert USDA SR 170286, 10,0 g Ballaststoffe. CoFID 11-006 (nur NSP, 2,1 g) ist keine AOAC-Quelle und wird nicht verwendet. Zum Vergleich gelesen: Ciqual 2025 9380 Sarrasin complet 4,0 g und Schweizer Nährwertdatenbank 7.1, Buchweizen Korn geschält, DBID 351193, 5,8 g. Nicht gemittelt, damit diese Zutat und die Grundzutat buchweizen-roh denselben USDA-Satz behalten."
+      "note": "Ballaststoffe nicht USDA allein. Median der AOAC-Werte: USDA SR 170286 10,0 g, Ciqual 2025 9380 Sarrasin complet 4,0 g, Schweizer Nährwertdatenbank V7.1 ID 421 (Buchweizen, Korn geschält) 5,8 g, BLS 4.0 C322000 FIBHMW 5,39 g. Median 5,6 g. CoFID 11-006 (nur NSP) zählt nicht. Übrige Nährwerte USDA SR 170286. Grundzutat buchweizen-roh bleibt der USDA-Satz mit 10,0 g."
     }
   },
   {
@@ -5505,16 +5507,92 @@
     "name": "Orangensaft",
     "per100g": {
       "kcal": 45.0,
-      "protein": 0.7,
-      "carbs": 10.4,
-      "fat": 0.2,
+      "protein": 0.6,
+      "carbs": 9.9,
+      "fat": 0.1,
+      "fiber": 0.3
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "2070",
+      "record": "Jus d'orange, pur jus",
+      "license": "Etalab 2.0",
+      "note": "Anses (2025): Ciqual 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 2070. Ballaststoffe 0,28 g auf 0,3 g gerundet. Kohlenhydrate = verfügbare KH 9,61 g + 0,28 g = 9,9 g. kcal 45,4 auf 45 gerundet (EU 1169/2011)."
+    }
+  },
+  {
+    "key": "xb_granatapfelsaft",
+    "name": "Granatapfelsaft",
+    "per100g": {
+      "kcal": 54.0,
+      "protein": 0.1,
+      "carbs": 13.1,
+      "fat": 0.3,
+      "fiber": 0.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "167787",
+      "record": "Pomegranate juice, bottled",
+      "license": "CC0 1.0",
+      "base_id": "granatapfelsaft-100-prozent-saft",
+      "note": "Saft, nicht die ganze Frucht. Werte der Grundzutat unverändert, Ballaststoffe 0,1 g AOAC."
+    }
+  },
+  {
+    "key": "xb_traubensaft",
+    "name": "Traubensaft",
+    "per100g": {
+      "kcal": 60.0,
+      "protein": 0.4,
+      "carbs": 14.8,
+      "fat": 0.1,
       "fiber": 0.2
     },
     "source": {
       "database": "USDA SR Legacy",
-      "dataset_id": "169098",
-      "record": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
-      "license": "CC0 1.0"
+      "dataset_id": "173042",
+      "record": "Grape juice, canned or bottled, unsweetened, without added ascorbic acid",
+      "license": "CC0 1.0",
+      "base_id": "traubensaft-100-prozent-saft",
+      "note": "Saft, nicht die ganze Traube. Werte der Grundzutat unverändert, Ballaststoffe 0,2 g AOAC."
+    }
+  },
+  {
+    "key": "xb_sauerkirschsaft",
+    "name": "Sauerkirschsaft",
+    "per100g": {
+      "kcal": 59.0,
+      "protein": 0.3,
+      "carbs": 13.7,
+      "fat": 0.5,
+      "fiber": 0.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "167807",
+      "record": "Cherry juice, tart",
+      "license": "CC0 1.0",
+      "note": "Makros USDA SR 167807 (kcal 59, Protein 0,31 g, KH 13,7 g, Fett 0,54 g). USDA führt keine Ballaststoffe. Ballaststoffe 0,1 g aus BLS 4.0 F212600 (Sauerkirschsaft, AOAC). Nicht die ganze Frucht."
+    }
+  },
+  {
+    "key": "xb_johannisbeersaft",
+    "name": "Johannisbeersaft",
+    "per100g": {
+      "kcal": 55.0,
+      "protein": 1.2,
+      "carbs": 10.4,
+      "fat": 0.2,
+      "fiber": 0.4
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "F323600",
+      "record": "Johannisbeersaft schwarz",
+      "license": "CC BY 4.0",
+      "base_id": "schwarzer-johannisbeersaft",
+      "note": "Saft, nicht die ganze Beere. Werte der Grundzutat BLS F323600 unverändert, Ballaststoffe 0,4 g."
     }
   },
   {

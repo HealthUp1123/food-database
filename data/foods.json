@@ -2587,7 +2587,7 @@
       "protein": 14.5,
       "carbs": 4.2,
       "fat": 27.4,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "6 Stück",
@@ -3123,7 +3123,7 @@
       "protein": 14.9,
       "carbs": 3.8,
       "fat": 13.4,
-      "fiber": 0.9
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -3309,7 +3309,7 @@
       "protein": 13.7,
       "carbs": 4.4,
       "fat": 12.3,
-      "fiber": 0.8
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion",
@@ -5154,7 +5154,7 @@
       "protein": 17.0,
       "carbs": 3.4,
       "fat": 21.8,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Portion",
@@ -5729,7 +5729,7 @@
       "protein": 2.0,
       "carbs": 7.1,
       "fat": 3.1,
-      "fiber": 1.0
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Teller",
@@ -5880,7 +5880,7 @@
       "protein": 4.4,
       "carbs": 10.2,
       "fat": 2.4,
-      "fiber": 1.7
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Teller",
@@ -6231,7 +6231,7 @@
       "protein": 3.7,
       "carbs": 6.8,
       "fat": 2.6,
-      "fiber": 0.6
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -6299,7 +6299,7 @@
       "protein": 3.4,
       "carbs": 5.6,
       "fat": 2.4,
-      "fiber": 0.6
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -7145,7 +7145,7 @@
       "protein": 2.3,
       "carbs": 10.5,
       "fat": 2.1,
-      "fiber": 2.1
+      "fiber": 2.2
     },
     "portion": {
       "label": "1 Teller",
@@ -9609,7 +9609,7 @@
       "protein": 4.4,
       "carbs": 12.7,
       "fat": 3.3,
-      "fiber": 1.4
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -11831,7 +11831,7 @@
       "protein": 3.0,
       "carbs": 7.8,
       "fat": 15.2,
-      "fiber": 1.0
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -11891,7 +11891,7 @@
       "protein": 8.5,
       "carbs": 3.4,
       "fat": 8.6,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Portion",
@@ -15197,7 +15197,7 @@
       "protein": 1.5,
       "carbs": 8.6,
       "fat": 7.3,
-      "fiber": 1.5
+      "fiber": 2.9
     },
     "portion": {
       "label": "1 Portion",
@@ -22059,11 +22059,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 65,
-      "protein": 0.3,
-      "carbs": 17.1,
-      "fat": 0.2,
-      "fiber": 2.3
+      "kcal": 59,
+      "protein": 0.1,
+      "carbs": 14.7,
+      "fat": 0.1,
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Glas",
@@ -22071,7 +22071,7 @@
     },
     "ingredients": [
       {
-        "name": "Apfel",
+        "name": "Apfelsaft",
         "grams": 250
       },
       {
@@ -22156,11 +22156,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 56,
-      "protein": 0.6,
-      "carbs": 14.2,
-      "fat": 0.2,
-      "fiber": 0.9
+      "kcal": 61,
+      "protein": 0.2,
+      "carbs": 15.0,
+      "fat": 0.3,
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Glas",
@@ -22168,7 +22168,7 @@
     },
     "ingredients": [
       {
-        "name": "Sauerkirsche/Vişne",
+        "name": "Sauerkirschsaft",
         "grams": 150
       },
       {
@@ -24171,7 +24171,7 @@
       "protein": 4.5,
       "carbs": 10.5,
       "fat": 6.3,
-      "fiber": 1.3
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Teller",
@@ -26007,7 +26007,7 @@
       "protein": 5.6,
       "carbs": 16.0,
       "fat": 10.5,
-      "fiber": 1.6
+      "fiber": 1.7
     },
     "portion": {
       "label": "3 Stück",
@@ -26822,7 +26822,7 @@
       "protein": 3.8,
       "carbs": 4.9,
       "fat": 2.5,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -29533,11 +29533,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 59,
-      "protein": 0.5,
-      "carbs": 15.5,
-      "fat": 0.2,
-      "fiber": 2.0
+      "kcal": 52,
+      "protein": 0.3,
+      "carbs": 12.8,
+      "fat": 0.1,
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Tasse",
@@ -29545,15 +29545,15 @@
     },
     "ingredients": [
       {
-        "name": "Apfel",
+        "name": "Apfelsaft",
         "grams": 150
       },
       {
-        "name": "Weintraube",
+        "name": "Traubensaft",
         "grams": 100
       },
       {
-        "name": "Orange",
+        "name": "Orangensaft",
         "grams": 20
       },
       {
@@ -30871,7 +30871,7 @@
       "protein": 15.0,
       "carbs": 10.9,
       "fat": 8.1,
-      "fiber": 1.4
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion",
@@ -34149,7 +34149,7 @@
       "protein": 4.4,
       "carbs": 8.6,
       "fat": 5.3,
-      "fiber": 0.3
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Schüssel",
@@ -36886,7 +36886,7 @@
       "protein": 10.9,
       "carbs": 3.7,
       "fat": 17.5,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -37456,7 +37456,7 @@
       "protein": 10.9,
       "carbs": 15.5,
       "fat": 10.1,
-      "fiber": 2.9
+      "fiber": 3.0
     },
     "portion": {
       "label": "1 Portion",
@@ -37533,7 +37533,7 @@
       "protein": 4.3,
       "carbs": 24.6,
       "fat": 4.9,
-      "fiber": 4.7
+      "fiber": 4.8
     },
     "portion": {
       "label": "1 Portion",
@@ -37688,7 +37688,7 @@
       "protein": 15.7,
       "carbs": 19.3,
       "fat": 15.3,
-      "fiber": 1.3
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -37833,7 +37833,7 @@
       "protein": 15.6,
       "carbs": 19.7,
       "fat": 15.7,
-      "fiber": 1.3
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -38123,7 +38123,7 @@
       "protein": 6.5,
       "carbs": 22.7,
       "fat": 5.4,
-      "fiber": 4.0
+      "fiber": 4.1
     },
     "portion": {
       "label": "1 Portion (6 Stück)",
@@ -38716,7 +38716,7 @@
       "protein": 15.9,
       "carbs": 13.6,
       "fat": 17.0,
-      "fiber": 1.2
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -39264,7 +39264,7 @@
       "protein": 15.4,
       "carbs": 7.0,
       "fat": 16.7,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -40070,7 +40070,7 @@
       "protein": 11.8,
       "carbs": 11.5,
       "fat": 17.7,
-      "fiber": 1.1
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -42772,7 +42772,7 @@
       "protein": 4.2,
       "carbs": 6.5,
       "fat": 6.0,
-      "fiber": 1.3
+      "fiber": 2.7
     },
     "portion": {
       "label": "1 Portion",
@@ -43653,7 +43653,7 @@
       "protein": 12.3,
       "carbs": 3.5,
       "fat": 16.6,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -46461,7 +46461,7 @@
       "protein": 6.3,
       "carbs": 3.8,
       "fat": 7.5,
-      "fiber": 0.8
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Pfanne",
@@ -46523,7 +46523,7 @@
       "protein": 6.3,
       "carbs": 4.5,
       "fat": 7.4,
-      "fiber": 0.9
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Pfanne",
@@ -46581,7 +46581,7 @@
       "protein": 8.5,
       "carbs": 2.8,
       "fat": 11.1,
-      "fiber": 0.6
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Pfanne",
@@ -47342,7 +47342,7 @@
       "protein": 1.2,
       "carbs": 7.2,
       "fat": 6.0,
-      "fiber": 2.7
+      "fiber": 2.8
     },
     "portion": {
       "label": "1 Portion (2 Hälften)",
@@ -47620,7 +47620,7 @@
       "protein": 1.4,
       "carbs": 8.0,
       "fat": 4.6,
-      "fiber": 1.8
+      "fiber": 3.3
     },
     "portion": {
       "label": "1 Portion",
@@ -48799,7 +48799,7 @@
       "protein": 0.9,
       "carbs": 6.8,
       "fat": 7.2,
-      "fiber": 1.1
+      "fiber": 2.0
     },
     "portion": {
       "label": "1 Portion",
@@ -50583,7 +50583,7 @@
       "protein": 20.2,
       "carbs": 5.5,
       "fat": 12.7,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -51578,7 +51578,7 @@
       "protein": 10.2,
       "carbs": 23.3,
       "fat": 30.1,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion (4 Stück)",
@@ -52034,7 +52034,7 @@
       "protein": 9.6,
       "carbs": 19.8,
       "fat": 23.3,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Stück",
@@ -52235,7 +52235,7 @@
       "protein": 14.4,
       "carbs": 17.6,
       "fat": 22.6,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion (3 Stück)",
@@ -54865,7 +54865,7 @@
       "protein": 8.8,
       "carbs": 31.5,
       "fat": 10.4,
-      "fiber": 1.3
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Pide",
@@ -54939,7 +54939,7 @@
       "protein": 9.3,
       "carbs": 31.5,
       "fat": 9.8,
-      "fiber": 1.3
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Pide",
@@ -55988,7 +55988,7 @@
       "protein": 8.5,
       "carbs": 29.3,
       "fat": 8.9,
-      "fiber": 1.5
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Stück",
@@ -56069,7 +56069,7 @@
       "protein": 8.7,
       "carbs": 31.1,
       "fat": 9.0,
-      "fiber": 1.5
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion (4 Stück)",
@@ -56709,7 +56709,7 @@
       "protein": 9.6,
       "carbs": 35.4,
       "fat": 12.9,
-      "fiber": 1.3
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Stück",
@@ -61851,7 +61851,7 @@
       "protein": 11.1,
       "carbs": 3.3,
       "fat": 6.8,
-      "fiber": 0.3
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Portion",
@@ -61971,7 +61971,7 @@
       "protein": 17.2,
       "carbs": 8.8,
       "fat": 10.2,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion",
@@ -62600,7 +62600,7 @@
       "protein": 1.0,
       "carbs": 8.2,
       "fat": 5.8,
-      "fiber": 1.5
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Schälchen",
@@ -62681,7 +62681,7 @@
       "protein": 1.0,
       "carbs": 5.9,
       "fat": 7.1,
-      "fiber": 2.7
+      "fiber": 2.8
     },
     "portion": {
       "label": "1 Schälchen",
@@ -62816,7 +62816,7 @@
       "protein": 0.8,
       "carbs": 6.3,
       "fat": 7.2,
-      "fiber": 1.0
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Schälchen",
@@ -63273,7 +63273,7 @@
       "protein": 1.2,
       "carbs": 9.5,
       "fat": 8.0,
-      "fiber": 2.3
+      "fiber": 2.4
     },
     "portion": {
       "label": "1 Schälchen",
@@ -63787,7 +63787,7 @@
       "protein": 1.2,
       "carbs": 5.9,
       "fat": 9.6,
-      "fiber": 1.7
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Schälchen",
@@ -65428,7 +65428,7 @@
       "protein": 1.3,
       "carbs": 4.2,
       "fat": 4.4,
-      "fiber": 1.2
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Schüssel",
@@ -65613,7 +65613,7 @@
       "protein": 2.6,
       "carbs": 13.0,
       "fat": 6.7,
-      "fiber": 2.9
+      "fiber": 3.1
     },
     "portion": {
       "label": "1 Portion",
@@ -65972,7 +65972,7 @@
       "protein": 0.7,
       "carbs": 6.1,
       "fat": 0.4,
-      "fiber": 0.9
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Portion",
@@ -66402,7 +66402,7 @@
       "protein": 10.2,
       "carbs": 2.5,
       "fat": 10.9,
-      "fiber": 0.5
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Pfanne",
@@ -72268,11 +72268,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 51,
-      "protein": 0.4,
-      "carbs": 12.9,
-      "fat": 0.1,
-      "fiber": 0.6
+      "kcal": 55,
+      "protein": 0.1,
+      "carbs": 13.5,
+      "fat": 0.2,
+      "fiber": 0.0
     },
     "portion": {
       "label": "1 Glas",
@@ -72280,7 +72280,7 @@
     },
     "ingredients": [
       {
-        "name": "Sauerkirsche/Vişne",
+        "name": "Sauerkirschsaft",
         "grams": 100
       },
       {
@@ -72324,11 +72324,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 83,
-      "protein": 1.7,
-      "carbs": 18.7,
-      "fat": 1.2,
-      "fiber": 4.0
+      "kcal": 54,
+      "protein": 0.1,
+      "carbs": 13.1,
+      "fat": 0.3,
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Glas",
@@ -72336,7 +72336,7 @@
     },
     "ingredients": [
       {
-        "name": "Granatapfel",
+        "name": "Granatapfelsaft",
         "grams": 250
       }
     ],
@@ -72383,11 +72383,11 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 47,
-      "protein": 0.9,
-      "carbs": 11.8,
+      "kcal": 45,
+      "protein": 0.6,
+      "carbs": 9.9,
       "fat": 0.1,
-      "fiber": 2.4
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Glas",
@@ -72395,7 +72395,7 @@
     },
     "ingredients": [
       {
-        "name": "Orange",
+        "name": "Orangensaft",
         "grams": 250
       }
     ],
@@ -73368,7 +73368,7 @@
       "protein": 10.3,
       "carbs": 3.9,
       "fat": 15.4,
-      "fiber": 0.9
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion",
@@ -73719,7 +73719,7 @@
       "protein": 12.7,
       "carbs": 3.6,
       "fat": 17.7,
-      "fiber": 0.7
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -73778,7 +73778,7 @@
       "protein": 8.9,
       "carbs": 4.2,
       "fat": 13.8,
-      "fiber": 0.8
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion",
@@ -75770,7 +75770,7 @@
       "protein": 11.1,
       "carbs": 22.1,
       "fat": 9.8,
-      "fiber": 1.5
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Sandwich",
@@ -76600,7 +76600,7 @@
       "protein": 8.7,
       "carbs": 4.6,
       "fat": 14.7,
-      "fiber": 1.6
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Portion",
@@ -77867,7 +77867,7 @@
       "protein": 1.0,
       "carbs": 6.1,
       "fat": 4.2,
-      "fiber": 1.4
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Portion",
@@ -78945,7 +78945,7 @@
       "protein": 6.9,
       "carbs": 7.1,
       "fat": 6.3,
-      "fiber": 1.1
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -81310,7 +81310,7 @@
       "protein": 5.9,
       "carbs": 4.8,
       "fat": 7.7,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -83918,7 +83918,7 @@
       "protein": 15.4,
       "carbs": 16.9,
       "fat": 16.2,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "3 Stück",
@@ -84741,7 +84741,7 @@
       "protein": 3.7,
       "carbs": 6.7,
       "fat": 2.6,
-      "fiber": 0.6
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -84926,7 +84926,7 @@
       "protein": 12.2,
       "carbs": 18.8,
       "fat": 14.2,
-      "fiber": 1.4
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Teller",
@@ -85115,7 +85115,7 @@
       "protein": 21.7,
       "carbs": 2.1,
       "fat": 13.0,
-      "fiber": 0.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion",
@@ -86877,7 +86877,7 @@
       "protein": 4.5,
       "carbs": 6.2,
       "fat": 3.0,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Teller",
@@ -89170,7 +89170,7 @@
       "protein": 16.3,
       "carbs": 2.9,
       "fat": 7.4,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Portion",
@@ -91684,7 +91684,7 @@
       "protein": 2.5,
       "carbs": 14.1,
       "fat": 4.7,
-      "fiber": 1.5
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion",
@@ -93607,7 +93607,7 @@
       "protein": 7.9,
       "carbs": 18.3,
       "fat": 16.0,
-      "fiber": 1.7
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Portion",
@@ -94748,7 +94748,7 @@
       "protein": 3.2,
       "carbs": 9.5,
       "fat": 3.7,
-      "fiber": 2.3
+      "fiber": 2.5
     },
     "portion": {
       "label": "1 Teller",
@@ -100246,7 +100246,7 @@
       "protein": 5.2,
       "carbs": 6.0,
       "fat": 3.5,
-      "fiber": 0.6
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -102939,7 +102939,7 @@
       "protein": 13.3,
       "carbs": 5.7,
       "fat": 16.9,
-      "fiber": 1.2
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -103299,7 +103299,7 @@
       "protein": 11.7,
       "carbs": 4.5,
       "fat": 8.3,
-      "fiber": 1.2
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -103605,7 +103605,7 @@
       "protein": 2.8,
       "carbs": 6.4,
       "fat": 3.9,
-      "fiber": 0.7
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Teller",
@@ -108462,7 +108462,7 @@
       "protein": 4.4,
       "carbs": 13.2,
       "fat": 3.5,
-      "fiber": 3.2
+      "fiber": 3.3
     },
     "portion": {
       "label": "1 Teller",
@@ -109513,7 +109513,7 @@
       "protein": 5.8,
       "carbs": 3.2,
       "fat": 3.1,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Teller",
@@ -109580,7 +109580,7 @@
       "protein": 5.1,
       "carbs": 7.5,
       "fat": 3.2,
-      "fiber": 0.6
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -112013,7 +112013,7 @@
       "protein": 9.4,
       "carbs": 1.7,
       "fat": 17.8,
-      "fiber": 0.4
+      "fiber": 0.5
     },
     "portion": {
       "label": "2 Stück",
@@ -112811,7 +112811,7 @@
       "protein": 0.6,
       "carbs": 4.4,
       "fat": 1.6,
-      "fiber": 0.8
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Teller",
@@ -120328,7 +120328,7 @@
       "protein": 6.3,
       "carbs": 5.7,
       "fat": 8.8,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Teller",
@@ -120981,7 +120981,7 @@
       "protein": 11.3,
       "carbs": 1.4,
       "fat": 10.2,
-      "fiber": 0.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion",
@@ -124042,7 +124042,7 @@
       "protein": 1.3,
       "carbs": 7.2,
       "fat": 1.8,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Teller",
@@ -124246,7 +124246,7 @@
       "protein": 10.9,
       "carbs": 19.6,
       "fat": 14.2,
-      "fiber": 1.1
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Teller",
@@ -125435,7 +125435,7 @@
       "protein": 6.2,
       "carbs": 10.6,
       "fat": 4.6,
-      "fiber": 3.5
+      "fiber": 3.6
     },
     "portion": {
       "label": "1 Teller",
@@ -127662,7 +127662,7 @@
       "protein": 11.9,
       "carbs": 4.3,
       "fat": 4.7,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion",
@@ -127997,7 +127997,7 @@
       "protein": 16.7,
       "carbs": 3.1,
       "fat": 23.5,
-      "fiber": 0.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion",
@@ -129577,7 +129577,7 @@
       "protein": 1.7,
       "carbs": 5.1,
       "fat": 50.8,
-      "fiber": 1.7
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Portion",
@@ -130878,7 +130878,7 @@
       "protein": 18.3,
       "carbs": 1.9,
       "fat": 13.9,
-      "fiber": 0.3
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Portion",
@@ -132393,7 +132393,7 @@
       "protein": 13.8,
       "carbs": 0.8,
       "fat": 11.6,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Tapa",
@@ -133018,7 +133018,7 @@
       "protein": 17.6,
       "carbs": 1.6,
       "fat": 14.8,
-      "fiber": 0.3
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Tapa",
@@ -135987,7 +135987,7 @@
       "protein": 1.8,
       "carbs": 7.3,
       "fat": 12.3,
-      "fiber": 1.4
+      "fiber": 3.0
     },
     "portion": {
       "label": "1 Portion",
@@ -136584,7 +136584,7 @@
       "protein": 12.4,
       "carbs": 1.0,
       "fat": 15.5,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Omelett",
@@ -136833,7 +136833,7 @@
       "protein": 5.2,
       "carbs": 6.7,
       "fat": 4.2,
-      "fiber": 1.2
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Teller",
@@ -139570,7 +139570,7 @@
       "protein": 17.7,
       "carbs": 5.8,
       "fat": 10.4,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Portion",
@@ -142529,7 +142529,7 @@
       "protein": 7.8,
       "carbs": 3.8,
       "fat": 18.4,
-      "fiber": 0.3
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Schälchen",
@@ -142800,7 +142800,7 @@
       "protein": 12.0,
       "carbs": 6.3,
       "fat": 24.4,
-      "fiber": 0.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "6 Stück",
@@ -143626,7 +143626,7 @@
       "protein": 9.1,
       "carbs": 7.3,
       "fat": 6.7,
-      "fiber": 1.2
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Teller",
@@ -146520,7 +146520,7 @@
       "protein": 4.2,
       "carbs": 4.2,
       "fat": 3.6,
-      "fiber": 0.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Teller",
@@ -153248,7 +153248,7 @@
       "protein": 3.8,
       "carbs": 15.1,
       "fat": 2.6,
-      "fiber": 3.3
+      "fiber": 3.4
     },
     "portion": {
       "label": "1 Teller",
@@ -156194,7 +156194,7 @@
       "protein": 12.9,
       "carbs": 4.2,
       "fat": 16.6,
-      "fiber": 0.7
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -156838,7 +156838,7 @@
       "protein": 12.0,
       "carbs": 9.0,
       "fat": 6.1,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -156981,7 +156981,7 @@
       "protein": 3.3,
       "carbs": 11.1,
       "fat": 3.2,
-      "fiber": 1.7
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Teller",
@@ -157061,7 +157061,7 @@
       "protein": 16.0,
       "carbs": 5.5,
       "fat": 4.3,
-      "fiber": 0.9
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion",
@@ -159990,7 +159990,7 @@
       "protein": 7.3,
       "carbs": 20.5,
       "fat": 6.6,
-      "fiber": 1.7
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Teller",
@@ -160067,7 +160067,7 @@
       "protein": 3.5,
       "carbs": 13.4,
       "fat": 2.9,
-      "fiber": 2.1
+      "fiber": 2.2
     },
     "portion": {
       "label": "1 Teller",
@@ -160586,7 +160586,7 @@
       "protein": 3.4,
       "carbs": 11.3,
       "fat": 3.0,
-      "fiber": 2.4
+      "fiber": 2.5
     },
     "portion": {
       "label": "1 Teller",
@@ -160806,7 +160806,7 @@
       "protein": 18.1,
       "carbs": 6.2,
       "fat": 8.1,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Portion",
@@ -161587,7 +161587,7 @@
       "protein": 14.5,
       "carbs": 2.5,
       "fat": 10.4,
-      "fiber": 0.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Teller",
@@ -161803,7 +161803,7 @@
       "protein": 1.1,
       "carbs": 8.4,
       "fat": 7.9,
-      "fiber": 2.6
+      "fiber": 2.9
     },
     "portion": {
       "label": "1 Portion",
@@ -162330,7 +162330,7 @@
       "protein": 8.1,
       "carbs": 10.1,
       "fat": 6.8,
-      "fiber": 1.1
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -165176,7 +165176,7 @@
       "protein": 2.2,
       "carbs": 11.6,
       "fat": 2.5,
-      "fiber": 2.6
+      "fiber": 2.7
     },
     "portion": {
       "label": "1 Teller",
@@ -165854,7 +165854,7 @@
       "protein": 6.8,
       "carbs": 20.5,
       "fat": 8.3,
-      "fiber": 2.3
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Teller",
@@ -166584,7 +166584,7 @@
       "protein": 7.6,
       "carbs": 19.0,
       "fat": 7.2,
-      "fiber": 1.3
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Teller",
@@ -166746,7 +166746,7 @@
       "protein": 11.8,
       "carbs": 4.4,
       "fat": 7.0,
-      "fiber": 1.2
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -166891,7 +166891,7 @@
       "protein": 3.7,
       "carbs": 10.8,
       "fat": 2.9,
-      "fiber": 1.9
+      "fiber": 2.0
     },
     "portion": {
       "label": "1 Teller",
@@ -169473,7 +169473,7 @@
       "protein": 5.1,
       "carbs": 10.7,
       "fat": 4.4,
-      "fiber": 3.2
+      "fiber": 3.3
     },
     "portion": {
       "label": "1 Teller",
@@ -171934,7 +171934,7 @@
       "protein": 1.2,
       "carbs": 6.6,
       "fat": 2.2,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Teller",
@@ -172284,7 +172284,7 @@
       "protein": 1.9,
       "carbs": 8.6,
       "fat": 1.6,
-      "fiber": 1.6
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Teller",
@@ -172565,7 +172565,7 @@
       "protein": 8.8,
       "carbs": 8.0,
       "fat": 7.0,
-      "fiber": 1.2
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -172785,7 +172785,7 @@
       "protein": 2.1,
       "carbs": 12.8,
       "fat": 0.2,
-      "fiber": 2.8
+      "fiber": 3.0
     },
     "portion": {
       "label": "1 Portion",
@@ -174382,7 +174382,7 @@
       "protein": 1.1,
       "carbs": 5.1,
       "fat": 0.8,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -177764,7 +177764,7 @@
       "protein": 4.2,
       "carbs": 5.9,
       "fat": 3.2,
-      "fiber": 0.7
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Teller",
@@ -178097,7 +178097,7 @@
       "protein": 3.8,
       "carbs": 2.5,
       "fat": 2.4,
-      "fiber": 0.3
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Teller",
@@ -178468,7 +178468,7 @@
       "protein": 5.7,
       "carbs": 8.4,
       "fat": 10.2,
-      "fiber": 1.6
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Portion",
@@ -178547,7 +178547,7 @@
       "protein": 4.6,
       "carbs": 10.3,
       "fat": 5.6,
-      "fiber": 2.4
+      "fiber": 2.5
     },
     "portion": {
       "label": "1 Teller",
@@ -178947,7 +178947,7 @@
       "protein": 3.7,
       "carbs": 4.5,
       "fat": 3.8,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Teller",
@@ -179100,7 +179100,7 @@
       "protein": 15.6,
       "carbs": 6.2,
       "fat": 13.3,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Scheibe",
@@ -183520,7 +183520,7 @@
       "protein": 5.3,
       "carbs": 22.2,
       "fat": 8.8,
-      "fiber": 3.1
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Portion",
@@ -183630,7 +183630,7 @@
       "protein": 5.4,
       "carbs": 4.6,
       "fat": 3.4,
-      "fiber": 0.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Teller",
@@ -184266,7 +184266,7 @@
       "protein": 17.7,
       "carbs": 13.0,
       "fat": 20.1,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Stück",
@@ -184815,7 +184815,7 @@
       "protein": 4.5,
       "carbs": 24.4,
       "fat": 4.3,
-      "fiber": 3.4
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Portion",
@@ -187206,7 +187206,7 @@
       "protein": 5.9,
       "carbs": 6.1,
       "fat": 5.6,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Teller",
@@ -187334,7 +187334,7 @@
       "protein": 5.8,
       "carbs": 24.9,
       "fat": 13.1,
-      "fiber": 3.5
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Portion",
@@ -188239,7 +188239,7 @@
       "protein": 7.0,
       "carbs": 7.9,
       "fat": 9.2,
-      "fiber": 1.2
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Teller",
@@ -194084,7 +194084,7 @@
       "protein": 4.7,
       "carbs": 5.1,
       "fat": 1.5,
-      "fiber": 1.1
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Teller",
@@ -195938,7 +195938,7 @@
       "protein": 12.1,
       "carbs": 32.4,
       "fat": 21.9,
-      "fiber": 5.4
+      "fiber": 5.5
     },
     "portion": {
       "label": "3 Stück (180 g)",
@@ -198547,7 +198547,7 @@
       "protein": 9.9,
       "carbs": 3.9,
       "fat": 12.0,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion",
@@ -198694,7 +198694,7 @@
       "protein": 11.5,
       "carbs": 4.6,
       "fat": 12.8,
-      "fiber": 0.6
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion",
@@ -198768,7 +198768,7 @@
       "protein": 15.2,
       "carbs": 11.5,
       "fat": 13.0,
-      "fiber": 0.7
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -201415,7 +201415,7 @@
       "protein": 2.6,
       "carbs": 8.7,
       "fat": 3.9,
-      "fiber": 1.1
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Teller",
@@ -202681,7 +202681,7 @@
       "protein": 4.6,
       "carbs": 33.7,
       "fat": 14.6,
-      "fiber": 1.4
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Stück",
@@ -204358,9 +204358,9 @@
     "per100g": {
       "kcal": 27,
       "protein": 0.3,
-      "carbs": 6.9,
+      "carbs": 6.1,
       "fat": 0.0,
-      "fiber": 1.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "0,4 l",
@@ -204368,7 +204368,7 @@
     },
     "ingredients": [
       {
-        "name": "Johannisbeere (rot/schwarz)",
+        "name": "Johannisbeersaft",
         "grams": 100
       },
       {
@@ -204469,7 +204469,7 @@
     "per100g": {
       "kcal": 47,
       "protein": 0.2,
-      "carbs": 11.4,
+      "carbs": 11.3,
       "fat": 0.1,
       "fiber": 0.4
     },
@@ -208809,7 +208809,7 @@
       "protein": 1.7,
       "carbs": 8.2,
       "fat": 0.3,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -208938,7 +208938,7 @@
       "protein": 5.1,
       "carbs": 3.8,
       "fat": 4.5,
-      "fiber": 0.4
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Teller",
@@ -209007,7 +209007,7 @@
       "protein": 4.7,
       "carbs": 11.2,
       "fat": 0.6,
-      "fiber": 2.0
+      "fiber": 2.1
     },
     "portion": {
       "label": "1 Teller",
@@ -210239,7 +210239,7 @@
       "protein": 13.1,
       "carbs": 11.8,
       "fat": 15.9,
-      "fiber": 1.6
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Stück",
@@ -218875,7 +218875,7 @@
       "protein": 1.1,
       "carbs": 12.5,
       "fat": 5.4,
-      "fiber": 3.0
+      "fiber": 3.1
     },
     "portion": {
       "label": "1 Portion",
@@ -228426,7 +228426,7 @@
       "protein": 9.2,
       "carbs": 3.9,
       "fat": 11.5,
-      "fiber": 0.7
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion (400 g)",
@@ -228492,7 +228492,7 @@
       "protein": 8.5,
       "carbs": 5.6,
       "fat": 11.4,
-      "fiber": 0.8
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion (400 g)",
@@ -228558,7 +228558,7 @@
       "protein": 5.2,
       "carbs": 7.7,
       "fat": 4.2,
-      "fiber": 0.8
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Teller (400 g)",
@@ -232052,7 +232052,7 @@
       "protein": 13.3,
       "carbs": 17.2,
       "fat": 19.2,
-      "fiber": 1.3
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion",
@@ -236215,7 +236215,7 @@
       "protein": 5.7,
       "carbs": 26.8,
       "fat": 8.8,
-      "fiber": 2.1
+      "fiber": 2.2
     },
     "portion": {
       "label": "1 Teller",
@@ -236875,7 +236875,7 @@
       "protein": 5.2,
       "carbs": 13.5,
       "fat": 8.0,
-      "fiber": 1.1
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -238062,7 +238062,7 @@
       "protein": 13.4,
       "carbs": 10.4,
       "fat": 8.9,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -238763,7 +238763,7 @@
       "protein": 3.9,
       "carbs": 4.6,
       "fat": 7.5,
-      "fiber": 1.4
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -242196,7 +242196,7 @@
       "protein": 6.9,
       "carbs": 23.7,
       "fat": 11.6,
-      "fiber": 3.3
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Portion",
@@ -245174,7 +245174,7 @@
       "protein": 1.9,
       "carbs": 4.4,
       "fat": 9.3,
-      "fiber": 1.5
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion",
@@ -245922,7 +245922,7 @@
       "protein": 3.6,
       "carbs": 5.3,
       "fat": 3.3,
-      "fiber": 0.6
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -247296,7 +247296,7 @@
       "protein": 5.0,
       "carbs": 12.6,
       "fat": 4.6,
-      "fiber": 3.5
+      "fiber": 3.7
     },
     "portion": {
       "label": "1 Teller",
@@ -248151,7 +248151,7 @@
       "protein": 1.5,
       "carbs": 6.0,
       "fat": 1.6,
-      "fiber": 1.3
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Teller",
@@ -256485,7 +256485,7 @@
       "protein": 3.6,
       "carbs": 15.6,
       "fat": 4.0,
-      "fiber": 2.4
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -258078,7 +258078,7 @@
       "protein": 7.7,
       "carbs": 30.5,
       "fat": 8.6,
-      "fiber": 3.0
+      "fiber": 2.0
     },
     "portion": {
       "label": "1 Portion (250 g)",
@@ -258271,7 +258271,7 @@
       "protein": 4.3,
       "carbs": 17.8,
       "fat": 4.1,
-      "fiber": 2.6
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion (300 g)",
@@ -260513,7 +260513,7 @@
       "protein": 15.7,
       "carbs": 14.1,
       "fat": 23.8,
-      "fiber": 1.9
+      "fiber": 2.0
     },
     "portion": {
       "label": "1 Portion (250 g)",
@@ -260580,7 +260580,7 @@
       "protein": 16.7,
       "carbs": 9.4,
       "fat": 17.1,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion (220 g)",
@@ -261052,7 +261052,7 @@
       "protein": 9.1,
       "carbs": 4.2,
       "fat": 14.6,
-      "fiber": 1.6
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Portion (300 g)",
@@ -261574,7 +261574,7 @@
       "protein": 1.0,
       "carbs": 7.4,
       "fat": 3.4,
-      "fiber": 1.2
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Schale (250 g)",
@@ -262082,7 +262082,7 @@
       "protein": 5.8,
       "carbs": 24.9,
       "fat": 6.1,
-      "fiber": 4.3
+      "fiber": 4.4
     },
     "portion": {
       "label": "1 Portion (250 g)",
@@ -262741,7 +262741,7 @@
       "protein": 17.5,
       "carbs": 12.8,
       "fat": 13.3,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "6 Stück (180 g)",
@@ -264054,7 +264054,7 @@
       "protein": 10.3,
       "carbs": 9.4,
       "fat": 6.6,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion (250 g)",
@@ -266886,7 +266886,7 @@
       "protein": 10.8,
       "carbs": 16.9,
       "fat": 12.0,
-      "fiber": 1.5
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Stück (300 g)",
@@ -267731,7 +267731,7 @@
       "protein": 0.9,
       "carbs": 5.2,
       "fat": 7.1,
-      "fiber": 1.2
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion (200 g)",
@@ -267926,7 +267926,7 @@
       "protein": 3.5,
       "carbs": 7.5,
       "fat": 16.1,
-      "fiber": 1.6
+      "fiber": 2.8
     },
     "portion": {
       "label": "1 Portion (150 g)",
@@ -268499,7 +268499,7 @@
       "protein": 5.5,
       "carbs": 14.0,
       "fat": 34.3,
-      "fiber": 4.2
+      "fiber": 4.3
     },
     "portion": {
       "label": "1 Portion (60 g)",
@@ -270292,7 +270292,7 @@
       "protein": 10.5,
       "carbs": 15.7,
       "fat": 15.4,
-      "fiber": 1.9
+      "fiber": 1.2
     },
     "portion": {
       "label": "3 Stück",
@@ -271720,7 +271720,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, doi:10.57745/RDMHWY, Lizenz Etalab 2.0; Code 11000 \"Ail, cru\". Datensatz der Datenbank (Tabellenwert). Protein 5,31 g auf 5,3 g gerundet. Fett in der Quelle \"< 0,5 g\", als 0,5 g (Bestimmungsgrenze) geführt, wie bei der Rezeptzutat. Kohlenhydrate = verfügbare KH 18,6 g + Ballaststoffe 5,8 g = 24,4 g (Gesamt-KH). kcal 109 (EU 1169/2011). Derselbe AOAC-Satz wie die Rezeptzutat Knoblauch; USDA SR 169230 (Ballaststoffe 2,1 g) wird nicht mehr verwendet.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 11000 \"Ail, cru\". Datensatz der Datenbank (Tabellenwert). Protein 5,31 g auf 5,3 g gerundet. Fett in der Quelle \"< 0,5 g\", als 0,5 g (Bestimmungsgrenze) geführt, wie bei der Rezeptzutat. Kohlenhydrate = verfügbare KH 18,6 g + Ballaststoffe 5,8 g = 24,4 g (Gesamt-KH). kcal 109 (EU 1169/2011). Derselbe AOAC-Satz wie die Rezeptzutat Knoblauch; USDA SR 169230 (Ballaststoffe 2,1 g) wird nicht mehr verwendet.",
     "source_id": "Ciqual 2025:11000"
   },
   {
@@ -304404,7 +304404,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 20282 \"Asparagus, white or purple, peeled, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.62 g + Ballaststoffe 2.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 20282 \"Asparagus, white or purple, peeled, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.62 g + Ballaststoffe 2.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:20282"
   },
   {
@@ -304449,7 +304449,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 20277 \"Asparagus, white, boiled/cooked in water\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.63 g + Ballaststoffe 1.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 20277 \"Asparagus, white, boiled/cooked in water\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.63 g + Ballaststoffe 1.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:20277"
   },
   {
@@ -306987,7 +306987,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, doi:10.57745/RDMHWY, Lizenz Etalab 2.0; Code 11306 \"Ail, rôti/cuit au four\". Datensatz der Datenbank (Tabellenwert). Protein 5,56 g auf 5,6 g gerundet. Fett in der Quelle \"< 0,5 g\", als 0,5 g (Bestimmungsgrenze) geführt. Kohlenhydrate = verfügbare KH 23,8 g + Ballaststoffe 2,7 g = 26,5 g (Gesamt-KH). kcal 125 (EU 1169/2011). Ersetzt BLS G490162 (Ballaststoffe 33,291 g inklusive Fructane).",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 11306 \"Ail, rôti/cuit au four\". Datensatz der Datenbank (Tabellenwert). Protein 5,56 g auf 5,6 g gerundet. Fett in der Quelle \"< 0,5 g\", als 0,5 g (Bestimmungsgrenze) geführt. Kohlenhydrate = verfügbare KH 23,8 g + Ballaststoffe 2,7 g = 26,5 g (Gesamt-KH). kcal 125 (EU 1169/2011). Ersetzt BLS G490162 (Ballaststoffe 33,291 g inklusive Fructane).",
     "source_id": "Ciqual 2025:11306"
   },
   {
@@ -307028,7 +307028,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, doi:10.57745/RDMHWY, Lizenz Etalab 2.0; Code 11307 \"Ail, grillé/poêlé, sans matière grasse\". Datensatz der Datenbank (Tabellenwert). Kohlenhydrate = verfügbare KH 22,0 g + Ballaststoffe 5,8 g = 27,8 g (Gesamt-KH). kcal 130 (EU 1169/2011). Ersetzt BLS G490182 (Ballaststoffe 44,916 g inklusive Fructane).",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 11307 \"Ail, grillé/poêlé, sans matière grasse\". Datensatz der Datenbank (Tabellenwert). Kohlenhydrate = verfügbare KH 22,0 g + Ballaststoffe 5,8 g = 27,8 g (Gesamt-KH). kcal 130 (EU 1169/2011). Ersetzt BLS G490182 (Ballaststoffe 44,916 g inklusive Fructane).",
     "source_id": "Ciqual 2025:11307"
   },
   {
@@ -307495,7 +307495,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, doi:10.57745/RDMHWY, Lizenz Etalab 2.0; Code 20050 \"Topinambour, cuit\". Datensatz der Datenbank (Tabellenwert). Kohlenhydrate = verfügbare KH 14,4 g + Ballaststoffe 2,2 g = 16,6 g (Gesamt-KH). Fett 0,01 g auf 0,0 g gerundet. kcal 69,3 veröffentlicht, als 69 geführt (EU 1169/2011). Fructane/Inulin zählen nicht als Ballaststoff; der BLS-Wert mit Inulin wird nicht verwendet.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 20050 \"Topinambour, cuit\". Datensatz der Datenbank (Tabellenwert). Kohlenhydrate = verfügbare KH 14,4 g + Ballaststoffe 2,2 g = 16,6 g (Gesamt-KH). Fett 0,01 g auf 0,0 g gerundet. kcal 69,3 veröffentlicht, als 69 geführt (EU 1169/2011). Fructane/Inulin zählen nicht als Ballaststoff; der BLS-Wert mit Inulin wird nicht verwendet.",
     "source_id": "Ciqual 2025:20050"
   },
   {
@@ -307536,7 +307536,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, doi:10.57745/RDMHWY, Lizenz Etalab 2.0; Code 20050 \"Topinambour, cuit\". Datensatz der Datenbank (Tabellenwert). Kohlenhydrate = verfügbare KH 14,4 g + Ballaststoffe 2,2 g = 16,6 g (Gesamt-KH). Fett 0,01 g auf 0,0 g gerundet. kcal 69,3 veröffentlicht, als 69 geführt (EU 1169/2011). Fructane/Inulin zählen nicht als Ballaststoff; der BLS-Wert mit Inulin wird nicht verwendet.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 20050 \"Topinambour, cuit\". Datensatz der Datenbank (Tabellenwert). Kohlenhydrate = verfügbare KH 14,4 g + Ballaststoffe 2,2 g = 16,6 g (Gesamt-KH). Fett 0,01 g auf 0,0 g gerundet. kcal 69,3 veröffentlicht, als 69 geführt (EU 1169/2011). Fructane/Inulin zählen nicht als Ballaststoff; der BLS-Wert mit Inulin wird nicht verwendet.",
     "source_id": "Ciqual 2025:20050"
   },
   {
@@ -311908,7 +311908,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Kaşar ist ein halbfester Filata-Käse aus Kuhmilch; ähnlichstes frei verfügbares Lebensmittel ist Provolone aus Kuhmilch (ebenfalls Pasta filata). Werte unverändert übernommen (Methode similar_food); echter Kaşar kann je nach Reife/Fettstufe abweichen. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 12716 \"Provolone cheese, from cow's milk\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Geschätzt (Methode similar_food): Kaşar ist ein halbfester Filata-Käse aus Kuhmilch; ähnlichstes frei verfügbares Lebensmittel ist Provolone aus Kuhmilch (ebenfalls Pasta filata). Werte unverändert übernommen (Methode similar_food); echter Kaşar kann je nach Reife/Fettstufe abweichen. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 12716 \"Provolone cheese, from cow's milk\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "derived_from": "Ciqual 2025:12716",
     "method": "similar_food"
   },
@@ -311956,7 +311956,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Pastırma ist luftgetrocknetes, gepökeltes Rindfleisch; ähnlichstes frei verfügbares Lebensmittel ist Bresaola (luftgetrocknetes Rindfleisch). Werte unverändert übernommen (Methode similar_food); die Çemen-Würzkruste ist nicht berücksichtigt. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 28503 \"Bresaola\". Kohlenhydrate = verfügbare KH 0.49 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Geschätzt (Methode similar_food): Pastırma ist luftgetrocknetes, gepökeltes Rindfleisch; ähnlichstes frei verfügbares Lebensmittel ist Bresaola (luftgetrocknetes Rindfleisch). Werte unverändert übernommen (Methode similar_food); die Çemen-Würzkruste ist nicht berücksichtigt. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 28503 \"Bresaola\". Kohlenhydrate = verfügbare KH 0.49 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "derived_from": "Ciqual 2025:28503",
     "method": "similar_food"
   },
@@ -312101,7 +312101,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Yufka ist ein dünn ausgerollter Mehl-Wasser-Teig, ähnlich Filo/Phyllo; Werte von Ciqual \"Phyllo or filo dough, raw\" übernommen (Methode similar_food). Yufka ist etwas dicker; Fettgehalt hängt vom Hersteller ab. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 23445 \"Phyllo or filo dough, raw\". Kohlenhydrate = verfügbare KH 50.7 g + Ballaststoffe 1.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Geschätzt (Methode similar_food): Yufka ist ein dünn ausgerollter Mehl-Wasser-Teig, ähnlich Filo/Phyllo; Werte von Ciqual \"Phyllo or filo dough, raw\" übernommen (Methode similar_food). Yufka ist etwas dicker; Fettgehalt hängt vom Hersteller ab. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 23445 \"Phyllo or filo dough, raw\". Kohlenhydrate = verfügbare KH 50.7 g + Ballaststoffe 1.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "derived_from": "Ciqual 2025:23445",
     "method": "similar_food"
   },
@@ -316368,7 +316368,7 @@
     "is_packaged_product": false,
     "state": "cooked",
     "unit": "g",
-    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt. USDA 169757, weißer Langkornreis gekocht, als Näherung für Jasminreis.",
     "per100g": {
       "kcal": 130,
       "protein": 2.7,
@@ -316472,7 +316472,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 9125 \"Rice, basmati, cooked, no added salt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 32.9 g + Ballaststoffe 0.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 9125 \"Rice, basmati, cooked, no added salt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 32.9 g + Ballaststoffe 0.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:9125"
   },
   {
@@ -316513,7 +316513,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 9119 \"Rice, basmati, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 78.4 g + Ballaststoffe 1.06 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 9119 \"Rice, basmati, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 78.4 g + Ballaststoffe 1.06 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:9119"
   },
   {
@@ -316804,7 +316804,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 25565 \"Yakitori (grilled meat on skewers, Japanese-style, with sauce)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 9.3 g + Ballaststoffe 0.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 25565 \"Yakitori (grilled meat on skewers, Japanese-style, with sauce)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 9.3 g + Ballaststoffe 0.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:25565"
   },
   {
@@ -316849,7 +316849,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0; Code 25419 \"Spring roll\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 16.6 g + Ballaststoffe 1.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 25419 \"Spring roll\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 16.6 g + Ballaststoffe 1.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:25419"
   },
   {
