@@ -148,7 +148,7 @@ EXT_DB = {
             'Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0', 'BLS 4.0'),
     'CH': ('Schweizer Nährwertdatenbank V7.1, Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV), '
            'naehrwertdaten.ch (frei verwendbar mit Quellenangabe)', 'CH 7.1'),
-    'CIQ': ('Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0 (Licence Ouverte)', 'Ciqual 2025'),
+    'CIQ': ('Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte)', 'Ciqual 2025'),
     'SE': ('Livsmedelsverket, Livsmedelsdatabasen (Version 2026-06-29), dataportal.livsmedelsverket.se, Lizenz CC BY 4.0', 'Livsmedelsverket'),
 }
 

@@ -1,6 +1,6 @@
-# Build-Notizen: Gerichte-Datenbank (türkisch, deutsch, europäisch, Kaukasus) – Stand Welle 3: 4245 Gerichte
+# Build-Notizen: Gerichte-Datenbank (türkisch, deutsch, europäisch, Kaukasus) – 4245 Rezeptgerichte
 
-**Alle Werte sind Schätzungen (`quality: "estimate"`), keine Laborwerte.** Abweichungen von ±10–25 % gegenüber echten Gerichten sind normal (Rezept, Fettmenge, Portionsgröße).
+**4205 Gerichte sind Schätzungen (`quality: "estimate"`), 40 sind Referenzwerte aus dem BLS (`quality: "reference"`, [`reference_overrides.json`](reference_overrides.json)).** Abweichungen der Schätzungen von ±10–25 % gegenüber echten Gerichten sind normal (Rezept, Fettmenge, Portionsgröße). Die 40 Referenzen ersetzen die Rezeptschätzung erst nach der Plausibilitätsprüfung. Anzeigenamen und Aliase aller 4245 Gerichte stehen in [`name_overrides.json`](name_overrides.json).
 
 ## Methode
 - Pro Gericht ein typisches Hausrezept für **eine Portion** (Zutaten in g, roh bzw. Zutatenzustand).
@@ -25,7 +25,7 @@
 - Quelle der Rezepte: allgemeines Küchenwissen, keine Hersteller-/Labordaten; Stück-/Portionsgrößen sind Richtwerte.
 
 ## Neu erzeugen
-`python3 build.py` → rohes `foods.json` (danach nach `foods_before_off.json` kopieren und `off_check.py apply` ausführen, siehe unten) →`foods.json`, `ingredients.json`, `build_report.txt` (Rezepte in `batches/*.py`, Zutaten in `ingredients_src.txt`).
+`python3 build.py` liest die Rezepte in `batches/*.py` und die Zutaten in `ingredients_src.txt`, prüft die Rezeptschätzung und schreibt danach die 40 BLS-Referenzen aus `reference_overrides.json` (pro 100 g, `quality`, `source`, `source_id`, ggf. `source_missing`) sowie `names` und `aliases` aus `name_overrides.json` auf dieselben IDs. Ergebnis: `foods.json`, `ingredients.json`, `build_report.txt`. Für den Bestand danach nach `foods_before_off.json` kopieren und `off_check.py apply` ausführen (siehe unten). Ein Neubau setzt die 40 Quellwerte und die festgehaltenen Namen nicht auf die reine Rezeptschätzung zurück. Von den 4245 Rezeptgerichten bleiben 4205 Schätzungen; 40 sind Referenzwerte.
 
 ## Europäische Gerichte (neu)
 - **644 neue Gerichte** aus 36 Küchen (ohne Türkei/Deutschland), jeweils mit Rezept × Zutatentabelle, `quality: "estimate"`, Synonymen, Kategorie, Portion. Zutatentabelle um ca. 25 Zutaten erweitert (u. a. Ricotta, Pecorino, Rohschinken, Chorizo, Stockfisch, Hummer, Foie gras, Quittenbrot …).

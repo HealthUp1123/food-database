@@ -10,7 +10,8 @@ Zeilenformat in den Batch-Dateien (eine Zeile pro Gericht):
 - Zutatenmengen = rohe Mengen für EINE typische Portion (Wasser wird explizit gelistet, wenn es mitgekocht wird).
 - Garfaktor = Gewicht nach dem Garen / Summe der Zutaten (Verdunstung, Fettverlust; < 1.0).
 - Portionsgramm = Summe * Garfaktor (auf 5 g gerundet); Nährwerte pro 100 g = Summe(Zutat g * Zutat-pro-100g) / Portionsgramm * 100.
-Alle Werte sind SCHÄTZWERTE aus typischen Rezepten und ungefähren Referenzwerten, keine Laborwerte.
+Die Rezeptwerte sind SCHÄTZWERTE aus typischen Rezepten und ungefähren Referenzwerten, keine Laborwerte.
+40 Gerichte setzt reference_overrides.json danach auf BLS-Referenzwerte; Namen und Aliase kommen aus name_overrides.json.
 """
 import importlib.util, json, glob, os, re, sys, unicodedata, collections
 
@@ -141,7 +142,7 @@ def main():
     out = [d[0] for d in dishes]
     # BLS-Referenzen, die dieselben IDs wie diese Rezepte haben. Die Prüfung oben
     # gilt für die Rezeptschätzung; erst danach ersetzen, damit ein Neubau die
-    # Quellwerte, source_id und die festgehaltenen Namen nicht verwirft.
+    # Quellwerte und source_id nicht verwirft. Namen setzt name_overrides.json.
     ov_path = os.path.join(HERE, 'reference_overrides.json')
     overrides = json.load(open(ov_path, encoding='utf-8'))
     by_id = {e['id']: e for e in out}
@@ -158,6 +159,30 @@ def main():
             e['source_missing'] = o['source_missing']
         if o.get('names'):
             e['names'] = o['names']
+    # Anzeigenamen und Aliase aller Rezeptgerichte. Liegen hier und nicht nur in
+    # data/foods.json, damit ein Neubau die Namensänderungen nicht verwirft.
+    # Kommt nach den Referenzwerten, damit diese Datei die Namen festlegt.
+    no_path = os.path.join(HERE, 'name_overrides.json')
+    name_ovs = json.load(open(no_path, encoding='utf-8'))
+    seen = set()
+    for o in name_ovs:
+        e = by_id.get(o['id'])
+        if e is None:
+            errors.append(f'name_overrides.json: id {o["id"]} kommt in den Batches nicht vor')
+            continue
+        if o['id'] in seen:
+            errors.append(f'name_overrides.json: doppelte id {o["id"]}')
+            continue
+        seen.add(o['id'])
+        e['names'] = o['names']
+        if o.get('aliases'):
+            e['aliases'] = o['aliases']
+    missing_names = [e['id'] for e in out if e['id'] not in seen]
+    if missing_names:
+        errors.append(
+            f'name_overrides.json: {len(missing_names)} Gerichte ohne Namen, z. B. '
+            + ', '.join(missing_names[:5])
+        )
     txt = json.dumps(out, ensure_ascii=False, indent=2) + '\n'
     open(os.path.join(HERE,'foods.json'),'w',encoding='utf8').write(txt)
     json.dump([dict(key=k, name=v['name'], per100g={f:v[f] for f in ('kcal','protein','carbs','fat','fiber')}) for k,v in ing.items()],

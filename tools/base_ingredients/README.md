@@ -96,7 +96,7 @@ Gerichte mit gleichem Synonym (z. B. „Ofenzucchini“, „Ofenaubergine“, �
 | --- | --- | --- | --- |
 | Bundeslebensmittelschlüssel (BLS) 4.0, Max Rubner-Institut, <https://blsdb.de> | CC BY 4.0 (MRI als Herausgeber nennen) | 47 | Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 – Deutsche Nährstoffdatenbank. Karlsruhe. DOI: 10.25826/Data20251217-134202-0 |
 | Schweizer Nährwertdatenbank V7.1, BLV, <https://naehrwertdaten.ch> | kostenlos, auch kommerziell, mit Quellenangabe | 5 | Schweizer Nährwertdatenbank, Bundesamt für Lebensmittelsicherheit und Veterinärwesen BLV |
-| Ciqual 2025, Anses, Zenodo-Record 17550133 | Etalab 2.0 (Licence Ouverte) | 2 | Anses. 2025. Ciqual French food composition table |
+| Ciqual 2025, Anses, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025 | Etalab 2.0 (Licence Ouverte) | 2 | Anses. 2025. Ciqual French food composition table |
 | Livsmedelsdatabasen, Livsmedelsverket, <https://dataportal.livsmedelsverket.se> | CC BY 4.0 | 2 | Livsmedelsverket, Livsmedelsdatabasen |
 
 **Rezeptberechnet heißt hier: von der Datenbank selbst berechnet.** Die BLS-Werte für zubereitetes Gemüse sind laut BLS-Spalte „Datenherkunft“ eine *Rezeptberechnung* (Rohware mit Gewichts- und Nährstoffveränderungsfaktoren, BLS-Dokumentation Abschnitt 4.2.2), Energie eine *Formelberechnung* (EU-Faktoren, Ballaststoffe 2 kcal/g). Schweizer Werte sind „Berechnung anhand von Zutaten“, der schwedische Wert „Beräknad (Recept, NLG faktorer)“. Das sind veröffentlichte Datensätze der jeweiligen Datenbank und werden deshalb als `reference` geführt; der Vermerk steht in `source`.

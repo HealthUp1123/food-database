@@ -2201,7 +2201,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Leberkäse im Brötchen"
+      ]
+    }
   },
   {
     "id": "currywurst",
@@ -8249,7 +8254,12 @@
       "0836069012490",
       "9005015052175",
       "4260129522463"
-    ]
+    ],
+    "aliases": {
+      "tr": [
+        "Peynirli spätzle"
+      ]
+    }
   },
   {
     "id": "linsen-mit-spaetzle",
@@ -8325,7 +8335,12 @@
     "off_similar": [
       "4007887097242",
       "0751369193918"
-    ]
+    ],
+    "aliases": {
+      "tr": [
+        "Spätzle ile mercimek"
+      ]
+    }
   },
   {
     "id": "maultaschen",
@@ -12193,7 +12208,6 @@
     "type": "dish",
     "barcode": null,
     "synonyms": [
-      "Roggenmischbrot",
       "Rye bread"
     ],
     "cuisine": "de",
@@ -12219,7 +12233,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code B221000 \"Roggenbrot\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 43.04 g + Ballaststoffe 6.46 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code B221000 \"Roggenbrot\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 43.04 g + Ballaststoffe 6.46 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "7640121110016",
       "3522567045289",
@@ -12395,7 +12409,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code B311000 \"Weizenbrot/Weißbrot\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 50.54 g + Ballaststoffe 4 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code B311000 \"Weizenbrot/Weißbrot\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 50.54 g + Ballaststoffe 4 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "29073405",
       "9120048494232",
@@ -12830,6 +12844,9 @@
     "aliases": {
       "pt": [
         "Pão com doce"
+      ],
+      "tr": [
+        "Reçelli ekmek"
       ]
     },
     "type": "dish",
@@ -22025,7 +22042,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N256000 \"Fruchtsaftschorle Apfel\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 6.139 g + Ballaststoffe 0.18 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N256000 \"Fruchtsaftschorle Apfel\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 6.139 g + Ballaststoffe 0.18 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4260261720253",
       "42151715",
@@ -22138,7 +22155,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N257000 \"Fruchtsaftschorle Orange\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4.931 g + Ballaststoffe 0.18 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N257000 \"Fruchtsaftschorle Orange\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 4.931 g + Ballaststoffe 0.18 g (Gesamt-KH), kcal wie veröffentlicht.",
     "source_id": "BLS 4.0:N257000"
   },
   {
@@ -22353,7 +22370,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N390100 \"Cola-Misch-Getränk Orange\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 9 g + Ballaststoffe 0.005 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N390100 \"Cola-Misch-Getränk Orange\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 9 g + Ballaststoffe 0.005 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4003237001952",
       "4009285004570",
@@ -22415,7 +22432,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P122000 \"Malzgetränk, alkoholfrei\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 10.32 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P122000 \"Malzgetränk, alkoholfrei\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 10.32 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4011094105027",
       "4051800527019",
@@ -22474,7 +22491,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P163000 \"Pilsner Bier\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.218 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben: Fett (als 0 g gesetzt, außer Zucker).",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P163000 \"Pilsner Bier\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 2.218 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Fett.",
     "off_similar": [
       "9501100005762",
       "4000856004166",
@@ -22538,7 +22555,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P151100 \"Hefeweizen/Weizenbier, naturtrüb\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.452 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben: Fett, Ballaststoffe (als 0 g gesetzt, außer Zucker).",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P151100 \"Hefeweizen/Weizenbier, naturtrüb\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 2.452 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Fett und Ballaststoffe.",
     "off_similar": [
       "0080157102642",
       "41051849",
@@ -22616,7 +22633,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P192000 \"Radler (Pilsner Bier mit Zitronenlimonade)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 5.744 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P192000 \"Radler (Pilsner Bier mit Zitronenlimonade)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 5.744 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4008287072228",
       "4053400281865",
@@ -22673,7 +22690,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P154000 \"Kölsch\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.218 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P154000 \"Kölsch\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 2.218 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4104740010308",
       "4002208001038",
@@ -22725,7 +22742,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P210000 \"Weißwein trocken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0.33 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben: Fett (als 0 g gesetzt, außer Zucker).",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P210000 \"Weißwein trocken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 0.33 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Fett.",
     "off_similar": [
       "4001976374207",
       "22116048",
@@ -22779,7 +22796,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P2A3000 \"Rotwein trocken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0.7 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben: Fett (als 0 g gesetzt, außer Zucker).",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P2A3000 \"Rotwein trocken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 0.7 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Fett.",
     "off_similar": [
       "4316268521642",
       "9313181003656",
@@ -22837,7 +22854,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P285000 \"Weißwein-Schorle mit Mineralwasser\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 0.16 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P285000 \"Weißwein-Schorle mit Mineralwasser\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 0.16 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "42220510",
       "4062073999854",
@@ -22905,7 +22922,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P281000 \"Glühwein\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 8.21 g + Ballaststoffe 0.071 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P281000 \"Glühwein\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 8.21 g + Ballaststoffe 0.071 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "1704314830009",
       "4101660005032",
@@ -23071,7 +23088,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N418000 \"Latte macchiato (Getränk) mit Milch 3,5 % Fett\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 3.22 g + Ballaststoffe 0.084 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N418000 \"Latte macchiato (Getränk) mit Milch 3,5 % Fett\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 3.22 g + Ballaststoffe 0.084 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4047046011030",
       "8718657493398",
@@ -23127,7 +23144,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N414000 \"Cappuccino (Getränk) mit Milch 3,5 % Fett\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 3.22 g + Ballaststoffe 0.084 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N414000 \"Cappuccino (Getränk) mit Milch 3,5 % Fett\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 3.22 g + Ballaststoffe 0.084 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "0053888001638",
       "8991002103764",
@@ -23248,7 +23265,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N710000 \"Früchtetee (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben: Protein (als 0 g gesetzt, außer Zucker).",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N710000 \"Früchtetee (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 0 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Protein.",
     "off_similar": [
       "4009300019312",
       "9001475010717",
@@ -23305,7 +23322,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N721000 \"Pfefferminztee (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N721000 \"Pfefferminztee (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 0 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4009300004707",
       "4388844084674",
@@ -25396,7 +25413,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Mantar soslu şinitzel ve spätzle"
+      ]
+    }
   },
   {
     "id": "rahmschnitzel-mit-spaetzle",
@@ -25467,7 +25489,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Krema soslu şinitzel ve spätzle"
+      ]
+    }
   },
   {
     "id": "schnitzel-mit-spargel-und-kartoffeln",
@@ -25833,7 +25860,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Patates salatalı köfte"
+      ]
+    }
   },
   {
     "id": "kassler-mit-pueree-und-sauerkraut",
@@ -26286,7 +26318,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Thüringer Rostbrätel"
+      ]
+    }
   },
   {
     "id": "linsen-mit-saitenwuerstle",
@@ -26422,7 +26459,12 @@
     "off_similar": [
       "4006153699012",
       "4006153699005"
-    ]
+    ],
+    "aliases": {
+      "tr": [
+        "Ciğerli spätzle çorbası"
+      ]
+    }
   },
   {
     "id": "rahmschwammerl-mit-semmelknoedel",
@@ -27149,7 +27191,7 @@
     "names": {
       "de": "Jägerschnitzel DDR-Art mit Nudeln",
       "en": "Jägerschnitzel DDR-Art mit Nudeln",
-      "tr": "Doğu Alman usulü avcı şinitzeli ve makarna (Jägerschnitzel)",
+      "tr": "Doğu Alman usulü pane sosis dilimi ve makarna (Jägerschnitzel)",
       "fr": "Jägerschnitzel DDR-Art mit Nudeln",
       "es": "Jägerschnitzel DDR-Art mit Nudeln",
       "pt": "Jägerschnitzel DDR-Art mit Nudeln",
@@ -27209,7 +27251,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Jägerschnitzel DDR-Art mit Nudeln",
+        "Doğu Alman usulü avcı şinitzeli ve makarna (Jägerschnitzel)"
+      ]
+    }
   },
   {
     "id": "wuerzfleisch",
@@ -27352,7 +27400,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Patates salatalı köfte"
+      ]
+    }
   },
   {
     "id": "federweisser",
@@ -27402,7 +27455,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P289000 \"Federweißer (Traubenmost teilweise vergoren)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 1.288 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P289000 \"Federweißer (Traubenmost teilweise vergoren)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 1.288 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4101080009825",
       "4260040330161",
@@ -29184,7 +29237,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Reçelli ekmek"
+      ]
+    }
   },
   {
     "id": "teewurstbrot",
@@ -29342,7 +29400,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P288100 \"Erdbeerbowle\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 3.56 g + Ballaststoffe 0.4 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P288100 \"Erdbeerbowle\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 3.56 g + Ballaststoffe 0.4 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "0850001805773",
       "4101080008804",
@@ -29453,13 +29511,18 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P196000 \"Berliner Weisse mit Fruchtsirup\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 5.74 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P196000 \"Berliner Weisse mit Fruchtsirup\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 5.74 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4260402630175",
       "3760319570140",
       "42335283"
     ],
-    "source_id": "BLS 4.0:P196000"
+    "source_id": "BLS 4.0:P196000",
+    "aliases": {
+      "tr": [
+        "Berliner Weiße mit Schuss"
+      ]
+    }
   },
   {
     "id": "rhabarberschorle",
@@ -29684,7 +29747,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N019000 \"Eistee mit Zitronen-/Pfirsichgeschmack, gesüßt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 6.2 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben: Fett (als 0 g gesetzt, außer Zucker).",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N019000 \"Eistee mit Zitronen-/Pfirsichgeschmack, gesüßt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 6.2 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Fett.",
     "off_similar": [
       "9008700204347",
       "42211129",
@@ -29745,7 +29808,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N410100 \"Kaffee (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0.31425 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N410100 \"Kaffee (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 0 g + Ballaststoffe 0.31425 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4260614530034",
       "4549741385091",
@@ -45086,7 +45149,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code Y599112 \"Wrap gefüllt mit Salat und gebratenem Hähnchenbrustfilet\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 15.9 g + Ballaststoffe 1.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code Y599112 \"Wrap gefüllt mit Salat und gebratenem Hähnchenbrustfilet\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 15.9 g + Ballaststoffe 1.3 g (Gesamt-KH), kcal wie veröffentlicht.",
     "source_id": "BLS 4.0:Y599112"
   },
   {
@@ -56266,7 +56329,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code Y9A1090 \"Türkische Pizza (Lahmacun) gefüllt mit Salat und Sauce\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 18 g + Ballaststoffe 2.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code Y9A1090 \"Türkische Pizza (Lahmacun) gefüllt mit Salat und Sauce\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 18 g + Ballaststoffe 2.3 g (Gesamt-KH), kcal wie veröffentlicht.",
     "source_id": "BLS 4.0:Y9A1090"
   },
   {
@@ -71575,7 +71638,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N630000 \"Schwarztee (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben: Protein (als 0 g gesetzt, außer Zucker).",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N630000 \"Schwarztee (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 0 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Protein.",
     "off_similar": [
       "4250780301279",
       "8710435480231",
@@ -71676,7 +71739,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N419000 \"Türkischer Mokka (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N419000 \"Türkischer Mokka (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 0 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "8682287820018",
       "8680722660038",
@@ -83546,7 +83609,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Appenzeller Chäsmagronen"
+      ]
+    }
   },
   {
     "id": "schweizer-heisse-schoggi",
@@ -92460,7 +92528,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Alsas Usulü Spätzle"
+      ]
+    }
   },
   {
     "id": "gougere-bourguignonne",
@@ -105073,7 +105146,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Spätzle al ragù altoatesini"
+      ]
+    }
   },
   {
     "id": "porceddu",
@@ -114475,7 +114553,15 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "de": [
+        "Gebackene Bohnen (Prebranac)"
+      ],
+      "en": [
+        "Serbian baked beans (prebranac)"
+      ]
+    }
   },
   {
     "id": "shchi",
@@ -118630,12 +118716,12 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 289,
-      "protein": 12.9,
-      "carbs": 0.0,
-      "fat": 26.2,
-      "fiber": 0.0,
-      "sugar": 0.0
+      "kcal": 274,
+      "protein": 11.4,
+      "carbs": 19.9,
+      "fat": 16.7,
+      "fiber": 1.4,
+      "sugar": 1.1
     },
     "portion": {
       "label": "1 Paar mit Senf und Semmel",
@@ -118656,13 +118742,13 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code W211200 \"Wiener Würstchen\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code Y914062 \"Wiener Würstchen mit Brötchen und Senf\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 18.45 g + Ballaststoffe 1.4 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "03528372",
       "8033673050197",
       "8012666035052"
     ],
-    "source_id": "BLS 4.0:W211200"
+    "source_id": "BLS 4.0:Y914062"
   },
   {
     "id": "buchteln",
@@ -119423,7 +119509,12 @@
     "off_similar": [
       "9110020107021",
       "9100000691596"
-    ]
+    ],
+    "aliases": {
+      "tr": [
+        "Kärntner Reindling"
+      ]
+    }
   },
   {
     "id": "milchrahmstrudel",
@@ -122040,7 +122131,12 @@
       "7610032052422",
       "7610073962810",
       "7610073001250"
-    ]
+    ],
+    "aliases": {
+      "tr": [
+        "Basler Läckerli"
+      ]
+    }
   },
   {
     "id": "bundnerfleisch",
@@ -123877,7 +123973,12 @@
       "2185346008151",
       "2149232017801",
       "2971727012479"
-    ]
+    ],
+    "aliases": {
+      "tr": [
+        "İsviçre usulü dana yahnisi"
+      ]
+    }
   },
   {
     "id": "saucisson-vaudois",
@@ -164796,7 +164897,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N411100 \"Espresso (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0.418 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N411100 \"Espresso (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 0 g + Ballaststoffe 0.418 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "8000070018686",
       "4260680414344",
@@ -183159,7 +183260,12 @@
     "source": "calculated from typical recipe and approximate reference values",
     "off_similar": [
       "7331500893018"
-    ]
+    ],
+    "aliases": {
+      "tr": [
+        "Västerbotten peynirli tart"
+      ]
+    }
   },
   {
     "id": "bograc",
@@ -187198,7 +187304,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Peynirli Pinzgau spätzlesi"
+      ]
+    }
   },
   {
     "id": "speckknodelsuppe",
@@ -188947,7 +189058,7 @@
     "names": {
       "de": "Wiener Wäschermädel",
       "en": "Wiener Wäschermädel",
-      "tr": "Viyana usulü sosis ve turşu yemeği (Wäschermädel)",
+      "tr": "Viyana usulü hamurlu kayısı tatlısı (Wäschermädel)",
       "fr": "Wiener Wäschermädel",
       "es": "Wiener Wäschermädel",
       "pt": "Wiener Wäschermädel",
@@ -189007,7 +189118,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Wiener Wäschermädel",
+        "Viyana usulü sosis ve turşu yemeği (Wäschermädel)"
+      ]
+    }
   },
   {
     "id": "strauben",
@@ -190004,7 +190121,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Qutab mit Kräutern"
+      ]
+    }
   },
   {
     "id": "t-qutabi",
@@ -199288,7 +199410,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Spätzle ile soğanlı biftek"
+      ]
+    }
   },
   {
     "id": "ofenschlupfer",
@@ -199530,7 +199657,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Patates dilimi ve spätzle"
+      ]
+    }
   },
   {
     "id": "badische-schneckensuppe",
@@ -200485,7 +200617,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Westfälisches Blindhuhn"
+      ]
+    }
   },
   {
     "id": "pfefferpotthast",
@@ -200615,7 +200752,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Westfälischer Pickert"
+      ]
+    }
   },
   {
     "id": "moeppkenbrot",
@@ -200788,7 +200930,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Westfälische Quarkspeise mit Pumpernickel"
+      ]
+    }
   },
   {
     "id": "ahle-wurscht-auf-brot",
@@ -200909,7 +201056,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Grie Soß mit Tafelspitz"
+      ]
+    }
   },
   {
     "id": "ebbelwoi",
@@ -200960,7 +201112,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P353100 \"Apfelwein\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 4 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P353100 \"Apfelwein\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 4 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "source_id": "BLS 4.0:P353100"
   },
   {
@@ -201625,7 +201777,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Sächsischer Sauerbraten mit Rosinen"
+      ]
+    }
   },
   {
     "id": "saechsische-plinsen",
@@ -201685,7 +201842,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Sächsische Plinsen"
+      ]
+    }
   },
   {
     "id": "erzgebirgische-buttermilchgetzen",
@@ -203776,7 +203938,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P8A3000 \"Eierpunsch\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 10.6 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P8A3000 \"Eierpunsch\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 10.6 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4337256838627",
       "4047247131650",
@@ -203917,13 +204079,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 41,
-      "protein": 0.3,
-      "carbs": 6.4,
+      "kcal": 40,
+      "protein": 0.2,
+      "carbs": 6.3,
       "fat": 0.0,
       "fiber": 0.0,
       "sugar": 5.2,
-      "alcohol": 2.1
+      "alcohol": 1.9
     },
     "portion": {
       "label": "0,5 l",
@@ -203940,12 +204102,12 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P1A1100 \"Colaweizen (Weizenbier mit Cola)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 6.377 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P1A3000 \"Colabier (Pilsner Bier mit Cola)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 6.259 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "0551197710222",
       "4105760122088"
     ],
-    "source_id": "BLS 4.0:P1A1100"
+    "source_id": "BLS 4.0:P1A3000"
   },
   {
     "id": "russ",
@@ -203994,7 +204156,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P1A1130 \"Weizen-Radler (Weizenbier mit Zitronenlimonade)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 5.861 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P1A1130 \"Weizen-Radler (Weizenbier mit Zitronenlimonade)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 5.861 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "6287038580467"
     ],
@@ -204099,7 +204261,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P153000 \"Altbier\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.284 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P153000 \"Altbier\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 2.284 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4260081050578",
       "4260257742719",
@@ -204150,7 +204312,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P161000 \"Lagerbier hell\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.283 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P161000 \"Lagerbier hell\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 2.283 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4260015190691",
       "4260449220124",
@@ -204200,7 +204362,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P167000 \"Schwarzbier\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.284 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben: Fett (als 0 g gesetzt, außer Zucker).",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P167000 \"Schwarzbier\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 2.284 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Fett.",
     "off_similar": [
       "8591036551502",
       "9028800633274",
@@ -204554,7 +204716,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P546000 \"Eierlikör\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 27.1 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P546000 \"Eierlikör\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 27.1 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4306188432753",
       "4260283483006",
@@ -211176,7 +211338,7 @@
     "names": {
       "de": "Verikäkid",
       "en": "Verikäkid",
-      "tr": "Estonya kan sosisi (Verikäkid)",
+      "tr": "Estonya usulü kanlı köfte (Verikäkid)",
       "fr": "Verikäkid",
       "es": "Verikäkid",
       "pt": "Verikäkid",
@@ -211227,7 +211389,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values",
+    "aliases": {
+      "tr": [
+        "Estonya kan sosisi (Verikäkid)"
+      ]
+    }
   },
   {
     "id": "paella-mixta",
@@ -217667,7 +217834,7 @@
     "names": {
       "de": "Hühnerfrikassee (französische Art)",
       "en": "Chicken fricassee (French style)",
-      "tr": "Tavuk Fricassee",
+      "tr": "Tavuk frikase (Fransız usulü)",
       "fr": "Fricassée de poulet",
       "es": "Fricasé de pollo",
       "pt": "Fricassé de frango",
@@ -217731,7 +217898,12 @@
     "off_similar": [
       "0250669012580",
       "2478154020270"
-    ]
+    ],
+    "aliases": {
+      "tr": [
+        "Tavuk Fricassee"
+      ]
+    }
   },
   {
     "id": "lapin-chasseur",
@@ -221782,8 +221954,8 @@
     "id": "pommes-au-four",
     "name": "Pommes au four",
     "names": {
-      "de": "Bratäpfel",
-      "en": "Baked apples",
+      "de": "Bratapfel (französische Art)",
+      "en": "Baked apple (French style)",
       "tr": "Fırında Elma (Fransız usulü)",
       "fr": "Pommes au four",
       "es": "Manzanas asadas",
@@ -221833,7 +222005,15 @@
     "source": "calculated from typical recipe and approximate reference values",
     "off_similar": [
       "0772291029793"
-    ]
+    ],
+    "aliases": {
+      "de": [
+        "Bratäpfel"
+      ],
+      "en": [
+        "Baked apples"
+      ]
+    }
   },
   {
     "id": "oeufs-a-la-neige-au-caramel",
@@ -222099,7 +222279,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P640000 \"Calvados\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P640000 \"Calvados\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 0 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4002859254616",
       "23115484",
@@ -222204,7 +222384,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P9A8000 \"Cocktail, Kir Royal\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4.8 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P9A8000 \"Cocktail, Kir Royal\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). KH = verfügbare KH 4.8 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "4335619046795",
       "27044247"
@@ -252501,7 +252681,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P431000 \"Portwein\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 11.9 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P431000 \"Portwein\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH = verfügbare KH 11.9 g + Ballaststoffe 0 g (Gesamt-KH), kcal wie veröffentlicht.",
     "off_similar": [
       "5602840075542",
       "5013521100918",
@@ -285440,7 +285620,15 @@
     ],
     "quality": "reference",
     "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 171477: Chicken, broilers or fryers, breast, meat only, cooked, roasted",
-    "fdc_id": 171477
+    "fdc_id": 171477,
+    "aliases": {
+      "en": [
+        "Chicken breast, pan-fried"
+      ],
+      "tr": [
+        "Tavuk göğsü, tavada"
+      ]
+    }
   },
   {
     "id": "haehnchenschenkel-ohne-haut-roh",
@@ -287757,7 +287945,8 @@
         "Gherkin"
       ],
       "tr": [
-        "Kornişon turşu"
+        "Kornişon turşu",
+        "Salatalık turşusu"
       ],
       "es": [
         "Pepinillo"
@@ -304531,7 +304720,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0 (Licence Ouverte); Code 20282 \"Asparagus, white or purple, peeled, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.62 g + Ballaststoffe 2.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 20282 \"Asparagus, white or purple, peeled, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.62 g + Ballaststoffe 2.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:20282"
   },
   {
@@ -304576,7 +304765,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0 (Licence Ouverte); Code 20277 \"Asparagus, white, boiled/cooked in water\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.63 g + Ballaststoffe 1.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 20277 \"Asparagus, white, boiled/cooked in water\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.63 g + Ballaststoffe 1.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:20277"
   },
   {
@@ -309993,6 +310182,9 @@
     "aliases": {
       "de": [
         "Fleischkäse"
+      ],
+      "tr": [
+        "Leberkäse (et somunu, dilim)"
       ]
     },
     "type": "item",
@@ -312035,7 +312227,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Kaşar ist ein halbfester Filata-Käse aus Kuhmilch; ähnlichstes frei verfügbares Lebensmittel ist Provolone aus Kuhmilch (ebenfalls Pasta filata). Werte unverändert übernommen (Methode similar_food); echter Kaşar kann je nach Reife/Fettstufe abweichen. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0 (Licence Ouverte); Code 12716 \"Provolone cheese, from cow's milk\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Geschätzt (Methode similar_food): Kaşar ist ein halbfester Filata-Käse aus Kuhmilch; ähnlichstes frei verfügbares Lebensmittel ist Provolone aus Kuhmilch (ebenfalls Pasta filata). Werte unverändert übernommen (Methode similar_food); echter Kaşar kann je nach Reife/Fettstufe abweichen. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 12716 \"Provolone cheese, from cow's milk\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "derived_from": "Ciqual 2025:12716",
     "method": "similar_food"
   },
@@ -312083,7 +312275,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Pastırma ist luftgetrocknetes, gepökeltes Rindfleisch; ähnlichstes frei verfügbares Lebensmittel ist Bresaola (luftgetrocknetes Rindfleisch). Werte unverändert übernommen (Methode similar_food); die Çemen-Würzkruste ist nicht berücksichtigt. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0 (Licence Ouverte); Code 28503 \"Bresaola\". Kohlenhydrate = verfügbare KH 0.49 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Geschätzt (Methode similar_food): Pastırma ist luftgetrocknetes, gepökeltes Rindfleisch; ähnlichstes frei verfügbares Lebensmittel ist Bresaola (luftgetrocknetes Rindfleisch). Werte unverändert übernommen (Methode similar_food); die Çemen-Würzkruste ist nicht berücksichtigt. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 28503 \"Bresaola\". Kohlenhydrate = verfügbare KH 0.49 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "derived_from": "Ciqual 2025:28503",
     "method": "similar_food"
   },
@@ -312228,7 +312420,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Yufka ist ein dünn ausgerollter Mehl-Wasser-Teig, ähnlich Filo/Phyllo; Werte von Ciqual \"Phyllo or filo dough, raw\" übernommen (Methode similar_food). Yufka ist etwas dicker; Fettgehalt hängt vom Hersteller ab. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0 (Licence Ouverte); Code 23445 \"Phyllo or filo dough, raw\". Kohlenhydrate = verfügbare KH 50.7 g + Ballaststoffe 1.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Geschätzt (Methode similar_food): Yufka ist ein dünn ausgerollter Mehl-Wasser-Teig, ähnlich Filo/Phyllo; Werte von Ciqual \"Phyllo or filo dough, raw\" übernommen (Methode similar_food). Yufka ist etwas dicker; Fettgehalt hängt vom Hersteller ab. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 23445 \"Phyllo or filo dough, raw\". Kohlenhydrate = verfügbare KH 50.7 g + Ballaststoffe 1.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "derived_from": "Ciqual 2025:23445",
     "method": "similar_food"
   },
@@ -316599,7 +316791,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0 (Licence Ouverte); Code 9125 \"Rice, basmati, cooked, no added salt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 32.9 g + Ballaststoffe 0.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 9125 \"Rice, basmati, cooked, no added salt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 32.9 g + Ballaststoffe 0.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:9125"
   },
   {
@@ -316640,7 +316832,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0 (Licence Ouverte); Code 9119 \"Rice, basmati, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 78.4 g + Ballaststoffe 1.06 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 9119 \"Rice, basmati, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 78.4 g + Ballaststoffe 1.06 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:9119"
   },
   {
@@ -316931,7 +317123,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0 (Licence Ouverte); Code 25565 \"Yakitori (grilled meat on skewers, Japanese-style, with sauce)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 9.3 g + Ballaststoffe 0.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 25565 \"Yakitori (grilled meat on skewers, Japanese-style, with sauce)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 9.3 g + Ballaststoffe 0.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:25565"
   },
   {
@@ -316976,7 +317168,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz Etalab 2.0 (Licence Ouverte); Code 25419 \"Spring roll\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 16.6 g + Ballaststoffe 1.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, DOI 10.57745/RDMHWY, Stand 19.11.2025, Lizenz Etalab 2.0 (Licence Ouverte); Code 25419 \"Spring roll\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 16.6 g + Ballaststoffe 1.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:25419"
   },
   {
