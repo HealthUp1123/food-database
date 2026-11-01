@@ -1,6 +1,6 @@
 CUISINE = 'dk'
 TEXT = """
-Brunkager | Danish brown cookies | G | 0.9 | 4 Stück | mehl 45, zucker 20, butter 20, zimt 1
+Brunkager | Danish brown cookies | G | 0.95 | 4 Stück | mehl 45, zucker 20, butter 20, zimt 1
 Gule ærter | Danish yellow pea soup | S | 0.95 | 1 Teller | erbsen_trocken 60, bruehe 250, schwein_bauch 60, karotte 40, sellerie 20, zwiebel 20
 Risalamande | Danish rice pudding | PU | 0.95 | 1 Schälchen | reis 30, milch 150, sahne 80, zucker 20, mandel 10, kirsche 40
 Brændende kærlighed | Burning love | B | 0.9 | 1 Teller | kartoffel 250, milch 60, butter 20, speck 40, zwiebel 40, salz 1

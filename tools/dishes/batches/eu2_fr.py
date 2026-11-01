@@ -53,7 +53,7 @@ Jambon-beurre | Jambon beurre sandwich | SN | 1.0 | 1 Baguette-Sandwich | weissb
 Madeleines | Madeleine de Commercy | G | 0.85 | 3 Stück | mehl 30, zucker 25, ei 30, butter 25, zitrone 3
 Moules marinières | Moules marinière | HFi | 0.75 | 1 Portion | muschel 200, wein_weiss 80, zwiebel 20, butter 15, petersilie 3, sahne 20, weissbrot 40
 Opéra | Gâteau opéra | K | 0.95 | 1 Stück | mandel 30, ei 50, zucker 40, mehl 10, butter 40, kaffee 20, schokolade 30, sahne 20
-Palmiers | Palmier cookie | G | 0.95 | 3 Stück | blaetterteig 50, zucker 15
+Palmiers | Palmier cookie | G | 1.0 | 3 Stück | blaetterteig 50, zucker 15
 Petit salé aux lentilles | Petit salé | E | 0.9 | 1 Teller | linsen 70, wasser 175, schwein_bauch 70, speck 20, zwiebel 30, karotte 30
 Pommes duchesse | Duchess potatoes | B | 0.9 | 5 Stück | kartoffel 200, butter 20, ei 25, milch 15
 Pot-au-feu de la mer | Seafood pot-au-feu | E | 0.95 | 1 Teller | kabeljau 100, garnele 40, muschel 40, kartoffel 120, karotte 40, lauch 40, bruehe 250, mayonnaise 15
