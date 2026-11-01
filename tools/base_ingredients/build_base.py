@@ -35,6 +35,14 @@ NOTE = {
 }
 NOTE_ESTIMATE = 'Grundzutat (zubereitet, geschätzt), kein Fertigprodukt'
 OIL = 'Rapsöl'  # Fettaufnahme beim Braten/Rösten, Werte aus der USDA-Grundzutat
+# Derselbe Marker wie in tools/carbs_net.py und tools/dishes/build.py.
+# Ohne ihn würde carbs_net.py die hier schon netto gespeicherten KH noch einmal um fiber kürzen.
+NET_MARK = '[KH netto]'
+
+def with_net_mark(src):
+    if NET_MARK in src or 'ohne Ballaststoffe' in src:
+        return src
+    return src.rstrip() + ' ' + NET_MARK
 
 def note_for(state):
     if state in RAW_STATES:
@@ -98,8 +106,16 @@ def main():
             continue
         if miss:
             missing.append((name, miss))
-        p = {'kcal': round(v['kcal']), 'protein': round(v['protein'], 1), 'carbs': round(v['carbs'], 1),
-             'fat': round(v['fat'], 1), 'fiber': round(v.get('fiber', 0.0), 1)}
+        # USDA 1005 ist Carbohydrate by difference (Gesamt-KH inkl. Ballaststoffe).
+        # Gespeichert werden verfügbare KH = max(0, Gesamt-KH − Ballaststoffe).
+        if 'fiber' in v:
+            net = max(0.0, v['carbs'] - v['fiber'])
+            fib_out = round(v['fiber'] + 1e-9, 1)
+        else:
+            net = v['carbs']
+            fib_out = None
+        p = {'kcal': round(v['kcal']), 'protein': round(v['protein'], 1), 'carbs': round(net + 1e-9, 1),
+             'fat': round(v['fat'], 1), 'fiber': fib_out}
         if 'sugar' in v:
             p['sugar'] = round(v['sugar'], 1)
         iid = slug(name)
@@ -116,7 +132,7 @@ def main():
             'per100g': p,
             'ingredients': [{'name': name, 'grams': 100}],
             'quality': 'reference',
-            'source': f'USDA FoodData Central, SR Legacy (April 2018), FDC ID {fid}: {en}',
+            'source': with_net_mark(f'USDA FoodData Central, SR Legacy (April 2018), FDC ID {fid}: {en}'),
             'fdc_id': int(fid),
         }
         if miss:
@@ -135,7 +151,7 @@ def main():
         print(f'{len(dropped_syn)} Varianten-Synonyme weggelassen (schon an anderem Eintrag vergeben):')
         for x in dropped_syn:
             print('  -', x)
-    print(f'{len(out)} Grundzutaten aus USDA erzeugt ({len(L)} Rohwaren-Liste, {len(V)} Varianten-Liste), {len(ext)} direkt aus BLS/Ciqual/CH/SE (external_list.py), {len(est)} geschätzt (estimates_list.py); ohne USDA-Wert (fiber=0 nur bei 0 g KH, sugar sonst weggelassen): {len(missing)}')
+    print(f'{len(out)} Grundzutaten aus USDA erzeugt ({len(L)} Rohwaren-Liste, {len(V)} Varianten-Liste), {len(ext)} direkt aus BLS/Ciqual/CH/SE (external_list.py), {len(est)} geschätzt (estimates_list.py); ohne USDA-Wert (fiber=null nur bei 0 g KH, sugar sonst weggelassen): {len(missing)}')
     for n, m in missing:
         print('  -', n, m)
     if write:
@@ -154,7 +170,7 @@ EXT_DB = {
 
 def external(items, ids, names, taken, dropped_syn, clashes):
     """Direkte (gemessene oder von der Datenbank rezeptberechnete) Datensätze aus BLS/CH/SE uebernehmen.
-    Kohlenhydrate: verfügbare KH + Ballaststoffe (USDA-Konvention der DB), kcal wie veröffentlicht."""
+    Kohlenhydrate: der veröffentlichte verfügbare Wert (ohne Ballaststoffe), kcal wie veröffentlicht."""
     # Namen/Synonyme der Schätzungen reservieren: z. B. "Zucchini gebraten" bleibt bei der Öl-Variante
     reserved = {norm(t) for it in E for t in [it[0]] + it[3]}
     res = []
@@ -166,8 +182,8 @@ def external(items, ids, names, taken, dropped_syn, clashes):
         dropped_syn += [f'{name}: "{x}" ({taken.get(norm(x), "estimates_list")})' for x in syn if x not in keep]
         if state not in ('raw', 'grilled', 'baked', 'fried', 'cooked'):
             raise SystemExit(f'{name}: Zustand {state} unerwartet')
-        p = {'kcal': round(kcal), 'protein': round(prot, 1), 'carbs': round(cho + fib, 1),
-             'fat': round(fat, 1), 'fiber': round(fib, 1), 'sugar': round(sug, 1)}
+        p = {'kcal': round(kcal), 'protein': round(prot, 1), 'carbs': round(cho + 1e-9, 1),
+             'fat': round(fat, 1), 'fiber': round(fib + 1e-9, 1), 'sugar': round(sug + 1e-9, 1)}
         iid = slug(name)
         assert iid not in ids, iid
         assert name.lower() not in names, name
@@ -184,7 +200,7 @@ def external(items, ids, names, taken, dropped_syn, clashes):
             'ingredients': [{'name': name, 'grams': 100}],
             'quality': 'reference',
             'source': (f'{cite}; Code {code} "{orig}". Datensatz der Datenbank ({calc}; Datenherkunft laut Quelle: {herk}). '
-                       f'Kohlenhydrate = verfügbare KH {cho} g + Ballaststoffe {fib} g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.'),
+                       f'Kohlenhydrate = verfügbare KH {cho:g} g (ohne Ballaststoffe), kcal wie veröffentlicht.'),
             'source_id': f'{short}:{code}',
         }
         res.append(e)
@@ -208,17 +224,29 @@ def estimates(items, out, ids, names, taken, dropped_syn, clashes):
         if not 0.2 <= y <= 1.5:
             raise SystemExit(f'{name}: Ausbeute {y} unplausibel')
         r = lambda k: ret.get(k, 1.0)
-        # Energie: Protein/Fett/KH-Retention gemeinsam (bei Dampf 0,95), plus Öl
+        # USDA-Rohwert ist Gesamt-KH. Verfügbare KH = Gesamt-KH − Ballaststoffe, dann dieselbe Retention.
+        raw_fib = v.get('fiber')
+        avail = v['carbs'] if raw_fib is None else max(0.0, v['carbs'] - raw_fib)
+        oil_fib = oil.get('fiber')
+        oil_avail = oil['carbs'] if oil_fib is None else max(0.0, oil['carbs'] - oil_fib)
+        # Energie: Protein/Fett/KH-Retention gemeinsam (bei Dampf 0,95), plus Öl. kcal bleibt der USDA-Energiewert.
         q = {
             'kcal': (v['kcal'] * r('carbs') + g * oil['kcal'] / 100) / y,
             'protein': v['protein'] * r('protein') / y,
-            'carbs': v['carbs'] * r('carbs') / y,
+            'carbs': (avail * r('carbs') + g * oil_avail / 100) / y,
             'fat': (v['fat'] * r('fat') + g * oil['fat'] / 100) / y,
-            'fiber': v.get('fiber', 0.0) * r('fiber') / y,
+            'fiber': None if raw_fib is None else raw_fib * r('fiber') / y,
         }
         if 'sugar' in v:
             q['sugar'] = v['sugar'] * r('carbs') / y
-        p = {k: (round(x) if k == 'kcal' else round(x, 1)) for k, x in q.items()}
+        p = {}
+        for k, x in q.items():
+            if x is None:
+                p[k] = None
+            elif k == 'kcal':
+                p[k] = round(x)
+            else:
+                p[k] = round(x + 1e-9, 1)
         iid = slug(name)
         assert iid not in ids, iid
         assert name.lower() not in names, name
@@ -235,8 +263,9 @@ def estimates(items, out, ids, names, taken, dropped_syn, clashes):
             'per100g': p,
             'ingredients': ing,
             'quality': 'estimate',
-            'source': (f'Geschätzt aus {base_name} ({b["source"]}). {m["src"]}. '
-                       f'Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.'),
+            'source': with_net_mark(
+                f'Geschätzt aus {base_name} ({b["source"]}). {m["src"]}. '
+                f'Formel: pro 100 g zubereitet = (roh x Retention + Fettaufnahme) / Ausbeute.'),
             'derived_from': b['id'],
         }
         if 'source_missing' in b:

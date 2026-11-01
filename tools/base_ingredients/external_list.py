@@ -3,7 +3,8 @@
 # Felder: (Name, Zustand, [Synonyme], DB, Code, Originalbezeichnung, (kcal, Protein, Fett, KH verfügbar, Ballaststoffe, Zucker), Datenherkunft)
 # DB: BLS = Bundeslebensmittelschlüssel 4.0 (MRI, CC BY 4.0); CH = Schweizer Nährwertdatenbank V7.1 (BLV, frei mit Quellenangabe);
 #     SE = Livsmedelsverket Livsmedelsdatabasen (CC BY 4.0).
-# Kohlenhydrate werden im Builder als KH verfügbar + Ballaststoffe gespeichert (USDA-Konvention der DB); kcal wie veröffentlicht.
+# Kohlenhydrate in der Liste sind verfügbare KH (ohne Ballaststoffe), wie von BLS/Ciqual/CH/SE veröffentlicht.
+# Der Builder speichert diesen Wert in per100g.carbs; Ballaststoffe bleiben in per100g.fiber. kcal wie veröffentlicht.
 X=[
 ('Zucchini, gegrillt','grilled',['gegrillte Zucchini', 'Zucchini vom Grill', 'Grillzucchini'],'BLS','G582172','Zucchini gegrillt',(46,2.8,0.638,6,2.4,4.5),'Formelberechnung, Rezeptberechnung'),
 ('Champignons, gegrillt','grilled',['gegrillte Champignons', 'Champignon gegrillt', 'Grillchampignons', 'Pilze gegrillt'],'BLS','K701172','Champignon gegrillt',(44,5.57,0.422,4.5,2.9,0.3),'Formelberechnung, Rezeptberechnung'),

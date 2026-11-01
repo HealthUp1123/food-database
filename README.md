@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/HealthUp1123/food-database/main/data/foods.jso
 
 **Datenstand (29.10.2026, Welle 3 + Grundzutaten + Zubereitungsvarianten + BLS/Ciqual/CH/SE-Zubereitungen + geschätzte Zubereitungen):** 4926 Einträge. Davon sind 4245 Gerichte (`type: "dish"`, `quality: "estimate"`) aus 49 Küchen – tr 926, de 668, übrige Europa/Kaukasus 2651; davon 2119 mit `off_similar`-Hinweis, 0 Fertigprodukte entfernt. Dazu kommen 681 Grundzutaten (`type: "item"`, `prepared: "base_ingredient"`; 604 aus USDA FoodData Central SR Legacy, 56 direkt aus BLS 4.0 (47), Schweizer Nährwertdatenbank (5), Ciqual 2025 (2) und Livsmedelsverket (2); 660 `quality: "reference"`, 21 `quality: "estimate"`): Gemüse 277, Obst 91, Getreide/Teigwaren/Brot 57, Fisch & Meeresfrüchte 50, Milchprodukte & Eier 47, Fleisch 40, Nüsse & Samen 36, Hülsenfrüchte 34, Geflügel 32, Fette & Öle 11, Zucker & Salz 6. Davon sind 309 Zubereitungs- und Haltbarkeitsvarianten mit eigenem USDA-Datensatz (z. B. `tomate-getrocknet`, `tomatenmark`, `haehnchenbrust-gegrillt`, `erbsen-gruen-tiefgekuehlt`, `mandeln-geroestet`) sowie 56 Gemüse-Zubereitungen mit direktem Datensatz aus einer nationalen Nährwertdatenbank (`source_id`, z. B. `zucchini-gegrillt` = BLS 4.0 G582172, `kuerbis-im-ofen-gebacken`, `paprika-gelb-gebraten-ohne-fett`, `rote-bete-gedaempft` = CH 1019, `suesskartoffel-wedges-im-ofen-mit-oel` = Livsmedelsverket 3771, `spargel-weiss-roh` = Ciqual 20282) und 21 geschätzte Gemüse-Zubereitungen ohne direkten Datensatz (z. B. `zucchini-in-oel-gebraten`, `brokkoli-gedaempft`, aus der rohen Grundzutat mit Ausbeute-, Retentions- und Fettaufnahmefaktoren aus CoFID 2021 und Bognár 2002 berechnet); nach Zustand: cooked 129, processed 75, dry 46, dried 42, canned 41, fried 40, baked 39, grilled 35, frozen 27, roasted 16, smoked 4, raw 187.
 
-**Grundzutaten** sind rohe oder kaum verarbeitete Basis-Lebensmittel (z. B. `tomate-roh`, `haferflocken`, `haehnchenbrust-roh`) und ihre üblichen Zubereitungen (z. B. `tomate-getrocknet`, `haehnchenbrust-gegrillt`), keine Fertig- oder Markenprodukte. Sie tragen `note: "Grundzutat, kein Fertigprodukt"` (Varianten z. B. `"Grundzutat (zubereitet), kein Fertigprodukt"`), `category: "Grundzutat: …"`, `cuisine: "int"`, `unit: "g"`, den Zustand in `state` und den Quelldatensatz in `fdc_id` (USDA) bzw. `source_id` (andere Datenbanken, z. B. `BLS 4.0:G582172`) und `source`. Die Werte sind 1:1 aus der Quelle übernommen und nur gerundet (bei BLS, Ciqual, CH und SE: Kohlenhydrate = verfügbare KH + Ballaststoffe, damit sie wie bei USDA Gesamt-KH sind); Ausnahme sind die geschätzten Zubereitungen (`quality: "estimate"`, `note: "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt"`, `derived_from` = ID der rohen Grundzutat, Faktoren und Quellen in `source`). Details: [`tools/base_ingredients/README.md`](tools/base_ingredients/README.md).
+**Grundzutaten** sind rohe oder kaum verarbeitete Basis-Lebensmittel (z. B. `tomate-roh`, `haferflocken`, `haehnchenbrust-roh`) und ihre üblichen Zubereitungen (z. B. `tomate-getrocknet`, `haehnchenbrust-gegrillt`), keine Fertig- oder Markenprodukte. Sie tragen `note: "Grundzutat, kein Fertigprodukt"` (Varianten z. B. `"Grundzutat (zubereitet), kein Fertigprodukt"`), `category: "Grundzutat: …"`, `cuisine: "int"`, `unit: "g"`, den Zustand in `state` und den Quelldatensatz in `fdc_id` (USDA) bzw. `source_id` (andere Datenbanken, z. B. `BLS 4.0:G582172`) und `source`. Die Werte sind 1:1 aus der Quelle übernommen und nur gerundet; Ausnahme sind die geschätzten Zubereitungen (`quality: "estimate"`, `note: "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt"`, `derived_from` = ID der rohen Grundzutat, Faktoren und Quellen in `source`). `per100g.carbs` sind überall verfügbare Kohlenhydrate ohne Ballaststoffe: bei BLS, Ciqual, CoFID, CH, SE und FNDDS der in der Quelle dokumentierte verfügbare Wert, bei USDA SR Legacy und bei den geschätzten Zubereitungen Gesamt-KH minus Ballaststoffe, nie unter 0. Details: [`tools/base_ingredients/README.md`](tools/base_ingredients/README.md).
 
 ### Erweiterung Welle 4 (30.10.2026)
 
@@ -30,7 +30,7 @@ https://raw.githubusercontent.com/HealthUp1123/food-database/main/data/foods.jso
 | Asiatische Küche | 91 | – | `pad-thai-mit-haehnchen`, `chicken-korma`, `miso-suppe` |
 | Getränke inkl. alkoholischer Getränke | 71 | – | `pils-alkoholfrei`, `rotwein-halbtrocken`, `gin-tonic` |
 
-Quellen: BLS 4.0 (235), USDA FNDDS 2021–2023 (62, `fdc_id`), CoFID 2021 (25), Ciqual 2025 (4). Neu sind das optionale Feld `per100g.alcohol` (Ethanol in g/100 g, bei 52 Einträgen), die Felder `method` und `derived_from` auch für geschätzte Nicht-Gemüse-Einträge, `source_missing` auch für `protein`/`fat` (fehlen bei Getränken in der Quelle, dann als 0 eingetragen), die Küchen `cn`, `jp`, `kr`, `th`, `vn`, `in`, `id` sowie die Kategorien `Grundzutat: Wurst & Schinken` und `Grundzutat: Würzmittel & Aufstriche`. Getränke sind `type: "item"` ohne `prepared`; Gerichte aus FNDDS/BLS/CoFID sind `type: "dish"` mit `quality: "reference"` (generische Rezeptdatensätze, keine Markenprodukte). Werte pro 100 g; bei Getränken entsprechen 100 g näherungsweise 100 ml (Dichte ≈ 1; bei Spirituosen etwas weniger).
+Quellen: BLS 4.0 (235), USDA FNDDS 2021–2023 (62, `fdc_id`), CoFID 2021 (25), Ciqual 2025 (4). Neu sind das optionale Feld `per100g.alcohol` (Ethanol in g/100 g, bei 52 Einträgen), die Felder `method` und `derived_from` auch für geschätzte Nicht-Gemüse-Einträge, `source_missing` auch für `protein`/`fat` (fehlen bei Getränken in der Quelle, dann `null`), die Küchen `cn`, `jp`, `kr`, `th`, `vn`, `in`, `id` sowie die Kategorien `Grundzutat: Wurst & Schinken` und `Grundzutat: Würzmittel & Aufstriche`. Getränke sind `type: "item"` ohne `prepared`; Gerichte aus FNDDS/BLS/CoFID sind `type: "dish"` mit `quality: "reference"` (generische Rezeptdatensätze, keine Markenprodukte). Werte pro 100 g; bei Getränken entsprechen 100 g näherungsweise 100 ml (Dichte ≈ 1; bei Spirituosen etwas weniger).
 
 Nicht doppelt angelegt wurden 41 Quelldatensätze, deren Lebensmittel bereits existiert, meist als Schätzwert (z. B. `pils`, `rotwein-trocken`, `cappuccino`, `lahmacun-durum`, `tavuk-wrap`). Sie sind Kandidaten für ein späteres Upgrade auf `reference`; die Liste gibt `build_extension.py --report` aus.
 
@@ -56,6 +56,8 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
 
 ## Datenformat
 
+**`per100g.carbs` sind verfügbare Kohlenhydrate ohne Ballaststoffe** (Gramm pro 100 g). Ballaststoffe stehen nur in `per100g.fiber` und werden nicht noch einmal in `carbs` mitgezählt. Wer Energie schätzt, rechnet `4·carbs + 2·fiber + 4·protein + 9·fat + 7·alcohol`. Die App darf `fiber` nicht von `carbs` abziehen. `null` in `per100g` heißt „in der Quelle unbekannt“ und ist nur bei `protein`, `fat`, `fiber` oder `sugar` erlaubt, und nur wenn dasselbe Feld in `source_missing` steht. **`kcal` und `carbs` sind nie `null`.** Gemessene Nullen bleiben `0`. Die Pflichtfelder `kcal`, `carbs`, `protein`, `fat` und `fiber` sind immer vorhanden.
+
 `data/foods.json` ist ein Array. Ein Eintrag:
 
 ```json
@@ -70,7 +72,7 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
   "category": "Gemüse mit Fleisch",
   "prepared": "homemade",
   "is_packaged_product": false,
-  "per100g": { "kcal": 104, "protein": 3.9, "carbs": 5.0, "fat": 7.8, "fiber": 2.2 },
+  "per100g": { "kcal": 103, "protein": 3.9, "carbs": 3.0, "fat": 7.8, "fiber": 2.1 },
   "portion": { "label": "1 Portion (2 Hälften)", "grams": 445 },
   "ingredients": [
     { "name": "Aubergine", "grams": 250 },
@@ -100,10 +102,10 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
 | `source_id` | nein | Kennung des Quelldatensatzes außerhalb von USDA als `Datenbank:Code` (nicht-leerer String), z. B. `BLS 4.0:G582172`, `CH 7.1:1019`, `Ciqual 2025:20282`, `Livsmedelsverket:3771`, `CoFID 2021:13-642`. |
 | `derived_from` | nein | Nur bei `quality: "estimate"`: ID der Grundzutat (z. B. `tomate-roh`) oder Quellkennung (z. B. `Ciqual 2025:12716`), aus der die Werte abgeleitet wurden; String oder Array von Strings. |
 | `method` | nein | Schätzmethode: `"yield_factor"` (Ausbeute-/Retentionsfaktoren), `"similar_food"` (Werte eines vergleichbaren Lebensmittels) oder `"recipe"` (Rezeptberechnung). |
-| `source_missing` | nein | Nährwerte, die in der Quelle fehlen (`"protein"`, `"fat"`, `"fiber"`, `"sugar"`). `protein`/`fat`/`fiber` stehen dann als 0 in `per100g`, `sugar` fehlt ganz. |
+| `source_missing` | nein | Nährwerte, die in der Quelle unbekannt sind (`"protein"`, `"fat"`, `"fiber"`, `"sugar"`). `protein`/`fat`/`fiber` stehen dann als `null` in `per100g` (der Schlüssel bleibt). `sugar` fehlt oder ist `null`. `kcal` und `carbs` stehen hier nicht: sie sind nie `null`. Ohne diesen Eintrag ist `null` ungültig. |
 | `is_packaged_product` | nein | `false` bei Gerichten. `true` wäre nur für `type: "item"` mit Barcode sinnvoll; bei `type: "dish"` ist `true` ungültig. |
 | `off_similar` | nein | Bis zu 3 Open-Food-Facts-Barcodes (6–14 Ziffern) ähnlich benannter Fertigprodukte. Nur ein Hinweis; das Gericht bleibt ein eigener Eintrag. |
-| `per100g` | ja | `kcal` (0–950), `protein`, `carbs`, `fat`, `fiber` (je 0–100 g pro 100 g), optional `sugar` (0–100 g) und `alcohol` (Ethanol, 0–100 g). Protein + Kohlenhydrate + Fett ≤ 100 g (0,15 g Rundungstoleranz). |
+| `per100g` | ja | `kcal` (Zahl, 0–950, nie `null`), `carbs` (Zahl, 0–100, nie `null`, **verfügbare Kohlenhydrate ohne Ballaststoffe**), `protein`, `fat`, `fiber` (je 0–100 g oder `null`). Optional `sugar` (0–100 g oder `null`) und `alcohol` (Ethanol, 0–100 g). Protein + verfügbare Kohlenhydrate + Ballaststoffe + Fett ≤ 100 g (0,15 g Rundungstoleranz; `null` zählt in der Summe als 0). |
 | `portion` | nein | Typische Portion: `label` (Text) und `grams` (> 0, max. 5000). Die App rechnet damit von 100 g auf die Portion um. |
 | `ingredients` | ja | Zutaten der zugrunde gelegten Portion: `{ "name", "grams" }`, `grams` > 0. Das sind Rezeptmengen, keine zweite Nährwertquelle. |
 | `quality` | ja | `"estimate"` (berechnet, wie bei den 4245 Gerichten bis Welle 3), `"reference"` (aus einer amtlichen Nährwertdatenbank übernommen, wie bei 660 der 681 Grundzutaten) oder `"verified"` (später mit geprüften Werten überschrieben). Die 21 geschätzten Grundzutat-Zubereitungen und die 5 geschätzten türkischen Grundzutaten sind `"estimate"`; seit Welle 4 sind auch 101 Gerichte und 73 Getränke `"reference"` (direkter Quelldatensatz). |
@@ -160,9 +162,9 @@ Solange `quality` auf `"estimate"` steht, gelten die berechneten Rezeptwerte. Di
 node scripts/validate.mjs
 ```
 
-Prüft Pflichtfelder (einschließlich `cuisine`, `category`, `ingredients`, `quality`, `source`), die optionalen Felder `prepared`, `is_packaged_product`, `off_similar`, `state`, `unit`, `note`, `fdc_id`, `source_id`, `source_missing`, `derived_from`, `method`, `per100g.sugar` und `per100g.alcohol`, die Regeln für Grundzutaten (`type: "item"`, kein Barcode, kein Fertigprodukt), Wertebereiche (kcal 0–950, Makros 0–100 g, Protein + Kohlenhydrate + Fett ≤ 100 g + 0,15 g Rundung), eindeutige `id`s, eindeutige Barcodes und die EAN-Prüfziffer. **`barcode: null` ist erlaubt** und erzeugt keinen Fehler. Ein Gericht mit `is_packaged_product: true` ist ein Fehler.
+Prüft Pflichtfelder (einschließlich `cuisine`, `category`, `ingredients`, `quality`, `source`), die optionalen Felder `prepared`, `is_packaged_product`, `off_similar`, `state`, `unit`, `note`, `fdc_id`, `source_id`, `source_missing`, `derived_from`, `method`, `per100g.sugar` und `per100g.alcohol`, die Regeln für Grundzutaten (`type: "item"`, kein Barcode, kein Fertigprodukt), Wertebereiche (kcal 0–950, `carbs` 0–100, beides nie `null`; `protein`/`fat`/`fiber` 0–100 g oder `null`; Protein + verfügbare Kohlenhydrate + Ballaststoffe + Fett ≤ 100 g + 0,15 g Rundung), eindeutige `id`s, eindeutige Barcodes und die EAN-Prüfziffer. **`barcode: null` ist erlaubt** und erzeugt keinen Fehler. **`null` bei `protein`, `fat` oder `fiber` ist nur erlaubt**, wenn das Feld in `source_missing` steht. Ein Gericht mit `is_packaged_product: true` ist ein Fehler.
 
-Weicht `kcal` stark von `4·Protein + 4·Kohlenhydrate + 9·Fett` (+ `7·alcohol`, falls gesetzt) ab, gibt es eine **Warnung**, keinen Fehler. Erwartet sind derzeit 33 Warnungen: ältere geschätzte Getränke mit Alkohol ohne `alcohol`-Feld (Ethanol liefert etwa 7 kcal/g) und ballaststoffreiche Grundzutaten wie Kleie und getrocknete Kräuter. Die früheren BLS-Datensätze `knoblauch-im-ofen-gebacken` und `knoblauch-gebraten-ohne-fett` sind durch Ciqual 2025 ersetzt; ihre Fructan-Warnung entfällt.
+Weicht `kcal` stark von `4·Protein + 4·verfügbare Kohlenhydrate + 2·Ballaststoffe + 9·Fett` (+ `7·alcohol`, falls gesetzt) ab, gibt es eine **Warnung**, keinen Fehler. Ist `protein`, `fat` oder `fiber` `null`, läuft die Prüfung trotzdem; der Summand zählt als 0. Erwartet sind derzeit 30 Warnungen: 29 ältere geschätzte Getränke mit Alkohol ohne `alcohol`-Feld (Ethanol liefert etwa 7 kcal/g) und `haferkleie-roh` (USDA rechnet dort mit spezifischen Energiefaktoren, nicht mit den pauschalen 4/2/9 kcal/g). Die früheren BLS-Datensätze `knoblauch-im-ofen-gebacken` und `knoblauch-gebraten-ohne-fett` sind durch Ciqual 2025 ersetzt; ihre Fructan-Warnung entfällt.
 
 Bei echten Fehlern ist der Exit-Code `1`. Es braucht nur Node ≥ 20, keine Installation. Die GitHub Action `.github/workflows/validate.yml` läuft bei jedem Push und Pull Request.
 
@@ -248,7 +250,15 @@ Das ist bei diesem Datenumfang (5257 Einträge) praktikabel. Für die Zutatenlis
 ```ts
 const API = "https://food-database-api.<dein-account>.workers.dev";
 
-type Nutrients = { kcal: number; protein: number; carbs: number; fat: number; fiber: number; sugar?: number; alcohol?: number };
+type Nutrients = {
+  kcal: number; // nie null
+  protein: number | null;
+  carbs: number; // verfügbare Kohlenhydrate ohne Ballaststoffe, g/100 g; nie null
+  fat: number | null;
+  fiber: number | null;
+  sugar?: number | null;
+  alcohol?: number;
+};
 type Food = {
   id: string;
   name: string;
@@ -307,7 +317,7 @@ export async function lookupBarcode(ean: string): Promise<Food | null> {
 }
 
 export const nutrientsFor = (f: Food, grams: number) =>
-  Object.fromEntries(Object.entries(f.per100g).map(([k, v]) => [k, +(v * grams / 100).toFixed(1)]));
+  Object.fromEntries(Object.entries(f.per100g).map(([k, v]) => [k, v == null ? null : +(v * grams / 100).toFixed(1)]));
 ```
 
 `onSearchInput(inputEl.value, renderList)` im `input`-Event des Suchfelds aufrufen. Die Trefferliste hat Nährwerte pro 100 g, aber keine Zutaten; die holst du bei Bedarf mit `lookupItem(id)`. Werte mit `quality: "estimate"` in der Oberfläche als Schätzung kennzeichnen.
@@ -320,7 +330,9 @@ Rezepttexte und die Zutaten-Referenz liegen unter `tools/dishes/` (`build.py`, `
 python3 build.py
 ```
 
-Das schreibt dort `foods.json`, eine aktualisierte `ingredients.json` und `build_report.txt`. `data/foods.json` nicht blind überschreiben: IDs, Namen, `off_similar` und die Grundzutaten bleiben, aus dem Build kommen `per100g`, Portionsgramm, die Zutatenliste und der Quelltext der Rezeptgerichte. Danach den OFF-Abgleich (`tools/off_check.py`, siehe BUILD_NOTES) nur für neue Gerichte. `node scripts/validate.mjs` laufen lassen. Nicht committen: `build_report.txt`, `__pycache__/`, `*.log`, `off_dump/`, `off_check_cache.sqlite`, `off_check_status*.json`, `*.duckdb`.
+Das schreibt dort `foods.json`, eine aktualisierte `ingredients.json` und `build_report.txt`. Die Zutatentabelle bleibt bei Gesamt-Kohlenhydraten. `build.py` speichert im Gericht die verfügbare Menge `max(0, Kohlenhydrate − Ballaststoffe)` der Zutat und hängt an `source` den Marker `[KH netto]`. `build_base.py` setzt denselben Marker an USDA-Grundzutaten und geschätzte Zubereitungen. Ein Neubau bleibt damit netto. `data/foods.json` nicht blind überschreiben: IDs, Namen, `off_similar` und die Grundzutaten bleiben. Aus dem Build kommen die `carbs` der Rezeptgerichte, nicht eine nachträgliche Differenz auf dem fertigen Gericht; bei einem vollen Übernehmen auch das übrige `per100g`, Portionsgramm, die Zutatenliste und der Quelltext. Danach den OFF-Abgleich (`tools/off_check.py`, siehe BUILD_NOTES) nur für neue Gerichte. `node scripts/validate.mjs` laufen lassen. Nicht committen: `build_report.txt`, `__pycache__/`, `*.log`, `off_dump/`, `off_check_cache.sqlite`, `off_check_status*.json`, `*.duckdb`.
+
+Die übrigen Einträge stellt [`tools/carbs_net.py`](tools/carbs_net.py) um (`--write`): dokumentierte verfügbare KH aus `source` bleiben der Quellwert, alle anderen werden `carbs − fiber` mit der dann aktuellen `fiber`, nie unter 0. Unbekannte Werte aus `source_missing` werden `null`. Jeder umgestellte Eintrag trägt danach `ohne Ballaststoffe` oder `[KH netto]`. Ein zweiter Lauf überspringt diese Einträge einzeln.
 
 ## Roadmap
 

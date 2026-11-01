@@ -110,39 +110,52 @@ class Builder:
         return self.df.loc[src]
 
     def values(self, src, r, allow_fill=False):
-        """per100g + source_missing + Text zur KH-Herleitung. None = nicht verwendbar."""
+        """per100g + source_missing + Text zur KH-Herleitung. None = nicht verwendbar.
+
+        carbs ist die verfügbare Menge (Spalte cho), ohne Ballaststoffe.
+        Fehlende protein/fat/fiber werden null (und in source_missing genannt), fehlender Zucker weggelassen.
+        """
         if isnan(r.kcal):
             return None, 'kcal fehlt in der Quelle'
-        miss, fills = [], []
-        def get(col, key):
+        miss = []
+        def num(col):
             v = r[col]
-            if isnan(v):
-                if allow_fill or key in ('fiber', 'sugar'):
-                    miss.append(key); return 0.0
-                return None
-            return float(v)
-        prot, fat, cho = get('prot', 'protein'), get('fat', 'fat'), get('cho', 'carbs_available')
-        if None in (prot, fat, cho):
+            return None if isnan(v) else float(v)
+        prot, fat, cho = num('prot'), num('fat'), num('cho')
+        if cho is None:
             return None, 'Protein/Fett/KH fehlt in der Quelle'
-        fib = r.fib
-        if isnan(fib):
+        if prot is None:
+            if not allow_fill:
+                return None, 'Protein/Fett/KH fehlt in der Quelle'
+            miss.append('protein')
+        if fat is None:
+            if not allow_fill:
+                return None, 'Protein/Fett/KH fehlt in der Quelle'
+            miss.append('fat')
+        fib = num('fib')
+        if fib is None:
             if cho <= 3 or allow_fill:
-                fib = 0.0; miss.append('fiber')
+                miss.append('fiber')
             else:
-                return None, f'Ballaststoffe fehlen in der Quelle bei {cho:g} g KH'
-        fib = float(fib)
-        p = {'kcal': int(round(float(r.kcal) + 1e-9)), 'protein': r1(prot), 'carbs': r1(cho + fib), 'fat': r1(fat), 'fiber': r1(fib)}
+                return None, f'Ballaststoffe fehlen in der Quelle bei {cho:g} g verfügbaren KH'
+        p = {
+            'kcal': int(round(float(r.kcal) + 1e-9)),
+            'protein': None if prot is None else r1(prot),
+            'carbs': r1(cho),
+            'fat': None if fat is None else r1(fat),
+            'fiber': None if fib is None else r1(fib),
+        }
         if isnan(r.sug):
             miss.append('sugar')
         else:
-            p['sugar'] = r1(min(float(r.sug), cho + fib))
+            p['sugar'] = r1(min(float(r.sug), cho + (0.0 if fib is None else fib)))
         alc = r.get('alc')
         if not isnan(alc) and float(alc) >= 0.05:
             p['alcohol'] = r1(alc)
         miss = [m for m in ('protein', 'fat', 'fiber', 'sugar') if m in miss]
-        ktxt = f'Kohlenhydrate = verfügbare KH {cho:g} g + Ballaststoffe {fib:g} g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.'
+        ktxt = f'Kohlenhydrate = verfügbare KH {cho:g} g (ohne Ballaststoffe), kcal wie veröffentlicht.'
         if miss:
-            ktxt += ' In der Quelle nicht angegeben: ' + ', '.join({'protein': 'Protein', 'fat': 'Fett', 'fiber': 'Ballaststoffe', 'sugar': 'Zucker'}[m] for m in miss) + (' (als 0 g gesetzt, außer Zucker).' if any(m != 'sugar' for m in miss) else '.')
+            ktxt += ' In der Quelle nicht angegeben: ' + ', '.join({'protein': 'Protein', 'fat': 'Fett', 'fiber': 'Ballaststoffe', 'sugar': 'Zucker'}[m] for m in miss) + (' (als null gesetzt, außer Zucker).' if any(m != 'sugar' for m in miss) else '.')
         return (p, miss, ktxt), None
 
     def cite(self, src, r, ktxt):

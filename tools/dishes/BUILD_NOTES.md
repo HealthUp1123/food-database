@@ -11,7 +11,7 @@
 
 ## Plausibilitätsprüfungen (`build.py`, Exit 1 bei Fehlern)
 - unbekannte Zutat, doppelte ID/Name, Garfaktor außerhalb 0,5–1,05 → Fehler
-- kcal ≈ 4·Eiweiß + 4·KH + 9·Fett (±15 %, min. ±12 kcal), Eiweiß+KH+Fett ≤ 100 g, kcal 0–950, Ballaststoffe ≤ KH
+- kcal ≈ 4·Eiweiß + 4·verfügbare KH + 2·Ballaststoffe + 9·Fett (±15 %, min. ±12 kcal, zusätzlich 2 kcal je g Ballaststoffe, weil die Zutaten-kcal Ballaststoffe oft noch mit ~4 kcal/g führen). Eiweiß + verfügbare KH + Ballaststoffe + Fett ≤ 100 g, kcal 0–950. `per100g.carbs` ist die verfügbare Menge (Zutatentabelle bleibt Gesamt-KH, der Generator zieht die Ballaststoffe der Zutat ab).
 - **Alkohol-Ausnahme:** Einträge mit Wein/Bier (Glühwein, Bier, Weinschorle, Bowle, Federweißer …) liegen bewusst über der Makro-Schätzung (Alkohol ≈ 7 kcal/g); geprüft wird nur, dass kcal nicht darunter liegen. Der Repo-Validator zeigt dafür 3 Warnungen (Weißwein, Rotwein, Glühwein) – erwartet.
 - Zusätzlich: Repo-Validator `scripts/validate.mjs` → 2884 gültig (angepasste Kopie in `repo_patch/`, siehe unten).
 
@@ -76,7 +76,7 @@ Dump neu aufbauen: `off_check.py dump-index --csv off_dump/en.openfoodfacts.org.
 
 ## Fachprüfung D4 (November 2026)
 
-Die Zutatentabelle hat jetzt 323 Einträge. Jeder Wert unten ist in der genannten Quelle nachgeschlagen; wo die Rundung von der Prüfungsnäherung abweicht, gilt die Quelle. Kohlenhydrate bleiben Gesamt-KH (verfügbare KH plus Ballaststoffe). Ein allgemeiner Fettverlust ist nicht ins Rechenmodell eingebaut. Gegarte Gerichte, die sonst den rohen Satz noch einmal aufkonzentrieren würden, nutzen einen gegarten Datensatz und den Garfaktor 1,0.
+Die Zutatentabelle hat jetzt 323 Einträge. Jeder Wert unten ist in der genannten Quelle nachgeschlagen; wo die Rundung von der Prüfungsnäherung abweicht, gilt die Quelle. In `ingredients.json` bleiben die Kohlenhydrate Gesamt-KH (verfügbare KH plus Ballaststoffe). `build.py` schreibt ins Gericht die verfügbare Menge (Gesamt-KH der Zutat minus Ballaststoffe) und den Marker `[KH netto]`, damit ein Neubau netto bleibt. Ein allgemeiner Fettverlust ist nicht ins Rechenmodell eingebaut. Gegarte Gerichte, die sonst den rohen Satz noch einmal aufkonzentrieren würden, nutzen einen gegarten Datensatz und den Garfaktor 1,0.
 
 - Schweinebauch: BLS 4.0 U642100, roh, wie gewachsen. ENERCC 324, PROT625 17,74, Fett 28,06, CHO 0, FIBT 0, FIBHMW 0. Gespeichert 324/17,7/0/28,1/0. USDA 167812 (53 g Fett) ist entfernt.
 - Schweinegrieben: CoFID 2021 18-216, gegart, 550/36,2/0/45,0, NSP 0, AOAC nicht bestimmt. Torresmos 65 g (bisher 100 g roh × 0,65), Jumări 100 g (bisher 200 g roh × 0,5), Sremski čvarci 80 g. Der Garfaktor ist 1,0. Der alte Jumări-Faktor 0,5 auf dem schon gegarten Satz würde Protein und Fett verdoppeln (über 100 g und über 950 kcal). Die gegarte Masse entspricht dem alten Rezept.

@@ -118,7 +118,8 @@ assert.equal(t.body.source_id, 'BLS 4.0:G582172');
 assert.equal(t.body.fdc_id, undefined);
 assert.ok(t.body.source.startsWith('Max Rubner-Institut (2025): Bundeslebensmittelschlüssel'));
 assert.equal(t.body.per100g.kcal, 46);
-assert.equal(t.body.per100g.carbs, 8.4); // 6,0 g verfügbare KH + 2,4 g Ballaststoffe
+assert.equal(t.body.per100g.carbs, 6); // verfügbare KH, Ballaststoffe 2,4 g stehen nur in fiber
+assert.equal(t.body.per100g.fiber, 2.4);
 t = await get('/search?q=tomate%20gegrillt&limit=3');
 assert.equal(t.body.results[0].id, 'tomate-gegrillt');
 t = await get('/item/tomate-gegrillt');
@@ -132,6 +133,15 @@ t = await get('/search?q=s%C3%BC%C3%9Fkartoffel%20wedges&limit=3');
 assert.equal(t.body.results[0].id, 'suesskartoffel-wedges-im-ofen-mit-oel');
 t = await get('/item/suesskartoffel-wedges-im-ofen-mit-oel');
 assert.equal(t.body.source_id, 'Livsmedelsverket:3771');
+// Unbekannt in der Quelle: null, und nur dann. Gemessene Null bleibt 0.
+t = await get('/item/ginger-ale');
+assert.equal(t.body.per100g.protein, null);
+assert.ok(t.body.source_missing.includes('protein'));
+assert.equal(t.body.per100g.fat, 0);
+t = await get('/item/garnelen-roh');
+assert.equal(t.body.per100g.fiber, null);
+assert.equal(t.body.per100g.carbs, 0);
+assert.ok(t.body.source_missing.includes('fiber'));
 
 // Mehrsprachige Namen (names/aliases): Suche in allen Sprachen, akzent- und groß/klein-unabhängig.
 t = await get('/item/tomate-roh');

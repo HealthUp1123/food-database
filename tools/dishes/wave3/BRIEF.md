@@ -13,7 +13,7 @@ Projekt: /workspace/dishes2 (lies BUILD_NOTES.md). Bestand: 2884 Gerichte, Liste
    - KAT: einer der Codes aus build.py CATS (S,E,HF,HG,HFi,HV,GZ,GM,KB,KF,DO,T,V,D,G,FR,GT,B,SA,BR,K,RP,HH,SN,SD,WU,BO,PI,MA,KN,NA,FL,EI,PF,PZ,AU,KO,KR …) – lies die vollständige Liste in build.py Zeile 18ff.
    - Garfaktor 0.5–1.05 (gegart/roh); beim Kochen aufgenommenes Wasser als `wasser`/`bruehe`.
    - Zutaten-Keys NUR aus /workspace/dishes2/ingredients.json oder deiner eigenen Datei ingredients_add (siehe unten).
-   - Plausibel: kcal ≈ 4·P+4·KH+9·F (±15 %), Portion meist 80–1200 kcal, kcal/100 g ≤ 560 (Ausnahme reine Fettgerichte, begründen), Ballaststoffe ≤ KH. Alkoholika ausgenommen.
+   - Plausibel (auf der damaligen Gesamt-KH-Basis dieser Welle): kcal ≈ 4·P+4·KH+9·F (±15 %), Portion meist 80–1200 kcal, kcal/100 g ≤ 560 (Ausnahme reine Fettgerichte, begründen), Ballaststoffe ≤ KH. Alkoholika ausgenommen. `build.py` speichert seit der Netto-Umstellung verfügbare KH (Gesamt-KH der Zutat minus Ballaststoffe) und prüft 4·KH + 2·Ballaststoffe.
 5. Neue Zutaten in deine Datei `key|Name (de)|kcal|protein|carbs|fat|fiber` (pro 100 g, Präfix deines Teams), nur wenn wirklich nötig. Vorher prüfen, ob die x1_–x4_-Zutaten (in ingredients_add_1..4.txt) schon passen – die darfst du mitbenutzen.
 6. Sanity-Check per Python am Ende: Format (7 Felder), Keys existieren, keine Duplikate untereinander und gegen Bestand, Werte plausibel (Nährwerte aus Zutaten ausrechnen).
 

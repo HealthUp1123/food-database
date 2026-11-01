@@ -19,13 +19,13 @@ Die Werte werden nur übernommen und gerundet (kcal ganzzahlig, Makros auf 0,1 g
 | --- | --- |
 | `kcal` | 1008 Energy (KCAL) |
 | `protein` | 1003 Protein |
-| `carbs` | 1005 Carbohydrate, by difference |
+| `carbs` | 1005 Carbohydrate, by difference, minus 1079 Fiber (verfügbare KH, nie unter 0) |
 | `fat` | 1004 Total lipid (fat) |
 | `fiber` | 1079 Fiber, total dietary |
 | `sugar` | 2000 Sugars, total (optional) |
 
 Fehlt in USDA ein Wert, steht er in `source_missing`:
-- `fiber` fehlt nur bei Lebensmitteln mit 0 g Kohlenhydraten (Fleisch, Fisch, Öl usw.). Dort wird `fiber: 0` gesetzt.
+- `fiber` fehlt nur bei Lebensmitteln mit 0 g Kohlenhydraten (Fleisch, Fisch, Öl usw.). Dort wird `fiber: null` gesetzt.
   Lebensmittel mit Kohlenhydraten und ohne USDA-Ballaststoffwert wurden nicht aufgenommen.
 - `sugar` fehlt bei 73 Einträgen (23 Basis, 50 Varianten) und wird dann weggelassen (kein Schätzwert).
 
@@ -101,7 +101,7 @@ Gerichte mit gleichem Synonym (z. B. „Ofenzucchini“, „Ofenaubergine“, �
 
 **Rezeptberechnet heißt hier: von der Datenbank selbst berechnet.** Die BLS-Werte für zubereitetes Gemüse sind laut BLS-Spalte „Datenherkunft“ eine *Rezeptberechnung* (Rohware mit Gewichts- und Nährstoffveränderungsfaktoren, BLS-Dokumentation Abschnitt 4.2.2), Energie eine *Formelberechnung* (EU-Faktoren, Ballaststoffe 2 kcal/g). Schweizer Werte sind „Berechnung anhand von Zutaten“, der schwedische Wert „Beräknad (Recept, NLG faktorer)“. Das sind veröffentlichte Datensätze der jeweiligen Datenbank und werden deshalb als `reference` geführt; der Vermerk steht in `source`.
 
-**Kohlenhydrate:** BLS, Ciqual, CH und SE geben *verfügbare* Kohlenhydrate an, USDA (und damit diese Datenbank) *Gesamt*-Kohlenhydrate inkl. Ballaststoffe. Gespeichert wird deshalb `carbs = verfügbare KH + Ballaststoffe`; kcal werden wie veröffentlicht übernommen. „Gebacken“ im BLS ist ohne Fettzugabe (Fett/Protein-Verhältnis wie roh), „gebraten ohne Fett (Pfanne)“ ausdrücklich ohne Fett.
+**Kohlenhydrate:** `per100g.carbs` sind verfügbare Kohlenhydrate ohne Ballaststoffe. BLS, Ciqual, CH und SE veröffentlichen genau diese Menge; der Builder übernimmt sie. USDA veröffentlicht Gesamt-Kohlenhydrate (Carbohydrate by difference); der Builder speichert `max(0, Gesamt-KH − Ballaststoffe)`. kcal werden wie veröffentlicht übernommen. „Gebacken“ im BLS ist ohne Fettzugabe (Fett/Protein-Verhältnis wie roh), „gebraten ohne Fett (Pfanne)“ ausdrücklich ohne Fett.
 
 Neue Werte prüfen: BLS-Datei `BLS_4_0_Daten_2025_DE.xlsx` (Download <https://blsdb.de/assets/uploads/BLS_4_0_2025_DE.zip>), Spalten `ENERCC`, `PROT625`, `FAT`, `CHO`, `FIBT`, `SUGAR`; CH-Excel von naehrwertdaten.ch; SE über `https://dataportal.livsmedelsverket.se/livsmedel/api/v1/livsmedel/{nummer}/naringsvarden`.
 

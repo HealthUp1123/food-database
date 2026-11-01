@@ -10,6 +10,9 @@ Zeilenformat in den Batch-Dateien (eine Zeile pro Gericht):
 - Zutatenmengen = rohe Mengen für EINE typische Portion (Wasser wird explizit gelistet, wenn es mitgekocht wird).
 - Garfaktor = Gewicht nach dem Garen / Summe der Zutaten (Verdunstung, Fettverlust; < 1.0).
 - Portionsgramm = Summe * Garfaktor (auf 5 g gerundet); Nährwerte pro 100 g = Summe(Zutat g * Zutat-pro-100g) / Portionsgramm * 100.
+- Die Zutatentabelle führt Gesamt-Kohlenhydrate (inkl. Ballaststoffe). Gespeichert wird pro 100 g
+  die verfügbare Menge: max(0, Kohlenhydrate − Ballaststoffe) der Zutat, dann wie die anderen Makros gewichtet.
+  Ballaststoffe bleiben ein eigenes Feld. source der Gerichte trägt den Marker „[KH netto]“.
 Alle Gerichtswerte sind berechnete Schätzungen aus typischen Rezepten. Die Zutaten stammen aus benannten Datensätzen (USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021, Livsmedelsverket, Schweizer Nährwertdatenbank) oder aus gekennzeichneten Schätzungen, nicht aus einer Analyse des fertigen Gerichts.
 """
 import importlib.util, json, glob, os, re, sys, unicodedata, collections
@@ -91,7 +94,12 @@ def main():
                 except: errors.append(f'{ctx} {name}: Zutat ungültig "{tok}"'); continue
                 if k not in ing: errors.append(f'{ctx} {name}: unbekannte Zutat "{k}"'); continue
                 lst.append((k,g)); raw += g
-                for f in tot: tot[f] += g * ing[k][f] / 100
+                for f in tot:
+                    v = ing[k][f]
+                    # Zutatentabelle: Gesamt-KH. Ausgabe: verfügbare KH ohne Ballaststoffe.
+                    if f == 'carbs':
+                        v = max(0.0, ing[k]['carbs'] - ing[k]['fiber'])
+                    tot[f] += g * v / 100
             if not lst: errors.append(f'{ctx} {name}: keine Zutaten'); continue
             pg = max(5, int(round(raw * yld / 5.0)) * 5)
             per = {'kcal': int(round(tot['kcal']/pg*100))}
@@ -110,9 +118,9 @@ def main():
             e['ingredients']=[{'name':ing[k]['name'],'grams':(int(g) if float(g).is_integer() else g)} for k,g in merged.items()]
             e['quality']='estimate'
             if did == 'bundnerfleisch':
-                e['source']='Schweizer Nährwertdatenbank V7.1, Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV), naehrwertdaten.ch (frei verwendbar mit Quellenangabe); ID 709 "Dried meat (Hobel-, Bündner-, Walliser-, Tessiner- dried meat)".'
+                e['source']='Schweizer Nährwertdatenbank V7.1, Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV), naehrwertdaten.ch (frei verwendbar mit Quellenangabe); ID 709 "Dried meat (Hobel-, Bündner-, Walliser-, Tessiner- dried meat)". [KH netto]'
             else:
-                e['source']='calculated from a typical recipe; ingredient values from named datasets or labeled estimates'
+                e['source']='calculated from a typical recipe; ingredient values from named datasets or labeled estimates [KH netto]'
             if did in ids: errors.append(f'{ctx} {name}: doppelte id {did} (auch {ids[did]})')
             ids[did] = ctx
             nk = (cuisine, slug(name,cuisine))
@@ -127,15 +135,18 @@ def main():
     ALK_NAMES = {'Rotwein','Weißwein','Bier','Spirituose 40 %','Sherry/Portwein/Likörwein','Likör','Apfelwein/Cider','Weinbrand/Rum'}
     flags = []
     for e, cat, yld in dishes:
-        p = e['per100g']; est = 4*p['protein']+4*p['carbs']+9*p['fat']
+        p = e['per100g']
+        # EU-Faktoren: verfügbare KH 4 kcal/g, Ballaststoffe 2 kcal/g.
+        est = 4*p['protein']+4*p['carbs']+2*p['fiber']+9*p['fat']
         c = f"{e['id']}"
-        if p['protein']+p['carbs']+p['fat'] > 100.0001: errors.append(f'{c}: P+C+F > 100')
+        if p['protein']+p['carbs']+p['fiber']+p['fat'] > 100.15: errors.append(f'{c}: P+KH+Ballaststoffe+F > 100')
         if not 0 <= p['kcal'] <= 950: errors.append(f'{c}: kcal außerhalb 0-950')
         alk = any(i['name'] in ALK_NAMES for i in e['ingredients'])
+        # Zutaten-kcal sind Näherungen und zählen Ballaststoffe oft noch mit ~4 kcal/g.
+        # Gegen die EU-Formel (2 kcal/g) darf die Abweichung deshalb um 2 kcal je g Ballaststoffe größer sein.
         if alk:
             if p['kcal'] < est*0.85-1: errors.append(f'{c}: kcal < Makro (Alkohol)')
-        elif abs(est-p['kcal']) > max(0.15*max(est,p['kcal']), 12): errors.append(f'{c}: kcal {p["kcal"]} vs Makro {est:.0f} >15%')
-        if p['fiber'] > p['carbs']+0.05: errors.append(f'{c}: Ballaststoffe > Kohlenhydrate')
+        elif abs(est-p['kcal']) > max(0.15*max(est,p['kcal']), 12) + 2*p['fiber']: errors.append(f'{c}: kcal {p["kcal"]} vs Makro {est:.0f} >15%')
         g = e['portion']['grams']
         reasons = []
         if g < 25 or g > 900: reasons.append(f'Portion {g} g')
