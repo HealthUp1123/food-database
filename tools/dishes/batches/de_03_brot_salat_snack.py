@@ -3,7 +3,7 @@ TEXT = """
 Brötchen | Semmel, Schrippe, Weckle, Bread roll | BR | 1.0 | 1 Brötchen | semmel 55
 Laugenbrezel | Brezel, Breze, Pretzel | BR | 1.0 | 1 Brezel | mehl 70, wasser 40, butter 3, salz 2
 Laugenbrötchen | Laugenweckle, Pretzel roll | BR | 1.0 | 1 Brötchen | mehl 60, wasser 35, salz 2
-Roggenbrot | Roggenmischbrot, Rye bread | BR | 1.0 | 1 Scheibe | roggenbrot 50
+Roggenbrot | Rye bread | BR | 1.0 | 1 Scheibe | roggenbrot 50
 Vollkornbrot | Vollkornbrot, Wholegrain bread | BR | 1.0 | 1 Scheibe | vollkornbrot 50
 Pumpernickel | Pumpernickel, Westphalian rye | BR | 1.0 | 1 Scheibe | roggenbrot 50, wasser 5
 Weißbrot | Toastbrot, White bread | BR | 1.0 | 1 Scheibe | weissbrot 30
