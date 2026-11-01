@@ -3894,21 +3894,22 @@
     "key": "gewuerz",
     "name": "Gewürzmischung (Sumak, Muskat, Kurkuma usw.)",
     "per100g": {
-      "kcal": 406.0,
-      "protein": 5.6,
-      "carbs": 57.4,
-      "fat": 20.4,
-      "fiber": 21.3
+      "kcal": 369.0,
+      "protein": 6.3,
+      "carbs": 64.0,
+      "fat": 16.4,
+      "fiber": 25.6
     },
     "source": {
       "database": "Schätzung",
+      "quality": "estimate",
       "method": "recipe",
       "derived_from": [
-        "FAO/INFOODS BioFoodComp 4.0:0400102",
+        "Lo Vecchio et al. 2022, Foods 11:538",
         "USDA SR Legacy:171326",
         "USDA SR Legacy:172231"
       ],
-      "note": "Gleichgewichtiges Mittel der drei im Namen genannten Beispiele, ungerundet: Sumach (FAO/INFOODS 0400102, Fett 21,49 g), Muskat (USDA 171326, Fett 36,31 g) und Kurkuma (USDA 172231, Fett 3,25 g). Fettmittel 20,35 g, gespeichert 20,4 g. Das frühere Fett von 19,8 g kam von 50 % Muskat und 50 % Kurkuma ohne Sumach. Paprika ist nicht enthalten. \"usw.\" ist nicht weiter aufgefüllt."
+      "note": "Gleichgewichtiges Mittel der drei im Namen genannten Beispiele, aus den ungerundeten Werten, dann einmal gerundet: Sumach (Lo Vecchio et al. 2022, ungesalzen, Fett 9,56 g), Muskat (USDA 171326, Fett 36,31 g) und Kurkuma (USDA 172231, Fett 3,25 g). Fettmittel 16,37 g, gespeichert 16,4 g. Das frühere Fett von 19,8 g kam von 50 % Muskat und 50 % Kurkuma ohne Sumach; 20,4 g war das Mittel mit dem entfernten FAO-Sumach. Paprika ist nicht enthalten. \"usw.\" ist nicht weiter aufgefüllt."
     }
   },
   {
@@ -4213,18 +4214,22 @@
     "key": "sumak_pulver",
     "name": "Sumak",
     "per100g": {
-      "kcal": 381.0,
-      "protein": 1.2,
-      "carbs": 55.7,
-      "fat": 21.5,
-      "fiber": 20.3
+      "kcal": 269.0,
+      "protein": 3.5,
+      "carbs": 75.5,
+      "fat": 9.6,
+      "fiber": 33.2
     },
     "source": {
-      "database": "FAO/INFOODS BioFoodComp 4.0",
-      "dataset_id": "0400102",
-      "record": "Elm-leaved sumach, fruits, seeds, dried (Rhus coriaria)",
+      "database": "Schätzung",
+      "quality": "estimate",
+      "method": "similar_food",
+      "derived_from": [
+        "Lo Vecchio et al. 2022, Foods 11:538"
+      ],
       "license": "CC BY 4.0",
-      "note": "Sumach ist Rhus coriaria, kein Paprika. Kein Treffer in USDA SR Legacy, BLS, Ciqual, CoFID oder Livsmedelsverket. Geprüft und nicht als Zahlensatz verwendet: Lo Vecchio et al. (2022), Foods 11, 538 (MDPI, CC BY 4.0), sizilianische Früchte: Protein 3,47 g, Rohfett 9,56 g, Rohfaser 33,21 g (Weende, AOAC 962.09), Wasser 6,64 g, Asche 4,78 g; Kohlenhydrate und Energie dort nicht bestimmt. Deshalb der nächste vollständige freie Satz: FAO/INFOODS BioFoodComp 4.0, Food Item 0400102, Türkei, n=6, getrocknete Früchte und Samen (Bibliography tr001: Biodiversity for Food and Nutrition Project, 2016, unveröffentlichte Analyse, kompiliert von FAO 2017). kcal 380,51, Protein 1,16 g, Fett 21,49 g, verfügbare KH (CHOAVLDF) 35,46 g, Ballaststoffe FIBTG 20,27 g. Gesamt-KH = 35,46 + 20,27. FIBTG ist Gesamtfaser, nicht als hochmolekular ohne Fructane ausgewiesen. Lizenz der FAO-Datensätze CC BY 4.0; die Originalanalyse ist unveröffentlicht."
+      "record": "Rhus coriaria fruits, dried and pulverized, unsalted (Sicily)",
+      "note": "Sumach ist Rhus coriaria, kein Paprika. FAO/INFOODS BioFoodComp 4.0, 0400102, ist entfernt: © FAO 2017, non-commercial, die Angabe CC BY 4.0 war falsch. Der FAO-Satz ist außerdem gesalzen (Na 5,6 g) und Protein 1,16 g ist dafür unplausibel. Schätzung für ungesalzenes Pulver nach Lo Vecchio et al. (2022), Foods 11, 538 (MDPI, CC BY 4.0): Früchte getrocknet und vermahlen, ohne Salzzusatz. Protein 3,47 g, Rohfett 9,56 g, Rohfaser 33,21 g (Weende, AOAC 962.09, nicht die klassische AOAC-Gesamtfaser FIBTG), Wasser 6,64 g, Asche 4,78 g. Kohlenhydrate und Energie sind dort nicht bestimmt. Verfügbare KH als Differenz 42,34 g. Gesamt-KH gespeichert 75,5 g = gerundete verfügbare KH 42,3 g plus gerundete Rohfaser 33,2 g (ungerundet 75,55 g). kcal = Atwater 4·3,47 + 4·42,34 + 9·9,56 = 269. FIBTG ist die klassische AOAC-Ballaststoffbestimmung; sie liegt für dieses Pulver nicht vor."
     }
   },
   {
@@ -5024,6 +5029,12 @@
       "dataset_id": "19-132",
       "record": "Haggis, boiled",
       "license": "Open Government Licence v3.0",
+      "quality": "estimate",
+      "method": "recipe",
+      "derived_from": [
+        "CoFID 2021:19-132",
+        "CoFID 2021:11-788"
+      ],
       "note": "kcal 310, Protein 10,7 g, Fett 21,7 g, verfügbare KH 19,2 g wie CoFID (8 Proben, MW4 1978, reviewed 2013). AOAC-Ballaststoffe sind \"N\", NSP nur 0,2 g; das passt nicht zu 19,2 g Stärke. Schätzung: die Stärke stammt aus Haferflocken (CoFID 11-788, Stärke 70,4 g, AOAC 7,8 g). Anteil 19,2/70,4 × 7,8 = 2,13 g AOAC, gerundet 2,1 g. Eine pauschale 1,5 g ohne diese Herleitung wird nicht verwendet. Gesamt-KH = 19,2 + 2,1. CoFID-Kohlenhydrate sind Monosaccharid-Äquivalente (hier gleich der Stärke)."
     }
   },
@@ -5156,7 +5167,7 @@
   },
   {
     "key": "x4_seetang",
-    "name": "Seetang/Purpurtang (Laver), gegart",
+    "name": "Seetang/Purpurtang (Laver), roh",
     "per100g": {
       "kcal": 35.0,
       "protein": 5.8,
@@ -5169,8 +5180,7 @@
       "dataset_id": "168458",
       "record": "Seaweed, laver, raw",
       "license": "CC0 1.0",
-      "method": "similar_food",
-      "note": "Der Schlüssel sagt gegart. Belegt ist Laver roh; ein gegarter Satz ohne Fett fehlt. Werte unverändert, nicht auf gegart hochgerechnet. Näherung: der Schlüssel sagt gegart, der Datensatz USDA 168458 ist Laver roh. Keine Umrechnung auf gegart."
+      "note": "Name und Datensatz sind beide roh: USDA SR Legacy 168458, Seaweed, laver, raw. Ein reiner gegarter Laver-Satz fehlt in USDA SR Legacy, BLS, Ciqual und CoFID. CoFID 15-190 ist das fertige Gericht Laverbread, nicht die Zutat. Keine Umrechnung auf gegart."
     }
   },
   {
@@ -5188,6 +5198,11 @@
       "dataset_id": "14-848",
       "record": "Tigernuts",
       "license": "Open Government Licence v3.0",
+      "quality": "estimate",
+      "method": "similar_food",
+      "derived_from": [
+        "CoFID 2021:14-848 (NSP)"
+      ],
       "note": "Makros aus CoFID (Literatur, Fruit and Nuts Supplement 1992): kcal 403, Protein 4,3 g, Fett 23,8 g, Kohlenhydrate 45,7 g als Monosaccharid-Äquivalente (Stärke 29,6 + Zucker 16,1). AOAC-Ballaststoffe fehlen in CoFID. Schweizer Nährwertdatenbank 7.1 (Generic und Branded, Stand 01.07.2026, naehrwertdaten.ch, kommerziell nutzbar mit Quellenangabe; Datei Swiss_food_composition_database.xlsx) enthält keine Erdmandel, Cyperus oder Chufa. Ballaststoffe deshalb als gekennzeichnete Schätzung: CoFID-NSP 11,7 g, Untergrenze, nicht AOAC. Gesamt-KH = 45,7 + 11,7 = 57,4 g. USDA-Branded-Label wird nicht verwendet."
     }
   },
@@ -5773,7 +5788,24 @@
       "dataset_id": "172412",
       "record": "Goose, domesticated, meat and skin, cooked, roasted",
       "license": "CC0 1.0",
-      "note": "Gebratene Gans mit Haut. Für den fertigen Teller Gänsebraten mit Rotkohl und Klößen (Garfaktor dort 1,0, die Gramm sind die angerichtete Menge). Protein 25,16 g und Fett 21,92 g auf 25,2 g und 21,9 g gerundet. Der Braten selbst bleibt beim rohen Satz mit Garfaktor 0,65."
+      "note": "Gebratene Gans mit Haut. Für Gänsebraten und den Teller mit Rotkohl und Klößen, jeweils Garfaktor 1,0. Protein 25,16 g und Fett 21,92 g auf 25,2 g und 21,9 g gerundet."
+    }
+  },
+  {
+    "key": "buendnerfleisch",
+    "name": "Bündnerfleisch",
+    "per100g": {
+      "kcal": 190.0,
+      "protein": 39.3,
+      "carbs": 0.4,
+      "fat": 3.5,
+      "fiber": 0.0
+    },
+    "source": {
+      "database": "Schweizer Nährwertdatenbank",
+      "dataset_id": "709",
+      "record": "Dried meat (Hobel-, Bündner-, Walliser-, Tessiner- dried meat)",
+      "note": "Quelle: Schweizer Nährwertdatenbank V7.1, BLV (naehrwertdaten.ch), ID 709. kcal 190, Protein 39,3 g, verfügbare KH 0,4 g, Fett 3,5 g, Ballaststoffe 0. Gesamt-KH = 0,4. Für das Gericht Bündnerfleisch, nicht mehr rohes Schmorfleisch USDA SR Legacy 169491."
     }
   }
 ]
