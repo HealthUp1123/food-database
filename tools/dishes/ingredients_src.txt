@@ -212,7 +212,7 @@ kreuzkuemmel|Kreuzkümmel|375|17.8|44.2|22.3|10.5
 zimt|Zimt|247|4|80.6|1.2|53.1
 oregano|Oregano/Thymian/Majoran (trocken)|265|9|68.9|4.3|42.5
 minze_trocken|Minze getrocknet|285|19.9|52|6|29.8
-gewuerz|Gewürzmischung (Sumak, Muskat, Kurkuma usw.)|369|6.3|64|16.4|25.6
+gewuerz|Gewürzmischung (Sumak, Muskat, Kurkuma usw.)|391|6.3|64|16.4|25.6
 kakao|Kakaopulver|228|19.6|57.9|13.7|37
 schokolade|Zartbitterschokolade|579|6.1|52.4|38.3|8
 schokolade_milch|Vollmilchschokolade|535|7.7|59.4|29.7|3.4
@@ -230,7 +230,7 @@ tee|Tee/Kaffee (ungesüßt)|1|0|0.3|0|0
 sauerkraut|Sauerkraut|19|0.9|4.3|0.1|2.9
 gewuerzgurke|Gewürzgurke|12|0.5|2.4|0.3|1
 olive|Oliven|145|1|3.8|15.3|3.3
-sumak_pulver|Sumak|269|3.5|75.5|9.6|33.2
+sumak_pulver|Sumak|336|3.5|75.5|9.6|33.2
 kalb|Kalbfleisch (Schnitzel/Keule)|107|21.3|0|1.8|0
 wild|Wildfleisch (Reh/Hirsch)|120|23|0|2.4|0
 wildschwein|Wildschweinfleisch|122|21.5|0|3.3|0
@@ -317,3 +317,4 @@ grieben|Schweinegrieben, gegart|550|36.2|0|45|0
 ente_gegart|Ente mit Haut, gebraten|337|19|0|28.4|0
 gans_gegart|Gans mit Haut, gebraten|305|25.2|0|21.9|0
 buendnerfleisch|Bündnerfleisch|190|39.3|0.4|3.5|0
+x4_carrageen|Irisch Moos (Carrageen), roh|49|1.5|12.3|0.2|1.3

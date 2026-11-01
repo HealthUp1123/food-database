@@ -3684,15 +3684,15 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 183,
-      "protein": 14.5,
-      "carbs": 2.5,
-      "fat": 12.5,
+      "kcal": 218,
+      "protein": 17.4,
+      "carbs": 2.1,
+      "fat": 15.0,
       "fiber": 0.4
     },
     "portion": {
       "label": "1 Portion",
-      "grams": 345
+      "grams": 285
     },
     "ingredients": [
       {
@@ -3701,15 +3701,15 @@
       },
       {
         "name": "Apfel",
-        "grams": 40
+        "grams": 28
       },
       {
         "name": "Zwiebel",
-        "grams": 30
+        "grams": 21
       },
       {
         "name": "Brühe",
-        "grams": 80
+        "grams": 40
       }
     ],
     "quality": "estimate",
@@ -3743,15 +3743,15 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 201,
-      "protein": 11.0,
-      "carbs": 2.5,
-      "fat": 16.1,
+      "kcal": 239,
+      "protein": 13.2,
+      "carbs": 2.1,
+      "fat": 19.5,
       "fiber": 0.4
     },
     "portion": {
       "label": "1 Portion",
-      "grams": 345
+      "grams": 285
     },
     "ingredients": [
       {
@@ -3760,15 +3760,15 @@
       },
       {
         "name": "Apfel",
-        "grams": 40
+        "grams": 28
       },
       {
         "name": "Zwiebel",
-        "grams": 30
+        "grams": 21
       },
       {
         "name": "Brühe",
-        "grams": 80
+        "grams": 40
       }
     ],
     "quality": "estimate",
@@ -35169,7 +35169,7 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 318,
+      "kcal": 319,
       "protein": 13.8,
       "carbs": 14.9,
       "fat": 22.7,
@@ -57247,7 +57247,7 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 277,
+      "kcal": 278,
       "protein": 11.8,
       "carbs": 23.3,
       "fat": 15.6,
@@ -62596,7 +62596,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 84,
+      "kcal": 85,
       "protein": 1.0,
       "carbs": 8.2,
       "fat": 5.8,
@@ -63269,7 +63269,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 107,
+      "kcal": 109,
       "protein": 1.2,
       "carbs": 9.5,
       "fat": 8.0,
@@ -63783,7 +63783,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 108,
+      "kcal": 109,
       "protein": 1.2,
       "carbs": 5.9,
       "fat": 9.6,
@@ -64293,7 +64293,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 171,
+      "kcal": 172,
       "protein": 2.6,
       "carbs": 9.4,
       "fat": 14.8,
@@ -121994,7 +121994,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from a typical recipe; ingredient values from named datasets or labeled estimates",
+    "source": "Schweizer Nährwertdatenbank V7.1, Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV), naehrwertdaten.ch (frei verwendbar mit Quellenangabe); ID 709 \"Dried meat (Hobel-, Bündner-, Walliser-, Tessiner- dried meat)\".",
     "off_similar": [
       "2131946007506",
       "7610502124888",
@@ -144502,7 +144502,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 185,
+      "kcal": 186,
       "protein": 10.8,
       "carbs": 4.5,
       "fat": 13.8,
@@ -180219,7 +180219,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 391,
+      "kcal": 392,
       "protein": 7.2,
       "carbs": 75.0,
       "fat": 7.5,
@@ -181391,7 +181391,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 233,
+      "kcal": 234,
       "protein": 12.5,
       "carbs": 14.8,
       "fat": 13.7,
@@ -181611,7 +181611,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 469,
+      "kcal": 470,
       "protein": 5.5,
       "carbs": 75.1,
       "fat": 17.1,
@@ -189939,7 +189939,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 310,
+      "kcal": 311,
       "protein": 9.6,
       "carbs": 33.7,
       "fat": 15.0,
@@ -201139,7 +201139,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 215,
+      "kcal": 216,
       "protein": 13.9,
       "carbs": 8.8,
       "fat": 13.6,
@@ -224532,7 +224532,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 337,
+      "kcal": 338,
       "protein": 6.4,
       "carbs": 57.5,
       "fat": 9.5,
@@ -233688,7 +233688,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 309,
+      "kcal": 310,
       "protein": 16.7,
       "carbs": 18.8,
       "fat": 18.3,
@@ -233869,7 +233869,7 @@
     "per100g": {
       "kcal": 86,
       "protein": 3.5,
-      "carbs": 10.6,
+      "carbs": 10.7,
       "fat": 3.3,
       "fiber": 0.0
     },
@@ -233883,7 +233883,7 @@
         "grams": 200
       },
       {
-        "name": "Seetang/Purpurtang (Laver), roh",
+        "name": "Irisch Moos (Carrageen), roh",
         "grams": 3
       },
       {
@@ -245553,7 +245553,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 310,
+      "kcal": 311,
       "protein": 17.6,
       "carbs": 13.1,
       "fat": 20.4,
@@ -248009,7 +248009,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 331,
+      "kcal": 332,
       "protein": 6.3,
       "carbs": 55.9,
       "fat": 9.5,
@@ -261175,7 +261175,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 403,
+      "kcal": 404,
       "protein": 7.0,
       "carbs": 54.9,
       "fat": 17.6,
@@ -261237,7 +261237,7 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 276,
+      "kcal": 277,
       "protein": 6.4,
       "carbs": 44.3,
       "fat": 8.2,

@@ -3894,7 +3894,7 @@
     "key": "gewuerz",
     "name": "Gewürzmischung (Sumak, Muskat, Kurkuma usw.)",
     "per100g": {
-      "kcal": 369.0,
+      "kcal": 391.0,
       "protein": 6.3,
       "carbs": 64.0,
       "fat": 16.4,
@@ -3909,7 +3909,7 @@
         "USDA SR Legacy:171326",
         "USDA SR Legacy:172231"
       ],
-      "note": "Gleichgewichtiges Mittel der drei im Namen genannten Beispiele, aus den ungerundeten Werten, dann einmal gerundet: Sumach (Lo Vecchio et al. 2022, ungesalzen, Fett 9,56 g), Muskat (USDA 171326, Fett 36,31 g) und Kurkuma (USDA 172231, Fett 3,25 g). Fettmittel 16,37 g, gespeichert 16,4 g. Das frühere Fett von 19,8 g kam von 50 % Muskat und 50 % Kurkuma ohne Sumach; 20,4 g war das Mittel mit dem entfernten FAO-Sumach. Paprika ist nicht enthalten. \"usw.\" ist nicht weiter aufgefüllt."
+      "note": "Gleichgewichtiges Mittel der drei im Namen genannten Beispiele. Protein, KH, Fett und Ballaststoffe aus den ungerundeten Werten, dann einmal gerundet: Sumach (Lo Vecchio et al. 2022, ungesalzen, Fett 9,56 g), Muskat (USDA 171326, Fett 36,31 g) und Kurkuma (USDA 172231, Fett 3,25 g). kcal ist das Mittel aus Sumach 336 (Faserfaktor 2 kcal/g), Muskat 525 und Kurkuma 312. Etwa ein Drittel der Ballaststoffe ist Rohfaser (Weende aus dem Sumach-Drittel, ungerundet 11,1 g von 25,6 g). Paprika ist nicht enthalten. \"usw.\" ist nicht weiter aufgefüllt."
     }
   },
   {
@@ -4214,7 +4214,7 @@
     "key": "sumak_pulver",
     "name": "Sumak",
     "per100g": {
-      "kcal": 269.0,
+      "kcal": 336.0,
       "protein": 3.5,
       "carbs": 75.5,
       "fat": 9.6,
@@ -4223,13 +4223,13 @@
     "source": {
       "database": "Schätzung",
       "quality": "estimate",
-      "method": "similar_food",
+      "method": "derived",
       "derived_from": [
         "Lo Vecchio et al. 2022, Foods 11:538"
       ],
       "license": "CC BY 4.0",
       "record": "Rhus coriaria fruits, dried and pulverized, unsalted (Sicily)",
-      "note": "Sumach ist Rhus coriaria, kein Paprika. FAO/INFOODS BioFoodComp 4.0, 0400102, ist entfernt: © FAO 2017, non-commercial, die Angabe CC BY 4.0 war falsch. Der FAO-Satz ist außerdem gesalzen (Na 5,6 g) und Protein 1,16 g ist dafür unplausibel. Schätzung für ungesalzenes Pulver nach Lo Vecchio et al. (2022), Foods 11, 538 (MDPI, CC BY 4.0): Früchte getrocknet und vermahlen, ohne Salzzusatz. Protein 3,47 g, Rohfett 9,56 g, Rohfaser 33,21 g (Weende, AOAC 962.09, nicht die klassische AOAC-Gesamtfaser FIBTG), Wasser 6,64 g, Asche 4,78 g. Kohlenhydrate und Energie sind dort nicht bestimmt. Verfügbare KH als Differenz 42,34 g. Gesamt-KH gespeichert 75,5 g = gerundete verfügbare KH 42,3 g plus gerundete Rohfaser 33,2 g (ungerundet 75,55 g). kcal = Atwater 4·3,47 + 4·42,34 + 9·9,56 = 269. FIBTG ist die klassische AOAC-Ballaststoffbestimmung; sie liegt für dieses Pulver nicht vor."
+      "note": "Sumach ist Rhus coriaria, kein Paprika. FAO/INFOODS ist entfernt (© FAO 2017, non-commercial; gesalzen, Na 5,6 g). Schätzung für ungesalzenes Pulver nach Lo Vecchio et al. (2022), Foods 11, 538 (CC BY 4.0): Protein 3,47 g, Rohfett 9,56 g, Wasser 6,64 g, Asche 4,78 g. Rohfaser (Weende), keine AOAC-Gesamtfaser, Schätzung, Abweichung unbekannt: 33,21 g (AOAC 962.09), gespeichert 33,2 g. Verfügbare KH als Differenz 42,34 g; darin stecken auch Polyphenole und Säuren, der Wert ist eher zu hoch. Gesamt-KH 75,5 g. kcal nach 4·(KH−Ballaststoffe)+4·Protein+9·Fett+2·Ballaststoffe = 335,7, gespeichert 336. Ein Feld fiber_method ist im Schema von foods.json nicht vorgesehen."
     }
   },
   {
@@ -5805,7 +5805,26 @@
       "database": "Schweizer Nährwertdatenbank",
       "dataset_id": "709",
       "record": "Dried meat (Hobel-, Bündner-, Walliser-, Tessiner- dried meat)",
+      "license": "frei verwendbar mit Quellenangabe (BLV)",
       "note": "Quelle: Schweizer Nährwertdatenbank V7.1, BLV (naehrwertdaten.ch), ID 709. kcal 190, Protein 39,3 g, verfügbare KH 0,4 g, Fett 3,5 g, Ballaststoffe 0. Gesamt-KH = 0,4. Für das Gericht Bündnerfleisch, nicht mehr rohes Schmorfleisch USDA SR Legacy 169491."
+    }
+  },
+  {
+    "key": "x4_carrageen",
+    "name": "Irisch Moos (Carrageen), roh",
+    "per100g": {
+      "kcal": 49.0,
+      "protein": 1.5,
+      "carbs": 12.3,
+      "fat": 0.2,
+      "fiber": 1.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168456",
+      "record": "Seaweed, irishmoss, raw",
+      "license": "CC0 1.0",
+      "note": "Carrageen (Chondrus crispus), roh. Protein 1,51 g, Kohlenhydrate by difference 12,29 g, Fett 0,16 g, Ballaststoffe 1,3 g, kcal 49. Nicht Laver."
     }
   }
 ]
