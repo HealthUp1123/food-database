@@ -2609,12 +2609,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.3 → 0.6 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G630100, BLS 4.0 R132000, Ciqual 2025 11013, Ciqual 2025 11016, CoFID 2021 13-258, USDA SR 172234). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4311501018293",
       "4038413750508",
       "4337256207881"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "thueringer-rostbratwurst",
@@ -3154,12 +3154,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.9 → 1.3 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G620100, BLS 4.0 G630100, BLS 4.0 G660100, Ciqual 2025 11016, Ciqual 2025 20009, Ciqual 2025 20055, CoFID 2021 13-219, CoFID 2021 13-258, CoFID 2021 13-496, USDA SR 170393, USDA SR 170400). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4044663451805",
       "2541136019200",
       "2827582009508"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "zwiebelrostbraten",
@@ -3349,12 +3349,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.8 → 1.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G480100, BLS 4.0 G620100, BLS 4.0 G660100, Ciqual 2025 20009, Ciqual 2025 20034, Ciqual 2025 20055, CoFID 2021 13-219, CoFID 2021 13-496, CoFID 2021 13-499, USDA SR 170000, USDA SR 170393, USDA SR 170400). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0201956616462",
       "0791943102016",
       "0027182575935"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "wildschweinbraten",
@@ -4428,12 +4428,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.0 → 1.4 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B821000, Ciqual 2025 7500, USDA SR 174928). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "20921811",
       "4250241209496",
       "29068609"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "forelle-muellerin",
@@ -7310,11 +7310,11 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.8 → 1.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F301100, Ciqual 2025 13014, CoFID 2021 14-324, USDA SR 167762). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4021352240209",
       "4000521365301"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "obstsuppe",
@@ -11862,12 +11862,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.8 → 1.4 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C214100, BLS 4.0 G630100, Ciqual 2025 11016, Ciqual 2025 9436, CoFID 2021 13-258, USDA SR 168894). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5000157074188",
       "0071828001418",
       "1941741000685"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "kraeuterquark",
@@ -15233,12 +15233,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.5 → 2.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F110100, BLS 4.0 G660100, BLS 4.0 Q991000, Ciqual 2025 11054, Ciqual 2025 20055, CoFID 2021 13-219, USDA SR 170400, USDA SR 171009, USDA SR 171688). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4311501442289",
       "4337256670630",
       "4311504011635"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "rote-bete-salat",
@@ -17979,12 +17979,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.5 → 2.0 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C214100, BLS 4.0 C446000, BLS 4.0 F301100, Ciqual 2025 13014, Ciqual 2025 9436, CoFID 2021 14-324, USDA SR 167762, USDA SR 168894, USDA SR 169698). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "7613404725726",
       "0723055031330",
       "4711202222911"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "obstkuchen",
@@ -21776,12 +21776,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.7 → 1.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C446000, BLS 4.0 F302100, Ciqual 2025 13015, CoFID 2021 14-375, USDA SR 167755, USDA SR 169698). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4009300019367",
       "4260059822046",
       "2500004016970"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "spaghettieis",
@@ -22030,12 +22030,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F110600, Ciqual 2025 2074, USDA SR 173933). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4260261720253",
       "42151715",
       "4102380038003"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "apfelsaft",
@@ -22091,12 +22091,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.3 → 0.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F110600, Ciqual 2025 2074, USDA SR 173933). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4013265000711",
       "4061461718084",
       "42424338"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "orangenschorle",
@@ -22194,12 +22194,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.9 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F212600, BLS 4.0 F212700). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4260466413738",
       "4026289010338",
       "4034025000253"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "holundersaft",
@@ -29576,12 +29576,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.0 → 0.4 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F110600, BLS 4.0 F310600, Ciqual 2025 2016, Ciqual 2025 2074, CoFID 2021 13-874, CoFID 2021 17-745, USDA SR 171320, USDA SR 173042, USDA SR 173933). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4101080009467",
       "4039401504233",
       "4003572851380"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "eistee",
@@ -33641,11 +33641,11 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen Ciqual 2025 11000, CoFID 2021 13-244, USDA SR 169230). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "8683130112359",
       "8698673880344"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "paca-corbasi",
@@ -37222,11 +37222,11 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 1.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B783012, BLS 4.0 G480100, BLS 4.0 G561100, Ciqual 2025 20034, Ciqual 2025 20385, CoFID 2021 11-925, CoFID 2021 13-499, CoFID 2021 13-517, USDA SR 170000, USDA SR 170457, USDA SR 175037). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5708209201895",
       "5712876736673"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "tavuk-doner-durum",
@@ -49633,12 +49633,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.9 → 3.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C352000, BLS 4.0 G480100, Ciqual 2025 20034, Ciqual 2025 9100, CoFID 2021 13-499, USDA SR 168877, USDA SR 169393, USDA SR 170000). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "8654029509536",
       "0095100001309",
       "0015823500071"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "yaprak-sarma-etli",
@@ -62454,12 +62454,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.7 → 0.8 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5713507057952",
       "5712873548552",
       "5712877034433"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "cacik-meze",
@@ -63003,12 +63003,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.7 → 0.8 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5449000200136",
       "5449000316653",
       "40822600"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "muhammara",
@@ -63076,12 +63076,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 4.6 → 4.7 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0617241011988",
       "0850048739154",
       "3524130006871"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "girit-ezmesi",
@@ -63788,11 +63788,11 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 4.8 → 4.9 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4260467596331",
       "7680876183828"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "zahter-salatasi",
@@ -65914,12 +65914,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.5 → 0.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 G520100, Ciqual 2025 11000, Ciqual 2025 11093, CoFID 2021 13-244, CoFID 2021 13-523, CoFID 2021 13-824, USDA SR 168409, USDA SR 169230, USDA SR 172233). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "6210961061147",
       "3193504182932",
       "4016937050618"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "lahana-tursusu",
@@ -66033,12 +66033,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.7 → 1.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G541100, Ciqual 2025 20085, CoFID 2021 13-318, USDA SR 170427). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "20191573",
       "6210241101082",
       "4037700078653"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "havuc-tursusu",
@@ -66410,12 +66410,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.4 → 2.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen (Knoblauch methodenabhängig); neu gerechnet mit Knoblauch 4.1 g/100 g (klassische AOAC-Methode ohne Fructane/Inulin); Quellen Ciqual 2025 11000, CoFID 2021 13-244, USDA SR 169230). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "8698943860540",
       "4250368103738",
       "4012625411204"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "sucuklu-menemen",
@@ -66853,10 +66853,10 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.9 → 0.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4260467598069"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "kahvalti-tabagi",
@@ -71488,12 +71488,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.0 → 4.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen USDA SR 167996). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "8693003022203",
       "3700671764627",
       "6260008900106"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "turk-cayi",
@@ -72338,12 +72338,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.6 → 0.0 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F212600, BLS 4.0 F212700). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "3800014286882",
       "4260466413738",
       "20364977"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "nar-suyu",
@@ -72387,12 +72387,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 4.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen Ciqual 2025 2017, Ciqual 2025 2039, CoFID 2021 14-341, USDA SR 167787). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4891191600584",
       "4760041300854",
       "5214000553373"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "portakal-suyu",
@@ -72447,12 +72447,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.4 → 0.3 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F603600, Ciqual 2025 2070, USDA SR 169098). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4056489505372",
       "9003665010712",
       "5300782000256"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "kefir",
@@ -72920,12 +72920,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.5 → 3.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B783012, CoFID 2021 11-925, USDA SR 175037). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0794711003312",
       "0074117000666",
       "0032157200132"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "misir-ekmegi",
@@ -119118,12 +119118,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 S243000, CoFID 2021 12-508, USDA SR 167575). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "9010158004097",
       "9020200036167",
       "4061461766115"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "zwetschkenroster",
@@ -121708,12 +121708,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.7 → 2.8 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "3800740023140",
       "3800219605150",
       "3800023600174"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "banitsa",
@@ -121959,10 +121959,10 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0781930684323"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "basler-lackerli",
@@ -122414,12 +122414,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 0.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "16589872",
       "7612275022934",
       "7613312009406"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "zurcher-geschnetzeltes",
@@ -127860,12 +127860,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.8 → 3.0 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "20946173",
       "8437020924825",
       "8437015266107"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "pa-amb-oli",
@@ -128112,12 +128112,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.3 → 0.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 G250100, Ciqual 2025 11000, Ciqual 2025 11014, CoFID 2021 13-244, CoFID 2021 13-844, USDA SR 169230, USDA SR 170416). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0014500010537",
       "8410416013525",
       "2147950003229"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "potaje-de-garbanzos",
@@ -128330,12 +128330,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.3 → 3.4 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "8413239200202",
       "8437012454491",
       "8437001744374"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "sidra-asturiana",
@@ -128570,12 +128570,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.2 → 0.4 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 F601600, Ciqual 2025 11000, Ciqual 2025 2028, CoFID 2021 13-244, CoFID 2021 14-277, USDA SR 167747, USDA SR 169230). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4480406171737",
       "7792900990774",
       "8437012454576"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "arroz-con-leche",
@@ -128693,12 +128693,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "2965500014002",
       "20496074",
       "8480010136029"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "bocadillo-de-tortilla",
@@ -129700,12 +129700,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 1.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 G250100, Ciqual 2025 11000, Ciqual 2025 11014, Ciqual 2025 11042, CoFID 2021 13-244, CoFID 2021 13-844, CoFID 2021 13-889, USDA SR 169230, USDA SR 170416, USDA SR 170923). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "8437000922452",
       "4002239847704",
       "8437014047851"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "paella-de-mariscos",
@@ -130998,10 +130998,10 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "8436564340214"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "croquetas-de-jamon",
@@ -131532,12 +131532,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.9 → 2.0 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "8480000807571",
       "8437006438315",
       "8480000232892"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "morcilla-de-burgos",
@@ -132515,12 +132515,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "8437002871062",
       "8413916250155",
       "8433329050531"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "bunuelos-de-viento",
@@ -133145,12 +133145,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.2 → 0.3 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4061462148576",
       "2168135008600",
       "4061463664464"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "horchata-de-chufa",
@@ -133958,12 +133958,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 1.4 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5063445797190",
       "5063089830284",
       "5063089309933"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "tarta-de-queso-vasca",
@@ -136112,12 +136112,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 2.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G660100, BLS 4.0 Q991000, BLS 4.0 R132000, Ciqual 2025 11013, Ciqual 2025 11054, Ciqual 2025 20055, CoFID 2021 13-219, USDA SR 170400, USDA SR 171009, USDA SR 172234). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0208430010044",
       "0290601018690",
       "0219034019487"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "far-breton",
@@ -142111,12 +142111,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.4 → 1.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C214100, BLS 4.0 F301100, BLS 4.0 R481100, Ciqual 2025 13014, Ciqual 2025 9436, CoFID 2021 11-1138, CoFID 2021 14-324, USDA SR 167762, USDA SR 168894, USDA SR 169609). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5400112182215",
       "2000000053653",
       "0207194065277"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "terrine-de-campagne",
@@ -142927,12 +142927,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.4 → 0.5 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "3111952030544",
       "3365480001952",
       "5206560002644"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "fondue-au-chocolat",
@@ -145041,12 +145041,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.8 → 1.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F301100, Ciqual 2025 13014, CoFID 2021 14-324, USDA SR 167762). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5060384261157",
       "5063334040802",
       "5055365635638"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "ginger-beer",
@@ -148701,12 +148701,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 0.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C148000, BLS 4.0 F220400, BLS 4.0 G470100, Ciqual 2025 13042, Ciqual 2025 20039, CoFID 2021 13-624, CoFID 2021 14-391, USDA SR 168162, USDA SR 169246, USDA SR 170284). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5012427676107",
       "0746935193041",
       "5012427142404"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "coronation-chicken",
@@ -149825,12 +149825,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.0 → 3.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C352000, BLS 4.0 G480100, Ciqual 2025 20034, Ciqual 2025 9100, CoFID 2021 13-499, USDA SR 168877, USDA SR 169393, USDA SR 170000). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "3174792019223",
       "9332180004464",
       "5201310003377"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "gemista",
@@ -150270,11 +150270,11 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.7 → 1.9 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0850059612071",
       "5202722020105"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "spanakorizo",
@@ -152338,10 +152338,10 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 4.5 → 4.6 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5214000606215"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "pastitsio",
@@ -156122,12 +156122,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Eis-Anteil -> ~0.2; Quellen BLS 4.0 S243000, CoFID 2021 12-508, USDA SR 167575). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "8024370101350",
       "8030919005027",
       "9341661001977"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "arancini-siciliani",
@@ -157559,12 +157559,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.0 → 1.3 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 E401000, BLS 4.0 G568900, Ciqual 2025 11000, Ciqual 2025 20137, CoFID 2021 11-716, CoFID 2021 13-244, CoFID 2021 13-530, USDA SR 169230, USDA SR 169736, USDA SR 170051). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "9356335007001",
       "5063089015773",
       "8007548014669"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "pici-cacio-e-pepe",
@@ -157825,12 +157825,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.1 → 0.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Maismehlwert; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0619309000965",
       "8050880300129",
       "21155703"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "polpette-al-sugo",
@@ -158248,12 +158248,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.0 → 1.1 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4027900441104",
       "8711521329304",
       "4047247731232"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "spaghetti-alla-carbonara",
@@ -159561,12 +159561,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.3 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Vanilleeis enthält nur Spuren (Bindemittel); 0.7 zu hoch, ~0.3; Quellen BLS 4.0 S243000, CoFID 2021 12-508, USDA SR 167575). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0860230002300",
       "8026924064074",
       "8021995006299"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "gnocco-fritto",
@@ -160588,10 +160588,10 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 0.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 C346000, BLS 4.0 K701100, Ciqual 2025 11000, Ciqual 2025 20056, CoFID 2021 11-011, CoFID 2021 13-244, CoFID 2021 13-505, USDA SR 168867, USDA SR 169230, USDA SR 169251). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "8003086001666"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "polpettone",
@@ -161251,12 +161251,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.8 → 1.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B821000, BLS 4.0 C352000, BLS 4.0 G568900, Ciqual 2025 20137, Ciqual 2025 7500, Ciqual 2025 9100, CoFID 2021 13-530, USDA SR 168877, USDA SR 170051, USDA SR 174928). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0327016112726",
       "8018843007065",
       "8057018224784"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "tiramisu",
@@ -163388,12 +163388,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "3760152501080",
       "4335619302952",
       "2623773002002"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "risi-e-bisi",
@@ -166969,12 +166969,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F601600, BLS 4.0 Q991000, Ciqual 2025 11054, Ciqual 2025 2028, CoFID 2021 14-277, USDA SR 167747, USDA SR 171009). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5400101071308",
       "8003948004521",
       "20406943"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "zuppa-di-lenticchie",
@@ -167302,11 +167302,11 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 4.9 → 5.0 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4771138392096",
       "4770217222002"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "zemaiciu-blynai",
@@ -172301,12 +172301,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.5 → 1.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C148000, BLS 4.0 G480100, Ciqual 2025 20034, CoFID 2021 13-499, USDA SR 170000, USDA SR 170284). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "2700072008543",
       "5906245778993",
       "2527091008909"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "kopytka",
@@ -172721,12 +172721,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 1.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G620100, BLS 4.0 G660100, BLS 4.0 R160000, Ciqual 2025 20009, Ciqual 2025 20055, CoFID 2021 13-219, CoFID 2021 13-496, CoFID 2021 13-531, USDA SR 170393, USDA SR 170400, USDA SR 170459). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5900143000590",
       "5902353033498",
       "5903496036490"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "szarlotka",
@@ -173137,12 +173137,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.7 → 1.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C148000, BLS 4.0 G480100, BLS 4.0 K701100, Ciqual 2025 20034, Ciqual 2025 20056, CoFID 2021 13-499, CoFID 2021 13-505, USDA SR 169251, USDA SR 170000, USDA SR 170284). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5900907009340",
       "7613036031660",
       "7613036239196"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "kotlet-mielony",
@@ -175853,12 +175853,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.0 → 2.1 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5602386000350",
       "8480000591791",
       "5601312308072"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "francesinha",
@@ -177566,10 +177566,10 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5600265399359"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "queijadas-de-sintra",
@@ -178552,12 +178552,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.6 → 0.7 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5941918000056",
       "5941460010473",
       "5941356516805"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "salata-de-boeuf",
@@ -178772,10 +178772,10 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 4.9 → 4.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Coliva wird aus Weizenkörnern gekocht, nicht aus Graupen; Quellen BLS 4.0 C148000, BLS 4.0 H120100, Ciqual 2025 15005, CoFID 2021 13-874, CoFID 2021 14-879, USDA SR 170187, USDA SR 170284, USDA SR 171320). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0655383538277"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "carnati-de-plescoi",
@@ -179527,12 +179527,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.1 → 3.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0374305000325",
       "0041451014147",
       "4056489474401"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "lepinja",
@@ -180158,12 +180158,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.3 → 1.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C214100, BLS 4.0 C346000, Ciqual 2025 9436, CoFID 2021 11-011, USDA SR 168867, USDA SR 168894). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "12029990",
       "3850291054094",
       "3858881082724"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "duvec",
@@ -181547,12 +181547,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.0 → 2.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C148000, BLS 4.0 G480100, Ciqual 2025 20034, CoFID 2021 13-499, USDA SR 170000, USDA SR 170284, USDA SR 170923, USDA SR 171320, USDA SR 171321, USDA SR 171326, USDA SR 172231). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "2000061142570",
       "7316260001576",
       "7318690153177"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "kardemummabulle",
@@ -183121,12 +183121,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F601600, BLS 4.0 Q991000, Ciqual 2025 11054, Ciqual 2025 11093, Ciqual 2025 2028, CoFID 2021 13-824, CoFID 2021 14-277, USDA SR 167747, USDA SR 171009, USDA SR 172233). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "7331147022246",
       "7300156582195",
       "7311043015535"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "vasterbottenpaj",
@@ -183674,10 +183674,10 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.1 → 1.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C322000, CoFID 2021 11-006, USDA SR 170685). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "3838700640014"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "kraski-prsut",
@@ -184962,10 +184962,10 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.4 → 1.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C322000, CoFID 2021 11-006, USDA SR 170685). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0052851140060"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "okroshka",
@@ -191718,10 +191718,10 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.5 → 0.6 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0733426013025"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "pita-sa-visnjama",
@@ -193307,11 +193307,11 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.3 → 3.4 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "3800012194127",
       "20319892"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "sirene-po-shopski",
@@ -204466,12 +204466,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.6 → 0.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F301100, Ciqual 2025 13014, CoFID 2021 14-324, USDA SR 167762). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4311501702659",
       "4000349500236",
       "4012850053521"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "johannisbeerschorle",
@@ -204522,12 +204522,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F321600, BLS 4.0 F323600). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "3510128103066",
       "4260293660121",
       "4021619013201"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "eierlikoer",
@@ -207162,12 +207162,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.6 → 1.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C148000, BLS 4.0 G480100, Ciqual 2025 20034, CoFID 2021 13-499, USDA SR 170000, USDA SR 170284). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4012941866542",
       "2400580003503",
       "23930148"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "krakauer-mit-pommes",
@@ -208260,10 +208260,10 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.1 → 1.4 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Kohlrabi 2.9 hoch; BLS/CH/LMV 1.4-1.8; Quellen BLS 4.0 C214100, BLS 4.0 G331100, Ciqual 2025 20065, Ciqual 2025 9436, CoFID 2021 13-261, USDA SR 168424, USDA SR 168894). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "20280680"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "schwarzwurzelgemuese",
@@ -212208,11 +212208,11 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.7 → 1.0 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 G480100, BLS 4.0 G568900, Ciqual 2025 11000, Ciqual 2025 20034, Ciqual 2025 20137, CoFID 2021 13-244, CoFID 2021 13-499, CoFID 2021 13-530, USDA SR 169230, USDA SR 170000, USDA SR 170051). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "2005548590554",
       "8410057004258"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "lomo-adobado",
@@ -223689,10 +223689,10 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.5 → 0.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Eiswert zu hoch; Quellen BLS 4.0 F301100, BLS 4.0 S132000, BLS 4.0 S243000, Ciqual 2025 13014, CoFID 2021 12-508, CoFID 2021 14-324, USDA SR 167575, USDA SR 167762, USDA SR 169641). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "5014624000242"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "cheese-scones",
@@ -226941,12 +226941,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.3 → 0.4 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0413640021463",
       "0740279001017",
       "8437017853121"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "kotopoulo-me-hilopites",
@@ -237061,12 +237061,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.4 → 0.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C322000, BLS 4.0 C346000, CoFID 2021 11-006, CoFID 2021 11-011, USDA SR 168867, USDA SR 170685). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "8000113000302",
       "7640186710060",
       "8009149001154"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "pollo-alla-romana",
@@ -239149,12 +239149,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.1 → 2.3 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "8033945802455",
       "8000571096114",
       "8017735000344"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "insalata-di-finocchi",
@@ -241014,12 +241014,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 1.6 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Eiswert zu hoch; Quellen BLS 4.0 H250100, BLS 4.0 S243000, Ciqual 2025 15044, CoFID 2021 12-508, USDA SR 167575, USDA SR 170184). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "8034013692350",
       "8055267690060",
       "8032974015836"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "granita-al-caffe-con-panna",
@@ -252945,12 +252945,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 0.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 C346000, Ciqual 2025 11000, Ciqual 2025 11049, CoFID 2021 11-011, CoFID 2021 13-244, CoFID 2021 13-879, USDA SR 168867, USDA SR 169230, USDA SR 171329). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "2557560008246",
       "2557560007065",
       "2557560007782"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "bulz",
@@ -253009,10 +253009,10 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 0.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "0655383538192"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "balmos",
@@ -254349,12 +254349,12 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.9 → 1.0 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "8606107841755",
       "9001414211946",
       "8600742000171"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "pasulj-sa-kobasicom",
@@ -266495,10 +266495,10 @@
     ],
     "quality": "estimate",
     "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.3 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Maraş-Eis mit Salep (Glucomannan), Basis ~0.3, Salep-Anteil gering; Quellen BLS 4.0 S243000, CoFID 2021 12-508, USDA SR 167575). Methode recipe.",
+    "method": "recipe",
     "off_similar": [
       "4021851007181"
-    ],
-    "method": "recipe"
+    ]
   },
   {
     "id": "cevizli-muska",
@@ -307182,8 +307182,8 @@
     ],
     "quality": "reference",
     "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G490162 \"Knoblauch gebacken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 3 g + Ballaststoffe 33.291 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe: 33.3 → 4.8 g, ohne Fructane/Inulin (klassische AOAC-Methode). BLS 4.0 (33.291 g) enthält Fructane/Inulin (AOAC 2009.01). Klassischer Rohwert = Median SR:169230 2.1, CIQ:11000 5.8, COFID:13-244 4.1 = 4.1 g × BLS-Zubereitungsfaktor 33.291/28.297 (BLS G490162/G490100) = 1.176 → 4.8 g. Vergleich: Ciqual 11306 Garlic, roasted/baked 2,7 g. Kohlenhydrate (gesamt) und kcal unverändert aus BLS; die Fructane zählen jetzt zu den Kohlenhydraten. Methode similar_food. Nur per100g.fiber ist eine Schätzung; Kohlenhydrate, kcal und die übrigen Nährwerte bleiben der veröffentlichte Datensatz.",
-    "source_id": "BLS 4.0:G490162",
-    "method": "similar_food"
+    "method": "similar_food",
+    "source_id": "BLS 4.0:G490162"
   },
   {
     "id": "knoblauch-gebraten-ohne-fett",
@@ -307224,8 +307224,8 @@
     ],
     "quality": "reference",
     "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G490182 \"Knoblauch gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 5 g + Ballaststoffe 44.916 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe: 44.9 → 6.5 g, ohne Fructane/Inulin (klassische AOAC-Methode). BLS 4.0 (44.916 g) enthält Fructane/Inulin (AOAC 2009.01). Klassischer Rohwert = Median SR:169230 2.1, CIQ:11000 5.8, COFID:13-244 4.1 = 4.1 g × BLS-Zubereitungsfaktor 44.916/28.297 (BLS G490182/G490100) = 1.587 → 6.5 g. Vergleich: Ciqual 11307 Garlic, pan-fried without fat 5,8 g. Kohlenhydrate (gesamt) und kcal unverändert aus BLS; die Fructane zählen jetzt zu den Kohlenhydraten. Methode similar_food. Nur per100g.fiber ist eine Schätzung; Kohlenhydrate, kcal und die übrigen Nährwerte bleiben der veröffentlichte Datensatz.",
-    "source_id": "BLS 4.0:G490182",
-    "method": "similar_food"
+    "method": "similar_food",
+    "source_id": "BLS 4.0:G490182"
   },
   {
     "id": "schalotten-gebraten-ohne-fett",
@@ -307692,8 +307692,8 @@
     ],
     "quality": "reference",
     "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code K430162 \"Topinambur/Erdartischocke, gebacken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 5.128 g + Ballaststoffe 15.474 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe: 15.5 → 2.1 g, ohne Fructane/Inulin (klassische AOAC-Methode). BLS 4.0 (15.474 g) enthält Fructane/Inulin (AOAC 2009.01). Klassischer Rohwert = Median SR:169236 1.6, CIQ:20196 1.6 = 1.6 g × BLS-Zubereitungsfaktor 15.474/12.07 (BLS K430162/K430100) = 1.282 → 2.1 g. Vergleich: CoFID 13-156 Jerusalem artichoke boiled 3,5 g (NSP), Ciqual 20050 cooked 2,2 g. Kohlenhydrate (gesamt) und kcal unverändert aus BLS; die Fructane zählen jetzt zu den Kohlenhydraten. Methode similar_food. Nur per100g.fiber ist eine Schätzung; Kohlenhydrate, kcal und die übrigen Nährwerte bleiben der veröffentlichte Datensatz.",
-    "source_id": "BLS 4.0:K430162",
-    "method": "similar_food"
+    "method": "similar_food",
+    "source_id": "BLS 4.0:K430162"
   },
   {
     "id": "topinambur-gebraten-ohne-fett",
@@ -307734,8 +307734,8 @@
     ],
     "quality": "reference",
     "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code K430182 \"Topinambur/Erdartischocke, gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 4.545 g + Ballaststoffe 13.716 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe: 13.7 → 1.8 g, ohne Fructane/Inulin (klassische AOAC-Methode). BLS 4.0 (13.716 g) enthält Fructane/Inulin (AOAC 2009.01). Klassischer Rohwert = Median SR:169236 1.6, CIQ:20196 1.6 = 1.6 g × BLS-Zubereitungsfaktor 13.716/12.07 (BLS K430182/K430100) = 1.136 → 1.8 g. Vergleich: Ciqual 20050 cooked 2,2 g. Kohlenhydrate (gesamt) und kcal unverändert aus BLS; die Fructane zählen jetzt zu den Kohlenhydraten. Methode similar_food. Nur per100g.fiber ist eine Schätzung; Kohlenhydrate, kcal und die übrigen Nährwerte bleiben der veröffentlichte Datensatz.",
-    "source_id": "BLS 4.0:K430182",
-    "method": "similar_food"
+    "method": "similar_food",
+    "source_id": "BLS 4.0:K430182"
   },
   {
     "id": "pfifferlinge-im-ofen-gebacken",
@@ -316583,8 +316583,8 @@
     ],
     "quality": "reference",
     "source": "Public Health England (2021): McCance and Widdowson's The Composition of Foods Integrated Dataset (CoFID) 2021, Open Government Licence v3.0; Code 11-875 \"Rice, Thai fragrant, boiled in unsalted water\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: LGC, Nutrient survey of flours and grains, 2005). Kohlenhydrate = verfügbare KH 32.1 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe: 0.0 → 0.6 g (Schätzung, Methode similar_food; Quellen USDA SR 168878, BLS 4.0 C352032, Ciqual 2025 9104). Prüfung: übernehmen – CoFID 11-875 führt für gekochten Jasminreis 0 g Ballaststoffe (NSP-Methode, Spuren als 0). Gekochter weißer Reis enthält nach AOAC-Methode messbar Ballaststoffe; Median dreier freier Quellen für gekochten weißen Reis = 0,61 → 0,6 g. Kohlenhydrate 32,1 g, also plausibel. Nur per100g.fiber ist eine Schätzung; Kohlenhydrate bleiben der veröffentlichte Gesamt-KH-Wert und werden nicht aus dem neuen Ballaststoffwert neu gebildet.",
-    "source_id": "CoFID 2021:11-875",
-    "method": "similar_food"
+    "method": "similar_food",
+    "source_id": "CoFID 2021:11-875"
   },
   {
     "id": "jasminreis-roh",
