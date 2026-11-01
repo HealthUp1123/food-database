@@ -89,9 +89,17 @@ export function wordRank(token, text) {
   return sc - 1;
 }
 
-/** Sprachen der mehrsprachigen Namen (`names`); die ersten sechs sind Pflicht. */
+/**
+ * Unterstützte Sprachen in `names`, `aliases` und `?lang=`.
+ * Reihenfolge bleibt stabil (u. a. `GET /health`).
+ */
 export const LANGS = ['de', 'en', 'tr', 'fr', 'es', 'pt', 'it', 'zh'];
-export const REQUIRED_LANGS = ['de', 'en', 'tr', 'fr', 'es', 'pt'];
+/**
+ * Pflicht in `names`: nur noch de, tr und en.
+ * fr, es, pt, it und zh bleiben optional. Sind sie gesetzt, werden sie weiter
+ * durchsucht; `?lang=fr` usw. liefert den Sprachnamen, sonst den Fallback `name`.
+ */
+export const REQUIRED_LANGS = ['de', 'tr', 'en'];
 
 const uniq = (arr) => [...new Set(arr.filter(Boolean))];
 
@@ -133,9 +141,15 @@ export function buildIndex(foods) {
   return index;
 }
 
-/** Anzeigename in einer Sprache (Fallback: `name`). */
+/**
+ * Anzeigename in einer Sprache.
+ * Gesetztes, nicht leeres `names[lang]` gewinnt (auch bei optionalen Sprachen
+ * wie fr). Fehlt der Name oder ist er leer, Fallback auf `name`.
+ */
 export function displayName(food, lang) {
-  return (lang && food.names && food.names[lang]) || food.name;
+  const localized = lang && food.names ? food.names[lang] : '';
+  if (typeof localized === 'string' && localized.trim()) return localized;
+  return food.name;
 }
 
 /**

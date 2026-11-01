@@ -5,10 +5,45 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { isValidEan, LANGS, REQUIRED_LANGS } from '../src/search.mjs';
 
+/**
+ * Gemeinsame Obergrenze von App und Validator:
+ * Protein + Kohlenhydrate + Fett höchstens 100,15 g pro 100 g
+ * (0,15 g Rundungstoleranz, z. B. USDA-Leinöl 0,11 g Eiweiß + 99,98 g Fett).
+ * Die App verwendet denselben Grenzwert.
+ */
+const MACRO_SUM_MAX_G = 100.15;
+
+/** Wie in der App: eine Portion höchstens 3000 g. */
+const PORTION_MAX_G = 3000;
+
+/**
+ * Kohlenhydrat-Basis für die kcal-Plausibilität. Nur diese eine Stelle umstellen.
+ * 'total' — per100g.carbs ist Gesamt-KH inkl. Ballaststoffe (heutiger Datenstand).
+ *           verfügbare KH = carbs − fiber.
+ * 'net'   — per100g.carbs ist bereits verfügbare/Netto-KH (geplante Umstellung).
+ *           verfügbare KH = carbs. Ballaststoffe zählen weiter separat mit 2 kcal/g.
+ */
+const CARB_BASIS = 'total';
+
+/** kcal je Gramm: Ballaststoffe 2, verfügbare KH 4, Eiweiß 4, Fett 9, Alkohol 7. */
+const KCAL_PER_G = { fiber: 2, availableCarbs: 4, protein: 4, fat: 9, alcohol: 7 };
+
+/**
+ * SCHALTER: gleiche names.de / names.tr / names.en zwischen verschiedenen Einträgen.
+ * false — Warnung mit Zählung. Der Datenstand hat noch Dubletten
+ *         (Größenordnung de 67, tr 104, en 91 Gruppen); die Bereinigung folgt
+ *         in einem eigenen Daten-PR. Diese Datei ändert foods.json nicht.
+ * true  — jede Gruppe ist ein Fehler.
+ * Erst auf true stellen, wenn die Namensdubletten bereinigt sind.
+ */
+const DUPLICATE_NAMES_ARE_ERRORS = false;
+
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const file = process.argv[2] || join(root, 'data', 'foods.json');
 const errors = [];
 const err = (ctx, msg) => errors.push(`${ctx}: ${msg}`);
+let warnCount = 0;
+const warn = (msg) => { warnCount += 1; console.warn(msg); };
 
 let data;
 try {
@@ -29,8 +64,34 @@ const QUALITIES = ['estimate', 'verified', 'reference'];
 // im Ofen gebacken/gebraten, geröstet, getrocknet, tiefgekühlt, Konserve (Dose/Glas), geräuchert, verarbeitet (Saft, Mark, Püree, Pulver).
 const STATES = ['raw', 'cooked', 'grilled', 'fried', 'baked', 'roasted', 'dry', 'dried', 'frozen', 'canned', 'smoked', 'processed'];
 const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
+
+/** Verfügbare Kohlenhydrate je nach CARB_BASIS (siehe Konstante oben). */
+function availableCarbsG(carbs, fiber) {
+  if (CARB_BASIS === 'net') return carbs;
+  if (CARB_BASIS === 'total') return carbs - fiber;
+  throw new Error(`Unbekannte CARB_BASIS "${CARB_BASIS}" (erlaubt: "total", "net")`);
+}
+
+/** kcal-Schätzung: 4·Eiweiß + 4·verfügbare KH + 2·Ballaststoffe + 9·Fett + 7·Alkohol. */
+function estimateKcal(p) {
+  return (
+    p.protein * KCAL_PER_G.protein
+    + availableCarbsG(p.carbs, p.fiber) * KCAL_PER_G.availableCarbs
+    + p.fiber * KCAL_PER_G.fiber
+    + p.fat * KCAL_PER_G.fat
+    + (isNum(p.alcohol) ? p.alcohol * KCAL_PER_G.alcohol : 0)
+  );
+}
+
+/** Gleicher Name je Pflichtsprache, ohne Groß-/Kleinschreibung (Türkisch mit Locale tr). */
+function nameKey(lang, value) {
+  const locale = lang === 'tr' ? 'tr' : lang === 'en' ? 'en' : 'de';
+  return value.trim().toLocaleLowerCase(locale);
+}
+
 const ids = new Map();
 const barcodes = new Map();
+const nameIndex = new Map(REQUIRED_LANGS.map((l) => [l, new Map()]));
 const MACROS = ['protein', 'carbs', 'fat', 'fiber'];
 data.forEach((e, i) => {
   const ctx = `Eintrag #${i} (${e && e.id ? e.id : '?'})`;
@@ -41,13 +102,21 @@ data.forEach((e, i) => {
   else ids.set(e.id, i);
 
   if (typeof e.name !== 'string' || !e.name.trim()) err(ctx, 'name fehlt');
-  // Mehrsprachige Namen: de/en/tr/fr/es/pt Pflicht, it/zh optional. Etablierte Gerichtsnamen dürfen in allen Sprachen gleich sein.
+  // Mehrsprachige Namen: de/tr/en Pflicht, fr/es/pt/it/zh optional (weiter gültig und durchsuchbar).
   if (!e.names || typeof e.names !== 'object' || Array.isArray(e.names)) err(ctx, `names fehlt (Objekt mit ${REQUIRED_LANGS.join('/')})`);
   else {
     for (const l of REQUIRED_LANGS) if (typeof e.names[l] !== 'string' || !e.names[l].trim()) err(ctx, `names.${l} fehlt oder ist leer`);
     for (const [l, v] of Object.entries(e.names)) {
       if (!LANGS.includes(l)) err(ctx, `names.${l}: unbekannte Sprache (erlaubt: ${LANGS.join(', ')})`);
       else if (typeof v !== 'string' || !v.trim() || v !== v.trim()) err(ctx, `names.${l} muss ein nicht-leerer String ohne Rand-Leerzeichen sein`);
+    }
+    for (const l of REQUIRED_LANGS) {
+      const v = e.names[l];
+      if (typeof v !== 'string' || !v.trim()) continue;
+      const key = nameKey(l, v);
+      const bucket = nameIndex.get(l);
+      if (!bucket.has(key)) bucket.set(key, []);
+      bucket.get(key).push({ i, id: e.id, name: v.trim() });
     }
   }
   if ('aliases' in e) {
@@ -99,18 +168,18 @@ data.forEach((e, i) => {
       if (!isNum(p.alcohol) || p.alcohol < 0 || p.alcohol > 100) err(ctx, `alcohol ${p.alcohol} ungültig (0–100 g pro 100 g)`);
     }
     if (MACROS.every((m) => isNum(p[m]))) {
-      // 0,15 g Rundungstoleranz: Referenzdaten (z. B. USDA Leinöl 0,11 g Eiweiß + 99,98 g Fett) summieren teils knapp über 100 g.
-      if (p.protein + p.carbs + p.fat > 100.15) err(ctx, `Protein+Kohlenhydrate+Fett = ${(p.protein + p.carbs + p.fat).toFixed(1)} g > 100 g`);
+      // Gemeinsame Obergrenze von App und Validator (MACRO_SUM_MAX_G, 100,15 g).
+      const macroSum = p.protein + p.carbs + p.fat;
+      if (macroSum > MACRO_SUM_MAX_G) err(ctx, `Protein+Kohlenhydrate+Fett = ${macroSum.toFixed(2)} g > ${MACRO_SUM_MAX_G} g je 100 g`);
       if (p.fiber > p.carbs + 0.0001 && p.fiber > 0) {
         // Ballaststoffe zählen oft separat; nur Warnung, kein Fehler
-        console.warn(`! ${ctx}: Ballaststoffe (${p.fiber}) > Kohlenhydrate (${p.carbs}) – bitte prüfen`);
+        warn(`! ${ctx}: Ballaststoffe (${p.fiber}) > Kohlenhydrate (${p.carbs}) – bitte prüfen`);
       }
       if (isNum(p.kcal)) {
-        // Ist per100g.alcohol gesetzt, zählt Ethanol mit 7 kcal/g in die Schätzung.
-        const est = p.protein * 4 + p.carbs * 4 + p.fat * 9 + (isNum(p.alcohol) ? p.alcohol * 7 : 0);
-        // Alkohol (Wein, Spirituosen) liegt oft über der 4/4/9-Schätzung (Ethanol ≈ 7 kcal/g).
-        // Das ist eine Warnung, kein Fehler.
-        if (Math.abs(est - p.kcal) > Math.max(60, p.kcal * 0.35)) console.warn(`! ${ctx}: kcal (${p.kcal}) weicht stark von Makro-Schätzung (${est.toFixed(0)}) ab – bitte prüfen`);
+        // Faktoren: 4 Eiweiß, 4 verfügbare KH, 2 Ballaststoffe, 9 Fett, 7 Alkohol.
+        // Verfügbare KH hängen an CARB_BASIS (heute: carbs − fiber). Warnung, kein Fehler.
+        const est = estimateKcal(p);
+        if (Math.abs(est - p.kcal) > Math.max(60, p.kcal * 0.35)) warn(`! ${ctx}: kcal (${p.kcal}) weicht stark von Makro-Schätzung (${est.toFixed(0)}) ab – bitte prüfen`);
       }
     }
   }
@@ -145,13 +214,28 @@ data.forEach((e, i) => {
 
   if ('portion' in e && e.portion !== undefined) {
     const po = e.portion;
-    if (!po || typeof po.label !== 'string' || !po.label.trim() || !isNum(po.grams) || po.grams <= 0 || po.grams > 5000) err(ctx, 'portion braucht {label: string, grams: Zahl > 0}');
+    if (!po || typeof po.label !== 'string' || !po.label.trim() || !isNum(po.grams) || po.grams <= 0 || po.grams > PORTION_MAX_G) err(ctx, `portion braucht {label: string, grams: Zahl > 0 und ≤ ${PORTION_MAX_G}}`);
   }
 });
+
+const dupCounts = {};
+for (const l of REQUIRED_LANGS) {
+  const groups = [...nameIndex.get(l).values()].filter((g) => g.length > 1);
+  dupCounts[l] = groups.length;
+  if (!DUPLICATE_NAMES_ARE_ERRORS) continue;
+  for (const g of groups) {
+    const listed = g.map((x) => `${x.id} (#${x.i})`).join(', ');
+    err(`names.${l}`, `gleicher Name „${g[0].name}“ bei ${g.length} Einträgen: ${listed}`);
+  }
+}
+if (!DUPLICATE_NAMES_ARE_ERRORS && REQUIRED_LANGS.some((l) => dupCounts[l] > 0)) {
+  const counts = REQUIRED_LANGS.map((l) => `${l} ${dupCounts[l]}`).join(', ');
+  warn(`! Gleiche Namen (Warnung, DUPLICATE_NAMES_ARE_ERRORS=false): ${counts} Gruppen. Schalter in scripts/validate.mjs auf true setzen, sobald die Dubletten bereinigt sind.`);
+}
 
 if (errors.length) {
   console.error(`✗ ${errors.length} Fehler in ${data.length} Einträgen:`);
   errors.forEach((m) => console.error('  - ' + m));
   process.exit(1);
 }
-console.log(`✓ ${data.length} Einträge gültig (${ids.size} IDs, ${barcodes.size} Barcodes).`);
+console.log(`✓ ${data.length} Einträge gültig (${ids.size} IDs, ${barcodes.size} Barcodes).${warnCount ? ` ${warnCount} Warnungen.` : ''}`);
