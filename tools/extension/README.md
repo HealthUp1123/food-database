@@ -6,7 +6,7 @@ Erzeugt die 331 Einträge von Welle 4 (Zubereitungen, deutsche und türkische Gr
 python3 tools/extension/build_extension.py --src <all.pkl> [--write] [--report build_report.json]
 ```
 
-* `--src`: Pickle mit den normalisierten Quelltabellen (BLS 4.0, Ciqual 2025, CoFID 2021, USDA FNDDS 2021–2023). Die Rohdateien sind frei herunterladbar (BLS: DOI 10.25826/Data20251217-134202-0; Ciqual: Zenodo 17550133; CoFID: gov.uk; FNDDS: fdc.nal.usda.gov). Sie liegen nicht im Repo.
+* `--src`: Pickle mit den normalisierten Quelltabellen (BLS 4.0, Ciqual 2025, CoFID 2021, USDA FNDDS 2021–2023). Die Rohdateien sind frei herunterladbar (BLS: DOI 10.25826/Data20251217-134202-0; Ciqual: Zenodo-Record 17550133 (der Record trägt CC BY 4.0; die Daten stehen unter Etalab 2.0, DOI 10.57745/RDMHWY); CoFID: gov.uk; FNDDS: fdc.nal.usda.gov). Sie liegen nicht im Repo.
 * Portionsgewichte kommen aus der FNDDS-Datei `food_portion.csv` (Pfad per Umgebungsvariable `FNDDS_PORTIONS`).
 * Ohne `--write` gibt es nur einen Probelauf mit der Zählung je Bereich. `--report` schreibt die neuen IDs, die übersprungenen Datensätze (mit Grund) und die entfernten Aliase als JSON.
 
