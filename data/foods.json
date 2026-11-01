@@ -2587,7 +2587,7 @@
       "protein": 12.0,
       "carbs": 1.9,
       "fat": 26.5,
-      "fiber": 0.3
+      "fiber": 0.6
     },
     "portion": {
       "label": "6 Stück",
@@ -2608,12 +2608,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.3 → 0.6 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G630100, BLS 4.0 R132000, Ciqual 2025 11013, Ciqual 2025 11016, CoFID 2021 13-258, USDA SR 172234). Methode recipe.",
     "off_similar": [
       "4311501018293",
       "4038413750508",
       "4337256207881"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "thueringer-rostbratwurst",
@@ -3123,7 +3124,7 @@
       "protein": 16.0,
       "carbs": 3.6,
       "fat": 5.3,
-      "fiber": 0.9
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -3152,12 +3153,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.9 → 1.3 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G620100, BLS 4.0 G630100, BLS 4.0 G660100, Ciqual 2025 11016, Ciqual 2025 20009, Ciqual 2025 20055, CoFID 2021 13-219, CoFID 2021 13-258, CoFID 2021 13-496, USDA SR 170393, USDA SR 170400). Methode recipe.",
     "off_similar": [
       "4044663451805",
       "2541136019200",
       "2827582009508"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "zwiebelrostbraten",
@@ -3309,7 +3311,7 @@
       "protein": 14.9,
       "carbs": 4.4,
       "fat": 4.8,
-      "fiber": 0.8
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion",
@@ -3346,12 +3348,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.8 → 1.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G480100, BLS 4.0 G620100, BLS 4.0 G660100, Ciqual 2025 20009, Ciqual 2025 20034, Ciqual 2025 20055, CoFID 2021 13-219, CoFID 2021 13-496, CoFID 2021 13-499, USDA SR 170000, USDA SR 170393, USDA SR 170400). Methode recipe.",
     "off_similar": [
       "0201956616462",
       "0791943102016",
       "0027182575935"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "wildschweinbraten",
@@ -4403,7 +4406,7 @@
       "protein": 15.7,
       "carbs": 18.8,
       "fat": 10.5,
-      "fiber": 1.0
+      "fiber": 1.4
     },
     "portion": {
       "label": "5 Stück",
@@ -4424,12 +4427,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.0 → 1.4 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B821000, Ciqual 2025 7500, USDA SR 174928). Methode recipe.",
     "off_similar": [
       "20921811",
       "4250241209496",
       "29068609"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "forelle-muellerin",
@@ -7280,7 +7284,7 @@
       "protein": 2.2,
       "carbs": 9.5,
       "fat": 2.2,
-      "fiber": 0.8
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Schüssel",
@@ -7305,11 +7309,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.8 → 1.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F301100, Ciqual 2025 13014, CoFID 2021 14-324, USDA SR 167762). Methode recipe.",
     "off_similar": [
       "4021352240209",
       "4000521365301"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "obstsuppe",
@@ -11831,7 +11836,7 @@
       "protein": 1.8,
       "carbs": 6.7,
       "fat": 14.7,
-      "fiber": 0.8
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -11856,12 +11861,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.8 → 1.4 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C214100, BLS 4.0 G630100, Ciqual 2025 11016, Ciqual 2025 9436, CoFID 2021 13-258, USDA SR 168894). Methode recipe.",
     "off_similar": [
       "5000157074188",
       "0071828001418",
       "1941741000685"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "kraeuterquark",
@@ -15197,7 +15203,7 @@
       "protein": 1.5,
       "carbs": 8.6,
       "fat": 7.3,
-      "fiber": 1.5
+      "fiber": 2.7
     },
     "portion": {
       "label": "1 Portion",
@@ -15226,12 +15232,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.5 → 2.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F110100, BLS 4.0 G660100, BLS 4.0 Q991000, Ciqual 2025 11054, Ciqual 2025 20055, CoFID 2021 13-219, USDA SR 170400, USDA SR 171009, USDA SR 171688). Methode recipe.",
     "off_similar": [
       "4311501442289",
       "4337256670630",
       "4311504011635"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "rote-bete-salat",
@@ -17942,7 +17949,7 @@
       "protein": 3.4,
       "carbs": 32.5,
       "fat": 1.6,
-      "fiber": 1.5
+      "fiber": 2.0
     },
     "portion": {
       "label": "1 Stück",
@@ -17971,12 +17978,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.5 → 2.0 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C214100, BLS 4.0 C446000, BLS 4.0 F301100, Ciqual 2025 13014, Ciqual 2025 9436, CoFID 2021 14-324, USDA SR 167762, USDA SR 168894, USDA SR 169698). Methode recipe.",
     "off_similar": [
       "7613404725726",
       "0723055031330",
       "4711202222911"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "obstkuchen",
@@ -21738,7 +21746,7 @@
       "protein": 1.9,
       "carbs": 16.1,
       "fat": 8.5,
-      "fiber": 2.7
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Portion",
@@ -21767,12 +21775,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.7 → 1.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C446000, BLS 4.0 F302100, Ciqual 2025 13015, CoFID 2021 14-375, USDA SR 167755, USDA SR 169698). Methode recipe.",
     "off_similar": [
       "4009300019367",
       "4260059822046",
       "2500004016970"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "spaghettieis",
@@ -21999,7 +22008,7 @@
       "protein": 0.1,
       "carbs": 8.8,
       "fat": 0.1,
-      "fiber": 1.2
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Glas",
@@ -22020,12 +22029,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F110600, Ciqual 2025 2074, USDA SR 173933). Methode recipe.",
     "off_similar": [
       "4260261720253",
       "42151715",
       "4102380038003"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "apfelsaft",
@@ -22063,7 +22073,7 @@
       "protein": 0.3,
       "carbs": 17.3,
       "fat": 0.2,
-      "fiber": 2.3
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Glas",
@@ -22080,12 +22090,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.3 → 0.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F110600, Ciqual 2025 2074, USDA SR 173933). Methode recipe.",
     "off_similar": [
       "4013265000711",
       "4061461718084",
       "42424338"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "orangenschorle",
@@ -22114,7 +22125,7 @@
       "protein": 0.4,
       "carbs": 6.0,
       "fat": 0.1,
-      "fiber": 1.2
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Glas",
@@ -22131,7 +22142,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F603600, Ciqual 2025 2070, USDA SR 169098). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "kirschsaft",
@@ -22160,7 +22172,7 @@
       "protein": 0.6,
       "carbs": 14.1,
       "fat": 0.2,
-      "fiber": 0.9
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Glas",
@@ -22181,12 +22193,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.9 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F212600, BLS 4.0 F212700). Methode recipe.",
     "off_similar": [
       "4260466413738",
       "4026289010338",
       "4034025000253"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "holundersaft",
@@ -29537,7 +29550,7 @@
       "protein": 0.5,
       "carbs": 15.6,
       "fat": 0.2,
-      "fiber": 2.0
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Tasse",
@@ -29562,12 +29575,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.0 → 0.4 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F110600, BLS 4.0 F310600, Ciqual 2025 2016, Ciqual 2025 2074, CoFID 2021 13-874, CoFID 2021 17-745, USDA SR 171320, USDA SR 173042, USDA SR 173933). Methode recipe.",
     "off_similar": [
       "4101080009467",
       "4039401504233",
       "4003572851380"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "eistee",
@@ -33539,7 +33553,7 @@
       "protein": 4.0,
       "carbs": 9.6,
       "fat": 5.6,
-      "fiber": 1.6
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Schüssel",
@@ -33564,7 +33578,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.6 → 1.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C119100, USDA SR 170688). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "kelle-paca-corbasi",
@@ -33596,7 +33611,7 @@
       "protein": 4.5,
       "carbs": 0.6,
       "fat": 4.4,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Schüssel",
@@ -33625,11 +33640,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen Ciqual 2025 11000, CoFID 2021 13-244, USDA SR 169230). Methode recipe.",
     "off_similar": [
       "8683130112359",
       "8698673880344"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "paca-corbasi",
@@ -33661,7 +33677,7 @@
       "protein": 4.1,
       "carbs": 1.0,
       "fat": 4.1,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Schüssel",
@@ -33690,7 +33706,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "iskembe-corbasi",
@@ -34598,7 +34615,7 @@
       "protein": 1.2,
       "carbs": 4.3,
       "fat": 3.0,
-      "fiber": 0.5
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Schüssel",
@@ -34631,7 +34648,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.5 → 0.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G460100, BLS 4.0 G480100, BLS 4.0 K110100, Ciqual 2025 20034, Ciqual 2025 4008, CoFID 2021 13-489, CoFID 2021 13-499, USDA SR 170000, USDA SR 170026). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "karalahana-corbasi",
@@ -37162,7 +37180,7 @@
       "protein": 10.7,
       "carbs": 19.8,
       "fat": 11.6,
-      "fiber": 1.2
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Dürüm",
@@ -37203,11 +37221,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 1.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B783012, BLS 4.0 G480100, BLS 4.0 G561100, Ciqual 2025 20034, Ciqual 2025 20385, CoFID 2021 11-925, CoFID 2021 13-499, CoFID 2021 13-517, USDA SR 170000, USDA SR 170457, USDA SR 175037). Methode recipe.",
     "off_similar": [
       "5708209201895",
       "5712876736673"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "tavuk-doner-durum",
@@ -37238,7 +37257,7 @@
       "protein": 10.9,
       "carbs": 20.0,
       "fat": 9.4,
-      "fiber": 1.2
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Dürüm",
@@ -37275,7 +37294,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 1.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B783012, BLS 4.0 G480100, BLS 4.0 G561100, Ciqual 2025 20034, Ciqual 2025 20385, CoFID 2021 11-925, CoFID 2021 13-499, CoFID 2021 13-517, USDA SR 170000, USDA SR 170457, USDA SR 175037). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "doner-kebap-porsiyon",
@@ -40193,7 +40213,7 @@
       "protein": 12.5,
       "carbs": 14.8,
       "fat": 19.9,
-      "fiber": 0.6
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -40222,7 +40242,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.6 → 0.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B783012, BLS 4.0 R160000, CoFID 2021 11-925, CoFID 2021 13-531, USDA SR 170459, USDA SR 175037). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "kuzu-guvec",
@@ -42772,7 +42793,7 @@
       "protein": 4.5,
       "carbs": 6.5,
       "fat": 4.1,
-      "fiber": 1.3
+      "fiber": 2.5
     },
     "portion": {
       "label": "1 Portion",
@@ -42809,7 +42830,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 2.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G480100, BLS 4.0 G620100, BLS 4.0 G660100, Ciqual 2025 20009, Ciqual 2025 20034, Ciqual 2025 20055, CoFID 2021 13-219, CoFID 2021 13-496, CoFID 2021 13-499, USDA SR 170000, USDA SR 170393, USDA SR 170400). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "etli-taze-bakla",
@@ -42900,7 +42922,7 @@
       "protein": 4.3,
       "carbs": 3.1,
       "fat": 3.9,
-      "fiber": 0.6
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion",
@@ -42933,7 +42955,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.6 → 1.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G460100, BLS 4.0 G480100, BLS 4.0 G561100, Ciqual 2025 20034, Ciqual 2025 20385, CoFID 2021 13-499, CoFID 2021 13-517, USDA SR 170000, USDA SR 170457). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "kiymali-ispanak",
@@ -44976,7 +44999,7 @@
       "protein": 13.0,
       "carbs": 21.3,
       "fat": 5.2,
-      "fiber": 1.1
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Wrap",
@@ -45009,7 +45032,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.1 → 1.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B783012, BLS 4.0 G105100, BLS 4.0 G561100, Ciqual 2025 20031, Ciqual 2025 20385, CoFID 2021 11-925, CoFID 2021 13-517, CoFID 2021 13-520, USDA SR 169247, USDA SR 170457, USDA SR 175037). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "citir-tavuk",
@@ -47620,7 +47644,7 @@
       "protein": 1.4,
       "carbs": 7.9,
       "fat": 4.6,
-      "fiber": 1.8
+      "fiber": 3.2
     },
     "portion": {
       "label": "1 Portion",
@@ -47653,7 +47677,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.8 → 3.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G620100, BLS 4.0 G660100, BLS 4.0 G760100, Ciqual 2025 20009, Ciqual 2025 20055, CoFID 2021 13-219, CoFID 2021 13-438, CoFID 2021 13-496, USDA SR 170393, USDA SR 170400, USDA SR 170419). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "zeytinyagli-bamya",
@@ -48186,7 +48211,7 @@
       "protein": 1.2,
       "carbs": 3.7,
       "fat": 4.3,
-      "fiber": 0.6
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -48215,7 +48240,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.6 → 1.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G460100, BLS 4.0 G480100, BLS 4.0 G561100, Ciqual 2025 20034, Ciqual 2025 20385, CoFID 2021 13-499, CoFID 2021 13-517, USDA SR 170000, USDA SR 170457). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "zeytinyagli-pancar",
@@ -48799,7 +48825,7 @@
       "protein": 1.7,
       "carbs": 6.3,
       "fat": 7.0,
-      "fiber": 2.8
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Portion",
@@ -48828,7 +48854,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.8 → 1.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 G541100, BLS 4.0 G561100, Ciqual 2025 11000, Ciqual 2025 20085, Ciqual 2025 20385, CoFID 2021 13-244, CoFID 2021 13-318, CoFID 2021 13-517, USDA SR 169230, USDA SR 170427, USDA SR 170457). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "fava",
@@ -49560,7 +49587,7 @@
       "protein": 3.1,
       "carbs": 21.9,
       "fat": 8.1,
-      "fiber": 1.9
+      "fiber": 3.1
     },
     "portion": {
       "label": "1 Portion (6 Stück)",
@@ -49605,12 +49632,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.9 → 3.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C352000, BLS 4.0 G480100, Ciqual 2025 20034, Ciqual 2025 9100, CoFID 2021 13-499, USDA SR 168877, USDA SR 169393, USDA SR 170000). Methode recipe.",
     "off_similar": [
       "8654029509536",
       "0095100001309",
       "0015823500071"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "yaprak-sarma-etli",
@@ -49640,7 +49668,7 @@
       "protein": 6.7,
       "carbs": 14.4,
       "fat": 9.1,
-      "fiber": 1.6
+      "fiber": 2.7
     },
     "portion": {
       "label": "1 Portion (6 Stück)",
@@ -49677,7 +49705,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.6 → 2.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C352000, BLS 4.0 G480100, Ciqual 2025 20034, Ciqual 2025 9100, CoFID 2021 13-499, USDA SR 168877, USDA SR 169393, USDA SR 170000). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "lahana-sarmasi-etli",
@@ -57251,7 +57280,7 @@
       "protein": 12.9,
       "carbs": 25.5,
       "fat": 10.7,
-      "fiber": 1.6
+      "fiber": 2.1
     },
     "portion": {
       "label": "1 Wrap",
@@ -57288,7 +57317,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.6 → 2.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B783012, BLS 4.0 G480100, Ciqual 2025 20034, CoFID 2021 11-925, CoFID 2021 13-499, USDA SR 170000, USDA SR 175037). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "midye-tava",
@@ -59974,7 +60004,7 @@
       "protein": 19.1,
       "carbs": 10.7,
       "fat": 15.0,
-      "fiber": 1.0
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Portion",
@@ -59999,7 +60029,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.0 → 0.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, BLS 4.0 F601600, Ciqual 2025 2028, CoFID 2021 11-011, CoFID 2021 14-277, USDA SR 167747, USDA SR 168867). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "hamsi-bugulama",
@@ -62389,7 +62420,7 @@
       "protein": 6.3,
       "carbs": 5.4,
       "fat": 16.1,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Schälchen",
@@ -62422,12 +62453,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.7 → 0.8 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "5713507057952",
       "5712873548552",
       "5712877034433"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "cacik-meze",
@@ -62816,7 +62848,7 @@
       "protein": 1.6,
       "carbs": 5.8,
       "fat": 7.1,
-      "fiber": 2.7
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Schälchen",
@@ -62845,7 +62877,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.7 → 1.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 G250100, BLS 4.0 G541100, Ciqual 2025 11000, Ciqual 2025 11014, Ciqual 2025 20085, CoFID 2021 13-244, CoFID 2021 13-318, CoFID 2021 13-844, USDA SR 169230, USDA SR 170416, USDA SR 170427). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "saksuka",
@@ -62940,7 +62973,7 @@
       "protein": 5.8,
       "carbs": 6.3,
       "fat": 13.3,
-      "fiber": 0.7
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Schälchen",
@@ -62969,12 +63002,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.7 → 0.8 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "5449000200136",
       "5449000316653",
       "40822600"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "muhammara",
@@ -63004,7 +63038,7 @@
       "protein": 8.2,
       "carbs": 20.0,
       "fat": 34.3,
-      "fiber": 4.6
+      "fiber": 4.7
     },
     "portion": {
       "label": "1 Schälchen",
@@ -63041,12 +63075,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 4.6 → 4.7 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "0617241011988",
       "0850048739154",
       "3524130006871"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "girit-ezmesi",
@@ -63715,7 +63750,7 @@
       "protein": 7.6,
       "carbs": 18.8,
       "fat": 29.3,
-      "fiber": 4.8
+      "fiber": 4.9
     },
     "portion": {
       "label": "1 Schälchen",
@@ -63752,11 +63787,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 4.8 → 4.9 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "4260467596331",
       "7680876183828"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "zahter-salatasi",
@@ -64054,7 +64090,7 @@
       "protein": 3.6,
       "carbs": 5.6,
       "fat": 3.4,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Schälchen",
@@ -64075,7 +64111,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "hellim-izgara",
@@ -64776,7 +64813,7 @@
       "protein": 2.2,
       "carbs": 4.2,
       "fat": 5.2,
-      "fiber": 0.3
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -64801,7 +64838,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.3 → 1.0 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 G460100, Ciqual 2025 11000, CoFID 2021 13-244, USDA SR 169230). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "roka-salatasi",
@@ -65846,7 +65884,7 @@
       "protein": 0.8,
       "carbs": 4.1,
       "fat": 0.1,
-      "fiber": 0.5
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion",
@@ -65875,12 +65913,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.5 → 0.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 G520100, Ciqual 2025 11000, Ciqual 2025 11093, CoFID 2021 13-244, CoFID 2021 13-523, CoFID 2021 13-824, USDA SR 168409, USDA SR 169230, USDA SR 172233). Methode recipe.",
     "off_similar": [
       "6210961061147",
       "3193504182932",
       "4016937050618"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "lahana-tursusu",
@@ -65972,7 +66011,7 @@
       "protein": 1.5,
       "carbs": 5.5,
       "fat": 0.2,
-      "fiber": 2.7
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Portion",
@@ -65993,12 +66032,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.7 → 1.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G541100, Ciqual 2025 20085, CoFID 2021 13-318, USDA SR 170427). Methode recipe.",
     "off_similar": [
       "20191573",
       "6210241101082",
       "4037700078653"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "havuc-tursusu",
@@ -66186,7 +66226,7 @@
       "protein": 1.1,
       "carbs": 6.3,
       "fat": 0.2,
-      "fiber": 2.7
+      "fiber": 2.8
     },
     "portion": {
       "label": "1 Portion",
@@ -66211,7 +66251,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.7 → 2.8 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "yesil-domates-tursusu",
@@ -66347,7 +66388,7 @@
       "protein": 4.3,
       "carbs": 22.2,
       "fat": 0.3,
-      "fiber": 1.4
+      "fiber": 2.7
     },
     "portion": {
       "label": "1 Portion",
@@ -66368,12 +66409,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.4 → 2.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen (Knoblauch methodenabhängig); neu gerechnet mit Knoblauch 4.1 g/100 g (klassische AOAC-Methode ohne Fructane/Inulin); Quellen Ciqual 2025 11000, CoFID 2021 13-244, USDA SR 169230). Methode recipe.",
     "off_similar": [
       "8698943860540",
       "4250368103738",
       "4012625411204"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "sucuklu-menemen",
@@ -66785,7 +66827,7 @@
       "protein": 16.0,
       "carbs": 10.9,
       "fat": 26.8,
-      "fiber": 0.9
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Portion",
@@ -66810,10 +66852,11 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.9 → 0.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
     "off_similar": [
       "4260467598069"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "kahvalti-tabagi",
@@ -71431,7 +71474,7 @@
       "protein": 12.0,
       "carbs": 50.0,
       "fat": 29.0,
-      "fiber": 3.0
+      "fiber": 4.5
     },
     "portion": {
       "label": "1 Portion",
@@ -71444,12 +71487,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.0 → 4.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen USDA SR 167996). Methode recipe.",
     "off_similar": [
       "8693003022203",
       "3700671764627",
       "6260008900106"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "turk-cayi",
@@ -72272,7 +72316,7 @@
       "protein": 0.4,
       "carbs": 12.8,
       "fat": 0.1,
-      "fiber": 0.6
+      "fiber": 0.0
     },
     "portion": {
       "label": "1 Glas",
@@ -72293,12 +72337,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.6 → 0.0 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F212600, BLS 4.0 F212700). Methode recipe.",
     "off_similar": [
       "3800014286882",
       "4260466413738",
       "20364977"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "nar-suyu",
@@ -72328,7 +72373,7 @@
       "protein": 1.7,
       "carbs": 19.0,
       "fat": 1.2,
-      "fiber": 4.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Glas",
@@ -72341,12 +72386,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 4.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen Ciqual 2025 2017, Ciqual 2025 2039, CoFID 2021 14-341, USDA SR 167787). Methode recipe.",
     "off_similar": [
       "4891191600584",
       "4760041300854",
       "5214000553373"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "portakal-suyu",
@@ -72387,7 +72433,7 @@
       "protein": 0.9,
       "carbs": 12.0,
       "fat": 0.1,
-      "fiber": 2.4
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Glas",
@@ -72400,12 +72446,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.4 → 0.3 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F603600, Ciqual 2025 2070, USDA SR 169098). Methode recipe.",
     "off_similar": [
       "4056489505372",
       "9003665010712",
       "5300782000256"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "kefir",
@@ -72859,7 +72906,7 @@
       "protein": 9.0,
       "carbs": 56.0,
       "fat": 1.5,
-      "fiber": 2.5
+      "fiber": 3.5
     },
     "portion": {
       "label": "1 Stück",
@@ -72872,12 +72919,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.5 → 3.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B783012, CoFID 2021 11-925, USDA SR 175037). Methode recipe.",
     "off_similar": [
       "0794711003312",
       "0074117000666",
       "0032157200132"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "misir-ekmegi",
@@ -73432,7 +73480,7 @@
       "protein": 23.3,
       "carbs": 0.5,
       "fat": 27.2,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Portion",
@@ -73453,7 +73501,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen Ciqual 2025 11000, CoFID 2021 13-244, USDA SR 169230). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "saray-kebabi",
@@ -73778,7 +73827,7 @@
       "protein": 9.2,
       "carbs": 3.8,
       "fat": 13.7,
-      "fiber": 1.7
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion",
@@ -73803,7 +73852,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.7 → 1.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G541100, BLS 4.0 G561100, Ciqual 2025 20085, Ciqual 2025 20385, CoFID 2021 13-318, CoFID 2021 13-517, USDA SR 170427, USDA SR 170457). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "enginar-kebabi",
@@ -77867,7 +77917,7 @@
       "protein": 1.5,
       "carbs": 5.8,
       "fat": 4.1,
-      "fiber": 2.3
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Portion",
@@ -77888,7 +77938,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.3 → 1.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G541100, BLS 4.0 G561100, Ciqual 2025 20085, Ciqual 2025 20385, CoFID 2021 13-318, CoFID 2021 13-517, USDA SR 170427, USDA SR 170457). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "haslanmis-sebze",
@@ -80654,7 +80705,7 @@
       "protein": 8.8,
       "carbs": 10.2,
       "fat": 12.2,
-      "fiber": 1.2
+      "fiber": 2.1
     },
     "portion": {
       "label": "5 Stück",
@@ -80687,7 +80738,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 2.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C352000, BLS 4.0 G480100, Ciqual 2025 20034, Ciqual 2025 9100, CoFID 2021 13-499, USDA SR 168877, USDA SR 169393, USDA SR 170000). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "cevapi-sarajevski",
@@ -84030,7 +84082,7 @@
       "protein": 15.9,
       "carbs": 1.2,
       "fat": 18.2,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Portion",
@@ -84055,7 +84107,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen Ciqual 2025 11042, CoFID 2021 13-889, USDA SR 170923). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "loukaniko-cypriot",
@@ -84134,7 +84187,7 @@
       "protein": 8.0,
       "carbs": 11.0,
       "fat": 11.6,
-      "fiber": 1.2
+      "fiber": 2.0
     },
     "portion": {
       "label": "5 Stück",
@@ -84171,7 +84224,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 2.0 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C352000, BLS 4.0 G480100, Ciqual 2025 20034, Ciqual 2025 9100, CoFID 2021 13-499, USDA SR 168877, USDA SR 169393, USDA SR 170000). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "tavas",
@@ -84678,7 +84732,7 @@
       "protein": 2.9,
       "carbs": 9.5,
       "fat": 3.0,
-      "fiber": 0.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Teller",
@@ -84711,7 +84765,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.8 → 0.9 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "hovezi-vyvar-s-nudlemi",
@@ -88929,7 +88984,7 @@
       "protein": 20.7,
       "carbs": 1.3,
       "fat": 10.8,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -88954,7 +89009,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "pollo-en-pepitoria",
@@ -89170,7 +89226,7 @@
       "protein": 16.3,
       "carbs": 3.1,
       "fat": 7.4,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Portion",
@@ -89199,7 +89255,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.2 → 0.3 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "canelones-catalanes",
@@ -89465,7 +89522,7 @@
       "protein": 0.6,
       "carbs": 11.0,
       "fat": 0.1,
-      "fiber": 1.5
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Glas",
@@ -89490,7 +89547,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.5 → 0.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F603600, Ciqual 2025 2070, USDA SR 169098). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "zurrukutuna",
@@ -89997,7 +90055,7 @@
       "protein": 3.5,
       "carbs": 4.8,
       "fat": 7.8,
-      "fiber": 1.2
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -90026,7 +90084,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 1.3 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "pulpo-a-la-brasa",
@@ -91495,7 +91554,7 @@
       "protein": 2.0,
       "carbs": 8.0,
       "fat": 5.1,
-      "fiber": 2.8
+      "fiber": 2.9
     },
     "portion": {
       "label": "1 Portion",
@@ -91520,7 +91579,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.8 → 2.9 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "salade-de-chevre-chaud",
@@ -95068,7 +95128,7 @@
       "protein": 6.0,
       "carbs": 0.9,
       "fat": 3.9,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Teller",
@@ -95097,7 +95157,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 F601600, Ciqual 2025 11000, Ciqual 2025 2028, CoFID 2021 13-244, CoFID 2021 14-277, USDA SR 167747, USDA SR 169230). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "kokkinisto",
@@ -96793,7 +96854,7 @@
       "protein": 11.9,
       "carbs": 13.5,
       "fat": 15.9,
-      "fiber": 1.3
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -96826,7 +96887,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 1.4 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "psari-plaki",
@@ -96917,7 +96979,7 @@
       "protein": 13.5,
       "carbs": 0.8,
       "fat": 16.7,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Portion",
@@ -96942,7 +97004,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen Ciqual 2025 11000, CoFID 2021 13-244, USDA SR 169230). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "sardeles-psites",
@@ -102644,7 +102707,7 @@
       "protein": 5.3,
       "carbs": 11.7,
       "fat": 5.9,
-      "fiber": 1.0
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Teller",
@@ -102677,7 +102740,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.0 → 0.6 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "cotoletta-alla-milanese",
@@ -102939,7 +103003,7 @@
       "protein": 12.4,
       "carbs": 5.4,
       "fat": 18.9,
-      "fiber": 0.9
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -102980,7 +103044,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.9 → 1.3 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G480100, BLS 4.0 G568900, BLS 4.0 G660100, Ciqual 2025 20034, Ciqual 2025 20055, Ciqual 2025 20137, CoFID 2021 13-219, CoFID 2021 13-499, CoFID 2021 13-530, USDA SR 170000, USDA SR 170051, USDA SR 170400). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "abbacchio-alla-scottadito",
@@ -103055,7 +103120,7 @@
       "protein": 14.9,
       "carbs": 3.2,
       "fat": 16.3,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Portion",
@@ -103080,7 +103145,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen Ciqual 2025 11000, CoFID 2021 13-244, USDA SR 169230). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "involtini-alla-messinese",
@@ -110555,7 +110621,7 @@
       "protein": 0.2,
       "carbs": 11.1,
       "fat": 0.2,
-      "fiber": 1.9
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Glas",
@@ -110572,7 +110638,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.9 → 0.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F110600, Ciqual 2025 2074, USDA SR 173933). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "gofry-z-owocami",
@@ -111360,7 +111427,7 @@
       "protein": 10.9,
       "carbs": 4.6,
       "fat": 7.4,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Portion",
@@ -111389,7 +111456,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 F601600, Ciqual 2025 11000, Ciqual 2025 2028, CoFID 2021 13-244, CoFID 2021 14-277, USDA SR 167747, USDA SR 169230). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "lulas-grelhadas",
@@ -112289,7 +112357,7 @@
       "protein": 27.2,
       "carbs": 0.9,
       "fat": 20.3,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Spieß",
@@ -112310,7 +112378,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "poncha",
@@ -112452,7 +112521,7 @@
       "protein": 9.0,
       "carbs": 25.1,
       "fat": 19.1,
-      "fiber": 1.3
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -112481,7 +112550,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 1.4 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "ensopado-de-borrego",
@@ -112619,7 +112689,7 @@
       "protein": 6.2,
       "carbs": 10.7,
       "fat": 8.8,
-      "fiber": 1.0
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -112652,7 +112722,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.0 → 0.6 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, BLS 4.0 G480100, Ciqual 2025 20034, CoFID 2021 11-011, CoFID 2021 13-499, USDA SR 168867, USDA SR 170000). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "mamaliga-cu-branza-si-smantana",
@@ -112682,7 +112753,7 @@
       "protein": 3.0,
       "carbs": 12.7,
       "fat": 5.7,
-      "fiber": 1.1
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -112711,7 +112782,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.1 → 0.6 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "sarmale",
@@ -112953,7 +113025,7 @@
       "protein": 4.9,
       "carbs": 11.2,
       "fat": 7.1,
-      "fiber": 1.0
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Portion",
@@ -112982,7 +113054,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.0 → 0.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "pomana-porcului",
@@ -113347,7 +113420,7 @@
       "protein": 6.5,
       "carbs": 11.1,
       "fat": 6.7,
-      "fiber": 1.2
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -113380,7 +113453,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 0.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, BLS 4.0 G480100, BLS 4.0 G561100, Ciqual 2025 20034, Ciqual 2025 20385, CoFID 2021 11-011, CoFID 2021 13-499, CoFID 2021 13-517, USDA SR 168867, USDA SR 170000, USDA SR 170457). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "karadordeva-snicla",
@@ -114007,7 +114081,7 @@
       "protein": 2.7,
       "carbs": 15.4,
       "fat": 4.0,
-      "fiber": 1.5
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -114036,7 +114110,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.5 → 1.0 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, BLS 4.0 K110100, Ciqual 2025 4008, CoFID 2021 11-011, CoFID 2021 13-489, USDA SR 168867, USDA SR 170026). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "cufte-u-paradajz-sosu",
@@ -115669,7 +115744,7 @@
       "protein": 14.3,
       "carbs": 19.6,
       "fat": 19.1,
-      "fiber": 3.9
+      "fiber": 5.6
     },
     "portion": {
       "label": "2 Scheiben",
@@ -115694,7 +115769,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.9 → 5.6 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B6A2000, BLS 4.0 G520100, CoFID 2021 11-822, CoFID 2021 13-523, USDA SR 168409, USDA SR 172744). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "agghalva",
@@ -115724,7 +115800,7 @@
       "protein": 10.9,
       "carbs": 1.0,
       "fat": 16.6,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "4 Hälften",
@@ -115745,7 +115821,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 Q991000, Ciqual 2025 11054, Ciqual 2025 11093, CoFID 2021 13-824, USDA SR 171009, USDA SR 172233). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "jota-slovenska",
@@ -116717,7 +116794,7 @@
       "protein": 10.1,
       "carbs": 19.1,
       "fat": 16.3,
-      "fiber": 2.6
+      "fiber": 2.7
     },
     "portion": {
       "label": "1 Portion",
@@ -116738,7 +116815,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.6 → 2.7 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "kulish",
@@ -116829,7 +116907,7 @@
       "protein": 4.1,
       "carbs": 13.1,
       "fat": 8.1,
-      "fiber": 1.1
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -116858,7 +116936,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.1 → 0.6 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "halushky",
@@ -117007,7 +117086,7 @@
       "protein": 7.2,
       "carbs": 47.9,
       "fat": 10.5,
-      "fiber": 1.9
+      "fiber": 2.0
     },
     "portion": {
       "label": "3 Stück",
@@ -117040,7 +117119,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.9 → 2.0 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "paska",
@@ -119012,7 +119092,7 @@
       "protein": 1.4,
       "carbs": 9.2,
       "fat": 8.0,
-      "fiber": 0.0
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Glas",
@@ -119037,12 +119117,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 S243000, CoFID 2021 12-508, USDA SR 167575). Methode recipe.",
     "off_similar": [
       "9010158004097",
       "9020200036167",
       "4061461766115"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "zwetschkenroster",
@@ -121589,7 +121670,7 @@
       "protein": 1.4,
       "carbs": 10.5,
       "fat": 9.0,
-      "fiber": 2.7
+      "fiber": 2.8
     },
     "portion": {
       "label": "3 EL",
@@ -121626,12 +121707,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.7 → 2.8 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "3800740023140",
       "3800219605150",
       "3800023600174"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "banitsa",
@@ -121851,7 +121933,7 @@
       "protein": 22.5,
       "carbs": 1.2,
       "fat": 26.3,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "2 Stück",
@@ -121876,10 +121958,11 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "0781930684323"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "basler-lackerli",
@@ -122305,7 +122388,7 @@
       "protein": 3.0,
       "carbs": 13.3,
       "fat": 4.4,
-      "fiber": 1.2
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion",
@@ -122330,12 +122413,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 0.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
     "off_similar": [
       "16589872",
       "7612275022934",
       "7613312009406"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "zurcher-geschnetzeltes",
@@ -127742,7 +127826,7 @@
       "protein": 2.0,
       "carbs": 8.4,
       "fat": 57.0,
-      "fiber": 2.8
+      "fiber": 3.0
     },
     "portion": {
       "label": "3 EL",
@@ -127775,12 +127859,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.8 → 3.0 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "20946173",
       "8437020924825",
       "8437015266107"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "pa-amb-oli",
@@ -127997,7 +128082,7 @@
       "protein": 17.4,
       "carbs": 3.8,
       "fat": 20.7,
-      "fiber": 0.3
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Portion",
@@ -128026,12 +128111,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.3 → 0.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 G250100, Ciqual 2025 11000, Ciqual 2025 11014, CoFID 2021 13-244, CoFID 2021 13-844, USDA SR 169230, USDA SR 170416). Methode recipe.",
     "off_similar": [
       "0014500010537",
       "8410416013525",
       "2147950003229"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "potaje-de-garbanzos",
@@ -128206,7 +128292,7 @@
       "protein": 4.5,
       "carbs": 7.9,
       "fat": 27.0,
-      "fiber": 3.3
+      "fiber": 3.4
     },
     "portion": {
       "label": "3 EL",
@@ -128243,12 +128329,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.3 → 3.4 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "8413239200202",
       "8437012454491",
       "8437001744374"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "sidra-asturiana",
@@ -128449,7 +128536,7 @@
       "protein": 2.7,
       "carbs": 3.8,
       "fat": 51.7,
-      "fiber": 0.2
+      "fiber": 0.4
     },
     "portion": {
       "label": "2 EL",
@@ -128482,12 +128569,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.2 → 0.4 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 F601600, Ciqual 2025 11000, Ciqual 2025 2028, CoFID 2021 13-244, CoFID 2021 14-277, USDA SR 167747, USDA SR 169230). Methode recipe.",
     "off_similar": [
       "4480406171737",
       "7792900990774",
       "8437012454576"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "arroz-con-leche",
@@ -128579,7 +128667,7 @@
       "protein": 19.7,
       "carbs": 1.7,
       "fat": 24.3,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -128604,12 +128692,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "2965500014002",
       "20496074",
       "8480010136029"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "bocadillo-de-tortilla",
@@ -129577,7 +129666,7 @@
       "protein": 1.8,
       "carbs": 6.1,
       "fat": 50.8,
-      "fiber": 1.3
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Portion",
@@ -129610,12 +129699,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 1.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 G250100, Ciqual 2025 11000, Ciqual 2025 11014, Ciqual 2025 11042, CoFID 2021 13-244, CoFID 2021 13-844, CoFID 2021 13-889, USDA SR 169230, USDA SR 170416, USDA SR 170923). Methode recipe.",
     "off_similar": [
       "8437000922452",
       "4002239847704",
       "8437014047851"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "paella-de-mariscos",
@@ -130878,7 +130968,7 @@
       "protein": 19.1,
       "carbs": 2.4,
       "fat": 13.4,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -130907,10 +130997,11 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "8436564340214"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "croquetas-de-jamon",
@@ -131407,7 +131498,7 @@
       "protein": 12.4,
       "carbs": 32.3,
       "fat": 26.3,
-      "fiber": 1.9
+      "fiber": 2.0
     },
     "portion": {
       "label": "1 Portion",
@@ -131440,12 +131531,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.9 → 2.0 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "8480000807571",
       "8437006438315",
       "8480000232892"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "morcilla-de-burgos",
@@ -132393,7 +132485,7 @@
       "protein": 13.6,
       "carbs": 1.1,
       "fat": 11.7,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Tapa",
@@ -132422,12 +132514,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "8437002871062",
       "8413916250155",
       "8433329050531"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "bunuelos-de-viento",
@@ -133018,7 +133111,7 @@
       "protein": 16.7,
       "carbs": 2.4,
       "fat": 15.2,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Tapa",
@@ -133051,12 +133144,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.2 → 0.3 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "4061462148576",
       "2168135008600",
       "4061463664464"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "horchata-de-chufa",
@@ -133830,7 +133924,7 @@
       "protein": 3.9,
       "carbs": 5.7,
       "fat": 9.0,
-      "fiber": 1.3
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Tapa",
@@ -133863,12 +133957,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 1.4 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "5063445797190",
       "5063089830284",
       "5063089309933"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "tarta-de-queso-vasca",
@@ -135987,7 +136082,7 @@
       "protein": 1.7,
       "carbs": 7.3,
       "fat": 12.3,
-      "fiber": 1.3
+      "fiber": 2.8
     },
     "portion": {
       "label": "1 Portion",
@@ -136016,12 +136111,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 2.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G660100, BLS 4.0 Q991000, BLS 4.0 R132000, Ciqual 2025 11013, Ciqual 2025 11054, Ciqual 2025 20055, CoFID 2021 13-219, USDA SR 170400, USDA SR 171009, USDA SR 172234). Methode recipe.",
     "off_similar": [
       "0208430010044",
       "0290601018690",
       "0219034019487"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "far-breton",
@@ -141981,7 +142077,7 @@
       "protein": 2.9,
       "carbs": 27.3,
       "fat": 10.1,
-      "fiber": 1.4
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Stück",
@@ -142014,12 +142110,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.4 → 1.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C214100, BLS 4.0 F301100, BLS 4.0 R481100, Ciqual 2025 13014, Ciqual 2025 9436, CoFID 2021 11-1138, CoFID 2021 14-324, USDA SR 167762, USDA SR 168894, USDA SR 169609). Methode recipe.",
     "off_similar": [
       "5400112182215",
       "2000000053653",
       "0207194065277"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "terrine-de-campagne",
@@ -142800,7 +142897,7 @@
       "protein": 11.9,
       "carbs": 6.8,
       "fat": 24.7,
-      "fiber": 0.4
+      "fiber": 0.5
     },
     "portion": {
       "label": "6 Stück",
@@ -142829,12 +142926,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.4 → 0.5 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "3111952030544",
       "3365480001952",
       "5206560002644"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "fondue-au-chocolat",
@@ -144917,7 +145015,7 @@
       "protein": 2.2,
       "carbs": 19.2,
       "fat": 13.3,
-      "fiber": 0.8
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Schälchen",
@@ -144942,12 +145040,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.8 → 1.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F301100, Ciqual 2025 13014, CoFID 2021 14-324, USDA SR 167762). Methode recipe.",
     "off_similar": [
       "5060384261157",
       "5063334040802",
       "5055365635638"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "ginger-beer",
@@ -148572,7 +148671,7 @@
       "protein": 3.5,
       "carbs": 6.9,
       "fat": 2.3,
-      "fiber": 1.3
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Teller",
@@ -148601,12 +148700,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 0.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C148000, BLS 4.0 F220400, BLS 4.0 G470100, Ciqual 2025 13042, Ciqual 2025 20039, CoFID 2021 13-624, CoFID 2021 14-391, USDA SR 168162, USDA SR 169246, USDA SR 170284). Methode recipe.",
     "off_similar": [
       "5012427676107",
       "0746935193041",
       "5012427142404"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "coronation-chicken",
@@ -149687,7 +149787,7 @@
       "protein": 3.1,
       "carbs": 20.5,
       "fat": 7.9,
-      "fiber": 2.0
+      "fiber": 3.5
     },
     "portion": {
       "label": "6 Stück",
@@ -149724,12 +149824,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.0 → 3.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C352000, BLS 4.0 G480100, Ciqual 2025 20034, Ciqual 2025 9100, CoFID 2021 13-499, USDA SR 168877, USDA SR 169393, USDA SR 170000). Methode recipe.",
     "off_similar": [
       "3174792019223",
       "9332180004464",
       "5201310003377"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "gemista",
@@ -150139,7 +150240,7 @@
       "protein": 2.0,
       "carbs": 14.7,
       "fat": 16.8,
-      "fiber": 1.7
+      "fiber": 1.9
     },
     "portion": {
       "label": "3 EL",
@@ -150168,11 +150269,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.7 → 1.9 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "0850059612071",
       "5202722020105"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "spanakorizo",
@@ -152206,7 +152308,7 @@
       "protein": 1.7,
       "carbs": 10.1,
       "fat": 14.6,
-      "fiber": 4.5
+      "fiber": 4.6
     },
     "portion": {
       "label": "1 Portion",
@@ -152235,10 +152337,11 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 4.5 → 4.6 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "5214000606215"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "pastitsio",
@@ -156001,7 +156104,7 @@
       "protein": 2.5,
       "carbs": 17.1,
       "fat": 7.1,
-      "fiber": 0.0
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Glas",
@@ -156018,12 +156121,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Eis-Anteil -> ~0.2; Quellen BLS 4.0 S243000, CoFID 2021 12-508, USDA SR 167575). Methode recipe.",
     "off_similar": [
       "8024370101350",
       "8030919005027",
       "9341661001977"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "arancini-siciliani",
@@ -157417,7 +157521,7 @@
       "protein": 3.6,
       "carbs": 17.0,
       "fat": 3.7,
-      "fiber": 1.0
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Teller",
@@ -157454,12 +157558,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.0 → 1.3 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 E401000, BLS 4.0 G568900, Ciqual 2025 11000, Ciqual 2025 20137, CoFID 2021 11-716, CoFID 2021 13-244, CoFID 2021 13-530, USDA SR 169230, USDA SR 169736, USDA SR 170051). Methode recipe.",
     "off_similar": [
       "9356335007001",
       "5063089015773",
       "8007548014669"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "pici-cacio-e-pepe",
@@ -157690,7 +157795,7 @@
       "protein": 4.3,
       "carbs": 12.6,
       "fat": 6.5,
-      "fiber": 1.1
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion",
@@ -157719,12 +157824,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.1 → 0.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Maismehlwert; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
     "off_similar": [
       "0619309000965",
       "8050880300129",
       "21155703"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "polpette-al-sugo",
@@ -158108,7 +158214,7 @@
       "protein": 3.7,
       "carbs": 21.3,
       "fat": 7.3,
-      "fiber": 1.0
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Teller",
@@ -158141,12 +158247,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.0 → 1.1 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "4027900441104",
       "8711521329304",
       "4047247731232"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "spaghetti-alla-carbonara",
@@ -159440,7 +159547,7 @@
       "protein": 3.5,
       "carbs": 24.0,
       "fat": 10.0,
-      "fiber": 0.0
+      "fiber": 0.3
     },
     "portion": {
       "label": "2 Kugeln",
@@ -159453,12 +159560,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.3 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Vanilleeis enthält nur Spuren (Bindemittel); 0.7 zu hoch, ~0.3; Quellen BLS 4.0 S243000, CoFID 2021 12-508, USDA SR 167575). Methode recipe.",
     "off_similar": [
       "0860230002300",
       "8026924064074",
       "8021995006299"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "gnocco-fritto",
@@ -160438,7 +160546,7 @@
       "protein": 2.8,
       "carbs": 11.4,
       "fat": 5.1,
-      "fiber": 1.3
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Teller",
@@ -160479,10 +160587,11 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 0.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 C346000, BLS 4.0 K701100, Ciqual 2025 11000, Ciqual 2025 20056, CoFID 2021 11-011, CoFID 2021 13-244, CoFID 2021 13-505, USDA SR 168867, USDA SR 169230, USDA SR 169251). Methode recipe.",
     "off_similar": [
       "8003086001666"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "polpettone",
@@ -161092,7 +161201,7 @@
       "protein": 8.0,
       "carbs": 24.1,
       "fat": 13.6,
-      "fiber": 0.8
+      "fiber": 1.1
     },
     "portion": {
       "label": "2 Stück",
@@ -161141,12 +161250,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.8 → 1.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B821000, BLS 4.0 C352000, BLS 4.0 G568900, Ciqual 2025 20137, Ciqual 2025 7500, Ciqual 2025 9100, CoFID 2021 13-530, USDA SR 168877, USDA SR 170051, USDA SR 174928). Methode recipe.",
     "off_similar": [
       "0327016112726",
       "8018843007065",
       "8057018224784"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "tiramisu",
@@ -163256,7 +163366,7 @@
       "protein": 17.7,
       "carbs": 1.0,
       "fat": 40.6,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -163277,12 +163387,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "3760152501080",
       "4335619302952",
       "2623773002002"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "risi-e-bisi",
@@ -166820,7 +166931,7 @@
       "protein": 15.9,
       "carbs": 0.7,
       "fat": 17.5,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Portion",
@@ -166857,12 +166968,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F601600, BLS 4.0 Q991000, Ciqual 2025 11054, Ciqual 2025 2028, CoFID 2021 14-277, USDA SR 167747, USDA SR 171009). Methode recipe.",
     "off_similar": [
       "5400101071308",
       "8003948004521",
       "20406943"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "zuppa-di-lenticchie",
@@ -167164,7 +167276,7 @@
       "protein": 9.1,
       "carbs": 36.0,
       "fat": 21.5,
-      "fiber": 4.9
+      "fiber": 5.0
     },
     "portion": {
       "label": "1 Portion",
@@ -167189,11 +167301,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 4.9 → 5.0 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "4771138392096",
       "4770217222002"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "zemaiciu-blynai",
@@ -172158,7 +172271,7 @@
       "protein": 7.7,
       "carbs": 13.7,
       "fat": 17.9,
-      "fiber": 2.5
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Portion",
@@ -172187,12 +172300,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.5 → 1.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C148000, BLS 4.0 G480100, Ciqual 2025 20034, CoFID 2021 13-499, USDA SR 170000, USDA SR 170284). Methode recipe.",
     "off_similar": [
       "2700072008543",
       "5906245778993",
       "2527091008909"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "kopytka",
@@ -172565,7 +172679,7 @@
       "protein": 8.9,
       "carbs": 7.9,
       "fat": 7.0,
-      "fiber": 1.2
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -172606,12 +172720,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 1.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G620100, BLS 4.0 G660100, BLS 4.0 R160000, Ciqual 2025 20009, Ciqual 2025 20055, CoFID 2021 13-219, CoFID 2021 13-496, CoFID 2021 13-531, USDA SR 170393, USDA SR 170400, USDA SR 170459). Methode recipe.",
     "off_similar": [
       "5900143000590",
       "5902353033498",
       "5903496036490"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "szarlotka",
@@ -172988,7 +173103,7 @@
       "protein": 2.5,
       "carbs": 13.0,
       "fat": 5.2,
-      "fiber": 2.7
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Teller",
@@ -173021,12 +173136,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.7 → 1.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C148000, BLS 4.0 G480100, BLS 4.0 K701100, Ciqual 2025 20034, Ciqual 2025 20056, CoFID 2021 13-499, CoFID 2021 13-505, USDA SR 169251, USDA SR 170000, USDA SR 170284). Methode recipe.",
     "off_similar": [
       "5900907009340",
       "7613036031660",
       "7613036239196"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "kotlet-mielony",
@@ -175703,7 +175819,7 @@
       "protein": 9.3,
       "carbs": 31.1,
       "fat": 18.7,
-      "fiber": 2.0
+      "fiber": 2.1
     },
     "portion": {
       "label": "1 Portion",
@@ -175736,12 +175852,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.0 → 2.1 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "5602386000350",
       "8480000591791",
       "5601312308072"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "francesinha",
@@ -177423,7 +177540,7 @@
       "protein": 22.7,
       "carbs": 1.3,
       "fat": 25.0,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -177448,10 +177565,11 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "5600265399359"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "queijadas-de-sintra",
@@ -178404,7 +178522,7 @@
       "protein": 18.2,
       "carbs": 2.0,
       "fat": 21.0,
-      "fiber": 0.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "3 Stück mit Senf",
@@ -178433,12 +178551,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.6 → 0.7 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "5941918000056",
       "5941460010473",
       "5941356516805"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "salata-de-boeuf",
@@ -178623,7 +178742,7 @@
       "protein": 4.3,
       "carbs": 31.8,
       "fat": 7.5,
-      "fiber": 4.9
+      "fiber": 4.2
     },
     "portion": {
       "label": "1 Schälchen",
@@ -178652,10 +178771,11 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 4.9 → 4.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Coliva wird aus Weizenkörnern gekocht, nicht aus Graupen; Quellen BLS 4.0 C148000, BLS 4.0 H120100, Ciqual 2025 15005, CoFID 2021 13-874, CoFID 2021 14-879, USDA SR 170187, USDA SR 170284, USDA SR 171320). Methode recipe.",
     "off_similar": [
       "0655383538277"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "carnati-de-plescoi",
@@ -179377,7 +179497,7 @@
       "protein": 1.4,
       "carbs": 8.5,
       "fat": 11.3,
-      "fiber": 3.1
+      "fiber": 3.2
     },
     "portion": {
       "label": "3 EL",
@@ -179406,12 +179526,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.1 → 3.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "0374305000325",
       "0041451014147",
       "4056489474401"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "lepinja",
@@ -179999,7 +180120,7 @@
       "protein": 7.3,
       "carbs": 31.1,
       "fat": 13.3,
-      "fiber": 2.3
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Stück",
@@ -180036,12 +180157,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.3 → 1.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C214100, BLS 4.0 C346000, Ciqual 2025 9436, CoFID 2021 11-011, USDA SR 168867, USDA SR 168894). Methode recipe.",
     "off_similar": [
       "12029990",
       "3850291054094",
       "3858881082724"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "duvec",
@@ -181395,7 +181517,7 @@
       "protein": 12.6,
       "carbs": 13.9,
       "fat": 13.6,
-      "fiber": 3.0
+      "fiber": 2.1
     },
     "portion": {
       "label": "2 Stück",
@@ -181424,12 +181546,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.0 → 2.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C148000, BLS 4.0 G480100, Ciqual 2025 20034, CoFID 2021 13-499, USDA SR 170000, USDA SR 170284, USDA SR 170923, USDA SR 171320, USDA SR 171321, USDA SR 171326, USDA SR 172231). Methode recipe.",
     "off_similar": [
       "2000061142570",
       "7316260001576",
       "7318690153177"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "kardemummabulle",
@@ -182968,7 +183091,7 @@
       "protein": 11.9,
       "carbs": 1.5,
       "fat": 19.1,
-      "fiber": 0.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Portion",
@@ -182997,12 +183120,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F601600, BLS 4.0 Q991000, Ciqual 2025 11054, Ciqual 2025 11093, Ciqual 2025 2028, CoFID 2021 13-824, CoFID 2021 14-277, USDA SR 167747, USDA SR 171009, USDA SR 172233). Methode recipe.",
     "off_similar": [
       "7331147022246",
       "7300156582195",
       "7311043015535"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "vasterbottenpaj",
@@ -183520,7 +183644,7 @@
       "protein": 5.2,
       "carbs": 22.2,
       "fat": 9.5,
-      "fiber": 3.1
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Portion",
@@ -183549,10 +183673,11 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.1 → 1.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C322000, CoFID 2021 11-006, USDA SR 170685). Methode recipe.",
     "off_similar": [
       "3838700640014"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "kraski-prsut",
@@ -184815,7 +184940,7 @@
       "protein": 4.6,
       "carbs": 24.4,
       "fat": 4.4,
-      "fiber": 3.4
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Portion",
@@ -184836,10 +184961,11 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.4 → 1.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C322000, CoFID 2021 11-006, USDA SR 170685). Methode recipe.",
     "off_similar": [
       "0052851140060"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "okroshka",
@@ -185207,7 +185333,7 @@
       "protein": 4.1,
       "carbs": 61.8,
       "fat": 25.4,
-      "fiber": 3.0
+      "fiber": 2.0
     },
     "portion": {
       "label": "2 Stück (70 g)",
@@ -185232,7 +185358,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.0 → 2.0 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Feines Maismehl, Wert 1.7 bei 30 g Mehl/Portion plausibel; geringfügig höher mit Maismehl-Median; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "kabuni",
@@ -185585,7 +185712,7 @@
       "protein": 7.6,
       "carbs": 11.5,
       "fat": 9.4,
-      "fiber": 1.0
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion (350 g)",
@@ -185614,7 +185741,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.0 → 0.6 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "tave-krapi",
@@ -185772,7 +185900,7 @@
       "protein": 4.9,
       "carbs": 20.6,
       "fat": 10.6,
-      "fiber": 2.9
+      "fiber": 2.2
     },
     "portion": {
       "label": "1 Stück (200 g)",
@@ -185809,7 +185937,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.9 → 2.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Maismehlwert; Quellen BLS 4.0 C346000, BLS 4.0 G211100, BLS 4.0 G470100, Ciqual 2025 20039, Ciqual 2025 20059, CoFID 2021 11-011, CoFID 2021 13-572, CoFID 2021 13-624, USDA SR 168462, USDA SR 168867, USDA SR 169246). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "groshe",
@@ -187334,7 +187463,7 @@
       "protein": 5.7,
       "carbs": 24.9,
       "fat": 13.7,
-      "fiber": 3.5
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Portion",
@@ -187359,7 +187488,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.5 → 1.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C322000, CoFID 2021 11-006, USDA SR 170685). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "schinkenfleckerl",
@@ -188437,7 +188567,7 @@
       "protein": 8.4,
       "carbs": 13.8,
       "fat": 16.9,
-      "fiber": 1.2
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Pfanne",
@@ -188466,7 +188596,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 0.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "gailtaler-kirchtagssuppe",
@@ -191557,7 +191688,7 @@
       "protein": 23.1,
       "carbs": 1.6,
       "fat": 10.6,
-      "fiber": 0.5
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion (200 g)",
@@ -191586,10 +191717,11 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.5 → 0.6 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "0733426013025"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "pita-sa-visnjama",
@@ -193137,7 +193269,7 @@
       "protein": 1.4,
       "carbs": 7.9,
       "fat": 11.0,
-      "fiber": 3.3
+      "fiber": 3.4
     },
     "portion": {
       "label": "1 Portion (150 g)",
@@ -193174,11 +193306,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.3 → 3.4 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "3800012194127",
       "20319892"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "sirene-po-shopski",
@@ -194154,7 +194287,7 @@
       "protein": 9.6,
       "carbs": 11.0,
       "fat": 4.9,
-      "fiber": 1.1
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -194191,7 +194324,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.1 → 0.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, BLS 4.0 G480100, BLS 4.0 G620100, Ciqual 2025 20009, Ciqual 2025 20034, CoFID 2021 11-011, CoFID 2021 13-496, CoFID 2021 13-499, USDA SR 168867, USDA SR 170000, USDA SR 170393). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "fondue-chinoise",
@@ -195879,7 +196013,7 @@
       "protein": 5.9,
       "carbs": 12.7,
       "fat": 8.3,
-      "fiber": 1.1
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -195908,7 +196042,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.1 → 0.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Maismehlwert; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "koupes",
@@ -196538,7 +196673,7 @@
       "protein": 0.9,
       "carbs": 3.5,
       "fat": 6.1,
-      "fiber": 0.7
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Schale (200 g)",
@@ -196571,7 +196706,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.7 → 1.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G460100, BLS 4.0 G520100, BLS 4.0 G561100, Ciqual 2025 20385, CoFID 2021 13-517, CoFID 2021 13-523, USDA SR 168409, USDA SR 170457). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "soutzoukos",
@@ -198122,7 +198258,7 @@
       "protein": 5.3,
       "carbs": 37.2,
       "fat": 17.7,
-      "fiber": 5.1
+      "fiber": 5.2
     },
     "portion": {
       "label": "2 Stück",
@@ -198143,7 +198279,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 5.1 → 5.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "oblozene-chlebicky",
@@ -198768,7 +198905,7 @@
       "protein": 15.5,
       "carbs": 11.3,
       "fat": 4.9,
-      "fiber": 0.8
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion",
@@ -198793,7 +198930,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.8 → 1.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B511000, BLS 4.0 G630100, Ciqual 2025 11016, CoFID 2021 13-258, USDA SR 175031). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "brezenknoedel",
@@ -202681,7 +202819,7 @@
       "protein": 4.3,
       "carbs": 31.8,
       "fat": 14.2,
-      "fiber": 1.4
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Stück",
@@ -202710,7 +202848,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.4 → 0.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C322000, BLS 4.0 F4A1900, CoFID 2021 11-006, USDA SR 170685, USDA SR 173961). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "stint-gebraten",
@@ -204305,7 +204444,7 @@
       "protein": 2.4,
       "carbs": 8.6,
       "fat": 2.5,
-      "fiber": 0.6
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Glas",
@@ -204326,12 +204465,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.6 → 0.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F301100, Ciqual 2025 13014, CoFID 2021 14-324, USDA SR 167762). Methode recipe.",
     "off_similar": [
       "4311501702659",
       "4000349500236",
       "4012850053521"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "johannisbeerschorle",
@@ -204360,7 +204500,7 @@
       "protein": 0.3,
       "carbs": 6.0,
       "fat": 0.0,
-      "fiber": 1.0
+      "fiber": 0.1
     },
     "portion": {
       "label": "0,4 l",
@@ -204381,12 +204521,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.0 → 0.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F321600, BLS 4.0 F323600). Methode recipe.",
     "off_similar": [
       "3510128103066",
       "4260293660121",
       "4021619013201"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "eierlikoer",
@@ -206991,7 +207132,7 @@
       "protein": 10.1,
       "carbs": 9.7,
       "fat": 23.4,
-      "fiber": 1.6
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion",
@@ -207020,12 +207161,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.6 → 1.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C148000, BLS 4.0 G480100, Ciqual 2025 20034, CoFID 2021 13-499, USDA SR 170000, USDA SR 170284). Methode recipe.",
     "off_similar": [
       "4012941866542",
       "2400580003503",
       "23930148"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "krakauer-mit-pommes",
@@ -208088,7 +208230,7 @@
       "protein": 2.5,
       "carbs": 6.5,
       "fat": 5.7,
-      "fiber": 1.1
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -208117,10 +208259,11 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.1 → 1.4 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Kohlrabi 2.9 hoch; BLS/CH/LMV 1.4-1.8; Quellen BLS 4.0 C214100, BLS 4.0 G331100, Ciqual 2025 20065, Ciqual 2025 9436, CoFID 2021 13-261, USDA SR 168424, USDA SR 168894). Methode recipe.",
     "off_similar": [
       "20280680"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "schwarzwurzelgemuese",
@@ -212035,7 +212178,7 @@
       "protein": 11.1,
       "carbs": 3.4,
       "fat": 6.7,
-      "fiber": 0.7
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -212064,11 +212207,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.7 → 1.0 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 G480100, BLS 4.0 G568900, Ciqual 2025 11000, Ciqual 2025 20034, Ciqual 2025 20137, CoFID 2021 13-244, CoFID 2021 13-499, CoFID 2021 13-530, USDA SR 169230, USDA SR 170000, USDA SR 170051). Methode recipe.",
     "off_similar": [
       "2005548590554",
       "8410057004258"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "lomo-adobado",
@@ -212223,7 +212367,7 @@
       "protein": 15.3,
       "carbs": 1.3,
       "fat": 40.6,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -212248,7 +212392,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "san-jacobo",
@@ -214958,7 +215103,7 @@
       "protein": 12.8,
       "carbs": 28.4,
       "fat": 17.4,
-      "fiber": 2.5
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Stück",
@@ -214979,7 +215124,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.5 → 1.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Talo aus feinem Maismehl, Median-Wert 4.7 -> 1.7; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "lacon-con-grelos",
@@ -219003,7 +219149,7 @@
       "protein": 1.5,
       "carbs": 5.9,
       "fat": 6.3,
-      "fiber": 3.5
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -219028,7 +219174,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.5 → 1.4 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Brüsseler Chicorée hat ~1.2-1.3 g (BLS/CH/Ciqual); 2.3 noch zu hoch; Quellen BLS 4.0 F601600, Ciqual 2025 20026, Ciqual 2025 2028, CoFID 2021 14-277, USDA SR 167747, USDA SR 170404). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "gratin-de-chou-fleur",
@@ -223512,7 +223659,7 @@
       "protein": 2.7,
       "carbs": 21.4,
       "fat": 10.6,
-      "fiber": 0.5
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Glas",
@@ -223541,10 +223688,11 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.5 → 0.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Eiswert zu hoch; Quellen BLS 4.0 F301100, BLS 4.0 S132000, BLS 4.0 S243000, Ciqual 2025 13014, CoFID 2021 12-508, CoFID 2021 14-324, USDA SR 167575, USDA SR 167762, USDA SR 169641). Methode recipe.",
     "off_similar": [
       "5014624000242"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "cheese-scones",
@@ -225408,7 +225556,7 @@
       "protein": 16.4,
       "carbs": 2.9,
       "fat": 20.6,
-      "fiber": 0.1
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion (350 g)",
@@ -225441,7 +225589,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.1 → 0.2 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "satsivi",
@@ -226750,7 +226899,7 @@
       "protein": 16.1,
       "carbs": 4.2,
       "fat": 8.0,
-      "fiber": 0.3
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Portion (300 g)",
@@ -226791,12 +226940,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.3 → 0.4 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "0413640021463",
       "0740279001017",
       "8437017853121"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "kotopoulo-me-hilopites",
@@ -227091,7 +227241,7 @@
       "protein": 6.3,
       "carbs": 15.2,
       "fat": 12.8,
-      "fiber": 1.6
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Stück (200 g)",
@@ -227128,7 +227278,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.6 → 1.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, BLS 4.0 G582100, CoFID 2021 11-011, CoFID 2021 13-627, USDA SR 168867, USDA SR 169291). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "galatopita",
@@ -228426,7 +228577,7 @@
       "protein": 9.6,
       "carbs": 3.8,
       "fat": 10.1,
-      "fiber": 0.7
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion (400 g)",
@@ -228463,7 +228614,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.7 → 1.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F601600, BLS 4.0 G660100, Ciqual 2025 20055, Ciqual 2025 2028, CoFID 2021 13-219, CoFID 2021 14-277, USDA SR 167747, USDA SR 170400). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "hirino-prasoselino",
@@ -229397,7 +229549,7 @@
       "protein": 10.0,
       "carbs": 18.8,
       "fat": 4.3,
-      "fiber": 1.0
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion (450 g)",
@@ -229438,7 +229590,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.0 → 1.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 E401000, BLS 4.0 G568900, Ciqual 2025 11000, Ciqual 2025 20137, CoFID 2021 11-716, CoFID 2021 13-244, CoFID 2021 13-530, USDA SR 169230, USDA SR 169736, USDA SR 170051). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "prasorizo",
@@ -230309,7 +230462,7 @@
       "protein": 16.9,
       "carbs": 9.3,
       "fat": 9.7,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Portion (300 g)",
@@ -230346,7 +230499,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.2 → 0.3 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "skampi-na-buzaru",
@@ -230376,7 +230530,7 @@
       "protein": 17.6,
       "carbs": 3.8,
       "fat": 8.2,
-      "fiber": 0.4
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Portion (250 g)",
@@ -230413,7 +230567,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.4 → 0.5 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "lignje-na-zaru",
@@ -231699,7 +231854,7 @@
       "protein": 7.5,
       "carbs": 26.7,
       "fat": 6.2,
-      "fiber": 1.9
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Stück (150 g)",
@@ -231732,7 +231887,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.9 → 1.3 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Maismehlwert; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "kandirane-narancine-kore",
@@ -236875,7 +237031,7 @@
       "protein": 5.3,
       "carbs": 13.1,
       "fat": 8.0,
-      "fiber": 1.4
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -236904,12 +237060,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.4 → 0.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C322000, BLS 4.0 C346000, CoFID 2021 11-006, CoFID 2021 11-011, USDA SR 168867, USDA SR 170685). Methode recipe.",
     "off_similar": [
       "8000113000302",
       "7640186710060",
       "8009149001154"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "pollo-alla-romana",
@@ -237000,7 +237157,7 @@
       "protein": 12.4,
       "carbs": 2.8,
       "fat": 11.0,
-      "fiber": 0.7
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -237033,7 +237190,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.7 → 1.0 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 G568900, BLS 4.0 H510802, Ciqual 2025 11000, Ciqual 2025 11035, Ciqual 2025 11038, Ciqual 2025 20137, CoFID 2021 13-244, CoFID 2021 13-530, CoFID 2021 13-878, CoFID 2021 13-883, USDA SR 169094, USDA SR 169096, USDA SR 169230, USDA SR 170051, USDA SR 170938, USDA SR 171328). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "braciole-napoletane",
@@ -237063,7 +237221,7 @@
       "protein": 12.6,
       "carbs": 4.6,
       "fat": 9.7,
-      "fiber": 0.7
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -237100,7 +237258,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.7 → 1.0 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F840100, BLS 4.0 G568900, BLS 4.0 H320100, Ciqual 2025 13046, Ciqual 2025 15025, Ciqual 2025 20137, CoFID 2021 13-530, CoFID 2021 14-393, CoFID 2021 14-839, USDA SR 168165, USDA SR 170051, USDA SR 170591). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "peposo-dell-impruneta",
@@ -238129,7 +238288,7 @@
       "protein": 13.0,
       "carbs": 9.5,
       "fat": 7.0,
-      "fiber": 0.7
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -238166,7 +238325,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.7 → 1.0 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B821000, BLS 4.0 G250100, BLS 4.0 G568900, Ciqual 2025 11014, Ciqual 2025 20137, Ciqual 2025 7500, CoFID 2021 13-530, CoFID 2021 13-844, USDA SR 170051, USDA SR 170416, USDA SR 174928). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "triglie-alla-livornese",
@@ -238951,7 +239111,7 @@
       "protein": 3.2,
       "carbs": 8.2,
       "fat": 18.9,
-      "fiber": 2.1
+      "fiber": 2.3
     },
     "portion": {
       "label": "1 Portion",
@@ -238988,12 +239148,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.1 → 2.3 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "8033945802455",
       "8000571096114",
       "8017735000344"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "insalata-di-finocchi",
@@ -240835,7 +240996,7 @@
       "protein": 5.7,
       "carbs": 24.5,
       "fat": 14.6,
-      "fiber": 1.3
+      "fiber": 1.6
     },
     "portion": {
       "label": "2 Kugeln",
@@ -240852,12 +241013,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 1.6 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Eiswert zu hoch; Quellen BLS 4.0 H250100, BLS 4.0 S243000, Ciqual 2025 15044, CoFID 2021 12-508, USDA SR 167575, USDA SR 170184). Methode recipe.",
     "off_similar": [
       "8034013692350",
       "8055267690060",
       "8032974015836"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "granita-al-caffe-con-panna",
@@ -242196,7 +242358,7 @@
       "protein": 6.6,
       "carbs": 23.7,
       "fat": 12.7,
-      "fiber": 3.3
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Portion",
@@ -242221,7 +242383,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.3 → 1.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C322000, CoFID 2021 11-006, USDA SR 170685). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "verwurelter",
@@ -242696,7 +242859,7 @@
       "protein": 7.8,
       "carbs": 32.8,
       "fat": 26.4,
-      "fiber": 4.4
+      "fiber": 4.5
     },
     "portion": {
       "label": "1 Portion",
@@ -242725,7 +242888,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 4.4 → 4.5 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "silke-ar-biezpienu-un-kartupeliem",
@@ -243688,7 +243852,7 @@
       "protein": 7.5,
       "carbs": 11.3,
       "fat": 7.8,
-      "fiber": 1.1
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Portion (300 g)",
@@ -243729,7 +243893,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.1 → 1.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G480100, BLS 4.0 G568900, Ciqual 2025 20034, Ciqual 2025 20137, CoFID 2021 13-499, CoFID 2021 13-530, USDA SR 169393, USDA SR 170000, USDA SR 170051). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "branzoaice",
@@ -244040,7 +244205,7 @@
       "protein": 6.8,
       "carbs": 18.0,
       "fat": 13.4,
-      "fiber": 1.5
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion (250 g)",
@@ -244073,7 +244238,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.5 → 0.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "priganice",
@@ -244540,7 +244706,7 @@
       "protein": 1.4,
       "carbs": 7.6,
       "fat": 10.3,
-      "fiber": 2.5
+      "fiber": 2.6
     },
     "portion": {
       "label": "1 Portion (150 g)",
@@ -244573,7 +244739,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.5 → 2.6 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "makalo",
@@ -244602,7 +244769,7 @@
       "protein": 4.1,
       "carbs": 22.2,
       "fat": 27.6,
-      "fiber": 1.2
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Portion (80 g)",
@@ -244635,7 +244802,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 1.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen (Knoblauch methodenabhängig); neu gerechnet mit Knoblauch 4.1 g/100 g (klassische AOAC-Methode ohne Fructane/Inulin); Quellen BLS 4.0 B311000, Ciqual 2025 11000, CoFID 2021 11-980, CoFID 2021 13-244, USDA SR 169230, USDA SR 174924). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "gjomleze",
@@ -252743,7 +252911,7 @@
       "protein": 12.1,
       "carbs": 11.0,
       "fat": 14.1,
-      "fiber": 1.3
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -252776,12 +252944,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 0.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 C346000, Ciqual 2025 11000, Ciqual 2025 11049, CoFID 2021 11-011, CoFID 2021 13-244, CoFID 2021 13-879, USDA SR 168867, USDA SR 169230, USDA SR 171329). Methode recipe.",
     "off_similar": [
       "2557560008246",
       "2557560007065",
       "2557560007782"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "bulz",
@@ -252810,7 +252979,7 @@
       "protein": 5.1,
       "carbs": 13.9,
       "fat": 8.3,
-      "fiber": 1.2
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion",
@@ -252839,10 +253008,11 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 0.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
     "off_similar": [
       "0655383538192"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "balmos",
@@ -252871,7 +253041,7 @@
       "protein": 6.3,
       "carbs": 18.7,
       "fat": 15.2,
-      "fiber": 1.4
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion",
@@ -252900,7 +253070,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.4 → 0.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "salata-orientala",
@@ -253480,7 +253651,7 @@
       "protein": 8.2,
       "carbs": 24.6,
       "fat": 10.5,
-      "fiber": 1.5
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Stück",
@@ -253513,7 +253684,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.5 → 0.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "lapte-de-pasare",
@@ -254143,7 +254315,7 @@
       "protein": 11.8,
       "carbs": 4.0,
       "fat": 26.6,
-      "fiber": 0.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion (100 g)",
@@ -254176,12 +254348,13 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.9 → 1.0 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
     "off_similar": [
       "8606107841755",
       "9001414211946",
       "8600742000171"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "pasulj-sa-kobasicom",
@@ -254550,7 +254723,7 @@
       "protein": 13.6,
       "carbs": 1.2,
       "fat": 14.1,
-      "fiber": 0.2
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Portion (200 g)",
@@ -254579,7 +254752,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.2 → 0.3 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "riblja-corba-srpska",
@@ -256485,7 +256659,7 @@
       "protein": 3.7,
       "carbs": 15.5,
       "fat": 4.0,
-      "fiber": 2.4
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -256514,7 +256688,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.4 → 1.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C322000, BLS 4.0 G480100, BLS 4.0 K701100, Ciqual 2025 20034, Ciqual 2025 20056, CoFID 2021 11-006, CoFID 2021 13-499, CoFID 2021 13-505, USDA SR 169251, USDA SR 170000, USDA SR 170685). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "kurinye-kotlety",
@@ -258078,7 +258253,7 @@
       "protein": 7.5,
       "carbs": 30.1,
       "fat": 7.2,
-      "fiber": 3.1
+      "fiber": 2.1
     },
     "portion": {
       "label": "1 Portion (250 g)",
@@ -258115,7 +258290,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 3.1 → 2.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C214100, BLS 4.0 C322000, BLS 4.0 K110100, Ciqual 2025 4008, Ciqual 2025 9436, CoFID 2021 11-006, CoFID 2021 13-489, USDA SR 168894, USDA SR 170026, USDA SR 170685). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "kobariski-struklji",
@@ -258271,7 +258447,7 @@
       "protein": 4.3,
       "carbs": 17.8,
       "fat": 4.1,
-      "fiber": 2.6
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion (300 g)",
@@ -258308,7 +258484,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.6 → 1.6 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C322000, BLS 4.0 G480100, BLS 4.0 K701100, Ciqual 2025 20034, Ciqual 2025 20056, CoFID 2021 11-006, CoFID 2021 13-499, CoFID 2021 13-505, USDA SR 169251, USDA SR 170000, USDA SR 170685). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "prekmurski-dodoli",
@@ -262741,7 +262918,7 @@
       "protein": 17.2,
       "carbs": 12.4,
       "fat": 13.6,
-      "fiber": 1.4
+      "fiber": 1.0
     },
     "portion": {
       "label": "6 Stück (180 g)",
@@ -262778,7 +262955,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.4 → 1.0 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, BLS 4.0 G250100, BLS 4.0 G480100, Ciqual 2025 11014, Ciqual 2025 20034, CoFID 2021 11-011, CoFID 2021 13-499, CoFID 2021 13-844, USDA SR 168867, USDA SR 170000, USDA SR 170416). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "hamsi-boregi",
@@ -263201,7 +263379,7 @@
       "protein": 21.2,
       "carbs": 8.6,
       "fat": 16.6,
-      "fiber": 0.8
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Portion (250 g)",
@@ -263226,7 +263404,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.8 → 0.4 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, CoFID 2021 11-011, USDA SR 168867). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "fasulye-tursusu-kavurmasi",
@@ -263802,7 +263981,7 @@
       "protein": 1.8,
       "carbs": 7.4,
       "fat": 10.2,
-      "fiber": 2.4
+      "fiber": 2.5
     },
     "portion": {
       "label": "1 Portion (150 g)",
@@ -263831,7 +264010,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.4 → 2.5 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "sevketi-bostan",
@@ -264249,7 +264429,7 @@
       "protein": 20.4,
       "carbs": 1.5,
       "fat": 13.0,
-      "fiber": 0.5
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion (200 g)",
@@ -264278,7 +264458,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.5 → 1.1 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F601600, Ciqual 2025 2028, CoFID 2021 14-277, USDA SR 167747, USDA SR 169393). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "hayrabolu-tatlisi",
@@ -266123,7 +266304,7 @@
       "protein": 10.2,
       "carbs": 36.7,
       "fat": 37.0,
-      "fiber": 2.7
+      "fiber": 3.6
     },
     "portion": {
       "label": "1 Portion (120 g)",
@@ -266148,7 +266329,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.7 → 3.6 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 H120100, Ciqual 2025 15005, CoFID 2021 14-879, USDA SR 167996, USDA SR 170187). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "meyveli-muhallebi",
@@ -266299,7 +266481,7 @@
       "protein": 3.5,
       "carbs": 24.0,
       "fat": 10.0,
-      "fiber": 0.0
+      "fiber": 0.3
     },
     "portion": {
       "label": "2 Kugeln (100 g)",
@@ -266312,10 +266494,11 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.0 → 0.3 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: anpassen – Maraş-Eis mit Salep (Glucomannan), Basis ~0.3, Salep-Anteil gering; Quellen BLS 4.0 S243000, CoFID 2021 12-508, USDA SR 167575). Methode recipe.",
     "off_similar": [
       "4021851007181"
-    ]
+    ],
+    "method": "recipe"
   },
   {
     "id": "cevizli-muska",
@@ -266819,7 +267002,7 @@
       "protein": 10.3,
       "carbs": 17.7,
       "fat": 10.1,
-      "fiber": 1.2
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Stück (300 g)",
@@ -266856,7 +267039,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 1.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B783012, BLS 4.0 G480100, BLS 4.0 G561100, Ciqual 2025 20034, Ciqual 2025 20385, CoFID 2021 11-925, CoFID 2021 13-499, CoFID 2021 13-517, USDA SR 170000, USDA SR 170457, USDA SR 175037). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "adana-durum",
@@ -266952,7 +267136,7 @@
       "protein": 10.4,
       "carbs": 18.1,
       "fat": 9.2,
-      "fiber": 1.2
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Stück (300 g)",
@@ -266985,7 +267169,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 1.5 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B783012, BLS 4.0 G480100, BLS 4.0 G561100, Ciqual 2025 20034, Ciqual 2025 20385, CoFID 2021 11-925, CoFID 2021 13-499, CoFID 2021 13-517, USDA SR 170000, USDA SR 170457, USDA SR 175037). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "sikma",
@@ -267212,7 +267397,7 @@
       "protein": 10.2,
       "carbs": 19.1,
       "fat": 9.0,
-      "fiber": 1.2
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Stück (280 g)",
@@ -267245,7 +267430,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.2 → 1.6 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 B783012, BLS 4.0 G250100, BLS 4.0 G561100, Ciqual 2025 11014, Ciqual 2025 20385, CoFID 2021 11-925, CoFID 2021 13-517, CoFID 2021 13-844, USDA SR 170416, USDA SR 170457, USDA SR 175037). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "ciger-tava-ekmek-arasi",
@@ -267342,7 +267528,7 @@
       "protein": 11.1,
       "carbs": 21.9,
       "fat": 15.3,
-      "fiber": 1.3
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Stück (250 g)",
@@ -267379,7 +267565,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.3 → 1.8 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 B783012, BLS 4.0 G480100, BLS 4.0 R160000, Ciqual 2025 11000, Ciqual 2025 20034, CoFID 2021 11-925, CoFID 2021 13-244, CoFID 2021 13-499, CoFID 2021 13-531, USDA SR 169230, USDA SR 170000, USDA SR 170459, USDA SR 175037). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "pilav-ustu-kofte",
@@ -267926,7 +268113,7 @@
       "protein": 3.5,
       "carbs": 7.6,
       "fat": 16.2,
-      "fiber": 1.6
+      "fiber": 2.6
     },
     "portion": {
       "label": "1 Portion (150 g)",
@@ -267955,7 +268142,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.6 → 2.6 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 G660100, BLS 4.0 H120100, BLS 4.0 Q991000, Ciqual 2025 11054, Ciqual 2025 15005, Ciqual 2025 20055, CoFID 2021 13-219, CoFID 2021 14-879, USDA SR 170187, USDA SR 170400, USDA SR 171009). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "levrek-marin",
@@ -268143,7 +268331,7 @@
       "protein": 3.8,
       "carbs": 8.2,
       "fat": 22.1,
-      "fiber": 2.9
+      "fiber": 3.0
     },
     "portion": {
       "label": "1 Portion (120 g)",
@@ -268172,7 +268360,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 2.9 → 3.0 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "tahinli-patlican",
@@ -268265,7 +268454,7 @@
       "protein": 2.6,
       "carbs": 4.5,
       "fat": 5.1,
-      "fiber": 0.2
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion (150 g)",
@@ -268294,7 +268483,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.2 → 0.7 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Knoblauch ohne Fructane neu gerechnet; Quellen BLS 4.0 G460100, Ciqual 2025 11000, CoFID 2021 13-244, USDA SR 169230). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "pancar-tarator",
@@ -268499,7 +268689,7 @@
       "protein": 5.5,
       "carbs": 14.5,
       "fat": 34.2,
-      "fiber": 4.0
+      "fiber": 4.1
     },
     "portion": {
       "label": "1 Portion (60 g)",
@@ -268532,7 +268722,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 4.0 → 4.1 g (Schätzung, Knoblauchanteil neu gerechnet: Knoblauch 2.1 → 4.1 g/100 g (Median USDA SR, Ciqual, CoFID; klassische AOAC-Methode ohne Fructane/Inulin); Quellen USDA SR 169230, Ciqual 2025 11000, CoFID 2021 13-244). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "fasulye-pilaki",
@@ -270059,7 +270250,7 @@
       "protein": 0.2,
       "carbs": 10.5,
       "fat": 0.1,
-      "fiber": 0.6
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Glas (250 ml)",
@@ -270080,7 +270271,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 0.6 → 0.9 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 F301100, Ciqual 2025 13014, CoFID 2021 14-324, USDA SR 167762). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "dut-surubu",
@@ -270292,7 +270484,7 @@
       "protein": 10.5,
       "carbs": 15.5,
       "fat": 15.4,
-      "fiber": 1.9
+      "fiber": 1.2
     },
     "portion": {
       "label": "3 Stück",
@@ -270329,7 +270521,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.9 → 1.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C214100, BLS 4.0 C322000, BLS 4.0 G480100, Ciqual 2025 20034, Ciqual 2025 9436, CoFID 2021 11-006, CoFID 2021 13-499, USDA SR 168894, USDA SR 170000, USDA SR 170685). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "kartoplianyky",
@@ -271176,7 +271369,7 @@
       "protein": 3.0,
       "carbs": 20.4,
       "fat": 5.9,
-      "fiber": 1.8
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion (300 g)",
@@ -271209,7 +271402,8 @@
       }
     ],
     "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "source": "calculated from typical recipe and approximate reference values Ballaststoffe: 1.8 → 1.2 g (Schätzung, Rezeptrechnung mit Zutatenwerten = Median freier Quellen, klassische AOAC-Methode ohne Fructane/Inulin; Prüfung: übernehmen; Quellen BLS 4.0 C346000, BLS 4.0 K110100, Ciqual 2025 4008, CoFID 2021 11-011, CoFID 2021 13-489, USDA SR 168867, USDA SR 170026). Methode recipe.",
+    "method": "recipe"
   },
   {
     "id": "tomate-roh",
@@ -306977,7 +307171,7 @@
       "protein": 7.1,
       "carbs": 36.3,
       "fat": 0.5,
-      "fiber": 33.3,
+      "fiber": 4.8,
       "sugar": 2.4
     },
     "ingredients": [
@@ -306987,8 +307181,9 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G490162 \"Knoblauch gebacken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 3 g + Ballaststoffe 33.291 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
-    "source_id": "BLS 4.0:G490162"
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G490162 \"Knoblauch gebacken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 3 g + Ballaststoffe 33.291 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe: 33.3 → 4.8 g, ohne Fructane/Inulin (klassische AOAC-Methode). BLS 4.0 (33.291 g) enthält Fructane/Inulin (AOAC 2009.01). Klassischer Rohwert = Median SR:169230 2.1, CIQ:11000 5.8, COFID:13-244 4.1 = 4.1 g × BLS-Zubereitungsfaktor 33.291/28.297 (BLS G490162/G490100) = 1.176 → 4.8 g. Vergleich: Ciqual 11306 Garlic, roasted/baked 2,7 g. Kohlenhydrate (gesamt) und kcal unverändert aus BLS; die Fructane zählen jetzt zu den Kohlenhydraten. Methode similar_food. Nur per100g.fiber ist eine Schätzung; Kohlenhydrate, kcal und die übrigen Nährwerte bleiben der veröffentlichte Datensatz.",
+    "source_id": "BLS 4.0:G490162",
+    "method": "similar_food"
   },
   {
     "id": "knoblauch-gebraten-ohne-fett",
@@ -307018,7 +307213,7 @@
       "protein": 9.6,
       "carbs": 49.9,
       "fat": 0.7,
-      "fiber": 44.9,
+      "fiber": 6.5,
       "sugar": 3.3
     },
     "ingredients": [
@@ -307028,8 +307223,9 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G490182 \"Knoblauch gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 5 g + Ballaststoffe 44.916 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
-    "source_id": "BLS 4.0:G490182"
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G490182 \"Knoblauch gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 5 g + Ballaststoffe 44.916 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe: 44.9 → 6.5 g, ohne Fructane/Inulin (klassische AOAC-Methode). BLS 4.0 (44.916 g) enthält Fructane/Inulin (AOAC 2009.01). Klassischer Rohwert = Median SR:169230 2.1, CIQ:11000 5.8, COFID:13-244 4.1 = 4.1 g × BLS-Zubereitungsfaktor 44.916/28.297 (BLS G490182/G490100) = 1.587 → 6.5 g. Vergleich: Ciqual 11307 Garlic, pan-fried without fat 5,8 g. Kohlenhydrate (gesamt) und kcal unverändert aus BLS; die Fructane zählen jetzt zu den Kohlenhydraten. Methode similar_food. Nur per100g.fiber ist eine Schätzung; Kohlenhydrate, kcal und die übrigen Nährwerte bleiben der veröffentlichte Datensatz.",
+    "source_id": "BLS 4.0:G490182",
+    "method": "similar_food"
   },
   {
     "id": "schalotten-gebraten-ohne-fett",
@@ -307485,7 +307681,7 @@
       "protein": 3.1,
       "carbs": 20.6,
       "fat": 0.5,
-      "fiber": 15.5,
+      "fiber": 2.1,
       "sugar": 5.1
     },
     "ingredients": [
@@ -307495,8 +307691,9 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code K430162 \"Topinambur/Erdartischocke, gebacken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 5.128 g + Ballaststoffe 15.474 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
-    "source_id": "BLS 4.0:K430162"
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code K430162 \"Topinambur/Erdartischocke, gebacken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 5.128 g + Ballaststoffe 15.474 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe: 15.5 → 2.1 g, ohne Fructane/Inulin (klassische AOAC-Methode). BLS 4.0 (15.474 g) enthält Fructane/Inulin (AOAC 2009.01). Klassischer Rohwert = Median SR:169236 1.6, CIQ:20196 1.6 = 1.6 g × BLS-Zubereitungsfaktor 15.474/12.07 (BLS K430162/K430100) = 1.282 → 2.1 g. Vergleich: CoFID 13-156 Jerusalem artichoke boiled 3,5 g (NSP), Ciqual 20050 cooked 2,2 g. Kohlenhydrate (gesamt) und kcal unverändert aus BLS; die Fructane zählen jetzt zu den Kohlenhydraten. Methode similar_food. Nur per100g.fiber ist eine Schätzung; Kohlenhydrate, kcal und die übrigen Nährwerte bleiben der veröffentlichte Datensatz.",
+    "source_id": "BLS 4.0:K430162",
+    "method": "similar_food"
   },
   {
     "id": "topinambur-gebraten-ohne-fett",
@@ -307526,7 +307723,7 @@
       "protein": 2.8,
       "carbs": 18.3,
       "fat": 0.5,
-      "fiber": 13.7,
+      "fiber": 1.8,
       "sugar": 4.5
     },
     "ingredients": [
@@ -307536,8 +307733,9 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code K430182 \"Topinambur/Erdartischocke, gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 4.545 g + Ballaststoffe 13.716 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
-    "source_id": "BLS 4.0:K430182"
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code K430182 \"Topinambur/Erdartischocke, gebraten ohne Fett (Pfanne)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 4.545 g + Ballaststoffe 13.716 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe: 13.7 → 1.8 g, ohne Fructane/Inulin (klassische AOAC-Methode). BLS 4.0 (13.716 g) enthält Fructane/Inulin (AOAC 2009.01). Klassischer Rohwert = Median SR:169236 1.6, CIQ:20196 1.6 = 1.6 g × BLS-Zubereitungsfaktor 13.716/12.07 (BLS K430182/K430100) = 1.136 → 1.8 g. Vergleich: Ciqual 20050 cooked 2,2 g. Kohlenhydrate (gesamt) und kcal unverändert aus BLS; die Fructane zählen jetzt zu den Kohlenhydraten. Methode similar_food. Nur per100g.fiber ist eine Schätzung; Kohlenhydrate, kcal und die übrigen Nährwerte bleiben der veröffentlichte Datensatz.",
+    "source_id": "BLS 4.0:K430182",
+    "method": "similar_food"
   },
   {
     "id": "pfifferlinge-im-ofen-gebacken",
@@ -316374,7 +316572,7 @@
       "protein": 2.3,
       "carbs": 32.1,
       "fat": 0.4,
-      "fiber": 0.0,
+      "fiber": 0.6,
       "sugar": 0.0
     },
     "ingredients": [
@@ -316384,8 +316582,9 @@
       }
     ],
     "quality": "reference",
-    "source": "Public Health England (2021): McCance and Widdowson's The Composition of Foods Integrated Dataset (CoFID) 2021, Open Government Licence v3.0; Code 11-875 \"Rice, Thai fragrant, boiled in unsalted water\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: LGC, Nutrient survey of flours and grains, 2005). Kohlenhydrate = verfügbare KH 32.1 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
-    "source_id": "CoFID 2021:11-875"
+    "source": "Public Health England (2021): McCance and Widdowson's The Composition of Foods Integrated Dataset (CoFID) 2021, Open Government Licence v3.0; Code 11-875 \"Rice, Thai fragrant, boiled in unsalted water\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: LGC, Nutrient survey of flours and grains, 2005). Kohlenhydrate = verfügbare KH 32.1 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe: 0.0 → 0.6 g (Schätzung, Methode similar_food; Quellen USDA SR 168878, BLS 4.0 C352032, Ciqual 2025 9104). Prüfung: übernehmen – CoFID 11-875 führt für gekochten Jasminreis 0 g Ballaststoffe (NSP-Methode, Spuren als 0). Gekochter weißer Reis enthält nach AOAC-Methode messbar Ballaststoffe; Median dreier freier Quellen für gekochten weißen Reis = 0,61 → 0,6 g. Kohlenhydrate 32,1 g, also plausibel. Nur per100g.fiber ist eine Schätzung; Kohlenhydrate bleiben der veröffentlichte Gesamt-KH-Wert und werden nicht aus dem neuen Ballaststoffwert neu gebildet.",
+    "source_id": "CoFID 2021:11-875",
+    "method": "similar_food"
   },
   {
     "id": "jasminreis-roh",
