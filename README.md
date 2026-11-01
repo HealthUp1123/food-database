@@ -103,7 +103,7 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
 | `source_missing` | nein | Nährwerte, die in der Quelle fehlen (`"protein"`, `"fat"`, `"fiber"`, `"sugar"`). `protein`/`fat`/`fiber` stehen dann als 0 in `per100g`, `sugar` fehlt ganz. |
 | `is_packaged_product` | nein | `false` bei Gerichten. `true` wäre nur für `type: "item"` mit Barcode sinnvoll; bei `type: "dish"` ist `true` ungültig. |
 | `off_similar` | nein | Bis zu 3 Open-Food-Facts-Barcodes (6–14 Ziffern) ähnlich benannter Fertigprodukte. Nur ein Hinweis; das Gericht bleibt ein eigener Eintrag. |
-| `per100g` | ja | `kcal` (0–950), `protein`, `carbs`, `fat`, `fiber` (je 0–100 g pro 100 g), optional `sugar` (0–100 g) und `alcohol` (Ethanol, 0–100 g). **Gemeinsame Regel von App und Validator:** Protein + Kohlenhydrate + Fett höchstens 100,15 g pro 100 g (0,15 g Rundungstoleranz). |
+| `per100g` | ja | `kcal` (0–950), `protein`, `carbs`, `fat`, `fiber` (je 0–100 g pro 100 g), optional `sugar` (0–100 g) und `alcohol` (Ethanol, 0–100 g). Protein + Kohlenhydrate + Fett höchstens 100,15 g pro 100 g (0,15 g Rundungstoleranz). Zielwert für die App; Anpassung in FoodPlausibility.swift:47 offen (D7). |
 | `portion` | nein | Typische Portion: `label` (Text) und `grams` (> 0, höchstens 3000, wie in der App). Die App rechnet damit von 100 g auf die Portion um. |
 | `ingredients` | ja | Zutaten der zugrunde gelegten Portion: `{ "name", "grams" }`, `grams` > 0. Das sind Rezeptmengen, keine zweite Nährwertquelle. |
 | `quality` | ja | `"estimate"` (berechnet, wie bei den 4245 Gerichten bis Welle 3), `"reference"` (aus einer amtlichen Nährwertdatenbank übernommen, wie bei 660 der 681 Grundzutaten) oder `"verified"` (später mit geprüften Werten überschrieben). Die 21 geschätzten Grundzutat-Zubereitungen und die 5 geschätzten türkischen Grundzutaten sind `"estimate"`; seit Welle 4 sind auch 101 Gerichte und 73 Getränke `"reference"` (direkter Quelldatensatz). |
@@ -162,7 +162,7 @@ node scripts/validate.mjs
 
 Prüft Pflichtfelder (einschließlich `cuisine`, `category`, `ingredients`, `quality`, `source`), die optionalen Felder `prepared`, `is_packaged_product`, `off_similar`, `state`, `unit`, `note`, `fdc_id`, `source_id`, `source_missing`, `derived_from`, `method`, `per100g.sugar` und `per100g.alcohol`, die Regeln für Grundzutaten (`type: "item"`, kein Barcode, kein Fertigprodukt), Wertebereiche (kcal 0–950, Makros 0–100 g), eindeutige `id`s, eindeutige Barcodes und die EAN-Prüfziffer. **`barcode: null` ist erlaubt** und erzeugt keinen Fehler. Ein Gericht mit `is_packaged_product: true` ist ein Fehler.
 
-**Protein + Kohlenhydrate + Fett:** höchstens **100,15 g** pro 100 g. Das ist die gemeinsame Obergrenze von App und Validator (0,15 g Rundungstoleranz; Beispiel USDA-Leinöl mit 0,11 g Eiweiß und 99,98 g Fett). Die App verwendet denselben Grenzwert.
+**Protein + Kohlenhydrate + Fett:** höchstens **100,15 g** pro 100 g (0,15 g Rundungstoleranz; Beispiel USDA-Leinöl mit 0,11 g Eiweiß und 99,98 g Fett). Zielwert für die App; Anpassung in FoodPlausibility.swift:47 offen (D7).
 
 **Portion:** `portion.grams` ist, wenn gesetzt, größer als 0 und höchstens **3000 g**, wie in der App.
 

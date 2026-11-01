@@ -6,10 +6,9 @@ import { dirname, join } from 'node:path';
 import { isValidEan, LANGS, REQUIRED_LANGS } from '../src/search.mjs';
 
 /**
- * Gemeinsame Obergrenze von App und Validator:
  * Protein + Kohlenhydrate + Fett höchstens 100,15 g pro 100 g
  * (0,15 g Rundungstoleranz, z. B. USDA-Leinöl 0,11 g Eiweiß + 99,98 g Fett).
- * Die App verwendet denselben Grenzwert.
+ * Zielwert für die App; Anpassung in FoodPlausibility.swift:47 offen (D7).
  */
 const MACRO_SUM_MAX_G = 100.15;
 
@@ -168,7 +167,7 @@ data.forEach((e, i) => {
       if (!isNum(p.alcohol) || p.alcohol < 0 || p.alcohol > 100) err(ctx, `alcohol ${p.alcohol} ungültig (0–100 g pro 100 g)`);
     }
     if (MACROS.every((m) => isNum(p[m]))) {
-      // Gemeinsame Obergrenze von App und Validator (MACRO_SUM_MAX_G, 100,15 g).
+      // Obergrenze im Validator (MACRO_SUM_MAX_G, 100,15 g). Zielwert für die App; Anpassung in FoodPlausibility.swift:47 offen (D7).
       const macroSum = p.protein + p.carbs + p.fat;
       if (macroSum > MACRO_SUM_MAX_G) err(ctx, `Protein+Kohlenhydrate+Fett = ${macroSum.toFixed(2)} g > ${MACRO_SUM_MAX_G} g je 100 g`);
       if (p.fiber > p.carbs + 0.0001 && p.fiber > 0) {
