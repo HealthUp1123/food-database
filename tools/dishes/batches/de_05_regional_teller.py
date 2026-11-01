@@ -97,7 +97,7 @@ Feuerzangenbowle | Feuerzangenbowle, Flaming punch | GT | 1.0 | 1 Tasse | wein_r
 Berliner Weiße mit Schuss | Berliner Weisse, Berlin white beer with syrup | GT | 1.0 | 1 Glas | bier 250, zucker 20
 Rhabarberschorle | Rhabarberschorle, Rhubarb spritzer | GT | 1.0 | 1 Glas | rhabarber 60, zucker 20, wasser 200
 Heiße Zitrone | Heiße Zitrone mit Honig, Hot lemon | GT | 1.0 | 1 Tasse | zitrone 40, honig 15, wasser 200
-Kinderpunsch | Kinderpunsch alkoholfrei, Children's punch | GT | 1.0 | 1 Tasse | apfel 150, traube 100, orange 20, zimt 1
+Kinderpunsch | Kinderpunsch alkoholfrei, Children's punch | GT | 1.0 | 1 Tasse | xb_apfelsaft 150, xb_traubensaft 100, xb_orangensaft 20, zimt 1
 Eistee | Eistee gesüßt, Iced tea | GT | 1.0 | 1 Glas | tee 250, zucker 20
 Kaffee schwarz | Filterkaffee, Black coffee | GT | 1.0 | 1 Tasse | tee 150
 Schmandtorte | Mandarinen-Schmand-Torte, Sour cream cake | K | 1.0 | 1 Stück | mehl 30, butter 20, zucker 30, ei 30, schmand 80, orange 50, sahne 40
