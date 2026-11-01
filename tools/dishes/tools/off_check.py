@@ -3,7 +3,8 @@
 
 REGEL (aktuell, Änderung vom User): Gerichte (zuhause/Restaurant/Imbiss) und Fertigprodukte werden GETRENNT gesehen.
   * Ein Gericht wird NICHT entfernt, nur weil OFF ein gleichnamiges Fertigprodukt hat. Es behält seinen Eintrag und bekommt
-      "prepared": "homemade" | "restaurant", "is_packaged_product": false und bei OFF-Treffern "off_similar": [bis zu 3 OFF-Barcodes] (nur Hinweis).
+      "prepared": "homemade" | "restaurant" und "is_packaged_product": false.
+      OFF-Treffer (bis zu 3 Barcodes, nur Hinweis) schreibt apply nach off_check_report.json, nicht in den Eintrag.
   * Entfernt werden nur Einträge, die selbst Fertig-/Supermarktprodukte sind: type "item" mit Barcode, der in OFF vorliegt (Barcode-Abgleich gegen den Dump).
   (Frühere Regel "Gerichte, die in OFF vorliegen, nicht eintragen" ist damit abgelöst; die Treffer-Prüfung selbst bleibt als Hinweisgeber erhalten.)
 
@@ -329,16 +330,21 @@ def packaged_item_in_off(d, a):
     except Exception as e:
         print('Warnung: Barcode-Abgleich nicht möglich (' + str(e)[:80] + ')'); return False
 
+def dump_json(path, obj):
+    """Wie json.dumps(indent=2, ensure_ascii=False) plus abschließender Zeilenumbruch."""
+    with open(path, 'w', encoding='utf8') as f:
+        f.write(json.dumps(obj, ensure_ascii=False, indent=2) + '\n')
+
 def cmd_apply(a, log):
     dishes = json.load(open(a.input, encoding='utf8')); status = load_status(a)
     backends = a.backends.split(',')
-    keep, removed, n_hit, n_unchecked = [], [], 0, 0
+    keep, removed, hints, n_unchecked = [], [], [], 0
     for d in dishes:
         st = status.get(d['id'], {})
         if d.get('type') == 'item' and d.get('barcode'):
             if packaged_item_in_off(d, a):
                 removed.append({'id': d['id'], 'name': d['name'], 'barcode': d['barcode'], 'reason': 'Fertig-/Supermarktprodukt (Barcode liegt in OFF vor)'}); continue
-            keep.append(d); continue
+            keep.append({k: v for k, v in d.items() if k != 'off_similar'}); continue
         e = {}
         for k, v in d.items():
             if k in ('prepared', 'is_packaged_product', 'off_similar'): continue
@@ -347,13 +353,22 @@ def cmd_apply(a, log):
                 e['prepared'] = prepared_of(d); e['is_packaged_product'] = False
         e.setdefault('prepared', prepared_of(d)); e.setdefault('is_packaged_product', False)
         if in_off(st, backends):
-            sim = off_similar(st, backends); n_hit += 1
-            e['off_similar'] = sim
+            hints.append({'id': d['id'], 'name': d.get('name'), 'off_similar': off_similar(st, backends)})
         if not all(st_ok(st, b) for b in backends): n_unchecked += 1
         keep.append(e)
-    json.dump(keep, open(a.out, 'w', encoding='utf8'), ensure_ascii=False, indent=2)
-    json.dump(removed, open(a.removed, 'w', encoding='utf8'), ensure_ascii=False, indent=2)
-    log(f'apply: {len(dishes)} -> behalten {len(keep)}, entfernt (nur Fertigprodukte) {len(removed)}, Gerichte mit OFF-Hinweis (off_similar) {n_hit}, nicht in allen Backends geprüft {n_unchecked}')
+    if any('off_similar' in e for e in keep):
+        raise SystemExit('apply: off_similar darf nicht in den Einträgen stehen')
+    report = {
+        'titel': 'OFF-Abgleich: kein Gericht ist ein Open-Food-Facts-Fertigprodukt',
+        'lizenz': 'Open Food Facts, Open Database License (ODbL) 1.0, https://opendatacommons.org/licenses/odbl/1-0/',
+        'ergebnis': 'Kein Eintrag ist ein Open-Food-Facts-Fertigprodukt. off_similar wird nur in diesen Bericht geschrieben, nicht in die Einträge.',
+        'anzahl_hinweise': len(hints),
+        'hinweise': hints,
+    }
+    dump_json(a.out, keep)
+    dump_json(a.removed, removed)
+    dump_json(a.report, report)
+    log(f'apply: {len(dishes)} -> behalten {len(keep)}, entfernt (nur Fertigprodukte) {len(removed)}, Gerichte mit OFF-Hinweis im Report {len(hints)}, nicht in allen Backends geprüft {n_unchecked}')
 
 def in_off(st, backends):
     return any(st.get(b, {}).get('found') for b in backends)
@@ -370,6 +385,7 @@ def main():
     p.add_argument('--input', default=os.path.join(ROOT, 'foods.json'))
     p.add_argument('--out', default=os.path.join(ROOT, 'foods.json'))
     p.add_argument('--removed', default=os.path.join(ROOT, 'removed_in_off.json'))
+    p.add_argument('--report', default=os.path.join(ROOT, 'off_check_report.json'), help='OFF-Hinweise (off_similar), nicht in die Einträge')
     p.add_argument('--append-removed', action='store_true')
     p.add_argument('--status', default=None, help='Default: off_check_status.json (api) bzw. off_check_status_dump.json (dump)')
     p.add_argument('--cache', default=os.path.join(ROOT, 'off_check_cache.sqlite'))

@@ -35,6 +35,9 @@
 - Baltikum/Slowakei/Slowenien/Island sind dünn besetzt (wenige bekannte Gerichte ohne OFF-Treffer).
 
 ## Gerichte vs. Fertigprodukte & Open Food Facts (aktuelle Regel)
+
+Nachtrag 01.11.2026: In `data/foods.json` gibt es `off_similar` nicht mehr. `scripts/validate.mjs` lehnt das Feld ab. `off_check.py apply` schreibt die Barcode-Hinweise nur nach `tools/dishes/off_check_report.json` (ODbL 1.0, siehe `off_check_report.ODBL.md`). Die folgenden Absätze beschreiben den damaligen Aufbau.
+
 Gerichte (zuhause/Restaurant/Imbiss) und Fertigprodukte werden **getrennt** gesehen:
 - Ein Gericht wird **nicht entfernt**, nur weil OFF ein gleichnamiges Fertigprodukt hat. Es bekommt `prepared` (`homemade`/`restaurant`), `is_packaged_product: false` und bei OFF-Treffern `off_similar` (bis zu 3 OFF-Barcodes, nur Hinweis).
 - Entfernt werden nur Einträge, die selbst Fertig-/Supermarktprodukte sind (`type: "item"` mit Barcode, der in OFF vorliegt). Aktuell gibt es keine solchen Einträge → `removed_in_off.json` ist leer (`[]`).
