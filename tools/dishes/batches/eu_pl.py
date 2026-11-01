@@ -4,7 +4,8 @@ Zrazy wołowe | Polish zrazy | HF | 0.8 | 2 Stück | rind_steak 200, speck 30, z
 Rolada śląska | Silesian beef roulade | HF | 0.8 | 2 Scheiben | rind 220, speck 30, zwiebel 30, senf 10, gewuerzgurke 30, oel 12, bruehe 100
 Żeberka w kapuście | Polish ribs in cabbage | E | 0.85 | 1 Portion | schwein_bauch 200, sauerkraut 250, zwiebel 30, wasser 100
 Golonka po polsku | Polish pork knuckle | HF | 0.7 | 1 Portion | schwein_haxe 300, zwiebel 30, wasser 50, bier 50, senf 10
-Kaczka z jabłkami | Polish duck with apples | HG | 0.65 | 1 Portion | ente 350, apfel 150, zwiebel 20
+# Gebratene Ente mit Haut (USDA 172409). 230 g ≈ 350 g roh × 0,65. Äpfel und Zwiebel bleiben roh, Garfaktor 1,0.
+Kaczka z jabłkami | Polish duck with apples | HG | 1.0 | 1 Portion | ente_gegart 230, apfel 150, zwiebel 20
 Flaki po polsku | Polish tripe soup | S | 0.95 | 1 Teller | innereien 150, karotte 40, sellerie 30, bruehe 300, paprikapulver 2, butter 10, mehl 8
 Rosół z makaronem | Polish chicken noodle soup | S | 0.95 | 1 Teller | hahn 100, nudeln 40, karotte 40, sellerie 30, petersilie 5, wasser 300
 Chłodnik litewski | Polish cold beet soup | S | 1.0 | 1 Teller | rote_bete 100, buttermilch 200, joghurt 50, gurke 50, dill 8, ei 50, fruehlingszwiebel 15

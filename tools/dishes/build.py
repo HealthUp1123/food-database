@@ -2,7 +2,7 @@
 """Generator für die Gerichte-Datenbank (tr + de).
 
 Aufruf:  python3 build.py
-Liest:   ingredients_src.txt (Referenztabelle), batches/*.py (Gerichtsdefinitionen)
+Liest:   ingredients.json (Referenztabelle inkl. Quelle), batches/*.py (Gerichtsdefinitionen)
 Schreibt: foods.json, ingredients.json, build_report.txt
 
 Zeilenformat in den Batch-Dateien (eine Zeile pro Gericht):
@@ -10,7 +10,7 @@ Zeilenformat in den Batch-Dateien (eine Zeile pro Gericht):
 - Zutatenmengen = rohe Mengen für EINE typische Portion (Wasser wird explizit gelistet, wenn es mitgekocht wird).
 - Garfaktor = Gewicht nach dem Garen / Summe der Zutaten (Verdunstung, Fettverlust; < 1.0).
 - Portionsgramm = Summe * Garfaktor (auf 5 g gerundet); Nährwerte pro 100 g = Summe(Zutat g * Zutat-pro-100g) / Portionsgramm * 100.
-Alle Werte sind SCHÄTZWERTE aus typischen Rezepten und ungefähren Referenzwerten, keine Laborwerte.
+Alle Gerichtswerte sind berechnete Schätzungen aus typischen Rezepten. Die Zutaten stammen aus benannten Datensätzen (USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021, Livsmedelsverket, Schweizer Nährwertdatenbank) oder aus gekennzeichneten Schätzungen, nicht aus einer Analyse des fertigen Gerichts.
 """
 import importlib.util, json, glob, os, re, sys, unicodedata, collections
 
@@ -44,12 +44,16 @@ def slug(s, cuisine):
     return s
 
 def load_ingredients():
+    # Nährwerte und Quellen stehen in ingredients.json (D4). ingredients_src.txt spiegelt nur die Zahlen.
+    data = json.load(open(os.path.join(HERE, 'ingredients.json'), encoding='utf8'))
     ing = {}
-    for l in open(os.path.join(HERE,'ingredients_src.txt'), encoding='utf8'):
-        l = l.strip()
-        if not l or l.startswith('#'): continue
-        k,n,kc,p,c,f,fi = l.split('|')
-        ing[k] = dict(name=n, kcal=float(kc), protein=float(p), carbs=float(c), fat=float(f), fiber=float(fi))
+    for e in data:
+        p = e['per100g']
+        d = dict(name=e['name'], kcal=float(p['kcal']), protein=float(p['protein']),
+                 carbs=float(p['carbs']), fat=float(p['fat']), fiber=float(p['fiber']))
+        if e.get('source'):
+            d['source'] = e['source']
+        ing[e['key']] = d
     return ing
 
 def load_batches():
@@ -105,7 +109,10 @@ def main():
             for k,g in lst: merged[k] = merged.get(k,0)+g
             e['ingredients']=[{'name':ing[k]['name'],'grams':(int(g) if float(g).is_integer() else g)} for k,g in merged.items()]
             e['quality']='estimate'
-            e['source']='calculated from typical recipe and approximate reference values'
+            if did == 'bundnerfleisch':
+                e['source']='Schweizer Nährwertdatenbank V7.1, Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV), naehrwertdaten.ch (frei verwendbar mit Quellenangabe); ID 709 "Dried meat (Hobel-, Bündner-, Walliser-, Tessiner- dried meat)".'
+            else:
+                e['source']='calculated from a typical recipe; ingredient values from named datasets or labeled estimates'
             if did in ids: errors.append(f'{ctx} {name}: doppelte id {did} (auch {ids[did]})')
             ids[did] = ctx
             nk = (cuisine, slug(name,cuisine))
@@ -139,9 +146,18 @@ def main():
         if pk < 15 and cat != 'GT': reasons.append(f'Portion nur {pk:.0f} kcal')
         if reasons: flags.append(f'{e["id"]}: ' + '; '.join(reasons))
     out = [d[0] for d in dishes]
-    json.dump(out, open(os.path.join(HERE,'foods.json'),'w',encoding='utf8'), ensure_ascii=False, indent=2)
-    json.dump([dict(key=k, name=v['name'], per100g={f:v[f] for f in ('kcal','protein','carbs','fat','fiber')}) for k,v in ing.items()],
-              open(os.path.join(HERE,'ingredients.json'),'w',encoding='utf8'), ensure_ascii=False, indent=2)
+    with open(os.path.join(HERE,'foods.json'),'w',encoding='utf8') as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+        f.write('\n')
+    rows = []
+    for k, v in ing.items():
+        row = dict(key=k, name=v['name'], per100g={fld: v[fld] for fld in ('kcal','protein','carbs','fat','fiber')})
+        if v.get('source'):
+            row['source'] = v['source']
+        rows.append(row)
+    with open(os.path.join(HERE,'ingredients.json'),'w',encoding='utf8') as f:
+        json.dump(rows, f, ensure_ascii=False, indent=2)
+        f.write('\n')
     cnt = collections.Counter(d['cuisine'] for d in out)
     cc = collections.Counter((d['cuisine'],d['category']) for d in out)
     with open(os.path.join(HERE,'build_report.txt'),'w',encoding='utf8') as f:

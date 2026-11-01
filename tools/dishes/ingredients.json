@@ -3,77 +3,126 @@
     "key": "hack",
     "name": "Rinderhackfleisch",
     "per100g": {
-      "kcal": 250.0,
-      "protein": 17.0,
+      "kcal": 254.0,
+      "protein": 17.2,
       "carbs": 0.0,
       "fat": 20.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174036",
+      "record": "Beef, ground, 80% lean meat / 20% fat, raw",
+      "license": "CC0 1.0",
+      "base_id": "rinderhackfleisch-20-prozent-fett-roh"
     }
   },
   {
     "key": "lamm_hack",
     "name": "Lammhackfleisch",
     "per100g": {
-      "kcal": 280.0,
-      "protein": 16.0,
+      "kcal": 282.0,
+      "protein": 16.6,
       "carbs": 0.0,
-      "fat": 24.0,
+      "fat": 23.4,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174370",
+      "record": "Lamb, ground, raw",
+      "license": "CC0 1.0",
+      "base_id": "lammhackfleisch-roh"
     }
   },
   {
     "key": "rind",
     "name": "Rindfleisch (Schmor/Gulasch)",
     "per100g": {
-      "kcal": 150.0,
-      "protein": 21.0,
+      "kcal": 244.0,
+      "protein": 19.2,
       "carbs": 0.0,
-      "fat": 7.0,
+      "fat": 18.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169491",
+      "record": "Beef, chuck, arm pot roast, separable lean and fat, trimmed to 1/8\" fat, all grades, raw",
+      "license": "CC0 1.0",
+      "note": "Schmorstück: Chuck, Arm Pot Roast, mager und Fett, roh. Querrippe ist nicht dieser Datensatz."
     }
   },
   {
     "key": "rind_steak",
     "name": "Rindfleisch (Steak/Filet/Lende)",
     "per100g": {
-      "kcal": 180.0,
-      "protein": 20.0,
+      "kcal": 155.0,
+      "protein": 22.8,
       "carbs": 0.0,
-      "fat": 11.0,
+      "fat": 6.4,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173116",
+      "record": "Beef, short loin, top loin, steak, separable lean only, trimmed to 1/8\" fat, choice, raw",
+      "license": "CC0 1.0",
+      "base_id": "rindersteak-roastbeef-strip-roh",
+      "note": "Roastbeef-/Strip-Steak. Das Filet liegt knapp darunter und ist nicht gemittelt."
     }
   },
   {
     "key": "rind_fett",
     "name": "Rindfleisch fett (Brust/Querrippe)",
     "per100g": {
-      "kcal": 270.0,
-      "protein": 17.0,
-      "carbs": 0.0,
-      "fat": 22.0,
+      "kcal": 253.0,
+      "protein": 18.4,
+      "carbs": 0.6,
+      "fat": 19.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168664",
+      "record": "Beef, brisket, whole, separable lean and fat, trimmed to 1/8\" fat, all grades, raw",
+      "license": "CC0 1.0",
+      "note": "Brust: ganze Rinderbrust, mager und Fett, roh. Die Querrippe ist nicht getrennt belegt."
     }
   },
   {
     "key": "lamm",
     "name": "Lammfleisch",
     "per100g": {
-      "kcal": 220.0,
-      "protein": 17.0,
+      "kcal": 244.0,
+      "protein": 17.2,
       "carbs": 0.0,
-      "fat": 17.0,
+      "fat": 18.9,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174380",
+      "record": "Lamb, shoulder, arm, separable lean and fat, trimmed to 1/8\" fat, choice, raw",
+      "license": "CC0 1.0",
+      "note": "Lammkeule ist eine eigene magere Grundzutat. Hier Schulter (Arm), mager und Fett, roh, als übliches Schmorlamm."
     }
   },
   {
     "key": "lamm_kotelett",
     "name": "Lammkotelett",
     "per100g": {
-      "kcal": 250.0,
-      "protein": 16.0,
+      "kcal": 279.0,
+      "protein": 17.2,
       "carbs": 0.0,
-      "fat": 20.0,
+      "fat": 22.8,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172551",
+      "record": "Lamb, loin, separable lean and fat, trimmed to 1/8\" fat, choice, raw",
+      "license": "CC0 1.0"
     }
   },
   {
@@ -81,65 +130,114 @@
     "name": "Leber (Rind/Lamm)",
     "per100g": {
       "kcal": 135.0,
-      "protein": 20.0,
-      "carbs": 3.0,
-      "fat": 4.5,
+      "protein": 20.4,
+      "carbs": 3.9,
+      "fat": 3.6,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169451",
+      "record": "Beef, variety meats and by-products, liver, raw",
+      "license": "CC0 1.0",
+      "base_id": "rinderleber-roh"
     }
   },
   {
     "key": "innereien",
     "name": "Innereien (Lamm, gemischt)",
     "per100g": {
-      "kcal": 150.0,
-      "protein": 15.0,
-      "carbs": 0.0,
-      "fat": 10.0,
+      "kcal": 119.0,
+      "protein": 17.5,
+      "carbs": 0.9,
+      "fat": 4.6,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "Schätzung",
+      "method": "recipe",
+      "derived_from": [
+        "USDA SR Legacy:172531",
+        "USDA SR Legacy:172527",
+        "USDA SR Legacy:174354"
+      ],
+      "note": "Gemischte Lamm-Innereien ohne Sammelsatz. Gleichgewichtiges Mittel aus Lammleber, Lammherz und Lammniere, roh."
     }
   },
   {
     "key": "zunge",
     "name": "Rinderzunge",
     "per100g": {
-      "kcal": 225.0,
-      "protein": 15.0,
-      "carbs": 0.0,
-      "fat": 18.0,
+      "kcal": 224.0,
+      "protein": 14.9,
+      "carbs": 3.7,
+      "fat": 16.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170196",
+      "record": "Beef, variety meats and by-products, tongue, raw",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "schwanzfett",
     "name": "Lammschwanzfett",
     "per100g": {
-      "kcal": 800.0,
-      "protein": 1.0,
+      "kcal": 648.0,
+      "protein": 6.3,
       "carbs": 0.0,
-      "fat": 90.0,
+      "fat": 68.9,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172572",
+      "record": "Lamb, Australian, imported, fresh, separable fat, raw",
+      "license": "CC0 1.0",
+      "method": "similar_food",
+      "note": "Kein eigener Satz für Lammschwanzfett. Verwendet ist separierbares Lammfett, roh. Rindertalg ist ein anderes Lebensmittel. Ballaststoffe in der Quelle nicht angegeben; bei 0 g Kohlenhydraten als 0 gesetzt (gleiche Regel wie bei den Grundzutaten)."
     }
   },
   {
     "key": "sucuk",
     "name": "Sucuk (Knoblauchwurst)",
     "per100g": {
-      "kcal": 450.0,
-      "protein": 19.0,
-      "carbs": 3.0,
-      "fat": 40.0,
-      "fiber": 0.0
+      "kcal": 348.0,
+      "protein": 22.8,
+      "carbs": 0.1,
+      "fat": 28.5,
+      "fiber": 0.1
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "W171100",
+      "record": "Knoblauchwurst roh",
+      "license": "CC BY 4.0",
+      "base_id": "sucuk",
+      "method": "similar_food",
+      "note": "Grundzutat: BLS Knoblauchwurst roh, Methode similar_food. Kein TürKomp. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS W171100: FIBT 0,14 g, FIBHMW nicht veröffentlicht. Fructananteil unklar; Wert unverändert."
     }
   },
   {
     "key": "pastirma",
     "name": "Pastırma",
     "per100g": {
-      "kcal": 190.0,
-      "protein": 35.0,
-      "carbs": 1.0,
-      "fat": 5.0,
+      "kcal": 172.0,
+      "protein": 32.8,
+      "carbs": 0.5,
+      "fat": 4.3,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "28503",
+      "record": "Bresaola",
+      "license": "Etalab 2.0",
+      "base_id": "pastirma",
+      "method": "similar_food",
+      "note": "Lizenz Etalab 2.0 (Open Licence), nicht CC BY. Grundzutat: Ciqual Bresaola, Methode similar_food. Lizenz Etalab 2.0. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
@@ -147,21 +245,36 @@
     "name": "Hähnchenbrust",
     "per100g": {
       "kcal": 120.0,
-      "protein": 23.0,
+      "protein": 22.5,
       "carbs": 0.0,
       "fat": 2.6,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171077",
+      "record": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+      "license": "CC0 1.0",
+      "base_id": "haehnchenbrust-roh"
     }
   },
   {
     "key": "hahn_keule",
     "name": "Hähnchenkeule (ohne Knochen)",
     "per100g": {
-      "kcal": 190.0,
-      "protein": 17.0,
-      "carbs": 0.0,
-      "fat": 13.0,
+      "kcal": 214.0,
+      "protein": 16.4,
+      "carbs": 0.2,
+      "fat": 15.9,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172378",
+      "record": "Chicken, broilers or fryers, leg, meat and skin, raw",
+      "license": "CC0 1.0",
+      "base_id": "haehnchenkeule-mit-haut-roh",
+      "note": "Hähnchenkeule ohne Knochen: USDA-Angabe ist der essbare Anteil mit Haut, ohne Knochen (Leg, meat and skin)."
     }
   },
   {
@@ -169,285 +282,477 @@
     "name": "Hähnchen mit Haut (ohne Knochen)",
     "per100g": {
       "kcal": 215.0,
-      "protein": 18.0,
+      "protein": 18.6,
       "carbs": 0.0,
-      "fat": 15.5,
+      "fat": 15.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171447",
+      "record": "Chicken, broilers or fryers, meat and skin, raw",
+      "license": "CC0 1.0",
+      "base_id": "haehnchen-ganz-mit-haut-roh"
     }
   },
   {
     "key": "pute",
     "name": "Putenbrust",
     "per100g": {
-      "kcal": 115.0,
-      "protein": 24.0,
+      "kcal": 114.0,
+      "protein": 23.3,
       "carbs": 0.0,
-      "fat": 1.5,
+      "fat": 2.3,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174515",
+      "record": "Turkey, retail parts, breast, meat only, raw",
+      "license": "CC0 1.0",
+      "base_id": "putenbrust-roh"
     }
   },
   {
     "key": "huhn_leber",
     "name": "Hühnerleber",
     "per100g": {
-      "kcal": 120.0,
-      "protein": 17.0,
-      "carbs": 1.0,
-      "fat": 5.0,
+      "kcal": 119.0,
+      "protein": 16.9,
+      "carbs": 0.7,
+      "fat": 4.8,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171060",
+      "record": "Chicken, liver, all classes, raw",
+      "license": "CC0 1.0",
+      "base_id": "huehnerleber-roh"
     }
   },
   {
     "key": "ente",
     "name": "Ente",
     "per100g": {
-      "kcal": 330.0,
-      "protein": 16.0,
+      "kcal": 404.0,
+      "protein": 11.5,
       "carbs": 0.0,
-      "fat": 29.0,
+      "fat": 39.3,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172408",
+      "record": "Duck, domesticated, meat and skin, raw",
+      "license": "CC0 1.0",
+      "note": "Ente mit Haut, roh. Die Grundzutat ohne Haut ist magerer."
     }
   },
   {
     "key": "gans",
     "name": "Gans",
     "per100g": {
-      "kcal": 305.0,
-      "protein": 25.0,
+      "kcal": 371.0,
+      "protein": 15.9,
       "carbs": 0.0,
-      "fat": 22.0,
+      "fat": 33.6,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174470",
+      "record": "Goose, domesticated, meat and skin, raw",
+      "license": "CC0 1.0",
+      "note": "Gans mit Haut, roh. Die Grundzutat ohne Haut und der gegarte Wert sind andere Zustände."
     }
   },
   {
     "key": "schwein_mager",
     "name": "Schweineschnitzel/-filet",
     "per100g": {
-      "kcal": 130.0,
-      "protein": 21.0,
+      "kcal": 143.0,
+      "protein": 21.4,
       "carbs": 0.0,
-      "fat": 5.0,
+      "fat": 5.7,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168230",
+      "record": "Pork, fresh, loin, whole, separable lean only, raw",
+      "license": "CC0 1.0",
+      "note": "Schnitzel vom Kotelett/Lende, nur mager, roh. Das Filet (Grundzutat schweinefilet-roh) ist magerer und nicht verwendet."
     }
   },
   {
     "key": "schwein_nacken",
     "name": "Schweinenacken",
     "per100g": {
-      "kcal": 210.0,
-      "protein": 18.0,
+      "kcal": 236.0,
+      "protein": 17.2,
       "carbs": 0.0,
-      "fat": 15.0,
+      "fat": 18.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "167843",
+      "record": "Pork, fresh, shoulder, whole, separable lean and fat, raw",
+      "license": "CC0 1.0",
+      "note": "Ganze Schulter, mager und Fett, roh (Nacken/Boston butt)."
     }
   },
   {
     "key": "schwein_bauch",
     "name": "Schweinebauch",
     "per100g": {
-      "kcal": 330.0,
-      "protein": 14.0,
+      "kcal": 324.0,
+      "protein": 17.7,
       "carbs": 0.0,
-      "fat": 30.0,
+      "fat": 28.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "U642100",
+      "record": "Schwein Bauch (wie gewachsen) roh",
+      "license": "CC BY 4.0",
+      "note": "Roher Bauch, wie gewachsen. Ersetzt USDA SR Legacy 167812 (53 g Fett, eher Speck). Kohlenhydrate = verfügbare KH 0 + Ballaststoffe 0. FIBT und FIBHMW sind beide 0."
     }
   },
   {
     "key": "schwein_haxe",
     "name": "Schweinshaxe (ausgelöst)",
     "per100g": {
-      "kcal": 260.0,
-      "protein": 19.0,
+      "kcal": 193.0,
+      "protein": 19.9,
       "carbs": 0.0,
-      "fat": 20.0,
+      "fat": 12.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168226",
+      "record": "Pork, fresh, leg (ham), shank half, separable lean and fat, raw",
+      "license": "CC0 1.0",
+      "note": "Haxe: Keule, Shank half, mager und Fett, roh. Nicht die gepökelte Eisbeinkeule."
     }
   },
   {
     "key": "schwein_hack",
     "name": "Schweinehackfleisch",
     "per100g": {
-      "kcal": 260.0,
-      "protein": 17.0,
+      "kcal": 263.0,
+      "protein": 16.9,
       "carbs": 0.0,
-      "fat": 21.0,
+      "fat": 21.2,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "167902",
+      "record": "Pork, fresh, ground, raw",
+      "license": "CC0 1.0",
+      "base_id": "schweinehackfleisch-roh"
     }
   },
   {
     "key": "gemischtes_hack",
     "name": "Hackfleisch gemischt",
     "per100g": {
-      "kcal": 250.0,
+      "kcal": 258.0,
       "protein": 17.0,
       "carbs": 0.0,
-      "fat": 20.0,
+      "fat": 20.6,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "Schätzung",
+      "method": "recipe",
+      "derived_from": [
+        "USDA SR Legacy:174036 (rinderhackfleisch-20-prozent-fett-roh)",
+        "USDA SR Legacy:167902 (schweinehackfleisch-roh)"
+      ],
+      "note": "Hackfleisch gemischt als 1:1 Rinderhack 20 % Fett und Schweinehack, beide Grundzutaten. Kein eigener Datensatz für die Mischung."
     }
   },
   {
     "key": "schinken",
     "name": "Kochschinken",
     "per100g": {
-      "kcal": 110.0,
-      "protein": 19.0,
-      "carbs": 1.0,
-      "fat": 3.0,
+      "kcal": 130.0,
+      "protein": 22.5,
+      "carbs": 0.7,
+      "fat": 3.7,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "W424000",
+      "record": "Schwein Kochschinken, Kochpökelware",
+      "license": "CC BY 4.0",
+      "base_id": "kochschinken",
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS W424000: FIBT 0 und FIBHMW 0, beide veröffentlicht. Kein offener Fructananteil."
     }
   },
   {
     "key": "speck",
     "name": "Bauchspeck geräuchert",
     "per100g": {
-      "kcal": 450.0,
-      "protein": 12.0,
+      "kcal": 393.0,
+      "protein": 13.7,
       "carbs": 0.0,
-      "fat": 45.0,
+      "fat": 37.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168277",
+      "record": "Pork, cured, bacon, unprepared",
+      "license": "CC0 1.0",
+      "note": "Roher Bauchspeck (Bacon, unprepared), nicht Schinkenspeck."
     }
   },
   {
     "key": "kassler",
     "name": "Kasseler",
     "per100g": {
-      "kcal": 150.0,
-      "protein": 20.0,
+      "kcal": 107.0,
+      "protein": 22.0,
       "carbs": 0.0,
-      "fat": 8.0,
+      "fat": 2.2,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "W510000",
+      "record": "Kasseler, Rohpökelware, geräuchert",
+      "license": "CC BY 4.0",
+      "base_id": "kasseler-gepoekelt-geraeuchert",
+      "note": "Kasseler aus der Lende, nicht der fettere Kasseler Kamm. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS W510000: FIBT unter der Bestimmungsgrenze, FIBHMW 0. Kein offener Fructananteil; Ballaststoffe bleiben 0."
     }
   },
   {
     "key": "bratwurst",
     "name": "Bratwurst",
     "per100g": {
-      "kcal": 300.0,
-      "protein": 12.0,
-      "carbs": 1.0,
-      "fat": 27.0,
+      "kcal": 323.0,
+      "protein": 14.3,
+      "carbs": 3.0,
+      "fat": 27.8,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171622",
+      "record": "Bratwurst, pork, beef, link",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "bockwurst",
     "name": "Bockwurst",
     "per100g": {
-      "kcal": 260.0,
-      "protein": 12.0,
-      "carbs": 1.5,
-      "fat": 23.0,
-      "fiber": 0.0
+      "kcal": 287.0,
+      "protein": 13.6,
+      "carbs": 1.2,
+      "fat": 25.4,
+      "fiber": 0.1
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "19-495",
+      "record": "Frankfurter",
+      "license": "Open Government Licence v3.0",
+      "method": "similar_food",
+      "note": "Bockwurst hat keinen eigenen Satz. Frankfurter ist die belegte Brühwurst; Werte unverändert. Kohlenhydrate = verfügbare KH plus AOAC-Ballaststoffe (ohne Fructane; CoFID-Spalte AOAC fibre). kcal wie veröffentlicht."
     }
   },
   {
     "key": "weisswurst",
     "name": "Weißwurst",
     "per100g": {
-      "kcal": 265.0,
-      "protein": 12.0,
-      "carbs": 1.0,
-      "fat": 24.0,
+      "kcal": 244.0,
+      "protein": 10.0,
+      "carbs": 3.6,
+      "fat": 21.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "8801",
+      "record": "White pudding, to cook",
+      "license": "Etalab 2.0",
+      "method": "similar_food",
+      "note": "Weißwurst hat keinen eigenen Satz. Boudin blanc zum Garen ist die belegte Weißwurst; Werte unverändert. Lizenz Etalab 2.0 (Open Licence), nicht CC BY. Kohlenhydrate = verfügbare KH plus Ballaststoffe. kcal = Energy Regulation EU 1169/2011, wie veröffentlicht."
     }
   },
   {
     "key": "leberwurst",
     "name": "Leberwurst",
     "per100g": {
-      "kcal": 330.0,
-      "protein": 13.0,
-      "carbs": 2.0,
-      "fat": 30.0,
-      "fiber": 0.0
+      "kcal": 236.0,
+      "protein": 17.6,
+      "carbs": 0.7,
+      "fat": 18.1,
+      "fiber": 0.1
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "W327000",
+      "record": "Leberwurst einfach",
+      "license": "CC BY 4.0",
+      "base_id": "leberwurst-einfach",
+      "note": "BLS Leberwurst einfach, nicht eine fettere Sorte. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS W327000: FIBT 0,1 g, FIBHMW nicht veröffentlicht. Fructananteil unklar; Wert unverändert."
     }
   },
   {
     "key": "leberkaese",
     "name": "Leberkäse",
     "per100g": {
-      "kcal": 290.0,
-      "protein": 12.0,
-      "carbs": 2.0,
-      "fat": 26.0,
-      "fiber": 0.0
+      "kcal": 295.0,
+      "protein": 11.8,
+      "carbs": 0.2,
+      "fat": 27.4,
+      "fiber": 0.1
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "W256100",
+      "record": "Leberkäse",
+      "license": "CC BY 4.0",
+      "base_id": "leberkaese-aufschnitt",
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS W256100: FIBT 0,06 g, FIBHMW nicht veröffentlicht. Fructananteil unklar; Wert unverändert."
     }
   },
   {
     "key": "mettwurst",
     "name": "Mettwurst",
     "per100g": {
-      "kcal": 350.0,
-      "protein": 14.0,
-      "carbs": 1.0,
-      "fat": 32.0,
-      "fiber": 0.0
+      "kcal": 349.0,
+      "protein": 22.9,
+      "carbs": 0.3,
+      "fat": 28.5,
+      "fiber": 0.1
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "W151000",
+      "record": "Mettwurst",
+      "license": "CC BY 4.0",
+      "base_id": "mettwurst",
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS W151000: FIBT 0,1 g, FIBHMW nicht veröffentlicht. Fructananteil unklar; Wert unverändert."
     }
   },
   {
     "key": "salami",
     "name": "Salami",
     "per100g": {
-      "kcal": 420.0,
-      "protein": 22.0,
-      "carbs": 1.0,
-      "fat": 37.0,
+      "kcal": 374.0,
+      "protein": 23.5,
+      "carbs": 0.0,
+      "fat": 30.9,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "W140000",
+      "record": "Salami",
+      "license": "CC BY 4.0",
+      "base_id": "salami",
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS W140000: FIBT 0 und FIBHMW 0, beide veröffentlicht. Kein offener Fructananteil."
     }
   },
   {
     "key": "blutwurst",
     "name": "Blutwurst",
     "per100g": {
-      "kcal": 330.0,
-      "protein": 13.0,
-      "carbs": 3.0,
-      "fat": 30.0,
-      "fiber": 0.0
+      "kcal": 297.0,
+      "protein": 12.2,
+      "carbs": 1.7,
+      "fat": 27.1,
+      "fiber": 1.4
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "8703",
+      "record": "Black pudding, to cook",
+      "license": "Etalab 2.0",
+      "note": "Schwarze Blutwurst, zum Garen. Lizenz Etalab 2.0 (Open Licence), nicht CC BY. Kohlenhydrate = verfügbare KH plus Ballaststoffe. kcal = Energy Regulation EU 1169/2011, wie veröffentlicht."
     }
   },
   {
     "key": "lachs",
     "name": "Lachs",
     "per100g": {
-      "kcal": 205.0,
-      "protein": 20.0,
+      "kcal": 208.0,
+      "protein": 20.4,
       "carbs": 0.0,
-      "fat": 13.0,
+      "fat": 13.4,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "175167",
+      "record": "Fish, salmon, Atlantic, farmed, raw",
+      "license": "CC0 1.0",
+      "base_id": "lachs-zucht-roh",
+      "note": "Zuchtlachs, nicht Wildlachs."
     }
   },
   {
     "key": "forelle",
     "name": "Forelle",
     "per100g": {
-      "kcal": 140.0,
-      "protein": 20.0,
+      "kcal": 141.0,
+      "protein": 19.9,
       "carbs": 0.0,
-      "fat": 6.0,
+      "fat": 6.2,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173717",
+      "record": "Fish, trout, rainbow, farmed, raw",
+      "license": "CC0 1.0",
+      "base_id": "forelle-roh"
     }
   },
   {
     "key": "karpfen",
     "name": "Karpfen",
     "per100g": {
-      "kcal": 125.0,
-      "protein": 18.0,
+      "kcal": 127.0,
+      "protein": 17.8,
       "carbs": 0.0,
-      "fat": 6.0,
+      "fat": 5.6,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171952",
+      "record": "Fish, carp, raw",
+      "license": "CC0 1.0",
+      "base_id": "karpfen-roh"
     }
   },
   {
     "key": "hering",
     "name": "Hering",
     "per100g": {
-      "kcal": 200.0,
+      "kcal": 158.0,
       "protein": 18.0,
       "carbs": 0.0,
-      "fat": 14.0,
+      "fat": 9.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "175116",
+      "record": "Fish, herring, Atlantic, raw",
+      "license": "CC0 1.0",
+      "base_id": "hering-roh"
     }
   },
   {
@@ -455,21 +760,35 @@
     "name": "Makrele",
     "per100g": {
       "kcal": 205.0,
-      "protein": 19.0,
+      "protein": 18.6,
       "carbs": 0.0,
-      "fat": 14.0,
+      "fat": 13.9,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "175119",
+      "record": "Fish, mackerel, Atlantic, raw",
+      "license": "CC0 1.0",
+      "base_id": "makrele-roh"
     }
   },
   {
     "key": "sardelle",
     "name": "Sardelle (Hamsi)",
     "per100g": {
-      "kcal": 130.0,
-      "protein": 20.0,
+      "kcal": 131.0,
+      "protein": 20.4,
       "carbs": 0.0,
-      "fat": 5.0,
+      "fat": 4.8,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174182",
+      "record": "Fish, anchovy, european, raw",
+      "license": "CC0 1.0",
+      "note": "Frische europäische Sardelle, nicht die Ölsardelle."
     }
   },
   {
@@ -477,76 +796,126 @@
     "name": "Sardine",
     "per100g": {
       "kcal": 160.0,
-      "protein": 21.0,
+      "protein": 19.5,
       "carbs": 0.0,
-      "fat": 8.0,
+      "fat": 9.2,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "26065",
+      "record": "European pilchard or sardine, raw",
+      "license": "Etalab 2.0",
+      "note": "Frische Sardine. SR Legacy hat keine rohe Sardine, nur Konserven. Lizenz Etalab 2.0 (Open Licence), nicht CC BY. Kohlenhydrate = verfügbare KH plus Ballaststoffe. kcal = Energy Regulation EU 1169/2011, wie veröffentlicht."
     }
   },
   {
     "key": "wolfsbarsch",
     "name": "Wolfsbarsch/Dorade",
     "per100g": {
-      "kcal": 100.0,
-      "protein": 19.0,
+      "kcal": 97.0,
+      "protein": 18.4,
       "carbs": 0.0,
-      "fat": 2.5,
+      "fat": 2.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "175142",
+      "record": "Fish, sea bass, mixed species, raw",
+      "license": "CC0 1.0",
+      "base_id": "wolfsbarsch-roh"
     }
   },
   {
     "key": "kabeljau",
     "name": "Kabeljau",
     "per100g": {
-      "kcal": 80.0,
-      "protein": 18.0,
+      "kcal": 82.0,
+      "protein": 17.8,
       "carbs": 0.0,
       "fat": 0.7,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171955",
+      "record": "Fish, cod, Atlantic, raw",
+      "license": "CC0 1.0",
+      "base_id": "kabeljau-roh"
     }
   },
   {
     "key": "seelachs",
     "name": "Seelachs",
     "per100g": {
-      "kcal": 85.0,
-      "protein": 18.0,
+      "kcal": 92.0,
+      "protein": 19.4,
       "carbs": 0.0,
       "fat": 1.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "175129",
+      "record": "Fish, pollock, Atlantic, raw",
+      "license": "CC0 1.0",
+      "base_id": "seelachs-roh"
     }
   },
   {
     "key": "thunfisch",
     "name": "Thunfisch",
     "per100g": {
-      "kcal": 140.0,
-      "protein": 24.0,
+      "kcal": 109.0,
+      "protein": 24.4,
       "carbs": 0.0,
-      "fat": 5.0,
+      "fat": 0.5,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "175159",
+      "record": "Fish, tuna, fresh, yellowfin, raw",
+      "license": "CC0 1.0",
+      "base_id": "thunfisch-frisch-roh",
+      "note": "Frischer Thunfisch, nicht die ölige Konserve."
     }
   },
   {
     "key": "schwertfisch",
     "name": "Schwertfisch",
     "per100g": {
-      "kcal": 140.0,
-      "protein": 20.0,
+      "kcal": 144.0,
+      "protein": 19.7,
       "carbs": 0.0,
-      "fat": 6.0,
+      "fat": 6.7,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173703",
+      "record": "Fish, swordfish, raw",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "fisch_fett",
     "name": "Fisch fettreich (Lüfer, Palamut, Bonito)",
     "per100g": {
-      "kcal": 160.0,
-      "protein": 19.0,
+      "kcal": 161.0,
+      "protein": 22.3,
       "carbs": 0.0,
-      "fat": 9.0,
+      "fat": 8.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "26101",
+      "record": "Bonito, raw",
+      "license": "Etalab 2.0",
+      "method": "similar_food",
+      "note": "Der Schlüssel nennt Lüfer, Palamut und Bonito. Belegt ist Bonito roh. Blaufisch (Lüfer, USDA 171949) hat nur 4,2 g Fett und ist nicht gemittelt. Lizenz Etalab 2.0 (Open Licence), nicht CC BY. Kohlenhydrate = verfügbare KH plus Ballaststoffe. kcal = Energy Regulation EU 1169/2011, wie veröffentlicht."
     }
   },
   {
@@ -554,65 +923,109 @@
     "name": "Fisch mager (Weißfisch)",
     "per100g": {
       "kcal": 90.0,
-      "protein": 18.0,
+      "protein": 18.5,
       "carbs": 0.0,
-      "fat": 1.5,
+      "fat": 1.2,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "Schätzung",
+      "method": "recipe",
+      "derived_from": [
+        "USDA SR Legacy:171955 (kabeljau-roh)",
+        "USDA SR Legacy:175129 (seelachs-roh)",
+        "USDA SR Legacy:175142 (wolfsbarsch-roh)"
+      ],
+      "note": "Kein Sammelsatz für mageren Weißfisch. Gleichgewichtiges Mittel aus Kabeljau, Seelachs und Wolfsbarsch (Grundzutaten, roh)."
     }
   },
   {
     "key": "aal",
     "name": "Aal",
     "per100g": {
-      "kcal": 285.0,
-      "protein": 15.0,
+      "kcal": 184.0,
+      "protein": 18.4,
       "carbs": 0.0,
-      "fat": 25.0,
+      "fat": 11.7,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174193",
+      "record": "Fish, eel, mixed species, raw",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "garnele",
     "name": "Garnelen",
     "per100g": {
-      "kcal": 90.0,
-      "protein": 19.0,
-      "carbs": 0.5,
-      "fat": 1.0,
+      "kcal": 85.0,
+      "protein": 20.1,
+      "carbs": 0.0,
+      "fat": 0.5,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "175179",
+      "record": "Crustaceans, shrimp, raw",
+      "license": "CC0 1.0",
+      "base_id": "garnelen-roh"
     }
   },
   {
     "key": "muschel",
     "name": "Miesmuscheln",
     "per100g": {
-      "kcal": 85.0,
-      "protein": 12.0,
-      "carbs": 4.0,
-      "fat": 2.0,
+      "kcal": 86.0,
+      "protein": 11.9,
+      "carbs": 3.7,
+      "fat": 2.2,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174216",
+      "record": "Mollusks, mussel, blue, raw",
+      "license": "CC0 1.0",
+      "base_id": "miesmuscheln-roh"
     }
   },
   {
     "key": "kalmar",
     "name": "Kalmar",
     "per100g": {
-      "kcal": 90.0,
-      "protein": 16.0,
-      "carbs": 3.0,
-      "fat": 1.5,
+      "kcal": 92.0,
+      "protein": 15.6,
+      "carbs": 3.1,
+      "fat": 1.4,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174223",
+      "record": "Mollusks, squid, mixed species, raw",
+      "license": "CC0 1.0",
+      "base_id": "tintenfisch-kalmar-roh"
     }
   },
   {
     "key": "oktopus",
     "name": "Oktopus",
     "per100g": {
-      "kcal": 85.0,
-      "protein": 15.0,
-      "carbs": 2.0,
+      "kcal": 82.0,
+      "protein": 14.9,
+      "carbs": 2.2,
       "fat": 1.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174218",
+      "record": "Mollusks, octopus, common, raw",
+      "license": "CC0 1.0",
+      "base_id": "krake-roh"
     }
   },
   {
@@ -620,76 +1033,128 @@
     "name": "Ei",
     "per100g": {
       "kcal": 143.0,
-      "protein": 12.5,
+      "protein": 12.6,
       "carbs": 0.7,
-      "fat": 10.0,
+      "fat": 9.5,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171287",
+      "record": "Egg, whole, raw, fresh",
+      "license": "CC0 1.0",
+      "base_id": "huehnerei-roh"
     }
   },
   {
     "key": "eiweiss",
     "name": "Eiweiß",
     "per100g": {
-      "kcal": 50.0,
-      "protein": 11.0,
+      "kcal": 52.0,
+      "protein": 10.9,
       "carbs": 0.7,
       "fat": 0.2,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172183",
+      "record": "Egg, white, raw, fresh",
+      "license": "CC0 1.0",
+      "base_id": "eiklar-roh"
     }
   },
   {
     "key": "milch",
     "name": "Vollmilch",
     "per100g": {
-      "kcal": 64.0,
-      "protein": 3.3,
+      "kcal": 61.0,
+      "protein": 3.1,
       "carbs": 4.8,
-      "fat": 3.6,
+      "fat": 3.2,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171265",
+      "record": "Milk, whole, 3.25% milkfat, with added vitamin D",
+      "license": "CC0 1.0",
+      "base_id": "vollmilch-ca-3-5-prozent"
     }
   },
   {
     "key": "milch_fettarm",
     "name": "Milch 1,5%",
     "per100g": {
-      "kcal": 47.0,
-      "protein": 3.4,
-      "carbs": 4.9,
+      "kcal": 44.0,
+      "protein": 3.5,
+      "carbs": 3.9,
       "fat": 1.5,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "M111200",
+      "record": "Milch fettarm, frisch, 1,5 % Fett, pasteurisiert",
+      "license": "CC BY 4.0",
+      "base_id": "milch-fettarm-1-5-prozent-frisch",
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
     "key": "joghurt",
     "name": "Joghurt (3,5%)",
     "per100g": {
-      "kcal": 65.0,
+      "kcal": 61.0,
       "protein": 3.5,
       "carbs": 4.7,
-      "fat": 3.5,
+      "fat": 3.2,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171284",
+      "record": "Yogurt, plain, whole milk",
+      "license": "CC0 1.0",
+      "base_id": "joghurt-natur-vollmilch"
     }
   },
   {
     "key": "suzme",
     "name": "Strained Yogurt (Süzme)",
     "per100g": {
-      "kcal": 120.0,
-      "protein": 6.0,
+      "kcal": 97.0,
+      "protein": 9.0,
       "carbs": 4.0,
-      "fat": 9.0,
+      "fat": 5.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171304",
+      "record": "Yogurt, Greek, plain, whole milk",
+      "license": "CC0 1.0",
+      "base_id": "griechischer-joghurt-natur-vollmilch",
+      "method": "similar_food",
+      "note": "Süzme ist abgetropfter Joghurt. Belegt über griechischen Vollmilchjoghurt (USDA). Werte unverändert."
     }
   },
   {
     "key": "ayran",
     "name": "Ayran",
     "per100g": {
-      "kcal": 36.0,
-      "protein": 1.8,
-      "carbs": 2.8,
-      "fat": 1.9,
+      "kcal": 28.0,
+      "protein": 1.7,
+      "carbs": 2.3,
+      "fat": 1.4,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "Livsmedelsverket",
+      "dataset_id": "6959",
+      "record": "Yoghurt drink e.g. Ayran",
+      "license": "CC BY 4.0",
+      "note": "Livsmedelsverket führt den Wert als Rezeptrechnung (Cook books). Das ist der veröffentlichte Datensatz, keine eigene Schätzung. Kohlenhydrate = verfügbare KH (CHO) plus Fibre (FIBT). kcal wie veröffentlicht."
     }
   },
   {
@@ -697,197 +1162,339 @@
     "name": "Schlagsahne",
     "per100g": {
       "kcal": 340.0,
-      "protein": 2.4,
-      "carbs": 3.0,
-      "fat": 35.0,
+      "protein": 2.8,
+      "carbs": 2.8,
+      "fat": 36.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170859",
+      "record": "Cream, fluid, heavy whipping",
+      "license": "CC0 1.0",
+      "base_id": "schlagsahne-ca-36-prozent",
+      "note": "Die Tabelle meinte die fette Schlagsahne (kcal 340); das ist Schlagsahne ca. 36 %, nicht die 30-%-Sahne."
     }
   },
   {
     "key": "creme_fraiche",
     "name": "Crème fraîche",
     "per100g": {
-      "kcal": 290.0,
-      "protein": 2.5,
-      "carbs": 3.0,
-      "fat": 30.0,
+      "kcal": 265.0,
+      "protein": 2.4,
+      "carbs": 2.6,
+      "fat": 27.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "M176800",
+      "record": "Sauerrahm/Creme fraiche, 30 % Fett",
+      "license": "CC BY 4.0",
+      "base_id": "creme-fraiche-30-prozent-fett",
+      "note": "Übliche Crème fraîche 30 % Fett, nicht die 40-%-Stufe. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
     "key": "schmand",
     "name": "Schmand",
     "per100g": {
-      "kcal": 200.0,
-      "protein": 3.0,
-      "carbs": 3.5,
+      "kcal": 206.0,
+      "protein": 2.8,
+      "carbs": 3.0,
       "fat": 20.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "M172700",
+      "record": "Sauerrahm/Schmand, mind. 20 % Fett",
+      "license": "CC BY 4.0",
+      "base_id": "schmand-20-prozent-fett",
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
     "key": "quark_mager",
     "name": "Magerquark",
     "per100g": {
-      "kcal": 67.0,
-      "protein": 12.0,
+      "kcal": 66.0,
+      "protein": 11.9,
       "carbs": 3.7,
-      "fat": 0.3,
+      "fat": 0.2,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "M713100",
+      "record": "Speisequark Magerstufe, Magerquark < 10 % Fett i. Tr.",
+      "license": "CC BY 4.0",
+      "base_id": "magerquark",
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
     "key": "quark",
     "name": "Speisequark 40%",
     "per100g": {
-      "kcal": 110.0,
-      "protein": 10.0,
-      "carbs": 3.5,
-      "fat": 6.5,
+      "kcal": 159.0,
+      "protein": 10.9,
+      "carbs": 2.6,
+      "fat": 11.4,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "M713500",
+      "record": "Speisequark Fettstufe, 40 % Fett i. Tr.",
+      "license": "CC BY 4.0",
+      "base_id": "speisequark-40-prozent-fett-i-tr",
+      "note": "Speisequark 40 % meint 40 % Fett in der Trockenmasse, nicht 40 g Fett/100 g. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
     "key": "frischkaese",
     "name": "Frischkäse",
     "per100g": {
-      "kcal": 250.0,
-      "protein": 6.0,
-      "carbs": 3.0,
-      "fat": 24.0,
+      "kcal": 252.0,
+      "protein": 6.6,
+      "carbs": 3.7,
+      "fat": 23.2,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "M710800",
+      "record": "Frischkäsezubereitung Natur, mind. 60 % Fett i. Tr.",
+      "license": "CC BY 4.0",
+      "note": "Deutsche Frischkäsezubereitung, nicht USDA Cheese, cream (Doppelrahmstufe, 34,4 g Fett). Fett ungerundet 23,25 g. FIBT und FIBHMW sind 0. Kohlenhydrate = verfügbare KH 3,69 g."
     }
   },
   {
     "key": "mascarpone",
     "name": "Mascarpone",
     "per100g": {
-      "kcal": 400.0,
-      "protein": 4.5,
-      "carbs": 4.0,
-      "fat": 40.0,
+      "kcal": 435.0,
+      "protein": 4.6,
+      "carbs": 4.3,
+      "fat": 44.5,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "12-490",
+      "record": "Cheese, Mascarpone",
+      "license": "Open Government Licence v3.0",
+      "note": "Kohlenhydrate = verfügbare KH plus AOAC-Ballaststoffe (ohne Fructane; CoFID-Spalte AOAC fibre). kcal wie veröffentlicht."
     }
   },
   {
     "key": "butter",
     "name": "Butter",
     "per100g": {
-      "kcal": 740.0,
-      "protein": 0.7,
-      "carbs": 0.6,
-      "fat": 82.0,
+      "kcal": 717.0,
+      "protein": 0.8,
+      "carbs": 0.1,
+      "fat": 81.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173430",
+      "record": "Butter, without salt",
+      "license": "CC0 1.0",
+      "base_id": "butter"
     }
   },
   {
     "key": "kaymak",
     "name": "Kaymak",
     "per100g": {
-      "kcal": 380.0,
-      "protein": 3.0,
-      "carbs": 3.0,
-      "fat": 40.0,
+      "kcal": 586.0,
+      "protein": 1.6,
+      "carbs": 2.3,
+      "fat": 63.5,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "12-592",
+      "record": "Cream, fresh, clotted",
+      "license": "Open Government Licence v3.0",
+      "base_id": "kaymak",
+      "method": "similar_food",
+      "note": "Grundzutat: CoFID Clotted Cream, Methode similar_food. Kein TürKomp. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
     "key": "beyaz_peynir",
     "name": "Beyaz Peynir (Schafskäse)",
     "per100g": {
-      "kcal": 265.0,
-      "protein": 14.0,
-      "carbs": 4.0,
-      "fat": 21.0,
+      "kcal": 283.0,
+      "protein": 15.4,
+      "carbs": 0.0,
+      "fat": 24.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "M6A6800",
+      "record": "Salzlakenkäse aus Schafmilch, mind. 45 % Fett i. Tr.",
+      "license": "CC BY 4.0",
+      "base_id": "beyaz-peynir-aus-schafmilch",
+      "note": "Der Name nennt Schafskäse; verwendet ist Beyaz Peynir aus Schafmilch, nicht die Kuhmilchvariante. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
     "key": "kasar",
     "name": "Kaşar",
     "per100g": {
-      "kcal": 350.0,
-      "protein": 25.0,
-      "carbs": 2.0,
-      "fat": 27.0,
+      "kcal": 340.0,
+      "protein": 25.6,
+      "carbs": 0.0,
+      "fat": 26.6,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "12716",
+      "record": "Provolone cheese, from cow's milk",
+      "license": "Etalab 2.0",
+      "base_id": "kasar-peyniri",
+      "method": "similar_food",
+      "note": "Lizenz Etalab 2.0 (Open Licence), nicht CC BY. Grundzutat: Ciqual Provolone, Methode similar_food. Lizenz Etalab 2.0. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
     "key": "tulum",
     "name": "Tulum Peyniri",
     "per100g": {
-      "kcal": 330.0,
-      "protein": 20.0,
+      "kcal": 383.0,
+      "protein": 25.5,
       "carbs": 1.0,
-      "fat": 27.0,
+      "fat": 31.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "12122",
+      "record": "Pecorino cheese, from ewe's milk",
+      "license": "Etalab 2.0",
+      "method": "similar_food",
+      "note": "Tulum ist ein gereifter Schafskäse ohne eigenen Satz. Pecorino aus Schafmilch ist das nächste belegte Lebensmittel. Werte unverändert. Lizenz Etalab 2.0 (Open Licence), nicht CC BY. Kohlenhydrate = verfügbare KH plus Ballaststoffe. kcal = Energy Regulation EU 1169/2011, wie veröffentlicht."
     }
   },
   {
     "key": "lor",
     "name": "Lor Peyniri",
     "per100g": {
-      "kcal": 100.0,
-      "protein": 12.0,
-      "carbs": 3.0,
-      "fat": 4.0,
+      "kcal": 138.0,
+      "protein": 11.4,
+      "carbs": 5.1,
+      "fat": 7.9,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171248",
+      "record": "Cheese, ricotta, part skim milk",
+      "license": "CC0 1.0",
+      "method": "similar_food",
+      "note": "Lor ist ein Molkenkäse. Nächster Satz ist Ricotta aus teilentrahmter Milch. Werte unverändert."
     }
   },
   {
     "key": "hellim",
     "name": "Hellim/Halloumi",
     "per100g": {
-      "kcal": 320.0,
-      "protein": 22.0,
-      "carbs": 2.0,
-      "fat": 25.0,
+      "kcal": 315.0,
+      "protein": 21.5,
+      "carbs": 0.1,
+      "fat": 25.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "M524500",
+      "record": "Halloumi Grillkäse",
+      "license": "CC BY 4.0",
+      "base_id": "hellim-halloumi-roh",
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
     "key": "mozzarella",
     "name": "Mozzarella",
     "per100g": {
-      "kcal": 250.0,
-      "protein": 18.0,
-      "carbs": 2.0,
-      "fat": 19.0,
+      "kcal": 299.0,
+      "protein": 22.2,
+      "carbs": 2.4,
+      "fat": 22.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170845",
+      "record": "Cheese, mozzarella, whole milk",
+      "license": "CC0 1.0",
+      "base_id": "mozzarella",
+      "note": "Vollmilch-Mozzarella, nicht die teilentrahmte Variante."
     }
   },
   {
     "key": "parmesan",
     "name": "Parmesan",
     "per100g": {
-      "kcal": 400.0,
-      "protein": 35.0,
-      "carbs": 0.0,
-      "fat": 28.0,
+      "kcal": 392.0,
+      "protein": 35.8,
+      "carbs": 3.2,
+      "fat": 25.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170848",
+      "record": "Cheese, parmesan, hard",
+      "license": "CC0 1.0",
+      "base_id": "parmesan",
+      "note": "Parmesan am Stück, nicht die geriebene Variante."
     }
   },
   {
     "key": "gouda",
     "name": "Gouda",
     "per100g": {
-      "kcal": 355.0,
-      "protein": 25.0,
-      "carbs": 2.0,
-      "fat": 28.0,
+      "kcal": 356.0,
+      "protein": 24.9,
+      "carbs": 2.2,
+      "fat": 27.4,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171241",
+      "record": "Cheese, gouda",
+      "license": "CC0 1.0",
+      "base_id": "gouda"
     }
   },
   {
     "key": "emmentaler",
     "name": "Emmentaler/Bergkäse",
     "per100g": {
-      "kcal": 380.0,
-      "protein": 28.0,
-      "carbs": 0.0,
-      "fat": 30.0,
+      "kcal": 393.0,
+      "protein": 27.0,
+      "carbs": 1.4,
+      "fat": 31.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171251",
+      "record": "Cheese, swiss",
+      "license": "CC0 1.0",
+      "base_id": "emmentaler",
+      "note": "Emmentaler; Bergkäse 45 % liegt daneben und ist nicht gemittelt."
     }
   },
   {
@@ -895,10 +1502,17 @@
     "name": "Camembert",
     "per100g": {
       "kcal": 300.0,
-      "protein": 20.0,
-      "carbs": 0.0,
-      "fat": 24.0,
+      "protein": 19.8,
+      "carbs": 0.5,
+      "fat": 24.3,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172178",
+      "record": "Cheese, camembert",
+      "license": "CC0 1.0",
+      "base_id": "camembert"
     }
   },
   {
@@ -907,108 +1521,179 @@
     "per100g": {
       "kcal": 40.0,
       "protein": 1.1,
-      "carbs": 9.0,
+      "carbs": 9.3,
       "fat": 0.1,
       "fiber": 1.7
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170000",
+      "record": "Onions, raw",
+      "license": "CC0 1.0",
+      "base_id": "zwiebel-roh"
     }
   },
   {
     "key": "knoblauch",
     "name": "Knoblauch",
     "per100g": {
-      "kcal": 150.0,
-      "protein": 6.4,
-      "carbs": 33.0,
+      "kcal": 109.0,
+      "protein": 5.3,
+      "carbs": 24.4,
       "fat": 0.5,
-      "fiber": 2.1
+      "fiber": 5.8
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "11000",
+      "record": "Garlic, raw",
+      "license": "Etalab 2.0",
+      "note": "Lizenz Etalab 2.0, nicht CC BY. Protein 5,31 g, verfügbare KH 18,6 g, Ballaststoffe 5,8 g, kcal 109 (EU 1169/2011). Fett ist in Ciqual \"< 0,5 g\" und hier als 0,5 g (Bestimmungsgrenze) eingetragen. Kohlenhydrate = 18,6 + 5,8 = 24,4 g Gesamt-KH."
     }
   },
   {
     "key": "tomate",
     "name": "Tomate",
     "per100g": {
-      "kcal": 20.0,
+      "kcal": 18.0,
       "protein": 0.9,
       "carbs": 3.9,
       "fat": 0.2,
       "fiber": 1.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170457",
+      "record": "Tomatoes, red, ripe, raw, year round average",
+      "license": "CC0 1.0",
+      "base_id": "tomate-roh"
     }
   },
   {
     "key": "paprika",
     "name": "Paprika grün",
     "per100g": {
-      "kcal": 22.0,
+      "kcal": 20.0,
       "protein": 0.9,
       "carbs": 4.6,
       "fat": 0.2,
       "fiber": 1.7
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170427",
+      "record": "Peppers, sweet, green, raw",
+      "license": "CC0 1.0",
+      "base_id": "paprika-gruen-roh"
     }
   },
   {
     "key": "paprika_rot",
     "name": "Paprika rot",
     "per100g": {
-      "kcal": 31.0,
+      "kcal": 26.0,
       "protein": 1.0,
       "carbs": 6.0,
       "fat": 0.3,
       "fiber": 2.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170108",
+      "record": "Peppers, sweet, red, raw",
+      "license": "CC0 1.0",
+      "base_id": "paprika-rot-roh"
     }
   },
   {
     "key": "sivri",
     "name": "Spitzpaprika (Sivri Biber)",
     "per100g": {
-      "kcal": 30.0,
-      "protein": 1.7,
-      "carbs": 6.0,
-      "fat": 0.2,
-      "fiber": 3.0
+      "kcal": 29.0,
+      "protein": 0.8,
+      "carbs": 6.7,
+      "fat": 0.4,
+      "fiber": 1.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168578",
+      "record": "Peppers, hungarian, raw",
+      "license": "CC0 1.0",
+      "method": "similar_food",
+      "note": "Sivri ist die türkische Spitzpaprika. Nächster SR-Legacy-Satz ist die ungarische lange Paprika; Werte unverändert."
     }
   },
   {
     "key": "chili",
     "name": "Chilischote",
     "per100g": {
-      "kcal": 42.0,
-      "protein": 2.0,
-      "carbs": 9.0,
+      "kcal": 40.0,
+      "protein": 1.9,
+      "carbs": 8.8,
       "fat": 0.4,
       "fiber": 1.5
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170106",
+      "record": "Peppers, hot chili, red, raw",
+      "license": "CC0 1.0",
+      "base_id": "chili-rot-roh"
     }
   },
   {
     "key": "aubergine",
     "name": "Aubergine",
     "per100g": {
-      "kcal": 27.0,
+      "kcal": 25.0,
       "protein": 1.0,
       "carbs": 5.9,
       "fat": 0.2,
       "fiber": 3.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169228",
+      "record": "Eggplant, raw",
+      "license": "CC0 1.0",
+      "base_id": "aubergine-roh"
     }
   },
   {
     "key": "zucchini",
     "name": "Zucchini",
     "per100g": {
-      "kcal": 18.0,
+      "kcal": 17.0,
       "protein": 1.2,
       "carbs": 3.1,
       "fat": 0.3,
       "fiber": 1.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169291",
+      "record": "Squash, summer, zucchini, includes skin, raw",
+      "license": "CC0 1.0",
+      "base_id": "zucchini-roh"
     }
   },
   {
     "key": "gurke",
     "name": "Gurke",
     "per100g": {
-      "kcal": 16.0,
+      "kcal": 15.0,
       "protein": 0.7,
       "carbs": 3.6,
       "fat": 0.1,
       "fiber": 0.5
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168409",
+      "record": "Cucumber, with peel, raw",
+      "license": "CC0 1.0",
+      "base_id": "gurke-roh"
     }
   },
   {
@@ -1017,9 +1702,16 @@
     "per100g": {
       "kcal": 77.0,
       "protein": 2.0,
-      "carbs": 17.0,
+      "carbs": 17.5,
       "fat": 0.1,
-      "fiber": 2.2
+      "fiber": 2.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170026",
+      "record": "Potatoes, flesh and skin, raw",
+      "license": "CC0 1.0",
+      "base_id": "kartoffel-roh"
     }
   },
   {
@@ -1028,9 +1720,16 @@
     "per100g": {
       "kcal": 86.0,
       "protein": 1.6,
-      "carbs": 20.0,
+      "carbs": 20.1,
       "fat": 0.1,
       "fiber": 3.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168482",
+      "record": "Sweet potato, raw, unprepared",
+      "license": "CC0 1.0",
+      "base_id": "suesskartoffel-roh"
     }
   },
   {
@@ -1039,9 +1738,16 @@
     "per100g": {
       "kcal": 41.0,
       "protein": 0.9,
-      "carbs": 10.0,
+      "carbs": 9.6,
       "fat": 0.2,
       "fiber": 2.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170393",
+      "record": "Carrots, raw",
+      "license": "CC0 1.0",
+      "base_id": "karotte-roh"
     }
   },
   {
@@ -1050,42 +1756,70 @@
     "per100g": {
       "kcal": 42.0,
       "protein": 1.5,
-      "carbs": 9.0,
+      "carbs": 9.2,
       "fat": 0.3,
       "fiber": 1.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170400",
+      "record": "Celeriac, raw",
+      "license": "CC0 1.0",
+      "base_id": "knollensellerie-roh"
     }
   },
   {
     "key": "lauch",
     "name": "Lauch/Porree",
     "per100g": {
-      "kcal": 34.0,
-      "protein": 1.8,
-      "carbs": 7.0,
+      "kcal": 61.0,
+      "protein": 1.5,
+      "carbs": 14.2,
       "fat": 0.3,
-      "fiber": 2.6
+      "fiber": 1.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169246",
+      "record": "Leeks, (bulb and lower leaf-portion), raw",
+      "license": "CC0 1.0",
+      "base_id": "lauch-roh"
     }
   },
   {
     "key": "spinat",
     "name": "Spinat",
     "per100g": {
-      "kcal": 26.0,
+      "kcal": 23.0,
       "protein": 2.9,
       "carbs": 3.6,
       "fat": 0.4,
       "fiber": 2.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168462",
+      "record": "Spinach, raw",
+      "license": "CC0 1.0",
+      "base_id": "spinat-roh"
     }
   },
   {
     "key": "weisskohl",
     "name": "Weißkohl",
     "per100g": {
-      "kcal": 26.0,
+      "kcal": 25.0,
       "protein": 1.3,
       "carbs": 5.8,
       "fat": 0.1,
       "fiber": 2.5
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169975",
+      "record": "Cabbage, raw",
+      "license": "CC0 1.0",
+      "base_id": "weisskohl-roh"
     }
   },
   {
@@ -1094,64 +1828,106 @@
     "per100g": {
       "kcal": 31.0,
       "protein": 1.4,
-      "carbs": 7.0,
+      "carbs": 7.4,
       "fat": 0.2,
       "fiber": 2.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169977",
+      "record": "Cabbage, red, raw",
+      "license": "CC0 1.0",
+      "base_id": "rotkohl-roh"
     }
   },
   {
     "key": "blumenkohl",
     "name": "Blumenkohl",
     "per100g": {
-      "kcal": 26.0,
+      "kcal": 25.0,
       "protein": 1.9,
       "carbs": 5.0,
       "fat": 0.3,
       "fiber": 2.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169986",
+      "record": "Cauliflower, raw",
+      "license": "CC0 1.0",
+      "base_id": "blumenkohl-roh"
     }
   },
   {
     "key": "brokkoli",
     "name": "Brokkoli",
     "per100g": {
-      "kcal": 38.0,
+      "kcal": 34.0,
       "protein": 2.8,
       "carbs": 6.6,
       "fat": 0.4,
       "fiber": 2.6
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170379",
+      "record": "Broccoli, raw",
+      "license": "CC0 1.0",
+      "base_id": "brokkoli-roh"
     }
   },
   {
     "key": "gruene_bohnen",
     "name": "Grüne Bohnen",
     "per100g": {
-      "kcal": 33.0,
+      "kcal": 31.0,
       "protein": 1.8,
       "carbs": 7.0,
       "fat": 0.2,
       "fiber": 2.7
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169961",
+      "record": "Beans, snap, green, raw",
+      "license": "CC0 1.0",
+      "base_id": "gruene-bohnen-roh"
     }
   },
   {
     "key": "erbsen",
     "name": "Grüne Erbsen",
     "per100g": {
-      "kcal": 80.0,
+      "kcal": 81.0,
       "protein": 5.4,
-      "carbs": 14.0,
+      "carbs": 14.4,
       "fat": 0.4,
       "fiber": 5.7
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170419",
+      "record": "Peas, green, raw",
+      "license": "CC0 1.0",
+      "base_id": "erbsen-gruen-roh"
     }
   },
   {
     "key": "mais",
     "name": "Mais",
     "per100g": {
-      "kcal": 88.0,
-      "protein": 3.2,
-      "carbs": 19.0,
-      "fat": 1.2,
-      "fiber": 2.7
+      "kcal": 86.0,
+      "protein": 3.3,
+      "carbs": 18.7,
+      "fat": 1.4,
+      "fiber": 2.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169998",
+      "record": "Corn, sweet, yellow, raw",
+      "license": "CC0 1.0",
+      "base_id": "zuckermais-roh"
     }
   },
   {
@@ -1163,6 +1939,13 @@
       "carbs": 9.6,
       "fat": 0.2,
       "fiber": 2.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169145",
+      "record": "Beets, raw",
+      "license": "CC0 1.0",
+      "base_id": "rote-bete-roh"
     }
   },
   {
@@ -1170,32 +1953,53 @@
     "name": "Rettich/Rübe",
     "per100g": {
       "kcal": 18.0,
-      "protein": 0.7,
-      "carbs": 3.4,
+      "protein": 0.6,
+      "carbs": 4.1,
       "fat": 0.1,
       "fiber": 1.6
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168451",
+      "record": "Radishes, oriental, raw",
+      "license": "CC0 1.0",
+      "base_id": "rettich-roh"
     }
   },
   {
     "key": "kuerbis",
     "name": "Kürbis",
     "per100g": {
-      "kcal": 28.0,
+      "kcal": 26.0,
       "protein": 1.0,
       "carbs": 6.5,
       "fat": 0.1,
       "fiber": 0.5
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168448",
+      "record": "Pumpkin, raw",
+      "license": "CC0 1.0",
+      "base_id": "kuerbis-roh"
     }
   },
   {
     "key": "okra",
     "name": "Okra",
     "per100g": {
-      "kcal": 34.0,
+      "kcal": 33.0,
       "protein": 1.9,
       "carbs": 7.5,
       "fat": 0.2,
       "fiber": 3.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169260",
+      "record": "Okra, raw",
+      "license": "CC0 1.0",
+      "base_id": "okra-roh"
     }
   },
   {
@@ -1207,39 +2011,68 @@
       "carbs": 6.4,
       "fat": 0.1,
       "fiber": 1.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170465",
+      "record": "Turnips, raw",
+      "license": "CC0 1.0",
+      "base_id": "weisse-ruebe-roh"
     }
   },
   {
     "key": "artischocke",
     "name": "Artischocke",
     "per100g": {
-      "kcal": 52.0,
+      "kcal": 47.0,
       "protein": 3.3,
-      "carbs": 11.0,
-      "fat": 0.2,
+      "carbs": 10.5,
+      "fat": 0.1,
       "fiber": 5.4
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169205",
+      "record": "Artichokes, (globe or french), raw",
+      "license": "CC0 1.0",
+      "base_id": "artischocke-roh"
     }
   },
   {
     "key": "spargel",
     "name": "Spargel",
     "per100g": {
-      "kcal": 22.0,
+      "kcal": 20.0,
       "protein": 2.2,
       "carbs": 3.9,
       "fat": 0.1,
       "fiber": 2.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168389",
+      "record": "Asparagus, raw",
+      "license": "CC0 1.0",
+      "base_id": "spargel-gruen-roh",
+      "note": "Makros der bisherigen Tabelle entsprechen grünem Spargel, nicht weißem."
     }
   },
   {
     "key": "pilz",
     "name": "Champignons",
     "per100g": {
-      "kcal": 24.0,
+      "kcal": 22.0,
       "protein": 3.1,
       "carbs": 3.3,
       "fat": 0.3,
       "fiber": 1.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169251",
+      "record": "Mushrooms, white, raw",
+      "license": "CC0 1.0",
+      "base_id": "champignons-roh"
     }
   },
   {
@@ -1247,527 +2080,876 @@
     "name": "Blattsalat (Romana/Eisberg)",
     "per100g": {
       "kcal": 17.0,
-      "protein": 1.4,
-      "carbs": 2.9,
-      "fat": 0.2,
-      "fiber": 1.3
+      "protein": 1.2,
+      "carbs": 3.3,
+      "fat": 0.3,
+      "fiber": 2.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169247",
+      "record": "Lettuce, cos or romaine, raw",
+      "license": "CC0 1.0",
+      "base_id": "roemersalat-roh",
+      "note": "Romana ist im Namen zuerst genannt (Römersalat)."
     }
   },
   {
     "key": "rucola",
     "name": "Rucola",
     "per100g": {
-      "kcal": 28.0,
+      "kcal": 25.0,
       "protein": 2.6,
-      "carbs": 3.7,
+      "carbs": 3.6,
       "fat": 0.7,
       "fiber": 1.6
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169387",
+      "record": "Arugula, raw",
+      "license": "CC0 1.0",
+      "base_id": "rucola-roh"
     }
   },
   {
     "key": "petersilie",
     "name": "Petersilie",
     "per100g": {
-      "kcal": 39.0,
+      "kcal": 36.0,
       "protein": 3.0,
       "carbs": 6.3,
       "fat": 0.8,
       "fiber": 3.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170416",
+      "record": "Parsley, fresh",
+      "license": "CC0 1.0",
+      "base_id": "petersilie-frisch"
     }
   },
   {
     "key": "dill",
     "name": "Dill",
     "per100g": {
-      "kcal": 45.0,
+      "kcal": 43.0,
       "protein": 3.5,
       "carbs": 7.0,
       "fat": 1.1,
       "fiber": 2.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172233",
+      "record": "Dill weed, fresh",
+      "license": "CC0 1.0",
+      "base_id": "dill-frisch"
     }
   },
   {
     "key": "minze",
     "name": "Minze frisch",
     "per100g": {
-      "kcal": 46.0,
+      "kcal": 44.0,
       "protein": 3.3,
       "carbs": 8.4,
       "fat": 0.7,
       "fiber": 6.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173475",
+      "record": "Spearmint, fresh",
+      "license": "CC0 1.0",
+      "base_id": "minze-frisch"
     }
   },
   {
     "key": "fruehlingszwiebel",
     "name": "Frühlingszwiebel",
     "per100g": {
-      "kcal": 33.0,
+      "kcal": 32.0,
       "protein": 1.8,
       "carbs": 7.3,
       "fat": 0.2,
       "fiber": 2.6
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170005",
+      "record": "Onions, spring or scallions (includes tops and bulb), raw",
+      "license": "CC0 1.0",
+      "base_id": "fruehlingszwiebel-roh"
     }
   },
   {
     "key": "karalahana",
     "name": "Schwarzkohl",
     "per100g": {
-      "kcal": 53.0,
-      "protein": 4.3,
-      "carbs": 9.0,
-      "fat": 0.9,
-      "fiber": 3.6
+      "kcal": 35.0,
+      "protein": 2.9,
+      "carbs": 4.4,
+      "fat": 1.5,
+      "fiber": 4.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168421",
+      "record": "Kale, raw",
+      "license": "CC0 1.0",
+      "base_id": "gruenkohl-roh",
+      "note": "Karalahana ist Grünkohl/Schwarzkohl; dieselbe Grundzutat wie gruenkohl."
     }
   },
   {
     "key": "mangold",
     "name": "Mangold",
     "per100g": {
-      "kcal": 21.0,
+      "kcal": 19.0,
       "protein": 1.8,
       "carbs": 3.7,
       "fat": 0.2,
       "fiber": 1.6
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169991",
+      "record": "Chard, swiss, raw",
+      "license": "CC0 1.0",
+      "base_id": "mangold-roh"
     }
   },
   {
     "key": "portulak",
     "name": "Portulak",
     "per100g": {
-      "kcal": 17.0,
-      "protein": 1.3,
-      "carbs": 3.4,
-      "fat": 0.1,
-      "fiber": 0.5
+      "kcal": 14.0,
+      "protein": 1.5,
+      "carbs": 2.2,
+      "fat": 0.3,
+      "fiber": 1.6
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "G460100",
+      "record": "Portulak roh",
+      "license": "CC BY 4.0",
+      "note": "Ganzer Datensatz. FIBT und FIBHMW sind beide 1,6 g (kein zusätzlicher Fructananteil). Kohlenhydrate = verfügbare KH 0,587 g + 1,6 g. USDA 169274 hat keine Ballaststoffe und wird nicht verwendet."
     }
   },
   {
     "key": "wildkraut",
     "name": "Wildkräuter (Otlar)",
     "per100g": {
-      "kcal": 33.0,
-      "protein": 2.5,
-      "carbs": 5.0,
-      "fat": 0.4,
-      "fiber": 3.0
+      "kcal": 36.0,
+      "protein": 3.0,
+      "carbs": 6.3,
+      "fat": 0.8,
+      "fiber": 3.8
+    },
+    "source": {
+      "database": "Schätzung",
+      "method": "recipe",
+      "derived_from": [
+        "USDA SR Legacy:170416 (petersilie-frisch)",
+        "USDA SR Legacy:172233 (dill-frisch)",
+        "USDA SR Legacy:173475 (minze-frisch)",
+        "USDA SR Legacy:169997 (koriandergruen-frisch)"
+      ],
+      "note": "Wildkräuter (Otlar) ohne Sammelsatz. Gleichgewichtiges Mittel aus Petersilie, Dill, Minze und Koriandergrün."
     }
   },
   {
     "key": "weinblatt",
     "name": "Weinblätter (eingelegt)",
     "per100g": {
-      "kcal": 70.0,
-      "protein": 5.0,
-      "carbs": 11.0,
-      "fat": 1.5,
-      "fiber": 5.0
+      "kcal": 69.0,
+      "protein": 4.3,
+      "carbs": 11.7,
+      "fat": 2.0,
+      "fiber": 9.9
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169393",
+      "record": "Grape leaves, canned",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "bohnen_trocken",
     "name": "Weiße Bohnen (trocken)",
     "per100g": {
-      "kcal": 340.0,
-      "protein": 22.0,
-      "carbs": 61.0,
-      "fat": 1.5,
-      "fiber": 15.0
+      "kcal": 333.0,
+      "protein": 23.4,
+      "carbs": 60.3,
+      "fat": 0.8,
+      "fiber": 15.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "175202",
+      "record": "Beans, white, mature seeds, raw",
+      "license": "CC0 1.0",
+      "base_id": "weisse-bohnen-roh"
     }
   },
   {
     "key": "kichererbsen_trocken",
     "name": "Kichererbsen (trocken)",
     "per100g": {
-      "kcal": 364.0,
-      "protein": 20.0,
-      "carbs": 60.0,
+      "kcal": 378.0,
+      "protein": 20.5,
+      "carbs": 63.0,
       "fat": 6.0,
-      "fiber": 17.0
+      "fiber": 12.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173756",
+      "record": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+      "license": "CC0 1.0",
+      "base_id": "kichererbsen-roh"
     }
   },
   {
     "key": "kichererbsen",
     "name": "Kichererbsen (gekocht)",
     "per100g": {
-      "kcal": 165.0,
-      "protein": 9.0,
-      "carbs": 27.0,
+      "kcal": 164.0,
+      "protein": 8.9,
+      "carbs": 27.4,
       "fat": 2.6,
       "fiber": 7.6
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173757",
+      "record": "Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",
+      "license": "CC0 1.0",
+      "base_id": "kichererbsen-gekocht"
     }
   },
   {
     "key": "rote_linsen",
     "name": "Rote Linsen (trocken)",
     "per100g": {
-      "kcal": 345.0,
-      "protein": 25.0,
-      "carbs": 60.0,
-      "fat": 1.0,
-      "fiber": 11.0
+      "kcal": 358.0,
+      "protein": 23.9,
+      "carbs": 63.1,
+      "fat": 2.2,
+      "fiber": 10.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174284",
+      "record": "Lentils, pink or red, raw",
+      "license": "CC0 1.0",
+      "base_id": "rote-linsen-roh"
     }
   },
   {
     "key": "linsen",
     "name": "Grüne/Braune Linsen (trocken)",
     "per100g": {
-      "kcal": 349.0,
-      "protein": 25.0,
-      "carbs": 60.0,
+      "kcal": 352.0,
+      "protein": 24.6,
+      "carbs": 63.4,
       "fat": 1.1,
-      "fiber": 11.0
+      "fiber": 10.7
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172420",
+      "record": "Lentils, raw",
+      "license": "CC0 1.0",
+      "base_id": "linsen-roh"
     }
   },
   {
     "key": "dicke_bohnen",
     "name": "Dicke Bohnen (Bakla)",
     "per100g": {
-      "kcal": 73.0,
-      "protein": 5.0,
-      "carbs": 12.0,
+      "kcal": 72.0,
+      "protein": 5.6,
+      "carbs": 11.7,
       "fat": 0.6,
-      "fiber": 5.0
+      "fiber": 4.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170377",
+      "record": "Broadbeans, immature seeds, raw",
+      "license": "CC0 1.0",
+      "note": "Frische Dicke Bohnen (unreife Samen), nicht die getrocknete Bohne und nicht die Dose."
     }
   },
   {
     "key": "tomatenmark",
     "name": "Tomatenmark",
     "per100g": {
-      "kcal": 90.0,
+      "kcal": 82.0,
       "protein": 4.3,
-      "carbs": 19.0,
+      "carbs": 18.9,
       "fat": 0.5,
-      "fiber": 4.0
+      "fiber": 4.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170459",
+      "record": "Tomato products, canned, paste, without salt added",
+      "license": "CC0 1.0",
+      "base_id": "tomatenmark"
     }
   },
   {
     "key": "paprikamark",
     "name": "Paprikamark (Biber Salçası)",
     "per100g": {
-      "kcal": 90.0,
-      "protein": 4.0,
-      "carbs": 17.0,
-      "fat": 1.5,
-      "fiber": 5.0
+      "kcal": 82.0,
+      "protein": 4.3,
+      "carbs": 18.9,
+      "fat": 0.5,
+      "fiber": 4.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170459",
+      "record": "Tomato products, canned, paste, without salt added",
+      "license": "CC0 1.0",
+      "base_id": "tomatenmark",
+      "method": "similar_food",
+      "note": "Paprikamark (Biber salçası) fehlt in den freien Tabellen. Süße chinesische Saucen und Paprikapulver sind andere Lebensmittel. Nächstes belegtes Nasskonzentrat ist Tomatenmark; Werte unverändert, nicht auf Paprika umgerechnet. Näherung: Paprikamark fehlt in den freien Tabellen. Werte sind Tomatenmark (USDA 170459), unverändert, nicht auf Paprika umgerechnet."
     }
   },
   {
     "key": "tomaten_dose",
     "name": "Tomaten (Dose)",
     "per100g": {
-      "kcal": 23.0,
-      "protein": 1.0,
-      "carbs": 4.2,
+      "kcal": 16.0,
+      "protein": 0.8,
+      "carbs": 3.5,
       "fat": 0.2,
-      "fiber": 1.0
+      "fiber": 1.9
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170138",
+      "record": "Tomatoes, red, ripe, canned, packed in tomato juice, no salt added",
+      "license": "CC0 1.0",
+      "base_id": "tomate-aus-der-dose-geschaelt-im-saft"
     }
   },
   {
     "key": "reis",
     "name": "Reis (trocken)",
     "per100g": {
-      "kcal": 360.0,
-      "protein": 7.0,
-      "carbs": 79.0,
-      "fat": 0.6,
+      "kcal": 365.0,
+      "protein": 7.1,
+      "carbs": 80.0,
+      "fat": 0.7,
       "fiber": 1.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169756",
+      "record": "Rice, white, long-grain, regular, raw, unenriched",
+      "license": "CC0 1.0",
+      "base_id": "reis-weiss-roh"
     }
   },
   {
     "key": "bulgur",
     "name": "Bulgur",
     "per100g": {
-      "kcal": 345.0,
-      "protein": 12.0,
-      "carbs": 75.0,
+      "kcal": 342.0,
+      "protein": 12.3,
+      "carbs": 75.9,
       "fat": 1.3,
       "fiber": 12.5
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170688",
+      "record": "Bulgur, dry",
+      "license": "CC0 1.0",
+      "base_id": "bulgur-roh"
     }
   },
   {
     "key": "couscous",
     "name": "Couscous",
     "per100g": {
-      "kcal": 365.0,
-      "protein": 13.0,
-      "carbs": 73.0,
+      "kcal": 376.0,
+      "protein": 12.8,
+      "carbs": 77.4,
       "fat": 0.6,
       "fiber": 5.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169699",
+      "record": "Couscous, dry",
+      "license": "CC0 1.0",
+      "base_id": "couscous-roh"
     }
   },
   {
     "key": "nudeln",
     "name": "Nudeln/Şehriye (trocken)",
     "per100g": {
-      "kcal": 360.0,
-      "protein": 12.5,
-      "carbs": 72.0,
+      "kcal": 371.0,
+      "protein": 13.0,
+      "carbs": 74.7,
       "fat": 1.5,
-      "fiber": 3.0
+      "fiber": 3.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168927",
+      "record": "Pasta, dry, unenriched",
+      "license": "CC0 1.0",
+      "base_id": "nudeln-roh"
     }
   },
   {
     "key": "mehl",
     "name": "Weizenmehl",
     "per100g": {
-      "kcal": 345.0,
-      "protein": 10.0,
-      "carbs": 72.0,
+      "kcal": 364.0,
+      "protein": 10.3,
+      "carbs": 76.3,
       "fat": 1.0,
-      "fiber": 3.0
+      "fiber": 2.7
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169761",
+      "record": "Wheat flour, white, all-purpose, unenriched",
+      "license": "CC0 1.0",
+      "base_id": "weizenmehl-auszugsmehl-typ-405"
     }
   },
   {
     "key": "griess",
     "name": "Grieß",
     "per100g": {
-      "kcal": 345.0,
-      "protein": 11.0,
-      "carbs": 73.0,
-      "fat": 1.0,
-      "fiber": 4.0
+      "kcal": 360.0,
+      "protein": 12.7,
+      "carbs": 72.8,
+      "fat": 1.1,
+      "fiber": 3.9
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168933",
+      "record": "Semolina, unenriched",
+      "license": "CC0 1.0",
+      "base_id": "hartweizengriess"
     }
   },
   {
     "key": "staerke",
     "name": "Speisestärke",
     "per100g": {
-      "kcal": 354.0,
+      "kcal": 381.0,
       "protein": 0.3,
-      "carbs": 88.0,
+      "carbs": 91.3,
       "fat": 0.1,
       "fiber": 0.9
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169698",
+      "record": "Cornstarch",
+      "license": "CC0 1.0",
+      "base_id": "speisestaerke-maisstaerke"
     }
   },
   {
     "key": "reismehl",
     "name": "Reismehl",
     "per100g": {
-      "kcal": 360.0,
+      "kcal": 366.0,
       "protein": 6.0,
-      "carbs": 80.0,
+      "carbs": 80.1,
       "fat": 1.4,
       "fiber": 2.4
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169714",
+      "record": "Rice flour, white, unenriched",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "haferflocken",
     "name": "Haferflocken",
     "per100g": {
-      "kcal": 355.0,
-      "protein": 13.0,
-      "carbs": 60.0,
-      "fat": 7.0,
-      "fiber": 10.0
+      "kcal": 379.0,
+      "protein": 13.2,
+      "carbs": 67.7,
+      "fat": 6.5,
+      "fiber": 10.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173904",
+      "record": "Cereals, oats, regular and quick, not fortified, dry",
+      "license": "CC0 1.0",
+      "base_id": "haferflocken"
     }
   },
   {
     "key": "paniermehl",
     "name": "Paniermehl",
     "per100g": {
-      "kcal": 381.0,
-      "protein": 12.0,
+      "kcal": 395.0,
+      "protein": 13.3,
       "carbs": 72.0,
-      "fat": 5.0,
-      "fiber": 4.0
+      "fat": 5.3,
+      "fiber": 4.5
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174928",
+      "record": "Bread, crumbs, dry, grated, plain",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "semmel",
     "name": "Brötchen/Semmel",
     "per100g": {
-      "kcal": 262.0,
-      "protein": 9.0,
-      "carbs": 53.0,
-      "fat": 1.5,
-      "fiber": 3.0
+      "kcal": 310.0,
+      "protein": 10.9,
+      "carbs": 52.0,
+      "fat": 6.5,
+      "fiber": 2.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172793",
+      "record": "Rolls, dinner, plain, commercially prepared (includes brown-and-serve)",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "weissbrot",
     "name": "Weißbrot/Toast",
     "per100g": {
-      "kcal": 263.0,
-      "protein": 9.0,
-      "carbs": 50.0,
-      "fat": 3.0,
-      "fiber": 2.5
+      "kcal": 266.0,
+      "protein": 8.8,
+      "carbs": 49.4,
+      "fat": 3.3,
+      "fiber": 2.7
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174924",
+      "record": "Bread, white, commercially prepared (includes soft bread crumbs)",
+      "license": "CC0 1.0",
+      "note": "Handelsübliches Weißbrot. Der USDA-Name erwähnt auch weiche Brösel; trockenes Paniermehl ist ein eigener Datensatz."
     }
   },
   {
     "key": "vollkornbrot",
     "name": "Vollkornbrot",
     "per100g": {
-      "kcal": 210.0,
-      "protein": 8.0,
-      "carbs": 38.0,
-      "fat": 2.0,
-      "fiber": 7.0
+      "kcal": 252.0,
+      "protein": 12.4,
+      "carbs": 42.7,
+      "fat": 3.5,
+      "fiber": 6.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172688",
+      "record": "Bread, whole-wheat, commercially prepared",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "roggenbrot",
     "name": "Roggenmischbrot",
     "per100g": {
-      "kcal": 215.0,
-      "protein": 6.0,
-      "carbs": 43.0,
-      "fat": 1.2,
-      "fiber": 6.0
+      "kcal": 259.0,
+      "protein": 8.5,
+      "carbs": 48.3,
+      "fat": 3.3,
+      "fiber": 5.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172684",
+      "record": "Bread, rye",
+      "license": "CC0 1.0",
+      "method": "similar_food",
+      "note": "Roggenmischbrot hat keinen eigenen Satz im Grundzutatenbestand. Verwendet ist reines Roggenbrot. Werte unverändert."
     }
   },
   {
     "key": "ekmek",
     "name": "Türkisches Brot (Ekmek)",
     "per100g": {
-      "kcal": 255.0,
-      "protein": 8.5,
-      "carbs": 52.0,
-      "fat": 1.5,
-      "fiber": 2.5
+      "kcal": 266.0,
+      "protein": 8.8,
+      "carbs": 49.4,
+      "fat": 3.3,
+      "fiber": 2.7
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174924",
+      "record": "Bread, white, commercially prepared (includes soft bread crumbs)",
+      "license": "CC0 1.0",
+      "method": "similar_food",
+      "note": "Türkisches Weißbrot (Ekmek) hat keinen eigenen Satz. Werte des handelsüblichen Weißbrots, unverändert."
     }
   },
   {
     "key": "lavas",
     "name": "Lavaş/Wrap-Fladen",
     "per100g": {
-      "kcal": 273.0,
-      "protein": 9.0,
-      "carbs": 56.0,
-      "fat": 1.5,
-      "fiber": 2.5
+      "kcal": 248.0,
+      "protein": 8.2,
+      "carbs": 50.3,
+      "fat": 2.3,
+      "fiber": 3.3
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "B782100",
+      "record": "Weizenfladenbrot",
+      "license": "CC BY 4.0",
+      "base_id": "weizenfladenbrot",
+      "method": "similar_food",
+      "note": "Lavaş ist ein Weizenfladen. Werte des BLS-Weizenfladenbrots unverändert. Pitabrot ist ein anderes Lebensmittel. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS B782100: FIBT 3,34 g, FIBHMW nicht veröffentlicht. Fructananteil der Ballaststoffe unklar; Wert unverändert."
     }
   },
   {
     "key": "yufka",
     "name": "Yufka/Filoteig",
     "per100g": {
-      "kcal": 290.0,
-      "protein": 9.0,
-      "carbs": 60.0,
-      "fat": 1.5,
-      "fiber": 2.5
+      "kcal": 289.0,
+      "protein": 7.1,
+      "carbs": 52.6,
+      "fat": 6.0,
+      "fiber": 1.9
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "23445",
+      "record": "Phyllo or filo dough, raw",
+      "license": "Etalab 2.0",
+      "base_id": "yufka-teig",
+      "method": "similar_food",
+      "note": "Lizenz Etalab 2.0 (Open Licence), nicht CC BY. Grundzutat übernimmt Ciqual Phyllo roh. Lizenz der Tabelle ist Etalab 2.0. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
     "key": "kadayif",
     "name": "Tel Kadayıf",
     "per100g": {
-      "kcal": 325.0,
-      "protein": 9.0,
-      "carbs": 70.0,
-      "fat": 1.0,
-      "fiber": 3.0
+      "kcal": 289.0,
+      "protein": 7.1,
+      "carbs": 52.6,
+      "fat": 6.0,
+      "fiber": 1.9
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "23445",
+      "record": "Phyllo or filo dough, raw",
+      "license": "Etalab 2.0",
+      "base_id": "yufka-teig",
+      "method": "similar_food",
+      "note": "Lizenz Etalab 2.0 (Open Licence), nicht CC BY. Tel-Kadayıf ist geriebener Filoteig ohne eigenen Satz. Werte von Ciqual Phyllo roh (Grundzutat yufka-teig), unverändert. Lizenz Etalab 2.0. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
     "key": "blaetterteig",
     "name": "Blätterteig",
     "per100g": {
-      "kcal": 541.0,
-      "protein": 7.0,
-      "carbs": 45.0,
-      "fat": 37.0,
-      "fiber": 2.0
+      "kcal": 465.0,
+      "protein": 5.2,
+      "carbs": 31.9,
+      "fat": 35.7,
+      "fiber": 2.2
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "X9A6020",
+      "record": "Blätterteig (mit Butter) roh",
+      "license": "CC BY 4.0",
+      "note": "Roh, mit Butter. USDA 172790 ist der gebackene Blätterteig und wird nicht verwendet. Kohlenhydrate = verfügbare KH 29,75 g + FIBT 2,18 g. FIBHMW ist in BLS nicht veröffentlicht; der Fructananteil der 2,2 g Ballaststoffe ist deshalb unklar."
     }
   },
   {
     "key": "hefe",
     "name": "Hefe",
     "per100g": {
-      "kcal": 98.0,
-      "protein": 8.0,
-      "carbs": 12.0,
-      "fat": 2.0,
-      "fiber": 7.0
+      "kcal": 105.0,
+      "protein": 8.4,
+      "carbs": 18.1,
+      "fat": 1.9,
+      "fiber": 8.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "175042",
+      "record": "Leavening agents, yeast, baker's, compressed",
+      "license": "CC0 1.0",
+      "note": "Frische Backhefe (compressed), nicht Trockenhefe."
     }
   },
   {
     "key": "maismehl",
     "name": "Maismehl/Polenta",
     "per100g": {
-      "kcal": 363.0,
-      "protein": 7.0,
-      "carbs": 77.0,
-      "fat": 3.0,
-      "fiber": 7.0
+      "kcal": 370.0,
+      "protein": 7.1,
+      "carbs": 79.5,
+      "fat": 1.8,
+      "fiber": 3.9
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168929",
+      "record": "Cornmeal, degermed, unenriched, yellow",
+      "license": "CC0 1.0",
+      "base_id": "maisgriess",
+      "note": "Maismehl/Polenta ist hier Maisgrieß (entkeimt), nicht Vollkorn-Maismehl."
     }
   },
   {
     "key": "hirse",
     "name": "Hirse",
     "per100g": {
-      "kcal": 372.0,
+      "kcal": 378.0,
       "protein": 11.0,
-      "carbs": 73.0,
-      "fat": 4.0,
+      "carbs": 72.8,
+      "fat": 4.2,
       "fiber": 8.5
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169702",
+      "record": "Millet, raw",
+      "license": "CC0 1.0",
+      "base_id": "hirse-roh"
     }
   },
   {
     "key": "tarhana",
     "name": "Tarhana (trocken)",
     "per100g": {
-      "kcal": 324.0,
-      "protein": 12.0,
-      "carbs": 60.0,
-      "fat": 4.0,
-      "fiber": 5.0
+      "kcal": 356.0,
+      "protein": 16.0,
+      "carbs": 61.9,
+      "fat": 5.4,
+      "fiber": 1.0
+    },
+    "source": {
+      "database": "Schätzung",
+      "method": "similar_food",
+      "derived_from": [
+        "Siyamoğlu 1961"
+      ],
+      "note": "Schätzung nach Siyamoğlu, B. (1961), zitiert in Erbaş, M., Certel, M. & Uslu, M. K. (2005): Microbiological and chemical properties of Tarhana during fermentation and storage as wet. LWT 38, 409–416, Mittel von 134 Proben aus der Türkei: Wasser 10,2 g, Protein 16,0 g, Kohlenhydrate 60,9 g, Fett 5,4 g, Rohfaser 1,0 g, Asche 6,2 g, Salz 3,8 g je 100 g. Die Summe mit Wasser und Asche ist 99,7 g, die 60,9 g sind also ohne die Rohfaser. Gesamt-KH = 60,9 + 1,0 = 61,9 g. kcal fehlen in der Quelle; Atwater 4·16,0 + 4·60,9 + 9·5,4 = 356. Die Rohfaser ist nicht AOAC und als Untergrenze gekennzeichnet. Die frühere 1:1-Mehl/Joghurt-Trockenmasse (434 kcal) ist ersetzt."
     }
   },
   {
     "key": "kastanie",
     "name": "Kastanie",
     "per100g": {
-      "kcal": 198.0,
-      "protein": 2.0,
-      "carbs": 44.0,
-      "fat": 1.5,
-      "fiber": 8.0
+      "kcal": 213.0,
+      "protein": 2.4,
+      "carbs": 45.5,
+      "fat": 2.3,
+      "fiber": 8.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170574",
+      "record": "Nuts, chestnuts, european, raw, unpeeled",
+      "license": "CC0 1.0",
+      "note": "Europäische Kastanie, roh, ungeschält (Pellikel); die geschälte Angabe hat keine Ballaststoffe in SR Legacy."
     }
   },
   {
     "key": "zucker",
     "name": "Zucker",
     "per100g": {
-      "kcal": 400.0,
+      "kcal": 387.0,
       "protein": 0.0,
       "carbs": 100.0,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169655",
+      "record": "Sugars, granulated",
+      "license": "CC0 1.0",
+      "base_id": "zucker-weiss"
     }
   },
   {
     "key": "honig",
     "name": "Honig",
     "per100g": {
-      "kcal": 305.0,
+      "kcal": 304.0,
       "protein": 0.3,
-      "carbs": 82.0,
+      "carbs": 82.4,
       "fat": 0.0,
       "fiber": 0.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169640",
+      "record": "Honey",
+      "license": "CC0 1.0",
+      "base_id": "honig"
     }
   },
   {
     "key": "pekmez",
     "name": "Pekmez/Traubensirup",
     "per100g": {
-      "kcal": 290.0,
-      "protein": 1.0,
-      "carbs": 72.0,
+      "kcal": 270.0,
+      "protein": 0.8,
+      "carbs": 66.5,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 1.2
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "S157000",
+      "record": "Traubendicksaft",
+      "license": "CC BY 4.0",
+      "base_id": "uezuem-pekmezi-traubensirup",
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS S157000: FIBT 1,238 g, FIBHMW nicht veröffentlicht. Fructananteil unklar; Wert unverändert."
     }
   },
   {
     "key": "marmelade",
     "name": "Marmelade/Konfitüre",
     "per100g": {
-      "kcal": 250.0,
+      "kcal": 278.0,
       "protein": 0.4,
-      "carbs": 62.0,
+      "carbs": 68.9,
       "fat": 0.1,
-      "fiber": 1.0
+      "fiber": 1.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169641",
+      "record": "Jams and preserves",
+      "license": "CC0 1.0"
     }
   },
   {
@@ -1776,20 +2958,35 @@
     "per100g": {
       "kcal": 595.0,
       "protein": 17.0,
-      "carbs": 21.0,
-      "fat": 54.0,
-      "fiber": 9.0
+      "carbs": 21.2,
+      "fat": 53.8,
+      "fiber": 9.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170189",
+      "record": "Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)",
+      "license": "CC0 1.0",
+      "base_id": "tahin-aus-geroestetem-sesam"
     }
   },
   {
     "key": "helva",
     "name": "Tahin-Halva",
     "per100g": {
-      "kcal": 520.0,
-      "protein": 12.0,
-      "carbs": 50.0,
-      "fat": 29.0,
-      "fiber": 3.0
+      "kcal": 516.0,
+      "protein": 11.6,
+      "carbs": 50.3,
+      "fat": 33.3,
+      "fiber": 7.7
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169588",
+      "record": "Candies, sesame crunch",
+      "license": "CC0 1.0",
+      "method": "similar_food",
+      "note": "Tahin-Halva hat keinen generischen Satz. Nächstes Lebensmittel ist Sesamkrokant (sesame crunch). Werte unverändert, nicht auf Halva umgerechnet."
     }
   },
   {
@@ -1797,32 +2994,53 @@
     "name": "Walnüsse",
     "per100g": {
       "kcal": 654.0,
-      "protein": 15.0,
-      "carbs": 14.0,
-      "fat": 65.0,
+      "protein": 15.2,
+      "carbs": 13.7,
+      "fat": 65.2,
       "fiber": 6.7
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170187",
+      "record": "Nuts, walnuts, english",
+      "license": "CC0 1.0",
+      "base_id": "walnuesse"
     }
   },
   {
     "key": "mandel",
     "name": "Mandeln",
     "per100g": {
-      "kcal": 580.0,
-      "protein": 21.0,
-      "carbs": 22.0,
-      "fat": 50.0,
-      "fiber": 12.0
+      "kcal": 579.0,
+      "protein": 21.1,
+      "carbs": 21.6,
+      "fat": 49.9,
+      "fiber": 12.5
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170567",
+      "record": "Nuts, almonds",
+      "license": "CC0 1.0",
+      "base_id": "mandeln"
     }
   },
   {
     "key": "haselnuss",
     "name": "Haselnüsse",
     "per100g": {
-      "kcal": 630.0,
-      "protein": 15.0,
-      "carbs": 17.0,
-      "fat": 61.0,
-      "fiber": 10.0
+      "kcal": 628.0,
+      "protein": 14.9,
+      "carbs": 16.7,
+      "fat": 60.8,
+      "fiber": 9.7
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170581",
+      "record": "Nuts, hazelnuts or filberts",
+      "license": "CC0 1.0",
+      "base_id": "haselnuesse"
     }
   },
   {
@@ -1830,32 +3048,53 @@
     "name": "Pistazien",
     "per100g": {
       "kcal": 560.0,
-      "protein": 20.0,
-      "carbs": 28.0,
-      "fat": 45.0,
-      "fiber": 10.0
+      "protein": 20.2,
+      "carbs": 27.2,
+      "fat": 45.3,
+      "fiber": 10.6
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170184",
+      "record": "Nuts, pistachio nuts, raw",
+      "license": "CC0 1.0",
+      "base_id": "pistazien"
     }
   },
   {
     "key": "erdnuss",
     "name": "Erdnüsse",
     "per100g": {
-      "kcal": 570.0,
-      "protein": 26.0,
-      "carbs": 16.0,
-      "fat": 49.0,
+      "kcal": 567.0,
+      "protein": 25.8,
+      "carbs": 16.1,
+      "fat": 49.2,
       "fiber": 8.5
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172430",
+      "record": "Peanuts, all types, raw",
+      "license": "CC0 1.0",
+      "base_id": "erdnuesse-roh"
     }
   },
   {
     "key": "pinienkerne",
     "name": "Pinienkerne",
     "per100g": {
-      "kcal": 670.0,
-      "protein": 14.0,
-      "carbs": 13.0,
-      "fat": 68.0,
+      "kcal": 673.0,
+      "protein": 13.7,
+      "carbs": 13.1,
+      "fat": 68.4,
       "fiber": 3.7
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170591",
+      "record": "Nuts, pine nuts, dried",
+      "license": "CC0 1.0",
+      "base_id": "pinienkerne"
     }
   },
   {
@@ -1864,42 +3103,70 @@
     "per100g": {
       "kcal": 660.0,
       "protein": 6.9,
-      "carbs": 24.0,
-      "fat": 65.0,
-      "fiber": 16.0
+      "carbs": 23.6,
+      "fat": 64.5,
+      "fiber": 16.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170170",
+      "record": "Nuts, coconut meat, dried (desiccated), not sweetened",
+      "license": "CC0 1.0",
+      "base_id": "kokosraspeln"
     }
   },
   {
     "key": "sesam",
     "name": "Sesam",
     "per100g": {
-      "kcal": 570.0,
-      "protein": 18.0,
-      "carbs": 23.0,
-      "fat": 50.0,
-      "fiber": 12.0
+      "kcal": 573.0,
+      "protein": 17.7,
+      "carbs": 23.4,
+      "fat": 49.7,
+      "fiber": 11.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170150",
+      "record": "Seeds, sesame seeds, whole, dried",
+      "license": "CC0 1.0",
+      "base_id": "sesam"
     }
   },
   {
     "key": "sonnenblumenkerne",
     "name": "Sonnenblumenkerne",
     "per100g": {
-      "kcal": 585.0,
-      "protein": 21.0,
+      "kcal": 584.0,
+      "protein": 20.8,
       "carbs": 20.0,
-      "fat": 51.0,
-      "fiber": 9.0
+      "fat": 51.5,
+      "fiber": 8.6
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170562",
+      "record": "Seeds, sunflower seed kernels, dried",
+      "license": "CC0 1.0",
+      "base_id": "sonnenblumenkerne"
     }
   },
   {
     "key": "kuerbiskerne",
     "name": "Kürbiskerne",
     "per100g": {
-      "kcal": 560.0,
-      "protein": 30.0,
-      "carbs": 11.0,
+      "kcal": 559.0,
+      "protein": 30.2,
+      "carbs": 10.7,
       "fat": 49.0,
       "fiber": 6.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170556",
+      "record": "Seeds, pumpkin and squash seed kernels, dried",
+      "license": "CC0 1.0",
+      "base_id": "kuerbiskerne"
     }
   },
   {
@@ -1908,53 +3175,89 @@
     "per100g": {
       "kcal": 525.0,
       "protein": 18.0,
-      "carbs": 28.0,
-      "fat": 42.0,
-      "fiber": 20.0
+      "carbs": 28.1,
+      "fat": 41.6,
+      "fiber": 19.5
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171330",
+      "record": "Spices, poppy seed",
+      "license": "CC0 1.0",
+      "base_id": "mohn"
     }
   },
   {
     "key": "rosinen",
     "name": "Rosinen/Sultaninen",
     "per100g": {
-      "kcal": 300.0,
-      "protein": 3.0,
-      "carbs": 79.0,
-      "fat": 0.5,
-      "fiber": 3.7
+      "kcal": 299.0,
+      "protein": 3.3,
+      "carbs": 79.3,
+      "fat": 0.2,
+      "fiber": 4.5
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168165",
+      "record": "Raisins, dark, seedless",
+      "license": "CC0 1.0",
+      "base_id": "rosinen"
     }
   },
   {
     "key": "aprikose_tr",
     "name": "Aprikosen getrocknet",
     "per100g": {
-      "kcal": 240.0,
+      "kcal": 241.0,
       "protein": 3.4,
-      "carbs": 63.0,
+      "carbs": 62.6,
       "fat": 0.5,
-      "fiber": 7.0
+      "fiber": 7.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173941",
+      "record": "Apricots, dried, sulfured, uncooked",
+      "license": "CC0 1.0",
+      "base_id": "aprikosen-getrocknet"
     }
   },
   {
     "key": "dattel",
     "name": "Datteln",
     "per100g": {
-      "kcal": 280.0,
+      "kcal": 282.0,
       "protein": 2.5,
       "carbs": 75.0,
       "fat": 0.4,
       "fiber": 8.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171726",
+      "record": "Dates, deglet noor",
+      "license": "CC0 1.0",
+      "base_id": "datteln-deglet-nour",
+      "note": "Makros der bisherigen Tabelle entsprechen Deglet Nour, nicht Medjool."
     }
   },
   {
     "key": "feige_tr",
     "name": "Feigen getrocknet",
     "per100g": {
-      "kcal": 250.0,
+      "kcal": 249.0,
       "protein": 3.3,
-      "carbs": 64.0,
+      "carbs": 63.9,
       "fat": 0.9,
       "fiber": 9.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174665",
+      "record": "Figs, dried, uncooked",
+      "license": "CC0 1.0",
+      "base_id": "feige-getrocknet"
     }
   },
   {
@@ -1963,9 +3266,16 @@
     "per100g": {
       "kcal": 240.0,
       "protein": 2.2,
-      "carbs": 64.0,
+      "carbs": 63.9,
       "fat": 0.4,
-      "fiber": 7.0
+      "fiber": 7.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168162",
+      "record": "Plums, dried (prunes), uncooked",
+      "license": "CC0 1.0",
+      "base_id": "pflaumen-getrocknet"
     }
   },
   {
@@ -1974,9 +3284,16 @@
     "per100g": {
       "kcal": 48.0,
       "protein": 1.4,
-      "carbs": 11.0,
+      "carbs": 11.1,
       "fat": 0.4,
       "fiber": 2.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171697",
+      "record": "Apricots, raw",
+      "license": "CC0 1.0",
+      "base_id": "aprikose-roh"
     }
   },
   {
@@ -1985,9 +3302,16 @@
     "per100g": {
       "kcal": 52.0,
       "protein": 0.3,
-      "carbs": 14.0,
+      "carbs": 13.8,
       "fat": 0.2,
       "fiber": 2.4
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171688",
+      "record": "Apples, raw, with skin",
+      "license": "CC0 1.0",
+      "base_id": "apfel-roh-mit-schale"
     }
   },
   {
@@ -1996,9 +3320,16 @@
     "per100g": {
       "kcal": 57.0,
       "protein": 0.4,
-      "carbs": 15.0,
+      "carbs": 15.2,
       "fat": 0.1,
       "fiber": 3.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169118",
+      "record": "Pears, raw",
+      "license": "CC0 1.0",
+      "base_id": "birne-roh"
     }
   },
   {
@@ -2007,9 +3338,16 @@
     "per100g": {
       "kcal": 57.0,
       "protein": 0.4,
-      "carbs": 15.0,
+      "carbs": 15.3,
       "fat": 0.1,
       "fiber": 1.9
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168163",
+      "record": "Quinces, raw",
+      "license": "CC0 1.0",
+      "base_id": "quitte-roh"
     }
   },
   {
@@ -2018,9 +3356,16 @@
     "per100g": {
       "kcal": 89.0,
       "protein": 1.1,
-      "carbs": 23.0,
+      "carbs": 22.8,
       "fat": 0.3,
       "fiber": 2.6
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173944",
+      "record": "Bananas, raw",
+      "license": "CC0 1.0",
+      "base_id": "banane-roh"
     }
   },
   {
@@ -2029,20 +3374,34 @@
     "per100g": {
       "kcal": 47.0,
       "protein": 0.9,
-      "carbs": 12.0,
+      "carbs": 11.8,
       "fat": 0.1,
       "fiber": 2.4
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169097",
+      "record": "Oranges, raw, all commercial varieties",
+      "license": "CC0 1.0",
+      "base_id": "orange-roh"
     }
   },
   {
     "key": "zitrone",
     "name": "Zitronensaft",
     "per100g": {
-      "kcal": 28.0,
-      "protein": 0.4,
-      "carbs": 7.0,
+      "kcal": 22.0,
+      "protein": 0.3,
+      "carbs": 6.9,
       "fat": 0.2,
       "fiber": 0.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "167747",
+      "record": "Lemon juice, raw",
+      "license": "CC0 1.0",
+      "base_id": "zitronensaft-frisch-gepresst"
     }
   },
   {
@@ -2051,20 +3410,36 @@
     "per100g": {
       "kcal": 83.0,
       "protein": 1.7,
-      "carbs": 19.0,
+      "carbs": 18.7,
       "fat": 1.2,
       "fiber": 4.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169134",
+      "record": "Pomegranates, raw",
+      "license": "CC0 1.0",
+      "base_id": "granatapfel-roh"
     }
   },
   {
     "key": "nar_eksisi",
     "name": "Granatapfelsirup (Nar Ekşisi)",
     "per100g": {
-      "kcal": 150.0,
-      "protein": 0.5,
-      "carbs": 37.0,
+      "kcal": 270.0,
+      "protein": 0.8,
+      "carbs": 66.5,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 1.2
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "S157000",
+      "record": "Traubendicksaft",
+      "license": "CC BY 4.0",
+      "base_id": "uezuem-pekmezi-traubensirup",
+      "method": "similar_food",
+      "note": "Granatapfelsirup fehlt als eigener Satz. Traubenpekmez ist der belegte Fruchtsirup; Rohr-Melasse ist nicht verwendet. Werte unverändert. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). Näherung, kein Granatapfelsirup. Datensatz ist Traubendicksaft BLS S157000. FIBT 1,238 g, FIBHMW nicht veröffentlicht, Fructananteil unklar."
     }
   },
   {
@@ -2073,9 +3448,16 @@
     "per100g": {
       "kcal": 69.0,
       "protein": 0.7,
-      "carbs": 18.0,
+      "carbs": 18.1,
       "fat": 0.2,
       "fiber": 0.9
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174683",
+      "record": "Grapes, red or green (European type, such as Thompson seedless), raw",
+      "license": "CC0 1.0",
+      "base_id": "weintrauben-roh"
     }
   },
   {
@@ -2087,6 +3469,13 @@
       "carbs": 7.7,
       "fat": 0.3,
       "fiber": 2.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "167762",
+      "record": "Strawberries, raw",
+      "license": "CC0 1.0",
+      "base_id": "erdbeeren-roh"
     }
   },
   {
@@ -2094,10 +3483,17 @@
     "name": "Kirsche",
     "per100g": {
       "kcal": 63.0,
-      "protein": 1.0,
+      "protein": 1.1,
       "carbs": 16.0,
       "fat": 0.2,
       "fiber": 2.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171719",
+      "record": "Cherries, sweet, raw",
+      "license": "CC0 1.0",
+      "base_id": "suesskirschen-roh"
     }
   },
   {
@@ -2106,9 +3502,16 @@
     "per100g": {
       "kcal": 50.0,
       "protein": 1.0,
-      "carbs": 12.0,
+      "carbs": 12.2,
       "fat": 0.3,
       "fiber": 1.6
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173954",
+      "record": "Cherries, sour, red, raw",
+      "license": "CC0 1.0",
+      "base_id": "sauerkirschen-roh"
     }
   },
   {
@@ -2117,9 +3520,16 @@
     "per100g": {
       "kcal": 46.0,
       "protein": 0.7,
-      "carbs": 11.0,
+      "carbs": 11.4,
       "fat": 0.3,
       "fiber": 1.4
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169949",
+      "record": "Plums, raw",
+      "license": "CC0 1.0",
+      "base_id": "pflaume-roh"
     }
   },
   {
@@ -2129,8 +3539,15 @@
       "kcal": 39.0,
       "protein": 0.9,
       "carbs": 9.5,
-      "fat": 0.3,
+      "fat": 0.2,
       "fiber": 1.5
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169928",
+      "record": "Peaches, yellow, raw",
+      "license": "CC0 1.0",
+      "base_id": "pfirsich-roh"
     }
   },
   {
@@ -2139,9 +3556,16 @@
     "per100g": {
       "kcal": 30.0,
       "protein": 0.6,
-      "carbs": 7.6,
-      "fat": 0.2,
+      "carbs": 7.5,
+      "fat": 0.1,
       "fiber": 0.4
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "167765",
+      "record": "Watermelon, raw",
+      "license": "CC0 1.0",
+      "base_id": "wassermelone-roh"
     }
   },
   {
@@ -2153,6 +3577,14 @@
       "carbs": 8.2,
       "fat": 0.2,
       "fiber": 0.9
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169092",
+      "record": "Melons, cantaloupe, raw",
+      "license": "CC0 1.0",
+      "base_id": "cantaloupe-melone-roh",
+      "note": "Zuckermelone entspricht der Cantaloupe-Melone (Makros der Grundzutat)."
     }
   },
   {
@@ -2161,9 +3593,16 @@
     "per100g": {
       "kcal": 52.0,
       "protein": 1.2,
-      "carbs": 12.0,
+      "carbs": 11.9,
       "fat": 0.7,
       "fiber": 6.5
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "167755",
+      "record": "Raspberries, raw",
+      "license": "CC0 1.0",
+      "base_id": "himbeeren-roh"
     }
   },
   {
@@ -2172,9 +3611,16 @@
     "per100g": {
       "kcal": 57.0,
       "protein": 0.7,
-      "carbs": 14.0,
+      "carbs": 14.5,
       "fat": 0.3,
       "fiber": 2.4
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171711",
+      "record": "Blueberries, raw",
+      "license": "CC0 1.0",
+      "base_id": "heidelbeeren-roh"
     }
   },
   {
@@ -2183,20 +3629,35 @@
     "per100g": {
       "kcal": 43.0,
       "protein": 1.4,
-      "carbs": 10.0,
+      "carbs": 9.8,
       "fat": 0.4,
       "fiber": 1.7
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169913",
+      "record": "Mulberries, raw",
+      "license": "CC0 1.0",
+      "base_id": "maulbeeren-roh"
     }
   },
   {
     "key": "preiselbeeren",
     "name": "Preiselbeerkompott",
     "per100g": {
-      "kcal": 130.0,
-      "protein": 0.2,
-      "carbs": 32.0,
+      "kcal": 159.0,
+      "protein": 0.9,
+      "carbs": 40.4,
       "fat": 0.1,
-      "fiber": 1.0
+      "fiber": 1.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173961",
+      "record": "Cranberry sauce, canned, sweetened",
+      "license": "CC0 1.0",
+      "method": "similar_food",
+      "note": "Preiselbeerkompott hat keinen eigenen Satz. Belegt ist gesüßte Cranberrysauce. Werte unverändert."
     }
   },
   {
@@ -2208,6 +3669,13 @@
       "carbs": 0.0,
       "fat": 100.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171025",
+      "record": "Oil, sunflower, linoleic, (approx. 65%)",
+      "license": "CC0 1.0",
+      "base_id": "sonnenblumenoel"
     }
   },
   {
@@ -2219,39 +3687,66 @@
       "carbs": 0.0,
       "fat": 100.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171413",
+      "record": "Oil, olive, salad or cooking",
+      "license": "CC0 1.0",
+      "base_id": "olivenoel"
     }
   },
   {
     "key": "butterschmalz",
     "name": "Butterschmalz",
     "per100g": {
-      "kcal": 891.0,
-      "protein": 0.0,
+      "kcal": 876.0,
+      "protein": 0.3,
       "carbs": 0.0,
-      "fat": 99.0,
+      "fat": 99.5,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173412",
+      "record": "Butter oil, anhydrous",
+      "license": "CC0 1.0",
+      "base_id": "butterschmalz"
     }
   },
   {
     "key": "schmalz",
     "name": "Schweineschmalz",
     "per100g": {
-      "kcal": 897.0,
+      "kcal": 902.0,
       "protein": 0.0,
       "carbs": 0.0,
-      "fat": 99.5,
+      "fat": 100.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171401",
+      "record": "Lard",
+      "license": "CC0 1.0",
+      "base_id": "schweineschmalz-grundzutat"
     }
   },
   {
     "key": "margarine",
     "name": "Margarine",
     "per100g": {
-      "kcal": 722.0,
+      "kcal": 717.0,
       "protein": 0.2,
-      "carbs": 0.4,
-      "fat": 80.0,
+      "carbs": 0.7,
+      "fat": 80.7,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173587",
+      "record": "Margarine, 80% fat, stick, includes regular and hydrogenated corn and soybean oils",
+      "license": "CC0 1.0"
     }
   },
   {
@@ -2263,182 +3758,298 @@
       "carbs": 0.0,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173468",
+      "record": "Salt, table",
+      "license": "CC0 1.0",
+      "base_id": "speisesalz"
     }
   },
   {
     "key": "pfeffer",
     "name": "Pfeffer",
     "per100g": {
-      "kcal": 300.0,
-      "protein": 10.0,
+      "kcal": 251.0,
+      "protein": 10.4,
       "carbs": 64.0,
       "fat": 3.3,
-      "fiber": 25.0
+      "fiber": 25.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170931",
+      "record": "Spices, pepper, black",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "paprikapulver",
     "name": "Paprikapulver",
     "per100g": {
-      "kcal": 335.0,
-      "protein": 14.0,
+      "kcal": 282.0,
+      "protein": 14.1,
       "carbs": 54.0,
-      "fat": 13.0,
-      "fiber": 35.0
+      "fat": 12.9,
+      "fiber": 34.9
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171329",
+      "record": "Spices, paprika",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "pul_biber",
     "name": "Pul Biber (Chiliflocken)",
     "per100g": {
-      "kcal": 360.0,
+      "kcal": 318.0,
       "protein": 12.0,
-      "carbs": 50.0,
-      "fat": 15.0,
-      "fiber": 28.0
+      "carbs": 56.6,
+      "fat": 17.3,
+      "fiber": 27.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170932",
+      "record": "Spices, pepper, red or cayenne",
+      "license": "CC0 1.0",
+      "method": "similar_food",
+      "note": "Pul Biber sind Chiliflocken. Belegt über gemahlenen Cayenne; Werte unverändert."
     }
   },
   {
     "key": "kreuzkuemmel",
     "name": "Kreuzkümmel",
     "per100g": {
-      "kcal": 380.0,
-      "protein": 18.0,
-      "carbs": 44.0,
-      "fat": 22.0,
-      "fiber": 10.0
+      "kcal": 375.0,
+      "protein": 17.8,
+      "carbs": 44.2,
+      "fat": 22.3,
+      "fiber": 10.5
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170923",
+      "record": "Spices, cumin seed",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "zimt",
     "name": "Zimt",
     "per100g": {
-      "kcal": 300.0,
+      "kcal": 247.0,
       "protein": 4.0,
-      "carbs": 81.0,
+      "carbs": 80.6,
       "fat": 1.2,
-      "fiber": 53.0
+      "fiber": 53.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171320",
+      "record": "Spices, cinnamon, ground",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "oregano",
     "name": "Oregano/Thymian/Majoran (trocken)",
     "per100g": {
-      "kcal": 305.0,
+      "kcal": 265.0,
       "protein": 9.0,
-      "carbs": 65.0,
-      "fat": 5.0,
-      "fiber": 40.0
+      "carbs": 68.9,
+      "fat": 4.3,
+      "fiber": 42.5
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171328",
+      "record": "Spices, oregano, dried",
+      "license": "CC0 1.0",
+      "note": "Der Schlüssel deckt auch Thymian und Majoran ab; belegt ist nur getrockneter Oregano, nicht gemittelt."
     }
   },
   {
     "key": "minze_trocken",
     "name": "Minze getrocknet",
     "per100g": {
-      "kcal": 295.0,
-      "protein": 20.0,
+      "kcal": 285.0,
+      "protein": 19.9,
       "carbs": 52.0,
       "fat": 6.0,
-      "fiber": 30.0
+      "fiber": 29.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172239",
+      "record": "Spearmint, dried",
+      "license": "CC0 1.0",
+      "base_id": "minze-getrocknet"
     }
   },
   {
     "key": "gewuerz",
     "name": "Gewürzmischung (Sumak, Muskat, Kurkuma usw.)",
     "per100g": {
-      "kcal": 300.0,
-      "protein": 10.0,
-      "carbs": 55.0,
-      "fat": 8.0,
-      "fiber": 25.0
+      "kcal": 391.0,
+      "protein": 6.3,
+      "carbs": 64.0,
+      "fat": 16.4,
+      "fiber": 25.6
+    },
+    "source": {
+      "database": "Schätzung",
+      "quality": "estimate",
+      "method": "recipe",
+      "derived_from": [
+        "Lo Vecchio et al. 2022, Foods 11:538",
+        "USDA SR Legacy:171326",
+        "USDA SR Legacy:172231"
+      ],
+      "note": "Gleichgewichtiges Mittel der drei im Namen genannten Beispiele. Protein, KH, Fett und Ballaststoffe aus den ungerundeten Werten, dann einmal gerundet: Sumach (Lo Vecchio et al. 2022, ungesalzen, Fett 9,56 g), Muskat (USDA 171326, Fett 36,31 g) und Kurkuma (USDA 172231, Fett 3,25 g). kcal ist das Mittel aus Sumach 336 (Faserfaktor 2 kcal/g), Muskat 525 und Kurkuma 312. Etwa ein Drittel der Ballaststoffe ist Rohfaser (Weende aus dem Sumach-Drittel, ungerundet 11,1 g von 25,6 g). Paprika ist nicht enthalten. \"usw.\" ist nicht weiter aufgefüllt."
     }
   },
   {
     "key": "kakao",
     "name": "Kakaopulver",
     "per100g": {
-      "kcal": 375.0,
-      "protein": 20.0,
-      "carbs": 58.0,
-      "fat": 14.0,
-      "fiber": 33.0
+      "kcal": 228.0,
+      "protein": 19.6,
+      "carbs": 57.9,
+      "fat": 13.7,
+      "fiber": 37.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169593",
+      "record": "Cocoa, dry powder, unsweetened",
+      "license": "CC0 1.0",
+      "note": "Ungesüßtes Kakaopulver, nicht die alkalisierte Markenware."
     }
   },
   {
     "key": "schokolade",
     "name": "Zartbitterschokolade",
     "per100g": {
-      "kcal": 539.0,
-      "protein": 6.0,
-      "carbs": 50.0,
-      "fat": 35.0,
-      "fiber": 10.0
+      "kcal": 579.0,
+      "protein": 6.1,
+      "carbs": 52.4,
+      "fat": 38.3,
+      "fiber": 8.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170272",
+      "record": "Chocolate, dark, 60-69% cacao solids",
+      "license": "CC0 1.0",
+      "note": "Zartbitter mit 60–69 % Kakao."
     }
   },
   {
     "key": "schokolade_milch",
     "name": "Vollmilchschokolade",
     "per100g": {
-      "kcal": 528.0,
-      "protein": 7.5,
-      "carbs": 57.0,
-      "fat": 30.0,
-      "fiber": 3.0
+      "kcal": 535.0,
+      "protein": 7.7,
+      "carbs": 59.4,
+      "fat": 29.7,
+      "fiber": 3.4
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "167587",
+      "record": "Candies, milk chocolate",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "gelatine",
     "name": "Gelatine",
     "per100g": {
-      "kcal": 340.0,
-      "protein": 85.0,
+      "kcal": 335.0,
+      "protein": 85.6,
       "carbs": 0.0,
-      "fat": 0.0,
+      "fat": 0.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169599",
+      "record": "Gelatins, dry powder, unsweetened",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "senf",
     "name": "Senf",
     "per100g": {
-      "kcal": 66.0,
-      "protein": 4.0,
-      "carbs": 6.0,
-      "fat": 4.0,
-      "fiber": 3.0
+      "kcal": 111.0,
+      "protein": 5.5,
+      "carbs": 7.4,
+      "fat": 7.0,
+      "fiber": 4.5
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "R132000",
+      "record": "Senf mittelscharf",
+      "license": "CC BY 4.0",
+      "base_id": "senf-mittelscharf",
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
     "key": "ketchup",
     "name": "Ketchup",
     "per100g": {
-      "kcal": 106.0,
-      "protein": 1.2,
-      "carbs": 25.0,
-      "fat": 0.2,
-      "fiber": 1.0
+      "kcal": 101.0,
+      "protein": 1.0,
+      "carbs": 27.4,
+      "fat": 0.1,
+      "fiber": 0.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168556",
+      "record": "Catsup",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "mayonnaise",
     "name": "Mayonnaise",
     "per100g": {
-      "kcal": 687.0,
+      "kcal": 680.0,
       "protein": 1.0,
-      "carbs": 2.0,
-      "fat": 75.0,
+      "carbs": 0.6,
+      "fat": 74.8,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171009",
+      "record": "Salad dressing, mayonnaise, regular",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "essig",
     "name": "Essig",
     "per100g": {
-      "kcal": 10.0,
+      "kcal": 18.0,
       "protein": 0.0,
-      "carbs": 0.6,
+      "carbs": 0.0,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172237",
+      "record": "Vinegar, distilled",
+      "license": "CC0 1.0"
     }
   },
   {
@@ -2450,6 +4061,12 @@
       "carbs": 2.6,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173190",
+      "record": "Alcoholic beverage, wine, table, red",
+      "license": "CC0 1.0"
     }
   },
   {
@@ -2461,6 +4078,12 @@
       "carbs": 2.6,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174837",
+      "record": "Alcoholic beverage, wine, table, white",
+      "license": "CC0 1.0"
     }
   },
   {
@@ -2469,20 +4092,33 @@
     "per100g": {
       "kcal": 43.0,
       "protein": 0.5,
-      "carbs": 3.6,
+      "carbs": 3.5,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168746",
+      "record": "Alcoholic beverage, beer, regular, all",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "bruehe",
     "name": "Brühe",
     "per100g": {
-      "kcal": 5.0,
-      "protein": 0.5,
-      "carbs": 0.5,
-      "fat": 0.1,
+      "kcal": 6.0,
+      "protein": 0.6,
+      "carbs": 0.4,
+      "fat": 0.2,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174536",
+      "record": "Soup, chicken broth, ready-to-serve",
+      "license": "CC0 1.0",
+      "note": "Hühnerbrühe, trinkfertig, als generische Brühe."
     }
   },
   {
@@ -2494,61 +4130,106 @@
       "carbs": 0.0,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173647",
+      "record": "Beverages, water, tap, drinking",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "tee",
     "name": "Tee/Kaffee (ungesüßt)",
     "per100g": {
-      "kcal": 2.0,
-      "protein": 0.1,
-      "carbs": 0.2,
+      "kcal": 1.0,
+      "protein": 0.0,
+      "carbs": 0.3,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173227",
+      "record": "Beverages, tea, black, brewed, prepared with tap water",
+      "license": "CC0 1.0",
+      "note": "Schwarzer Tee, aufgebrüht. Der Schlüssel nennt auch Kaffee; Kaffee hat einen eigenen Eintrag."
     }
   },
   {
     "key": "sauerkraut",
     "name": "Sauerkraut",
     "per100g": {
-      "kcal": 20.0,
-      "protein": 1.0,
-      "carbs": 3.4,
-      "fat": 0.2,
-      "fiber": 2.5
+      "kcal": 19.0,
+      "protein": 0.9,
+      "carbs": 4.3,
+      "fat": 0.1,
+      "fiber": 2.9
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169279",
+      "record": "Sauerkraut, canned, solids and liquids",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "gewuerzgurke",
     "name": "Gewürzgurke",
     "per100g": {
-      "kcal": 15.0,
+      "kcal": 12.0,
       "protein": 0.5,
-      "carbs": 2.8,
-      "fat": 0.2,
-      "fiber": 1.2
+      "carbs": 2.4,
+      "fat": 0.3,
+      "fiber": 1.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168558",
+      "record": "Pickles, cucumber, dill or kosher dill",
+      "license": "CC0 1.0",
+      "base_id": "gewuerzgurke"
     }
   },
   {
     "key": "olive",
     "name": "Oliven",
     "per100g": {
-      "kcal": 140.0,
+      "kcal": 145.0,
       "protein": 1.0,
-      "carbs": 4.0,
-      "fat": 14.0,
-      "fiber": 3.0
+      "carbs": 3.8,
+      "fat": 15.3,
+      "fiber": 3.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169096",
+      "record": "Olives, pickled, canned or bottled, green",
+      "license": "CC0 1.0",
+      "base_id": "oliven-gruen",
+      "note": "Grüne Oliven; schwarze Oliven sind eine andere Grundzutat."
     }
   },
   {
     "key": "sumak_pulver",
     "name": "Sumak",
     "per100g": {
-      "kcal": 270.0,
-      "protein": 3.0,
-      "carbs": 60.0,
-      "fat": 7.0,
-      "fiber": 20.0
+      "kcal": 336.0,
+      "protein": 3.5,
+      "carbs": 75.5,
+      "fat": 9.6,
+      "fiber": 33.2
+    },
+    "source": {
+      "database": "Schätzung",
+      "quality": "estimate",
+      "method": "derived",
+      "derived_from": [
+        "Lo Vecchio et al. 2022, Foods 11:538"
+      ],
+      "license": "CC BY 4.0",
+      "record": "Rhus coriaria fruits, dried and pulverized, unsalted (Sicily)",
+      "note": "Sumach ist Rhus coriaria, kein Paprika. FAO/INFOODS ist entfernt (© FAO 2017, non-commercial; gesalzen, Na 5,6 g). Schätzung für ungesalzenes Pulver nach Lo Vecchio et al. (2022), Foods 11, 538 (CC BY 4.0): Protein 3,47 g, Rohfett 9,56 g, Wasser 6,64 g, Asche 4,78 g. Rohfaser (Weende), keine AOAC-Gesamtfaser, Schätzung, Abweichung unbekannt: 33,21 g (AOAC 962.09), gespeichert 33,2 g. Verfügbare KH als Differenz 42,34 g; darin stecken auch Polyphenole und Säuren, der Wert ist eher zu hoch. Gesamt-KH 75,5 g. kcal nach 4·(KH−Ballaststoffe)+4·Protein+9·Fett+2·Ballaststoffe = 335,7, gespeichert 336. Ein Feld fiber_method ist im Schema von foods.json nicht vorgesehen."
     }
   },
   {
@@ -2556,21 +4237,35 @@
     "name": "Kalbfleisch (Schnitzel/Keule)",
     "per100g": {
       "kcal": 107.0,
-      "protein": 21.0,
+      "protein": 21.3,
       "carbs": 0.0,
-      "fat": 2.5,
+      "fat": 1.8,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "175269",
+      "record": "Veal, leg (top round), separable lean only, raw",
+      "license": "CC0 1.0",
+      "base_id": "kalbfleisch-oberschale-roh"
     }
   },
   {
     "key": "wild",
     "name": "Wildfleisch (Reh/Hirsch)",
     "per100g": {
-      "kcal": 115.0,
-      "protein": 22.0,
+      "kcal": 120.0,
+      "protein": 23.0,
       "carbs": 0.0,
-      "fat": 2.5,
+      "fat": 2.4,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173855",
+      "record": "Game meat, deer, raw",
+      "license": "CC0 1.0",
+      "base_id": "hirschfleisch-roh"
     }
   },
   {
@@ -2578,10 +4273,16 @@
     "name": "Wildschweinfleisch",
     "per100g": {
       "kcal": 122.0,
-      "protein": 21.0,
+      "protein": 21.5,
       "carbs": 0.0,
-      "fat": 4.0,
+      "fat": 3.3,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "175297",
+      "record": "Game meat, boar, wild, raw",
+      "license": "CC0 1.0"
     }
   },
   {
@@ -2589,21 +4290,35 @@
     "name": "Kaninchenfleisch",
     "per100g": {
       "kcal": 136.0,
-      "protein": 21.0,
+      "protein": 20.1,
       "carbs": 0.0,
-      "fat": 5.0,
+      "fat": 5.5,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172521",
+      "record": "Game meat, rabbit, domesticated, composite of cuts, raw",
+      "license": "CC0 1.0",
+      "base_id": "kaninchenfleisch-roh"
     }
   },
   {
     "key": "rhabarber",
     "name": "Rhabarber",
     "per100g": {
-      "kcal": 13.0,
+      "kcal": 21.0,
       "protein": 0.9,
-      "carbs": 2.3,
+      "carbs": 4.5,
       "fat": 0.2,
       "fiber": 1.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "167758",
+      "record": "Rhubarb, raw",
+      "license": "CC0 1.0",
+      "base_id": "rhabarber-roh"
     }
   },
   {
@@ -2612,119 +4327,202 @@
     "per100g": {
       "kcal": 43.0,
       "protein": 3.4,
-      "carbs": 8.0,
+      "carbs": 8.9,
       "fat": 0.3,
       "fiber": 3.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170383",
+      "record": "Brussels sprouts, raw",
+      "license": "CC0 1.0",
+      "base_id": "rosenkohl-roh"
     }
   },
   {
     "key": "gruenkohl",
     "name": "Grünkohl",
     "per100g": {
-      "kcal": 49.0,
-      "protein": 4.3,
-      "carbs": 8.5,
-      "fat": 0.9,
-      "fiber": 4.2
+      "kcal": 35.0,
+      "protein": 2.9,
+      "carbs": 4.4,
+      "fat": 1.5,
+      "fiber": 4.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168421",
+      "record": "Kale, raw",
+      "license": "CC0 1.0",
+      "base_id": "gruenkohl-roh"
     }
   },
   {
     "key": "meerrettich",
     "name": "Meerrettich",
     "per100g": {
-      "kcal": 48.0,
-      "protein": 1.2,
-      "carbs": 11.0,
+      "kcal": 84.0,
+      "protein": 5.9,
+      "carbs": 16.0,
       "fat": 0.3,
-      "fiber": 3.0
+      "fiber": 4.3
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "G630100",
+      "record": "Meerrettich roh",
+      "license": "CC BY 4.0",
+      "base_id": "meerrettich-roh",
+      "note": "Werte der Grundzutat (BLS) unverändert, inklusive der dort gespeicherten Ballaststoffe. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
     "key": "marzipan",
     "name": "Marzipan",
     "per100g": {
-      "kcal": 480.0,
-      "protein": 9.0,
-      "carbs": 50.0,
-      "fat": 27.0,
-      "fiber": 4.0
+      "kcal": 389.0,
+      "protein": 5.3,
+      "carbs": 70.0,
+      "fat": 12.7,
+      "fiber": 2.4
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "14-875",
+      "record": "Marzipan, white and yellow, retail",
+      "license": "Open Government Licence v3.0",
+      "note": "Handel, weiß und gelb. Die Hausmachervariante hat keine AOAC-Ballaststoffe und ist nicht verwendet. Kohlenhydrate = verfügbare KH plus AOAC-Ballaststoffe (ohne Fructane; CoFID-Spalte AOAC fibre). kcal wie veröffentlicht."
     }
   },
   {
     "key": "graupen",
     "name": "Graupen (Gerste)",
     "per100g": {
-      "kcal": 350.0,
-      "protein": 10.0,
-      "carbs": 73.0,
-      "fat": 1.5,
-      "fiber": 15.0
+      "kcal": 352.0,
+      "protein": 9.9,
+      "carbs": 77.7,
+      "fat": 1.2,
+      "fiber": 15.6
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170284",
+      "record": "Barley, pearled, raw",
+      "license": "CC0 1.0",
+      "base_id": "perlgraupen-roh"
     }
   },
   {
     "key": "erbsen_trocken",
     "name": "Erbsen getrocknet",
     "per100g": {
-      "kcal": 340.0,
-      "protein": 23.0,
-      "carbs": 50.0,
-      "fat": 1.5,
-      "fiber": 16.0
+      "kcal": 364.0,
+      "protein": 23.1,
+      "carbs": 61.6,
+      "fat": 3.9,
+      "fiber": 22.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172428",
+      "record": "Peas, green, split, mature seeds, raw",
+      "license": "CC0 1.0",
+      "base_id": "schaelerbsen-roh",
+      "note": "Getrocknete Erbsen der Küche sind Schälerbsen."
     }
   },
   {
     "key": "lebkuchen_gewuerz",
     "name": "Lebkuchengewürz/Zimt-Nelke",
     "per100g": {
-      "kcal": 260.0,
-      "protein": 4.0,
-      "carbs": 55.0,
-      "fat": 3.0,
-      "fiber": 25.0
+      "kcal": 342.0,
+      "protein": 5.8,
+      "carbs": 69.3,
+      "fat": 12.6,
+      "fiber": 14.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171332",
+      "record": "Spices, pumpkin pie spice",
+      "license": "CC0 1.0",
+      "method": "similar_food",
+      "note": "Lebkuchengewürz hat keinen eigenen Satz. Pumpkin-pie spice ist die belegte Mischung aus Zimt, Ingwer, Muskat und Piment. Werte unverändert."
     }
   },
   {
     "key": "speisequark_20",
     "name": "Speisequark 20 % Fett",
     "per100g": {
-      "kcal": 120.0,
-      "protein": 11.0,
-      "carbs": 3.5,
-      "fat": 7.0,
+      "kcal": 110.0,
+      "protein": 12.2,
+      "carbs": 3.0,
+      "fat": 5.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "M713300",
+      "record": "Speisequark Halbfettstufe, 20 % Fett i. Tr.",
+      "license": "CC BY 4.0",
+      "base_id": "speisequark-20-prozent-fett-i-tr",
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
     "key": "vanillepudding_pulver",
     "name": "Puddingpulver",
     "per100g": {
-      "kcal": 350.0,
+      "kcal": 379.0,
       "protein": 0.3,
-      "carbs": 86.0,
-      "fat": 0.3,
-      "fiber": 0.5
+      "carbs": 93.5,
+      "fat": 0.4,
+      "fiber": 0.6
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169609",
+      "record": "Puddings, vanilla, dry mix, regular",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "sauerrahm",
     "name": "Sauerrahm (10 % Fett)",
     "per100g": {
-      "kcal": 120.0,
-      "protein": 3.0,
-      "carbs": 4.0,
+      "kcal": 119.0,
+      "protein": 3.1,
+      "carbs": 4.1,
       "fat": 10.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "M172500",
+      "record": "Sauerrahm/Saure Sahne, mind. 10 % Fett",
+      "license": "CC BY 4.0",
+      "base_id": "saure-sahne-10-prozent-fett",
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
     "key": "rotkohl_glas",
     "name": "Rotkohl (gegart, Glas)",
     "per100g": {
-      "kcal": 50.0,
-      "protein": 1.2,
-      "carbs": 9.0,
-      "fat": 1.0,
-      "fiber": 2.5
+      "kcal": 29.0,
+      "protein": 1.5,
+      "carbs": 6.9,
+      "fat": 0.1,
+      "fiber": 2.6
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169978",
+      "record": "Cabbage, red, cooked, boiled, drained, without salt",
+      "license": "CC0 1.0",
+      "base_id": "rotkohl-gekocht",
+      "method": "similar_food",
+      "note": "Glas-Rotkohl mit Apfel und Fett hat keinen eigenen Satz. Verwendet ist Rotkohl, nur gekocht, ohne die Einlage. Werte unverändert."
     }
   },
   {
@@ -2733,9 +4531,16 @@
     "per100g": {
       "kcal": 50.0,
       "protein": 0.5,
-      "carbs": 13.0,
+      "carbs": 13.1,
       "fat": 0.1,
       "fiber": 1.4
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169124",
+      "record": "Pineapple, raw, all varieties",
+      "license": "CC0 1.0",
+      "base_id": "ananas-roh"
     }
   },
   {
@@ -2743,54 +4548,92 @@
     "name": "Ricotta",
     "per100g": {
       "kcal": 150.0,
-      "protein": 11.0,
-      "carbs": 3.0,
-      "fat": 10.0,
+      "protein": 7.5,
+      "carbs": 7.3,
+      "fat": 10.2,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170851",
+      "record": "Cheese, ricotta, whole milk",
+      "license": "CC0 1.0",
+      "base_id": "ricotta",
+      "note": "Vollmilch-Ricotta (kcal 150), nicht teilentrahmt."
     }
   },
   {
     "key": "pecorino",
     "name": "Pecorino",
     "per100g": {
-      "kcal": 390.0,
-      "protein": 28.0,
-      "carbs": 0.5,
-      "fat": 30.0,
+      "kcal": 383.0,
+      "protein": 25.5,
+      "carbs": 1.0,
+      "fat": 31.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "12122",
+      "record": "Pecorino cheese, from ewe's milk",
+      "license": "Etalab 2.0",
+      "note": "Lizenz Etalab 2.0 (Open Licence), nicht CC BY. Kohlenhydrate = verfügbare KH plus Ballaststoffe. kcal = Energy Regulation EU 1169/2011, wie veröffentlicht."
     }
   },
   {
     "key": "rohschinken",
     "name": "Rohschinken (Prosciutto/Jamón)",
     "per100g": {
-      "kcal": 250.0,
-      "protein": 26.0,
+      "kcal": 195.0,
+      "protein": 27.8,
       "carbs": 0.3,
-      "fat": 17.0,
+      "fat": 8.3,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168282",
+      "record": "Pork, cured, ham, center slice, country-style, separable lean only, raw",
+      "license": "CC0 1.0",
+      "method": "similar_food",
+      "note": "Prosciutto/Jamón ist luftgetrockneter Schinken. Der Satz ist Country-Style-Schinken, nur mager, roh; sichtbares Fett von Jamón ist nicht enthalten. Werte unverändert."
     }
   },
   {
     "key": "chorizo",
     "name": "Chorizo",
     "per100g": {
-      "kcal": 450.0,
+      "kcal": 395.0,
       "protein": 24.0,
-      "carbs": 2.0,
-      "fat": 38.0,
-      "fiber": 0.0
+      "carbs": 3.4,
+      "fat": 32.2,
+      "fiber": 1.0
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "19-516",
+      "record": "Chorizo",
+      "license": "Open Government Licence v3.0",
+      "note": "Gereifte Chorizo. Der SR-Legacy-Satz „chorizo, raw“ ist die frische Bratwurst und nicht verwendet. Kohlenhydrate = verfügbare KH plus AOAC-Ballaststoffe (ohne Fructane; CoFID-Spalte AOAC fibre). kcal wie veröffentlicht."
     }
   },
   {
     "key": "stockfisch",
     "name": "Stockfisch/Bacalao (gewässert)",
     "per100g": {
-      "kcal": 100.0,
-      "protein": 22.0,
+      "kcal": 138.0,
+      "protein": 32.5,
       "carbs": 0.0,
-      "fat": 0.8,
+      "fat": 0.9,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "16-490",
+      "record": "Cod, dried, salted, boiled",
+      "license": "Open Government Licence v3.0",
+      "method": "similar_food",
+      "note": "Der Schlüssel sagt gewässert. CoFID hat nur getrockneten Salzkabeljau, gekocht. Werte unverändert, nicht auf roh-gewässert umgerechnet. Kohlenhydrate = verfügbare KH plus AOAC-Ballaststoffe (ohne Fructane; CoFID-Spalte AOAC fibre). kcal wie veröffentlicht."
     }
   },
   {
@@ -2798,54 +4641,86 @@
     "name": "Schnecken",
     "per100g": {
       "kcal": 90.0,
-      "protein": 16.0,
+      "protein": 16.1,
       "carbs": 2.0,
       "fat": 1.4,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "167744",
+      "record": "Mollusks, snail, raw",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "krabbe",
     "name": "Krabbe/Krebsfleisch",
     "per100g": {
-      "kcal": 85.0,
-      "protein": 18.0,
-      "carbs": 0.5,
-      "fat": 1.0,
+      "kcal": 87.0,
+      "protein": 18.1,
+      "carbs": 0.0,
+      "fat": 1.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174204",
+      "record": "Crustaceans, crab, blue, raw",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "hummer",
     "name": "Hummer/Langustine",
     "per100g": {
-      "kcal": 90.0,
-      "protein": 19.0,
-      "carbs": 0.5,
-      "fat": 1.0,
+      "kcal": 77.0,
+      "protein": 16.5,
+      "carbs": 0.0,
+      "fat": 0.8,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174208",
+      "record": "Crustaceans, lobster, northern, raw",
+      "license": "CC0 1.0",
+      "note": "Hummer (northern lobster), roh. Langustine ist nicht dieser Datensatz."
     }
   },
   {
     "key": "blauschimmelkaese",
     "name": "Blauschimmelkäse (Gorgonzola)",
     "per100g": {
-      "kcal": 350.0,
-      "protein": 21.0,
-      "carbs": 0.0,
-      "fat": 29.0,
+      "kcal": 353.0,
+      "protein": 21.4,
+      "carbs": 2.3,
+      "fat": 28.7,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172175",
+      "record": "Cheese, blue",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "ziegenkaese",
     "name": "Ziegenkäse",
     "per100g": {
-      "kcal": 270.0,
-      "protein": 18.0,
-      "carbs": 1.0,
-      "fat": 21.0,
+      "kcal": 264.0,
+      "protein": 18.5,
+      "carbs": 0.0,
+      "fat": 21.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173435",
+      "record": "Cheese, goat, soft type",
+      "license": "CC0 1.0",
+      "base_id": "ziegenfrischkaese"
     }
   },
   {
@@ -2854,42 +4729,70 @@
     "per100g": {
       "kcal": 40.0,
       "protein": 3.3,
-      "carbs": 4.0,
-      "fat": 0.9,
+      "carbs": 4.8,
+      "fat": 1.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170874",
+      "record": "Milk, buttermilk, fluid, cultured, lowfat",
+      "license": "CC0 1.0",
+      "base_id": "buttermilch"
     }
   },
   {
     "key": "knaeckebrot",
     "name": "Knäckebrot",
     "per100g": {
-      "kcal": 340.0,
-      "protein": 10.0,
-      "carbs": 66.0,
-      "fat": 1.5,
-      "fiber": 14.0
+      "kcal": 284.0,
+      "protein": 8.6,
+      "carbs": 83.4,
+      "fat": 1.4,
+      "fiber": 20.0
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "11-822",
+      "record": "Crispbread, rye",
+      "license": "Open Government Licence v3.0",
+      "note": "Roggen-Knäckebrot, 5 Proben (Ryvita original und dark). AOAC-Ballaststoffe 20,0 g, NSP 14,2 g (nicht verwendet). CoFID-Kohlenhydrate 63,4 g sind Monosaccharid-Äquivalente (Stärke 60,0 + Zucker 3,4). Gespeichert ist Gesamt-KH = 63,4 + AOAC 20,0 = 83,4 g. kcal wie veröffentlicht."
     }
   },
   {
     "key": "eis",
     "name": "Speiseeis",
     "per100g": {
-      "kcal": 200.0,
+      "kcal": 207.0,
       "protein": 3.5,
-      "carbs": 24.0,
-      "fat": 10.0,
-      "fiber": 0.0
+      "carbs": 23.6,
+      "fat": 11.0,
+      "fiber": 0.7
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "167575",
+      "record": "Ice creams, vanilla",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "keks",
     "name": "Butterkeks",
     "per100g": {
-      "kcal": 450.0,
-      "protein": 7.0,
-      "carbs": 70.0,
-      "fat": 16.0,
-      "fiber": 2.0
+      "kcal": 514.0,
+      "protein": 5.4,
+      "carbs": 63.8,
+      "fat": 26.2,
+      "fiber": 1.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174967",
+      "record": "Cookies, shortbread, commercially prepared, plain",
+      "license": "CC0 1.0",
+      "method": "similar_food",
+      "note": "Butterkeks über den Shortbread-Satz (plain). Ein magerer Butterkeks kann weniger Fett haben. Werte unverändert."
     }
   },
   {
@@ -2901,72 +4804,120 @@
       "carbs": 0.0,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174815",
+      "record": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "likoerwein",
     "name": "Sherry/Portwein/Likörwein",
     "per100g": {
-      "kcal": 150.0,
-      "protein": 0.0,
-      "carbs": 12.0,
+      "kcal": 116.0,
+      "protein": 0.1,
+      "carbs": 5.9,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "17-236",
+      "record": "Sherry, medium",
+      "license": "Open Government Licence v3.0",
+      "note": "Medium Sherry. Portwein ist nicht gemittelt. Kohlenhydrate = verfügbare KH plus AOAC-Ballaststoffe (ohne Fructane; CoFID-Spalte AOAC fibre). kcal wie veröffentlicht."
     }
   },
   {
     "key": "likoer",
     "name": "Likör",
     "per100g": {
-      "kcal": 300.0,
+      "kcal": 262.0,
       "protein": 0.0,
-      "carbs": 30.0,
+      "carbs": 32.8,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "17-245",
+      "record": "Liqueurs, low-medium strength",
+      "license": "Open Government Licence v3.0",
+      "note": "Likör, geringe bis mittlere Stärke. Sahnelikör ist nicht verwendet. Kohlenhydrate = verfügbare KH plus AOAC-Ballaststoffe (ohne Fructane; CoFID-Spalte AOAC fibre). kcal wie veröffentlicht."
     }
   },
   {
     "key": "apfelwein",
     "name": "Apfelwein/Cider",
     "per100g": {
-      "kcal": 45.0,
+      "kcal": 36.0,
       "protein": 0.0,
-      "carbs": 3.0,
+      "carbs": 2.6,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "17-222",
+      "record": "Cider, dry",
+      "license": "Open Government Licence v3.0",
+      "note": "Trockener Cider als Apfelwein. Der süße Cider ist ein anderer Satz. Kohlenhydrate = verfügbare KH plus AOAC-Ballaststoffe (ohne Fructane; CoFID-Spalte AOAC fibre). kcal wie veröffentlicht."
     }
   },
   {
     "key": "kaffee",
     "name": "Kaffee (aufgebrüht)",
     "per100g": {
-      "kcal": 2.0,
+      "kcal": 1.0,
       "protein": 0.1,
       "carbs": 0.0,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171890",
+      "record": "Beverages, coffee, brewed, prepared with tap water",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "kondensmilch",
     "name": "Kondensmilch gezuckert",
     "per100g": {
-      "kcal": 325.0,
-      "protein": 8.0,
-      "carbs": 55.0,
-      "fat": 9.0,
+      "kcal": 321.0,
+      "protein": 7.9,
+      "carbs": 54.4,
+      "fat": 8.7,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171275",
+      "record": "Milk, canned, condensed, sweetened",
+      "license": "CC0 1.0",
+      "base_id": "kondensmilch-gezuckert"
     }
   },
   {
     "key": "pflaumenmus",
     "name": "Pflaumenmus",
     "per100g": {
-      "kcal": 240.0,
-      "protein": 1.0,
-      "carbs": 60.0,
-      "fat": 0.3,
-      "fiber": 1.5
+      "kcal": 195.0,
+      "protein": 0.9,
+      "carbs": 47.6,
+      "fat": 0.2,
+      "fiber": 1.7
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "S161000",
+      "record": "Pflaumenmus",
+      "license": "CC BY 4.0",
+      "base_id": "pflaumenmus",
+      "note": "Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH). BLS S161000: FIBT 1,66 g, FIBHMW nicht veröffentlicht. Fructananteil unklar; Wert unverändert."
     }
   },
   {
@@ -2974,120 +4925,207 @@
     "name": "Fladenbrot/Pita",
     "per100g": {
       "kcal": 275.0,
-      "protein": 9.0,
-      "carbs": 55.0,
+      "protein": 9.1,
+      "carbs": 55.7,
       "fat": 1.2,
-      "fiber": 2.0
+      "fiber": 2.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174915",
+      "record": "Bread, pita, white, enriched",
+      "license": "CC0 1.0",
+      "base_id": "pitabrot",
+      "note": "Name Fladenbrot/Pita entspricht Pitabrot."
     }
   },
   {
     "key": "wuerstchen_geraeuchert",
     "name": "Räucherwürstchen/Kielbasa",
     "per100g": {
-      "kcal": 300.0,
-      "protein": 14.0,
-      "carbs": 2.0,
-      "fat": 27.0,
+      "kcal": 325.0,
+      "protein": 10.8,
+      "carbs": 3.7,
+      "fat": 29.6,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173879",
+      "record": "Kielbasa, fully cooked, unheated",
+      "license": "CC0 1.0",
+      "method": "similar_food",
+      "note": "Kielbasa, durchgegart, unerhitzt, als Räucherwürstchen. Werte unverändert."
     }
   },
   {
     "key": "quittenbrot",
     "name": "Quittenbrot",
     "per100g": {
-      "kcal": 250.0,
-      "protein": 0.3,
-      "carbs": 63.0,
-      "fat": 0.1,
-      "fiber": 1.0
+      "kcal": 336.0,
+      "protein": 1.7,
+      "carbs": 80.5,
+      "fat": 1.8,
+      "fiber": 3.9
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "31014",
+      "record": "Fruit jelly or fruit paste",
+      "license": "Etalab 2.0",
+      "method": "similar_food",
+      "note": "Quittenbrot/Membrillo hat keinen eigenen Satz. Belegt ist Fruchtpaste/Gelee allgemein. Werte unverändert. Lizenz Etalab 2.0 (Open Licence), nicht CC BY. Kohlenhydrate = verfügbare KH plus Ballaststoffe. kcal = Energy Regulation EU 1169/2011, wie veröffentlicht."
     }
   },
   {
     "key": "weinbrand",
     "name": "Weinbrand/Rum",
     "per100g": {
-      "kcal": 231.0,
+      "kcal": 221.0,
       "protein": 0.0,
       "carbs": 0.0,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "P620000",
+      "record": "Weinbrand/Brandy",
+      "license": "CC BY 4.0",
+      "base_id": "weinbrand-brandy",
+      "note": "Weinbrand. Rum ist ein anderer BLS-Satz und nicht gemittelt."
     }
   },
   {
     "key": "foie_gras",
     "name": "Foie gras",
     "per100g": {
-      "kcal": 460.0,
-      "protein": 11.0,
-      "carbs": 4.0,
-      "fat": 44.0,
-      "fiber": 0.0
+      "kcal": 526.0,
+      "protein": 8.4,
+      "carbs": 0.4,
+      "fat": 54.6,
+      "fiber": 0.3
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "8321",
+      "record": "Foie gras, duck, whole, cooked",
+      "license": "Etalab 2.0",
+      "note": "Ganze gekochte Entenstopfleber, nicht die geräucherte Pastete. Lizenz Etalab 2.0 (Open Licence), nicht CC BY. Kohlenhydrate = verfügbare KH plus Ballaststoffe. kcal = Energy Regulation EU 1169/2011, wie veröffentlicht."
     }
   },
   {
     "key": "x2_haggis",
     "name": "Haggis",
     "per100g": {
-      "kcal": 260.0,
-      "protein": 11.0,
-      "carbs": 16.0,
-      "fat": 16.0,
-      "fiber": 1.5
+      "kcal": 310.0,
+      "protein": 10.7,
+      "carbs": 21.3,
+      "fat": 21.7,
+      "fiber": 2.1
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "19-132",
+      "record": "Haggis, boiled",
+      "license": "Open Government Licence v3.0",
+      "quality": "estimate",
+      "method": "recipe",
+      "derived_from": [
+        "CoFID 2021:19-132",
+        "CoFID 2021:11-788"
+      ],
+      "note": "kcal 310, Protein 10,7 g, Fett 21,7 g, verfügbare KH 19,2 g wie CoFID (8 Proben, MW4 1978, reviewed 2013). AOAC-Ballaststoffe sind \"N\", NSP nur 0,2 g; das passt nicht zu 19,2 g Stärke. Schätzung: die Stärke stammt aus Haferflocken (CoFID 11-788, Stärke 70,4 g, AOAC 7,8 g). Anteil 19,2/70,4 × 7,8 = 2,13 g AOAC, gerundet 2,1 g. Eine pauschale 1,5 g ohne diese Herleitung wird nicht verwendet. Gesamt-KH = 19,2 + 2,1. CoFID-Kohlenhydrate sind Monosaccharid-Äquivalente (hier gleich der Stärke)."
     }
   },
   {
     "key": "x2_kutteln",
     "name": "Kutteln (Rindermagen, gegart)",
     "per100g": {
-      "kcal": 85.0,
-      "protein": 12.0,
-      "carbs": 0.0,
+      "kcal": 94.0,
+      "protein": 11.7,
+      "carbs": 2.0,
       "fat": 4.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174769",
+      "record": "Beef, variety meats and by-products, tripe, cooked, simmered",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "x2_biskuit",
     "name": "Löffelbiskuit",
     "per100g": {
-      "kcal": 390.0,
-      "protein": 8.0,
-      "carbs": 75.0,
-      "fat": 6.0,
-      "fiber": 2.0
+      "kcal": 363.0,
+      "protein": 10.6,
+      "carbs": 59.7,
+      "fat": 9.1,
+      "fiber": 1.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172821",
+      "record": "Cookies, ladyfingers, without lemon juice and rind",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "x2_speculoos_creme",
     "name": "Spekulatius-Aufstrich (Biscoff-Art)",
     "per100g": {
-      "kcal": 570.0,
-      "protein": 3.0,
-      "carbs": 58.0,
-      "fat": 36.0,
-      "fiber": 1.0
+      "kcal": 575.0,
+      "protein": 3.3,
+      "carbs": 61.4,
+      "fat": 37.7,
+      "fiber": 2.0
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "17-659",
+      "record": "Chocolate spread",
+      "license": "Open Government Licence v3.0",
+      "method": "similar_food",
+      "note": "Kein generischer Spekulatius-Aufstrich (nur Marken in FDC Branded, nicht verwendet). Nächster generischer Aufstrich ist Schokoladenaufstrich. Werte unverändert. Kohlenhydrate = verfügbare KH plus AOAC-Ballaststoffe (ohne Fructane; CoFID-Spalte AOAC fibre). kcal wie veröffentlicht."
     }
   },
   {
     "key": "x2_limonade",
     "name": "Limonade/Bitter-Orangen-Limonade",
     "per100g": {
-      "kcal": 42.0,
+      "kcal": 38.0,
       "protein": 0.0,
-      "carbs": 10.5,
+      "carbs": 9.3,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "N310400",
+      "record": "Zitronenlimonade",
+      "license": "CC BY 4.0",
+      "base_id": "zitronenlimonade-kohlensaeurehaltig",
+      "note": "Zitronenlimonade aus dem Getränkebestand. Der USDA-Satz nennt eine Marke und ist nicht verwendet."
     }
   },
   {
     "key": "x3_pizzateig",
     "name": "Pizzateig (roh)",
     "per100g": {
-      "kcal": 265.0,
-      "protein": 8.0,
-      "carbs": 52.0,
-      "fat": 2.0,
+      "kcal": 290.0,
+      "protein": 7.8,
+      "carbs": 60.0,
+      "fat": 4.8,
       "fiber": 2.5
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "11-1016",
+      "record": "Pizza base, raw",
+      "license": "Open Government Licence v3.0",
+      "note": "Kohlenhydrate = verfügbare KH plus AOAC-Ballaststoffe (ohne Fructane; CoFID-Spalte AOAC fibre). kcal wie veröffentlicht."
     }
   },
   {
@@ -3095,65 +5133,114 @@
     "name": "Buchweizen (Graupen/Mehl)",
     "per100g": {
       "kcal": 343.0,
-      "protein": 13.3,
+      "protein": 13.2,
       "carbs": 71.5,
       "fat": 3.4,
       "fiber": 10.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170286",
+      "record": "Buckwheat",
+      "license": "CC0 1.0",
+      "base_id": "buchweizen-roh"
     }
   },
   {
     "key": "x4_roggenmehl",
     "name": "Roggenmehl Type 1370",
     "per100g": {
-      "kcal": 325.0,
-      "protein": 9.0,
-      "carbs": 68.0,
-      "fat": 1.7,
-      "fiber": 14.0
+      "kcal": 344.0,
+      "protein": 7.2,
+      "carbs": 80.4,
+      "fat": 1.1,
+      "fiber": 9.5
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "9533",
+      "record": "Rye flour, type 130",
+      "license": "Etalab 2.0",
+      "method": "similar_food",
+      "note": "Roggenmehl Type 1370 (Asche etwa 1,37 %) hat keinen eigenen Satz. Ciqual Type 130 (Asche 1,30 %) ist die nächste Typenklasse. BLS Type 1150 und 1740 sind weiter entfernt und nicht gemittelt. Werte unverändert. Lizenz Etalab 2.0 (Open Licence), nicht CC BY. Kohlenhydrate = verfügbare KH plus Ballaststoffe. kcal = Energy Regulation EU 1169/2011, wie veröffentlicht."
     }
   },
   {
     "key": "x4_seetang",
-    "name": "Seetang/Purpurtang (Laver), gegart",
+    "name": "Seetang/Purpurtang (Laver), roh",
     "per100g": {
       "kcal": 35.0,
       "protein": 5.8,
       "carbs": 5.1,
       "fat": 0.3,
       "fiber": 0.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168458",
+      "record": "Seaweed, laver, raw",
+      "license": "CC0 1.0",
+      "note": "Name und Datensatz sind beide roh: USDA SR Legacy 168458, Seaweed, laver, raw. Ein reiner gegarter Laver-Satz fehlt in USDA SR Legacy, BLS, Ciqual und CoFID. CoFID 15-190 ist das fertige Gericht Laverbread, nicht die Zutat. Keine Umrechnung auf gegart."
     }
   },
   {
     "key": "x4_erdmandel",
     "name": "Erdmandeln (Tigernüsse)",
     "per100g": {
-      "kcal": 415.0,
-      "protein": 5.0,
-      "carbs": 45.0,
-      "fat": 24.0,
-      "fiber": 10.0
+      "kcal": 403.0,
+      "protein": 4.3,
+      "carbs": 57.4,
+      "fat": 23.8,
+      "fiber": 11.7
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "14-848",
+      "record": "Tigernuts",
+      "license": "Open Government Licence v3.0",
+      "quality": "estimate",
+      "method": "similar_food",
+      "derived_from": [
+        "CoFID 2021:14-848 (NSP)"
+      ],
+      "note": "Makros aus CoFID (Literatur, Fruit and Nuts Supplement 1992): kcal 403, Protein 4,3 g, Fett 23,8 g, Kohlenhydrate 45,7 g als Monosaccharid-Äquivalente (Stärke 29,6 + Zucker 16,1). AOAC-Ballaststoffe fehlen in CoFID. Schweizer Nährwertdatenbank 7.1 (Generic und Branded, Stand 01.07.2026, naehrwertdaten.ch, kommerziell nutzbar mit Quellenangabe; Datei Swiss_food_composition_database.xlsx) enthält keine Erdmandel, Cyperus oder Chufa. Ballaststoffe deshalb als gekennzeichnete Schätzung: CoFID-NSP 11,7 g, Untergrenze, nicht AOAC. Gesamt-KH = 45,7 + 11,7 = 57,4 g. USDA-Branded-Label wird nicht verwendet."
     }
   },
   {
     "key": "xa_weizen",
     "name": "Weizenkörner (Dövme/Aşurelik, trocken)",
     "per100g": {
-      "kcal": 335.0,
-      "protein": 12.0,
-      "carbs": 68.0,
-      "fat": 2.0,
-      "fiber": 11.0
+      "kcal": 327.0,
+      "protein": 12.6,
+      "carbs": 71.2,
+      "fat": 1.5,
+      "fiber": 12.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168890",
+      "record": "Wheat, hard red winter",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "xa_sulguni",
     "name": "Sulguni/Imeruli (Salzlakenkäse, mild)",
     "per100g": {
-      "kcal": 285.0,
-      "protein": 20.0,
-      "carbs": 0.5,
-      "fat": 22.5,
+      "kcal": 315.0,
+      "protein": 21.5,
+      "carbs": 0.1,
+      "fat": 25.1,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "M524500",
+      "record": "Halloumi Grillkäse",
+      "license": "CC BY 4.0",
+      "base_id": "hellim-halloumi-roh",
+      "method": "similar_food",
+      "note": "Sulguni ist ein Salzlaken-Filata-Käse ohne eigenen Satz. Hellim ist das nächste belegte Lebensmittel. Werte unverändert. Kohlenhydrate wie in der Grundzutat: verfügbare KH plus Ballaststoffe (Gesamt-KH)."
     }
   },
   {
@@ -3165,61 +5252,108 @@
       "carbs": 3.7,
       "fat": 0.5,
       "fiber": 2.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169997",
+      "record": "Coriander (cilantro) leaves, raw",
+      "license": "CC0 1.0",
+      "base_id": "koriandergruen-frisch"
     }
   },
   {
     "key": "xa_traubensaft",
     "name": "Traubensaft",
     "per100g": {
-      "kcal": 65.0,
+      "kcal": 60.0,
       "protein": 0.4,
-      "carbs": 16.0,
+      "carbs": 14.8,
       "fat": 0.1,
       "fiber": 0.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173042",
+      "record": "Grape juice, canned or bottled, unsweetened, without added ascorbic acid",
+      "license": "CC0 1.0",
+      "base_id": "traubensaft-100-prozent-saft"
     }
   },
   {
     "key": "xa_tkemali",
     "name": "Tkemali (saure Pflaumensauce)",
     "per100g": {
-      "kcal": 60.0,
-      "protein": 0.6,
-      "carbs": 14.0,
+      "kcal": 46.0,
+      "protein": 0.7,
+      "carbs": 11.4,
       "fat": 0.3,
-      "fiber": 1.0
+      "fiber": 1.4
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169949",
+      "record": "Plums, raw",
+      "license": "CC0 1.0",
+      "base_id": "pflaume-roh",
+      "method": "similar_food",
+      "note": "Saure Pflaumensauce fehlt. USDA „Sauce, plum, ready-to-serve“ ist eine süße Pflaumensauce (42,8 g KH) und nicht verwendet. Werte der rohen Pflaume, ohne erfundene Einkochung."
     }
   },
   {
     "key": "xa_kaese_hart",
     "name": "Hartkäse Schaf/Kuh (Kefalotyri/Kashkaval)",
     "per100g": {
-      "kcal": 380.0,
-      "protein": 25.0,
+      "kcal": 383.0,
+      "protein": 25.5,
       "carbs": 1.0,
       "fat": 31.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "Ciqual 2025",
+      "dataset_id": "12122",
+      "record": "Pecorino cheese, from ewe's milk",
+      "license": "Etalab 2.0",
+      "method": "similar_food",
+      "note": "Kefalotyri/Kashkaval: belegt über Pecorino aus Schafmilch. Kaşar hat einen eigenen Eintrag (Provolone) und ist nicht gemittelt. Lizenz Etalab 2.0 (Open Licence), nicht CC BY. Kohlenhydrate = verfügbare KH plus Ballaststoffe. kcal = Energy Regulation EU 1169/2011, wie veröffentlicht."
     }
   },
   {
     "key": "xa_bohnen_rot",
     "name": "Rote Kidneybohnen (trocken)",
     "per100g": {
-      "kcal": 333.0,
-      "protein": 22.0,
-      "carbs": 60.0,
-      "fat": 1.0,
-      "fiber": 15.0
+      "kcal": 337.0,
+      "protein": 22.5,
+      "carbs": 61.3,
+      "fat": 1.1,
+      "fiber": 15.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173744",
+      "record": "Beans, kidney, red, mature seeds, raw",
+      "license": "CC0 1.0",
+      "base_id": "kidneybohnen-roh"
     }
   },
   {
     "key": "xa_kaese_salz_frisch",
     "name": "Frischer Salzkäse (Sirene/Brynza/Bryndza)",
     "per100g": {
-      "kcal": 260.0,
-      "protein": 16.0,
-      "carbs": 1.0,
-      "fat": 21.0,
+      "kcal": 265.0,
+      "protein": 14.2,
+      "carbs": 3.9,
+      "fat": 21.5,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173420",
+      "record": "Cheese, feta",
+      "license": "CC0 1.0",
+      "base_id": "feta",
+      "method": "similar_food",
+      "note": "Sirene/Brynza/Bryndza haben keinen eigenen Satz. Feta ist der belegte Salzlakenkäse. Werte unverändert."
     }
   },
   {
@@ -3227,10 +5361,17 @@
     "name": "Kohlrabi",
     "per100g": {
       "kcal": 27.0,
-      "protein": 1.9,
-      "carbs": 4.5,
+      "protein": 1.7,
+      "carbs": 6.2,
       "fat": 0.1,
-      "fiber": 1.5
+      "fiber": 3.6
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168424",
+      "record": "Kohlrabi, raw",
+      "license": "CC0 1.0",
+      "base_id": "kohlrabi-roh"
     }
   },
   {
@@ -3239,9 +5380,16 @@
     "per100g": {
       "kcal": 31.0,
       "protein": 1.2,
-      "carbs": 3.0,
+      "carbs": 7.3,
       "fat": 0.2,
-      "fiber": 2.9
+      "fiber": 3.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169385",
+      "record": "Fennel, bulb, raw",
+      "license": "CC0 1.0",
+      "base_id": "fenchel-roh"
     }
   },
   {
@@ -3250,20 +5398,33 @@
     "per100g": {
       "kcal": 75.0,
       "protein": 1.2,
-      "carbs": 15.0,
+      "carbs": 18.0,
       "fat": 0.3,
       "fiber": 4.9
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170417",
+      "record": "Parsnips, raw",
+      "license": "CC0 1.0",
+      "base_id": "pastinake-roh"
     }
   },
   {
     "key": "xb_schwarzwurzel",
     "name": "Schwarzwurzel",
     "per100g": {
-      "kcal": 78.0,
-      "protein": 3.0,
-      "carbs": 16.0,
-      "fat": 0.4,
+      "kcal": 82.0,
+      "protein": 3.3,
+      "carbs": 18.6,
+      "fat": 0.2,
       "fiber": 3.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169277",
+      "record": "Salsify, (vegetable oyster), raw",
+      "license": "CC0 1.0"
     }
   },
   {
@@ -3272,20 +5433,35 @@
     "per100g": {
       "kcal": 37.0,
       "protein": 1.1,
-      "carbs": 7.0,
+      "carbs": 8.6,
       "fat": 0.2,
       "fiber": 2.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168454",
+      "record": "Rutabagas, raw",
+      "license": "CC0 1.0",
+      "base_id": "steckruebe-roh"
     }
   },
   {
     "key": "xb_johannisbeere",
     "name": "Johannisbeere (rot/schwarz)",
     "per100g": {
-      "kcal": 50.0,
-      "protein": 1.2,
-      "carbs": 10.0,
+      "kcal": 56.0,
+      "protein": 1.4,
+      "carbs": 13.8,
       "fat": 0.2,
       "fiber": 4.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173964",
+      "record": "Currants, red and white, raw",
+      "license": "CC0 1.0",
+      "base_id": "rote-johannisbeeren-roh",
+      "note": "Rote Johannisbeeren. Schwarze Johannisbeeren sind nicht gemittelt."
     }
   },
   {
@@ -3294,9 +5470,16 @@
     "per100g": {
       "kcal": 44.0,
       "protein": 0.9,
-      "carbs": 9.0,
+      "carbs": 10.2,
       "fat": 0.6,
-      "fiber": 3.5
+      "fiber": 4.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173030",
+      "record": "Gooseberries, raw",
+      "license": "CC0 1.0",
+      "base_id": "stachelbeeren-roh"
     }
   },
   {
@@ -3305,9 +5488,15 @@
     "per100g": {
       "kcal": 46.0,
       "protein": 0.1,
-      "carbs": 11.0,
+      "carbs": 11.3,
       "fat": 0.1,
-      "fiber": 0.1
+      "fiber": 0.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173933",
+      "record": "Apple juice, canned or bottled, unsweetened, without added ascorbic acid",
+      "license": "CC0 1.0"
     }
   },
   {
@@ -3316,9 +5505,15 @@
     "per100g": {
       "kcal": 45.0,
       "protein": 0.7,
-      "carbs": 10.0,
+      "carbs": 10.4,
       "fat": 0.2,
       "fiber": 0.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169098",
+      "record": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+      "license": "CC0 1.0"
     }
   },
   {
@@ -3327,97 +5522,165 @@
     "per100g": {
       "kcal": 42.0,
       "protein": 0.0,
-      "carbs": 10.5,
-      "fat": 0.0,
+      "carbs": 10.4,
+      "fat": 0.2,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174852",
+      "record": "Beverages, carbonated, cola, regular",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "xb_sirup",
     "name": "Zuckerrübensirup/Golden Syrup/Sirup",
     "per100g": {
-      "kcal": 320.0,
-      "protein": 0.5,
+      "kcal": 298.0,
+      "protein": 0.3,
       "carbs": 79.0,
       "fat": 0.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "17-065",
+      "record": "Syrup, golden",
+      "license": "Open Government Licence v3.0",
+      "note": "Golden Syrup. Zuckerrübensirup und Ahornsirup sind andere Lebensmittel und nicht gemittelt. Kohlenhydrate = verfügbare KH plus AOAC-Ballaststoffe (ohne Fructane; CoFID-Spalte AOAC fibre). kcal wie veröffentlicht."
     }
   },
   {
     "key": "xb_lachs_geraeuchert",
     "name": "Räucherlachs",
     "per100g": {
-      "kcal": 180.0,
-      "protein": 22.0,
+      "kcal": 117.0,
+      "protein": 18.3,
       "carbs": 0.0,
-      "fat": 10.0,
+      "fat": 4.3,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "171985",
+      "record": "Fish, salmon, chinook, smoked, (lox), regular",
+      "license": "CC0 1.0",
+      "base_id": "raeucherlachs"
     }
   },
   {
     "key": "xb_matjes",
     "name": "Matjeshering",
     "per100g": {
-      "kcal": 255.0,
-      "protein": 16.0,
+      "kcal": 208.0,
+      "protein": 16.5,
       "carbs": 0.0,
-      "fat": 21.0,
+      "fat": 16.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "Livsmedelsverket",
+      "dataset_id": "1284",
+      "record": "Herring salted ready to use canned",
+      "license": "CC BY 4.0",
+      "method": "similar_food",
+      "note": "Süßer Matjessill (Nummer 1281, 17,1 g verfügbare KH) ist nicht der milde Matjes. Verwendet ist gesalzener, verzehrfertiger Hering ohne Zucker. Werte unverändert. Kohlenhydrate = verfügbare KH (CHO) plus Fibre (FIBT). kcal wie veröffentlicht."
     }
   },
   {
     "key": "xb_cheddar",
     "name": "Cheddar",
     "per100g": {
-      "kcal": 400.0,
-      "protein": 25.0,
-      "carbs": 1.3,
-      "fat": 33.0,
+      "kcal": 403.0,
+      "protein": 22.9,
+      "carbs": 3.4,
+      "fat": 33.3,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "173414",
+      "record": "Cheese, cheddar",
+      "license": "CC0 1.0",
+      "base_id": "cheddar"
     }
   },
   {
     "key": "xb_nierenfett",
     "name": "Rindernierenfett (Suet)",
     "per100g": {
-      "kcal": 850.0,
+      "kcal": 854.0,
       "protein": 1.5,
       "carbs": 0.0,
       "fat": 94.0,
       "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170193",
+      "record": "Beef, variety meats and by-products, suet, raw",
+      "license": "CC0 1.0"
     }
   },
   {
     "key": "xb_gruenkern",
     "name": "Grünkern/Dinkel (Korn)",
     "per100g": {
-      "kcal": 330.0,
-      "protein": 11.0,
-      "carbs": 63.0,
+      "kcal": 329.0,
+      "protein": 11.1,
+      "carbs": 69.8,
       "fat": 2.7,
-      "fiber": 8.8
+      "fiber": 10.6
+    },
+    "source": {
+      "database": "BLS 4.0",
+      "dataset_id": "C311000",
+      "record": "Grünkern ganzes Korn, roh",
+      "license": "CC BY 4.0",
+      "base_id": "gruenkern-roh",
+      "note": "Dieselbe Grundzutat, aber Ballaststoffe FIBHMW 10,62 g (hochmolekular, ohne Fructane) statt FIBT 12,16 g. Kohlenhydrate = verfügbare KH 59,18 g + 10,62 g = 69,8 g. kcal, Protein und Fett wie BLS."
     }
   },
   {
     "key": "xb_rote_gruetze_beeren",
     "name": "Beerenmischung (rot)",
     "per100g": {
-      "kcal": 45.0,
-      "protein": 1.0,
-      "carbs": 8.5,
+      "kcal": 51.0,
+      "protein": 1.1,
+      "carbs": 12.3,
       "fat": 0.3,
-      "fiber": 4.0
+      "fiber": 3.7
+    },
+    "source": {
+      "database": "Schätzung",
+      "method": "recipe",
+      "derived_from": [
+        "USDA SR Legacy:167762 (erdbeeren-roh)",
+        "USDA SR Legacy:167755 (himbeeren-roh)",
+        "USDA SR Legacy:173964 (rote-johannisbeeren-roh)",
+        "USDA SR Legacy:171719 (suesskirschen-roh)"
+      ],
+      "note": "Rote Beerenmischung ohne Sammelsatz. Gleichgewichtiges Mittel aus Erdbeere, Himbeere, roter Johannisbeere und Süßkirsche."
     }
   },
   {
     "key": "xb_lebkuchen",
     "name": "Lebkuchen/Honigkuchen",
     "per100g": {
-      "kcal": 360.0,
-      "protein": 5.5,
-      "carbs": 70.0,
-      "fat": 6.0,
-      "fiber": 3.0
+      "kcal": 416.0,
+      "protein": 5.6,
+      "carbs": 76.9,
+      "fat": 9.8,
+      "fiber": 2.2
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174956",
+      "record": "Cookies, gingersnaps",
+      "license": "CC0 1.0",
+      "method": "similar_food",
+      "note": "Lebkuchen über Gingersnaps. Der Ingwerkuchen aus dem Rezept hat in SR Legacy keine Ballaststoffe und ist nicht verwendet."
     }
   },
   {
@@ -3429,6 +5692,13 @@
       "carbs": 7.3,
       "fat": 0.2,
       "fiber": 3.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "169385",
+      "record": "Fennel, bulb, raw",
+      "license": "CC0 1.0",
+      "base_id": "fenchel-roh"
     }
   },
   {
@@ -3436,10 +5706,18 @@
     "name": "Chicorée/Endivie",
     "per100g": {
       "kcal": 17.0,
-      "protein": 1.3,
-      "carbs": 3.4,
-      "fat": 0.2,
+      "protein": 0.9,
+      "carbs": 4.0,
+      "fat": 0.1,
       "fiber": 3.1
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "170404",
+      "record": "Chicory, witloof, raw",
+      "license": "CC0 1.0",
+      "base_id": "chicoree-roh",
+      "note": "Chicorée (erstgenannt). Endivie ist eine eigene Grundzutat und nicht gemittelt."
     }
   },
   {
@@ -3447,10 +5725,106 @@
     "name": "Kichererbsenmehl",
     "per100g": {
       "kcal": 387.0,
-      "protein": 22.0,
-      "carbs": 58.0,
+      "protein": 22.4,
+      "carbs": 57.8,
       "fat": 6.7,
-      "fiber": 11.0
+      "fiber": 10.8
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "174288",
+      "record": "Chickpea flour (besan)",
+      "license": "CC0 1.0"
+    }
+  },
+  {
+    "key": "grieben",
+    "name": "Schweinegrieben, gegart",
+    "per100g": {
+      "kcal": 550.0,
+      "protein": 36.2,
+      "carbs": 0.0,
+      "fat": 45.0,
+      "fiber": 0.0
+    },
+    "source": {
+      "database": "CoFID 2021",
+      "dataset_id": "18-216",
+      "record": "Pork, crackling, cooked",
+      "license": "Open Government Licence v3.0",
+      "note": "Gegarte Grieben von verschiedenen Schweinestücken, gegrillt und gebraten (LGC 1992–1993). kcal 550, Protein 36,2 g, Fett 45,0 g, KH 0. AOAC nicht bestimmt, NSP 0, daher Ballaststoffe 0. Für Torresmos, Jumări und Sremski čvarci, nicht für rohen Bauch."
+    }
+  },
+  {
+    "key": "ente_gegart",
+    "name": "Ente mit Haut, gebraten",
+    "per100g": {
+      "kcal": 337.0,
+      "protein": 19.0,
+      "carbs": 0.0,
+      "fat": 28.4,
+      "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172409",
+      "record": "Duck, domesticated, meat and skin, cooked, roasted",
+      "license": "CC0 1.0",
+      "note": "Gebratenes Entenfleisch mit Haut. Für gegarte Entengerichte (Magret, Kaczka), damit das Rechenmodell den rohen Satz nicht noch einmal aufkonzentriert. Protein 18,99 g und Fett 28,35 g auf 19,0 g und 28,4 g gerundet."
+    }
+  },
+  {
+    "key": "gans_gegart",
+    "name": "Gans mit Haut, gebraten",
+    "per100g": {
+      "kcal": 305.0,
+      "protein": 25.2,
+      "carbs": 0.0,
+      "fat": 21.9,
+      "fiber": 0.0
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "172412",
+      "record": "Goose, domesticated, meat and skin, cooked, roasted",
+      "license": "CC0 1.0",
+      "note": "Gebratene Gans mit Haut. Für Gänsebraten und den Teller mit Rotkohl und Klößen, jeweils Garfaktor 1,0. Protein 25,16 g und Fett 21,92 g auf 25,2 g und 21,9 g gerundet."
+    }
+  },
+  {
+    "key": "buendnerfleisch",
+    "name": "Bündnerfleisch",
+    "per100g": {
+      "kcal": 190.0,
+      "protein": 39.3,
+      "carbs": 0.4,
+      "fat": 3.5,
+      "fiber": 0.0
+    },
+    "source": {
+      "database": "Schweizer Nährwertdatenbank",
+      "dataset_id": "709",
+      "record": "Dried meat (Hobel-, Bündner-, Walliser-, Tessiner- dried meat)",
+      "license": "frei verwendbar mit Quellenangabe (BLV)",
+      "note": "Quelle: Schweizer Nährwertdatenbank V7.1, BLV (naehrwertdaten.ch), ID 709. kcal 190, Protein 39,3 g, verfügbare KH 0,4 g, Fett 3,5 g, Ballaststoffe 0. Gesamt-KH = 0,4. Für das Gericht Bündnerfleisch, nicht mehr rohes Schmorfleisch USDA SR Legacy 169491."
+    }
+  },
+  {
+    "key": "x4_carrageen",
+    "name": "Irisch Moos (Carrageen), roh",
+    "per100g": {
+      "kcal": 49.0,
+      "protein": 1.5,
+      "carbs": 12.3,
+      "fat": 0.2,
+      "fiber": 1.3
+    },
+    "source": {
+      "database": "USDA SR Legacy",
+      "dataset_id": "168456",
+      "record": "Seaweed, irishmoss, raw",
+      "license": "CC0 1.0",
+      "note": "Carrageen (Chondrus crispus), roh. Protein 1,51 g, Kohlenhydrate by difference 12,29 g, Fett 0,16 g, Ballaststoffe 1,3 g, kcal 49. Nicht Laver."
     }
   }
 ]

@@ -85,7 +85,8 @@ Gigot d'agneau aux haricots | Gigot d'agneau | HF | 0.75 | 1 Teller | lamm 220, 
 Gratin de macaroni | French macaroni gratin | AU | 0.95 | 1 Portion | nudeln 80, wasser 120, milch 150, emmentaler 50, butter 15, mehl 10
 Hachis parmentier | Shepherd's pie French | AU | 0.9 | 1 Portion | hack 120, kartoffel 250, milch 50, butter 20, zwiebel 40, tomatenmark 10
 Kouign-amann |  | G | 0.85 | 1 Stück | mehl 60, butter 45, zucker 35, hefe 2, wasser 30
-Magret de canard | Duck breast French | HG | 0.7 | 1 Portion | ente 250, honig 8, salz 1
+# Gebratene Ente mit Haut (USDA 172409). 180 g ist die bisherige gegarte Menge (250 g roh × 0,7), ohne zweite Aufkonzentration.
+Magret de canard | Duck breast French | HG | 1.0 | 1 Portion | ente_gegart 180, honig 8, salz 1
 Navarin d'agneau | Navarin printanier | E | 0.85 | 1 Teller | lamm 180, kartoffel 120, karotte 60, zwiebel 40, erbsen 40, tomatenmark 10, bruehe 150
 Pain au chocolat | Chocolatine | G | 0.95 | 1 Stück | blaetterteig 60, schokolade 12, ei 10, milch 15, mehl 10
 Panisse | Panisses marseillaises | SN | 0.9 | 4 Stück | kichererbsen_trocken 50, wasser 150, olivenoel 15, oel 15

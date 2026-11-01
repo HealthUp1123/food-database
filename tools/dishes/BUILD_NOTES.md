@@ -4,7 +4,7 @@
 
 ## Methode
 - Pro Gericht ein typisches Hausrezept für **eine Portion** (Zutaten in g, roh bzw. Zutatenzustand).
-- Nährwerte werden **programmatisch** aus einer Zutaten-Referenztabelle (`ingredients.json`, ca. 275 Zutaten, pro 100 g, USDA/BLS-ähnliche Näherungswerte) berechnet – nicht von Hand geschätzt.
+- Nährwerte werden **programmatisch** aus einer Zutaten-Referenztabelle (`ingredients.json`, 319 Zutaten, pro 100 g, benannte Datensätze oder gekennzeichnete Schätzungen) berechnet – nicht von Hand geschätzt.
 - **Garfaktor** (Gewicht gegart / roh, 0,5–1,05) bestimmt das Portionsgewicht (auf 5 g gerundet). `per100g` = Summe der Zutatenwerte / Portionsgewicht × 100.
 - Beim Kochen aufgenommenes Wasser (Reis, Nudeln, Eintöpfe) steht explizit als Zutat (`wasser`, `bruehe`); bei Frittiertem nur das aufgenommene Öl.
 - Kaffee/Tee sind vereinfacht über Wasser-/Teeeintrag (≈ 0 kcal) abgebildet.
@@ -16,7 +16,7 @@
 - Zusätzlich: Repo-Validator `scripts/validate.mjs` → 2884 gültig (angepasste Kopie in `repo_patch/`, siehe unten).
 
 ## Felder
-`id, name, type:"dish", barcode:null, synonyms, cuisine (tr|de|it|fr|es|pt|gr|gb|ie|nl|be|at|ch|se|no|dk|fi|is|pl|cz|sk|hu|rs|hr|ba|bg|al|mk|si|ro|ee|lv|lt|ua|ru|cy|mt|lu), prepared ("homemade"|"restaurant"), is_packaged_product:false, [off_similar], category, per100g{kcal,protein,carbs,fat,fiber}, portion{label,grams}, ingredients[{name,grams}], quality:"estimate", source:"calculated from typical recipe and approximate reference values"`
+`id, name, type:"dish", barcode:null, synonyms, cuisine (tr|de|it|fr|es|pt|gr|gb|ie|nl|be|at|ch|se|no|dk|fi|is|pl|cz|sk|hu|rs|hr|ba|bg|al|mk|si|ro|ee|lv|lt|ua|ru|cy|mt|lu), prepared ("homemade"|"restaurant"), is_packaged_product:false, [off_similar], category, per100g{kcal,protein,carbs,fat,fiber}, portion{label,grams}, ingredients[{name,grams}], quality:"estimate", source:"calculated from a typical recipe; ingredient values from named datasets or labeled estimates"`
 
 ## Einschränkungen
 - Regionale Varianten und Familienrezepte unterscheiden sich stark; hier jeweils ein verbreitetes Standardrezept.
@@ -73,3 +73,43 @@ Dump neu aufbauen: `off_check.py dump-index --csv off_dump/en.openfoodfacts.org.
 - Build: 0 Fehler, 0 Flags.
 - OFF (Dump, alle 4245 geprüft; nur markieren): **512 der 1361 neuen** Gerichte tragen `off_similar`, gesamt 2114. Alle neuen `prepared` (1253 homemade, 108 restaurant) + `is_packaged_product:false`. **0 entfernt** (`removed_in_off.json` = `[]`). Hinweis: Der Dump-Lauf wählt bei alten Gerichten teils andere 3 Beispiel-Barcodes; für den Bestand wurden die bisherigen `off_similar` beibehalten (Stabilität).
 - Validierung: `node repo_patch/scripts/validate.mjs foods.json` → 4245 gültig (29 erwartete Warnungen, alle Alkoholika: kcal > Makro-Schätzung); `scripts/test-worker.mjs` bestanden.
+
+## Fachprüfung D4 (November 2026)
+
+Die Zutatentabelle hat jetzt 317 Einträge. Jeder Wert unten ist in der genannten Quelle nachgeschlagen; wo die Rundung von der Prüfungsnäherung abweicht, gilt die Quelle. Kohlenhydrate bleiben Gesamt-KH (verfügbare KH plus Ballaststoffe). Ein allgemeiner Fettverlust ist nicht ins Rechenmodell eingebaut. Gegarte Gerichte, die sonst den rohen Satz noch einmal aufkonzentrieren würden, nutzen einen gegarten Datensatz und den Garfaktor 1,0.
+
+- Schweinebauch: BLS 4.0 U642100, roh, wie gewachsen. ENERCC 324, PROT625 17,74, Fett 28,06, CHO 0, FIBT 0, FIBHMW 0. Gespeichert 324/17,7/0/28,1/0. USDA 167812 (53 g Fett) ist entfernt.
+- Schweinegrieben: CoFID 2021 18-216, gegart, 550/36,2/0/45,0, NSP 0, AOAC nicht bestimmt. Torresmos 65 g (bisher 100 g roh × 0,65), Jumări 100 g (bisher 200 g roh × 0,5), Sremski čvarci 80 g. Der Garfaktor ist 1,0. Der alte Jumări-Faktor 0,5 auf dem schon gegarten Satz würde Protein und Fett verdoppeln (über 100 g und über 950 kcal). Die gegarte Masse entspricht dem alten Rezept.
+- Blätterteig: BLS 4.0 X9A6020, roh, mit Butter. 465 kcal, Protein 5,2, verfügbare KH 29,75, Fett 35,67, FIBT 2,18, FIBHMW nicht veröffentlicht. Gespeichert 465/5,2/31,9/35,7/2,2. Der Fructananteil der 2,2 g ist offen. Palmiers wieder Garfaktor 0,95. USDA 172790 (gebacken) ist entfernt.
+- Knoblauch: Ciqual 2025 11000, Lizenz Etalab 2.0. EU-kcal 109, Protein 5,31, verfügbare KH 18,6, Ballaststoffe 5,8, Fett „< 0,5“. Gespeichert 109/5,3/24,4/0,5/5,8. Die 0,5 g Fett sind die Bestimmungsgrenze.
+- Erdmandel: CoFID 2021 14-848, 403/4,3/23,8 Fett, Kohlenhydrate 45,7 als Monosaccharid-Äquivalente (Stärke 29,6 + Zucker 16,1), NSP 11,7, AOAC leer. Schweizer Nährwertdatenbank 7.1 (Generic und Branded, 01.07.2026, naehrwertdaten.ch, kommerziell mit Quellenangabe) enthält keine Erdmandel. Ballaststoffe deshalb als gekennzeichnete Schätzung 11,7 g NSP (Untergrenze, nicht AOAC). Gesamt-KH 57,4. Das USDA-Markenlabel ist entfernt.
+- Tarhana: Schätzung nach Siyamoğlu 1961, zitiert in Erbaş, Certel und Uslu, LWT 38 (2005) 409–416, Mittel von 134 Proben: Wasser 10,2, Protein 16,0, Kohlenhydrate 60,9, Fett 5,4, Rohfaser 1,0, Asche 6,2, Salz 3,8. Summe mit Wasser und Asche 99,7, die 60,9 sind also ohne Rohfaser. Gesamt-KH 61,9. kcal fehlen in der Quelle; Atwater 4·16,0 + 4·60,9 + 9·5,4 = 356 (nicht die gerundete 350). Rohfaser ist nicht AOAC und als Untergrenze gekennzeichnet.
+- Sumach ist Rhus coriaria, kein Paprika. FAO/INFOODS BioFoodComp 4.0, 0400102, ist entfernt: © FAO 2017, non-commercial, die Angabe CC BY 4.0 war falsch. Der Satz ist gesalzen (Na 5,6 g), Protein 1,16 g ist unplausibel. FIBTG ist die klassische AOAC-Ballaststoffbestimmung; der frühere Satz, FIBTG sei das nicht, war falsch. Für ungesalzenes Pulver gilt die Schätzung nach Lo Vecchio et al., Foods 2022, 11, 538 (CC BY 4.0): Protein 3,47 g, Rohfett 9,56 g, Weende-Rohfaser 33,21 g, Wasser 6,64 g, Asche 4,78 g. Verfügbare KH als Differenz 42,34 g (eher zu hoch, Polyphenole und Säuren stecken darin). Gesamt-KH 75,5 g. kcal = 4·(KH−Ballaststoffe)+4·Protein+9·Fett+2·Ballaststoffe = 335,7, gespeichert 336. Rohfaser (Weende), keine AOAC-Gesamtfaser, Schätzung, Abweichung unbekannt. Die Gewürzmischung ist 391/6,3/64,0/16,4/25,6; etwa ein Drittel der Ballaststoffe ist Rohfaser. „usw.“ ist nicht aufgefüllt.
+- Haggis: CoFID 19-132, 310/10,7/19,2/21,7, AOAC „N“, NSP 0,2 (8 Proben). Die 0,2 g passen nicht zu 19,2 g Stärke. Schätzung: Stärke aus Haferflocken CoFID 11-788 (Stärke 70,4, AOAC 7,8), 19,2/70,4 × 7,8 = 2,13, gespeichert 2,1 g AOAC. Gesamt-KH 21,3. Eine pauschale 1,5 g ist nicht verwendet.
+- Portulak: ganzer Satz BLS 4.0 G460100. 14 kcal, Protein 1,482, Fett 0,34, verfügbare KH 0,587, FIBT = FIBHMW = 1,6. Gespeichert 14/1,5/2,2/0,3/1,6.
+- Grünkern C311000: Ballaststoffe FIBHMW 10,62 statt FIBT 12,16. Verfügbare KH 59,18. Gespeichert 329/11,1/69,8/2,7/10,6. Die Grundzutat `gruenkern-roh` in `data/foods.json` ist unverändert.
+- Knäckebrot: CoFID 2021 11-822. 284/8,6/1,4, Kohlenhydrate 63,4 als Monosaccharid-Äquivalente (Stärke 60,0 + Zucker 3,4), AOAC 20,0. Gesamt-KH 83,4. Der Monosaccharid-Hinweis steht im `note`.
+- Frischkäse: BLS 4.0 M710800, 252 kcal, Protein 6,6, verfügbare KH 3,69, Fett 23,25, FIBT und FIBHMW 0. Gespeichert 252/6,6/3,7/23,2/0. 23,25 rundet halb-auf-gerade auf 23,2, nicht auf 23,3.
+- Offen als Näherung gekennzeichnet, Werte unverändert: Granatapfelsirup ist Traubendicksaft BLS S157000, Paprikamark ist Tomatenmark USDA 170459, Seetang ist Laver roh USDA 168458 obwohl der Schlüssel gegart sagt.
+- BLS-Ballaststoffe mit unveröffentlichtem FIBHMW, Werte unverändert, im `note` markiert: Lavaş B782100 (FIBT 3,34), Pekmez und Nar ekşisi S157000 (FIBT 1,238), Pflaumenmus S161000 (FIBT 1,66), Sucuk W171100 (0,14), Leberwurst W327000 (0,1), Leberkäse W256100 (0,06), Mettwurst W151000 (0,1). Salami, Kochschinken und Kasseler haben FIBHMW veröffentlicht (0 bzw. FIBT unter der Bestimmungsgrenze); dort ist kein Fructananteil offen.
+
+### Die zwölf Plausibilitätswarnungen
+
+Nach dem Neubau (`python3 build.py`) 0 Fehler und 0 Flags. Aufgelöst, nicht nur begründet:
+
+| Gericht | vorher | jetzt |
+| --- | --- | --- |
+| Torresmos | 797 kcal/100 g | 550 kcal/100 g, Portion 65 g / 358 kcal, gegarte Grieben |
+| Porchetta | 680 kcal/100 g | 436 kcal/100 g, Portion 698 kcal, BLS-Bauch |
+| Rillettes de porc | 697 kcal/100 g | 503 kcal/100 g, Portion 277 kcal |
+| Secreto ibérico | 697 kcal/100 g | 447 kcal/100 g, Portion 693 kcal |
+| Porceddu | 634 kcal/100 g und 1648 kcal/Portion | 448 kcal/100 g, Portion 1165 kcal |
+| Costillas al horno | 633 kcal/100 g und 1424 kcal/Portion | 416 kcal/100 g, Portion 936 kcal |
+| Cochifrito | 637 kcal/100 g | 426 kcal/100 g, Portion 788 kcal |
+| Magret de canard | 575 kcal/100 g | 332 kcal/100 g, Portion 190 g / 631 kcal, Ente gebraten USDA 172409, 180 g, Garfaktor 1,0 |
+| Foie gras poêlé | 602 kcal/100 g | 457 kcal/100 g, Portion 125 g / 571 kcal, Garfaktor 1,0 auf dem schon gegarten Ciqual-Satz |
+| Gänsebraten mit Rotkohl und Klößen | Portion 1368 kcal | 147 kcal/100 g, Portion 805 g / 1183 kcal, Gans gebraten USDA 172412. Gänsebraten und Entenbraten stehen ebenfalls auf dem gebratenen Satz, Garfaktor 1,0, Fleischmenge 195 g (300 g roh × 0,65) |
+| Berner Platte | Portion 1452 kcal | 200 kcal/100 g, Portion 610 g / 1220 kcal |
+| Kaczka z jabłkami | Portion 1499 kcal | 215 kcal/100 g, Portion 400 g / 860 kcal, Ente gebraten, 230 g, Garfaktor 1,0 |
+
+Brunkager bleibt bei Garfaktor 0,95 (Portion 80 g). Mit 0,90 liegen Protein, Kohlenhydrate und Fett bei 102,2 g. Jumări steht weiter in `FAT_OK`; der Eintrag greift nicht, weil das Gericht jetzt 550 kcal/100 g hat.
