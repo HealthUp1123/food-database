@@ -314,7 +314,7 @@ export const nutrientsFor = (f: Food, grams: number) =>
 
 ## Daten neu erzeugen
 
-Rezepttexte und die Zutaten-Referenz liegen unter `tools/dishes/` (`build.py`, `batches/*.py` inklusive `eu3_*.py`, `wave3/`, `recipes/`, `candidates/`, `ingredients_src.txt`, `ingredients_add_*.txt`, `ingredients.json`). `ingredients.json` hat 319 Zutaten; jede trägt Quelle und Datensatz, Schätzungen zusätzlich `quality`, `method` und `derived_from`. Die Batches erzeugen `tools/dishes/tools/compose_eu.py`, `compose_eu2.py` und `compose_eu3.py`. Im Verzeichnis `tools/dishes`:
+Rezepttexte und die Zutaten-Referenz liegen unter `tools/dishes/` (`build.py`, `batches/*.py` inklusive `eu3_*.py`, `wave3/`, `recipes/`, `candidates/`, `ingredients_src.txt`, `ingredients_add_*.txt`, `ingredients.json`). `ingredients.json` hat 323 Zutaten; jede trägt Quelle und Datensatz, Schätzungen zusätzlich `quality`, `method` und `derived_from`. Die Batches erzeugen `tools/dishes/tools/compose_eu.py`, `compose_eu2.py` und `compose_eu3.py`. Im Verzeichnis `tools/dishes`:
 
 ```bash
 python3 build.py

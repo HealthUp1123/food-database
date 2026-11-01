@@ -4,7 +4,7 @@
 
 ## Methode
 - Pro Gericht ein typisches Hausrezept für **eine Portion** (Zutaten in g, roh bzw. Zutatenzustand).
-- Nährwerte werden **programmatisch** aus einer Zutaten-Referenztabelle (`ingredients.json`, 319 Zutaten, pro 100 g, benannte Datensätze oder gekennzeichnete Schätzungen) berechnet – nicht von Hand geschätzt.
+- Nährwerte werden **programmatisch** aus einer Zutaten-Referenztabelle (`ingredients.json`, 323 Zutaten, pro 100 g, benannte Datensätze oder gekennzeichnete Schätzungen) berechnet – nicht von Hand geschätzt. In `source.method` sind `similar_food`, `recipe` und `derived` zulässig. `derived` bleibt in `ingredients.json` und wird nicht nach `data/foods.json` durchgereicht.
 - **Garfaktor** (Gewicht gegart / roh, 0,5–1,05) bestimmt das Portionsgewicht (auf 5 g gerundet). `per100g` = Summe der Zutatenwerte / Portionsgewicht × 100.
 - Beim Kochen aufgenommenes Wasser (Reis, Nudeln, Eintöpfe) steht explizit als Zutat (`wasser`, `bruehe`); bei Frittiertem nur das aufgenommene Öl.
 - Kaffee/Tee sind vereinfacht über Wasser-/Teeeintrag (≈ 0 kcal) abgebildet.
@@ -76,7 +76,7 @@ Dump neu aufbauen: `off_check.py dump-index --csv off_dump/en.openfoodfacts.org.
 
 ## Fachprüfung D4 (November 2026)
 
-Die Zutatentabelle hat jetzt 317 Einträge. Jeder Wert unten ist in der genannten Quelle nachgeschlagen; wo die Rundung von der Prüfungsnäherung abweicht, gilt die Quelle. Kohlenhydrate bleiben Gesamt-KH (verfügbare KH plus Ballaststoffe). Ein allgemeiner Fettverlust ist nicht ins Rechenmodell eingebaut. Gegarte Gerichte, die sonst den rohen Satz noch einmal aufkonzentrieren würden, nutzen einen gegarten Datensatz und den Garfaktor 1,0.
+Die Zutatentabelle hat jetzt 323 Einträge. Jeder Wert unten ist in der genannten Quelle nachgeschlagen; wo die Rundung von der Prüfungsnäherung abweicht, gilt die Quelle. Kohlenhydrate bleiben Gesamt-KH (verfügbare KH plus Ballaststoffe). Ein allgemeiner Fettverlust ist nicht ins Rechenmodell eingebaut. Gegarte Gerichte, die sonst den rohen Satz noch einmal aufkonzentrieren würden, nutzen einen gegarten Datensatz und den Garfaktor 1,0.
 
 - Schweinebauch: BLS 4.0 U642100, roh, wie gewachsen. ENERCC 324, PROT625 17,74, Fett 28,06, CHO 0, FIBT 0, FIBHMW 0. Gespeichert 324/17,7/0/28,1/0. USDA 167812 (53 g Fett) ist entfernt.
 - Schweinegrieben: CoFID 2021 18-216, gegart, 550/36,2/0/45,0, NSP 0, AOAC nicht bestimmt. Torresmos 65 g (bisher 100 g roh × 0,65), Jumări 100 g (bisher 200 g roh × 0,5), Sremski čvarci 80 g. Der Garfaktor ist 1,0. Der alte Jumări-Faktor 0,5 auf dem schon gegarten Satz würde Protein und Fett verdoppeln (über 100 g und über 950 kcal). Die gegarte Masse entspricht dem alten Rezept.
