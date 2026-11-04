@@ -71856,7 +71856,7 @@
       "Fermentierter Rübensaft",
       "Turnip juice",
       "Acılı şalgam",
-      "Şalgam, scharf"
+      "Scharfer şalgam"
     ],
     "cuisine": "tr",
     "category": "Getränk",
@@ -300492,8 +300492,8 @@
     "synonyms": [
       "Gänsefleisch roh",
       "Goose, domesticated, meat only, raw",
-      "Gänsefleisch, ohne Haut, roh",
-      "Kaz eti, derisiz, çiğ"
+      "Gänsefleisch ohne Haut roh",
+      "Kaz eti derisiz çiğ"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Geflügel",
@@ -321198,101 +321198,6 @@
     "method": "similar_food"
   },
   {
-    "id": "labne",
-    "name": "Labne",
-    "names": {
-      "de": "Labne",
-      "en": "Labneh",
-      "tr": "Labne",
-      "fr": "Labné",
-      "es": "Labneh",
-      "pt": "Labneh",
-      "it": "Labneh",
-      "zh": "酸奶奶酪"
-    },
-    "type": "item",
-    "barcode": null,
-    "synonyms": [
-      "Labneh",
-      "Süzme yoğurt peyniri",
-      "Joghurtfrischkäse"
-    ],
-    "cuisine": "int",
-    "category": "Grundzutat: Milchprodukte & Eier",
-    "prepared": "base_ingredient",
-    "is_packaged_product": false,
-    "state": "processed",
-    "unit": "g",
-    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt. Nährwerte sind ein Mittel aus Packungsangaben.",
-    "per100g": {
-      "kcal": 194,
-      "protein": 4.8,
-      "carbs": 3.7,
-      "fat": 17.8,
-      "fiber": 0.0,
-      "sugar": 3.7
-    },
-    "portion": {
-      "label": "1 Portion (Schätzung)",
-      "grams": 30
-    },
-    "ingredients": [
-      {
-        "name": "Labne",
-        "grams": 30
-      }
-    ],
-    "quality": "estimate",
-    "source": "Mittelwert aus Packungsangaben (n = 5), abgerufen am 2026-11-04. Open Food Facts, ODbL. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Fünf einzelne Produktseiten, vollfett. Ballaststoffe 0 g laut einem Etikett, die übrigen nennen keine Zeile. BST-Methode unbekannt. Belege: docs/belege/packungsangaben-tr.csv."
-  },
-  {
-    "id": "nar-eksisi",
-    "name": "Granatapfelsirup",
-    "names": {
-      "de": "Granatapfelsirup",
-      "en": "Pomegranate molasses",
-      "tr": "Nar ekşisi",
-      "fr": "Mélasse de grenade",
-      "es": "Melaza de granada",
-      "pt": "Melaço de romã",
-      "it": "Melassa di melagrana",
-      "zh": "石榴糖浆"
-    },
-    "type": "item",
-    "barcode": null,
-    "synonyms": [
-      "Nar eksisi",
-      "Granatapfelmelasse"
-    ],
-    "cuisine": "int",
-    "category": "Grundzutat: Würzmittel & Aufstriche",
-    "prepared": "base_ingredient",
-    "is_packaged_product": false,
-    "state": "processed",
-    "unit": "g",
-    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt. Nährwerte sind ein Mittel aus Packungsangaben.",
-    "per100g": {
-      "kcal": 321,
-      "protein": 0.3,
-      "carbs": 80.3,
-      "fat": 0.2,
-      "fiber": 0.8,
-      "sugar": 55.5
-    },
-    "portion": {
-      "label": "1 Esslöffel (Schätzung)",
-      "grams": 15
-    },
-    "ingredients": [
-      {
-        "name": "Granatapfelsirup",
-        "grams": 15
-      }
-    ],
-    "quality": "estimate",
-    "source": "Mittelwert aus Packungsangaben (n = 5), abgerufen am 2026-11-04. Open Food Facts, ODbL. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Gesamt-KH 80,3 g aus mittlerer Etikett-KH 79,5 g plus Ballaststoffe 0,8 g (Mittel aus 4 Etiketten mit Angabe, eine Packung ohne Zeile). BST-Methode unbekannt. Ein deutlich konzentrierteres Etikett mit 409 kcal ist nicht eingemischt. Belege: docs/belege/packungsangaben-tr.csv."
-  },
-  {
     "id": "japanische-wollmispel-roh",
     "name": "Japanische Wollmispel, roh",
     "names": {
@@ -321387,9 +321292,12 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode yield_factor): Die BLS-Ballaststoffe von F140152 (6,103 g) sind eine Rezeptfortschreibung des Rohwerts F140100, und der Rohwert stammt aus Souci-Fachmann-Kraut. Souci ist keine freie Quelle. Stattdessen USDA FoodData Central, SR Legacy (April 2018), FDC ID 168163 Quinces, raw (Ballaststoffe 1,9 g, das entspricht Ciqual 2025 Coing cru, Code 13010, ebenfalls 1,9 g). Garfaktor 6,103/5,92 = 1,031 aus dem Verhältnis der BLS-Rezeptwerte, angewendet auf die freien Rohwerte. Gespeichert je 100 g zubereitet. Kohlenhydrate sind Gesamt-KH.",
+    "source": "Geschätzt (Methode yield_factor): Die BLS-Ballaststoffe von F140152 (6,103 g) sind eine Rezeptfortschreibung des Rohwerts F140100, und der Rohwert stammt aus Souci-Fachmann-Kraut. Souci ist keine freie Quelle. Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code F140152 \"Quitte gedünstet\" und Code F140100 \"Quitte roh\" (nur der Garfaktor 6,103/5,92 = 1,031, nicht die Souci-Werte). Stattdessen USDA FoodData Central, SR Legacy (April 2018), FDC ID 168163 Quinces, raw (Ballaststoffe 1,9 g, das entspricht Ciqual 2025 Coing cru, Code 13010, ebenfalls 1,9 g). Der Garfaktor ist auf die freien Rohwerte angewendet. Gespeichert je 100 g zubereitet. Kohlenhydrate sind Gesamt-KH. USDA 168163 veröffentlicht keinen Zuckerwert.",
     "derived_from": "USDA SR Legacy:168163",
-    "method": "yield_factor"
+    "method": "yield_factor",
+    "source_missing": [
+      "sugar"
+    ]
   },
   {
     "id": "kirschtomate-roh",
@@ -321436,7 +321344,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 20172 \"Tomato, cherry, raw\". Kohlenhydrate = verfügbare KH 5.62 g + Ballaststoffe 1.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Fett ist nur als Obergrenze unter 0,5 g veröffentlicht. Mit 0 g Fett und den organischen Säuren trifft die veröffentlichte Energie, deshalb 0 g. Organische Säuren 0.56 g gehen in der BLS- oder Ciqual-Formel mit 3 kcal/g in die veröffentlichte Energie ein. Kontrolle 4*(KH-BST)+4*P+9*F+2*BST = 30.0 kcal, veröffentlicht 32 kcal, Differenz +2.0 kcal. Der Abstand entspricht in der Größenordnung den organischen Säuren.",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 20172 \"Tomato, cherry, raw\". Kohlenhydrate = verfügbare KH 5.62 g + Ballaststoffe 1.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Fett ist nur als Obergrenze unter 0,5 g veröffentlicht. Mit 0 g Fett und den organischen Säuren trifft die veröffentlichte Energie, deshalb 0 g. Organische Säuren 0.56 g gehen in der BLS- oder Ciqual-Formel mit 3 kcal/g in die veröffentlichte Energie ein. Kontrolle 4*(KH-BST)+4*P+9*F+2*BST = 30.0 kcal, veröffentlicht 32 kcal, Differenz +2.0 kcal. Der Abstand entspricht in der Größenordnung den organischen Säuren.",
     "source_id": "Ciqual 2025:20172"
   },
   {
@@ -321484,7 +321392,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 20238 \"Red onion, raw\". Kohlenhydrate = verfügbare KH 5.63 g + Ballaststoffe 2.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 20238 \"Red onion, raw\". Kohlenhydrate = verfügbare KH 5.63 g + Ballaststoffe 2.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
     "source_id": "Ciqual 2025:20238"
   },
   {
@@ -321787,7 +321695,7 @@
     "names": {
       "de": "Rinderhochrippe, roh",
       "en": "Beef prime rib, raw",
-      "tr": "Dana antrikot (kaburga bölgesi)",
+      "tr": "Dana antrikot (kaburga bölgesi), çiğ",
       "fr": "Côte de bœuf, crue",
       "es": "Costilla alta de ternera, cruda",
       "pt": "Acém de vaca, cru",
@@ -323222,7 +323130,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 26088 \"Gilthead seabream, raw, farmed\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Kohlenhydrate sind nur als Spuren angegeben und als 0 g gesetzt.",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 26088 \"Gilthead seabream, raw, farmed\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Kohlenhydrate sind nur als Spuren angegeben und als 0 g gesetzt.",
     "source_id": "Ciqual 2025:26088"
   },
   {
@@ -323464,7 +323372,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 26085 \"Surmullet or red mullet, raw\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Kohlenhydrate sind nur als Spuren angegeben und als 0 g gesetzt.",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 26085 \"Surmullet or red mullet, raw\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Kohlenhydrate sind nur als Spuren angegeben und als 0 g gesetzt.",
     "source_id": "Ciqual 2025:26085"
   },
   {
@@ -323704,7 +323612,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 26103 \"Common dentex, raw\". Kohlenhydrate = verfügbare KH 0.65 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 26103 \"Common dentex, raw\". Kohlenhydrate = verfügbare KH 0.65 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
     "source_id": "Ciqual 2025:26103"
   },
   {
@@ -323752,7 +323660,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 26178 \"Grouper, raw\". Kohlenhydrate = verfügbare KH 0.72 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 26178 \"Grouper, raw\". Kohlenhydrate = verfügbare KH 0.72 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
     "source_id": "Ciqual 2025:26178"
   },
   {
@@ -323800,7 +323708,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 26240 \"Big-scale sand smelt (whole small fish), to fry, raw\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 26240 \"Big-scale sand smelt (whole small fish), to fry, raw\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
     "source_id": "Ciqual 2025:26240"
   },
   {
@@ -323896,7 +323804,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 10039 \"Crab, raw\". Kohlenhydrate = verfügbare KH 0.027 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 10039 \"Crab, raw\". Kohlenhydrate = verfügbare KH 0.027 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
     "source_id": "Ciqual 2025:10039"
   },
   {
@@ -323992,7 +323900,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Nahe Entsprechung, nicht identisch. Kelle (kuzu) ist der Lammkopf. Der Datensatz ist der Kopf vom ausgewachsenen Schaf, nicht vom Lamm. Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 21005 \"Sheep, head, raw\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
+    "source": "Geschätzt (Methode similar_food): Nahe Entsprechung, nicht identisch. Kelle (kuzu) ist der Lammkopf. Der Datensatz ist der Kopf vom ausgewachsenen Schaf, nicht vom Lamm. Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 21005 \"Sheep, head, raw\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
     "derived_from": "Ciqual 2025:21005",
     "method": "similar_food"
   },
@@ -324177,7 +324085,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 2043 \"Apricot nectar\". Kohlenhydrate = verfügbare KH 13.7 g + Ballaststoffe 0.08 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Organische Säuren 0.8 g gehen in der BLS- oder Ciqual-Formel mit 3 kcal/g in die veröffentlichte Energie ein. Kontrolle 4*(KH-BST)+4*P+9*F+2*BST = 55.8 kcal, veröffentlicht 59 kcal, Differenz +3.2 kcal. Der Abstand entspricht in der Größenordnung den organischen Säuren.",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 2043 \"Apricot nectar\". Kohlenhydrate = verfügbare KH 13.7 g + Ballaststoffe 0.08 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Organische Säuren 0.8 g gehen in der BLS- oder Ciqual-Formel mit 3 kcal/g in die veröffentlichte Energie ein. Kontrolle 4*(KH-BST)+4*P+9*F+2*BST = 55.8 kcal, veröffentlicht 59 kcal, Differenz +3.2 kcal. Der Abstand entspricht in der Größenordnung den organischen Säuren.",
     "source_id": "Ciqual 2025:2043"
   },
   {
@@ -324290,7 +324198,8 @@
     "synonyms": [
       "Ice tea seftali",
       "Eistee Pfirsich",
-      "Eistee Zitrone"
+      "Eistee Zitrone",
+      "Ice tea"
     ],
     "cuisine": "int",
     "category": "Getränk",
@@ -324362,7 +324271,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 18352 \"Energy drink, with sugar(s)\". Kohlenhydrate = verfügbare KH 10.2 g + Ballaststoffe 0.11 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Fett ist nur als Spuren angegeben und als 0 g gesetzt.",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 18352 \"Energy drink, with sugar(s)\". Kohlenhydrate = verfügbare KH 10.2 g + Ballaststoffe 0.11 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Fett ist nur als Spuren angegeben und als 0 g gesetzt.",
     "source_id": "Ciqual 2025:18352"
   },
   {
@@ -324456,7 +324365,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 19202 \"Goat milk, whole, raw\". Kohlenhydrate = verfügbare KH 4.01 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 19202 \"Goat milk, whole, raw\". Kohlenhydrate = verfügbare KH 4.01 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
     "source_id": "Ciqual 2025:19202"
   },
   {
@@ -324502,7 +324411,7 @@
       }
     ],
     "quality": "reference",
-    "source": "USDA FoodData Central, FNDDS 2021-2023, FDC ID 2710454: Coffee, instant, pre-lightened and pre-sweetened with sugar, reconstituted.",
+    "source": "USDA FoodData Central, FNDDS 2021-2023 (Survey Foods, Release 2024-10-31), gemeinfrei (CC0 1.0), FDC ID 2710454: Coffee, instant, pre-lightened and pre-sweetened with sugar, reconstituted.",
     "fdc_id": 2710454
   },
   {
