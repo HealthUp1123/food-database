@@ -19,7 +19,7 @@ Ispanak Çorbası | Spinatsuppe türkisch, Spinach soup | S | 0.9 | 1 Schüssel 
 Yoğurtlu Bulgur Çorbası | Bulgursuppe mit Joghurt | S | 0.9 | 1 Schüssel | bulgur 30, joghurt 70, zwiebel 20, butter 8, minze_trocken 1, wasser 200
 Tutmaç Çorbası | Tutmaç Suppe, Nudelteig-Joghurtsuppe | S | 0.9 | 1 Schüssel | mehl 35, joghurt 80, linsen 15, butter 8, minze_trocken 1, wasser 170
 Toyga Çorbası | Toyga Suppe, Joghurt-Weizensuppe Sivas | S | 0.9 | 1 Schüssel | joghurt 80, bulgur 20, ei 10, butter 8, minze_trocken 1, wasser 180
-Analı Kızlı Çorbası | Mutter-Tochter-Suppe, Analı Kızlı | S | 0.9 | 1 Schüssel | kichererbsen 40, bulgur 20, hack 30, zwiebel 25, tomatenmark 8, butter 8, wasser 200
+Analı Kızlı Çorbası | Mutter-Tochter-Suppe, Analı Kızlı, Analı yoğurtlu | S | 0.9 | 1 Schüssel | kichererbsen 40, bulgur 20, hack 30, zwiebel 25, tomatenmark 8, butter 8, wasser 200
 Arabaşı Çorbası | Arabaşı Suppe, Hühnersuppe Malatya, Arabaşı (Yozgat) | S | 0.9 | 1 Schüssel | hahn 60, bulgur 25, mehl 10, butter 10, knoblauch 3, paprikapulver 1, wasser 200
 Ayran Aşı Çorbası | Ayran Aşı, Joghurtsuppe mit Kichererbsen | S | 0.9 | 1 Schüssel | ayran 150, kichererbsen 40, reis 10, minze_trocken 1, ei 10, wasser 60
 Lahana Çorbası | Weißkohlsuppe, Cabbage soup | S | 0.9 | 1 Schüssel | weisskohl 130, kartoffel 30, zwiebel 25, tomatenmark 8, oel 8, wasser 180
@@ -39,7 +39,7 @@ Balık Çorbası | Fischsuppe türkisch, Fish soup | S | 0.9 | 1 Schüssel | fis
 Karides Çorbası | Garnelensuppe, Shrimp soup | S | 0.9 | 1 Schüssel | garnele 70, tomate 40, zwiebel 20, butter 8, sahne 20, mehl 6, wasser 180
 Beyran Çorbası | Beyran Gaziantep, Lammsuppe mit Reis | S | 0.9 | 1 Schüssel | lamm 60, reis 30, knoblauch 6, butter 10, pul_biber 2, wasser 220
 Lebeniye Çorbası | Lebeniye Gaziantep, Joghurtsuppe mit Kichererbsen | S | 0.9 | 1 Schüssel | joghurt 80, kichererbsen 40, reis 15, mehl 6, butter 8, wasser 150
-Yuvalama | Yuvalama Gaziantep, Joghurtsuppe mit Hackbällchen | S | 0.9 | 1 Schüssel | hack 40, reis 15, joghurt 70, kichererbsen 30, mehl 12, butter 8, minze_trocken 1, wasser 150
+Yuvalama | Yuvalama Gaziantep, Joghurtsuppe mit Hackbällchen, Yuvarlama | S | 0.9 | 1 Schüssel | hack 40, reis 15, joghurt 70, kichererbsen 30, mehl 12, butter 8, minze_trocken 1, wasser 150
 Ekşili Köfte | Ekşili Köfte Çorbası, Saure Hackbällchensuppe | S | 0.9 | 1 Schüssel | hack 55, reis 20, zwiebel 20, ei 15, mehl 12, zitrone 12, petersilie 5, butter 6, wasser 220
 Erişte Çorbası | Erişte Suppe, Nudelsuppe mit Hausnudeln | S | 0.9 | 1 Schüssel | mehl 25, ei 10, tomatenmark 8, butter 8, bruehe 220
 Kesme Çorbası | Kesme Suppe, Nudelsuppe Kayseri | S | 0.9 | 1 Schüssel | mehl 25, kichererbsen 30, hack 25, zwiebel 20, tomatenmark 8, butter 8, wasser 200

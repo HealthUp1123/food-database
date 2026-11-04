@@ -116,7 +116,7 @@ Kaymaklı Dondurma | Kaymakli Dondurma, Sahne-Eis | D | 1.0 | 2 Kugeln (100 g) |
 Cevizli Muska | Cevizli Muska Tatlisi, Walnuss-Dreiecke | SW | 0.95 | 3 Stück (100 g) | yufka 25, walnuss 20, butter 12, zucker 35, wasser 10
 İrmik Kurabiyesi | Irmik Kurabiyesi, Grieskekse | G | 0.95 | 3 Stück (60 g) | griess 18, mehl 12, butter 15, zucker 15
 Elmalı Kurabiye | Elmali Kurabiye, Apfelkekse | G | 0.95 | 3 Stück (90 g) | mehl 35, butter 18, apfel 25, zucker 12, zimt 1, walnuss 5
-Hurma Tatlısı | Hurma Tatlisi, Dattelfoermige Sirupkekse | SW | 0.95 | 3 Stück (100 g) | mehl 30, griess 8, oel 12, walnuss 8, zucker 40, wasser 10
+Hurma Tatlısı | Hurma Tatlisi, Dattelfoermige Sirupkekse, Hurmalı tatlı | SW | 0.95 | 3 Stück (100 g) | mehl 30, griess 8, oel 12, walnuss 8, zucker 40, wasser 10
 Aşure Kurabiyesi | Asure Kurabiyesi | G | 0.95 | 3 Stück (60 g) | mehl 25, butter 15, rosinen 8, walnuss 6, zucker 10
 Pekmezli Kurabiye | Pekmezli Kurabiye, Traubensirup-Kekse | G | 0.95 | 3 Stück (60 g) | mehl 30, pekmez 15, oel 12, walnuss 5, zimt 1
 Sucuklu Tost | Sucuklu Tost, Toast mit Sucuk | SN | 0.95 | 1 Stück (180 g) | weissbrot 80, sucuk 40, kasar 40, butter 8

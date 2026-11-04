@@ -20,7 +20,7 @@ Terbiyeli Tavuk | Hähnchen mit Eigelb-Zitronensauce | HG | 0.85 | 1 Portion | h
 Etli Bulgur Köftesi | Gefüllte Bulgurbällchen mit Fleisch | KF | 0.95 | 1 Portion | bulgur 70, hack 70, zwiebel 40, mehl 10, oel 12, paprikamark 8
 Yoğurtlu Bulgur Köftesi | Bulgurköfte mit Joghurt | KF | 0.95 | 1 Portion | bulgur 70, joghurt 100, hack 40, zwiebel 20, butter 10
 Çibörek | Cibörek, Gefüllte Teigtasche gebraten, Fried meat pie | BO | 0.8 | 1 Stück | mehl 80, hack 80, zwiebel 20, oel 30, wasser 40
-Kabak Kalye | Kabak Kalye, Zucchini-Gericht, Squash with tomatoes | GZ | 0.85 | 1 Portion | zucchini 200, tomate 80, zwiebel 30, oel 15
+Kabak Kalye | Kabak Kalye, Zucchini-Gericht, Squash with tomatoes, Kabak yemeği | GZ | 0.85 | 1 Portion | zucchini 200, tomate 80, zwiebel 30, oel 15
 Pazı Kavurma | Mangold-Pfanne, Chard sauté | GZ | 0.85 | 1 Portion | mangold 200, zwiebel 40, reis 10, oel 15, tomatenmark 5
 Ispanak Kavurma | Spinat-Pfanne | GZ | 0.85 | 1 Portion | spinat 220, zwiebel 40, oel 15, tomatenmark 5
 Lahana Kavurma | Kohl-Pfanne | GZ | 0.85 | 1 Portion | weisskohl 220, zwiebel 40, tomatenmark 8, oel 15

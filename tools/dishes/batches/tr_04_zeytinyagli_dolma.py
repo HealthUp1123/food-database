@@ -22,7 +22,7 @@ Zeytinyağlı Kuru Fasulye | Weiße Bohnen in Olivenöl | GZ | 0.95 | 1 Portion 
 Zeytinyağlı Kuşkonmaz | Spargel in Olivenöl | GZ | 0.9 | 1 Portion | spargel 220, olivenoel 12, zitrone 6, knoblauch 2
 Zeytinyağlı Ebegümeci | Malvenblätter in Olivenöl, Mallow in olive oil | GZ | 0.88 | 1 Portion | wildkraut 250, zwiebel 30, reis 10, olivenoel 14, wasser 40
 Zeytinyağlı Radika | Radika, Löwenzahn in Olivenöl, Wild greens in olive oil | GZ | 0.9 | 1 Portion | wildkraut 220, olivenoel 14, zitrone 8
-Zeytinyağlı Karalahana | Schwarzkohl in Olivenöl | GZ | 0.88 | 1 Portion | karalahana 220, zwiebel 20, maismehl 8, olivenoel 14, wasser 60
+Zeytinyağlı Karalahana | Schwarzkohl in Olivenöl, Mısır unlu pancar, Schwarzkohl mit Maismehl | GZ | 0.88 | 1 Portion | karalahana 220, zwiebel 20, maismehl 8, olivenoel 14, wasser 60
 Zeytinyağlı Patates | Kartoffeln in Olivenöl | GZ | 0.88 | 1 Portion | kartoffel 220, zwiebel 30, tomate 40, olivenoel 14, wasser 60
 Zeytinyağlı Biber (Kızarmış) | Gebratene Paprika in Olivenöl | V | 0.88 | 1 Portion | sivri 180, olivenoel 14, knoblauch 3, essig 5, tomate 30
 Fava | Fava, Bohnenpüree Ägäis, Broad bean puree | V | 0.95 | 1 Portion | dicke_bohnen 160, zwiebel 20, olivenoel 14, dill 4, zitrone 6, zucker 2
