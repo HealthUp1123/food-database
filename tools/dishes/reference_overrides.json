@@ -1,0 +1,93 @@
+[
+  {
+    "id": "lahmacun",
+    "per100g": {
+      "kcal": 218,
+      "protein": 9.7,
+      "carbs": 24.6,
+      "fat": 9.4,
+      "fiber": 2.6,
+      "sugar": 1.9
+    },
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code Y9A1070 \"Türkische Pizza (Lahmacun) ungefüllt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 22 g + Ballaststoffe 2.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe aus FIBT, weil FIBLMW leer oder 0 ist.",
+    "source_id": "BLS 4.0:Y9A1070",
+    "note": "Generisches Gericht (Nährwerte für das ganze Gericht aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Haushaltsportion, weil die Quelle keine eigene nennt."
+  },
+  {
+    "id": "ayran-glas",
+    "per100g": {
+      "kcal": 39,
+      "protein": 2.3,
+      "carbs": 2.7,
+      "fat": 2.0,
+      "fiber": 0.0,
+      "sugar": 2.7
+    },
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code M2S8300 \"Ayran, Joghurtgetränk, gesalzen\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.69 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe aus FIBT, weil FIBLMW leer oder 0 ist.",
+    "source_id": "BLS 4.0:M2S8300",
+    "note": "Generisches Getränk (Nährwerte aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Glasmenge (Dichte etwa 1 g/ml), weil die Quelle keine eigene nennt."
+  },
+  {
+    "id": "visne-suyu",
+    "per100g": {
+      "kcal": 62,
+      "protein": 0.8,
+      "carbs": 13.0,
+      "fat": 0.4,
+      "fiber": 0.1,
+      "sugar": 12.0
+    },
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code F212600 \"Sauerkirschsaft\". Datensatz der Datenbank (Tabellenwert). Datenherkunft laut Quelle: Protein, Fett und Ballaststoffe aus der Rezeptberechnung, Energie und verfügbare Kohlenhydrate aus der Formelberechnung. Kohlenhydrate = verfügbare KH 12.853 g + Ballaststoffe 0.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe aus FIBT, weil FIBLMW leer oder 0 ist.",
+    "source_id": "BLS 4.0:F212600",
+    "note": "Generisches Getränk (Nährwerte aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Glasmenge (Dichte etwa 1 g/ml), weil die Quelle keine eigene nennt."
+  },
+  {
+    "id": "lokum",
+    "per100g": {
+      "kcal": 295,
+      "protein": 0.6,
+      "carbs": 77.9,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 68.6
+    },
+    "quality": "reference",
+    "source": "Public Health England (2021): McCance and Widdowson's The Composition of Foods Integrated Dataset (CoFID) 2021, Open Government Licence v3.0; Code 17-122 \"Turkish delight, without nuts\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Reviewed 2013. MW5, 1991). Kohlenhydrate = verfügbare KH 77.9 g + Ballaststoffe 0 g (AOAC-Faser laut CoFID 0 g), an USDA-Gesamt-KH angeglichen, kcal wie veröffentlicht. CoFID rechnet verfügbare Kohlenhydrate mit 3.75 kcal/g; die Gegenprobe mit 4 kcal/g ergibt 314 kcal.",
+    "source_id": "CoFID 2021:17-122",
+    "note": "Generisches Gericht (Nährwerte für das ganze Gericht aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Haushaltsportion, weil die Quelle keine eigene nennt."
+  },
+  {
+    "id": "irmik-helvasi",
+    "per100g": {
+      "kcal": 342,
+      "protein": 2.2,
+      "carbs": 49.8,
+      "fat": 16.7,
+      "fiber": 0.7,
+      "sugar": 37.6
+    },
+    "quality": "estimate",
+    "source": "Public Health England (2021): McCance and Widdowson's The Composition of Foods Integrated Dataset (CoFID) 2021, Open Government Licence v3.0; Code 17-799 \"Halva, semolina, homemade\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Updated 2014). Kohlenhydrate = verfügbare KH 49.1 g + Ballaststoffe 0.7 g (an USDA-Gesamt-KH angeglichen). CoFID NSP 0,5 g; AOAC geschätzt ×1,33 (0.665 g, gerundet 0.7 g). AOAC-Faser fehlt in CoFID (Angabe N). NSP ist kein AOAC-Wert. Faktor 1.33 ist der Median AOAC/NSP von 1.31 über 904 CoFID-Lebensmittel mit beiden Werten, auf 4/3 gerundet. Die übrigen Nährwerte sind CoFID. kcal wie veröffentlicht. CoFID rechnet verfügbare Kohlenhydrate mit 3.75 kcal/g; die Gegenprobe mit 4 kcal/g verfügbaren Kohlenhydraten und 2 kcal/g Ballaststoffen ergibt 356.9 kcal.",
+    "source_id": "CoFID 2021:17-799",
+    "note": "Generisches Gericht (Nährwerte für das ganze Gericht aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Haushaltsportion, weil die Quelle keine eigene nennt. CoFID NSP 0,5 g; AOAC geschätzt ×1,33."
+  },
+  {
+    "id": "yaprak-sarma-etli",
+    "per100g": {
+      "kcal": 228,
+      "protein": 8.2,
+      "carbs": 11.3,
+      "fat": 17.0,
+      "fiber": 3.1,
+      "sugar": 2.5
+    },
+    "quality": "reference",
+    "source": "USDA FoodData Central, FNDDS 2021-2023 (Survey Foods, Release 2024-10-31), gemeinfrei (CC0 1.0), FDC ID 2706621: Stuffed grape leaves with beef and rice. Kohlenhydrate = verfügbare KH 8.2 g + Ballaststoffe 3.1 g (USDA Fiber, total dietary, AOAC; Gesamtwert gleich Carbohydrate, by difference 11.3 g), kcal wie veröffentlicht.",
+    "source_id": "FDC:2706621",
+    "fdc_id": 2706621,
+    "note": "Generisches Gericht (Nährwerte für das ganze Gericht aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Haushaltsportion (6 Stück, 230 g). FNDDS nennt zusätzlich 1 Rolle = 21 g und eine unspezifizierte Menge von 202 g."
+  }
+]

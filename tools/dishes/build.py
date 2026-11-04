@@ -143,8 +143,8 @@ def main():
         if pk < 15 and cat != 'GT': reasons.append(f'Portion nur {pk:.0f} kcal')
         if reasons: flags.append(f'{e["id"]}: ' + '; '.join(reasons))
     recipes = [d[0] for d in dishes]
-    apply_reference_overrides(recipes)
-    out = assemble_bestand(recipes)
+    overridden = apply_reference_overrides(recipes)
+    out = assemble_bestand(recipes, overridden)
     text = json.dumps(out, ensure_ascii=False, indent=2) + '\n'
     open(os.path.join(HERE,'foods.json'),'w',encoding='utf8').write(text)
     json.dump([dict(key=k, name=v['name'], per100g={f:v[f] for f in ('kcal','protein','carbs','fat','fiber')}) for k,v in ing.items()],
@@ -161,30 +161,46 @@ def main():
     for x in flags[:25]: print('FLAG', x)
     return 1 if errors else 0
 
-def apply_reference_overrides(recipes):
-    """Optionale Liste im Format aus PR #15. Fehlt die Datei, passiert nichts.
+# Felder, die ein Override in einen bestehenden Eintrag schreiben darf.
+# ingredients gehört nicht dazu: die Liste ersetzt Nährwerte, nicht die Rezeptzeilen.
+OVERRIDE_FIELDS = {'per100g', 'quality', 'source', 'source_id', 'source_missing', 'names', 'fdc_id', 'note'}
+OVERRIDE_REQUIRED = ('per100g', 'quality', 'source', 'source_id')
 
-    Jedes Objekt hat id, per100g, quality, source und source_id.
-    Optional gelesen werden source_missing, names, note und fdc_id.
-    Die Datei wird hier nicht angelegt: die Referenzwerte des heutigen Bestands
-    stehen schon in data/foods.json und werden von assemble_bestand übernommen.
+def apply_reference_overrides(recipes):
+    """Liste im Format aus PR #15. Fehlt die Datei, passiert nichts.
+
+    Pflicht je Objekt: id, per100g, quality, source, source_id.
+    Optional und mitgelesen: source_missing, names, fdc_id, note.
+    Abbruch bei einem Objekt statt einer Liste, bei fehlender id,
+    doppelter id, unbekannter id und fehlenden Pflichtfeldern.
+    ingredients bleiben unangetastet.
+
+    source_id wird immer gelesen. yaprak-sarma-etli trägt in der Liste
+    source_id "FDC:2706621", weil das Format das Feld verlangt, und
+    zusätzlich fdc_id 2706621. In data/foods.json steht dieselbe Nummer
+    nur in fdc_id, wie bei den anderen USDA-Zeilen. assemble_bestand
+    hängt source_id deshalb nicht an, wenn der Bestand das Feld nicht hat.
     """
     path = os.path.join(HERE, 'reference_overrides.json')
     if not os.path.exists(path):
-        return
+        return set()
     overrides = json.load(open(path, encoding='utf-8'))
     if not isinstance(overrides, list):
         raise SystemExit('reference_overrides.json muss eine Liste sein (Format aus PR #15)')
     by_id = {e['id']: e for e in recipes}
+    seen = set()
     for o in overrides:
-        if not isinstance(o, dict) or 'id' not in o:
+        if not isinstance(o, dict) or not isinstance(o.get('id'), str) or not o['id']:
             raise SystemExit('reference_overrides.json: Eintrag ohne id')
+        if o['id'] in seen:
+            raise SystemExit(f'reference_overrides.json: doppelte id {o["id"]}')
+        seen.add(o['id'])
         e = by_id.get(o['id'])
         if e is None:
             raise SystemExit(f'reference_overrides.json: id {o["id"]} kommt in den Batches nicht vor')
-        for k in ('per100g', 'quality', 'source', 'source_id'):
-            if k not in o:
-                raise SystemExit(f'reference_overrides.json: {o["id"]} ohne Feld {k}')
+        missing = [k for k in OVERRIDE_REQUIRED if k not in o]
+        if missing:
+            raise SystemExit(f'reference_overrides.json: {o["id"]} ohne Feld {", ".join(missing)}')
         e['per100g'] = o['per100g']
         e['quality'] = o['quality']
         e['source'] = o['source']
@@ -193,13 +209,14 @@ def apply_reference_overrides(recipes):
             e['source_missing'] = o['source_missing']
         if o.get('names'):
             e['names'] = o['names']
+        if 'fdc_id' in o and o['fdc_id'] is not None:
+            e['fdc_id'] = o['fdc_id']
         if o.get('note'):
             e['note'] = o['note']
-        if o.get('fdc_id'):
-            e['fdc_id'] = o['fdc_id']
-    print(f'Referenz-Overrides angewendet: {len(overrides)}')
+    print(f'Referenz-Overrides angewendet: {len(seen)}')
+    return seen
 
-def assemble_bestand(recipes):
+def assemble_bestand(recipes, overridden=()):
     """Rezeptkerne aus den Batches, alles andere aus data/foods.json.
 
     Die Datei ist die Bestandsquelle für Grundzutaten, Referenz- und
@@ -210,11 +227,17 @@ def assemble_bestand(recipes):
     berechneten Werte, die übrigen Felder bleiben. Einträge ohne Rezept
     (auch spätere Ergänzungen) werden unverändert übernommen. Neue Rezept-IDs
     werden angehängt. Es wird kein Nährwert, kein Name und keine ID erfunden.
+
+    Overrides schreiben nur OVERRIDE_FIELDS und nur, wenn der Bestand das
+    Feld schon führt. ingredients bleiben die des Bestands, nicht die
+    Batch-Rezeptur. source_id von yaprak-sarma-etli ("FDC:2706621") fällt
+    damit weg: veröffentlicht ist dort fdc_id.
     """
     path = os.path.normpath(os.path.join(HERE, '..', '..', 'data', 'foods.json'))
     bestand = json.load(open(path, encoding='utf-8'))
     if not isinstance(bestand, list):
         raise SystemExit('data/foods.json muss ein Array sein')
+    overridden = set(overridden or ())
     by_gen = {e['id']: e for e in recipes}
     out, used = [], set()
     for entry in bestand:
@@ -223,19 +246,27 @@ def assemble_bestand(recipes):
             out.append(entry)
             continue
         used.add(entry['id'])
-        if all(gen[k] == entry.get(k) for k in gen):
+        if entry['id'] not in overridden and all(gen[k] == entry.get(k) for k in gen):
             out.append(entry)
             continue
         merged = {}
         for k, v in entry.items():
-            merged[k] = gen[k] if k in gen else v
-        for k, v in gen.items():
-            if k not in merged:
+            if entry['id'] in overridden and k == 'ingredients':
                 merged[k] = v
+            elif entry['id'] in overridden and k in OVERRIDE_FIELDS and k in gen and gen[k] != v:
+                merged[k] = gen[k]
+            elif entry['id'] not in overridden and k in gen:
+                merged[k] = gen[k]
+            else:
+                merged[k] = v
+        if entry['id'] not in overridden:
+            for k, v in gen.items():
+                if k not in merged:
+                    merged[k] = v
         out.append(merged)
     for e in recipes:
         if e['id'] not in used:
-            out.append(e)
+            out.append(dict(e))
     return out
 
 if __name__ == '__main__': sys.exit(main())

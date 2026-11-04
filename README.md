@@ -320,11 +320,21 @@ Rezepttexte und die Zutaten-Referenz liegen unter `tools/dishes/` (`build.py`, `
 python3 build.py
 ```
 
-Das schreibt dort `foods.json`, eine aktualisierte `ingredients.json` und `build_report.txt`. Die Rezeptgerichte kommen aus den Batches. Grundzutaten, Referenzeinträge und die Zusatzfelder (`names`, `prepared`, `is_packaged_product` und weitere) übernimmt der Build aus dem Bestand `data/foods.json`, damit ein Neubau sie nicht verwirft. `data/foods.json` wird dabei nicht überschrieben. Liegt `tools/dishes/reference_overrides.json`, muss sie eine Liste im Format aus PR #15 sein (`id`, `per100g`, `quality`, `source`, `source_id`). Nicht committen: `build_report.txt`, `tools/dishes/foods.json`, `__pycache__/`, `*.log`, `off_dump/`, `off_check_cache.sqlite`, `off_check_status*.json`, `*.duckdb`.
+Das schreibt `tools/dishes/foods.json`, eine aktualisierte `ingredients.json` und `build_report.txt`. Die App-Datei ist `data/foods.json`. Der Build liest sie als Bestand (Grundzutaten, Referenzen, `names`, `prepared`, `is_packaged_product` und weitere) und überschreibt sie nicht. Liegt `tools/dishes/reference_overrides.json`, muss sie eine Liste im Format aus PR #15 sein (`id`, `per100g`, `quality`, `source`, `source_id`; optional `fdc_id` und `note`). Overrides ersetzen keine Zutatenlisten.
+
+Danach der OFF-Abgleich, im Verzeichnis `tools/dishes` (`tools/off_check.py`, Einzelheiten in `BUILD_NOTES.md`):
+
+```bash
+cp foods.json foods_before_off.json
+python3 tools/off_check.py check --backend dump --input foods_before_off.json
+python3 tools/off_check.py apply --input foods_before_off.json --out foods.json --removed removed_in_off.json --backends api,dump
+```
+
+Erst die geprüfte `tools/dishes/foods.json` nach `data/foods.json` kopieren, dann `npm test`. Nicht committen: `build_report.txt`, `tools/dishes/foods.json`, `foods_before_off.json`, `__pycache__/`, `*.log`, `off_dump/`, `off_check_cache.sqlite`, `off_check_status*.json`, `*.duckdb`.
 
 ## Schutztest
 
-`npm test` führt am Ende `node scripts/guard-foods.mjs` aus. Das Skript startet `python3 tools/dishes/build.py` und vergleicht `tools/dishes/foods.json` mit `data/foods.json`. Es schlägt an, wenn der Build eine ID aus dem Bestand verliert, wenn `names.de`, `names.tr` oder `names.en` fehlen oder leer sind, oder wenn ein Pflichtfeld fehlt: `per100g.kcal`, Kohlenhydrate (`carbs`), Eiweiß (`protein`), Fett (`fat`), Ballaststoffe (`fiber`), `is_packaged_product`, `synonyms`. Zusätzlich darf die Zahl der Einträge in `data/foods.json` nicht unter `minEntries` in `data/min-entries.json` fallen. Diese Zahl wird nur bewusst geändert. Neue Einträge sind erlaubt; der Test prüft Verlust, nicht Gleichheit.
+`npm test` führt am Ende `node scripts/guard-foods.mjs` aus. Das Skript startet `python3 tools/dishes/build.py` und vergleicht `tools/dishes/foods.json` mit `data/foods.json`, Eintrag für Eintrag. Es schlägt an, wenn eine ID aus dem Bestand im Build fehlt, wenn `names` oder `synonyms` schrumpfen, wenn `prepared` oder `is_packaged_product` abweicht, oder wenn `kcal` oder die Makros (Eiweiß, Kohlenhydrate, Fett, Ballaststoffe, dazu Zucker und Alkohol, soweit vorhanden) abweichen. Zusätzlich dürfen `names.de`, `names.tr` und `names.en` nicht leer sein, und die Zahl der Einträge in `data/foods.json` darf nicht unter `minEntries` in `data/min-entries.json` fallen. Diese Zahl wird nur bewusst geändert. Neue Einträge sind erlaubt.
 
 ## Roadmap
 
