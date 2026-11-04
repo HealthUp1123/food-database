@@ -2,13 +2,7 @@
   "comment": "Gewollte Abweichungen gegenüber der Git-Basis. Standardmäßig leer. Jede Zeile braucht eine Begründung. prepared und isPackagedProduct brauchen from und to. Eine Freigabe, die der Diff nicht braucht, macht den Test rot und muss weg, sobald sie auf main verbraucht ist.",
   "delete": [],
   "rename": [],
-  "dropSynonym": [
-    {
-      "id": "doner-kebap-porsiyon",
-      "synonym": "Et döner",
-      "reason": "Et döner ist der türkische Name der Grundzutat doner-fleisch, nicht des Tellers. Die Batchzeile in tools/dishes/batches/tr_02_kebap.py nennt das Synonym deshalb nicht mehr."
-    }
-  ],
+  "dropSynonym": [],
   "prepared": [],
   "isPackagedProduct": []
 }

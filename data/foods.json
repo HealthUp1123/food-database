@@ -304382,7 +304382,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 20282 \"Asparagus, white or purple, peeled, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.62 g + Ballaststoffe 2.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 20282 \"Asparagus, white or purple, peeled, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.62 g + Ballaststoffe 2.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:20282"
   },
   {
@@ -304427,7 +304427,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 20277 \"Asparagus, white, boiled/cooked in water\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.63 g + Ballaststoffe 1.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 20277 \"Asparagus, white, boiled/cooked in water\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual-Tabellenwert). Kohlenhydrate = verfügbare KH 1.63 g + Ballaststoffe 1.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:20277"
   },
   {
@@ -311887,7 +311887,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Kaşar ist ein halbfester Filata-Käse aus Kuhmilch; ähnlichstes frei verfügbares Lebensmittel ist Provolone aus Kuhmilch (ebenfalls Pasta filata). Werte unverändert übernommen (Methode similar_food); echter Kaşar kann je nach Reife/Fettstufe abweichen. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 12716 \"Provolone cheese, from cow's milk\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Geschätzt (Methode similar_food): Kaşar ist ein halbfester Filata-Käse aus Kuhmilch; ähnlichstes frei verfügbares Lebensmittel ist Provolone aus Kuhmilch (ebenfalls Pasta filata). Werte unverändert übernommen (Methode similar_food); echter Kaşar kann je nach Reife/Fettstufe abweichen. Referenz: Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 12716 \"Provolone cheese, from cow's milk\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "derived_from": "Ciqual 2025:12716",
     "method": "similar_food"
   },
@@ -311935,7 +311935,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Pastırma ist luftgetrocknetes, gepökeltes Rindfleisch; ähnlichstes frei verfügbares Lebensmittel ist Bresaola (luftgetrocknetes Rindfleisch). Werte unverändert übernommen (Methode similar_food); die Çemen-Würzkruste ist nicht berücksichtigt. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 28503 \"Bresaola\". Kohlenhydrate = verfügbare KH 0.49 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Geschätzt (Methode similar_food): Pastırma ist luftgetrocknetes, gepökeltes Rindfleisch; ähnlichstes frei verfügbares Lebensmittel ist Bresaola (luftgetrocknetes Rindfleisch). Werte unverändert übernommen (Methode similar_food); die Çemen-Würzkruste ist nicht berücksichtigt. Referenz: Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 28503 \"Bresaola\". Kohlenhydrate = verfügbare KH 0.49 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "derived_from": "Ciqual 2025:28503",
     "method": "similar_food"
   },
@@ -312082,7 +312082,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Yufka ist ein dünn ausgerollter Mehl-Wasser-Teig, ähnlich Filo/Phyllo; Werte von Ciqual \"Phyllo or filo dough, raw\" übernommen (Methode similar_food). Yufka ist etwas dicker; Fettgehalt hängt vom Hersteller ab. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 23445 \"Phyllo or filo dough, raw\". Kohlenhydrate = verfügbare KH 50.7 g + Ballaststoffe 1.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Geschätzt (Methode similar_food): Yufka ist ein dünn ausgerollter Mehl-Wasser-Teig, ähnlich Filo/Phyllo; Werte von Ciqual \"Phyllo or filo dough, raw\" übernommen (Methode similar_food). Yufka ist etwas dicker; Fettgehalt hängt vom Hersteller ab. Referenz: Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 23445 \"Phyllo or filo dough, raw\". Kohlenhydrate = verfügbare KH 50.7 g + Ballaststoffe 1.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "derived_from": "Ciqual 2025:23445",
     "method": "similar_food"
   },
@@ -316453,7 +316453,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 9125 \"Rice, basmati, cooked, no added salt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 32.9 g + Ballaststoffe 0.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 9125 \"Rice, basmati, cooked, no added salt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 32.9 g + Ballaststoffe 0.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:9125"
   },
   {
@@ -316494,7 +316494,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 9119 \"Rice, basmati, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 78.4 g + Ballaststoffe 1.06 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 9119 \"Rice, basmati, raw\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 78.4 g + Ballaststoffe 1.06 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:9119"
   },
   {
@@ -316785,7 +316785,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 25565 \"Yakitori (grilled meat on skewers, Japanese-style, with sauce)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 9.3 g + Ballaststoffe 0.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 25565 \"Yakitori (grilled meat on skewers, Japanese-style, with sauce)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 9.3 g + Ballaststoffe 0.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:25565"
   },
   {
@@ -316830,7 +316830,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Lizenz CC BY 4.0; Code 25419 \"Spring roll\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 16.6 g + Ballaststoffe 1.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 25419 \"Spring roll\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Ciqual). Kohlenhydrate = verfügbare KH 16.6 g + Ballaststoffe 1.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "Ciqual 2025:25419"
   },
   {
