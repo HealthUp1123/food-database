@@ -324972,7 +324972,7 @@
     "method": "similar_food"
   },
   {
-    "id": "rec-551",
+    "id": "balik-bugulama",
     "name": "Balık Buğulama",
     "names": {
       "de": "Gedünsteter Fisch",
@@ -325045,7 +325045,7 @@
     "note": "Fischart im Rezept nicht festgelegt. Zutat fisch_mager (magerer Weißfisch)."
   },
   {
-    "id": "rec-552",
+    "id": "firinda-levrek",
     "name": "Fırında Levrek",
     "names": {
       "de": "Wolfsbarsch aus dem Ofen",
@@ -325113,7 +325113,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-553",
+    "id": "kagitta-levrek",
     "name": "Kağıtta Levrek",
     "names": {
       "de": "Wolfsbarsch in Pergament",
@@ -325181,7 +325181,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-554",
+    "id": "tuzda-balik",
     "name": "Tuzda Balık",
     "names": {
       "de": "Fisch in Salzkruste",
@@ -325242,7 +325242,7 @@
     "note": "Essbare Portion. Die Salzkruste wird nicht mitgegessen. Zutat fisch_mager (magerer Weißfisch)."
   },
   {
-    "id": "rec-555",
+    "id": "domates-salatalik",
     "name": "Domates Salatalık",
     "names": {
       "de": "Tomate und Gurke in Scheiben",
@@ -325298,7 +325298,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-556",
+    "id": "fistikli-yogurt",
     "name": "Fıstıklı Yoğurt",
     "names": {
       "de": "Joghurt mit Pistazien",
@@ -325350,7 +325350,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-557",
+    "id": "dil-salatasi",
     "name": "Dil Salatası",
     "names": {
       "de": "Zungensalat",
@@ -325414,7 +325414,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-558",
+    "id": "kabak-siyirma",
     "name": "Kabak Sıyırma",
     "names": {
       "de": "Zucchini-Joghurt-Meze",
@@ -325474,7 +325474,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-559",
+    "id": "kozlenmis-biber-yogurtlu",
     "name": "Közlenmiş Biber Yoğurtlu",
     "names": {
       "de": "Geröstete Paprika mit Joghurt",
@@ -325534,7 +325534,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-560",
+    "id": "antakya-humusu",
     "name": "Antakya Humusu",
     "names": {
       "de": "Hatay-Hummus",
@@ -325606,7 +325606,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-561",
+    "id": "kremali-tavuk-corbasi",
     "name": "Kremalı Tavuk Çorbası",
     "names": {
       "de": "Hühnercremesuppe",
@@ -325674,7 +325674,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-562",
+    "id": "kuzu-kuyruk-corbasi",
     "name": "Kuzu Kuyruk Çorbası",
     "names": {
       "de": "Lammschwanzsuppe",
@@ -325742,7 +325742,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-563",
+    "id": "eksili-corba",
     "name": "Ekşili Çorba",
     "names": {
       "de": "Saure Linsensuppe",
@@ -325814,7 +325814,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-564",
+    "id": "coban-kavurma",
     "name": "Çoban Kavurma",
     "names": {
       "de": "Çoban Kavurma",
@@ -325878,7 +325878,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-565",
+    "id": "salcali-makarna",
     "name": "Salçalı Makarna",
     "names": {
       "de": "Nudeln mit Tomatenmark",
@@ -325942,7 +325942,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-566",
+    "id": "ozbek-pilavi",
     "name": "Özbek Pilavı",
     "names": {
       "de": "Usbekischer Pilaw",
@@ -326014,7 +326014,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-567",
+    "id": "karisik-dolma",
     "name": "Karışık Dolma",
     "names": {
       "de": "Gefülltes Gemüse mit Fleisch",
@@ -326095,7 +326095,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-568",
+    "id": "dalyan-kofte",
     "name": "Dalyan Köfte",
     "names": {
       "de": "Dalyan Köfte",
@@ -326167,7 +326167,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-569",
+    "id": "zeytinyagli-patlican",
     "name": "Zeytinyağlı Patlıcan",
     "names": {
       "de": "Aubergine in Olivenöl",
@@ -326235,7 +326235,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-570",
+    "id": "zeytinyagli-havuc",
     "name": "Zeytinyağlı Havuç",
     "names": {
       "de": "Karotten in Olivenöl",
@@ -326299,7 +326299,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-571",
+    "id": "kasik-salatasi",
     "name": "Kaşık Salatası",
     "names": {
       "de": "Kaşık-Salat",
@@ -326371,7 +326371,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-572",
+    "id": "tursu-salatasi",
     "name": "Turşu Salatası",
     "names": {
       "de": "Salat aus Salzgemüse",
@@ -326435,7 +326435,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-573",
+    "id": "nar-eksili-salata",
     "name": "Nar Ekşili Salata",
     "names": {
       "de": "Salat mit Granatapfelsirup",
@@ -326507,7 +326507,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-574",
+    "id": "tavuk-iskender",
     "name": "Tavuk İskender",
     "names": {
       "de": "Hähnchen-İskender",
@@ -326575,7 +326575,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-575",
+    "id": "ali-pasa-kebabi",
     "name": "Ali Paşa Kebabı",
     "names": {
       "de": "Ali-Paşa-Kebap",
@@ -326647,7 +326647,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-576",
+    "id": "pizza-karisik",
     "name": "Pizza Karışık",
     "names": {
       "de": "Pizza gemischt",
@@ -326715,7 +326715,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-577",
+    "id": "patso",
     "name": "Patso",
     "names": {
       "de": "Patso",
@@ -326774,7 +326774,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-578",
+    "id": "tavuklu-nohutlu-pilav",
     "name": "Tavuklu Nohutlu Pilav",
     "names": {
       "de": "Reis mit Hähnchen und Kichererbsen",
@@ -326833,7 +326833,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-579",
+    "id": "etli-nohutlu-pilav",
     "name": "Etli Nohutlu Pilav",
     "names": {
       "de": "Reis mit Fleisch und Kichererbsen",
@@ -326896,7 +326896,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-580",
+    "id": "et-haslama",
     "name": "Et Haşlama",
     "names": {
       "de": "Gekochtes Rind mit Gemüse",
@@ -326956,7 +326956,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-581",
+    "id": "sumakli-sogan",
     "name": "Sumaklı Soğan",
     "names": {
       "de": "Zwiebeln mit Sumach",
@@ -327016,7 +327016,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-582",
+    "id": "kadayifli-karides",
     "name": "Kadayıflı Karides",
     "names": {
       "de": "Garnelen im Kadayıf",
@@ -327072,7 +327072,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-583",
+    "id": "pastirmali-humus",
     "name": "Pastırmalı Humus",
     "names": {
       "de": "Hummus mit Pastırma",
@@ -327140,7 +327140,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-584",
+    "id": "pamuk-seker",
     "name": "Pamuk Şeker",
     "names": {
       "de": "Zuckerwatte",
@@ -327184,7 +327184,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-585",
+    "id": "macun-sekeri",
     "name": "Macun Şekeri",
     "names": {
       "de": "Macun",
@@ -327240,7 +327240,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-586",
+    "id": "sultanahmet-kofte",
     "name": "Sultanahmet Köfte",
     "names": {
       "de": "Sultanahmet Köfte",
@@ -327308,7 +327308,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-587",
+    "id": "kasap-kofte",
     "name": "Kasap Köfte",
     "names": {
       "de": "Metzger-Köfte",
@@ -327376,7 +327376,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-588",
+    "id": "eksi-mayali-ekmek",
     "name": "Ekşi Mayalı Ekmek",
     "names": {
       "de": "Sauerteigbrot",
@@ -327428,7 +327428,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-589",
+    "id": "trabzon-ekmegi",
     "name": "Trabzon Ekmeği",
     "names": {
       "de": "Trabzon-Brot",
@@ -327488,7 +327488,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-590",
+    "id": "vakfikebir-ekmegi",
     "name": "Vakfıkebir Ekmeği",
     "names": {
       "de": "Vakfıkebir-Brot",
@@ -327544,7 +327544,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-591",
+    "id": "tandir-ekmegi",
     "name": "Tandır Ekmeği",
     "names": {
       "de": "Tandır-Brot",
@@ -327604,7 +327604,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-592",
+    "id": "gilik",
     "name": "Gilik",
     "names": {
       "de": "Gilik-Fladen",
@@ -327659,7 +327659,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-593",
+    "id": "hamursuz",
     "name": "Hamursuz",
     "names": {
       "de": "Ungesäuertes Fladenbrot",
@@ -327714,7 +327714,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-594",
+    "id": "saray-boregi",
     "name": "Saray Böreği",
     "names": {
       "de": "Saray Böreği",
@@ -327774,7 +327774,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-595",
+    "id": "kandil-kurabiyesi",
     "name": "Kandil Kurabiyesi",
     "names": {
       "de": "Kandil-Kekse",
@@ -327833,7 +327833,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-596",
+    "id": "susamli-kurabiye",
     "name": "Susamlı Kurabiye",
     "names": {
       "de": "Sesamkekse",
@@ -327893,7 +327893,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-597",
+    "id": "kakaolu-kurabiye",
     "name": "Kakaolu Kurabiye",
     "names": {
       "de": "Kakaokekse",
@@ -327952,68 +327952,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-598",
-    "name": "Çubuk Kraker",
-    "names": {
-      "de": "Salzstangen",
-      "en": "Bread sticks",
-      "tr": "Çubuk Kraker",
-      "fr": "Gressins",
-      "es": "Palitos de pan",
-      "pt": "Palitos de pão",
-      "it": "Grissini",
-      "zh": "咸味面包棒"
-    },
-    "type": "dish",
-    "barcode": null,
-    "synonyms": [
-      "Cubuk Kraker",
-      "Salzstangen",
-      "Bread sticks",
-      "Gevrek cubuk kraker"
-    ],
-    "cuisine": "tr",
-    "category": "Kleingebäck/Gebäck herzhaft",
-    "prepared": "restaurant",
-    "is_packaged_product": false,
-    "per100g": {
-      "kcal": 305,
-      "protein": 6.3,
-      "carbs": 45.1,
-      "fat": 10.7,
-      "fiber": 2.0
-    },
-    "portion": {
-      "label": "1 Portion",
-      "grams": 80
-    },
-    "ingredients": [
-      {
-        "name": "Weizenmehl",
-        "grams": 50
-      },
-      {
-        "name": "Wasser",
-        "grams": 28
-      },
-      {
-        "name": "Sonnenblumenöl",
-        "grams": 8
-      },
-      {
-        "name": "Salz",
-        "grams": 2
-      },
-      {
-        "name": "Hefe",
-        "grams": 1
-      }
-    ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
-  },
-  {
-    "id": "rec-599",
+    "id": "muffin",
     "name": "Muffin",
     "names": {
       "de": "Muffin",
@@ -328072,7 +328011,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-600",
+    "id": "cikolatali-krep",
     "name": "Çikolatalı Krep",
     "names": {
       "de": "Crêpe mit Schokolade",
@@ -328140,7 +328079,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-601",
+    "id": "soguk-baklava",
     "name": "Soğuk Baklava",
     "names": {
       "de": "Kalte Baklava mit Milch",
@@ -328200,7 +328139,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-602",
+    "id": "midye-baklava",
     "name": "Midye Baklava",
     "names": {
       "de": "Muschel-Baklava",
@@ -328259,7 +328198,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-603",
+    "id": "yassi-kadayif",
     "name": "Yassı Kadayıf",
     "names": {
       "de": "Yassı Kadayıf",
@@ -328323,7 +328262,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-604",
+    "id": "koz-helva",
     "name": "Koz Helva",
     "names": {
       "de": "Koz Helva",
@@ -328383,7 +328322,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-605",
+    "id": "kagit-helvasi",
     "name": "Kağıt Helvası",
     "names": {
       "de": "Kağıt Helvası",
@@ -328439,7 +328378,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-606",
+    "id": "yaz-helvasi",
     "name": "Yaz Helvası",
     "names": {
       "de": "Yaz Helvası",
@@ -328495,7 +328434,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-607",
+    "id": "pekmez-helvasi",
     "name": "Pekmez Helvası",
     "names": {
       "de": "Pekmez-Helva",
@@ -328551,7 +328490,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-608",
+    "id": "glorya-helvasi",
     "name": "Glorya Helvası",
     "names": {
       "de": "Glorya-Helva",
@@ -328611,7 +328550,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-609",
+    "id": "akide-sekeri",
     "name": "Akide Şekeri",
     "names": {
       "de": "Akide-Bonbons",
@@ -328663,7 +328602,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-610",
+    "id": "sade-dondurma",
     "name": "Sade Dondurma",
     "names": {
       "de": "Milcheis",
@@ -328718,7 +328657,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-611",
+    "id": "meyveli-dondurma",
     "name": "Meyveli Dondurma",
     "names": {
       "de": "Fruchteis",
@@ -328773,7 +328712,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-612",
+    "id": "cikolatali-dondurma",
     "name": "Çikolatalı Dondurma",
     "names": {
       "de": "Schokoladeneis",
@@ -328833,7 +328772,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-613",
+    "id": "armut-tatlisi",
     "name": "Armut Tatlısı",
     "names": {
       "de": "Birne in Sirup",
@@ -328889,7 +328828,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-614",
+    "id": "kaymakli-lokum",
     "name": "Kaymaklı Lokum",
     "names": {
       "de": "Lokum mit Kaymak",
@@ -328950,7 +328889,7 @@
     "note": "Lokum aus Zucker und Stärke gekocht, kein Fertig-Lokum als Zutat."
   },
   {
-    "id": "rec-615",
+    "id": "pirinc-unu-muhallebisi",
     "name": "Pirinç Unu Muhallebisi",
     "names": {
       "de": "Reismehlpudding",
@@ -329002,7 +328941,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-616",
+    "id": "misir-unu-helvasi",
     "name": "Mısır Unu Helvası",
     "names": {
       "de": "Maismehlhelva",
@@ -329058,7 +328997,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-617",
+    "id": "karalahana-kavurma",
     "name": "Karalahana Kavurma",
     "names": {
       "de": "Gebratener Schwarzkohl",
@@ -329117,7 +329056,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-618",
+    "id": "kara-bulgur-pilavi",
     "name": "Kara Bulgur Pilavı",
     "names": {
       "de": "Schwarzer Bulgurpilaw",
@@ -329181,7 +329120,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-619",
+    "id": "rize-simidi",
     "name": "Rize Simidi",
     "names": {
       "de": "Rize-Simit",
@@ -329248,7 +329187,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-620",
+    "id": "hamsi-pilakisi",
     "name": "Hamsi Pilakisi",
     "names": {
       "de": "Sardellen-Pilaki",
@@ -329319,7 +329258,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-621",
+    "id": "sutlu-kabak",
     "name": "Sütlü Kabak",
     "names": {
       "de": "Kürbis in Milch",
@@ -329375,7 +329314,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-622",
+    "id": "kabak-pastasi",
     "name": "Kabak Pastası",
     "names": {
       "de": "Kürbiskuchen",
@@ -329439,7 +329378,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-623",
+    "id": "bafra-nokulu",
     "name": "Bafra Nokulu",
     "names": {
       "de": "Nokul",
@@ -329506,7 +329445,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-624",
+    "id": "bandirma-kaz-tiridi",
     "name": "Bandırma Kaz Tiridi",
     "names": {
       "de": "Gänse-Tirit",
@@ -329566,7 +329505,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-625",
+    "id": "kastamonu-banduma",
     "name": "Kastamonu Banduma",
     "names": {
       "de": "Banduma",
@@ -329633,7 +329572,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-626",
+    "id": "eksili-pilav",
     "name": "Ekşili Pilav",
     "names": {
       "de": "Saurer Pilaw",
@@ -329697,7 +329636,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-627",
+    "id": "sumakli-kofte",
     "name": "Sumaklı Köfte",
     "names": {
       "de": "Sumach-Köfte",
@@ -329761,7 +329700,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-628",
+    "id": "peynirli-irmik-helvasi",
     "name": "Peynirli İrmik Helvası",
     "names": {
       "de": "Grieß-Helva mit Käse",
@@ -329821,7 +329760,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-629",
+    "id": "subye",
     "name": "Sübye",
     "names": {
       "de": "Sübye",
@@ -329873,7 +329812,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-630",
+    "id": "bakla-dolmasi",
     "name": "Bakla Dolması",
     "names": {
       "de": "Gefüllte Dicke Bohnen",
@@ -329941,11 +329880,11 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-631",
+    "id": "hibes",
     "name": "Hibeş",
     "names": {
       "de": "Hibeş",
-      "en": "Hibeş",
+      "en": "Tahini dip",
       "tr": "Hibeş",
       "fr": "Hibeş",
       "es": "Hibeş",
@@ -330009,7 +329948,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-632",
+    "id": "kerebic",
     "name": "Kerebiç",
     "names": {
       "de": "Kerebiç",
@@ -330073,7 +330012,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-633",
+    "id": "batirik",
     "name": "Batırık",
     "names": {
       "de": "Batırık",
@@ -330144,7 +330083,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-634",
+    "id": "karakus",
     "name": "Karakuş",
     "names": {
       "de": "Karakuş",
@@ -330211,7 +330150,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-635",
+    "id": "tuzlu-yogurt",
     "name": "Tuzlu Yoğurt",
     "names": {
       "de": "Salzjoghurt",
@@ -330259,7 +330198,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-636",
+    "id": "arabasi-hamuru",
     "name": "Arabaşı Hamuru",
     "names": {
       "de": "Arabaşı-Teig",
@@ -330315,7 +330254,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-637",
+    "id": "sebit",
     "name": "Şebit",
     "names": {
       "de": "Şebit",
@@ -330370,7 +330309,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-638",
+    "id": "bukme",
     "name": "Bükme",
     "names": {
       "de": "Bükme",
@@ -330425,7 +330364,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-639",
+    "id": "hangel",
     "name": "Hangel",
     "names": {
       "de": "Hangel",
@@ -330492,7 +330431,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-640",
+    "id": "hasuta",
     "name": "Hasuta",
     "names": {
       "de": "Hasuta",
@@ -330546,7 +330485,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-641",
+    "id": "herle",
     "name": "Herle",
     "names": {
       "de": "Herle",
@@ -330604,7 +330543,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-642",
+    "id": "malatya-koftesi",
     "name": "Malatya Köftesi",
     "names": {
       "de": "Malatya-Köfte",
@@ -330672,7 +330611,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-643",
+    "id": "poc",
     "name": "Pöç",
     "names": {
       "de": "Pöç",
@@ -330731,7 +330670,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-644",
+    "id": "gendime",
     "name": "Gendime",
     "names": {
       "de": "Gendime",
@@ -330793,7 +330732,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-645",
+    "id": "sihtan",
     "name": "Şıhtan",
     "names": {
       "de": "Şıhtan",
@@ -330852,7 +330791,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-646",
+    "id": "ciger-kavurma",
     "name": "Ciğer Kavurma",
     "names": {
       "de": "Leberpfanne",
@@ -330912,7 +330851,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-647",
+    "id": "cantik",
     "name": "Cantık",
     "names": {
       "de": "Cantık",
@@ -330975,7 +330914,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-648",
+    "id": "kestane-sekeri",
     "name": "Kestane Şekeri",
     "names": {
       "de": "Kandierte Maronen",
@@ -331028,7 +330967,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-649",
+    "id": "bilecik-pazari-koftesi",
     "name": "Bilecik Pazarı Köftesi",
     "names": {
       "de": "Bilecik-Köfte",
@@ -331088,7 +331027,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-650",
+    "id": "mengen-pilavi",
     "name": "Mengen Pilavı",
     "names": {
       "de": "Mengen-Pilaw",
@@ -331156,7 +331095,7 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "rec-651",
+    "id": "mafis-tatlisi",
     "name": "Mafiş Tatlısı",
     "names": {
       "de": "Mafiş",
@@ -331214,55 +331153,6 @@
       {
         "name": "Wasser",
         "grams": 12
-      }
-    ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
-  },
-  {
-    "id": "rec-652",
-    "name": "Fıstık Ezmesi",
-    "names": {
-      "de": "Pistaziencreme",
-      "en": "Pistachio spread",
-      "tr": "Fıstık Ezmesi",
-      "fr": "Crème de pistache",
-      "es": "Crema de pistacho",
-      "pt": "Creme de pistácio",
-      "it": "Crema di pistacchio",
-      "zh": "开心果酱"
-    },
-    "type": "dish",
-    "barcode": null,
-    "synonyms": [
-      "Fistik Ezmesi",
-      "Pistaziencreme",
-      "Pistachio spread",
-      "Antep fistik ezmesi"
-    ],
-    "cuisine": "tr",
-    "category": "Sauce/Dip",
-    "prepared": "homemade",
-    "is_packaged_product": false,
-    "per100g": {
-      "kcal": 557,
-      "protein": 17.6,
-      "carbs": 40.6,
-      "fat": 39.6,
-      "fiber": 8.8
-    },
-    "portion": {
-      "label": "1 Portion",
-      "grams": 25
-    },
-    "ingredients": [
-      {
-        "name": "Pistazien",
-        "grams": 22
-      },
-      {
-        "name": "Zucker",
-        "grams": 4
       }
     ],
     "quality": "estimate",
