@@ -324592,7 +324592,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 51510 \"Frik (blé dur immature concassé), cru\". Kohlenhydrate = verfügbare KH 55,8 g + Ballaststoffe 19,3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Eiweiß ist N × 6,25 (10,3 g), damit trifft die veröffentlichte Energie.",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 51510 \"Frik (blé dur immature concassé), cru\". Kohlenhydrate = verfügbare KH 55,8 g + Ballaststoffe 19,3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Eiweiß ist N × 6,25 (10,3 g), damit trifft die veröffentlichte Energie.",
     "source_id": "Ciqual 2025:51510"
   },
   {
@@ -324635,7 +324635,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 7300 \"Biscotte classique\". Kohlenhydrate = verfügbare KH 73,2 g + Ballaststoffe 4,32 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe und Fett laut Ciqual aus Oqali 2019 (Packungsangaben, Quellcode 436); Methode nicht ausgewiesen. Eiweiß ist N × 6,25 (11 g), damit trifft die veröffentlichte Energie.",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 7300 \"Biscotte classique\". Kohlenhydrate = verfügbare KH 73,2 g + Ballaststoffe 4,32 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe und Fett laut Ciqual aus Oqali 2019 (Packungsangaben, Quellcode 436); Methode nicht ausgewiesen. Eiweiß ist N × 6,25 (11 g), damit trifft die veröffentlichte Energie.",
     "source_id": "Ciqual 2025:7300"
   },
   {
@@ -324704,7 +324704,7 @@
     "is_packaged_product": false,
     "state": "processed",
     "unit": "g",
-    "note": "Nahe Entsprechung: Çökelek ist ein körniger, fettarmer Bruch. Ungerehmter Mager-Hüttenkäse, nicht der gesahnte Hüttenkäse und nicht Magerquark M713100.",
+    "note": "Nahe Entsprechung: Çökelek ist ein körniger, fettarmer Bruch. Ungerahmter Mager-Hüttenkäse, nicht der gesahnte Hüttenkäse und nicht Magerquark M713100.",
     "per100g": {
       "kcal": 72,
       "protein": 10.34,
@@ -324720,7 +324720,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Çökelek ist ein körniger, fettarmer Bruchkäse. Ähnlichstes frei verfügbares Lebensmittel ist ungerehmter Mager-Hüttenkäse (dry curd, USDA 172181). Werte unverändert übernommen (Methode similar_food). Referenz: USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0); Code 172181 \"Cheese, cottage, nonfat, uncreamed, dry, large or small curd\". Kohlenhydrate sind der USDA-Gesamtwert Carbohydrate, by difference (6.66 g), Ballaststoffe 0.0 g.",
+    "source": "Geschätzt (Methode similar_food): Çökelek ist ein körniger, fettarmer Bruchkäse. Ähnlichstes frei verfügbares Lebensmittel ist ungerahmter Mager-Hüttenkäse (dry curd, USDA 172181). Werte unverändert übernommen (Methode similar_food). Referenz: USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0); Code 172181 \"Cheese, cottage, nonfat, uncreamed, dry, large or small curd\". Kohlenhydrate sind der USDA-Gesamtwert Carbohydrate, by difference (6.66 g), Ballaststoffe 0.0 g.",
     "derived_from": "FDC:172181",
     "method": "similar_food"
   },
@@ -324753,7 +324753,7 @@
       "carbs": 72.7,
       "fat": 2.32,
       "fiber": 11.76,
-      "sugar": 1.07092
+      "sugar": 1.1
     },
     "ingredients": [
       {
@@ -324804,7 +324804,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Lor ist frischer Molkenkäse. Ähnlichstes frei verfügbares Lebensmittel ist Brousse aus Schafmolke (Ciqual 12071). Werte unverändert übernommen (Methode similar_food); Lor aus Kuhmolke kann magerer sein. Eiweiß ist N × 6,25. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 12071 \"Brousse (fromage de brebis frais au lactosérum)\". Kohlenhydrate = verfügbare KH 4.81 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Geschätzt (Methode similar_food): Lor ist frischer Molkenkäse. Ähnlichstes frei verfügbares Lebensmittel ist Brousse aus Schafmolke (Ciqual 12071). Werte unverändert übernommen (Methode similar_food); Lor aus Kuhmolke kann magerer sein. Eiweiß ist N × 6,25. Referenz: Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 12071 \"Brousse (fromage de brebis frais au lactosérum)\". Kohlenhydrate = verfügbare KH 4.81 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "derived_from": "Ciqual 2025:12071",
     "method": "similar_food"
   },
@@ -324874,7 +324874,7 @@
     "is_packaged_product": false,
     "state": "processed",
     "unit": "g",
-    "note": "Nahe Entsprechung: Ezine ist Salzlakenkäse mit hohem Schaf- und Ziegenanteil. BLS M6A6800 und M052000 sind schon Beyaz peynir. Ciqual 12066 ist Feta aus mindestens 70 % Schafmilch und höchstens 30 % Ziegenmilch. Zucker ist nur als Spuren veröffentlicht.",
+    "note": "Nahe Entsprechung: Ezine ist Salzlakenkäse mit hohem Schaf- und Ziegenanteil. BLS M6A6800 und M052000 sind schon Beyaz peynir. Ciqual 12066 ist Feta aus mindestens 70 % Schafmilch und höchstens 30 % Ziegenmilch. Zucker ist nur als Spuren veröffentlicht. Ballaststoffe laut Ciqual aus Oqali-Packungsangaben, Methode nicht ausgewiesen.",
     "per100g": {
       "kcal": 284,
       "protein": 14.8,
@@ -324889,7 +324889,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode similar_food): Ezine ist Salzlakenkäse aus gemischter Milch mit hohem Schaf- und Ziegenanteil. Die BLS-Salzlakenkäse M6A6800 und M052000 sind bereits Beyaz peynir. Ähnlichstes noch freies Lebensmittel ist Ciqual 12066, Feta aus Schaf- und Ziegenmilch. Werte unverändert übernommen (Methode similar_food). Eiweiß ist N × 6,25. Zucker ist in Ciqual nur als Spuren veröffentlicht. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 12066 \"Feta, au lait de brebis 70% minimum et lait de chèvre 30% maximum\". Kohlenhydrate = verfügbare KH 0.45 g + Ballaststoffe 0.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source": "Geschätzt (Methode similar_food): Ezine ist Salzlakenkäse aus gemischter Milch mit hohem Schaf- und Ziegenanteil. Die BLS-Salzlakenkäse M6A6800 und M052000 sind bereits Beyaz peynir. Ähnlichstes noch freies Lebensmittel ist Ciqual 12066, Feta aus Schaf- und Ziegenmilch. Werte unverändert übernommen (Methode similar_food). Eiweiß ist N × 6,25. Zucker ist in Ciqual nur als Spuren veröffentlicht. Referenz: Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 12066 \"Feta, au lait de brebis 70% minimum et lait de chèvre 30% maximum\". Kohlenhydrate = verfügbare KH 0.45 g + Ballaststoffe 0.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual aus Oqali-Packungsangaben; Methode nicht ausgewiesen.",
     "derived_from": "Ciqual 2025:12066",
     "method": "similar_food",
     "source_missing": [
