@@ -274,13 +274,13 @@ class Builder:
         names = names8(d['names'])
         db, code = d['src'].split(':', 1)
         nm = re.sub(r'\s+', ' ', str(r['name'])).strip()
-        base = CITE[db][1]
+        base = d.get('cite') or CITE[db][1]
         derived = f'{CITE[db][0] or "FDC"}:{code}'
         e = {'id': d['id'], 'name': names['de'], 'names': names}
         if d['aliases']: e['aliases'] = d['aliases']
         e.update({'type': 'item', 'barcode': None, 'synonyms': list(d.get('syn') or []), 'cuisine': 'int', 'category': d['cat'], 'prepared': 'base_ingredient',
                   'is_packaged_product': False, 'state': d['state'], 'unit': 'g',
-                  'note': 'Grundzutat (verarbeitet, generisch, geschätzt), kein Markenprodukt - Werte eines ähnlichen Lebensmittels',
+                  'note': d.get('note') or 'Grundzutat (verarbeitet, generisch, geschätzt), kein Markenprodukt - Werte eines ähnlichen Lebensmittels',
                   'per100g': p, 'ingredients': [{'name': names['de'], 'grams': 100}], 'quality': 'estimate',
                   'source': f'Geschätzt (Methode similar_food): {d["why"]} Referenz: {base}; Code {code} "{nm}". {ktxt}',
                   'derived_from': derived, 'method': 'similar_food'})
