@@ -26,6 +26,7 @@ TR_EST = [
  dict(id='kaymak', src='COFID:12-592', names='Kaymak|Kaymak (Turkish clotted cream)|Kaymak|Kaymak (crème caillée turque)|Kaymak (nata cuajada turca)|Kaymak (nata coalhada turca)|Kaymak (panna rappresa turca)|土耳其凝脂奶油', cat=TR_BASE, state='processed', aliases={'en': ['Clotted cream']},
       why='Kaymak entspricht in Herstellung (Erhitzen und Abschöpfen der Rahmschicht) der englischen Clotted Cream; Werte aus CoFID 12-592 übernommen (Methode similar_food). Büffelmilch-Kaymak kann fetter sein.'),
  dict(id='yufka-teig', src='CIQ:23445', names='Yufka-Teigblätter, roh|Yufka pastry sheets, raw|Yufka, çiğ|Feuilles de yufka, crues|Láminas de yufka, crudas|Folhas de yufka, cruas|Sfoglie di yufka, crude|土耳其薄面皮（生）', cat='Grundzutat: Getreide, Teigwaren & Brot', state='raw', aliases={'de': ['Yufka', 'Filoteig türkisch']},
+      syn=['Baklava yufkası'],
       why='Yufka ist ein dünn ausgerollter Mehl-Wasser-Teig, ähnlich Filo/Phyllo; Werte von Ciqual "Phyllo or filo dough, raw" übernommen (Methode similar_food). Yufka ist etwas dicker; Fettgehalt hängt vom Hersteller ab.'),
 ]
 TR_DRINKS = [
