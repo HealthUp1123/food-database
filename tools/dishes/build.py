@@ -4,10 +4,6 @@
 Aufruf:  python3 build.py
 Liest:   ingredients_src.txt (Referenztabelle), batches/*.py (Gerichtsdefinitionen)
 Schreibt: foods.json, ingredients.json, build_report.txt
-Referenz-Overrides: reference_overrides.json ersetzt bei genannten ids nur Nährwerte,
-quality und source. Namen und Synonyme bleiben aus der Batchzeile. Das Ergebnis ist
-nicht data/foods.json (dort fehlen im Build Aliase, Grundprodukte und die Referenzgerichte
-außerhalb der Batches). data/foods.json wird für diese ids gezielt gepflegt.
 
 Zeilenformat in den Batch-Dateien (eine Zeile pro Gericht):
   Name{optional-id} | Synonym1, Synonym2 | Kategorie-Code | Garfaktor | Portionslabel | zutat gramm, zutat gramm, ...
@@ -160,25 +156,32 @@ def main():
     return 1 if errors else 0
 
 def apply_reference_overrides(dishes):
-    """Legt amtliche Datensätze über die Rezeptschätzung, ohne Namen oder Synonyme anzufassen."""
+    """reference_overrides.json ist eine Liste wie in PR #15.
+
+    Jedes Objekt hat id, per100g, quality, source und source_id.
+    Optional: source_missing, names, fdc_id, note.
+    Dieselben Pflichtfelder wie der Leser in PR #15, damit beide Dateien
+    zusammenpassen. Namen aus der Batchzeile bleiben, solange names fehlt.
+    """
     path = os.path.join(HERE, 'reference_overrides.json')
     if not os.path.exists(path):
         return
-    raw = json.load(open(path, encoding='utf8'))
+    overrides = json.load(open(path, encoding='utf8'))
     by_id = {e['id']: e for e, _, _ in dishes}
     n = 0
-    for did, o in raw.items():
-        if str(did).startswith('_'):
-            continue
-        e = by_id.get(did)
+    for o in overrides:
+        e = by_id.get(o['id'])
         if e is None:
-            print('OVERRIDE nicht im Build:', did)
+            print('OVERRIDE nicht im Build:', o['id'])
             continue
         e['per100g'] = o['per100g']
-        e['quality'] = 'reference'
+        e['quality'] = o['quality']
         e['source'] = o['source']
-        if o.get('source_id'):
-            e['source_id'] = o['source_id']
+        e['source_id'] = o['source_id']
+        if o.get('source_missing'):
+            e['source_missing'] = o['source_missing']
+        if o.get('names'):
+            e['names'] = o['names']
         if o.get('fdc_id'):
             e['fdc_id'] = o['fdc_id']
         if o.get('note'):

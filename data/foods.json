@@ -62506,14 +62506,12 @@
     "category": "Vorspeise/Meze",
     "prepared": "homemade",
     "is_packaged_product": false,
-    "note": "Generisches Gericht (Nährwerte für das ganze Gericht aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Haushaltsportion, weil die Quelle keine eigene nennt.",
     "per100g": {
-      "kcal": 324,
-      "protein": 5.9,
-      "carbs": 13.9,
-      "fat": 28.5,
-      "fiber": 5.9,
-      "sugar": 0.7
+      "kcal": 231,
+      "protein": 7.7,
+      "carbs": 20.2,
+      "fat": 14.2,
+      "fiber": 5.8
     },
     "portion": {
       "label": "1 Schälchen",
@@ -62521,13 +62519,32 @@
     },
     "ingredients": [
       {
-        "name": "Hummus",
-        "grams": 165
+        "name": "Kichererbsen (gekocht)",
+        "grams": 100
+      },
+      {
+        "name": "Tahin",
+        "grams": 20
+      },
+      {
+        "name": "Zitronensaft",
+        "grams": 12
+      },
+      {
+        "name": "Knoblauch",
+        "grams": 4
+      },
+      {
+        "name": "Olivenöl",
+        "grams": 10
+      },
+      {
+        "name": "Wasser",
+        "grams": 20
       }
     ],
-    "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code H960000 \"Hummus/Kichererbsenmus\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 8 g + Ballaststoffe 5.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe aus FIBT, weil FIBLMW leer oder 0 ist.",
-    "source_id": "BLS 4.0:H960000",
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values",
     "off_similar": [
       "9100000818726",
       "8682353237535",
@@ -69320,7 +69337,7 @@
     "category": "Süßspeise/Sirupgebäck",
     "prepared": "homemade",
     "is_packaged_product": false,
-    "note": "Generisches Gericht (Nährwerte für das ganze Gericht aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Haushaltsportion, weil die Quelle keine eigene nennt. Ballaststoffe sind eine gekennzeichnete Schätzung, weil CoFID nur NSP und keinen AOAC-Wert nennt (siehe source).",
+    "note": "Generisches Gericht (Nährwerte für das ganze Gericht aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Haushaltsportion, weil die Quelle keine eigene nennt. CoFID NSP 0,5 g; AOAC geschätzt ×1,33.",
     "per100g": {
       "kcal": 342,
       "protein": 2.2,
@@ -69340,7 +69357,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Public Health England (2021): McCance and Widdowson's The Composition of Foods Integrated Dataset (CoFID) 2021, Open Government Licence v3.0; Code 17-799 \"Halva, semolina, homemade\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Updated 2014). Kohlenhydrate = verfügbare KH 49.1 g + Ballaststoffe 0.7 g (an USDA-Gesamt-KH angeglichen). Ballaststoffe: AOAC-Faser fehlt in CoFID (Angabe N). NSP (Englyst) ist 0.5 g und kein AOAC-Wert. Geschätzt als 0.5 x 1.33 = 0.665 g, gerundet 0.7 g. Faktor 1.33 ist der Median AOAC/NSP von 1.31 über 904 CoFID-Lebensmittel mit beiden Werten, auf 4/3 gerundet. kcal wie veröffentlicht. CoFID rechnet verfügbare Kohlenhydrate mit 3.75 kcal/g; die Gegenprobe mit 4 kcal/g verfügbaren Kohlenhydraten und 2 kcal/g Ballaststoffen ergibt 356.9 kcal.",
+    "source": "Public Health England (2021): McCance and Widdowson's The Composition of Foods Integrated Dataset (CoFID) 2021, Open Government Licence v3.0; Code 17-799 \"Halva, semolina, homemade\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Updated 2014). Kohlenhydrate = verfügbare KH 49.1 g + Ballaststoffe 0.7 g (an USDA-Gesamt-KH angeglichen). CoFID NSP 0,5 g; AOAC geschätzt ×1,33 (0.665 g, gerundet 0.7 g). AOAC-Faser fehlt in CoFID (Angabe N). NSP ist kein AOAC-Wert. Faktor 1.33 ist der Median AOAC/NSP von 1.31 über 904 CoFID-Lebensmittel mit beiden Werten, auf 4/3 gerundet. Die übrigen Nährwerte sind CoFID. kcal wie veröffentlicht. CoFID rechnet verfügbare Kohlenhydrate mit 3.75 kcal/g; die Gegenprobe mit 4 kcal/g verfügbaren Kohlenhydraten und 2 kcal/g Ballaststoffen ergibt 356.9 kcal.",
     "source_id": "CoFID 2021:17-799",
     "off_similar": [
       "8699952504364"
@@ -71377,14 +71394,12 @@
     "category": "Süßspeise/Sirupgebäck",
     "prepared": "homemade",
     "is_packaged_product": false,
-    "note": "Generisches Gericht (Nährwerte für das ganze Gericht aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Haushaltsportion, weil die Quelle keine eigene nennt.",
     "per100g": {
-      "kcal": 407,
-      "protein": 16.4,
-      "carbs": 39.2,
-      "fat": 22.5,
-      "fiber": 8.6,
-      "sugar": 30.2
+      "kcal": 520,
+      "protein": 12.0,
+      "carbs": 50.0,
+      "fat": 29.0,
+      "fiber": 3.0
     },
     "portion": {
       "label": "1 Portion",
@@ -71396,9 +71411,8 @@
         "grams": 50
       }
     ],
-    "quality": "reference",
-    "source": "Terveyden ja hyvinvoinnin laitos (THL): Fineli elintarvikkeiden koostumustietopankki, Lizenz CC BY 4.0; Lebensmittel 34 \"Halva, seesamsiemenvalmiste\" (Sesamhalva). Datensatz der Datenbank (rezeptberechnet laut Fineli, fineli.fi/fineli/fi/elintarvikkeet/34, gelesen am 4.11.2026). Kohlenhydrate = verfügbare KH 30.6 g + Ballaststoffe 8.6 g (Fineli fibre, total, nicht die unlösliche Fraktion 4.5 g), an USDA-Gesamt-KH angeglichen, kcal wie veröffentlicht (1703 kJ, 407 kcal).",
-    "source_id": "Fineli:34",
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values",
     "off_similar": [
       "8693003022203",
       "3700671764627",
@@ -72218,12 +72232,12 @@
     "is_packaged_product": false,
     "note": "Generisches Getränk (Nährwerte aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Glasmenge (Dichte etwa 1 g/ml), weil die Quelle keine eigene nennt.",
     "per100g": {
-      "kcal": 52,
-      "protein": 0.3,
-      "carbs": 11.7,
-      "fat": 0.2,
-      "fiber": 0.0,
-      "sugar": 11.3
+      "kcal": 62,
+      "protein": 0.8,
+      "carbs": 13.0,
+      "fat": 0.4,
+      "fiber": 0.1,
+      "sugar": 12.0
     },
     "portion": {
       "label": "1 Glas",
@@ -72236,8 +72250,8 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code F212700 \"Sauerkirschnektar\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 11.693 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe aus FIBT, weil FIBLMW leer oder 0 ist.",
-    "source_id": "BLS 4.0:F212700",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code F212600 \"Sauerkirschsaft\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 12.853 g + Ballaststoffe 0.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe aus FIBT, weil FIBLMW leer oder 0 ist.",
+    "source_id": "BLS 4.0:F212600",
     "off_similar": [
       "3800014286882",
       "4260466413738",
