@@ -6,10 +6,10 @@ Kıymalı Sigara Böreği | Zigarettenbörek mit Hack | BO | 0.9 | 1 Portion (4 
 Kol Böreği (Ispanaklı) | Ispanaklı Kol Böreği, Spinatbörek | BO | 0.9 | 1 Stück | yufka 90, spinat 120, beyaz_peynir 30, zwiebel 20, ei 25, butter 12, oel 10
 Kol Böreği (Peynirli) | Peynirli Kol Böreği, Käsebörek | BO | 0.9 | 1 Stück | yufka 90, beyaz_peynir 80, ei 30, petersilie 5, butter 12, oel 10
 Kol Böreği (Kıymalı) | Kıymalı Kol Böreği, Hackbörek | BO | 0.9 | 1 Stück | yufka 90, hack 70, zwiebel 30, ei 25, butter 12, oel 10
-Kol Böreği (Patatesli) | Patatesli Kol Böreği, Kartoffelbörek | BO | 0.9 | 1 Stück | yufka 90, kartoffel 120, zwiebel 20, ei 25, butter 12, oel 10
+Kol Böreği (Patatesli) | Patatesli Kol Böreği, Kartoffelbörek, Patatesli börek | BO | 0.9 | 1 Stück | yufka 90, kartoffel 120, zwiebel 20, ei 25, butter 12, oel 10
 Tepsi Böreği | Blechbörek, Tray borek | BO | 0.9 | 1 Stück | yufka 80, hack 60, zwiebel 20, ei 30, milch 40, oel 20, butter 8
 Peynirli Tepsi Böreği | Käse-Blechbörek | BO | 0.9 | 1 Stück | yufka 80, beyaz_peynir 70, ei 30, milch 40, oel 20, butter 8, petersilie 4
-Ispanaklı Tepsi Böreği | Spinat-Blechbörek | BO | 0.9 | 1 Stück | yufka 80, spinat 120, beyaz_peynir 30, ei 30, milch 30, oel 20
+Ispanaklı Tepsi Böreği | Spinat-Blechbörek, Ispanaklı börek | BO | 0.9 | 1 Stück | yufka 80, spinat 120, beyaz_peynir 30, ei 30, milch 30, oel 20
 Patatesli Tepsi Böreği | Kartoffel-Blechbörek | BO | 0.9 | 1 Stück | yufka 80, kartoffel 120, zwiebel 20, ei 30, milch 30, oel 20
 Paçanga Böreği | Paçanga, Pastırma-Käse-Börek | BO | 0.88 | 1 Portion (3 Stück) | yufka 60, pastirma 40, kasar 40, tomate 40, sivri 15, oel 28
 Talaş Böreği | Talaş Börek, Sägemehl-Börek | BO | 0.9 | 1 Stück | blaetterteig 70, hack 60, zwiebel 20, ei 15, butter 5

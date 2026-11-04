@@ -5377,7 +5377,7 @@
     "names": {
       "de": "Rührei mit Speck",
       "en": "Scrambled eggs with bacon",
-      "tr": "Pastırmalı çırpılmış yumurta",
+      "tr": "Beykonlu çırpılmış yumurta",
       "fr": "Œufs brouillés au bacon",
       "es": "Huevos revueltos con beicon",
       "pt": "Ovos mexidos com bacon",
@@ -9204,7 +9204,7 @@
     "names": {
       "de": "Speckknödel",
       "en": "Bacon dumplings",
-      "tr": "Pastırmalı ekmek köftesi",
+      "tr": "Beykonlu ekmek köftesi",
       "fr": "Quenelles au lard",
       "es": "Albóndigas de pan con tocino",
       "pt": "Bolinhos de pão com bacon",
@@ -10986,7 +10986,7 @@
     "names": {
       "de": "Grüne Bohnen mit Speck",
       "en": "Green beans with bacon",
-      "tr": "Pastırmalı taze fasulye",
+      "tr": "Beykonlu taze fasulye",
       "fr": "Haricots verts au lard",
       "es": "Judías verdes con beicon",
       "pt": "Vagem com bacon",
@@ -16422,7 +16422,7 @@
     "names": {
       "de": "Speckkuchen",
       "en": "Bacon tart",
-      "tr": "Pastırmalı tart",
+      "tr": "Beykonlu tart",
       "fr": "Tarte aux lardons",
       "es": "Tarta de beicon",
       "pt": "Torta de bacon",
@@ -20589,7 +20589,8 @@
     "barcode": null,
     "synonyms": [
       "Schokoladenpudding",
-      "Chocolate pudding German"
+      "Chocolate pudding German",
+      "Kakaolu puding"
     ],
     "cuisine": "de",
     "category": "Pudding/Milchdessert",
@@ -28792,7 +28793,7 @@
     "names": {
       "de": "Speckpfannkuchen",
       "en": "Bacon pancake",
-      "tr": "Pastırmalı krep",
+      "tr": "Beykonlu krep",
       "fr": "Crêpe aux lardons",
       "es": "Tortita con beicon",
       "pt": "Panqueca de bacon",
@@ -36244,7 +36245,9 @@
     "barcode": null,
     "synonyms": [
       "Hähnchenflügel vom Grill",
-      "Grilled chicken wings"
+      "Grilled chicken wings",
+      "Tavuk kanat",
+      "Tavuk kanat ızgara"
     ],
     "cuisine": "tr",
     "category": "Kebap",
@@ -37009,7 +37012,8 @@
     "barcode": null,
     "synonyms": [
       "Hähnchen-Sauté",
-      "Chicken sauté"
+      "Chicken sauté",
+      "Tavuk yemeği"
     ],
     "cuisine": "tr",
     "category": "Hauptgericht Geflügel",
@@ -37151,7 +37155,8 @@
       "Doner Kebap (Durum)",
       "Dürüm Döner",
       "Döner im Wrap",
-      "Doener Rolle"
+      "Doener Rolle",
+      "Et dürüm"
     ],
     "cuisine": "tr",
     "category": "Kebap",
@@ -37295,7 +37300,8 @@
     "synonyms": [
       "Doner Kebap Porsiyon",
       "Döner Teller",
-      "Doner plate"
+      "Doner plate",
+      "Et döner"
     ],
     "cuisine": "tr",
     "category": "Kebap",
@@ -37522,7 +37528,8 @@
     "synonyms": [
       "Cig Kofte (Etsiz)",
       "Vegetarische Çiğ Köfte",
-      "Vegan çiğ köfte"
+      "Vegan çiğ köfte",
+      "Çiğköfte"
     ],
     "cuisine": "tr",
     "category": "Köfte",
@@ -41302,7 +41309,8 @@
     "barcode": null,
     "synonyms": [
       "Moussaka türkisch",
-      "Patlıcan Musakka"
+      "Patlıcan Musakka",
+      "Patlıcan yemeği"
     ],
     "cuisine": "tr",
     "category": "Gemüse mit Fleisch",
@@ -41565,7 +41573,8 @@
     "barcode": null,
     "synonyms": [
       "Weiße Bohnen in Tomatensoße",
-      "Turkish white beans"
+      "Turkish white beans",
+      "Kuru fasulye yemeği"
     ],
     "cuisine": "tr",
     "category": "Hülsenfrüchte",
@@ -41633,7 +41642,9 @@
     "barcode": null,
     "synonyms": [
       "Weiße Bohnen mit Fleisch",
-      "White beans with beef"
+      "White beans with beef",
+      "Kuru fasulye yemeği",
+      "Etli kuru fasulye yemeği"
     ],
     "cuisine": "tr",
     "category": "Hülsenfrüchte",
@@ -41819,7 +41830,8 @@
     "barcode": null,
     "synonyms": [
       "Kichererbsen mit Fleisch",
-      "Chickpea stew with beef"
+      "Chickpea stew with beef",
+      "Etli nohut yemeği"
     ],
     "cuisine": "tr",
     "category": "Hülsenfrüchte",
@@ -41961,7 +41973,10 @@
     "barcode": null,
     "synonyms": [
       "Grüne Bohnen mit Fleisch",
-      "Green beans with beef"
+      "Green beans with beef",
+      "Etli yeşil fasulye",
+      "Yeşil fasulye yemeği",
+      "Taze fasulye yemeği"
     ],
     "cuisine": "tr",
     "category": "Gemüse mit Fleisch",
@@ -42371,7 +42386,9 @@
     "barcode": null,
     "synonyms": [
       "Etli Pirasa",
-      "Lauch mit Fleisch"
+      "Lauch mit Fleisch",
+      "Pırasa yemeği",
+      "Etli pırasa yemeği"
     ],
     "cuisine": "tr",
     "category": "Gemüse mit Fleisch",
@@ -42438,7 +42455,8 @@
     "barcode": null,
     "synonyms": [
       "Erbsen mit Fleisch",
-      "Peas with beef"
+      "Peas with beef",
+      "Bezelye yemeği"
     ],
     "cuisine": "tr",
     "category": "Gemüse mit Fleisch",
@@ -42570,7 +42588,8 @@
     "type": "dish",
     "barcode": null,
     "synonyms": [
-      "Blumenkohl mit Fleisch"
+      "Blumenkohl mit Fleisch",
+      "Karnabahar yemeği"
     ],
     "cuisine": "tr",
     "category": "Gemüse mit Fleisch",
@@ -43017,7 +43036,8 @@
     "synonyms": [
       "Kiymali Patates",
       "Kartoffeln mit Hack",
-      "Potato mince stew"
+      "Potato mince stew",
+      "Kıymalı patates yemeği"
     ],
     "cuisine": "tr",
     "category": "Gemüse mit Fleisch",
@@ -45462,7 +45482,8 @@
     "synonyms": [
       "Patlican Oturtma",
       "Aubergine Oturtma",
-      "Aubergine mit Fleisch auf dem Teller"
+      "Aubergine mit Fleisch auf dem Teller",
+      "Patlıcan yemeği"
     ],
     "cuisine": "tr",
     "category": "Gemüse mit Fleisch",
@@ -46888,7 +46909,8 @@
     "barcode": null,
     "synonyms": [
       "Yumurtali Ispanak",
-      "Spinat mit Ei"
+      "Spinat mit Ei",
+      "Ispanaklı yumurta"
     ],
     "cuisine": "tr",
     "category": "Hauptgericht vegetarisch",
@@ -47109,7 +47131,8 @@
     "synonyms": [
       "Turlu",
       "Gemüseeintopf",
-      "Turkish ratatouille"
+      "Turkish ratatouille",
+      "Türlü yemeği"
     ],
     "cuisine": "tr",
     "category": "Gemüse/Zeytinyağlı",
@@ -47259,7 +47282,9 @@
       "Zeytinyagli Taze Fasulye",
       "Taze Fasulye",
       "Grüne Bohnen in Olivenöl",
-      "Green beans in olive oil"
+      "Green beans in olive oil",
+      "Zeytinyağlı yeşil fasulye",
+      "Yeşil fasulye"
     ],
     "cuisine": "tr",
     "category": "Gemüse/Zeytinyağlı",
@@ -47402,7 +47427,8 @@
     "synonyms": [
       "Zeytinyagli Enginar",
       "Artischocken in Olivenöl",
-      "Artichokes with olive oil"
+      "Artichokes with olive oil",
+      "Enginar yemeği"
     ],
     "cuisine": "tr",
     "category": "Gemüse/Zeytinyağlı",
@@ -47545,7 +47571,8 @@
     "synonyms": [
       "Zeytinyagli Pirasa",
       "Lauch in Olivenöl",
-      "Leeks in olive oil"
+      "Leeks in olive oil",
+      "Pırasa yemeği"
     ],
     "cuisine": "tr",
     "category": "Gemüse/Zeytinyağlı",
@@ -51887,7 +51914,8 @@
     "synonyms": [
       "Kol Boregi (Patatesli)",
       "Patatesli Kol Böreği",
-      "Kartoffelbörek"
+      "Kartoffelbörek",
+      "Patatesli börek"
     ],
     "cuisine": "tr",
     "category": "Börek/Hamurişi",
@@ -52094,7 +52122,8 @@
     "barcode": null,
     "synonyms": [
       "Ispanakli Tepsi Boregi",
-      "Spinat-Blechbörek"
+      "Spinat-Blechbörek",
+      "Ispanaklı börek"
     ],
     "cuisine": "tr",
     "category": "Börek/Hamurişi",
@@ -57919,7 +57948,8 @@
     "synonyms": [
       "Hamsi Pilavi",
       "Reis mit Sardellen",
-      "Anchovy pilaf"
+      "Anchovy pilaf",
+      "Hamsili pilav"
     ],
     "cuisine": "tr",
     "category": "Reisgericht",
@@ -64613,7 +64643,8 @@
     "synonyms": [
       "Kisir",
       "Bulgursalat",
-      "Bulgur salad"
+      "Bulgur salad",
+      "Bulgur salatası"
     ],
     "cuisine": "tr",
     "category": "Salat",
@@ -65685,7 +65716,8 @@
       "Cig Kofte",
       "Cig Köfte",
       "Vegetarische Çiğ Köfte",
-      "Raw kofte vegan"
+      "Raw kofte vegan",
+      "Çiğköfte"
     ],
     "cuisine": "tr",
     "category": "Vorspeise/Meze",
@@ -67954,7 +67986,8 @@
     "barcode": null,
     "synonyms": [
       "Burma Kadayif",
-      "Rolled kadayif"
+      "Rolled kadayif",
+      "Sarığı burma"
     ],
     "cuisine": "tr",
     "category": "Süßspeise/Sirupgebäck",
@@ -68385,7 +68418,8 @@
     "type": "dish",
     "barcode": null,
     "synonyms": [
-      "Fried dough in syrup"
+      "Fried dough in syrup",
+      "Tulumba tatlısı"
     ],
     "cuisine": "tr",
     "category": "Süßspeise/Sirupgebäck",
@@ -68821,7 +68855,8 @@
     "synonyms": [
       "Tavuk Gogsu",
       "Hühnerbrust-Pudding",
-      "Chicken breast pudding"
+      "Chicken breast pudding",
+      "Tavuk göğsü tatlısı"
     ],
     "cuisine": "tr",
     "category": "Pudding/Milchdessert",
@@ -69345,7 +69380,8 @@
     "synonyms": [
       "Irmik Helvasi",
       "Grießhelva",
-      "Semolina halva"
+      "Semolina halva",
+      "İrmik tatlısı"
     ],
     "cuisine": "tr",
     "category": "Süßspeise/Sirupgebäck",
@@ -72473,7 +72509,8 @@
     "barcode": null,
     "synonyms": [
       "Hosaf",
-      "Trockenfrucht-Kompott"
+      "Trockenfrucht-Kompott",
+      "Komposto"
     ],
     "cuisine": "tr",
     "category": "Getränk",
@@ -76220,7 +76257,9 @@
     "synonyms": [
       "Kozlenmis Kestane",
       "Geröstete Kastanien",
-      "Roasted chestnuts"
+      "Roasted chestnuts",
+      "Kestane kebap",
+      "Kestane kebabı"
     ],
     "cuisine": "tr",
     "category": "Snack",
@@ -77804,7 +77843,8 @@
     "barcode": null,
     "synonyms": [
       "Kozlenmis Patlican",
-      "Gegrillte Aubergine"
+      "Gegrillte Aubergine",
+      "Patlıcan salatası"
     ],
     "cuisine": "tr",
     "category": "Gemüse/Zeytinyağlı",
@@ -86306,7 +86346,7 @@
     "names": {
       "de": "Dänisches Omelett (Æggekage)",
       "en": "Danish omelette with bacon",
-      "tr": "Pastırmalı Danimarka omleti",
+      "tr": "Beykonlu Danimarka omleti",
       "fr": "Omelette danoise au lard",
       "es": "Tortilla danesa con tocino",
       "pt": "Omelete dinamarquesa com bacon",
@@ -91595,7 +91635,7 @@
     "names": {
       "de": "Salat mit Speck und Croûtons",
       "en": "Salad with bacon and croutons",
-      "tr": "Pastırmalı ve Krutonlu Salata",
+      "tr": "Beykonlu ve Krutonlu Salata",
       "fr": "Salade aux lardons et croûtons",
       "es": "Ensalada con beicon y picatostes",
       "pt": "Salada com bacon e croutons",
@@ -92202,7 +92242,7 @@
     "names": {
       "de": "Lauch-Speck-Tarte",
       "en": "Leek and bacon tart",
-      "tr": "Pırasalı ve Pastırmalı Tart",
+      "tr": "Pırasalı ve Beykonlu Tart",
       "fr": "Tarte aux poireaux et lardons",
       "es": "Tarta de puerro y beicon",
       "pt": "Torta de alho-poró e bacon",
@@ -100614,7 +100654,7 @@
     "names": {
       "de": "Túrós csusza (Nudeln mit Quark und Speck)",
       "en": "Pasta with cottage cheese and bacon (túrós csusza)",
-      "tr": "Lor peynirli ve pastırmalı erişte (túrós csusza)",
+      "tr": "Lor peynirli ve beykonlu erişte (túrós csusza)",
       "fr": "Pâtes au fromage blanc et lardons (túrós csusza)",
       "es": "Pasta con requesón y tocino (túrós csusza)",
       "pt": "Massa com requeijão e bacon (túrós csusza)",
@@ -109825,7 +109865,7 @@
     "names": {
       "de": "Buchweizen mit Speck",
       "en": "Buckwheat with bacon",
-      "tr": "Pastırmalı Karabuğday",
+      "tr": "Beykonlu Karabuğday",
       "fr": "Sarrasin aux lardons",
       "es": "Trigo sarraceno con panceta",
       "pt": "Trigo-sarraceno com bacon",
@@ -118920,7 +118960,7 @@
     "names": {
       "de": "Tiroler Knödel",
       "en": "Tyrolean bacon dumplings",
-      "tr": "Tirol usulü pastırmalı ekmek köftesi",
+      "tr": "Tirol usulü beykonlu ekmek köftesi",
       "fr": "Knödel tyroliens au lard",
       "es": "Albóndigas tirolesas de pan y tocino",
       "pt": "Bolinhos tiroleses de pão e bacon",
@@ -125546,7 +125586,7 @@
     "names": {
       "de": "Brennende Liebe (Kartoffelpüree mit Speck)",
       "en": "Mashed potatoes with bacon and onions",
-      "tr": "Pastırmalı soğanlı patates püresi",
+      "tr": "Beykonlu soğanlı patates püresi",
       "fr": "Purée aux lardons et oignons",
       "es": "Puré de patata con tocino y cebolla",
       "pt": "Puré de batata com bacon e cebola",
@@ -147033,7 +147073,7 @@
     "names": {
       "de": "Bacon-Sandwich",
       "en": "Bacon butty",
-      "tr": "Pastırmalı Sandviç (Bacon)",
+      "tr": "Beykonlu Sandviç",
       "fr": "Sandwich au bacon",
       "es": "Sándwich de beicon",
       "pt": "Sanduíche de bacon",
@@ -153641,7 +153681,7 @@
     "names": {
       "de": "Gebratene Wurst (ungarisch)",
       "en": "Hungarian fried sausage",
-      "tr": "Macar usulü kızarmış sucuk",
+      "tr": "Macar usulü kızarmış domuz sosisi",
       "fr": "Saucisse grillée hongroise",
       "es": "Salchicha frita húngara",
       "pt": "Salsicha frita húngara",
@@ -169254,7 +169294,7 @@
     "names": {
       "de": "Sauerkraut-Stampf mit Speck",
       "en": "Sauerkraut mash with bacon (stamppot)",
-      "tr": "Pastırmalı lahana turşulu patates püresi",
+      "tr": "Beykonlu lahana turşulu patates püresi",
       "fr": "Purée de pommes de terre à la choucroute et lardons",
       "es": "Puré de patata con chucrut y tocino",
       "pt": "Puré de batata com chucrute e bacon",
@@ -172057,7 +172097,7 @@
     "names": {
       "de": "Weiße Bohnen in Tomatensoße mit Wurst",
       "en": "Polish baked beans with sausage",
-      "tr": "Sucuklu Kuru Fasulye",
+      "tr": "Domuz Sosisli Kuru Fasulye",
       "fr": "Haricots à la bretonne polonais",
       "es": "Alubias a la bretona polacas",
       "pt": "Feijão à bretã polaco",
@@ -187115,7 +187155,7 @@
     "names": {
       "de": "Speckknödelsuppe",
       "en": "Bacon dumpling soup",
-      "tr": "Pastırmalı köfte çorbası",
+      "tr": "Beykonlu köfte çorbası",
       "fr": "Soupe aux knödel au lard",
       "es": "Sopa de albóndigas de tocino",
       "pt": "Sopa de bolinhos de bacon",
@@ -209052,7 +209092,7 @@
     "names": {
       "de": "Feldsalat mit Speck und Croutons",
       "en": "Lamb's lettuce with bacon and croutons",
-      "tr": "Pastırmalı ve krutonlu kuzu marulu",
+      "tr": "Beykonlu ve krutonlu kuzu marulu",
       "fr": "Mâche aux lardons et croûtons",
       "es": "Canónigos con beicon y picatostes",
       "pt": "Alface-de-cordeiro com bacon e croutons",
@@ -209115,7 +209155,7 @@
     "names": {
       "de": "Löwenzahnsalat mit Speck",
       "en": "Dandelion salad with bacon",
-      "tr": "Pastırmalı karahindiba salatası",
+      "tr": "Beykonlu karahindiba salatası",
       "fr": "Salade de pissenlit aux lardons",
       "es": "Ensalada de diente de león con beicon",
       "pt": "Salada de dente-de-leão com bacon",
@@ -217760,7 +217800,7 @@
     "names": {
       "de": "Wurst im Briocheteig",
       "en": "Sausage in brioche",
-      "tr": "Brioş İçinde Sucuk",
+      "tr": "Brioş İçinde Domuz Sosisi",
       "fr": "Saucisson brioché",
       "es": "Salchichón en brioche",
       "pt": "Linguiça no brioche",
@@ -223792,7 +223832,7 @@
     "names": {
       "de": "Würstchen im Speckmantel",
       "en": "Pigs in blankets",
-      "tr": "Pastırma Sarmalı Sosis",
+      "tr": "Beykona Sarılı Domuz Sosisi",
       "fr": "Saucisses enrobées de bacon",
       "es": "Salchichas envueltas en beicon",
       "pt": "Salsichas enroladas em bacon",
@@ -223979,7 +224019,7 @@
     "names": {
       "de": "Walisischer Kartoffel-Speck-Eintopf",
       "en": "Welsh potato and bacon stew",
-      "tr": "Galler Pastırmalı Patates Yahnisi",
+      "tr": "Galler Beykonlu Patates Yahnisi",
       "fr": "Ragoût gallois pommes de terre et lard",
       "es": "Guiso galés de patata y beicon",
       "pt": "Ensopado galês de batata e bacon",
@@ -228607,7 +228647,7 @@
     "names": {
       "de": "Wurst-Paprika-Pfanne (Pilion)",
       "en": "Sausage and pepper stew (spetsofai)",
-      "tr": "Sucuklu Biber Tava",
+      "tr": "Domuz Sosisli Biber Tava",
       "fr": "Saucisses aux poivrons (spetsofai)",
       "es": "Salchichas con pimientos (spetsofai)",
       "pt": "Linguiça com pimentos (spetsofai)",
@@ -245648,7 +245688,7 @@
     "names": {
       "de": "Heißer Blitz (Kartoffel-Apfel-Stampf mit Speck)",
       "en": "Potato and apple mash with bacon (hete bliksem)",
-      "tr": "Pastırmalı elmalı patates püresi (hete bliksem)",
+      "tr": "Beykonlu elmalı patates püresi (hete bliksem)",
       "fr": "Purée pommes de terre et pommes aux lardons (hete bliksem)",
       "es": "Puré de patata y manzana con tocino (hete bliksem)",
       "pt": "Puré de batata e maçã com bacon (hete bliksem)",
@@ -245772,7 +245812,7 @@
     "names": {
       "de": "Kapuzinererbsen mit Speck",
       "en": "Marrowfat peas with bacon",
-      "tr": "Pastırmalı kuru bezelye",
+      "tr": "Beykonlu kuru bezelye",
       "fr": "Pois capucins aux lardons",
       "es": "Guisantes capuchinos con tocino",
       "pt": "Ervilhas capuchinhas com bacon",
@@ -251488,7 +251528,7 @@
     "names": {
       "de": "Chouriço-Brot",
       "en": "Chouriço bread",
-      "tr": "Sucuklu Ekmek",
+      "tr": "Domuz Sosisli Ekmek",
       "fr": "Pain au chouriço",
       "es": "Pan con chorizo",
       "pt": "Pão com chouriço",
@@ -252971,7 +253011,7 @@
     "names": {
       "de": "Bohnen mit Würstchen",
       "en": "Beans with sausages",
-      "tr": "Sucuklu kuru fasulye",
+      "tr": "Domuz sosisli kuru fasulye",
       "fr": "Haricots aux saucisses",
       "es": "Alubias con salchichas",
       "pt": "Feijão com salsichas",
@@ -254189,7 +254229,7 @@
     "names": {
       "de": "Bohnensuppe mit Wurst (serbisch)",
       "en": "Serbian bean soup with sausage",
-      "tr": "Sucuklu kuru fasulye",
+      "tr": "Domuz sosisli kuru fasulye",
       "fr": "Soupe de haricots à la saucisse",
       "es": "Potaje de alubias con salchicha",
       "pt": "Sopa de feijão com chouriço",
@@ -274988,7 +275028,8 @@
       "Brechbohnen",
       "Prinzessbohnen",
       "Fisolen",
-      "Beans, snap, green, raw"
+      "Beans, snap, green, raw",
+      "Yeşil fasulye"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Gemüse",
@@ -275032,7 +275073,8 @@
     "barcode": null,
     "synonyms": [
       "Brechbohnen gekocht",
-      "Beans, snap, green, cooked, boiled, drained, without salt"
+      "Beans, snap, green, cooked, boiled, drained, without salt",
+      "Yeşil fasulye"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Gemüse",
@@ -278712,7 +278754,8 @@
     "synonyms": [
       "Langkornreis roh",
       "Reis ungekocht",
-      "Rice, white, long-grain, regular, raw, unenriched"
+      "Rice, white, long-grain, regular, raw, unenriched",
+      "Osmancık pirinç"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Getreide, Teigwaren & Brot",
@@ -278825,7 +278868,8 @@
     "synonyms": [
       "Milchreis roh",
       "Risottoreis",
-      "Rice, white, short-grain, enriched, uncooked"
+      "Rice, white, short-grain, enriched, uncooked",
+      "Baldo pirinç"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Getreide, Teigwaren & Brot",
@@ -279085,7 +279129,10 @@
       "Pasta roh",
       "Spaghetti roh",
       "Teigwaren trocken",
-      "Pasta, dry, unenriched"
+      "Pasta, dry, unenriched",
+      "Şehriye",
+      "Arpa şehriye",
+      "Tel şehriye"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Getreide, Teigwaren & Brot",
@@ -279302,7 +279349,8 @@
     "barcode": null,
     "synonyms": [
       "Bandnudeln roh",
-      "Noodles, egg, dry, unenriched"
+      "Noodles, egg, dry, unenriched",
+      "Erişte"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Getreide, Teigwaren & Brot",
@@ -279416,7 +279464,10 @@
     "barcode": null,
     "synonyms": [
       "Bulgur trocken",
-      "Bulgur, dry"
+      "Bulgur, dry",
+      "İnce bulgur",
+      "Köftelik bulgur",
+      "Pilavlık bulgur"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Getreide, Teigwaren & Brot",
@@ -280055,7 +280106,8 @@
     "synonyms": [
       "Grieß",
       "Semola",
-      "Semolina, unenriched"
+      "Semolina, unenriched",
+      "İrmik"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Getreide, Teigwaren & Brot",
@@ -280688,7 +280740,8 @@
     "synonyms": [
       "Milch",
       "Vollmilch",
-      "Milk, whole, 3.25% milkfat, with added vitamin D"
+      "Milk, whole, 3.25% milkfat, with added vitamin D",
+      "Süt"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Milchprodukte & Eier",
@@ -280870,7 +280923,7 @@
     "names": {
       "de": "Buttermilch",
       "en": "Buttermilk",
-      "tr": "Yayık ayranı",
+      "tr": "Yayıkaltı",
       "fr": "Babeurre",
       "es": "Suero de mantequilla",
       "pt": "Leitelho",
@@ -281085,9 +281138,6 @@
     "aliases": {
       "de": [
         "Körniger Frischkäse"
-      ],
-      "tr": [
-        "Lor peyniri"
       ],
       "fr": [
         "Fromage cottage"
@@ -283541,7 +283591,8 @@
     "barcode": null,
     "synonyms": [
       "Walnusskerne",
-      "Nuts, walnuts, english"
+      "Nuts, walnuts, english",
+      "Ceviz içi"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Nüsse & Samen",
@@ -283999,7 +284050,9 @@
     "type": "item",
     "barcode": null,
     "synonyms": [
-      "Seeds, sunflower seed kernels, dried"
+      "Seeds, sunflower seed kernels, dried",
+      "Ay çekirdeği",
+      "Çekirdek"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Nüsse & Samen",
@@ -284962,7 +285015,8 @@
     "synonyms": [
       "Lammfleisch",
       "Lamm",
-      "Lamb, leg, whole (shank and sirloin), separable lean only, trimmed to 1/4\" fat, choice, raw"
+      "Lamb, leg, whole (shank and sirloin), separable lean only, trimmed to 1/4\" fat, choice, raw",
+      "Kuzu eti"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Fleisch",
@@ -295613,7 +295667,8 @@
     "synonyms": [
       "Popcorn ohne Fett",
       "Popcorn natur",
-      "Snacks, popcorn, air-popped (Unsalted)"
+      "Snacks, popcorn, air-popped (Unsalted)",
+      "Mısır patlağı"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Getreide, Teigwaren & Brot",
@@ -296105,9 +296160,6 @@
     "aliases": {
       "de": [
         "Körniger Frischkäse"
-      ],
-      "tr": [
-        "Lor peyniri"
       ],
       "fr": [
         "Fromage cottage"
@@ -299173,7 +299225,8 @@
     "synonyms": [
       "Lammbraten (mager)",
       "Lammkeule gebraten",
-      "Lamb, leg, whole (shank and sirloin), separable lean only, trimmed to 1/4\" fat, choice, cooked, roasted"
+      "Lamb, leg, whole (shank and sirloin), separable lean only, trimmed to 1/4\" fat, choice, cooked, roasted",
+      "Kuzu eti"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Fleisch",
@@ -304906,7 +304959,8 @@
     "synonyms": [
       "Aubergine gebraten",
       "gebratene Aubergine",
-      "Melanzani gebraten"
+      "Melanzani gebraten",
+      "Patlıcan kızartması"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Gemüse",
@@ -309510,7 +309564,7 @@
     "names": {
       "de": "Teewurst",
       "en": "Teewurst (spreadable smoked sausage)",
-      "tr": "Teewurst (sürülebilir füme sucuk)",
+      "tr": "Teewurst (sürülebilir füme domuz sosisi)",
       "fr": "Teewurst (saucisse fumée à tartiner)",
       "es": "Teewurst (embutido ahumado para untar)",
       "pt": "Teewurst (enchido fumado para barrar)",
@@ -310167,7 +310221,7 @@
     "names": {
       "de": "Schinkenspeck (geräuchert)",
       "en": "Smoked ham bacon (Schinkenspeck)",
-      "tr": "Füme jambon pastırması (Schinkenspeck)",
+      "tr": "Füme beykon (Schinkenspeck)",
       "fr": "Lard de jambon fumé",
       "es": "Panceta de jamón ahumada",
       "pt": "Toucinho de presunto fumado",
@@ -310751,7 +310805,7 @@
     "names": {
       "de": "Kümmelbrötchen (mit Salz)",
       "en": "Caraway bread roll with salt",
-      "tr": "Kimyonlu tuzlu küçük ekmek",
+      "tr": "Karaman kimyonlu tuzlu küçük ekmek",
       "fr": "Petit pain au carvi et au sel",
       "es": "Panecillo con alcaravea y sal",
       "pt": "Pãozinho com alcaravia e sal",
@@ -312078,7 +312132,9 @@
     },
     "type": "item",
     "barcode": null,
-    "synonyms": [],
+    "synonyms": [
+      "Baklava yufkası"
+    ],
     "cuisine": "int",
     "category": "Grundzutat: Getreide, Teigwaren & Brot",
     "prepared": "base_ingredient",
@@ -312799,7 +312855,7 @@
     "names": {
       "de": "Berner Würstel, gebraten",
       "en": "Berner sausage (bacon-wrapped cheese sausage), fried",
-      "tr": "Berner sosis (pastırmaya sarılı peynirli), kızartılmış",
+      "tr": "Berner sosis (beykona sarılı peynirli), kızartılmış",
       "fr": "Saucisse Berner (au fromage, enrobée de lard), poêlée",
       "es": "Salchicha Berner (con queso, envuelta en tocino), frita",
       "pt": "Salsicha Berner (com queijo, envolta em bacon), frita",

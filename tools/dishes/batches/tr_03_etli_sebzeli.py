@@ -1,33 +1,33 @@
 CUISINE = 'tr'
 TEXT = """
 Karnıyarık | Karniyarik, Gespaltener Bauch, Gefüllte Aubergine mit Hack, Split belly aubergine | GM | 0.85 | 1 Portion (2 Hälften) | aubergine 250, hack 80, zwiebel 40, tomate 50, sivri 20, tomatenmark 5, oel 18, wasser 60
-Musakka | Moussaka türkisch, Patlıcan Musakka | GM | 0.85 | 1 Portion | aubergine 180, hack 80, zwiebel 35, tomate 60, paprika 25, tomatenmark 6, oel 18, wasser 50
+Musakka | Moussaka türkisch, Patlıcan Musakka, Patlıcan yemeği | GM | 0.85 | 1 Portion | aubergine 180, hack 80, zwiebel 35, tomate 60, paprika 25, tomatenmark 6, oel 18, wasser 50
 Kabak Musakka | Zucchini-Moussaka | GM | 0.85 | 1 Portion | zucchini 200, hack 80, zwiebel 35, tomate 60, tomatenmark 6, oel 12, wasser 50
 Patates Musakka | Kartoffel-Moussaka | GM | 0.85 | 1 Portion | kartoffel 180, hack 80, zwiebel 30, tomate 60, oel 15, wasser 60
 Sultan Kebabı | Sultan Kebap, Aubergine mit Fleisch | GM | 0.85 | 1 Portion | aubergine 200, lamm 100, tomate 60, zwiebel 30, oel 20, wasser 50
-Kuru Fasulye | Weiße Bohnen in Tomatensoße, Turkish white beans | HH | 0.95 | 1 Teller | bohnen_trocken 55, zwiebel 30, tomatenmark 10, butter 10, tomate 30, wasser 250
-Etli Kuru Fasulye | Weiße Bohnen mit Fleisch, White beans with beef | HH | 0.9 | 1 Teller | bohnen_trocken 50, rind 50, zwiebel 30, tomatenmark 10, butter 10, wasser 250
+Kuru Fasulye | Weiße Bohnen in Tomatensoße, Turkish white beans, Kuru fasulye yemeği | HH | 0.95 | 1 Teller | bohnen_trocken 55, zwiebel 30, tomatenmark 10, butter 10, tomate 30, wasser 250
+Etli Kuru Fasulye | Weiße Bohnen mit Fleisch, White beans with beef, Kuru fasulye yemeği, Etli kuru fasulye yemeği | HH | 0.9 | 1 Teller | bohnen_trocken 50, rind 50, zwiebel 30, tomatenmark 10, butter 10, wasser 250
 Pastırmalı Kuru Fasulye | Weiße Bohnen mit Pastırma | HH | 0.9 | 1 Teller | bohnen_trocken 55, pastirma 35, zwiebel 30, tomatenmark 8, butter 8, wasser 250
 Nohut Yemeği | Kichererbsengericht, Chickpea stew | HH | 0.9 | 1 Teller | kichererbsen_trocken 55, zwiebel 30, tomatenmark 10, butter 10, wasser 250
-Etli Nohut | Kichererbsen mit Fleisch, Chickpea stew with beef | HH | 0.9 | 1 Teller | kichererbsen_trocken 50, rind 50, zwiebel 30, tomatenmark 10, butter 10, wasser 250
+Etli Nohut | Kichererbsen mit Fleisch, Chickpea stew with beef, Etli nohut yemeği | HH | 0.9 | 1 Teller | kichererbsen_trocken 50, rind 50, zwiebel 30, tomatenmark 10, butter 10, wasser 250
 Barbunya Pilaki | Barbunya Pilaki, Borlotti-Bohnen in Olivenöl | GZ | 0.9 | 1 Portion | bohnen_trocken 45, zwiebel 30, karotte 25, tomate 40, tomatenmark 5, olivenoel 14, zucker 2, wasser 150
-Taze Fasulye (Etli) | Grüne Bohnen mit Fleisch, Green beans with beef | GM | 0.85 | 1 Portion | gruene_bohnen 200, rind 50, zwiebel 30, tomate 60, tomatenmark 6, oel 10, wasser 100
+Taze Fasulye (Etli) | Grüne Bohnen mit Fleisch, Green beans with beef, Etli yeşil fasulye, Yeşil fasulye yemeği, Taze fasulye yemeği | GM | 0.85 | 1 Portion | gruene_bohnen 200, rind 50, zwiebel 30, tomate 60, tomatenmark 6, oel 10, wasser 100
 Etli Bamya | Okra mit Fleisch, Okra stew with beef | GM | 0.85 | 1 Portion | okra 180, rind 60, zwiebel 30, tomate 60, oel 10, zitrone 8, wasser 100
 Etli Patlıcan | Aubergine mit Fleisch | GM | 0.85 | 1 Portion | aubergine 200, rind 60, zwiebel 30, tomate 60, paprika 25, oel 20, wasser 80
 Etli Kabak | Zucchini mit Fleisch | GM | 0.85 | 1 Portion | zucchini 220, rind 60, zwiebel 30, tomate 60, oel 10, wasser 80
 Etli Türlü | Gemüseeintopf mit Fleisch, Turkish mixed vegetable stew | GM | 0.85 | 1 Portion | rind 60, aubergine 60, zucchini 60, paprika 40, kartoffel 60, tomate 60, zwiebel 30, oel 12, wasser 80
 Etli Ispanak | Spinat mit Fleisch | GM | 0.85 | 1 Portion | spinat 250, rind 60, zwiebel 40, reis 15, tomatenmark 6, oel 10, wasser 80
-Etli Pırasa | Lauch mit Fleisch | GM | 0.85 | 1 Portion | lauch 220, rind 60, karotte 30, reis 15, oel 10, zitrone 6, wasser 100
-Etli Bezelye | Erbsen mit Fleisch, Peas with beef | GM | 0.85 | 1 Portion | erbsen 180, rind 60, karotte 40, kartoffel 40, zwiebel 30, oel 10, wasser 100
+Etli Pırasa | Lauch mit Fleisch, Pırasa yemeği, Etli pırasa yemeği | GM | 0.85 | 1 Portion | lauch 220, rind 60, karotte 30, reis 15, oel 10, zitrone 6, wasser 100
+Etli Bezelye | Erbsen mit Fleisch, Peas with beef, Bezelye yemeği | GM | 0.85 | 1 Portion | erbsen 180, rind 60, karotte 40, kartoffel 40, zwiebel 30, oel 10, wasser 100
 Etli Enginar | Artischocken mit Fleisch | GM | 0.85 | 1 Portion | artischocke 160, rind 60, kartoffel 40, karotte 30, zwiebel 20, oel 10, wasser 100
-Etli Karnabahar | Blumenkohl mit Fleisch | GM | 0.85 | 1 Portion | blumenkohl 220, rind 60, tomate 50, zwiebel 30, oel 10, wasser 80
+Etli Karnabahar | Blumenkohl mit Fleisch, Karnabahar yemeği | GM | 0.85 | 1 Portion | blumenkohl 220, rind 60, tomate 50, zwiebel 30, oel 10, wasser 80
 Etli Lahana | Weißkohl mit Fleisch, Cabbage stew with beef | GM | 0.85 | 1 Portion | weisskohl 250, rind 60, zwiebel 30, tomatenmark 8, oel 10, wasser 80
 Kapuska | Kapuska, Kohleintopf Karadeniz | GM | 0.85 | 1 Portion | weisskohl 250, hack 60, reis 15, tomatenmark 8, zwiebel 30, oel 10, wasser 80
 Etli Kereviz | Sellerie mit Fleisch | GM | 0.85 | 1 Portion | sellerie 200, rind 60, karotte 30, zwiebel 20, oel 10, zitrone 6, wasser 100
 Etli Taze Bakla | Dicke Bohnen mit Fleisch | GM | 0.85 | 1 Portion | dicke_bohnen 180, rind 60, zwiebel 30, dill 5, oel 10, wasser 100
 Etli Semizotu | Portulak mit Fleisch | GM | 0.85 | 1 Portion | portulak 220, rind 60, zwiebel 30, tomate 40, oel 10, wasser 80
 Kıymalı Ispanak | Spinat mit Hack, Spinach with mince | GM | 0.85 | 1 Portion | spinat 250, hack 60, zwiebel 40, tomatenmark 6, oel 8, wasser 60
-Kıymalı Patates | Kartoffeln mit Hack, Potato mince stew | GM | 0.88 | 1 Portion | kartoffel 220, hack 70, zwiebel 30, tomatenmark 8, oel 10, wasser 100
+Kıymalı Patates | Kartoffeln mit Hack, Potato mince stew, Kıymalı patates yemeği | GM | 0.88 | 1 Portion | kartoffel 220, hack 70, zwiebel 30, tomatenmark 8, oel 10, wasser 100
 Kıymalı Bezelye | Erbsen mit Hack | GM | 0.85 | 1 Portion | erbsen 180, hack 70, zwiebel 30, karotte 30, tomatenmark 6, oel 8, wasser 80
 Kıymalı Kabak | Zucchini mit Hack | GM | 0.85 | 1 Portion | zucchini 220, hack 70, zwiebel 30, tomate 50, oel 8, wasser 60
 Kıymalı Lahana | Kohl mit Hack | GM | 0.85 | 1 Portion | weisskohl 250, hack 70, zwiebel 30, tomatenmark 8, oel 8, wasser 80
@@ -66,7 +66,7 @@ Kuzu Fırın | Lamm aus dem Ofen, Roast lamb | HF | 0.72 | 1 Portion | lamm 260,
 Fırında Kuzu Incik | Lammhaxe aus dem Ofen | HF | 0.7 | 1 Portion | lamm 300, karotte 40, zwiebel 30, tomatenmark 6, kartoffel 60
 Kuzu Çevirme | Lamm am Spieß, Lamb on spit | HF | 0.7 | 1 Portion | lamm 270, zwiebel 20, oregano 1
 Kızartma (Etli) | Gebratenes Fleisch mit Gemüse | HF | 0.78 | 1 Portion | rind_steak 160, kartoffel 100, paprika 40, oel 25
-Patlıcan Oturtma | Aubergine Oturtma, Aubergine mit Fleisch auf dem Teller | GM | 0.85 | 1 Portion | aubergine 200, hack 80, tomate 60, zwiebel 30, kasar 15, oel 18
+Patlıcan Oturtma | Aubergine Oturtma, Aubergine mit Fleisch auf dem Teller, Patlıcan yemeği | GM | 0.85 | 1 Portion | aubergine 200, hack 80, tomate 60, zwiebel 30, kasar 15, oel 18
 Patlıcan Sarma | Auberginenrollen mit Hack | GM | 0.85 | 1 Portion | aubergine 180, hack 80, zwiebel 30, tomate 60, oel 20
 Soslu Patlıcan | Aubergine in Tomatensoße | GM | 0.85 | 1 Portion | aubergine 220, tomate 100, zwiebel 30, knoblauch 5, oel 20
 Patlıcan Kızartması Yoğurtlu | Gebratene Aubergine mit Joghurt | V | 0.9 | 1 Portion | aubergine 200, joghurt 80, knoblauch 4, oel 25, tomate 40
@@ -90,10 +90,10 @@ Pastırmalı Yumurta | Eier mit Pastırma | FR | 0.85 | 1 Pfanne | ei 120, pasti
 Kavurmalı Yumurta | Eier mit Kavurma | FR | 0.85 | 1 Pfanne | ei 120, rind_fett 50, butter 5
 Sahanda Yumurta | Spiegeleier in der Pfanne, Fried eggs Turkish | FR | 0.9 | 1 Pfanne | ei 120, butter 12, pul_biber 1
 Kaşarlı Yumurta | Eier mit Kaşar | FR | 0.88 | 1 Pfanne | ei 120, kasar 40, butter 8
-Yumurtalı Ispanak | Spinat mit Ei | HV | 0.85 | 1 Portion | spinat 250, ei 60, zwiebel 40, oel 10
+Yumurtalı Ispanak | Spinat mit Ei, Ispanaklı yumurta | HV | 0.85 | 1 Portion | spinat 250, ei 60, zwiebel 40, oel 10
 Yumurtalı Ekmek | Eier-Brot, French toast Turkish | FR | 0.88 | 1 Portion | weissbrot 80, ei 100, milch 40, butter 15
 Soğan Kavurması | Geschmorte Zwiebeln mit Ei | HV | 0.85 | 1 Portion | zwiebel 200, ei 60, oel 15, tomate 40
 Patatesli Yumurta | Kartoffeln mit Ei | HV | 0.85 | 1 Portion | kartoffel 150, ei 100, zwiebel 20, oel 15
-Türlü | Türlü, Gemüseeintopf, Turkish ratatouille | GZ | 0.85 | 1 Portion | aubergine 70, zucchini 60, paprika 50, kartoffel 60, tomate 80, zwiebel 30, okra 30, olivenoel 14, wasser 60
+Türlü | Türlü, Gemüseeintopf, Turkish ratatouille, Türlü yemeği | GZ | 0.85 | 1 Portion | aubergine 70, zucchini 60, paprika 50, kartoffel 60, tomate 80, zwiebel 30, okra 30, olivenoel 14, wasser 60
 Ciğerli Pilav | Reis mit Leber, Liver pilaf | RP | 0.95 | 1 Teller | reis 70, leber 60, butter 10, zwiebel 20, pinienkerne 6, rosinen 6, wasser 150
 """
