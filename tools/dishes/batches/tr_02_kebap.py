@@ -32,7 +32,7 @@ Tavuk Sote | Hähnchen-Sauté, Chicken sauté, Tavuk yemeği | HG | 0.8 | 1 Port
 Kebap Tabağı Karışık | Gemischter Kebabteller, Mixed grill plate | KB | 0.75 | 1 Portion | lamm_hack 100, lamm 80, hahn_brust 80, lavas 60, tomate 40, paprika 30, zwiebel 30, oel 6
 Döner Kebap (Dürüm) | Dürüm Döner, Döner im Wrap, Doener Rolle, Et dürüm | KB | 0.9 | 1 Dürüm | lamm 60, hack 60, lavas 90, tomate 30, zwiebel 25, salat 20, joghurt 20, oel 8
 Tavuk Döner Dürüm | Hähnchen-Döner-Wrap, Chicken doner wrap | KB | 0.9 | 1 Dürüm | hahn_keule 120, lavas 90, tomate 30, zwiebel 20, salat 20, joghurt 20, oel 8
-Döner Kebap Porsiyon | Döner Teller, Doner plate, Et döner | KB | 0.85 | 1 Teller | lamm 90, hack 90, reis 40, wasser 70, tomate 40, salat 30, zwiebel 20, oel 8
+Döner Kebap Porsiyon | Döner Teller, Doner plate | KB | 0.85 | 1 Teller | lamm 90, hack 90, reis 40, wasser 70, tomate 40, salat 30, zwiebel 20, oel 8
 Döner Ekmek Arası | Döner im Brot, Doener im Fladenbrot | KB | 0.9 | 1 Brot | lamm 70, hack 70, ekmek 120, tomate 30, zwiebel 25, salat 25, joghurt 25, oel 8
 Çiğ Köfte (Etli) | Çiğ Köfte, Rohes Hack, Raw meat köfte Urfa | KF | 1.0 | 1 Portion | hack 120, bulgur 40, tomatenmark 10, paprikamark 8, zwiebel 30, pul_biber 3, petersilie 8, wasser 30
 Çiğ Köfte (Etsiz) | Vegetarische Çiğ Köfte, Vegan çiğ köfte, Çiğköfte | KF | 1.0 | 1 Portion | bulgur 50, tomatenmark 15, paprikamark 12, zwiebel 20, pul_biber 3, petersilie 10, granatapfel 1, wasser 60, olivenoel 8, salat 15
