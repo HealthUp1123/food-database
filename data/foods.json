@@ -324459,5 +324459,94 @@
     "quality": "reference",
     "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code M2A7200 \"Milchmischgetränk 1,5 % Fett, mit Kaffee, gesüßt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 7.9 g + Ballaststoffe 0.203 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "BLS 4.0:M2A7200"
+  },
+  {
+    "id": "firik-roh",
+    "name": "Freekeh (Firik), roh",
+    "names": {
+      "de": "Freekeh (Firik), roh",
+      "en": "Freekeh, raw",
+      "tr": "Firik, çiğ",
+      "fr": "Frik, cru",
+      "es": "Freekeh, crudo",
+      "pt": "Freekeh, cru",
+      "it": "Freekeh, crudo",
+      "zh": "青麦（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Firik",
+      "Frik",
+      "Grünweizen"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Getreide, Teigwaren & Brot",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt. Zucker ist in Ciqual nur als Spuren angegeben und als 0 g gesetzt.",
+    "per100g": {
+      "kcal": 323,
+      "protein": 10.3,
+      "carbs": 75.1,
+      "fat": 2.3,
+      "fiber": 19.3,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Freekeh (Firik), roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 51510 \"Frik (blé dur immature concassé), cru\". Kohlenhydrate = verfügbare KH 55,8 g + Ballaststoffe 19,3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Eiweiß ist N × 6,25 (10,3 g), damit trifft die veröffentlichte Energie.",
+    "source_id": "Ciqual 2025:51510"
+  },
+  {
+    "id": "galeta",
+    "name": "Zwieback (Galeta)",
+    "names": {
+      "de": "Zwieback (Galeta)",
+      "en": "Rusk (galeta)",
+      "tr": "Galeta",
+      "fr": "Biscotte nature",
+      "es": "Biscote clásico",
+      "pt": "Tosta simples",
+      "it": "Fetta biscottata classica",
+      "zh": "普通面包干"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Peksimet",
+      "Galeta peksimet"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Getreide, Teigwaren & Brot",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt. Schlichter Zwieback, nicht der Butterzwieback.",
+    "per100g": {
+      "kcal": 394,
+      "protein": 11.0,
+      "carbs": 77.5,
+      "fat": 5.4,
+      "fiber": 4.3,
+      "sugar": 6.9
+    },
+    "ingredients": [
+      {
+        "name": "Zwieback (Galeta)",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 7300 \"Biscotte classique\". Kohlenhydrate = verfügbare KH 73,2 g + Ballaststoffe 4,32 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Eiweiß ist N × 6,25 (11 g), damit trifft die veröffentlichte Energie.",
+    "source_id": "Ciqual 2025:7300"
   }
 ]

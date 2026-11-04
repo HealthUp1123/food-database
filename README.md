@@ -203,7 +203,7 @@ BASE="https://food-database-api.<dein-account>.workers.dev"
 
 ```bash
 curl "$BASE/health"
-# {"status":"ok","count":5348,"languages":["de","en","tr","fr","es","pt","it","zh"]}
+# {"status":"ok","count":5350,"languages":["de","en","tr","fr","es","pt","it","zh"]}
 
 curl "$BASE/search?q=karniyarik&limit=5"
 # {"query":"karniyarik","count":1,"results":[{"id":"karniyarik","name":"Karnıyarık","barcode":null, ...}]}
@@ -241,7 +241,7 @@ Wenn du keine API betreiben willst, lädst du die Rohdatei einmal und suchst lok
 https://raw.githubusercontent.com/HealthUp1123/food-database/main/data/foods.json
 ```
 
-Das ist bei diesem Datenumfang (5348 Einträge) praktikabel. Für die Zutatenliste brauchst du keinen zweiten Endpunkt, die Datei enthält sie bereits. In der Such-API fehlt `ingredients` in der Trefferliste absichtlich; `GET /item/{id}` liefert sie nach.
+Das ist bei diesem Datenumfang (5350 Einträge) praktikabel. Für die Zutatenliste brauchst du keinen zweiten Endpunkt, die Datei enthält sie bereits. In der Such-API fehlt `ingredients` in der Trefferliste absichtlich; `GET /item/{id}` liefert sie nach.
 
 ## Einbau in die App: Suchfeld mit Live-Suche (Debounce)
 
