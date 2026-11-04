@@ -37,13 +37,13 @@ Belen Tava | Belen Tava, Hatay Hackfleischpfanne | PF | 0.8 | 1 Portion (300 g) 
 Abagannuş | Abagannus, Hatay Auberginen-Meze | V | 0.85 | 1 Portion (150 g) | aubergine 140, tahin 15, joghurt 20, knoblauch 4, olivenoel 8, granatapfel 10, salz 1
 Ağzı Açık | Agzi Acik, Urfa Kibbe-Halbmond | KF | 0.85 | 3 Stück (200 g) | bulgur 60, hack 70, zwiebel 30, walnuss 10, oel 15, salz 1
 Şıllık Tatlısı | Sillik Tatlisi, Urfa Crepe-Dessert | SW | 0.85 | 1 Portion (180 g) | mehl 45, milch 60, ei 15, walnuss 15, zucker 40, butter 10, wasser 25
-Bostana | Bostana, Urfa Salat | SA | 0.95 | 1 Schale (250 g) | tomate 120, gurke 60, zwiebel 30, petersilie 15, sivri 20, nar_eksisi 10, olivenoel 8, salz 1
+Bostana | Bostana, Urfa Salat, Bostana salatası | SA | 0.95 | 1 Schale (250 g) | tomate 120, gurke 60, zwiebel 30, petersilie 15, sivri 20, nar_eksisi 10, olivenoel 8, salz 1
 Mırra | Mirra, Bitterer Mokka | GT | 1.0 | 1 Tässchen (50 ml) | kaffee 50
 Kitel | Kitel, Diyarbakir Içli Köfte | KF | 0.85 | 1 Portion (250 g) | bulgur 60, hack 90, zwiebel 30, walnuss 10, butter 8, wasser 60, salz 1
 Mardin Kaburga Dolması | Mardin Kaburga, Gefuellte Lammrippe Mardin | FL | 0.75 | 1 Portion (350 g) | lamm 200, reis 60, mandel 10, pistazie 5, butter 10, gewuerz 2, wasser 80, salz 1
 Alluciye | Alluciye, Mardin Pflaumen-Fleisch | GM | 0.85 | 1 Portion (300 g) | lamm 120, pflaume_tr 50, zwiebel 30, butter 8, zimt 1, wasser 100, salz 1
 İkbebet | Ikbebet, Mardin Kibbe gekocht | KF | 0.85 | 3 Stück (220 g) | bulgur 60, hack 80, zwiebel 30, walnuss 10, butter 6, wasser 60, salz 1
-Harput Köftesi | Harput Koftesi, Elazig Bulgurköfte | KF | 0.9 | 1 Teller (350 g) | bulgur 60, hack 80, tomatenmark 15, paprikamark 10, butter 8, wasser 160, salz 1
+Harput Köftesi | Harput Koftesi, Elazig Bulgurköfte, Ekşili Elazığ köftesi | KF | 0.9 | 1 Teller (350 g) | bulgur 60, hack 80, tomatenmark 15, paprikamark 10, butter 8, wasser 160, salz 1
 Orcik Tatlısı | Orcik, Elazig Nussstrudel in Traubensirup | SW | 1.0 | 1 Stück (60 g) | walnuss 25, pekmez 20, staerke 10, mehl 5
 Tokat Batı | Tokat Bati, Bulgur-Linsen-Salat Tokat | SA | 0.95 | 1 Portion (250 g) | linsen 25, bulgur 40, tomatenmark 15, zwiebel 30, petersilie 15, olivenoel 12, zitrone 10, wasser 80, salz 1
 Kadayıf Dolması | Kadayif Dolmasi, Erzurum Kadayif mit Walnuss | SW | 0.95 | 2 Stück (140 g) | kadayif 40, walnuss 25, butter 15, zucker 45, wasser 25
@@ -68,7 +68,7 @@ Puçuko | Pucuko, Karadeniz Wildkraeutergericht | GZ | 0.85 | 1 Portion (200 g) 
 Lazut | Lazut, Mais-Bohnen-Eintopf | E | 0.9 | 1 Teller (300 g) | mais 80, bohnen_trocken 30, zwiebel 30, butter 8, tomatenmark 8, wasser 150, salz 1
 Mısır Ekmeği Tirit | Misir Ekmegi Tiridi, Schwarzmeer Maisbrot mit Milch | FR | 0.95 | 1 Schale (250 g) | maismehl 50, milch 180, butter 10, zucker 5
 Kiraz Kompostosu | Kiraz Kompostosu, Kirschkompott | GT | 1.0 | 1 Glas (250 ml) | kirsche 80, zucker 20, wasser 150
-Kumru | Kumru Izmir, Kumru Sandviç | SN | 0.95 | 1 Stück (250 g) | semmel 100, sucuk 40, kasar 40, salami 20, tomate 40, sivri 10
+Kumru | Kumru Izmir, Kumru Sandviç, Kumru (dolgulu) | SN | 0.95 | 1 Stück (250 g) | semmel 100, sucuk 40, kasar 40, salami 20, tomate 40, sivri 10
 Şambali | Sambali, Izmir Griess-Sirupkuchen | SW | 0.95 | 1 Stück (100 g) | griess 35, joghurt 20, zucker 35, mandel 5, oel 8, wasser 15
 İzmir Bomba | Izmir Bomba, Bomba Tatli | SW | 0.95 | 1 Stück (90 g) | mehl 35, butter 15, schokolade 20, zucker 10, ei 8, milch 10
 Sakızlı Muhallebi | Sakizli Muhallebi, Mastix-Pudding | PU | 0.95 | 1 Schale (200 g) | milch 170, staerke 15, zucker 22, reismehl 5
@@ -77,8 +77,8 @@ Deniz Börülcesi Salatası | Deniz Borulcesi, Queller-Salat | SA | 0.95 | 1 Por
 Ot Kavurma | Ot Kavurma, Ege Wildkraeuter-Pfanne | GZ | 0.85 | 1 Portion (200 g) | wildkraut 180, zwiebel 30, olivenoel 15, ei 15, salz 1
 Muğla Tarhanası | Mugla Tarhanasi, Ege Tarhana Suppe | S | 0.9 | 1 Teller (300 g) | tarhana 30, joghurt 50, butter 8, tomatenmark 5, wasser 230, salz 1
 Söğüş Tabağı İzmir | Izmir Sogus, Kalte Fleischplatte | FL | 0.95 | 1 Portion (250 g) | zunge 80, innereien 60, tomate 60, zwiebel 30, petersilie 10, ekmek 30, salz 1
-Kabak Çiçeği Kızartması | Kabak Cicegi Kizartmasi, Frittierte Zucchiniblueten | V | 0.9 | 1 Portion (150 g) | zucchini 70, mehl 30, ei 25, wasser 30, oel 18, salz 1
-Midye Pilaki | Midye Pilaki | V | 0.9 | 1 Portion (200 g) | muschel 100, kartoffel 50, karotte 30, zwiebel 30, olivenoel 15, wasser 20, salz 1
+Kabak Çiçeği Kızartması | Kabak Cicegi Kizartmasi, Frittierte Zucchiniblueten, Kabak çiçeği tava | V | 0.9 | 1 Portion (150 g) | zucchini 70, mehl 30, ei 25, wasser 30, oel 18, salz 1
+Midye Pilaki | Midye Pilaki, Midye pilakisi (İstanbul) | V | 0.9 | 1 Portion (200 g) | muschel 100, kartoffel 50, karotte 30, zwiebel 30, olivenoel 15, wasser 20, salz 1
 Ayvalık Sardalya Sarma | Sardalya Sarma, Sardinen im Weinblatt | HFi | 0.85 | 1 Portion (200 g) | sardine 180, weinblatt 20, olivenoel 10, zitrone 10, salz 1
 Hayrabolu Tatlısı | Hayrabolu Tatlisi, Thrakischer Käse-Sirupkringel | SW | 0.95 | 2 Stück (120 g) | mehl 30, griess 10, beyaz_peynir 25, ei 10, zucker 40, oel 6, wasser 15
 Kırklareli Köftesi | Kirklareli Koftesi | KF | 0.75 | 1 Portion (200 g) | hack 200, zwiebel 30, knoblauch 4, semmel 20, salz 1, kreuzkuemmel 1
@@ -86,8 +86,8 @@ Trakya Kıyma Böreği | Trakya Boregi, Thrakischer Hackfleischbörek | BO | 0.8
 Çanakkale Sardalya Buğulama | Sardalya Bugulama | HFi | 0.85 | 1 Portion (250 g) | sardine 200, tomate 60, zwiebel 30, olivenoel 10, zitrone 10, salz 1
 Bergama Kozak Pilavı | Kozak Pilavi, Pinienkern-Pilav Bergama | RP | 0.9 | 1 Portion (250 g) | reis 75, pinienkerne 15, butter 12, zwiebel 20, bruehe 130, salz 1
 Gerdan Kebabı | Gerdan Kebabi, Lammhals-Kebap | FL | 0.75 | 1 Portion (300 g) | lamm 250, tomate 60, zwiebel 40, butter 8, salz 1
-Gaziantep Katmeri | Antep Katmeri, Kaymakli Katmer, Suesser Katmer | SW | 0.95 | 1 Stück (180 g) | mehl 45, kaymak 40, pistazie 30, zucker 25, butter 20, wasser 20
-Kalburabastı | Kalburabasti, Kalbura Basti | SW | 0.95 | 2 Stück (120 g) | mehl 35, griess 5, walnuss 12, butter 10, zucker 45, ei 5, joghurt 10, wasser 15
+Gaziantep Katmeri | Antep Katmeri, Kaymakli Katmer, Suesser Katmer, Fıstıklı katmer | SW | 0.95 | 1 Stück (180 g) | mehl 45, kaymak 40, pistazie 30, zucker 25, butter 20, wasser 20
+Kalburabastı | Kalburabasti, Kalbura Basti, Kalburabastı (cevizli) | SW | 0.95 | 2 Stück (120 g) | mehl 35, griess 5, walnuss 12, butter 10, zucker 45, ei 5, joghurt 10, wasser 15
 Saray Sarması | Saray Sarmasi, Pistazienrolle Baklava | SW | 1.0 | 2 Stück (90 g) | yufka 25, pistazie 25, butter 15, zucker 25
 Bülbül Yuvası | Bulbul Yuvasi, Nachtigallennest-Baklava | SW | 1.0 | 2 Stück (90 g) | yufka 25, pistazie 20, butter 15, zucker 30
 Fıstıklı Sarma | Fistikli Sarma, Pistazien-Wickelbaklava | SW | 1.0 | 2 Stück (90 g) | yufka 22, pistazie 28, butter 15, zucker 25
@@ -107,7 +107,7 @@ Ay Çöreği | Ay Coregi, Halbmond-Hefegebaeck | G | 0.9 | 1 Stück (120 g) | me
 Mahlepli Çörek | Mahlepli Corek, Mahleb-Hefezopf | G | 0.9 | 1 Stück (100 g) | mehl 50, butter 12, zucker 12, milch 25, ei 8, hefe 1, gewuerz 1
 Tuzlu Kurabiye | Tuzlu Kurabiye, Salzgebaeck | KR | 0.95 | 4 Stück (60 g) | mehl 30, butter 18, joghurt 6, ei 4, sesam 2, salz 0.5
 Mozaik Pasta | Mozaik Pasta | K | 1.0 | 1 Stück (80 g) | keks 35, kakao 6, butter 18, zucker 15, milch 8
-Yaş Pasta | Yas Pasta, Tuerkische Sahnetorte | K | 0.95 | 1 Stück (150 g) | mehl 30, ei 25, zucker 30, sahne 45, milch 20, banane 15, staerke 5
+Yaş Pasta | Yas Pasta, Tuerkische Sahnetorte, Yaş pasta (meyveli) | K | 0.95 | 1 Stück (150 g) | mehl 30, ei 25, zucker 30, sahne 45, milch 20, banane 15, staerke 5
 Kayısılı Revani | Kayisili Tatli | SW | 0.95 | 1 Stück (120 g) | griess 25, mehl 10, ei 15, zucker 40, aprikose_tr 15, joghurt 15, oel 8
 Fırın Helva | Firin Helva, Gebackene Tahinhalva | D | 0.95 | 1 Portion (120 g) | helva 80, sahne 25, walnuss 10, butter 5
 Meyveli Muhallebi | Meyveli Muhallebi, Fruchtpudding | PU | 0.95 | 1 Schale (200 g) | milch 140, staerke 15, zucker 20, erdbeere 30, banane 20
@@ -169,7 +169,7 @@ Lale Şerbeti | Osmanlı Şerbeti | GT | 1.0 | 1 Glas (250 ml) | wasser 210, zuc
 Demirhindi Şerbeti | Demirhindi Serbeti, Tamarinden-Sorbet-Getraenk | GT | 1.0 | 1 Glas (250 ml) | wasser 210, zucker 25, dattel 15
 Nane Limon Çayı | Nane Limon, Minz-Zitronen-Tee | GT | 1.0 | 1 Glas (200 ml) | tee 190, zitrone 10, minze 2
 Rezene Çayı | Rezene Cayi, Fencheltee | GT | 1.0 | 1 Glas (200 ml) | tee 200
-Ballı Süt | Balli Sut, Honigmilch | GT | 1.0 | 1 Glas (250 ml) | milch 235, honig 15
+Ballı Süt | Balli Sut, Honigmilch, Sıcak süt (ballı) | GT | 1.0 | 1 Glas (250 ml) | milch 235, honig 15
 Tarçınlı Sıcak Süt | Tarcinli Sut, Zimtmilch | GT | 1.0 | 1 Glas (250 ml) | milch 235, zucker 10, zimt 1
 Vişne Şerbeti | Visne Serbeti, Sauerkirsch-Sorbet-Getraenk | GT | 1.0 | 1 Glas (250 ml) | sauerkirsche 60, zucker 25, wasser 165
 Gül Şerbeti | Gul Serbeti, Rosensirup-Getraenk | GT | 1.0 | 1 Glas (250 ml) | wasser 220, zucker 28, zitrone 5

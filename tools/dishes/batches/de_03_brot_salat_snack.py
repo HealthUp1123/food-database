@@ -24,7 +24,7 @@ Matjesbrötchen | Matjes im Brötchen | SN | 1.0 | 1 Brötchen | semmel 60, heri
 Backfischbrötchen | Fischbrötchen mit Backfisch | SN | 1.0 | 1 Brötchen | semmel 60, kabeljau 80, paniermehl 10, ei 10, oel 10, salat 10
 Krabbenbrötchen | Krabbenbrot, Shrimp roll | SN | 1.0 | 1 Brötchen | semmel 60, garnele 60, mayonnaise 20
 Räucherlachsbrötchen | Brötchen mit Räucherlachs | SN | 1.0 | 1 Brötchen | semmel 60, lachs 50, frischkaese 25, salat 10
-Frühstücksei | Weich gekochtes Ei, Soft boiled egg | FR | 1.0 | 1 Ei | ei 60
+Frühstücksei | Weich gekochtes Ei, Soft boiled egg, Yumurta haşlama (rafadan) | FR | 1.0 | 1 Ei | ei 60
 Eier im Glas | Eier im Glas, Eggs in a glass | FR | 1.0 | 2 Eier | ei 110, butter 3
 Rührei | Rührei natur, Scrambled eggs | FR | 0.9 | 1 Portion | ei 120, milch 20, butter 10
 Spiegelei auf Brot | Spiegelei Brot | FR | 1.0 | 1 Portion | ei 60, roggenbrot 50, butter 10

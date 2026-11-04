@@ -23,7 +23,7 @@ Pasta al forno | Baked pasta Italian, Pasta al forno siciliana | AU | 0.95 | 1 P
 Pasta e ceci | Pasta and chickpeas Italian | E | 0.95 | 1 Teller | nudeln 45, kichererbsen 120, tomaten_dose 80, olivenoel 12, knoblauch 3, bruehe 150
 Penne all'arrabbiata | Arrabbiata, Penne arrabbiata | NA | 0.95 | 1 Teller | nudeln 90, wasser 180, tomaten_dose 150, chili 8, knoblauch 4, olivenoel 12, pecorino 8
 Pici cacio e pepe | Pici | NA | 1.0 | 1 Teller | nudeln 90, wasser 190, pecorino 40, pfeffer 2
-Pizza Margherita | Margherita pizza | PZ | 0.9 | 1 Pizza | mehl 150, wasser 90, hefe 3, tomaten_dose 80, mozzarella 120, olivenoel 10
+Pizza Margherita | Margherita pizza, Pizza margarita | PZ | 0.9 | 1 Pizza | mehl 150, wasser 90, hefe 3, tomaten_dose 80, mozzarella 120, olivenoel 10
 Pizza Quattro Formaggi | Four cheese pizza | PZ | 0.9 | 1 Pizza | mehl 150, wasser 90, hefe 3, mozzarella 60, gouda 30, blauschimmelkaese 30, parmesan 20, olivenoel 8
 Polenta concia | Polenta with cheese, Polenta e formaggio | B | 1.0 | 1 Portion | maismehl 70, wasser 300, butter 15, gouda 40, parmesan 10
 Polpette al sugo | Italian meatballs in tomato sauce | KF | 0.85 | 1 Portion | gemischtes_hack 150, ei 20, paniermehl 20, parmesan 10, tomaten_dose 150, zwiebel 30, olivenoel 10, knoblauch 3

@@ -9,17 +9,17 @@ Sütlü Nuriye | Sütlü Nuriye, Milk baklava | SW | 0.95 | 1 Stück | yufka 14,
 Burma Kadayıf | Burma Kadayif, Rolled kadayif, Sarığı burma | SW | 0.95 | 1 Stück | kadayif 20, butter 12, pistazie 12, zucker 14
 Tel Kadayıf | Kadayif Tel, Shredded wheat dessert | SW | 0.95 | 1 Portion | kadayif 40, butter 25, walnuss 20, zucker 35
 Ekmek Kadayıfı | Ekmek Kadayifi, Bread kadayif with kaymak | SW | 0.95 | 1 Portion | weissbrot 70, zucker 35, kaymak 40, pistazie 5
-Peynirli Künefe | Künefe, Kunafa with cheese, Kunefe | SW | 0.95 | 1 Portion | kadayif 70, butter 30, hellim 70, zucker 40, pistazie 8
+Peynirli Künefe | Künefe, Kunafa with cheese, Kunefe, Hatay künefesi | SW | 0.95 | 1 Portion | kadayif 70, butter 30, hellim 70, zucker 40, pistazie 8
 Şekerpare | Sekerpare, Syrup cookies | SW | 0.95 | 1 Stück | mehl 14, griess 8, butter 8, ei 6, zucker 24
 Revani | Revani, Grießkuchen mit Sirup, Semolina cake | SW | 0.95 | 1 Stück | griess 30, mehl 15, ei 25, zucker 45, joghurt 20, oel 5, zitrone 5
 Sütlü Revani | Revani mit Milch | SW | 0.95 | 1 Stück | griess 30, mehl 15, ei 25, zucker 40, milch 50, oel 5
 Tulumba | Tulumba, Fried dough in syrup, Tulumba tatlısı | SW | 0.85 | 3 Stück | mehl 30, ei 20, butter 5, wasser 40, oel 18, zucker 40
-Lokma | Lokma, Teigbällchen in Sirup, Fried dough balls | SW | 0.85 | 5 Stück | mehl 45, hefe 2, wasser 60, oel 20, zucker 40
+Lokma | Lokma, Teigbällchen in Sirup, Fried dough balls, Lokma tatlısı | SW | 0.85 | 5 Stück | mehl 45, hefe 2, wasser 60, oel 20, zucker 40
 Hanım Göbeği | Hanim Gobegi, Lady's navel | SW | 0.85 | 3 Stück | mehl 30, ei 20, butter 8, griess 5, oel 15, zucker 40
 Dilber Dudağı | Dilber Dudagi, Lady's lips | SW | 0.85 | 3 Stück | mehl 30, ei 20, butter 8, oel 15, zucker 40
 Kemalpaşa Tatlısı | Kemalpasa, Cheese dumpling dessert | SW | 0.9 | 3 Stück | lor 50, griess 20, mehl 10, ei 20, zucker 50
 Ekmek Tatlısı | Brotpudding mit Kaymak, Bread pudding Turkish | SW | 0.95 | 1 Portion | weissbrot 70, zucker 40, kaymak 40, walnuss 8
-Kazandibi | Kazandibi, Karamellisierter Milchpudding | PU | 1.0 | 1 Portion | milch 200, zucker 30, staerke 15, reismehl 5, butter 3
+Kazandibi | Kazandibi, Karamellisierter Milchpudding, Tavuk göğsü kazandibi | PU | 1.0 | 1 Portion | milch 200, zucker 30, staerke 15, reismehl 5, butter 3
 Tavuk Göğsü | Tavuk Gogsu, Hühnerbrust-Pudding, Chicken breast pudding, Tavuk göğsü tatlısı | PU | 1.0 | 1 Portion | milch 200, hahn_brust 15, zucker 30, reismehl 12, zimt 1
 Sütlaç | Sütlac, Milchreis türkisch, Rice pudding | PU | 1.0 | 1 Schälchen | milch 200, reis 15, zucker 25, staerke 5
 Fırın Sütlaç | Gebackener Milchreis, Baked rice pudding | PU | 1.0 | 1 Schälchen | milch 200, reis 15, zucker 25, staerke 5, ei 10
@@ -70,7 +70,7 @@ Türk Kahvesi | Mokka, Turkish coffee | GT | 1.0 | 1 Tasse | tee 60
 Sütlü Türk Kahvesi | Türkischer Kaffee mit Milch | GT | 1.0 | 1 Tasse | tee 60, milch 60, zucker 5
 Salep | Sahlep, Salep drink, Hot sahlep | GT | 1.0 | 1 Tasse | milch 200, zucker 12, staerke 6, zimt 1
 Boza | Boza, Fermentiertes Hirsegetränk | GT | 1.0 | 1 Glas | hirse 25, zucker 20, wasser 180
-Ayran Glas | Ayran, Joghurtgetränk, Yogurt drink | GT | 1.0 | 1 Glas | joghurt 100, wasser 100, salz 1
+Ayran Glas | Ayran, Joghurtgetränk, Yogurt drink, Köpüklü ayran | GT | 1.0 | 1 Glas | joghurt 100, wasser 100, salz 1
 Şalgam Suyu | Salgam, Fermentierter Rübensaft, Turnip juice | GT | 1.0 | 1 Glas | rote_bete 30, wasser 170, salz 2
 Limonata | Limonade, Lemonade | GT | 1.0 | 1 Glas | zitrone 40, zucker 25, wasser 200
 Ihlamur | Lindenblütentee, Linden tea | GT | 1.0 | 1 Tasse | tee 200
@@ -82,7 +82,7 @@ Vişne Suyu | Sauerkirschsaft, Sour cherry juice | GT | 1.0 | 1 Glas | sauerkirs
 Nar Suyu | Granatapfelsaft, Pomegranate juice | GT | 1.0 | 1 Glas | granatapfel 250
 Portakal Suyu | Orangensaft, Orange juice | GT | 1.0 | 1 Glas | orange 250
 Kefir | Kefir | GT | 1.0 | 1 Glas | joghurt 150, milch 50
-Hoşaf | Hosaf, Trockenfrucht-Kompott, Komposto | GT | 1.0 | 1 Schälchen | aprikose_tr 40, pflaume_tr 20, zucker 20, wasser 200
+Hoşaf | Hosaf, Trockenfrucht-Kompott, Komposto, Meyveli komposto | GT | 1.0 | 1 Schälchen | aprikose_tr 40, pflaume_tr 20, zucker 20, wasser 200
 Meyan Şerbeti | Lakritz-Sherbet | GT | 1.0 | 1 Glas | zucker 15, wasser 200
 Dibek Kahvesi | Dibek Kahvesi, Pistaziankaffee | GT | 1.0 | 1 Tasse | tee 60, milch 30, pistazie 6, zucker 5
 Menengiç Kahvesi | Menengic Kahvesi, Terebinthenkaffee | GT | 1.0 | 1 Tasse | milch 150, pistazie 10, zucker 8

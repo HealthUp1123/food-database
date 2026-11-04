@@ -4,7 +4,7 @@ Su Böreği | Su Böreği Peynirli, Wasserbörek, Water borek | BO | 0.92 | 1 St
 Sigara Böreği | Zigarettenbörek, Cigar borek, Peynirli Sigara Böreği | BO | 0.9 | 1 Portion (4 Stück) | yufka 70, beyaz_peynir 60, ei 15, petersilie 5, oel 28
 Kıymalı Sigara Böreği | Zigarettenbörek mit Hack | BO | 0.9 | 1 Portion (4 Stück) | yufka 70, hack 60, zwiebel 20, ei 10, oel 28
 Kol Böreği (Ispanaklı) | Ispanaklı Kol Böreği, Spinatbörek | BO | 0.9 | 1 Stück | yufka 90, spinat 120, beyaz_peynir 30, zwiebel 20, ei 25, butter 12, oel 10
-Kol Böreği (Peynirli) | Peynirli Kol Böreği, Käsebörek | BO | 0.9 | 1 Stück | yufka 90, beyaz_peynir 80, ei 30, petersilie 5, butter 12, oel 10
+Kol Böreği (Peynirli) | Peynirli Kol Böreği, Käsebörek, Kol böreği (pastane, peynirli) | BO | 0.9 | 1 Stück | yufka 90, beyaz_peynir 80, ei 30, petersilie 5, butter 12, oel 10
 Kol Böreği (Kıymalı) | Kıymalı Kol Böreği, Hackbörek | BO | 0.9 | 1 Stück | yufka 90, hack 70, zwiebel 30, ei 25, butter 12, oel 10
 Kol Böreği (Patatesli) | Patatesli Kol Böreği, Kartoffelbörek, Patatesli börek | BO | 0.9 | 1 Stück | yufka 90, kartoffel 120, zwiebel 20, ei 25, butter 12, oel 10
 Tepsi Böreği | Blechbörek, Tray borek | BO | 0.9 | 1 Stück | yufka 80, hack 60, zwiebel 20, ei 30, milch 40, oel 20, butter 8
@@ -14,7 +14,7 @@ Patatesli Tepsi Böreği | Kartoffel-Blechbörek | BO | 0.9 | 1 Stück | yufka 8
 Paçanga Böreği | Paçanga, Pastırma-Käse-Börek | BO | 0.88 | 1 Portion (3 Stück) | yufka 60, pastirma 40, kasar 40, tomate 40, sivri 15, oel 28
 Talaş Böreği | Talaş Börek, Sägemehl-Börek | BO | 0.9 | 1 Stück | blaetterteig 70, hack 60, zwiebel 20, ei 15, butter 5
 Gül Böreği | Rosenbörek, Rose borek | BO | 0.9 | 1 Stück | yufka 80, hack 60, zwiebel 20, oel 15, ei 20
-Rulo Börek | Rollbörek | BO | 0.9 | 1 Stück | yufka 80, beyaz_peynir 60, petersilie 5, ei 25, oel 15, butter 8
+Rulo Börek | Rollbörek, Kol böreği | BO | 0.9 | 1 Stück | yufka 80, beyaz_peynir 60, petersilie 5, ei 25, oel 15, butter 8
 Muska Böreği | Muska Börek, Dreiecksbörek | BO | 0.9 | 1 Portion (3 Stück) | yufka 70, beyaz_peynir 50, petersilie 5, ei 15, oel 25
 Çıtır Börek | Knusperbörek | BO | 0.9 | 1 Portion | yufka 80, beyaz_peynir 50, petersilie 5, oel 25
 Bohça Böreği | Bohça Börek, Bündelbörek | BO | 0.9 | 1 Portion | yufka 80, hack 50, zwiebel 20, kartoffel 40, oel 22

@@ -20,7 +20,7 @@ Yoğurtlu Bulgur Çorbası | Bulgursuppe mit Joghurt | S | 0.9 | 1 Schüssel | b
 Tutmaç Çorbası | Tutmaç Suppe, Nudelteig-Joghurtsuppe | S | 0.9 | 1 Schüssel | mehl 35, joghurt 80, linsen 15, butter 8, minze_trocken 1, wasser 170
 Toyga Çorbası | Toyga Suppe, Joghurt-Weizensuppe Sivas | S | 0.9 | 1 Schüssel | joghurt 80, bulgur 20, ei 10, butter 8, minze_trocken 1, wasser 180
 Analı Kızlı Çorbası | Mutter-Tochter-Suppe, Analı Kızlı | S | 0.9 | 1 Schüssel | kichererbsen 40, bulgur 20, hack 30, zwiebel 25, tomatenmark 8, butter 8, wasser 200
-Arabaşı Çorbası | Arabaşı Suppe, Hühnersuppe Malatya | S | 0.9 | 1 Schüssel | hahn 60, bulgur 25, mehl 10, butter 10, knoblauch 3, paprikapulver 1, wasser 200
+Arabaşı Çorbası | Arabaşı Suppe, Hühnersuppe Malatya, Arabaşı (Yozgat) | S | 0.9 | 1 Schüssel | hahn 60, bulgur 25, mehl 10, butter 10, knoblauch 3, paprikapulver 1, wasser 200
 Ayran Aşı Çorbası | Ayran Aşı, Joghurtsuppe mit Kichererbsen | S | 0.9 | 1 Schüssel | ayran 150, kichererbsen 40, reis 10, minze_trocken 1, ei 10, wasser 60
 Lahana Çorbası | Weißkohlsuppe, Cabbage soup | S | 0.9 | 1 Schüssel | weisskohl 130, kartoffel 30, zwiebel 25, tomatenmark 8, oel 8, wasser 180
 Kuru Fasulye Çorbası | Weiße-Bohnen-Suppe, White bean soup | S | 0.9 | 1 Schüssel | bohnen_trocken 30, zwiebel 25, tomatenmark 8, butter 8, mehl 5, wasser 230
@@ -30,7 +30,7 @@ Patates Çorbası | Kartoffelsuppe türkisch, Potato soup | S | 0.9 | 1 Schüsse
 Pırasa Çorbası | Lauchsuppe, Leek soup | S | 0.9 | 1 Schüssel | lauch 130, kartoffel 40, mehl 8, butter 8, milch 60, wasser 100
 Karnabahar Çorbası | Blumenkohlsuppe, Cauliflower soup | S | 0.9 | 1 Schüssel | blumenkohl 140, kartoffel 35, zwiebel 20, butter 8, milch 50, wasser 120
 Yarma Çorbası | Yarma Suppe, Weizengrütze-Suppe | S | 0.9 | 1 Schüssel | bulgur 30, hack 30, zwiebel 25, tomatenmark 8, butter 8, wasser 220
-Dövme Çorbası | Dövme Suppe, Weizen-Joghurtsuppe | S | 0.9 | 1 Schüssel | bulgur 30, joghurt 70, butter 8, minze_trocken 1, wasser 200
+Dövme Çorbası | Dövme Suppe, Weizen-Joghurtsuppe, Dövme aşı | S | 0.9 | 1 Schüssel | bulgur 30, joghurt 70, butter 8, minze_trocken 1, wasser 200
 Keşkek Çorbası | Keşkek Suppe, Weizen-Fleisch-Suppe | S | 0.9 | 1 Schüssel | bulgur 35, lamm 40, butter 10, wasser 220
 Kelle Paça Çorbası | Kellepaça, Schafskopfsuppe, Sheep head soup | S | 0.9 | 1 Schüssel | innereien 80, knoblauch 5, essig 15, butter 5, wasser 200
 Paça Çorbası | Paça Suppe, Schafsfußsuppe, Trotter soup | S | 0.9 | 1 Schüssel | innereien 70, knoblauch 8, essig 15, butter 5, wasser 200

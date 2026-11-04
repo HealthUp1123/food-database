@@ -1,11 +1,11 @@
 CUISINE = 'tr'
 TEXT = """
 Papaz Yahnisi | Papaz Yahnisi, Lammeintopf mit Zwiebeln, Priest's stew | HF | 0.7 | 1 Portion | lamm 170, zwiebel 150, tomatenmark 8, oel 15, wasser 80
-Bursa Kebabı | Bursa Kebap, Bursa kebab | KB | 0.75 | 1 Portion | lamm 140, tomate 80, butter 20, joghurt 60, lavas 60
+Bursa Kebabı | Bursa Kebap, Bursa kebab, Bursa İskender | KB | 0.75 | 1 Portion | lamm 140, tomate 80, butter 20, joghurt 60, lavas 60
 Elbasan Tava | Elbasan Tava, Lamm im Joghurt-Eiguss, Elbasan tava | HF | 0.75 | 1 Portion | lamm 150, joghurt 80, ei 30, mehl 12, butter 15
 Fırın Kebabı | Ofenkebab, Konya oven kebab | HF | 0.7 | 1 Portion | lamm 200, zwiebel 40, butter 15, tomate 40
 Tepsi Kebabı | Hatay Tepsi Kebabı, Tray kebab | KB | 0.8 | 1 Portion | hack 140, tomate 80, sivri 40, zwiebel 40, oel 10, petersilie 5
-Kuzu Tandır | Lammtandır, Tandoor lamb | HF | 0.7 | 1 Portion | lamm 280, butter 10, knoblauch 3
+Kuzu Tandır | Lammtandır, Tandoor lamb, Tandır (porsiyon), Tandır (Konya) | HF | 0.7 | 1 Portion | lamm 280, butter 10, knoblauch 3
 Saray Kebabı | Saray Kebap, Palace kebab | KB | 0.85 | 1 Portion | lamm_hack 150, kartoffel 100, butter 15, tomate 60, joghurt 40
 Pehlivan Kebabı | Pehlivan Kebabı, Wrestler's kebab | KB | 0.8 | 1 Portion | lamm 170, paprika 60, tomate 60, zwiebel 40, olivenoel 12
 Şiş Köfte | Sis Köfte, Skewered kofta | KF | 0.78 | 1 Portion | hack 150, zwiebel 20, petersilie 5, paniermehl 10, salz 1
@@ -43,7 +43,7 @@ Pırasa Mücveri | Lauch-Puffer | HV | 0.8 | 4 Stück | lauch 150, ei 40, mehl 3
 Mercimek Mücveri | Linsen-Puffer | HV | 0.85 | 4 Stück | linsen 80, ei 30, mehl 20, zwiebel 20, oel 25
 Peynirli Mücver | Käse-Puffer | HV | 0.8 | 4 Stück | zucchini 100, beyaz_peynir 60, ei 40, mehl 30, oel 25
 Kumpir | Kumpir, Gefüllte Ofenkartoffel, Stuffed baked potato | SN | 0.9 | 1 Portion | kartoffel 350, butter 15, kasar 50, mais 30, gewuerzgurke 25, mayonnaise 15
-Kokoreç Ekmek Arası | Kokoreç Sandwich | SN | 0.9 | 1 Sandwich | innereien 120, ekmek 100, tomate 30, oel 5
+Kokoreç Ekmek Arası | Kokoreç Sandwich, Kokoreç (yarım ekmek) | SN | 0.9 | 1 Sandwich | innereien 120, ekmek 100, tomate 30, oel 5
 Köfte Ekmek | Köfte im Brot, Kofta sandwich | SN | 0.9 | 1 Sandwich | hack 100, ekmek 100, tomate 40, zwiebel 20, petersilie 5
 Sucuk Ekmek | Sucuk im Brot, Sucuk sandwich | SN | 0.9 | 1 Sandwich | sucuk 80, ekmek 100, tomate 30
 Ciğer Dürüm | Leber-Dürüm, Liver wrap | SN | 0.9 | 1 Dürüm | leber 120, lavas 70, zwiebel 30, tomate 30, sumak_pulver 1
@@ -54,7 +54,7 @@ Haşlanmış Mısır | Gekochter Mais, Boiled corn on the cob | SN | 1.0 | 1 Kol
 Közlenmiş Mısır | Gegrillter Mais | SN | 1.0 | 1 Kolben | mais 200
 Közlenmiş Kestane | Geröstete Kastanien, Roasted chestnuts, Kestane kebap, Kestane kebabı | SN | 1.0 | 1 Tüte | kastanie 120
 Leblebi | Geröstete Kichererbsen, Roasted chickpeas | SN | 1.0 | 1 Handvoll | kichererbsen_trocken 40
-Kaz Kızartması | Kars-Gänsebraten, Kars roast goose | HG | 0.7 | 1 Portion | gans 250, kartoffel 100, zwiebel 20
+Kaz Kızartması | Kars-Gänsebraten, Kars roast goose, Kars kaz eti | HG | 0.7 | 1 Portion | gans 250, kartoffel 100, zwiebel 20
 Keşkek | Keşkek, Weizen-Fleisch-Brei, Wheat and meat porridge | E | 0.95 | 1 Portion | bulgur 70, lamm 80, butter 15, wasser 250
 Haşıl | Erzurum Haşıl, Erzurum Mehlsuppe | D | 1.0 | 1 Schüssel | mehl 30, butter 15, zucker 20, wasser 200
 Murtuğa | Murtuğa, Van breakfast dish | FR | 0.9 | 1 Portion | mehl 40, butter 20, beyaz_peynir 40, ei 30

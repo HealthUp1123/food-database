@@ -49,7 +49,7 @@ Ayva Dolması | Gefüllte Quitte, Stuffed quince | DO | 0.85 | 1 Portion | quitt
 Elma Dolması | Gefüllter Apfel herzhaft, Stuffed apple | DO | 0.85 | 1 Portion | apfel 200, hack 70, reis 20, zwiebel 30, butter 10, wasser 60
 Midye Dolma | Gefüllte Miesmuscheln, Stuffed mussels | V | 0.95 | 1 Portion (8 Stück) | muschel 90, reis 45, zwiebel 30, pinienkerne 5, rosinen 5, olivenoel 12, zimt 1, wasser 60
 Kalamar Dolması | Gefüllte Kalmare, Stuffed squid | DO | 0.85 | 1 Portion | kalmar 150, reis 30, zwiebel 30, tomate 40, olivenoel 12, pinienkerne 5, wasser 50
-Hamsi Dolması | Gefüllte Sardellen | DO | 0.85 | 1 Portion | sardelle 130, reis 30, zwiebel 30, pinienkerne 6, rosinen 6, olivenoel 12, wasser 50
+Hamsi Dolması | Gefüllte Sardellen, Hamsi kuşu | DO | 0.85 | 1 Portion | sardelle 130, reis 30, zwiebel 30, pinienkerne 6, rosinen 6, olivenoel 12, wasser 50
 Ciğer Sarma | Leberrolle im Netzfett, Liver wraps | KB | 0.8 | 1 Portion | leber 140, schwanzfett 20, zwiebel 20, petersilie 5, pul_biber 1
 Pırasa Sarması | Lauchrouladen | DO | 0.88 | 1 Portion | lauch 200, hack 60, reis 20, zwiebel 20, tomatenmark 6, oel 8, wasser 70
 Marul Sarma | Salatrouladen, Stuffed lettuce | DO | 0.88 | 1 Portion | salat 120, hack 60, reis 25, zwiebel 20, tomatenmark 6, oel 8, wasser 70

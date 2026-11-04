@@ -40,7 +40,7 @@ Printen | Aachener Printen | G | 1.0 | 1 Stück | mehl 20, honig 12, zucker 10, 
 Dominosteine | Dominosteine, Domino stones | G | 1.0 | 3 Stück | marzipan 15, marmelade 15, lebkuchen_gewuerz 1, schokolade 20, mehl 15
 Linzer Torte | Linzer Torte, Linz tart | K | 0.95 | 1 Stück | mehl 35, butter 30, zucker 20, haselnuss 25, marmelade 40
 Marzipankartoffeln | Marzipankartoffeln, Marzipan potatoes | G | 1.0 | 3 Stück | marzipan 35, kakao 3
-Berliner | Berliner Pfannkuchen, Krapfen, Doughnut | G | 0.95 | 1 Stück | mehl 55, milch 30, ei 15, butter 10, zucker 15, oel 15, marmelade 20
+Berliner | Berliner Pfannkuchen, Krapfen, Doughnut, Tatlı çörek (ponçik) | G | 0.95 | 1 Stück | mehl 55, milch 30, ei 15, butter 10, zucker 15, oel 15, marmelade 20
 Krapfen | Faschingskrapfen, Fasnachtsküchle, Doughnut Bavarian | G | 0.95 | 1 Stück | mehl 55, milch 30, ei 15, butter 10, zucker 12, oel 15, marmelade 20
 Windbeutel | Windbeutel, Cream puff | G | 1.0 | 1 Stück | mehl 20, butter 15, ei 30, sahne 70, zucker 10
 Quarkbällchen | Quarkbällchen, Quark balls | G | 0.9 | 4 Stück | quark 60, mehl 40, ei 25, zucker 20, oel 15
