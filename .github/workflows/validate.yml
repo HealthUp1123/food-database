@@ -21,4 +21,6 @@ jobs:
       - name: Worker-Handler testen
         run: node scripts/test-worker.mjs
       - name: Schutztest gegen Datenverlust
+        env:
+          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
         run: node scripts/guard-foods.mjs

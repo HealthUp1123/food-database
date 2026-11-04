@@ -92,64 +92,132 @@ function hasSyn(entry, synonym) {
   return nonempty(entry && entry.synonyms).includes(synonym);
 }
 
-function recipeMatchesFile(working, built) {
-  if (!working || !built) return false;
-  if (working.quality !== 'estimate') return false;
-  if (typeof working.source !== 'string' || !working.source.startsWith('calculated from typical recipe')) return false;
-  const left = nonempty(built.synonyms);
-  for (const s of nonempty(working.synonyms)) {
-    const i = left.indexOf(s);
-    if (i < 0) return false;
-    left.splice(i, 1);
-  }
-  return left.length === 0;
+function sameNames(a, b) {
+  return JSON.stringify(a && a.names) === JSON.stringify(b && b.names);
 }
 
-export function compareToBaseline(baseline, working, built, allow) {
+export function compareToBaseline(baseline, working, allow) {
   const errors = [];
-  if (!Array.isArray(baseline) || !Array.isArray(working)) return ['Basis oder data/foods.json ist kein Array'];
-  const allowDelete = new Set((allow.delete || []).map((x) => x.id));
-  const allowRename = new Map((allow.rename || []).map((x) => [x.from, x.to]));
-  const allowSyn = new Set((allow.dropSynonym || []).map((x) => `${x.id}\0${x.synonym}`));
-  const allowPrepared = new Set((allow.prepared || []).map((x) => x.id));
-  const allowPack = new Set((allow.isPackagedProduct || []).map((x) => x.id));
+  const warnings = [];
+  if (!Array.isArray(baseline) || !Array.isArray(working)) {
+    return { errors: ['Basis oder data/foods.json ist kein Array'], warnings };
+  }
+  const used = new Set();
   const work = new Map(working.filter((e) => e && e.id).map((e) => [e.id, e]));
-  const builtById = new Map((built || []).filter((e) => e && e.id).map((e) => [e.id, e]));
+  const renames = allow.rename || [];
+  const deletes = allow.delete || [];
+  const drops = allow.dropSynonym || [];
+  const prepared = allow.prepared || [];
+  const packed = allow.isPackagedProduct || [];
   for (const base of baseline) {
     if (!base || !base.id) continue;
     const cur = work.get(base.id);
     if (!cur) {
-      const to = allowRename.get(base.id);
-      if (allowDelete.has(base.id) || (to && work.has(to))) continue;
+      const renameAt = renames.findIndex((row) => row.from === base.id && work.has(row.to));
+      if (renameAt >= 0) {
+        used.add(`rename:${renameAt}`);
+        continue;
+      }
+      const deleteAt = deletes.findIndex((row) => row.id === base.id);
+      if (deleteAt >= 0) {
+        used.add(`delete:${deleteAt}`);
+        continue;
+      }
       errors.push(`${base.id}: ID gegenüber der Git-Basis verschwunden`);
       continue;
     }
+    if (!sameNames(base, cur)) warnings.push(`${base.id}: names gegenüber der Git-Basis geändert`);
+    if (base.quality !== cur.quality) warnings.push(`${base.id}: quality gegenüber der Git-Basis geändert (${JSON.stringify(base.quality)} → ${JSON.stringify(cur.quality)})`);
+    if (base.source !== cur.source) warnings.push(`${base.id}: source gegenüber der Git-Basis geändert`);
     for (const s of nonempty(base.synonyms)) {
-      if (hasSyn(cur, s) || allowSyn.has(`${base.id}\0${s}`)) continue;
-      const b = builtById.get(base.id);
-      if (recipeMatchesFile(cur, b) && b && !hasSyn(b, s)) continue;
+      if (hasSyn(cur, s)) continue;
+      const dropAt = drops.findIndex((row) => row.id === base.id && row.synonym === s);
+      if (dropAt >= 0) {
+        used.add(`dropSynonym:${dropAt}`);
+        continue;
+      }
       errors.push(`${base.id}: Synonym gegenüber der Git-Basis weggefallen (${JSON.stringify(s)})`);
     }
-    if (base.prepared !== cur.prepared && !allowPrepared.has(base.id)) {
-      errors.push(`${base.id}: prepared gegenüber der Git-Basis geändert (${JSON.stringify(base.prepared)} → ${JSON.stringify(cur.prepared)})`);
+    if (base.prepared !== cur.prepared) {
+      const at = prepared.findIndex((row) => row.id === base.id && row.from === base.prepared && row.to === cur.prepared);
+      if (at >= 0) used.add(`prepared:${at}`);
+      else errors.push(`${base.id}: prepared gegenüber der Git-Basis geändert (${JSON.stringify(base.prepared)} → ${JSON.stringify(cur.prepared)})`);
     }
-    if (base.is_packaged_product !== cur.is_packaged_product && !allowPack.has(base.id)) {
-      errors.push(`${base.id}: is_packaged_product gegenüber der Git-Basis geändert (${JSON.stringify(base.is_packaged_product)} → ${JSON.stringify(cur.is_packaged_product)})`);
+    if (base.is_packaged_product !== cur.is_packaged_product) {
+      const at = packed.findIndex((row) => row.id === base.id && row.from === base.is_packaged_product && row.to === cur.is_packaged_product);
+      if (at >= 0) used.add(`isPackagedProduct:${at}`);
+      else errors.push(`${base.id}: is_packaged_product gegenüber der Git-Basis geändert (${JSON.stringify(base.is_packaged_product)} → ${JSON.stringify(cur.is_packaged_product)})`);
     }
   }
-  return errors;
+  const lists = [
+    ['delete', deletes, (row) => row.id],
+    ['rename', renames, (row) => `${row.from} → ${row.to}`],
+    ['dropSynonym', drops, (row) => `${row.id} / ${JSON.stringify(row.synonym)}`],
+    ['prepared', prepared, (row) => `${row.id} ${JSON.stringify(row.from)} → ${JSON.stringify(row.to)}`],
+    ['isPackagedProduct', packed, (row) => `${row.id} ${JSON.stringify(row.from)} → ${JSON.stringify(row.to)}`],
+  ];
+  for (const [kind, rows, label] of lists) {
+    rows.forEach((row, i) => {
+      if (!used.has(`${kind}:${i}`)) errors.push(`unbenutzte Freigabe (${kind}: ${label(row)})`);
+    });
+  }
+  return { errors, warnings };
 }
 
 function git(args) {
   return spawnSync('git', args, { cwd: root, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
 }
 
+const ZERO_SHA = '0000000000000000000000000000000000000000';
+
+function resolveBeforeOrParent(head) {
+  const before = (process.env.GITHUB_EVENT_BEFORE || '').trim();
+  if (before && before !== ZERO_SHA && before !== head) {
+    const ok = git(['rev-parse', '--verify', '--quiet', `${before}^{commit}`]);
+    if (ok.status !== 0 || !ok.stdout.trim()) {
+      return { error: `github.event.before (${before}) ist hier kein Commit. Historie holen: git fetch origin main` };
+    }
+    return { ref: ok.stdout.trim() };
+  }
+  const parent = git(['rev-parse', '--verify', '--quiet', 'HEAD^1']);
+  if (parent.status !== 0 || !parent.stdout.trim()) {
+    return { error: 'merge-base ist HEAD, github.event.before fehlt und HEAD^1 gibt es nicht.' };
+  }
+  return { ref: parent.stdout.trim() };
+}
+
 export function baselineRef() {
-  const mb = git(['merge-base', 'HEAD', 'origin/main']);
-  if (mb.status === 0 && mb.stdout.trim()) return mb.stdout.trim();
-  if (git(['rev-parse', '--verify', '--quiet', 'origin/main']).status === 0) return 'origin/main';
-  if (git(['rev-parse', '--verify', '--quiet', 'HEAD~']).status === 0) return 'HEAD~';
-  return null;
+  const headRun = git(['rev-parse', 'HEAD']);
+  if (headRun.status !== 0 || !headRun.stdout.trim()) return { error: 'HEAD ist kein Commit' };
+  const head = headRun.stdout.trim();
+  const hasMain = git(['rev-parse', '--verify', '--quiet', 'origin/main']).status === 0;
+  let warning = null;
+  let ref;
+  if (!hasMain) {
+    if (process.env.GUARD_ALLOW_NO_MAIN !== '1') {
+      return {
+        error: 'origin/main fehlt. Holen mit: git fetch origin main\n'
+          + 'Umgehung nur ausdrücklich mit GUARD_ALLOW_NO_MAIN=1. Das ist keine normale Prüfung und gibt eine Warnung aus.',
+      };
+    }
+    warning = 'GUARD_ALLOW_NO_MAIN=1: origin/main fehlt. Die Basis ist nicht der Merge mit main. Normal: git fetch origin main';
+    const picked = resolveBeforeOrParent(head);
+    if (picked.error) return picked;
+    ref = picked.ref;
+  } else {
+    const mb = git(['merge-base', 'HEAD', 'origin/main']);
+    if (mb.status !== 0 || !mb.stdout.trim()) {
+      return { error: 'merge-base HEAD origin/main ist fehlgeschlagen. git fetch origin main' };
+    }
+    ref = mb.stdout.trim();
+    if (ref === head) {
+      const picked = resolveBeforeOrParent(head);
+      if (picked.error) return picked;
+      ref = picked.ref;
+    }
+  }
+  if (ref === head) return { error: 'Die Basis wäre HEAD selbst. Das ist keine Prüfung.' };
+  return { ref, warning };
 }
 
 function loadBaseline(ref) {
@@ -161,23 +229,60 @@ function loadBaseline(ref) {
   return JSON.parse(shown.stdout);
 }
 
+function readJsonFile(rel) {
+  const file = join(root, rel);
+  let raw;
+  try {
+    raw = readFileSync(file, 'utf8');
+  } catch (e) {
+    if (e && e.code === 'ENOENT') throw new Error(`${rel} fehlt`);
+    throw new Error(`${rel}: ${e.message}`);
+  }
+  try {
+    return JSON.parse(raw);
+  } catch (e) {
+    throw new Error(`${rel}: kein gültiges JSON (${e.message})`);
+  }
+}
+
 function loadAllow() {
-  const file = join(root, 'tools', 'guard', 'allowed-changes.json');
-  const allow = JSON.parse(readFileSync(file, 'utf8'));
-  for (const key of ['delete', 'rename', 'dropSynonym', 'prepared', 'isPackagedProduct']) {
-    if (!Array.isArray(allow[key])) throw new Error(`tools/guard/allowed-changes.json: ${key} muss eine Liste sein`);
+  const rel = 'tools/guard/allowed-changes.json';
+  const allow = readJsonFile(rel);
+  const expect = {
+    delete: ['id'],
+    rename: ['from', 'to'],
+    dropSynonym: ['id', 'synonym'],
+    prepared: ['id', 'from', 'to'],
+    isPackagedProduct: ['id', 'from', 'to'],
+  };
+  for (const [key, fields] of Object.entries(expect)) {
+    if (!Array.isArray(allow[key])) throw new Error(`${rel}: ${key} muss eine Liste sein`);
     for (const row of allow[key]) {
-      if (!row || typeof row.reason !== 'string' || !row.reason.trim()) {
-        throw new Error(`tools/guard/allowed-changes.json: Eintrag in ${key} ohne Begründung`);
+      if (!row || typeof row !== 'object') throw new Error(`${rel}: Eintrag in ${key} ist kein Objekt`);
+      if (typeof row.reason !== 'string' || !row.reason.trim()) throw new Error(`${rel}: Eintrag in ${key} ohne Begründung`);
+      for (const field of fields) {
+        if (!(field in row)) throw new Error(`${rel}: Eintrag in ${key} ohne ${field}`);
+      }
+      if (key === 'isPackagedProduct' && (typeof row.from !== 'boolean' || typeof row.to !== 'boolean')) {
+        throw new Error(`${rel}: isPackagedProduct from und to müssen true oder false sein`);
       }
     }
   }
   return allow;
 }
 
-function report(errors, data, built, minEntries, ref) {
+function loadMinEntries() {
+  const parsed = readJsonFile('tools/guard/min-entries.json');
+  if (!Number.isInteger(parsed.minEntries) || parsed.minEntries < 1) {
+    throw new Error('tools/guard/min-entries.json: minEntries fehlt');
+  }
+  return parsed.minEntries;
+}
+
+function report(errors, warnings, data, built, minEntries, ref) {
+  for (const w of warnings) console.warn(`! ${w}`);
   if (errors.length) {
-    console.error(`✗ Schutztest: ${errors.length} Verlust${errors.length === 1 ? '' : 'e'}`);
+    console.error(`✗ Schutztest: ${errors.length} Verlust${errors.length === 1 ? '' : 'e'}, Basis ${ref}`);
     for (const x of errors.slice(0, 40)) console.error('  ' + x);
     if (errors.length > 40) console.error(`  … und ${errors.length - 40} weitere`);
     process.exit(1);
@@ -196,29 +301,29 @@ if (isDirect) {
   }
   const data = JSON.parse(readFileSync(join(root, 'data', 'foods.json'), 'utf8'));
   const built = JSON.parse(readFileSync(join(root, 'tools', 'dishes', 'foods.json'), 'utf8'));
-  const minEntries = JSON.parse(readFileSync(join(root, 'tools', 'guard', 'min-entries.json'), 'utf8')).minEntries;
-  const ref = baselineRef();
-  if (!ref) {
-    console.error('✗ Git-Basis nicht gefunden (merge-base origin/main, origin/main, HEAD~)');
-    process.exit(1);
-  }
-  let baseline;
-  try {
-    baseline = loadBaseline(ref);
-  } catch (e) {
-    console.error(`✗ ${e.message}`);
-    process.exit(1);
-  }
+  let minEntries;
   let allow;
   try {
+    minEntries = loadMinEntries();
     allow = loadAllow();
   } catch (e) {
     console.error(`✗ ${e.message}`);
     process.exit(1);
   }
-  const errors = [
-    ...compareFoods(data, built, minEntries),
-    ...compareToBaseline(baseline, data, built, allow),
-  ];
-  report(errors, data, built, minEntries, ref);
+  const picked = baselineRef();
+  if (picked.error) {
+    console.error(`✗ ${picked.error}`);
+    process.exit(1);
+  }
+  if (picked.warning) console.warn(`⚠ ${picked.warning}`);
+  let baseline;
+  try {
+    baseline = loadBaseline(picked.ref);
+  } catch (e) {
+    console.error(`✗ ${e.message}`);
+    process.exit(1);
+  }
+  const baseDiff = compareToBaseline(baseline, data, allow);
+  const errors = [...compareFoods(data, built, minEntries), ...baseDiff.errors];
+  report(errors, baseDiff.warnings, data, built, minEntries, picked.ref);
 }

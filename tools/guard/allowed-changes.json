@@ -1,5 +1,5 @@
 {
-  "comment": "Gewollte Abweichungen von data/foods.json gegenüber der Git-Basis (merge-base mit origin/main). Standardmäßig leer. Jede Zeile braucht eine Begründung.",
+  "comment": "Gewollte Abweichungen gegenüber der Git-Basis. Standardmäßig leer. Jede Zeile braucht eine Begründung. prepared und isPackagedProduct brauchen from und to. Eine Freigabe, die der Diff nicht braucht, macht den Test rot und muss weg, sobald sie auf main verbraucht ist.",
   "delete": [],
   "rename": [],
   "dropSynonym": [],
