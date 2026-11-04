@@ -1,10 +1,10 @@
 CUISINE = 'tr'
 TEXT = """
-Zeytinyağlı Taze Fasulye | Taze Fasulye, Grüne Bohnen in Olivenöl, Green beans in olive oil | GZ | 0.88 | 1 Portion | gruene_bohnen 220, zwiebel 30, tomate 70, olivenoel 14, knoblauch 2, wasser 60
+Zeytinyağlı Taze Fasulye | Taze Fasulye, Grüne Bohnen in Olivenöl, Green beans in olive oil, Zeytinyağlı yeşil fasulye, Yeşil fasulye | GZ | 0.88 | 1 Portion | gruene_bohnen 220, zwiebel 30, tomate 70, olivenoel 14, knoblauch 2, wasser 60
 İmam Bayıldı | Imam Bayildi, Gefüllte Aubergine in Olivenöl, Aubergine stuffed with onions | GZ | 0.85 | 1 Portion (2 Hälften) | aubergine 250, zwiebel 80, tomate 70, sivri 20, knoblauch 4, olivenoel 22, petersilie 4
-Zeytinyağlı Enginar | Artischocken in Olivenöl, Artichokes with olive oil | GZ | 0.88 | 1 Portion | artischocke 180, kartoffel 40, karotte 40, erbsen 20, zwiebel 20, olivenoel 14, zitrone 8, dill 4, wasser 80
+Zeytinyağlı Enginar | Artischocken in Olivenöl, Artichokes with olive oil, Enginar yemeği | GZ | 0.88 | 1 Portion | artischocke 180, kartoffel 40, karotte 40, erbsen 20, zwiebel 20, olivenoel 14, zitrone 8, dill 4, wasser 80
 Zeytinyağlı Ispanak | Spinat in Olivenöl, Spinach with rice and olive oil | GZ | 0.88 | 1 Portion | spinat 250, zwiebel 40, reis 15, tomate 20, olivenoel 14, wasser 60
-Zeytinyağlı Pırasa | Lauch in Olivenöl, Leeks in olive oil | GZ | 0.88 | 1 Portion | lauch 220, karotte 40, reis 15, olivenoel 14, zitrone 8, wasser 80
+Zeytinyağlı Pırasa | Lauch in Olivenöl, Leeks in olive oil, Pırasa yemeği | GZ | 0.88 | 1 Portion | lauch 220, karotte 40, reis 15, olivenoel 14, zitrone 8, wasser 80
 Zeytinyağlı Kereviz | Sellerie in Olivenöl, Celeriac in olive oil | GZ | 0.88 | 1 Portion | sellerie 200, karotte 40, erbsen 20, zitrone 8, olivenoel 14, wasser 80
 Zeytinyağlı Bamya | Okra in Olivenöl, Okra in olive oil | GZ | 0.88 | 1 Portion | okra 200, tomate 70, zwiebel 30, olivenoel 14, zitrone 8, wasser 60
 Zeytinyağlı Kabak | Zucchini in Olivenöl | GZ | 0.88 | 1 Portion | zucchini 250, zwiebel 30, tomate 50, reis 10, olivenoel 14, dill 4
