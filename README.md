@@ -320,7 +320,11 @@ Rezepttexte und die Zutaten-Referenz liegen unter `tools/dishes/` (`build.py`, `
 python3 build.py
 ```
 
-Das schreibt dort `foods.json`, eine aktualisierte `ingredients.json` und `build_report.txt`. Danach den OFF-Abgleich (`tools/off_check.py`, siehe BUILD_NOTES) und die neue `foods.json` nach `data/foods.json` kopieren. `node scripts/validate.mjs` laufen lassen. Nicht committen: `build_report.txt`, `__pycache__/`, `*.log`, `off_dump/`, `off_check_cache.sqlite`, `off_check_status*.json`, `*.duckdb`.
+Das schreibt dort `foods.json`, eine aktualisierte `ingredients.json` und `build_report.txt`. Die Rezeptgerichte kommen aus den Batches. Grundzutaten, Referenzeinträge und die Zusatzfelder (`names`, `prepared`, `is_packaged_product` und weitere) übernimmt der Build aus dem Bestand `data/foods.json`, damit ein Neubau sie nicht verwirft. `data/foods.json` wird dabei nicht überschrieben. Liegt `tools/dishes/reference_overrides.json`, muss sie eine Liste im Format aus PR #15 sein (`id`, `per100g`, `quality`, `source`, `source_id`). Nicht committen: `build_report.txt`, `tools/dishes/foods.json`, `__pycache__/`, `*.log`, `off_dump/`, `off_check_cache.sqlite`, `off_check_status*.json`, `*.duckdb`.
+
+## Schutztest
+
+`npm test` führt am Ende `node scripts/guard-foods.mjs` aus. Das Skript startet `python3 tools/dishes/build.py` und vergleicht `tools/dishes/foods.json` mit `data/foods.json`. Es schlägt an, wenn der Build eine ID aus dem Bestand verliert, wenn `names.de`, `names.tr` oder `names.en` fehlen oder leer sind, oder wenn ein Pflichtfeld fehlt: `per100g.kcal`, Kohlenhydrate (`carbs`), Eiweiß (`protein`), Fett (`fat`), Ballaststoffe (`fiber`), `is_packaged_product`, `synonyms`. Zusätzlich darf die Zahl der Einträge in `data/foods.json` nicht unter `minEntries` in `data/min-entries.json` fallen. Diese Zahl wird nur bewusst geändert. Neue Einträge sind erlaubt; der Test prüft Verlust, nicht Gleichheit.
 
 ## Roadmap
 

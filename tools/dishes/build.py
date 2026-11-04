@@ -2,8 +2,12 @@
 """Generator für die Gerichte-Datenbank (tr + de).
 
 Aufruf:  python3 build.py
-Liest:   ingredients_src.txt (Referenztabelle), batches/*.py (Gerichtsdefinitionen)
-Schreibt: foods.json, ingredients.json, build_report.txt
+Liest:   ingredients_src.txt (Referenztabelle), batches/*.py (Gerichtsdefinitionen),
+         ../../data/foods.json (Bestand: Grundzutaten, Referenzen, Zusatzfelder),
+         reference_overrides.json (optional, Liste im Format aus PR #15)
+Schreibt: tools/dishes/foods.json (gleich data/foods.json, solange die Rezeptkerne stimmen),
+          ingredients.json, build_report.txt
+data/foods.json wird gelesen und nicht überschrieben.
 
 Zeilenformat in den Batch-Dateien (eine Zeile pro Gericht):
   Name{optional-id} | Synonym1, Synonym2 | Kategorie-Code | Garfaktor | Portionslabel | zutat gramm, zutat gramm, ...
@@ -138,19 +142,100 @@ def main():
         if pk > 1300: reasons.append(f'Portion {pk:.0f} kcal')
         if pk < 15 and cat != 'GT': reasons.append(f'Portion nur {pk:.0f} kcal')
         if reasons: flags.append(f'{e["id"]}: ' + '; '.join(reasons))
-    out = [d[0] for d in dishes]
-    json.dump(out, open(os.path.join(HERE,'foods.json'),'w',encoding='utf8'), ensure_ascii=False, indent=2)
+    recipes = [d[0] for d in dishes]
+    apply_reference_overrides(recipes)
+    out = assemble_bestand(recipes)
+    text = json.dumps(out, ensure_ascii=False, indent=2) + '\n'
+    open(os.path.join(HERE,'foods.json'),'w',encoding='utf8').write(text)
     json.dump([dict(key=k, name=v['name'], per100g={f:v[f] for f in ('kcal','protein','carbs','fat','fiber')}) for k,v in ing.items()],
               open(os.path.join(HERE,'ingredients.json'),'w',encoding='utf8'), ensure_ascii=False, indent=2)
-    cnt = collections.Counter(d['cuisine'] for d in out)
-    cc = collections.Counter((d['cuisine'],d['category']) for d in out)
+    cnt = collections.Counter(d['cuisine'] for d in recipes)
+    cc = collections.Counter((d['cuisine'],d['category']) for d in recipes)
     with open(os.path.join(HERE,'build_report.txt'),'w',encoding='utf8') as f:
-        f.write(f'Gerichte: {len(out)}  ' + ' '.join(f'{k}={v}' for k,v in sorted(cnt.items())) + f'\nIngredients: {len(ing)}\nFehler: {len(errors)}\n')
+        f.write(f'Gerichte: {len(recipes)}  ' + ' '.join(f'{k}={v}' for k,v in sorted(cnt.items())) + f'\nAusgabe: {len(out)}\nIngredients: {len(ing)}\nFehler: {len(errors)}\n')
         for x in errors: f.write('ERR '+x+'\n')
         f.write('\nZu prüfen (Flags):\n'+'\n'.join(flags)+'\n\nKategorien:\n')
         for (c,k),n in sorted(cc.items()): f.write(f'{c} {k}: {n}\n')
-    print(f'Gerichte {len(out)} tr={cnt["tr"]} de={cnt["de"]} eu={len(out)-cnt["tr"]-cnt["de"]} Fehler={len(errors)} Flags={len(flags)}')
+    print(f'Gerichte {len(recipes)} tr={cnt["tr"]} de={cnt["de"]} eu={len(recipes)-cnt["tr"]-cnt["de"]} Ausgabe {len(out)} Fehler={len(errors)} Flags={len(flags)}')
     for x in errors[:40]: print('ERR', x)
     for x in flags[:25]: print('FLAG', x)
     return 1 if errors else 0
+
+def apply_reference_overrides(recipes):
+    """Optionale Liste im Format aus PR #15. Fehlt die Datei, passiert nichts.
+
+    Jedes Objekt hat id, per100g, quality, source und source_id.
+    Optional gelesen werden source_missing, names, note und fdc_id.
+    Die Datei wird hier nicht angelegt: die Referenzwerte des heutigen Bestands
+    stehen schon in data/foods.json und werden von assemble_bestand übernommen.
+    """
+    path = os.path.join(HERE, 'reference_overrides.json')
+    if not os.path.exists(path):
+        return
+    overrides = json.load(open(path, encoding='utf-8'))
+    if not isinstance(overrides, list):
+        raise SystemExit('reference_overrides.json muss eine Liste sein (Format aus PR #15)')
+    by_id = {e['id']: e for e in recipes}
+    for o in overrides:
+        if not isinstance(o, dict) or 'id' not in o:
+            raise SystemExit('reference_overrides.json: Eintrag ohne id')
+        e = by_id.get(o['id'])
+        if e is None:
+            raise SystemExit(f'reference_overrides.json: id {o["id"]} kommt in den Batches nicht vor')
+        for k in ('per100g', 'quality', 'source', 'source_id'):
+            if k not in o:
+                raise SystemExit(f'reference_overrides.json: {o["id"]} ohne Feld {k}')
+        e['per100g'] = o['per100g']
+        e['quality'] = o['quality']
+        e['source'] = o['source']
+        e['source_id'] = o['source_id']
+        if o.get('source_missing'):
+            e['source_missing'] = o['source_missing']
+        if o.get('names'):
+            e['names'] = o['names']
+        if o.get('note'):
+            e['note'] = o['note']
+        if o.get('fdc_id'):
+            e['fdc_id'] = o['fdc_id']
+    print(f'Referenz-Overrides angewendet: {len(overrides)}')
+
+def assemble_bestand(recipes):
+    """Rezeptkerne aus den Batches, alles andere aus data/foods.json.
+
+    Die Datei ist die Bestandsquelle für Grundzutaten, Referenz- und
+    Erweiterungseinträge und für die Felder, die der Rezeptbau nicht setzt
+    (names, aliases, prepared, is_packaged_product, off_similar und weitere).
+    Stimmt der berechnete Kern mit dem Bestand überein, bleibt der Eintrag
+    unverändert, einschließlich der Feldreihenfolge. Weicht er ab, gelten die
+    berechneten Werte, die übrigen Felder bleiben. Einträge ohne Rezept
+    (auch spätere Ergänzungen) werden unverändert übernommen. Neue Rezept-IDs
+    werden angehängt. Es wird kein Nährwert, kein Name und keine ID erfunden.
+    """
+    path = os.path.normpath(os.path.join(HERE, '..', '..', 'data', 'foods.json'))
+    bestand = json.load(open(path, encoding='utf-8'))
+    if not isinstance(bestand, list):
+        raise SystemExit('data/foods.json muss ein Array sein')
+    by_gen = {e['id']: e for e in recipes}
+    out, used = [], set()
+    for entry in bestand:
+        gen = by_gen.get(entry['id'])
+        if gen is None:
+            out.append(entry)
+            continue
+        used.add(entry['id'])
+        if all(gen[k] == entry.get(k) for k in gen):
+            out.append(entry)
+            continue
+        merged = {}
+        for k, v in entry.items():
+            merged[k] = gen[k] if k in gen else v
+        for k, v in gen.items():
+            if k not in merged:
+                merged[k] = v
+        out.append(merged)
+    for e in recipes:
+        if e['id'] not in used:
+            out.append(e)
+    return out
+
 if __name__ == '__main__': sys.exit(main())

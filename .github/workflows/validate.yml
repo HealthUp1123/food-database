@@ -16,3 +16,5 @@ jobs:
         run: node scripts/validate.mjs
       - name: Worker-Handler testen
         run: node scripts/test-worker.mjs
+      - name: Schutztest gegen Datenverlust
+        run: node scripts/guard-foods.mjs
