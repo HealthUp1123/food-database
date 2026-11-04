@@ -281935,9 +281935,6 @@
       "zh": "瑞可塔奶酪"
     },
     "aliases": {
-      "tr": [
-        "Lor peyniri"
-      ],
       "es": [
         "Requesón"
       ],
@@ -288684,7 +288681,9 @@
     "synonyms": [
       "getrocknete Chili",
       "Chilischote getrocknet",
-      "Peppers, hot chile, sun-dried"
+      "Peppers, hot chile, sun-dried",
+      "Pul biber",
+      "Pulbiber"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Gemüse",
@@ -296226,9 +296225,6 @@
       "zh": "瑞可塔奶酪（部分脱脂）"
     },
     "aliases": {
-      "tr": [
-        "Lor peyniri"
-      ],
       "es": [
         "Requesón"
       ],
@@ -320811,7 +320807,8 @@
     "synonyms": [
       "Thymus",
       "Thymian getrocknet",
-      "Bahçe kekiği"
+      "Bahçe kekiği",
+      "Zahter"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Gemüse",
@@ -324640,5 +324637,305 @@
     "quality": "reference",
     "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 7300 \"Biscotte classique\". Kohlenhydrate = verfügbare KH 73,2 g + Ballaststoffe 4,32 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe und Fett laut Ciqual aus Oqali 2019 (Packungsangaben, Quellcode 436); Methode nicht ausgewiesen. Eiweiß ist N × 6,25 (11 g), damit trifft die veröffentlichte Energie.",
     "source_id": "Ciqual 2025:7300"
+  },
+  {
+    "id": "isot",
+    "name": "İsot (Urfa-Pfeffer), getrocknet",
+    "names": {
+      "de": "İsot (Urfa-Pfeffer), getrocknet",
+      "en": "Urfa pepper (isot), dried",
+      "tr": "İsot (Urfa biberi), kurutulmuş",
+      "fr": "Piment d’Urfa (isot), séché",
+      "es": "Chile de Urfa (isot), seco",
+      "pt": "Pimenta de Urfa (isot), seca",
+      "it": "Peperone di Urfa (isot), secco",
+      "zh": "乌尔法辣椒（干）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Nahe Entsprechung: İsot ist getrockneter reifer Paprika, Ancho ebenfalls. Das Einölen nach dem Trocknen ist nicht enthalten.",
+    "per100g": {
+      "kcal": 281,
+      "protein": 11.86,
+      "carbs": 51.42,
+      "fat": 8.2,
+      "fiber": 21.6
+    },
+    "ingredients": [
+      {
+        "name": "İsot (Urfa-Pfeffer), getrocknet",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): İsot (Urfa biber) ist getrockneter reifer Paprika. Ähnlichstes frei verfügbares Lebensmittel ist getrockneter Ancho. Werte unverändert aus dem Datensatz übernommen (Methode similar_food); das übliche Einölen fehlt. Referenz: USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0); Code 169396 \"Peppers, ancho, dried\". Kohlenhydrate sind der USDA-Gesamtwert Carbohydrate, by difference (51.42 g), Ballaststoffe 21.6 g.",
+    "derived_from": "FDC:169396",
+    "method": "similar_food",
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "cokelek",
+    "name": "Çökelek",
+    "names": {
+      "de": "Çökelek",
+      "en": "Çökelek curd cheese",
+      "tr": "Çökelek",
+      "fr": "Çökelek (caillé maigre)",
+      "es": "Çökelek (cuajada magra)",
+      "pt": "Çökelek (coalho magro)",
+      "it": "Çökelek (cagliata magra)",
+      "zh": "乔凯莱克奶酪"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [],
+    "cuisine": "int",
+    "category": "Grundzutat: Milchprodukte & Eier",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Çökelek ist ein körniger, fettarmer Bruch. Ungerehmter Mager-Hüttenkäse, nicht der gesahnte Hüttenkäse und nicht Magerquark M713100.",
+    "per100g": {
+      "kcal": 72,
+      "protein": 10.34,
+      "carbs": 6.66,
+      "fat": 0.29,
+      "fiber": 0.0,
+      "sugar": 1.85
+    },
+    "ingredients": [
+      {
+        "name": "Çökelek",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Çökelek ist ein körniger, fettarmer Bruchkäse. Ähnlichstes frei verfügbares Lebensmittel ist ungerehmter Mager-Hüttenkäse (dry curd, USDA 172181). Werte unverändert übernommen (Methode similar_food). Referenz: USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0); Code 172181 \"Cheese, cottage, nonfat, uncreamed, dry, large or small curd\". Kohlenhydrate sind der USDA-Gesamtwert Carbohydrate, by difference (6.66 g), Ballaststoffe 0.0 g.",
+    "derived_from": "FDC:172181",
+    "method": "similar_food"
+  },
+  {
+    "id": "dovme-roh",
+    "name": "Dövme (Aşurelik buğday), roh",
+    "names": {
+      "de": "Dövme (Aşurelik buğday), roh",
+      "en": "Whole durum wheat (dövme), raw",
+      "tr": "Dövme (aşurelik buğday), çiğ",
+      "fr": "Blé dur entier (dövme), cru",
+      "es": "Trigo duro entero (dövme), crudo",
+      "pt": "Trigo duro inteiro (dövme), cru",
+      "it": "Grano duro intero (dövme), crudo",
+      "zh": "整粒硬质小麦（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [],
+    "cuisine": "int",
+    "category": "Grundzutat: Getreide, Teigwaren & Brot",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Dövme ist entspelzter Hartweizen. Der Datensatz ist das ganze Korn, die Ballaststoffe liegen deshalb eher etwas höher.",
+    "per100g": {
+      "kcal": 346,
+      "protein": 14.4,
+      "carbs": 72.7,
+      "fat": 2.32,
+      "fiber": 11.76,
+      "sugar": 1.07092
+    },
+    "ingredients": [
+      {
+        "name": "Dövme (Aşurelik buğday), roh",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Dövme (aşurelik buğday) ist entspelzter Hartweizen. Ähnlichstes frei verfügbares Lebensmittel ist Hartweizen, ganzes Korn (BLS C219200). Werte unverändert übernommen (Methode similar_food); beim geschälten Korn liegen die Ballaststoffe eher etwas niedriger. Referenz: Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code C219200 \"Hartweizen ganzes Korn, roh\". Kohlenhydrate = verfügbare KH 60.94 g + Ballaststoffe 11.76 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "derived_from": "BLS 4.0:C219200",
+    "method": "similar_food"
+  },
+  {
+    "id": "lor-peyniri",
+    "name": "Lor (Molkenkäse)",
+    "names": {
+      "de": "Lor (Molkenkäse)",
+      "en": "Lor whey cheese",
+      "tr": "Lor peyniri",
+      "fr": "Lor (fromage de lactosérum)",
+      "es": "Lor (queso de suero)",
+      "pt": "Lor (queijo de soro)",
+      "it": "Lor (formaggio di siero)",
+      "zh": "洛尔乳清奶酪"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [],
+    "cuisine": "int",
+    "category": "Grundzutat: Milchprodukte & Eier",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Lor ist frischer Molkenkäse. Brousse aus Schafmolke, nicht Ricotta. Eiweiß ist N × 6,25.",
+    "per100g": {
+      "kcal": 142,
+      "protein": 9.19,
+      "carbs": 4.81,
+      "fat": 9.36,
+      "fiber": 0.0,
+      "sugar": 4.81
+    },
+    "ingredients": [
+      {
+        "name": "Lor (Molkenkäse)",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Lor ist frischer Molkenkäse. Ähnlichstes frei verfügbares Lebensmittel ist Brousse aus Schafmolke (Ciqual 12071). Werte unverändert übernommen (Methode similar_food); Lor aus Kuhmolke kann magerer sein. Eiweiß ist N × 6,25. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 12071 \"Brousse (fromage de brebis frais au lactosérum)\". Kohlenhydrate = verfügbare KH 4.81 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "derived_from": "Ciqual 2025:12071",
+    "method": "similar_food"
+  },
+  {
+    "id": "dil-peyniri",
+    "name": "Dil peyniri",
+    "names": {
+      "de": "Dil peyniri",
+      "en": "Dil cheese (Turkish string cheese)",
+      "tr": "Dil peyniri",
+      "fr": "Fromage dil (pâtes filées)",
+      "es": "Queso dil (pasta hilada)",
+      "pt": "Queijo dil (massa filada)",
+      "it": "Formaggio dil (pasta filata)",
+      "zh": "迪尔奶酪"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Örgü peyniri"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Milchprodukte & Eier",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Dil und Örgü sind dieselbe Pasta-filata-Familie, nur die Form unterscheidet sich, deshalb ein Eintrag. Vollmilch-Mozzarella mit niedrigem Wassergehalt (170846), nicht die teilentrahmte Stufe 171244, weil beide Käse üblicherweise vollfett sind.",
+    "per100g": {
+      "kcal": 318,
+      "protein": 21.6,
+      "carbs": 2.47,
+      "fat": 24.64,
+      "fiber": 0.0,
+      "sugar": 1.01
+    },
+    "ingredients": [
+      {
+        "name": "Dil peyniri",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Dil peyniri und Örgü peyniri unterscheiden sich nur in der Form. Ähnlichstes frei verfügbares Lebensmittel ist Mozzarella aus Vollmilch mit niedrigem Wassergehalt (USDA 170846), nicht die teilentrahmte Stufe. Werte unverändert übernommen (Methode similar_food). Referenz: USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0); Code 170846 \"Cheese, mozzarella, whole milk, low moisture\". Kohlenhydrate sind der USDA-Gesamtwert Carbohydrate, by difference (2.47 g), Ballaststoffe 0.0 g.",
+    "derived_from": "FDC:170846",
+    "method": "similar_food"
+  },
+  {
+    "id": "ezine-peyniri",
+    "name": "Ezine peyniri",
+    "names": {
+      "de": "Ezine peyniri",
+      "en": "Ezine cheese",
+      "tr": "Ezine peyniri",
+      "fr": "Fromage ezine",
+      "es": "Queso ezine",
+      "pt": "Queijo ezine",
+      "it": "Formaggio ezine",
+      "zh": "埃齐内奶酪"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [],
+    "cuisine": "int",
+    "category": "Grundzutat: Milchprodukte & Eier",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Ezine ist Salzlakenkäse mit hohem Schaf- und Ziegenanteil. BLS M6A6800 und M052000 sind schon Beyaz peynir. Ciqual 12066 ist Feta aus mindestens 70 % Schafmilch und höchstens 30 % Ziegenmilch. Zucker ist nur als Spuren veröffentlicht.",
+    "per100g": {
+      "kcal": 284,
+      "protein": 14.8,
+      "carbs": 0.65,
+      "fat": 24.3,
+      "fiber": 0.2
+    },
+    "ingredients": [
+      {
+        "name": "Ezine peyniri",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Ezine ist Salzlakenkäse aus gemischter Milch mit hohem Schaf- und Ziegenanteil. Die BLS-Salzlakenkäse M6A6800 und M052000 sind bereits Beyaz peynir. Ähnlichstes noch freies Lebensmittel ist Ciqual 12066, Feta aus Schaf- und Ziegenmilch. Werte unverändert übernommen (Methode similar_food). Eiweiß ist N × 6,25. Zucker ist in Ciqual nur als Spuren veröffentlicht. Referenz: Anses (2025): Ciqual French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 12066 \"Feta, au lait de brebis 70% minimum et lait de chèvre 30% maximum\". Kohlenhydrate = verfügbare KH 0.45 g + Ballaststoffe 0.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "derived_from": "Ciqual 2025:12066",
+    "method": "similar_food",
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "labne",
+    "name": "Labne",
+    "names": {
+      "de": "Labne",
+      "en": "Labneh",
+      "tr": "Labne",
+      "fr": "Labné",
+      "es": "Labneh",
+      "pt": "Labneh",
+      "it": "Labneh",
+      "zh": "拉布奈奶酪"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [],
+    "cuisine": "int",
+    "category": "Grundzutat: Milchprodukte & Eier",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Labne ist abgetropfter, fetter Joghurtfrischkäse. Frischkäsezubereitung mit mindestens 50 % Fett in der Trockenmasse. Ballaststoffe liegen unter der Nachweisgrenze und sind 0 g.",
+    "per100g": {
+      "kcal": 202,
+      "protein": 9.74,
+      "carbs": 2.73,
+      "fat": 16.61,
+      "fiber": 0.0,
+      "sugar": 2.73
+    },
+    "ingredients": [
+      {
+        "name": "Labne",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Labne ist abgetropfter, fetter Joghurtfrischkäse. Ähnlichstes frei verfügbares Lebensmittel ist Frischkäsezubereitung mit mindestens 50 % Fett in der Trockenmasse (BLS M710700). Werte unverändert übernommen (Methode similar_food). Ballaststoffe stehen in der Quelle als unter der Nachweisgrenze und sind 0 g. Referenz: Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code M710700 \"Frischkäsezubereitung Natur, mind. 50 % Fett i. Tr.\". Kohlenhydrate = verfügbare KH 2.73 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "derived_from": "BLS 4.0:M710700",
+    "method": "similar_food"
   }
 ]
