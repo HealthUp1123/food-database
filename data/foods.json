@@ -36374,7 +36374,7 @@
     "synonyms": [
       "Lammkoteletts vom Grill",
       "Lamb chops",
-      "Kuzu pirzola (ızgara, porsiyon)"
+      "Kuzu pirzola ızgara porsiyon"
     ],
     "cuisine": "tr",
     "category": "Kebap",
@@ -45134,7 +45134,8 @@
     "barcode": null,
     "synonyms": [
       "Tavuk Snitzel",
-      "Hähnchenschnitzel türkisch"
+      "Hähnchenschnitzel türkisch",
+      "Şnitzel"
     ],
     "cuisine": "tr",
     "category": "Hauptgericht Geflügel",
@@ -51807,7 +51808,7 @@
       "Kol Boregi (Peynirli)",
       "Peynirli Kol Böreği",
       "Käsebörek",
-      "Kol böreği (pastane, peynirli)"
+      "Kol böreği pastane peynirli"
     ],
     "cuisine": "tr",
     "category": "Börek/Hamurişi",
@@ -52466,8 +52467,7 @@
     "barcode": null,
     "synonyms": [
       "Rulo Borek",
-      "Rollbörek",
-      "Kol böreği"
+      "Rollbörek"
     ],
     "cuisine": "tr",
     "category": "Börek/Hamurişi",
@@ -223876,7 +223876,7 @@
     "names": {
       "de": "Würstchen im Speckmantel",
       "en": "Pigs in blankets",
-      "tr": "Domuz beykona Sarılı Domuz Sosisi",
+      "tr": "Domuz beykona sarılı sosisi",
       "fr": "Saucisses enrobées de bacon",
       "es": "Salchichas envueltas en beicon",
       "pt": "Salsichas enroladas em bacon",
@@ -292160,8 +292160,7 @@
       "schwarze Oliven",
       "reife Oliven",
       "Olives, ripe, canned (small-extra large)",
-      "Siyah zeytin (gemlik, yağlı)",
-      "Gemlik zeytini"
+      "Siyah zeytin (gemlik, yağlı)"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Gemüse",

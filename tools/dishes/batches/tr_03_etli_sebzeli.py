@@ -60,7 +60,7 @@ Hindi Dolması | Gefüllter Truthahn, Stuffed turkey | HG | 0.78 | 1 Portion | p
 Hindi Haşlama | Gekochter Truthahn | HG | 0.8 | 1 Portion | pute 200, karotte 30, kartoffel 60, wasser 100
 Tavuk Wrap | Hähnchen-Wrap Turkish style | SN | 0.92 | 1 Wrap | hahn_brust 100, lavas 90, salat 20, tomate 30, joghurt 25, oel 8
 Çıtır Tavuk | Knuspriges Hähnchen, Crispy chicken | HG | 0.85 | 1 Portion | hahn_brust 150, paniermehl 25, ei 25, mehl 10, oel 25
-Tavuk Şnitzel | Hähnchenschnitzel türkisch | HG | 0.85 | 1 Portion | hahn_brust 150, paniermehl 25, ei 25, mehl 10, oel 25
+Tavuk Şnitzel | Hähnchenschnitzel türkisch, Şnitzel | HG | 0.85 | 1 Portion | hahn_brust 150, paniermehl 25, ei 25, mehl 10, oel 25
 Dana Rosto | Rinderbraten, Beef roast | HF | 0.75 | 1 Portion | rind 220, zwiebel 30, karotte 40, kartoffel 80, butter 10, wasser 100
 Kuzu Fırın | Lamm aus dem Ofen, Roast lamb, Fırında kuzu | HF | 0.72 | 1 Portion | lamm 260, kartoffel 100, tomate 40, paprika 30, butter 10
 Fırında Kuzu Incik | Lammhaxe aus dem Ofen | HF | 0.7 | 1 Portion | lamm 300, karotte 40, zwiebel 30, tomatenmark 6, kartoffel 60

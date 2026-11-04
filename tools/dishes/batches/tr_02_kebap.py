@@ -18,7 +18,7 @@ Ciğer Şiş | Leberspieß, Liver Shish | KB | 0.78 | 1 Portion | leber 190, zwi
 Ciğer Kebabı Adana | Adana Leberkebap | KB | 0.78 | 1 Portion | leber 170, schwanzfett 15, zwiebel 30, lavas 50, petersilie 4
 Kanat Izgara | Hähnchenflügel vom Grill, Grilled chicken wings, Tavuk kanat, Tavuk kanat ızgara | KB | 0.75 | 1 Portion | hahn 240, oel 8, joghurt 20, paprikamark 5
 Tavuk Pirzola | Hähnchen-Koteletts, Chicken chops | KB | 0.75 | 1 Portion | hahn_keule 220, oel 10, joghurt 20, tomate 30, paprika 20
-Kuzu Pirzola | Lammkoteletts vom Grill, Lamb chops, Kuzu pirzola (ızgara, porsiyon) | KB | 0.7 | 1 Portion | lamm_kotelett 250, oel 6, oregano 1
+Kuzu Pirzola | Lammkoteletts vom Grill, Lamb chops, Kuzu pirzola ızgara porsiyon | KB | 0.7 | 1 Portion | lamm_kotelett 250, oel 6, oregano 1
 Kuzu Kaburga | Lammrippchen, Lamb ribs | KB | 0.68 | 1 Portion | lamm 280, oel 5, oregano 1
 Kuzu Incik | Lammhaxe, Lamb shank | KB | 0.7 | 1 Portion | lamm 300, zwiebel 40, karotte 40, tomatenmark 8, wasser 100, oel 8
 Kuzu Kokoreç | Kokoreç, Gedärm-Spieß | KB | 0.78 | 1 Portion (im Brot) | innereien 130, schwanzfett 25, tomate 30, oregano 2, ekmek 70, pul_biber 1
