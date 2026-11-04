@@ -278,7 +278,7 @@ class Builder:
         derived = f'{CITE[db][0] or "FDC"}:{code}'
         e = {'id': d['id'], 'name': names['de'], 'names': names}
         if d['aliases']: e['aliases'] = d['aliases']
-        e.update({'type': 'item', 'barcode': None, 'synonyms': [], 'cuisine': 'int', 'category': d['cat'], 'prepared': 'base_ingredient',
+        e.update({'type': 'item', 'barcode': None, 'synonyms': list(d.get('syn') or []), 'cuisine': 'int', 'category': d['cat'], 'prepared': 'base_ingredient',
                   'is_packaged_product': False, 'state': d['state'], 'unit': 'g',
                   'note': 'Grundzutat (verarbeitet, generisch, geschätzt), kein Markenprodukt - Werte eines ähnlichen Lebensmittels',
                   'per100g': p, 'ingredients': [{'name': names['de'], 'grams': 100}], 'quality': 'estimate',
