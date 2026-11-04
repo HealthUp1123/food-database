@@ -71,7 +71,7 @@ Sütlü Türk Kahvesi | Türkischer Kaffee mit Milch | GT | 1.0 | 1 Tasse | tee 
 Salep | Sahlep, Salep drink, Hot sahlep | GT | 1.0 | 1 Tasse | milch 200, zucker 12, staerke 6, zimt 1
 Boza | Boza, Fermentiertes Hirsegetränk | GT | 1.0 | 1 Glas | hirse 25, zucker 20, wasser 180
 Ayran Glas | Ayran, Joghurtgetränk, Yogurt drink | GT | 1.0 | 1 Glas | joghurt 100, wasser 100, salz 1
-Şalgam Suyu | Salgam, Fermentierter Rübensaft, Turnip juice | GT | 1.0 | 1 Glas | rote_bete 30, wasser 170, salz 2
+Şalgam Suyu | Salgam, Fermentierter Rübensaft, Turnip juice, Acılı şalgam, Scharfer şalgam | GT | 1.0 | 1 Glas | rote_bete 30, wasser 170, salz 2
 Limonata | Limonade, Lemonade | GT | 1.0 | 1 Glas | zitrone 40, zucker 25, wasser 200
 Ihlamur | Lindenblütentee, Linden tea | GT | 1.0 | 1 Tasse | tee 200
 Adaçayı | Salbeitee, Sage tea | GT | 1.0 | 1 Tasse | tee 200
