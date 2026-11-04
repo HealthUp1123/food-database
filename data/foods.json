@@ -49635,12 +49635,14 @@
     "category": "Dolma/Sarma",
     "prepared": "homemade",
     "is_packaged_product": false,
+    "note": "Generisches Gericht (Nährwerte für das ganze Gericht aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Haushaltsportion (6 Stück, 230 g). FNDDS nennt zusätzlich 1 Rolle = 21 g und eine unspezifizierte Menge von 202 g.",
     "per100g": {
-      "kcal": 166,
-      "protein": 6.7,
-      "carbs": 14.4,
-      "fat": 9.1,
-      "fiber": 1.6
+      "kcal": 228,
+      "protein": 8.2,
+      "carbs": 11.3,
+      "fat": 17.0,
+      "fiber": 3.1,
+      "sugar": 2.5
     },
     "portion": {
       "label": "1 Portion (6 Stück)",
@@ -49648,36 +49650,13 @@
     },
     "ingredients": [
       {
-        "name": "Weinblätter (eingelegt)",
-        "grams": 50
-      },
-      {
-        "name": "Rinderhackfleisch",
-        "grams": 60
-      },
-      {
-        "name": "Reis (trocken)",
-        "grams": 30
-      },
-      {
-        "name": "Zwiebel",
-        "grams": 30
-      },
-      {
-        "name": "Tomatenmark",
-        "grams": 6
-      },
-      {
-        "name": "Sonnenblumenöl",
-        "grams": 8
-      },
-      {
-        "name": "Wasser",
-        "grams": 70
+        "name": "Gefüllte Weinblätter mit Hackfleisch",
+        "grams": 230
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "quality": "reference",
+    "source": "USDA FoodData Central, FNDDS 2021-2023 (Survey Foods, Release 2024-10-31), gemeinfrei (CC0 1.0), FDC ID 2706621: Stuffed grape leaves with beef and rice. Kohlenhydrate = verfügbare KH 8.2 g + Ballaststoffe 3.1 g (USDA Fiber, total dietary, AOAC; Gesamtwert gleich Carbohydrate, by difference 11.3 g), kcal wie veröffentlicht.",
+    "fdc_id": 2706621
   },
   {
     "id": "lahana-sarmasi-etli",
@@ -55983,12 +55962,14 @@
     "category": "Pide/Lahmacun/Gözleme",
     "prepared": "restaurant",
     "is_packaged_product": false,
+    "note": "Generisches Gericht (Nährwerte für das ganze Gericht aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Haushaltsportion, weil die Quelle keine eigene nennt.",
     "per100g": {
-      "kcal": 227,
-      "protein": 8.3,
-      "carbs": 27.8,
-      "fat": 9.1,
-      "fiber": 1.6
+      "kcal": 218,
+      "protein": 9.7,
+      "carbs": 24.6,
+      "fat": 9.4,
+      "fiber": 2.6,
+      "sugar": 1.9
     },
     "portion": {
       "label": "1 Stück",
@@ -55996,44 +55977,13 @@
     },
     "ingredients": [
       {
-        "name": "Weizenmehl",
-        "grams": 80
-      },
-      {
-        "name": "Lammhackfleisch",
-        "grams": 60
-      },
-      {
-        "name": "Zwiebel",
-        "grams": 20
-      },
-      {
-        "name": "Tomate",
-        "grams": 25
-      },
-      {
-        "name": "Paprika grün",
-        "grams": 15
-      },
-      {
-        "name": "Tomatenmark",
-        "grams": 6
-      },
-      {
-        "name": "Petersilie",
-        "grams": 5
-      },
-      {
-        "name": "Sonnenblumenöl",
-        "grams": 5
-      },
-      {
-        "name": "Wasser",
-        "grams": 40
+        "name": "Lahmacun",
+        "grams": 225
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code Y9A1070 \"Türkische Pizza (Lahmacun) ungefüllt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 22 g + Ballaststoffe 2.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe aus FIBT, weil FIBLMW leer oder 0 ist.",
+    "source_id": "BLS 4.0:Y9A1070",
     "off_similar": [
       "4027394001280",
       "8710555097128",
@@ -62526,12 +62476,14 @@
     "category": "Vorspeise/Meze",
     "prepared": "homemade",
     "is_packaged_product": false,
+    "note": "Generisches Gericht (Nährwerte für das ganze Gericht aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Haushaltsportion, weil die Quelle keine eigene nennt.",
     "per100g": {
-      "kcal": 231,
-      "protein": 7.7,
-      "carbs": 20.2,
-      "fat": 14.2,
-      "fiber": 5.8
+      "kcal": 324,
+      "protein": 5.9,
+      "carbs": 13.9,
+      "fat": 28.5,
+      "fiber": 5.9,
+      "sugar": 0.7
     },
     "portion": {
       "label": "1 Schälchen",
@@ -62539,32 +62491,13 @@
     },
     "ingredients": [
       {
-        "name": "Kichererbsen (gekocht)",
-        "grams": 100
-      },
-      {
-        "name": "Tahin",
-        "grams": 20
-      },
-      {
-        "name": "Zitronensaft",
-        "grams": 12
-      },
-      {
-        "name": "Knoblauch",
-        "grams": 4
-      },
-      {
-        "name": "Olivenöl",
-        "grams": 10
-      },
-      {
-        "name": "Wasser",
-        "grams": 20
+        "name": "Hummus",
+        "grams": 165
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code H960000 \"Hummus/Kichererbsenmus\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 8 g + Ballaststoffe 5.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe aus FIBT, weil FIBLMW leer oder 0 ist.",
+    "source_id": "BLS 4.0:H960000",
     "off_similar": [
       "9100000818726",
       "8682353237535",
@@ -69351,12 +69284,14 @@
     "category": "Süßspeise/Sirupgebäck",
     "prepared": "homemade",
     "is_packaged_product": false,
+    "note": "Generisches Gericht (Nährwerte für das ganze Gericht aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Haushaltsportion, weil die Quelle keine eigene nennt. Ballaststoffe sind eine gekennzeichnete Schätzung, weil CoFID nur NSP und keinen AOAC-Wert nennt (siehe source).",
     "per100g": {
-      "kcal": 306,
-      "protein": 4.8,
-      "carbs": 38.7,
-      "fat": 15.0,
-      "fiber": 1.1
+      "kcal": 342,
+      "protein": 2.2,
+      "carbs": 49.8,
+      "fat": 16.7,
+      "fiber": 0.7,
+      "sugar": 37.6
     },
     "portion": {
       "label": "1 Portion",
@@ -69364,28 +69299,13 @@
     },
     "ingredients": [
       {
-        "name": "Grieß",
-        "grams": 40
-      },
-      {
-        "name": "Butter",
-        "grams": 22
-      },
-      {
-        "name": "Zucker",
-        "grams": 30
-      },
-      {
-        "name": "Vollmilch",
-        "grams": 80
-      },
-      {
-        "name": "Pinienkerne",
-        "grams": 5
+        "name": "Grießhalva",
+        "grams": 165
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Public Health England (2021): McCance and Widdowson's The Composition of Foods Integrated Dataset (CoFID) 2021, Open Government Licence v3.0; Code 17-799 \"Halva, semolina, homemade\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Updated 2014). Kohlenhydrate = verfügbare KH 49.1 g + Ballaststoffe 0.7 g (an USDA-Gesamt-KH angeglichen). Ballaststoffe: AOAC-Faser fehlt in CoFID (Angabe N). NSP (Englyst) ist 0.5 g und kein AOAC-Wert. Geschätzt als 0.5 x 1.33 = 0.665 g, gerundet 0.7 g. Faktor 1.33 ist der Median AOAC/NSP von 1.31 über 904 CoFID-Lebensmittel mit beiden Werten, auf 4/3 gerundet. kcal wie veröffentlicht. CoFID rechnet verfügbare Kohlenhydrate mit 3.75 kcal/g; die Gegenprobe mit 4 kcal/g verfügbaren Kohlenhydraten und 2 kcal/g Ballaststoffen ergibt 356.9 kcal.",
+    "source_id": "CoFID 2021:17-799",
     "off_similar": [
       "8699952504364"
     ]
@@ -69869,12 +69789,14 @@
     "category": "Süßspeise/Sirupgebäck",
     "prepared": "homemade",
     "is_packaged_product": false,
+    "note": "Generisches Gericht (Nährwerte für das ganze Gericht aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Haushaltsportion, weil die Quelle keine eigene nennt.",
     "per100g": {
-      "kcal": 234,
-      "protein": 0.0,
-      "carbs": 58.6,
+      "kcal": 295,
+      "protein": 0.6,
+      "carbs": 77.9,
       "fat": 0.0,
-      "fiber": 0.1
+      "fiber": 0.0,
+      "sugar": 68.6
     },
     "portion": {
       "label": "1 Stück",
@@ -69882,20 +69804,13 @@
     },
     "ingredients": [
       {
-        "name": "Zucker",
-        "grams": 12
-      },
-      {
-        "name": "Speisestärke",
-        "grams": 3
-      },
-      {
-        "name": "Wasser",
-        "grams": 8
+        "name": "Lokum (Türkischer Honig)",
+        "grams": 25
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Public Health England (2021): McCance and Widdowson's The Composition of Foods Integrated Dataset (CoFID) 2021, Open Government Licence v3.0; Code 17-122 \"Turkish delight, without nuts\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Reviewed 2013. MW5, 1991). Kohlenhydrate = verfügbare KH 77.9 g + Ballaststoffe 0 g (AOAC-Faser laut CoFID 0 g), an USDA-Gesamt-KH angeglichen, kcal wie veröffentlicht. CoFID rechnet verfügbare Kohlenhydrate mit 3.75 kcal/g; die Gegenprobe mit 4 kcal/g ergibt 314 kcal.",
+    "source_id": "CoFID 2021:17-122",
     "off_similar": [
       "8697452380426",
       "8691351103056",
@@ -71426,12 +71341,14 @@
     "category": "Süßspeise/Sirupgebäck",
     "prepared": "homemade",
     "is_packaged_product": false,
+    "note": "Generisches Gericht (Nährwerte für das ganze Gericht aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Haushaltsportion, weil die Quelle keine eigene nennt.",
     "per100g": {
-      "kcal": 520,
-      "protein": 12.0,
-      "carbs": 50.0,
-      "fat": 29.0,
-      "fiber": 3.0
+      "kcal": 407,
+      "protein": 16.4,
+      "carbs": 39.2,
+      "fat": 22.5,
+      "fiber": 8.6,
+      "sugar": 30.2
     },
     "portion": {
       "label": "1 Portion",
@@ -71443,8 +71360,9 @@
         "grams": 50
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Terveyden ja hyvinvoinnin laitos (THL): Fineli elintarvikkeiden koostumustietopankki, Lizenz CC BY 4.0; Lebensmittel 34 \"Halva, seesamsiemenvalmiste\" (Sesamhalva). Datensatz der Datenbank (rezeptberechnet laut Fineli, fineli.fi/fineli/fi/elintarvikkeet/34, gelesen am 4.11.2026). Kohlenhydrate = verfügbare KH 30.6 g + Ballaststoffe 8.6 g (Fineli fibre, total, nicht die unlösliche Fraktion 4.5 g), an USDA-Gesamt-KH angeglichen, kcal wie veröffentlicht (1703 kJ, 407 kcal).",
+    "source_id": "Fineli:34",
     "off_similar": [
       "8693003022203",
       "3700671764627",
@@ -71840,12 +71758,14 @@
     "category": "Getränk",
     "prepared": "homemade",
     "is_packaged_product": false,
+    "note": "Generisches Getränk (Nährwerte aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Glasmenge (Dichte etwa 1 g/ml), weil die Quelle keine eigene nennt.",
     "per100g": {
-      "kcal": 32,
-      "protein": 1.8,
-      "carbs": 2.4,
-      "fat": 1.8,
-      "fiber": 0.0
+      "kcal": 39,
+      "protein": 2.3,
+      "carbs": 2.7,
+      "fat": 2.0,
+      "fiber": 0.0,
+      "sugar": 2.7
     },
     "portion": {
       "label": "1 Glas",
@@ -71853,20 +71773,13 @@
     },
     "ingredients": [
       {
-        "name": "Joghurt (3,5%)",
-        "grams": 100
-      },
-      {
-        "name": "Wasser",
-        "grams": 100
-      },
-      {
-        "name": "Salz",
-        "grams": 1
+        "name": "Ayran (Joghurtgetränk)",
+        "grams": 200
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code M2S8300 \"Ayran, Joghurtgetränk, gesalzen\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.69 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe aus FIBT, weil FIBLMW leer oder 0 ist.",
+    "source_id": "BLS 4.0:M2S8300",
     "off_similar": [
       "6241001770262",
       "4061458050500",
@@ -72267,12 +72180,14 @@
     "category": "Getränk",
     "prepared": "homemade",
     "is_packaged_product": false,
+    "note": "Generisches Getränk (Nährwerte aus amtlicher Datenbank), kein Markenprodukt. Die Portionsgröße bleibt die bisherige Glasmenge (Dichte etwa 1 g/ml), weil die Quelle keine eigene nennt.",
     "per100g": {
       "kcal": 52,
-      "protein": 0.4,
-      "carbs": 12.8,
-      "fat": 0.1,
-      "fiber": 0.6
+      "protein": 0.3,
+      "carbs": 11.7,
+      "fat": 0.2,
+      "fiber": 0.0,
+      "sugar": 11.3
     },
     "portion": {
       "label": "1 Glas",
@@ -72280,20 +72195,13 @@
     },
     "ingredients": [
       {
-        "name": "Sauerkirsche/Vişne",
-        "grams": 100
-      },
-      {
-        "name": "Zucker",
-        "grams": 20
-      },
-      {
-        "name": "Wasser",
-        "grams": 130
+        "name": "Sauerkirschsaft",
+        "grams": 250
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code F212700 \"Sauerkirschnektar\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 11.693 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe aus FIBT, weil FIBLMW leer oder 0 ist.",
+    "source_id": "BLS 4.0:F212700",
     "off_similar": [
       "3800014286882",
       "4260466413738",

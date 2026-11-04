@@ -4,6 +4,10 @@
 Aufruf:  python3 build.py
 Liest:   ingredients_src.txt (Referenztabelle), batches/*.py (Gerichtsdefinitionen)
 Schreibt: foods.json, ingredients.json, build_report.txt
+Referenz-Overrides: reference_overrides.json ersetzt bei genannten ids nur Nährwerte,
+quality und source. Namen und Synonyme bleiben aus der Batchzeile. Das Ergebnis ist
+nicht data/foods.json (dort fehlen im Build Aliase, Grundprodukte und die Referenzgerichte
+außerhalb der Batches). data/foods.json wird für diese ids gezielt gepflegt.
 
 Zeilenformat in den Batch-Dateien (eine Zeile pro Gericht):
   Name{optional-id} | Synonym1, Synonym2 | Kategorie-Code | Garfaktor | Portionslabel | zutat gramm, zutat gramm, ...
@@ -116,6 +120,7 @@ def main():
             allnames.setdefault(slug(name,'x'), cuisine)
             names[nk] = ctx
             dishes.append((e, cat, yld))
+    apply_reference_overrides(dishes)
     # Plausibilität
     ALK_NAMES = {'Rotwein','Weißwein','Bier','Spirituose 40 %','Sherry/Portwein/Likörwein','Likör','Apfelwein/Cider','Weinbrand/Rum'}
     flags = []
@@ -153,4 +158,32 @@ def main():
     for x in errors[:40]: print('ERR', x)
     for x in flags[:25]: print('FLAG', x)
     return 1 if errors else 0
+
+def apply_reference_overrides(dishes):
+    """Legt amtliche Datensätze über die Rezeptschätzung, ohne Namen oder Synonyme anzufassen."""
+    path = os.path.join(HERE, 'reference_overrides.json')
+    if not os.path.exists(path):
+        return
+    raw = json.load(open(path, encoding='utf8'))
+    by_id = {e['id']: e for e, _, _ in dishes}
+    n = 0
+    for did, o in raw.items():
+        if str(did).startswith('_'):
+            continue
+        e = by_id.get(did)
+        if e is None:
+            print('OVERRIDE nicht im Build:', did)
+            continue
+        e['per100g'] = o['per100g']
+        e['quality'] = 'reference'
+        e['source'] = o['source']
+        if o.get('source_id'):
+            e['source_id'] = o['source_id']
+        if o.get('fdc_id'):
+            e['fdc_id'] = o['fdc_id']
+        if o.get('note'):
+            e['note'] = o['note']
+        n += 1
+    print(f'Referenz-Overrides angewendet: {n}')
+
 if __name__ == '__main__': sys.exit(main())
