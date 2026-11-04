@@ -116,6 +116,7 @@ def main():
             allnames.setdefault(slug(name,'x'), cuisine)
             names[nk] = ctx
             dishes.append((e, cat, yld))
+    apply_reference_overrides(dishes)
     # Plausibilität
     ALK_NAMES = {'Rotwein','Weißwein','Bier','Spirituose 40 %','Sherry/Portwein/Likörwein','Likör','Apfelwein/Cider','Weinbrand/Rum'}
     flags = []
@@ -153,4 +154,39 @@ def main():
     for x in errors[:40]: print('ERR', x)
     for x in flags[:25]: print('FLAG', x)
     return 1 if errors else 0
+
+def apply_reference_overrides(dishes):
+    """reference_overrides.json ist eine Liste wie in PR #15.
+
+    Jedes Objekt hat id, per100g, quality, source und source_id.
+    Optional: source_missing, names, fdc_id, note.
+    Dieselben Pflichtfelder wie der Leser in PR #15, damit beide Dateien
+    zusammenpassen. Namen aus der Batchzeile bleiben, solange names fehlt.
+    """
+    path = os.path.join(HERE, 'reference_overrides.json')
+    if not os.path.exists(path):
+        return
+    overrides = json.load(open(path, encoding='utf8'))
+    by_id = {e['id']: e for e, _, _ in dishes}
+    n = 0
+    for o in overrides:
+        e = by_id.get(o['id'])
+        if e is None:
+            print('OVERRIDE nicht im Build:', o['id'])
+            continue
+        e['per100g'] = o['per100g']
+        e['quality'] = o['quality']
+        e['source'] = o['source']
+        e['source_id'] = o['source_id']
+        if o.get('source_missing'):
+            e['source_missing'] = o['source_missing']
+        if o.get('names'):
+            e['names'] = o['names']
+        if o.get('fdc_id'):
+            e['fdc_id'] = o['fdc_id']
+        if o.get('note'):
+            e['note'] = o['note']
+        n += 1
+    print(f'Referenz-Overrides angewendet: {n}')
+
 if __name__ == '__main__': sys.exit(main())
