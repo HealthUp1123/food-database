@@ -292081,8 +292081,7 @@
     "synonyms": [
       "schwarze Oliven",
       "reife Oliven",
-      "Olives, ripe, canned (small-extra large)",
-      "Siyah zeytin (gemlik, yağlı)"
+      "Olives, ripe, canned (small-extra large)"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Gemüse",
@@ -301056,7 +301055,7 @@
       "Thunfisch Dose",
       "Thunfisch im eigenen Saft",
       "Fish, tuna, light, canned in water, drained solids",
-      "Ton balığı (konserve, sulu)"
+      "Ton balığı konserve sulu"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Fisch & Meeresfrüchte",
