@@ -1,0 +1,4 @@
+{
+  "minEntries": 5257,
+  "comment": "Untergrenze für die Anzahl der Einträge in data/foods.json. Nur bewusst ändern, wenn Einträge absichtlich entfernt werden. Neue Einträge verlangen keine Anpassung."
+}
