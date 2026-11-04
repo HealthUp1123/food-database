@@ -22,7 +22,7 @@ Etli Bezelye | Erbsen mit Fleisch, Peas with beef, Bezelye yemeği | GM | 0.85 |
 Etli Enginar | Artischocken mit Fleisch | GM | 0.85 | 1 Portion | artischocke 160, rind 60, kartoffel 40, karotte 30, zwiebel 20, oel 10, wasser 100
 Etli Karnabahar | Blumenkohl mit Fleisch, Karnabahar yemeği | GM | 0.85 | 1 Portion | blumenkohl 220, rind 60, tomate 50, zwiebel 30, oel 10, wasser 80
 Etli Lahana | Weißkohl mit Fleisch, Cabbage stew with beef | GM | 0.85 | 1 Portion | weisskohl 250, rind 60, zwiebel 30, tomatenmark 8, oel 10, wasser 80
-Kapuska | Kapuska, Kohleintopf Karadeniz | GM | 0.85 | 1 Portion | weisskohl 250, hack 60, reis 15, tomatenmark 8, zwiebel 30, oel 10, wasser 80
+Kapuska | Kapuska, Kohleintopf Karadeniz, Etli kapuska | GM | 0.85 | 1 Portion | weisskohl 250, hack 60, reis 15, tomatenmark 8, zwiebel 30, oel 10, wasser 80
 Etli Kereviz | Sellerie mit Fleisch | GM | 0.85 | 1 Portion | sellerie 200, rind 60, karotte 30, zwiebel 20, oel 10, zitrone 6, wasser 100
 Etli Taze Bakla | Dicke Bohnen mit Fleisch | GM | 0.85 | 1 Portion | dicke_bohnen 180, rind 60, zwiebel 30, dill 5, oel 10, wasser 100
 Etli Semizotu | Portulak mit Fleisch | GM | 0.85 | 1 Portion | portulak 220, rind 60, zwiebel 30, tomate 40, oel 10, wasser 80
@@ -30,7 +30,7 @@ Kıymalı Ispanak | Spinat mit Hack, Spinach with mince | GM | 0.85 | 1 Portion 
 Kıymalı Patates | Kartoffeln mit Hack, Potato mince stew, Kıymalı patates yemeği | GM | 0.88 | 1 Portion | kartoffel 220, hack 70, zwiebel 30, tomatenmark 8, oel 10, wasser 100
 Kıymalı Bezelye | Erbsen mit Hack | GM | 0.85 | 1 Portion | erbsen 180, hack 70, zwiebel 30, karotte 30, tomatenmark 6, oel 8, wasser 80
 Kıymalı Kabak | Zucchini mit Hack | GM | 0.85 | 1 Portion | zucchini 220, hack 70, zwiebel 30, tomate 50, oel 8, wasser 60
-Kıymalı Lahana | Kohl mit Hack | GM | 0.85 | 1 Portion | weisskohl 250, hack 70, zwiebel 30, tomatenmark 8, oel 8, wasser 80
+Kıymalı Lahana | Kohl mit Hack, Lahana yemeği (kıymalı) | GM | 0.85 | 1 Portion | weisskohl 250, hack 70, zwiebel 30, tomatenmark 8, oel 8, wasser 80
 Kıymalı Karnabahar | Blumenkohl mit Hack | GM | 0.85 | 1 Portion | blumenkohl 220, hack 70, zwiebel 30, tomate 50, oel 8, wasser 60
 Kıymalı Yumurta | Hack mit Ei, Mince with egg | EI | 0.85 | 1 Pfanne | hack 100, ei 100, zwiebel 30, tomate 50, oel 8
 Tas Kebabı | Tas Kebap, Fleischtopf mit Kartoffeln | HF | 0.85 | 1 Portion | rind 130, kartoffel 100, zwiebel 40, tomate 60, paprika 30, oel 10, wasser 100
@@ -39,8 +39,8 @@ Kuzu Kavurma | Gebratenes Lamm in eigenem Fett | HF | 0.7 | 1 Portion | lamm 180
 Kavurma | Kavurma, Geschmortes Fleisch, Braised beef Turkish | HF | 0.7 | 1 Portion | rind_fett 180, zwiebel 30, paprika 20, oel 10
 Saç Kavurma | Saç Kavurma, Pfannen-Fleisch | HF | 0.75 | 1 Portion | lamm 180, paprika 50, tomate 50, zwiebel 40, sivri 20, butter 12
 Tavuk Kavurma | Hähnchen Kavurma | HG | 0.78 | 1 Portion | hahn 180, paprika 40, tomate 50, zwiebel 30, oel 12
-Et Güveç | Fleisch im Tontopf, Beef guvec | HF | 0.85 | 1 Tontopf | rind 130, kartoffel 60, karotte 30, paprika 30, tomate 60, zwiebel 30, oel 10, wasser 60
-Sebze Güveç | Gemüse im Tontopf, Vegetable guvec | HV | 0.85 | 1 Tontopf | aubergine 70, kartoffel 70, zucchini 60, paprika 40, tomate 70, zwiebel 30, oel 15, wasser 50
+Et Güveç | Fleisch im Tontopf, Beef guvec, Güveç (Beypazarı) | HF | 0.85 | 1 Tontopf | rind 130, kartoffel 60, karotte 30, paprika 30, tomate 60, zwiebel 30, oel 10, wasser 60
+Sebze Güveç | Gemüse im Tontopf, Vegetable guvec, Sebzeli güveç | HV | 0.85 | 1 Tontopf | aubergine 70, kartoffel 70, zucchini 60, paprika 40, tomate 70, zwiebel 30, oel 15, wasser 50
 Tavuk Güveç | Hähnchen im Tontopf | HG | 0.85 | 1 Tontopf | hahn_brust 130, kartoffel 70, paprika 40, tomate 60, zwiebel 30, pilz 40, oel 12, wasser 60
 Çiftlik Kebabı | Bauernkebap | HF | 0.85 | 1 Portion | rind 100, kartoffel 100, tomate 60, paprika 40, zwiebel 30, oel 12, wasser 60
 Tavuk Haşlama | Gekochtes Hähnchen, Boiled chicken | HG | 0.8 | 1 Portion | hahn 200, karotte 40, kartoffel 60, zwiebel 20, wasser 150
@@ -60,9 +60,9 @@ Hindi Dolması | Gefüllter Truthahn, Stuffed turkey | HG | 0.78 | 1 Portion | p
 Hindi Haşlama | Gekochter Truthahn | HG | 0.8 | 1 Portion | pute 200, karotte 30, kartoffel 60, wasser 100
 Tavuk Wrap | Hähnchen-Wrap Turkish style | SN | 0.92 | 1 Wrap | hahn_brust 100, lavas 90, salat 20, tomate 30, joghurt 25, oel 8
 Çıtır Tavuk | Knuspriges Hähnchen, Crispy chicken | HG | 0.85 | 1 Portion | hahn_brust 150, paniermehl 25, ei 25, mehl 10, oel 25
-Tavuk Şnitzel | Hähnchenschnitzel türkisch | HG | 0.85 | 1 Portion | hahn_brust 150, paniermehl 25, ei 25, mehl 10, oel 25
+Tavuk Şnitzel | Hähnchenschnitzel türkisch, Şnitzel | HG | 0.85 | 1 Portion | hahn_brust 150, paniermehl 25, ei 25, mehl 10, oel 25
 Dana Rosto | Rinderbraten, Beef roast | HF | 0.75 | 1 Portion | rind 220, zwiebel 30, karotte 40, kartoffel 80, butter 10, wasser 100
-Kuzu Fırın | Lamm aus dem Ofen, Roast lamb | HF | 0.72 | 1 Portion | lamm 260, kartoffel 100, tomate 40, paprika 30, butter 10
+Kuzu Fırın | Lamm aus dem Ofen, Roast lamb, Fırında kuzu | HF | 0.72 | 1 Portion | lamm 260, kartoffel 100, tomate 40, paprika 30, butter 10
 Fırında Kuzu Incik | Lammhaxe aus dem Ofen | HF | 0.7 | 1 Portion | lamm 300, karotte 40, zwiebel 30, tomatenmark 6, kartoffel 60
 Kuzu Çevirme | Lamm am Spieß, Lamb on spit | HF | 0.7 | 1 Portion | lamm 270, zwiebel 20, oregano 1
 Kızartma (Etli) | Gebratenes Fleisch mit Gemüse | HF | 0.78 | 1 Portion | rind_steak 160, kartoffel 100, paprika 40, oel 25
@@ -85,8 +85,8 @@ Kabak Çiçeği Dolması | Gefüllte Zucchiniblüten | DO | 0.9 | 1 Portion | re
 Menemen | Menemen, Rührei mit Tomaten und Paprika | FR | 0.85 | 1 Pfanne | ei 120, tomate 120, sivri 40, butter 10, zwiebel 20
 Soğanlı Menemen | Menemen mit Zwiebeln | FR | 0.85 | 1 Pfanne | ei 120, tomate 100, sivri 40, zwiebel 50, butter 10
 Peynirli Menemen | Menemen mit Käse | FR | 0.85 | 1 Pfanne | ei 120, tomate 100, sivri 40, beyaz_peynir 40, butter 10
-Sucuklu Yumurta | Eier mit Sucuk | FR | 0.85 | 1 Pfanne | ei 120, sucuk 50, butter 6
-Pastırmalı Yumurta | Eier mit Pastırma | FR | 0.85 | 1 Pfanne | ei 120, pastirma 50, butter 8
+Sucuklu Yumurta | Eier mit Sucuk, Sucuklu yumurta (sahan) | FR | 0.85 | 1 Pfanne | ei 120, sucuk 50, butter 6
+Pastırmalı Yumurta | Eier mit Pastırma, Pastırmalı yumurta (sahan) | FR | 0.85 | 1 Pfanne | ei 120, pastirma 50, butter 8
 Kavurmalı Yumurta | Eier mit Kavurma | FR | 0.85 | 1 Pfanne | ei 120, rind_fett 50, butter 5
 Sahanda Yumurta | Spiegeleier in der Pfanne, Fried eggs Turkish | FR | 0.9 | 1 Pfanne | ei 120, butter 12, pul_biber 1
 Kaşarlı Yumurta | Eier mit Kaşar | FR | 0.88 | 1 Pfanne | ei 120, kasar 40, butter 8

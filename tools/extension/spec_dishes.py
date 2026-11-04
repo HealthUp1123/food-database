@@ -26,6 +26,7 @@ TR_EST = [
  dict(id='kaymak', src='COFID:12-592', names='Kaymak|Kaymak (Turkish clotted cream)|Kaymak|Kaymak (crème caillée turque)|Kaymak (nata cuajada turca)|Kaymak (nata coalhada turca)|Kaymak (panna rappresa turca)|土耳其凝脂奶油', cat=TR_BASE, state='processed', aliases={'en': ['Clotted cream']},
       why='Kaymak entspricht in Herstellung (Erhitzen und Abschöpfen der Rahmschicht) der englischen Clotted Cream; Werte aus CoFID 12-592 übernommen (Methode similar_food). Büffelmilch-Kaymak kann fetter sein.'),
  dict(id='yufka-teig', src='CIQ:23445', names='Yufka-Teigblätter, roh|Yufka pastry sheets, raw|Yufka, çiğ|Feuilles de yufka, crues|Láminas de yufka, crudas|Folhas de yufka, cruas|Sfoglie di yufka, crude|土耳其薄面皮（生）', cat='Grundzutat: Getreide, Teigwaren & Brot', state='raw', aliases={'de': ['Yufka', 'Filoteig türkisch']},
+      syn=['Baklava yufkası'],
       why='Yufka ist ein dünn ausgerollter Mehl-Wasser-Teig, ähnlich Filo/Phyllo; Werte von Ciqual "Phyllo or filo dough, raw" übernommen (Methode similar_food). Yufka ist etwas dicker; Fettgehalt hängt vom Hersteller ab.'),
 ]
 TR_DRINKS = [
@@ -50,7 +51,7 @@ IMBISS = [
  R('FNDDS:2706093', 'Chicken Nuggets (Imbiss)|Chicken nuggets (fast food)|Tavuk nugget (fast food)|Nuggets de poulet (restauration rapide)|Nuggets de pollo (comida rápida)|Nuggets de frango (fast food)|Nuggets di pollo (fast food)|鸡块（快餐）', 'Snack', 'int', portion=('6 Nuggets', 2706093, '1 nugget', 6), aliases={'de': ['Hähnchen-Nuggets']}),
  R('FNDDS:2705817', 'Mozzarella-Sticks, paniert und frittiert|Mozzarella sticks, breaded and fried|Pane mozzarella çubukları, kızartılmış|Bâtonnets de mozzarella panés, frits|Palitos de mozzarella empanados, fritos|Palitos de mozarela panados, fritos|Bastoncini di mozzarella impanati e fritti|炸马苏里拉芝士条', 'Snack', 'int', portion=('1 Stick', 2705817, '1 piece or stick (4" x 1" x 3/4")')),
  R('BLS:K130262', 'Ofen-Pommes (TK, im Ofen gebacken)|Oven fries (frozen, oven-baked)|Fırın patates kızartması (dondurulmuş, fırında)|Frites au four (surgelées, cuites au four)|Patatas fritas al horno (congeladas)|Batatas fritas no forno (congeladas)|Patatine al forno (surgelate)|烤箱薯条（冷冻，烤制）', 'Beilage', 'int', aliases={'de': ['Backofen-Pommes', 'Ofenpommes']}),
- R('BLS:Y022422', 'Berner Würstel, gebraten|Berner sausage (bacon-wrapped cheese sausage), fried|Berner sosis (beykona sarılı peynirli), kızartılmış|Saucisse Berner (au fromage, enrobée de lard), poêlée|Salchicha Berner (con queso, envuelta en tocino), frita|Salsicha Berner (com queijo, envolta em bacon), frita|Würstel Berner (al formaggio, avvolto nella pancetta), fritto|培根卷奶酪香肠（煎）', 'Wurstgericht', 'at'),
+ R('BLS:Y022422', 'Berner Würstel, gebraten|Berner sausage (bacon-wrapped cheese sausage), fried|Berner sosis (domuz beykona sarılı peynirli), kızartılmış|Saucisse Berner (au fromage, enrobée de lard), poêlée|Salchicha Berner (con queso, envuelta en tocino), frita|Salsicha Berner (com queijo, envolta em bacon), frita|Würstel Berner (al formaggio, avvolto nella pancetta), fritto|培根卷奶酪香肠（煎）', 'Wurstgericht', 'at'),
 ]
 
 def S(src, names, cat, cuisine, portion=None, aliases=None, prepared='restaurant'):

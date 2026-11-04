@@ -303,7 +303,7 @@ V = [
 ("Kabeljau, getrocknet und gesalzen (Klippfisch)",FI,"dried",["Klippfisch","Bacalhau","Stockfisch gesalzen"],"Fish, cod, Atlantic, dried and salted"),
 ("Seelachs, gegrillt/im Ofen",FI,"grilled",["Seelachs gebacken","Köhler gegart"],"Fish, pollock, Atlantic, cooked, dry heat"),
 ("Thunfisch, gegrillt/im Ofen",FI,"grilled",["Thunfischsteak gegrillt","Thunfisch gebraten"],"Fish, tuna, yellowfin, fresh, cooked, dry heat"),
-("Thunfisch, aus der Dose (in Wasser, abgetropft)",FI,"canned",["Thunfisch naturell","Thunfisch Dose","Thunfisch im eigenen Saft"],"Fish, tuna, light, canned in water, drained solids"),
+("Thunfisch, aus der Dose (in Wasser, abgetropft)",FI,"canned",["Thunfisch naturell","Thunfisch Dose","Thunfisch im eigenen Saft","Ton balığı konserve sulu"],"Fish, tuna, light, canned in water, drained solids"),
 ("Thunfisch, aus der Dose (in Öl, abgetropft)",FI,"canned",["Thunfisch in Öl","Thunfisch Dose Öl"],"Fish, tuna, light, canned in oil, drained solids"),
 ("Forelle, gegrillt/im Ofen",FI,"grilled",["Forelle gebraten","Forelle gebacken","Regenbogenforelle gegart"],"Fish, trout, rainbow, farmed, cooked, dry heat"),
 ("Hering, gegrillt/im Ofen",FI,"grilled",["Hering gebraten","Brathering ohne Marinade"],"Fish, herring, Atlantic, cooked, dry heat"),

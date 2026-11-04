@@ -22,7 +22,7 @@ Bezelyeli Pilav | Reis mit Erbsen | RP | 0.95 | 1 Teller | reis 60, erbsen 60, b
 Arpa Şehriye Pilavı | Nudelpilaw mit Arpa Şehriye | RP | 0.95 | 1 Teller | nudeln 60, butter 10, bruehe 120
 Düğün Pilavı | Hochzeitspilaw, Wedding rice | RP | 0.92 | 1 Teller | reis 60, hahn 60, kichererbsen 30, butter 12, wasser 130
 Kuskus Pilavı | Couscous Pilaf | RP | 0.95 | 1 Teller | couscous 60, butter 8, zwiebel 20, wasser 100
-Pilav Üstü Kuru Fasulye | Kuru Fasulye mit Reis, White beans with rice | RP | 0.93 | 1 Teller | bohnen_trocken 50, reis 60, zwiebel 25, tomatenmark 8, butter 15, wasser 330
+Pilav Üstü Kuru Fasulye | Kuru Fasulye mit Reis, White beans with rice, Kuru fasulye pilav (lokanta) | RP | 0.93 | 1 Teller | bohnen_trocken 50, reis 60, zwiebel 25, tomatenmark 8, butter 15, wasser 330
 Pilav Üstü Nohut | Kichererbsen auf Reis | RP | 0.93 | 1 Teller | kichererbsen_trocken 45, reis 60, zwiebel 25, tomatenmark 8, butter 15, wasser 300
 Pilav Üstü Döner | Döner auf Reis, Doner over rice | KB | 0.88 | 1 Teller | reis 60, lamm 70, hack 60, butter 8, tomate 30, wasser 130
 Pilav Üstü Tavuk | Hähnchen auf Reis, Chicken over rice | HG | 0.9 | 1 Teller | reis 60, hahn_brust 110, butter 8, tomate 30, wasser 130
@@ -80,8 +80,8 @@ Ahtapot Izgara | Gegrillter Oktopus | HFi | 0.8 | 1 Portion | oktopus 220, olive
 Balık Köfte | Fischfrikadellen, Fish kofta | HFi | 0.85 | 1 Portion | fisch_mager 150, paniermehl 20, ei 15, zwiebel 20, petersilie 5, oel 15
 Balık Güveç | Fisch im Tontopf | HFi | 0.85 | 1 Tontopf | fisch_mager 160, tomate 60, paprika 40, kartoffel 60, zwiebel 20, olivenoel 10, wasser 40
 Sazan Tava | Gebratener Karpfen | HFi | 0.8 | 1 Portion | karpfen 250, mehl 15, oel 15
-Lakerda | Lakerda, Gesalzener Bonito, Cured bonito | V | 1.0 | 1 Portion | thunfisch 100, zwiebel 20, olivenoel 10, zitrone 5, dill 2
-Çiroz | Çiroz, Getrocknete Makrele | V | 1.0 | 1 Portion | makrele 80, olivenoel 8, zwiebel 20
+Lakerda | Lakerda, Gesalzener Bonito, Cured bonito, Lakerda salatası | V | 1.0 | 1 Portion | thunfisch 100, zwiebel 20, olivenoel 10, zitrone 5, dill 2
+Çiroz | Çiroz, Getrocknete Makrele, Çiroz salatası | V | 1.0 | 1 Portion | makrele 80, olivenoel 8, zwiebel 20
 Hamsili Mısır Ekmeği | Hamsili Ekmek, Sardellen-Maisbrot | HFi | 0.9 | 1 Portion | sardelle 120, maismehl 60, zwiebel 20, oel 15, wasser 50
 Ton Balıklı Makarna | Nudeln mit Thunfisch | T | 0.95 | 1 Portion | nudeln 70, thunfisch 60, tomate 60, zwiebel 20, olivenoel 10, wasser 140
 """

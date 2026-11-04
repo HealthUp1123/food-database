@@ -7,7 +7,7 @@
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "search": "node scripts/search-local.mjs",
-    "test": "node scripts/validate.mjs && node scripts/test-worker.mjs",
+    "test": "node scripts/validate.mjs && node scripts/test-worker.mjs && node scripts/guard-foods.mjs",
     "dev": "cd api && npx wrangler dev",
     "deploy": "cd api && npx wrangler deploy"
   },

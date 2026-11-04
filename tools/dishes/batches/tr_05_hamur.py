@@ -4,7 +4,7 @@ Su Böreği | Su Böreği Peynirli, Wasserbörek, Water borek | BO | 0.92 | 1 St
 Sigara Böreği | Zigarettenbörek, Cigar borek, Peynirli Sigara Böreği | BO | 0.9 | 1 Portion (4 Stück) | yufka 70, beyaz_peynir 60, ei 15, petersilie 5, oel 28
 Kıymalı Sigara Böreği | Zigarettenbörek mit Hack | BO | 0.9 | 1 Portion (4 Stück) | yufka 70, hack 60, zwiebel 20, ei 10, oel 28
 Kol Böreği (Ispanaklı) | Ispanaklı Kol Böreği, Spinatbörek | BO | 0.9 | 1 Stück | yufka 90, spinat 120, beyaz_peynir 30, zwiebel 20, ei 25, butter 12, oel 10
-Kol Böreği (Peynirli) | Peynirli Kol Böreği, Käsebörek | BO | 0.9 | 1 Stück | yufka 90, beyaz_peynir 80, ei 30, petersilie 5, butter 12, oel 10
+Kol Böreği (Peynirli) | Peynirli Kol Böreği, Käsebörek, Kol böreği pastane peynirli | BO | 0.9 | 1 Stück | yufka 90, beyaz_peynir 80, ei 30, petersilie 5, butter 12, oel 10
 Kol Böreği (Kıymalı) | Kıymalı Kol Böreği, Hackbörek | BO | 0.9 | 1 Stück | yufka 90, hack 70, zwiebel 30, ei 25, butter 12, oel 10
 Kol Böreği (Patatesli) | Patatesli Kol Böreği, Kartoffelbörek, Patatesli börek | BO | 0.9 | 1 Stück | yufka 90, kartoffel 120, zwiebel 20, ei 25, butter 12, oel 10
 Tepsi Böreği | Blechbörek, Tray borek | BO | 0.9 | 1 Stück | yufka 80, hack 60, zwiebel 20, ei 30, milch 40, oel 20, butter 8
