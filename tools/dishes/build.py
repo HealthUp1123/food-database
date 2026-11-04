@@ -19,6 +19,21 @@ Alle Werte sind SCHÄTZWERTE aus typischen Rezepten und ungefähren Referenzwert
 import importlib.util, json, glob, os, re, sys, unicodedata, collections
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+
+def load_json(path):
+    try:
+        with open(path, encoding='utf-8') as f:
+            return json.load(f)
+    except json.JSONDecodeError as e:
+        raise SystemExit(f'{path}: kein gültiges JSON ({e.lineno}:{e.colno}: {e.msg})')
+
+def check_per100g(where, p):
+    if not isinstance(p, dict):
+        raise SystemExit(f'{where}: per100g muss ein Objekt sein')
+    for k, v in p.items():
+        if v is None or (isinstance(v, (int, float)) and not isinstance(v, bool)):
+            continue
+        raise SystemExit(f'{where}: per100g.{k} muss eine Zahl oder null sein, nicht {type(v).__name__}')
 CATS = {
  'S':'Suppe','E':'Eintopf','HF':'Hauptgericht Fleisch','HG':'Hauptgericht Geflügel','HFi':'Hauptgericht Fisch',
  'HV':'Hauptgericht vegetarisch','GZ':'Gemüse/Zeytinyağlı','GM':'Gemüse mit Fleisch','KB':'Kebap','KF':'Köfte',
@@ -184,7 +199,7 @@ def apply_reference_overrides(recipes):
     path = os.path.join(HERE, 'reference_overrides.json')
     if not os.path.exists(path):
         return set()
-    overrides = json.load(open(path, encoding='utf-8'))
+    overrides = load_json(path)
     if not isinstance(overrides, list):
         raise SystemExit('reference_overrides.json muss eine Liste sein (Format aus PR #15)')
     by_id = {e['id']: e for e in recipes}
@@ -201,6 +216,7 @@ def apply_reference_overrides(recipes):
         missing = [k for k in OVERRIDE_REQUIRED if k not in o]
         if missing:
             raise SystemExit(f'reference_overrides.json: {o["id"]} ohne Feld {", ".join(missing)}')
+        check_per100g(f'reference_overrides.json: {o["id"]}', o['per100g'])
         e['per100g'] = o['per100g']
         e['quality'] = o['quality']
         e['source'] = o['source']
@@ -234,7 +250,7 @@ def assemble_bestand(recipes, overridden=()):
     damit weg: veröffentlicht ist dort fdc_id.
     """
     path = os.path.normpath(os.path.join(HERE, '..', '..', 'data', 'foods.json'))
-    bestand = json.load(open(path, encoding='utf-8'))
+    bestand = load_json(path)
     if not isinstance(bestand, list):
         raise SystemExit('data/foods.json muss ein Array sein')
     overridden = set(overridden or ())

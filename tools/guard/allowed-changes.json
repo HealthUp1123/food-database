@@ -1,0 +1,8 @@
+{
+  "comment": "Gewollte Abweichungen von data/foods.json gegenüber der Git-Basis (merge-base mit origin/main). Standardmäßig leer. Jede Zeile braucht eine Begründung.",
+  "delete": [],
+  "rename": [],
+  "dropSynonym": [],
+  "prepared": [],
+  "isPackagedProduct": []
+}

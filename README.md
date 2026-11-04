@@ -332,9 +332,27 @@ python3 tools/off_check.py apply --input foods_before_off.json --out foods.json 
 
 Erst die geprüfte `tools/dishes/foods.json` nach `data/foods.json` kopieren, dann `npm test`. Nicht committen: `build_report.txt`, `tools/dishes/foods.json`, `foods_before_off.json`, `__pycache__/`, `*.log`, `off_dump/`, `off_check_cache.sqlite`, `off_check_status*.json`, `*.duckdb`.
 
+Der Build hängt ein gelöschtes Rezeptgericht wieder an, solange die Zeile in `batches/*.py` steht. Wer einen Eintrag entfernt, muss die Batchzeile mit entfernen, sonst liegt das Gericht in der nächsten `tools/dishes/foods.json` wieder vor.
+
 ## Schutztest
 
-`npm test` führt am Ende `node scripts/guard-foods.mjs` aus. Das Skript startet `python3 tools/dishes/build.py` und vergleicht `tools/dishes/foods.json` mit `data/foods.json`, Eintrag für Eintrag. Es schlägt an, wenn eine ID aus dem Bestand im Build fehlt, wenn `names` oder `synonyms` schrumpfen, wenn `prepared` oder `is_packaged_product` abweicht, oder wenn `kcal` oder die Makros (Eiweiß, Kohlenhydrate, Fett, Ballaststoffe, dazu Zucker und Alkohol, soweit vorhanden) abweichen. Zusätzlich dürfen `names.de`, `names.tr` und `names.en` nicht leer sein, und die Zahl der Einträge in `data/foods.json` darf nicht unter `minEntries` in `data/min-entries.json` fallen. Diese Zahl wird nur bewusst geändert. Neue Einträge sind erlaubt.
+`npm test` führt am Ende `node scripts/guard-foods.mjs` aus. Das Skript startet `python3 tools/dishes/build.py` und vergleicht zwei Paare:
+
+- `tools/dishes/foods.json` mit der Arbeitskopie `data/foods.json`: fehlende ID, geschrumpfte `names` oder `synonyms`, abweichendes `prepared` oder `is_packaged_product`, abweichende `kcal` oder Makros.
+- die Arbeitskopie mit `data/foods.json` aus der Git-Basis. Die Basis ist `git merge-base HEAD origin/main`, sonst `origin/main`, sonst `HEAD~`, geladen mit `git show <ref>:data/foods.json`. Rot, wenn eine ID verschwindet, ein Synonym wegfällt oder `prepared` bzw. `is_packaged_product` sich ändert. Die Action holt dafür die Historie (`fetch-depth: 0`) und `origin/main`.
+
+Neue Einträge sind erlaubt. Die Zahl der Einträge darf nicht unter `minEntries` in `tools/guard/min-entries.json` fallen. Diese Zahl wird nur bewusst geändert. `names.de`, `names.tr` und `names.en` dürfen nicht leer sein.
+
+### Gewollte Löschungen und Wertänderungen
+
+Stille Edits nur in `data/foods.json` werden rot, auch wenn der Build sie mitkopiert. Gewollte Fälle stehen mit Begründung in `tools/guard/allowed-changes.json` (standardmäßig leer):
+
+- Löschung wie in PR #11: `{ "id": "…", "reason": "…" }` unter `delete`, die Batchzeile entfernen, und `minEntries` senken, wenn die Anzahl darunter fällt.
+- Umbenennung: `{ "from": "alte-id", "to": "neue-id", "reason": "…" }` unter `rename`. Die alte Batchzeile muss weg, sonst erzeugt der Build die alte ID wieder.
+- Synonym streichen, das nicht aus einer geänderten Batchzeile kommt: `{ "id": "…", "synonym": "…", "reason": "…" }` unter `dropSynonym`.
+- `prepared` oder `is_packaged_product`: die `id` mit `reason` unter `prepared` bzw. `isPackagedProduct`.
+
+Ein Rezept-Synonym, das die Batchzeile nicht mehr enthält und das der Build genauso schreibt (`quality: "estimate"`, Quelle `calculated from typical recipe`), gilt als gewollte Wertänderung und braucht keinen Eintrag. Grundzutaten und Referenzen ohne diese Batchzeile brauchen die Liste.
 
 ## Roadmap
 
