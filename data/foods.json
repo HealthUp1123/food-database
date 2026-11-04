@@ -37300,8 +37300,7 @@
     "synonyms": [
       "Doner Kebap Porsiyon",
       "Döner Teller",
-      "Doner plate",
-      "Et döner"
+      "Doner plate"
     ],
     "cuisine": "tr",
     "category": "Kebap",
@@ -272992,7 +272991,7 @@
     "names": {
       "de": "Grünkohl, roh",
       "en": "Kale, raw",
-      "tr": "Kara lahana, çiğ",
+      "tr": "Kıvırcık lahana (Kale), çiğ",
       "fr": "Chou kale, cru",
       "es": "Col rizada, cruda",
       "pt": "Couve kale, crua",
@@ -320743,7 +320742,9 @@
     "synonyms": [
       "Kekik",
       "Origanum",
-      "Oregano getrocknet"
+      "Oregano getrocknet",
+      "İzmir kekiği",
+      "Bilyalı kekik"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Gemüse",
@@ -320780,7 +320781,7 @@
     "names": {
       "de": "Thymian, getrocknet",
       "en": "Thyme, dried",
-      "tr": "Kekik (Thymus), kurutulmuş",
+      "tr": "Bahçe kekiği (Thymus), kurutulmuş",
       "fr": "Thym, séché",
       "es": "Tomillo, seco",
       "pt": "Tomilho, seco",
@@ -321017,7 +321018,7 @@
       }
     ],
     "quality": "reference",
-    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 171329: Spices, paprika",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 171329: Spices, paprika. Die Validator-Warnung kommt von den USDA-Energiefaktoren: die Prüfung 4·KH+4·Eiweiß+9·Fett zählt Ballaststoffe mit 4 kcal und schätzt 389 kcal, die veröffentlichte Energie ist 282 kcal. Mit 2 kcal je g Ballaststoffe liegt die Formel bei 319 kcal.",
     "fdc_id": 171329
   },
   {
@@ -321173,9 +321174,9 @@
   },
   {
     "id": "schwarzkohl-roh",
-    "name": "Schwarzkohl, roh",
+    "name": "Blattkohl (Karalahana), roh",
     "names": {
-      "de": "Schwarzkohl, roh",
+      "de": "Blattkohl (Karalahana), roh",
       "en": "Collard greens, raw",
       "tr": "Karalahana, çiğ",
       "fr": "Chou cavalier, cru",
@@ -321211,7 +321212,7 @@
     },
     "ingredients": [
       {
-        "name": "Schwarzkohl, roh",
+        "name": "Blattkohl (Karalahana), roh",
         "grams": 36
       }
     ],
@@ -321315,7 +321316,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Generische Packungsangabe, Mittel aus 8 Packungen, Abruf 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Mittlere Etikett-Kohlenhydrate 18.4 g, Ballaststoffe 6.1 g (3 Etiketten), Gesamt-Kohlenhydrate 24.5 g. Ballaststoffe nur von den Etiketten, die Lif ausweisen; die übrigen nennen keinen Wert. Nicht geraten. Belege: docs/belege/packungsangaben-tr.csv."
+    "source": "Mittelwert aus Packungsangaben (n = 8), abgerufen am 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Gesamt-KH 24,5 g aus mittlerer Etikett-KH 18,4 g plus Ballaststoffe 6,1 g (3 Etiketten: 4,0 g, 6,3 g und 7,9 g). BST-Methode unbekannt. Belege: docs/belege/packungsangaben-tr.csv."
   },
   {
     "id": "labne",
@@ -321363,7 +321364,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Generische Packungsangabe, Mittel aus 9 Packungen, Abruf 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Mittlere Etikett-Kohlenhydrate 3.7 g, Ballaststoffe 0.0 g (Etikett bzw. Schätzung 0), Gesamt-Kohlenhydrate 3.7 g. Kein Etikett nennt Ballaststoffe. Schätzung 0 g nach CoFID 2021, Code 12-555 \"Yogurt, Greek style, plain\" (AOAC fibre 0 g). Labne ist abgetropfter Joghurt, Milch enthält keine Ballaststoffe. Belege: docs/belege/packungsangaben-tr.csv."
+    "source": "Mittelwert aus Packungsangaben (n = 9), abgerufen am 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Ballaststoffe 0 g sind eine Schätzung nach CoFID 2021, Code 12-555 \"Yogurt, Greek style, plain\" (AOAC fibre 0 g), weil kein Etikett Ballaststoffe nennt und Labne abgetropfter Joghurt ist. Belege: docs/belege/packungsangaben-tr.csv."
   },
   {
     "id": "nar-eksisi",
@@ -321410,7 +321411,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Generische Packungsangabe, Mittel aus 6 Packungen, Abruf 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Mittlere Etikett-Kohlenhydrate 69.9 g, Ballaststoffe 0.0 g (Etikett bzw. Schätzung 0), Gesamt-Kohlenhydrate 69.9 g. Ballaststoffe 0 g, wo ein Etikett Lif mit 0 ausweist. Etiketten ohne die Zeile werden nicht mit einem anderen Wert aufgefüllt. Belege: docs/belege/packungsangaben-tr.csv."
+    "source": "Mittelwert aus Packungsangaben (n = 6), abgerufen am 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Ballaststoffe 0 g laut 2 Etiketten. BST-Methode unbekannt. Belege: docs/belege/packungsangaben-tr.csv."
   },
   {
     "id": "dut-pekmezi",
@@ -321457,7 +321458,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Generische Packungsangabe, Mittel aus 2 Packungen, Abruf 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Mittlere Etikett-Kohlenhydrate 75.2 g, Ballaststoffe 1.2 g (BLS 4.0:S157000), Gesamt-Kohlenhydrate 76.4 g. Kein Etikett nennt Ballaststoffe. Schätzung 1,2 g nach BLS 4.0 S157000 Traubendicksaft (FIBT 1,238 g, in dieser Datenbank auf 1,2 g gerundet), als naher Fruchtsirup. Der übrige Nährwert stammt nicht aus diesem Datensatz. Belege: docs/belege/packungsangaben-tr.csv."
+    "source": "Mittelwert aus Packungsangaben (n = 2), abgerufen am 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Gesamt-KH 76,4 g aus mittlerer Etikett-KH 75,2 g plus Ballaststoffe 1,2 g. Ballaststoffe sind eine Schätzung nach BLS 4.0 S157000 Traubendicksaft (FIBT 1,238 g, hier 1,2 g), weil kein Etikett Ballaststoffe nennt. Belege: docs/belege/packungsangaben-tr.csv."
   },
   {
     "id": "keciboynuzu-pekmezi",
@@ -321505,7 +321506,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Generische Packungsangabe, Mittel aus 6 Packungen, Abruf 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Mittlere Etikett-Kohlenhydrate 72.4 g, Ballaststoffe 0.8 g (3 Etiketten), Gesamt-Kohlenhydrate 73.2 g. Ballaststoffe nur von den Etiketten, die Lif ausweisen; die übrigen nennen keinen Wert. Nicht geraten. Belege: docs/belege/packungsangaben-tr.csv."
+    "source": "Mittelwert aus Packungsangaben (n = 6), abgerufen am 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Gesamt-KH 73,2 g aus mittlerer Etikett-KH 72,4 g plus Ballaststoffe 0,8 g (3 Etiketten). BST-Methode unbekannt. Belege: docs/belege/packungsangaben-tr.csv."
   },
   {
     "id": "tarhana-kuru",
@@ -321536,7 +321537,7 @@
     "per100g": {
       "kcal": 357,
       "protein": 12.8,
-      "carbs": 78.6,
+      "carbs": 75.3,
       "fat": 3.0,
       "fiber": 6.2,
       "sugar": 2.0
@@ -321552,7 +321553,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Generische Packungsangabe, Mittel aus 2 Packungen, Abruf 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Mittlere Etikett-Kohlenhydrate 72.4 g, Ballaststoffe 6.2 g (beide Etiketten), Gesamt-Kohlenhydrate 78.6 g. Beide Etiketten weisen Ballaststoffe aus. Belege: docs/belege/packungsangaben-tr.csv."
+    "source": "Mittelwert aus Packungsangaben (n = 2), abgerufen am 2026-11-04. Eine Packung weist Kohlenhydrate bereits gesamt aus (73,48 g inklusive 6,5 g Ballaststoffe, verfügbar 66,98 g). Die andere weist verfügbare Kohlenhydrate 71,3 g plus 5,8 g Ballaststoffe aus. Mittel verfügbar 69,14 g plus 6,15 g Ballaststoffe, gespeichert als Gesamt-KH 75,3 g und Ballaststoffe 6,2 g. BST-Methode unbekannt. Belege: docs/belege/packungsangaben-tr.csv."
   },
   {
     "id": "firik",
@@ -321582,7 +321583,7 @@
     "per100g": {
       "kcal": 357,
       "protein": 11.6,
-      "carbs": 79.4,
+      "carbs": 73.0,
       "fat": 4.0,
       "fiber": 9.4,
       "sugar": 0.7
@@ -321598,7 +321599,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Generische Packungsangabe, Mittel aus 2 Packungen, Abruf 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Mittlere Etikett-Kohlenhydrate 70.0 g, Ballaststoffe 9.4 g (beide Etiketten), Gesamt-Kohlenhydrate 79.4 g. Beide Etiketten weisen Ballaststoffe aus. Belege: docs/belege/packungsangaben-tr.csv."
+    "source": "Mittelwert aus Packungsangaben (n = 2), abgerufen am 2026-11-04. Eine Packung weist Kohlenhydrate bereits gesamt aus (77 g inklusive 13 g Ballaststoffe, verfügbar 64 g). Die andere weist verfügbare Kohlenhydrate 63 g plus 5,9 g Ballaststoffe aus. Mittel verfügbar 63,5 g plus 9,45 g Ballaststoffe, gespeichert als Gesamt-KH 73,0 g und Ballaststoffe 9,4 g. BST-Methode unbekannt. Belege: docs/belege/packungsangaben-tr.csv."
   },
   {
     "id": "tulum-peyniri",
@@ -321625,7 +321626,7 @@
     "is_packaged_product": false,
     "state": "processed",
     "unit": "g",
-    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt. Nährwerte sind ein Mittel aus Packungsangaben.",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt. Nährwerte sind ein Mittel aus Packungsangaben. Die Packungen reichen von 286 bis 390 kcal.",
     "per100g": {
       "kcal": 340,
       "protein": 22.7,
@@ -321644,7 +321645,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Generische Packungsangabe, Mittel aus 15 Packungen, Abruf 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Mittlere Etikett-Kohlenhydrate 2.1 g, Ballaststoffe 0.0 g (Etikett bzw. Schätzung 0), Gesamt-Kohlenhydrate 2.1 g. Ballaststoffe 0 g, wo ein Etikett Lif mit 0 ausweist. Etiketten ohne die Zeile werden nicht mit einem anderen Wert aufgefüllt. Belege: docs/belege/packungsangaben-tr.csv."
+    "source": "Mittelwert aus Packungsangaben (n = 15), abgerufen am 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Ballaststoffe 0 g laut einem Etikett. BST-Methode unbekannt. Belege: docs/belege/packungsangaben-tr.csv."
   },
   {
     "id": "lor-peyniri",
@@ -321671,14 +321672,14 @@
     "is_packaged_product": false,
     "state": "processed",
     "unit": "g",
-    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt. Nährwerte sind ein Mittel aus Packungsangaben.",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt. Nährwerte sind ein Mittel aus Packungsangaben. Fett der gemittelten Packungen 6,5 g bis 15,6 g. Die fettfreie Packung (1,0 g Fett) ist nicht im Mittel.",
     "per100g": {
-      "kcal": 148,
+      "kcal": 171,
       "protein": 14.9,
-      "carbs": 2.7,
-      "fat": 8.6,
+      "carbs": 2.6,
+      "fat": 11.2,
       "fiber": 0.0,
-      "sugar": 1.5
+      "sugar": 1.0
     },
     "portion": {
       "label": "1 Portion (Schätzung)",
@@ -321691,7 +321692,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Generische Packungsangabe, Mittel aus 4 Packungen, Abruf 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Mittlere Etikett-Kohlenhydrate 2.7 g, Ballaststoffe 0.0 g (Etikett bzw. Schätzung 0), Gesamt-Kohlenhydrate 2.7 g. Ballaststoffe 0 g, wo ein Etikett Lif mit 0 ausweist. Etiketten ohne die Zeile werden nicht mit einem anderen Wert aufgefüllt. Belege: docs/belege/packungsangaben-tr.csv."
+    "source": "Mittelwert aus Packungsangaben (n = 3), abgerufen am 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Die fettfreie Packung ist nicht im Mittel. Ballaststoffe 0 g laut einem Etikett. BST-Methode unbekannt. Belege: docs/belege/packungsangaben-tr.csv."
   },
   {
     "id": "orgu-peyniri",
@@ -321738,7 +321739,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Generische Packungsangabe, Mittel aus 3 Packungen, Abruf 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Mittlere Etikett-Kohlenhydrate 1.0 g, Ballaststoffe 0.0 g (Etikett bzw. Schätzung 0), Gesamt-Kohlenhydrate 1.0 g. Kein Etikett dieser Sorte nennt Ballaststoffe. Schätzung 0 g, weil andere Käseetiketten in derselben Erhebung Lif mit 0 ausweisen und Käse üblicherweise keine Ballaststoffe enthält. Belege: docs/belege/packungsangaben-tr.csv."
+    "source": "Mittelwert aus Packungsangaben (n = 3), abgerufen am 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Ballaststoffe 0 g sind eine Schätzung: kein Etikett dieser Sorte nennt Ballaststoffe, andere Käseetiketten derselben Erhebung weisen 0 g aus. BST-Methode unbekannt. Belege: docs/belege/packungsangaben-tr.csv."
   },
   {
     "id": "dil-peyniri",
@@ -321785,7 +321786,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Generische Packungsangabe, Mittel aus 3 Packungen, Abruf 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Mittlere Etikett-Kohlenhydrate 2.1 g, Ballaststoffe 0.0 g (Etikett bzw. Schätzung 0), Gesamt-Kohlenhydrate 2.1 g. Kein Etikett dieser Sorte nennt Ballaststoffe. Schätzung 0 g, weil andere Käseetiketten in derselben Erhebung Lif mit 0 ausweisen und Käse üblicherweise keine Ballaststoffe enthält. Belege: docs/belege/packungsangaben-tr.csv."
+    "source": "Mittelwert aus Packungsangaben (n = 3), abgerufen am 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Ballaststoffe 0 g sind eine Schätzung: kein Etikett dieser Sorte nennt Ballaststoffe, andere Käseetiketten derselben Erhebung weisen 0 g aus. BST-Methode unbekannt. Belege: docs/belege/packungsangaben-tr.csv."
   },
   {
     "id": "ezine-peyniri",
@@ -321831,7 +321832,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Generische Packungsangabe, Mittel aus 3 Packungen, Abruf 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Mittlere Etikett-Kohlenhydrate 1.1 g, Ballaststoffe 0.0 g (Etikett bzw. Schätzung 0), Gesamt-Kohlenhydrate 1.1 g. Ballaststoffe 0 g, wo ein Etikett Lif mit 0 ausweist. Etiketten ohne die Zeile werden nicht mit einem anderen Wert aufgefüllt. Belege: docs/belege/packungsangaben-tr.csv."
+    "source": "Mittelwert aus Packungsangaben (n = 3), abgerufen am 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Ballaststoffe 0 g laut 2 Etiketten. BST-Methode unbekannt. Belege: docs/belege/packungsangaben-tr.csv."
   },
   {
     "id": "otlu-peynir",
@@ -321860,12 +321861,12 @@
     "unit": "g",
     "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt. Nährwerte sind ein Mittel aus Packungsangaben.",
     "per100g": {
-      "kcal": 314,
-      "protein": 20.8,
-      "carbs": 0.1,
-      "fat": 26.0,
+      "kcal": 306,
+      "protein": 20.4,
+      "carbs": 1.1,
+      "fat": 24.7,
       "fiber": 0.0,
-      "sugar": 0.1
+      "sugar": 0.9
     },
     "portion": {
       "label": "1 Scheibe (Schätzung)",
@@ -321878,6 +321879,6 @@
       }
     ],
     "quality": "estimate",
-    "source": "Generische Packungsangabe, Mittel aus 2 Packungen, Abruf 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Mittlere Etikett-Kohlenhydrate 0.1 g, Ballaststoffe 0.0 g (Etikett bzw. Schätzung 0), Gesamt-Kohlenhydrate 0.1 g. Kein Etikett dieser Sorte nennt Ballaststoffe. Schätzung 0 g, weil andere Käseetiketten in derselben Erhebung Lif mit 0 ausweisen und Käse üblicherweise keine Ballaststoffe enthält. Belege: docs/belege/packungsangaben-tr.csv."
+    "source": "Mittelwert aus Packungsangaben (n = 3), abgerufen am 2026-11-04. EU-Etikett: Kohlenhydrate ohne Ballaststoffe. Bei einer Packung stand 1218 im kcal-Feld, das ist ein kJ-Wert und entspricht 291 kcal. Ballaststoffe 0 g sind eine Schätzung: kein Etikett nennt Ballaststoffe, andere Käseetiketten derselben Erhebung weisen 0 g aus. BST-Methode unbekannt. Belege: docs/belege/packungsangaben-tr.csv."
   }
 ]
