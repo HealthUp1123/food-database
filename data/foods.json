@@ -321292,7 +321292,7 @@
       }
     ],
     "quality": "estimate",
-    "source": "Geschätzt (Methode yield_factor): Die BLS-Ballaststoffe von F140152 (6,103 g) sind eine Rezeptfortschreibung des Rohwerts F140100, und der Rohwert stammt aus Souci-Fachmann-Kraut. Souci ist keine freie Quelle. Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code F140152 \"Quitte gedünstet\" und Code F140100 \"Quitte roh\" (nur der Garfaktor 6,103/5,92 = 1,031, nicht die Souci-Werte). Stattdessen USDA FoodData Central, SR Legacy (April 2018), FDC ID 168163 Quinces, raw (Ballaststoffe 1,9 g, das entspricht Ciqual 2025 Coing cru, Code 13010, ebenfalls 1,9 g). Der Garfaktor ist auf die freien Rohwerte angewendet. Gespeichert je 100 g zubereitet. Kohlenhydrate sind Gesamt-KH. USDA 168163 veröffentlicht keinen Zuckerwert.",
+    "source": "Geschätzt (Methode yield_factor): Die BLS-Ballaststoffe von F140152 (6,103 g) sind eine Rezeptfortschreibung des Rohwerts F140100, und der Rohwert stammt aus Souci-Fachmann-Kraut. Souci ist keine freie Quelle. Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code F140152 \"Quitte gedünstet\" und Code F140100 \"Quitte roh\" (nur der Garfaktor 6,103/5,92 = 1,031, nicht die Souci-Werte). Die Ballaststoffe stammen aus USDA FoodData Central, SR Legacy (April 2018), FDC ID 168163 Quinces, raw: 1,9 g, derselbe Wert wie in Ciqual 2025, Coing cru, Code 13010. Der Garfaktor ist auf diese freien Rohwerte angewendet. Gespeichert je 100 g zubereitet. Kohlenhydrate sind Gesamt-KH. USDA 168163 veröffentlicht keinen Zuckerwert.",
     "derived_from": "USDA SR Legacy:168163",
     "method": "yield_factor",
     "source_missing": [
@@ -324486,7 +324486,7 @@
     "is_packaged_product": false,
     "state": "raw",
     "unit": "g",
-    "note": "Grundzutat, kein Fertigprodukt. Zucker ist in Ciqual nur als Spuren angegeben und als 0 g gesetzt.",
+    "note": "verf. KH per Differenz; Stärke analytisch 30,2 g; BST Analyse Ciqual 2007.",
     "per100g": {
       "kcal": 323,
       "protein": 10.3,
@@ -324512,7 +324512,7 @@
       "de": "Zwieback (Galeta)",
       "en": "Rusk (galeta)",
       "tr": "Galeta",
-      "fr": "Biscotte nature",
+      "fr": "Biscotte classique",
       "es": "Biscote clásico",
       "pt": "Tosta simples",
       "it": "Fetta biscottata classica",
@@ -324521,7 +324521,6 @@
     "type": "item",
     "barcode": null,
     "synonyms": [
-      "Peksimet",
       "Galeta peksimet"
     ],
     "cuisine": "int",
@@ -324530,7 +324529,7 @@
     "is_packaged_product": false,
     "state": "baked",
     "unit": "g",
-    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt. Schlichter Zwieback, nicht der Butterzwieback.",
+    "note": "Ciqual 7300 Biscotte classique als nahe Entsprechung für Galeta.",
     "per100g": {
       "kcal": 394,
       "protein": 11.0,
@@ -324546,7 +324545,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 7300 \"Biscotte classique\". Kohlenhydrate = verfügbare KH 73,2 g + Ballaststoffe 4,32 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Eiweiß ist N × 6,25 (11 g), damit trifft die veröffentlichte Energie.",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 7300 \"Biscotte classique\". Kohlenhydrate = verfügbare KH 73,2 g + Ballaststoffe 4,32 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe und Fett laut Ciqual aus Oqali 2019 (Packungsangaben, Quellcode 436); Methode nicht ausgewiesen. Eiweiß ist N × 6,25 (11 g), damit trifft die veröffentlichte Energie.",
     "source_id": "Ciqual 2025:7300"
   }
 ]
