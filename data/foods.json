@@ -69356,7 +69356,7 @@
         "grams": 165
       }
     ],
-    "quality": "reference",
+    "quality": "estimate",
     "source": "Public Health England (2021): McCance and Widdowson's The Composition of Foods Integrated Dataset (CoFID) 2021, Open Government Licence v3.0; Code 17-799 \"Halva, semolina, homemade\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Updated 2014). Kohlenhydrate = verfügbare KH 49.1 g + Ballaststoffe 0.7 g (an USDA-Gesamt-KH angeglichen). CoFID NSP 0,5 g; AOAC geschätzt ×1,33 (0.665 g, gerundet 0.7 g). AOAC-Faser fehlt in CoFID (Angabe N). NSP ist kein AOAC-Wert. Faktor 1.33 ist der Median AOAC/NSP von 1.31 über 904 CoFID-Lebensmittel mit beiden Werten, auf 4/3 gerundet. Die übrigen Nährwerte sind CoFID. kcal wie veröffentlicht. CoFID rechnet verfügbare Kohlenhydrate mit 3.75 kcal/g; die Gegenprobe mit 4 kcal/g verfügbaren Kohlenhydraten und 2 kcal/g Ballaststoffen ergibt 356.9 kcal.",
     "source_id": "CoFID 2021:17-799",
     "off_similar": [
@@ -72250,7 +72250,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code F212600 \"Sauerkirschsaft\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 12.853 g + Ballaststoffe 0.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe aus FIBT, weil FIBLMW leer oder 0 ist.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code F212600 \"Sauerkirschsaft\". Datensatz der Datenbank (Tabellenwert). Datenherkunft laut Quelle: Protein, Fett und Ballaststoffe aus der Rezeptberechnung, Energie und verfügbare Kohlenhydrate aus der Formelberechnung. Kohlenhydrate = verfügbare KH 12.853 g + Ballaststoffe 0.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe aus FIBT, weil FIBLMW leer oder 0 ist.",
     "source_id": "BLS 4.0:F212600",
     "off_similar": [
       "3800014286882",
