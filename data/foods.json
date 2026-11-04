@@ -37300,8 +37300,7 @@
     "synonyms": [
       "Doner Kebap Porsiyon",
       "Döner Teller",
-      "Doner plate",
-      "Et döner"
+      "Doner plate"
     ],
     "cuisine": "tr",
     "category": "Kebap",
@@ -71855,7 +71854,9 @@
       "Salgam Suyu",
       "Salgam",
       "Fermentierter Rübensaft",
-      "Turnip juice"
+      "Turnip juice",
+      "Acılı şalgam",
+      "Scharfer şalgam"
     ],
     "cuisine": "tr",
     "category": "Getränk",
@@ -272914,7 +272915,7 @@
     "names": {
       "de": "Grünkohl, roh",
       "en": "Kale, raw",
-      "tr": "Kara lahana, çiğ",
+      "tr": "Kale lahanası (Kale), çiğ",
       "fr": "Chou kale, cru",
       "es": "Col rizada, cruda",
       "pt": "Couve kale, crua",
@@ -289039,7 +289040,7 @@
     "names": {
       "de": "Grünkohl, gekocht",
       "en": "Kale, cooked",
-      "tr": "Kara lahana, haşlanmış",
+      "tr": "Kale lahanası, haşlanmış",
       "fr": "Chou kale, cuit",
       "es": "Col rizada, cocida",
       "pt": "Couve kale, cozida",
@@ -289084,7 +289085,7 @@
     "names": {
       "de": "Grünkohl, tiefgekühlt",
       "en": "Kale, frozen",
-      "tr": "Kara lahana, dondurulmuş",
+      "tr": "Kale lahanası, dondurulmuş",
       "fr": "Chou kale, surgelé",
       "es": "Col rizada, congelada",
       "pt": "Couve kale, congelada",
@@ -289128,7 +289129,7 @@
     "names": {
       "de": "Grünkohl, tiefgekühlt, gekocht",
       "en": "Kale, frozen, cooked",
-      "tr": "Kara lahana, dondurulmuş, haşlanmış",
+      "tr": "Kale lahanası, dondurulmuş, haşlanmış",
       "fr": "Chou kale, surgelé, cuit",
       "es": "Col rizada, congelada, cocida",
       "pt": "Couve kale, congelada, cozida",
@@ -300490,7 +300491,9 @@
     "barcode": null,
     "synonyms": [
       "Gänsefleisch roh",
-      "Goose, domesticated, meat only, raw"
+      "Goose, domesticated, meat only, raw",
+      "Gänsefleisch ohne Haut roh",
+      "Kaz eti derisiz çiğ"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Geflügel",
@@ -306808,7 +306811,7 @@
     "names": {
       "de": "Grünkohl, gebraten ohne Fett",
       "en": "Kale, pan-fried without fat",
-      "tr": "Kara lahana, yağsız tavada",
+      "tr": "Kale lahanası, yağsız tavada",
       "fr": "Chou kale, à la poêle sans matière grasse",
       "es": "Col rizada, a la sartén sin grasa",
       "pt": "Couve-galega, na frigideira sem gordura",
@@ -320064,5 +320067,4397 @@
     "quality": "reference",
     "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code C650000 \"Reisdrink ungesüßt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 12.31 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "BLS 4.0:C650000"
+  },
+  {
+    "id": "rindfleisch-gulasch-bug-roh",
+    "name": "Rindfleisch, Gulasch (Bug), roh",
+    "names": {
+      "de": "Rindfleisch, Gulasch (Bug), roh",
+      "en": "Beef, stewing meat (shoulder), raw",
+      "tr": "Dana kuşbaşı, çiğ",
+      "fr": "Bœuf à braiser (épaule), cru",
+      "es": "Ternera para guisar (espalda), cruda",
+      "pt": "Carne de vaca para guisar (pá), crua",
+      "it": "Manzo per spezzatino (spalla), crudo",
+      "zh": "牛肩炖肉（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Dana kusbasi",
+      "Rinder-Gulaschfleisch roh",
+      "Bugfleisch roh"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 128,
+      "protein": 20.2,
+      "carbs": 0.0,
+      "fat": 5.3,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Rindfleisch, Gulasch (Bug), roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code U151100 \"Rind Gulasch (Bug) roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:U151100"
+  },
+  {
+    "id": "konfituere-extra",
+    "name": "Konfitüre extra",
+    "names": {
+      "de": "Konfitüre extra",
+      "en": "Jam (extra fruit)",
+      "tr": "Reçel",
+      "fr": "Confiture extra",
+      "es": "Confitura extra",
+      "pt": "Doce extra",
+      "it": "Confettura extra",
+      "zh": "特级果酱"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Recel",
+      "Konfitüre",
+      "Marmelade extra"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Würzmittel & Aufstriche",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 234,
+      "protein": 0.4,
+      "carbs": 57.4,
+      "fat": 0.2,
+      "fiber": 1.1,
+      "sugar": 56.3,
+      "alcohol": 0.2
+    },
+    "portion": {
+      "label": "1 Esslöffel (Schätzung)",
+      "grams": 20
+    },
+    "ingredients": [
+      {
+        "name": "Konfitüre extra",
+        "grams": 20
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code S132000 \"Konfitüre extra\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 56.3 g + Ballaststoffe 1.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT. Alkohol 0.2 g/100 g wie veröffentlicht.",
+    "source_id": "BLS 4.0:S132000"
+  },
+  {
+    "id": "pfeffer-schwarz",
+    "name": "Pfeffer, schwarz",
+    "names": {
+      "de": "Pfeffer, schwarz",
+      "en": "Black pepper",
+      "tr": "Karabiber",
+      "fr": "Poivre noir",
+      "es": "Pimienta negra",
+      "pt": "Pimenta-preta",
+      "it": "Pepe nero",
+      "zh": "黑胡椒"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Schwarzer Pfeffer",
+      "Pfeffer schwarz getrocknet"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 304,
+      "protein": 10.9,
+      "carbs": 71.6,
+      "fat": 2.8,
+      "fiber": 25.5,
+      "sugar": 0.7
+    },
+    "portion": {
+      "label": "1 Teelöffel (Schätzung)",
+      "grams": 2
+    },
+    "ingredients": [
+      {
+        "name": "Pfeffer, schwarz",
+        "grams": 2
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code R258100 \"Pfeffer schwarz, getrocknet\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 46.07 g + Ballaststoffe 25.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:R258100"
+  },
+  {
+    "id": "cornflakes-ungesuesst",
+    "name": "Cornflakes, ungesüßt",
+    "names": {
+      "de": "Cornflakes, ungesüßt",
+      "en": "Cornflakes, unsweetened",
+      "tr": "Mısır gevreği, şekersiz",
+      "fr": "Cornflakes non sucrés",
+      "es": "Copos de maíz sin azúcar",
+      "pt": "Cornflakes sem açúcar",
+      "it": "Cornflakes non zuccherati",
+      "zh": "无糖玉米片"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Mısır gevreği",
+      "Misir gevreği",
+      "Corn Flakes ungesüßt"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Getreide, Teigwaren & Brot",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 376,
+      "protein": 7.2,
+      "carbs": 87.1,
+      "fat": 0.8,
+      "fiber": 4.1,
+      "sugar": 0.7
+    },
+    "portion": {
+      "label": "1 Schale (Schätzung)",
+      "grams": 30
+    },
+    "ingredients": [
+      {
+        "name": "Cornflakes, ungesüßt",
+        "grams": 30
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code C515400 \"Cornflakes ungesüßt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 82.96 g + Ballaststoffe 4.13 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:C515400"
+  },
+  {
+    "id": "cornflakes-gesuesst",
+    "name": "Cornflakes, gesüßt",
+    "names": {
+      "de": "Cornflakes, gesüßt",
+      "en": "Cornflakes, sweetened",
+      "tr": "Mısır gevreği, şekerli",
+      "fr": "Cornflakes sucrés",
+      "es": "Copos de maíz azucarados",
+      "pt": "Cornflakes açucarados",
+      "it": "Cornflakes zuccherati",
+      "zh": "加糖玉米片"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Şekerli mısır gevreği",
+      "Corn Flakes gesüßt"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Getreide, Teigwaren & Brot",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 366,
+      "protein": 6.2,
+      "carbs": 83.5,
+      "fat": 1.8,
+      "fiber": 4.2,
+      "sugar": 1.3
+    },
+    "portion": {
+      "label": "1 Schale (Schätzung)",
+      "grams": 30
+    },
+    "ingredients": [
+      {
+        "name": "Cornflakes, gesüßt",
+        "grams": 30
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code C515000 \"Cornflakes gesüßt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 79.35 g + Ballaststoffe 4.19 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:C515000"
+  },
+  {
+    "id": "portulak-roh",
+    "name": "Portulak, roh",
+    "names": {
+      "de": "Portulak, roh",
+      "en": "Purslane, raw",
+      "tr": "Semizotu, çiğ",
+      "fr": "Pourpier, cru",
+      "es": "Verdolaga, cruda",
+      "pt": "Beldroega, crua",
+      "it": "Portulaca, cruda",
+      "zh": "马齿苋（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Semizotu",
+      "Portulak"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 14,
+      "protein": 1.5,
+      "carbs": 2.2,
+      "fat": 0.3,
+      "fiber": 1.6,
+      "sugar": 0.2
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 80
+    },
+    "ingredients": [
+      {
+        "name": "Portulak, roh",
+        "grams": 80
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G460100 \"Portulak roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0.587 g + Ballaststoffe 1.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:G460100"
+  },
+  {
+    "id": "nuss-nougat-creme",
+    "name": "Nuss-Nougat-Creme",
+    "names": {
+      "de": "Nuss-Nougat-Creme",
+      "en": "Chocolate hazelnut spread",
+      "tr": "Fındık kreması (kakaolu)",
+      "fr": "Pâte à tartiner noisette-cacao",
+      "es": "Crema de cacao y avellanas",
+      "pt": "Creme de avelã e cacau",
+      "it": "Crema di nocciole e cacao",
+      "zh": "榛子可可酱"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Findik kremasi",
+      "Nougatcreme",
+      "Haselnusscreme"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Würzmittel & Aufstriche",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 530,
+      "protein": 6.9,
+      "carbs": 58.3,
+      "fat": 30.6,
+      "fiber": 3.5,
+      "sugar": 53.1
+    },
+    "portion": {
+      "label": "1 Esslöffel (Schätzung)",
+      "grams": 20
+    },
+    "ingredients": [
+      {
+        "name": "Nuss-Nougat-Creme",
+        "grams": 20
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code S145000 \"Nuss-Nougat-Creme\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 54.75 g + Ballaststoffe 3.52 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:S145000"
+  },
+  {
+    "id": "kartoffelchips",
+    "name": "Kartoffelchips",
+    "names": {
+      "de": "Kartoffelchips",
+      "en": "Potato crisps",
+      "tr": "Cips",
+      "fr": "Chips de pomme de terre",
+      "es": "Patatas fritas de bolsa",
+      "pt": "Batatas fritas de pacote",
+      "it": "Patatine fritte",
+      "zh": "薯片"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Chips",
+      "Kartoffel-Chips",
+      "Patates cipsi"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "fried",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 526,
+      "protein": 5.5,
+      "carbs": 50.7,
+      "fat": 34.3,
+      "fiber": 4.8,
+      "sugar": 1.5
+    },
+    "portion": {
+      "label": "1 kleine Tüte (Schätzung)",
+      "grams": 40
+    },
+    "ingredients": [
+      {
+        "name": "Kartoffelchips",
+        "grams": 40
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code K280100 \"Kartoffelchips/Stapelchips, diverse Sorten\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 45.88 g + Ballaststoffe 4.8 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:K280100"
+  },
+  {
+    "id": "popcorn-gesalzen",
+    "name": "Popcorn, gesalzen",
+    "names": {
+      "de": "Popcorn, gesalzen",
+      "en": "Popcorn, salted",
+      "tr": "Tuzlu patlamış mısır",
+      "fr": "Pop-corn salé",
+      "es": "Palomitas de maíz saladas",
+      "pt": "Pipoca salgada",
+      "it": "Popcorn salato",
+      "zh": "咸爆米花"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Popcorn gesalzen",
+      "Patlamis misir tuzlu"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Getreide, Teigwaren & Brot",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "roasted",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 395,
+      "protein": 7.5,
+      "carbs": 61.4,
+      "fat": 14.7,
+      "fiber": 6.7,
+      "sugar": 1.2
+    },
+    "portion": {
+      "label": "1 Schale (Schätzung)",
+      "grams": 30
+    },
+    "ingredients": [
+      {
+        "name": "Popcorn, gesalzen",
+        "grams": 30
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code C518000 \"Popcorn gesalzen\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 54.671 g + Ballaststoffe 6.7 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:C518000"
+  },
+  {
+    "id": "mineralwasser",
+    "name": "Natürliches Mineralwasser",
+    "names": {
+      "de": "Natürliches Mineralwasser",
+      "en": "Natural mineral water",
+      "tr": "Maden suyu",
+      "fr": "Eau minérale naturelle",
+      "es": "Agua mineral natural",
+      "pt": "Água mineral natural",
+      "it": "Acqua minerale naturale",
+      "zh": "天然矿泉水"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Mineralwasser",
+      "Maden suyu",
+      "Mineralwasser mit Kohlensäure"
+    ],
+    "cuisine": "int",
+    "category": "Getränk",
+    "is_packaged_product": false,
+    "unit": "g",
+    "note": "Generisches Getränk, kein Markenprodukt. Portion = übliche Füllmenge, Schätzung, Dichte ca. 1 g/ml angenommen.",
+    "per100g": {
+      "kcal": 0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Glas (0,2 l, Schätzung)",
+      "grams": 200
+    },
+    "ingredients": [
+      {
+        "name": "Natürliches Mineralwasser",
+        "grams": 200
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N120000 \"Natürliches Mineralwasser\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Energie und Makros sind 0. Geprüft daneben: N127000 natürliches Mineralwasser mit Kohlensäure und N128000 still, dieselben Energie- und Makrowerte. Maden suyu ist in der Regel mit Kohlensäure.",
+    "source_id": "BLS 4.0:N120000"
+  },
+  {
+    "id": "rindfleisch-gulasch-geschmort",
+    "name": "Rindfleisch, Gulasch, geschmort",
+    "names": {
+      "de": "Rindfleisch, Gulasch, geschmort",
+      "en": "Beef, stewing meat, braised",
+      "tr": "Dana kuşbaşı, pişmiş",
+      "fr": "Bœuf à braiser, braisé",
+      "es": "Ternera para guisar, estofada",
+      "pt": "Carne de vaca para guisar, estufada",
+      "it": "Manzo per spezzatino, brasato",
+      "zh": "炖牛肉块"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Dana kusbasi pismis",
+      "Rinder-Gulaschfleisch geschmort"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 191,
+      "protein": 32.4,
+      "carbs": 0.0,
+      "fat": 6.8,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (USDA, 3 oz)",
+      "grams": 85
+    },
+    "ingredients": [
+      {
+        "name": "Rindfleisch, Gulasch, geschmort",
+        "grams": 85
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 171203: Beef, chuck for stew, separable lean and fat, all grades, cooked, braised",
+    "fdc_id": 171203
+  },
+  {
+    "id": "kreuzkuemmel",
+    "name": "Kreuzkümmel",
+    "names": {
+      "de": "Kreuzkümmel",
+      "en": "Cumin",
+      "tr": "Kimyon",
+      "fr": "Cumin",
+      "es": "Comino",
+      "pt": "Cominho",
+      "it": "Cumino",
+      "zh": "孜然"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kimyon",
+      "Cumin seed",
+      "Kreuzkümmel ganz"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 375,
+      "protein": 17.8,
+      "carbs": 44.2,
+      "fat": 22.3,
+      "fiber": 10.5,
+      "sugar": 2.2
+    },
+    "portion": {
+      "label": "1 Teelöffel, ganz (USDA)",
+      "grams": 2.1
+    },
+    "ingredients": [
+      {
+        "name": "Kreuzkümmel",
+        "grams": 2.1
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 170923: Spices, cumin seed",
+    "fdc_id": 170923
+  },
+  {
+    "id": "oregano-getrocknet",
+    "name": "Oregano, getrocknet",
+    "names": {
+      "de": "Oregano, getrocknet",
+      "en": "Oregano, dried",
+      "tr": "Kekik (Origanum), kurutulmuş",
+      "fr": "Origan, séché",
+      "es": "Orégano, seco",
+      "pt": "Orégão, seco",
+      "it": "Origano, secco",
+      "zh": "牛至（干）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kekik",
+      "Origanum",
+      "Oregano getrocknet",
+      "İzmir kekiği",
+      "Bilyalı kekik"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 265,
+      "protein": 9.0,
+      "carbs": 68.9,
+      "fat": 4.3,
+      "fiber": 42.5,
+      "sugar": 4.1
+    },
+    "portion": {
+      "label": "1 Teelöffel Blätter (USDA)",
+      "grams": 1
+    },
+    "ingredients": [
+      {
+        "name": "Oregano, getrocknet",
+        "grams": 1
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 171328: Spices, oregano, dried",
+    "fdc_id": 171328
+  },
+  {
+    "id": "thymian-getrocknet",
+    "name": "Thymian, getrocknet",
+    "names": {
+      "de": "Thymian, getrocknet",
+      "en": "Thyme, dried",
+      "tr": "Bahçe kekiği (Thymus), kurutulmuş",
+      "fr": "Thym, séché",
+      "es": "Tomillo, seco",
+      "pt": "Tomilho, seco",
+      "it": "Timo, secco",
+      "zh": "百里香（干）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Thymus",
+      "Thymian getrocknet",
+      "Bahçe kekiği"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 276,
+      "protein": 9.1,
+      "carbs": 63.9,
+      "fat": 7.4,
+      "fiber": 37.0,
+      "sugar": 1.7
+    },
+    "portion": {
+      "label": "1 Teelöffel Blätter (USDA)",
+      "grams": 1
+    },
+    "ingredients": [
+      {
+        "name": "Thymian, getrocknet",
+        "grams": 1
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 170938: Spices, thyme, dried",
+    "fdc_id": 170938
+  },
+  {
+    "id": "weinblaetter-eingelegt",
+    "name": "Weinblätter, eingelegt",
+    "names": {
+      "de": "Weinblätter, eingelegt",
+      "en": "Grape leaves, brined",
+      "tr": "Asma yaprağı (salamura)",
+      "fr": "Feuilles de vigne, en saumure",
+      "es": "Hojas de parra, en salmuera",
+      "pt": "Folhas de videira, em salmoura",
+      "it": "Foglie di vite, in salamoia",
+      "zh": "腌葡萄叶"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Asma yapragi",
+      "Weinblatt eingelegt"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "canned",
+    "unit": "g",
+    "note": "Grundzutat (Konserve, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 69,
+      "protein": 4.3,
+      "carbs": 11.7,
+      "fat": 2.0,
+      "fiber": 9.9
+    },
+    "portion": {
+      "label": "10 Blätter (Schätzung, 1 Blatt laut USDA 4 g)",
+      "grams": 40
+    },
+    "ingredients": [
+      {
+        "name": "Weinblätter, eingelegt",
+        "grams": 40
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 169393: Grape leaves, canned",
+    "fdc_id": 169393,
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "borlotti-gekocht",
+    "name": "Borlottibohnen, gekocht",
+    "names": {
+      "de": "Borlottibohnen, gekocht",
+      "en": "Cranberry (borlotti) beans, cooked",
+      "tr": "Barbunya, haşlanmış",
+      "fr": "Haricots borlotti, cuits",
+      "es": "Alubias borlotti, cocidas",
+      "pt": "Feijão borlotti, cozido",
+      "it": "Fagioli borlotti, cotti",
+      "zh": "熟蔓越莓豆"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Barbunya",
+      "Cranberry beans cooked",
+      "Borlotti gekocht"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Hülsenfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 136,
+      "protein": 9.3,
+      "carbs": 24.5,
+      "fat": 0.5,
+      "fiber": 8.6
+    },
+    "portion": {
+      "label": "1 Tasse (USDA)",
+      "grams": 177
+    },
+    "ingredients": [
+      {
+        "name": "Borlottibohnen, gekocht",
+        "grams": 177
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 173736: Beans, cranberry (roman), mature seeds, cooked, boiled, without salt",
+    "fdc_id": 173736,
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "zimt-gemahlen",
+    "name": "Zimt, gemahlen",
+    "names": {
+      "de": "Zimt, gemahlen",
+      "en": "Cinnamon, ground",
+      "tr": "Tarçın",
+      "fr": "Cannelle, moulue",
+      "es": "Canela, molida",
+      "pt": "Canela, moída",
+      "it": "Cannella, macinata",
+      "zh": "肉桂粉"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Tarcin",
+      "Zimt gemahlen"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 247,
+      "protein": 4.0,
+      "carbs": 80.6,
+      "fat": 1.2,
+      "fiber": 53.1,
+      "sugar": 2.2
+    },
+    "portion": {
+      "label": "1 Teelöffel (USDA)",
+      "grams": 2.6
+    },
+    "ingredients": [
+      {
+        "name": "Zimt, gemahlen",
+        "grams": 2.6
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 171320: Spices, cinnamon, ground",
+    "fdc_id": 171320
+  },
+  {
+    "id": "paprikapulver-edelsuess",
+    "name": "Paprikapulver, edelsüß",
+    "names": {
+      "de": "Paprikapulver, edelsüß",
+      "en": "Paprika, sweet",
+      "tr": "Tatlı toz biber",
+      "fr": "Paprika doux",
+      "es": "Pimentón dulce",
+      "pt": "Colorau doce",
+      "it": "Paprika dolce",
+      "zh": "甜红椒粉"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Toz biber",
+      "Edelsüßpaprika",
+      "Paprika edelsüß"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt. Die Validator-Warnung kommt von den USDA-Energiefaktoren: die Prüfung 4·KH+4·Eiweiß+9·Fett zählt Ballaststoffe mit 4 kcal und schätzt 389 kcal, die veröffentlichte Energie ist 282 kcal. Mit 2 kcal je g Ballaststoffe liegt die Formel bei 319 kcal.",
+    "per100g": {
+      "kcal": 282,
+      "protein": 14.1,
+      "carbs": 54.0,
+      "fat": 12.9,
+      "fiber": 34.9,
+      "sugar": 10.3
+    },
+    "portion": {
+      "label": "1 Teelöffel (USDA)",
+      "grams": 2.3
+    },
+    "ingredients": [
+      {
+        "name": "Paprikapulver, edelsüß",
+        "grams": 2.3
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 171329: Spices, paprika",
+    "fdc_id": 171329
+  },
+  {
+    "id": "lammschulter-roh",
+    "name": "Lammschulter, roh",
+    "names": {
+      "de": "Lammschulter, roh",
+      "en": "Lamb shoulder, raw",
+      "tr": "Kuzu kol, çiğ",
+      "fr": "Épaule d'agneau, crue",
+      "es": "Paletilla de cordero, cruda",
+      "pt": "Pá de cordeiro, crua",
+      "it": "Spalla di agnello, cruda",
+      "zh": "羊肩肉（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kuzu kusbasi cig",
+      "Kuzu eti kol",
+      "Lammschulter roh"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 244,
+      "protein": 17.1,
+      "carbs": 0.0,
+      "fat": 19.0,
+      "fiber": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Lammschulter, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 172553: Lamb, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/8\" fat, choice, raw",
+    "fdc_id": 172553,
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "lammschulter-geschmort",
+    "name": "Lammschulter, geschmort",
+    "names": {
+      "de": "Lammschulter, geschmort",
+      "en": "Lamb shoulder, braised",
+      "tr": "Kuzu kol, pişmiş",
+      "fr": "Épaule d'agneau, braisée",
+      "es": "Paletilla de cordero, estofada",
+      "pt": "Pá de cordeiro, estufada",
+      "it": "Spalla di agnello, brasata",
+      "zh": "炖羊肩肉"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kuzu kusbasi pismis",
+      "Kuzu kol pismis"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 338,
+      "protein": 29.5,
+      "carbs": 0.0,
+      "fat": 23.6,
+      "fiber": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (USDA, 3 oz)",
+      "grams": 85
+    },
+    "ingredients": [
+      {
+        "name": "Lammschulter, geschmort",
+        "grams": 85
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 172554: Lamb, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/8\" fat, choice, cooked, braised",
+    "fdc_id": 172554,
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "doner-fleisch",
+    "name": "Dönerfleisch, gegart",
+    "names": {
+      "de": "Dönerfleisch, gegart",
+      "en": "Doner meat, cooked",
+      "tr": "Et döner",
+      "fr": "Viande de döner, cuite",
+      "es": "Carne de döner, cocinada",
+      "pt": "Carne de döner, cozinhada",
+      "it": "Carne di döner, cotta",
+      "zh": "沙威玛肉（熟）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Et doner",
+      "Dönerfleisch",
+      "Doner kebab meat"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch, geschätzt), kein Markenprodukt - Werte eines ähnlichen Lebensmittels",
+    "per100g": {
+      "kcal": 377,
+      "protein": 23.5,
+      "carbs": 0.0,
+      "fat": 31.4,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 120
+    },
+    "ingredients": [
+      {
+        "name": "Dönerfleisch, gegart",
+        "grams": 120
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Nahe Entsprechung, nicht speziell Rind. Public Health England (2021): McCance and Widdowson's Composition of Foods Integrated Dataset (CoFID), Open Government Licence v3.0; Code 19-539 \"Doner kebabs, meat only\" (20 Proben aus Imbissen, Beschreibung der Quelle). Eiweiß 23,5 g, Fett 31,4 g, verfügbare Kohlenhydrate 0 g, Zucker 0 g, AOAC-Ballaststoffe 0 g, kcal 377. NSP wurde nicht verwendet. Britisches Dönerfleisch, meist Lamm oder eine Mischung. Werte unverändert übernommen.",
+    "derived_from": "CoFID 2021:19-539",
+    "method": "similar_food"
+  },
+  {
+    "id": "schwarzkohl-roh",
+    "name": "Blattkohl (Karalahana), roh",
+    "names": {
+      "de": "Blattkohl (Karalahana), roh",
+      "en": "Collard greens, raw",
+      "tr": "Karalahana, çiğ",
+      "fr": "Chou cavalier, cru",
+      "es": "Col berza, cruda",
+      "pt": "Couve-galega, crua",
+      "it": "Cavolo nero da foglia, crudo",
+      "zh": "羽衣甘蓝叶（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Karalahana",
+      "Collards"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat (geschätzt), kein Fertigprodukt - Werte eines ähnlichen Lebensmittels",
+    "per100g": {
+      "kcal": 32,
+      "protein": 3.0,
+      "carbs": 5.4,
+      "fat": 0.6,
+      "fiber": 4.0,
+      "sugar": 0.5
+    },
+    "portion": {
+      "label": "1 Tasse gehackt (USDA-Maß der Entsprechung)",
+      "grams": 36
+    },
+    "ingredients": [
+      {
+        "name": "Blattkohl (Karalahana), roh",
+        "grams": 36
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Nahe Entsprechung. Karalahana gehört wie Collards zur Acephala-Gruppe von Brassica oleracea; ein eigener Analysenwert für die türkische Sorte liegt nicht vor. Werte unverändert aus USDA FoodData Central, SR Legacy (April 2018), FDC ID 170406: Collards, raw. Kohlenhydrate sind dort bereits Gesamt-KH.",
+    "derived_from": "USDA SR Legacy:170406",
+    "method": "similar_food"
+  },
+  {
+    "id": "tuerkischer-couscous-roh",
+    "name": "Türkischer Couscous, roh",
+    "names": {
+      "de": "Türkischer Couscous, roh",
+      "en": "Turkish couscous, dry",
+      "tr": "Türk kuskusu",
+      "fr": "Couscous turc, sec",
+      "es": "Cuscús turco, seco",
+      "pt": "Cuscuz turco, seco",
+      "it": "Couscous turco, secco",
+      "zh": "土耳其古斯米（干）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Turk kuskusu",
+      "Türkischer Kuskus"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Getreide, Teigwaren & Brot",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dry",
+    "unit": "g",
+    "note": "Grundzutat (geschätzt), kein Fertigprodukt - Werte eines ähnlichen Lebensmittels",
+    "per100g": {
+      "kcal": 371,
+      "protein": 13.0,
+      "carbs": 74.7,
+      "fat": 1.5,
+      "fiber": 3.2,
+      "sugar": 2.7
+    },
+    "portion": {
+      "label": "1 Portion trocken (Schätzung)",
+      "grams": 60
+    },
+    "ingredients": [
+      {
+        "name": "Türkischer Couscous, roh",
+        "grams": 60
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Nahe Entsprechung, nicht identisch. Türkischer Couscous ist eine Teigware und nicht der Grieß-Couscous (Eintrag couscous-roh, FDC 169699). Werte unverändert aus USDA FoodData Central, SR Legacy (April 2018), FDC ID 168927: Pasta, dry, unenriched. Derselbe Datensatz steht schon bei nudeln-roh; dieser Eintrag macht den Suchbegriff auffindbar und kennzeichnet die Abweichung.",
+    "derived_from": "USDA SR Legacy:168927",
+    "method": "similar_food"
+  },
+  {
+    "id": "japanische-wollmispel-roh",
+    "name": "Japanische Wollmispel, roh",
+    "names": {
+      "de": "Japanische Wollmispel, roh",
+      "en": "Loquat, raw",
+      "tr": "Yeni dünya, çiğ",
+      "fr": "Nèfle du Japon, crue",
+      "es": "Níspero del Japón, crudo",
+      "pt": "Nêspera, crua",
+      "it": "Nespolo del Giappone, crudo",
+      "zh": "枇杷（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Loquat",
+      "Yeni dunya",
+      "Japanische Mispel"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Obst",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 47,
+      "protein": 0.4,
+      "carbs": 12.1,
+      "fat": 0.2,
+      "fiber": 1.7
+    },
+    "portion": {
+      "label": "1 Frucht (Schätzung)",
+      "grams": 80
+    },
+    "ingredients": [
+      {
+        "name": "Japanische Wollmispel, roh",
+        "grams": 80
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 169908: Loquats, raw. Der BLS-Satz F529100 übernimmt Wasser, Eiweiß, Fett und Ballaststoffe aus Souci-Fachmann-Kraut und wird nicht verwendet.",
+    "fdc_id": 169908,
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "quitte-geduenstet",
+    "name": "Quitte, gedünstet",
+    "names": {
+      "de": "Quitte, gedünstet",
+      "en": "Quince, stewed",
+      "tr": "Ayva, pişmiş",
+      "fr": "Coing, cuit à l'étuvée",
+      "es": "Membrillo, estofado",
+      "pt": "Marmelo, estufado",
+      "it": "Mela cotogna, stufata",
+      "zh": "榅桲（炖）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Ayva pismis",
+      "Gedünstete Quitte"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Obst",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet, geschätzt), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 59,
+      "protein": 0.4,
+      "carbs": 15.8,
+      "fat": 0.1,
+      "fiber": 2.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Quitte, gedünstet",
+        "grams": 150
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode yield_factor): Die BLS-Ballaststoffe von F140152 (6,103 g) sind eine Rezeptfortschreibung des Rohwerts F140100, und der Rohwert stammt aus Souci-Fachmann-Kraut. Souci ist keine freie Quelle. Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code F140152 \"Quitte gedünstet\" und Code F140100 \"Quitte roh\" (nur der Garfaktor 6,103/5,92 = 1,031, nicht die Souci-Werte). Stattdessen USDA FoodData Central, SR Legacy (April 2018), FDC ID 168163 Quinces, raw (Ballaststoffe 1,9 g, das entspricht Ciqual 2025 Coing cru, Code 13010, ebenfalls 1,9 g). Der Garfaktor ist auf die freien Rohwerte angewendet. Gespeichert je 100 g zubereitet. Kohlenhydrate sind Gesamt-KH. USDA 168163 veröffentlicht keinen Zuckerwert.",
+    "derived_from": "USDA SR Legacy:168163",
+    "method": "yield_factor",
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "kirschtomate-roh",
+    "name": "Kirschtomate, roh",
+    "names": {
+      "de": "Kirschtomate, roh",
+      "en": "Cherry tomato, raw",
+      "tr": "Çeri domates, çiğ",
+      "fr": "Tomate cerise, crue",
+      "es": "Tomate cherry, crudo",
+      "pt": "Tomate cereja, cru",
+      "it": "Pomodoro ciliegino, crudo",
+      "zh": "圣女果（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Ceri domates",
+      "Cherry-Tomate"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt. Fett <0,5 als 0",
+    "per100g": {
+      "kcal": 32,
+      "protein": 1.3,
+      "carbs": 6.8,
+      "fat": 0.0,
+      "fiber": 1.2,
+      "sugar": 4.8
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 100
+    },
+    "ingredients": [
+      {
+        "name": "Kirschtomate, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 20172 \"Tomato, cherry, raw\". Kohlenhydrate = verfügbare KH 5.62 g + Ballaststoffe 1.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Fett ist nur als Obergrenze unter 0,5 g veröffentlicht. Mit 0 g Fett und den organischen Säuren trifft die veröffentlichte Energie, deshalb 0 g. Organische Säuren 0.56 g gehen in der BLS- oder Ciqual-Formel mit 3 kcal/g in die veröffentlichte Energie ein. Kontrolle 4*(KH-BST)+4*P+9*F+2*BST = 30.0 kcal, veröffentlicht 32 kcal, Differenz +2.0 kcal. Der Abstand entspricht in der Größenordnung den organischen Säuren.",
+    "source_id": "Ciqual 2025:20172"
+  },
+  {
+    "id": "rote-zwiebel-roh",
+    "name": "Rote Zwiebel, roh",
+    "names": {
+      "de": "Rote Zwiebel, roh",
+      "en": "Red onion, raw",
+      "tr": "Kırmızı soğan, çiğ",
+      "fr": "Oignon rouge, cru",
+      "es": "Cebolla roja, cruda",
+      "pt": "Cebola roxa, crua",
+      "it": "Cipolla rossa, cruda",
+      "zh": "红洋葱（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kirmizi sogan",
+      "Rotzwiebel"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 35,
+      "protein": 1.3,
+      "carbs": 8.1,
+      "fat": 0.4,
+      "fiber": 2.5,
+      "sugar": 5.2
+    },
+    "portion": {
+      "label": "1 Zwiebel (Schätzung)",
+      "grams": 80
+    },
+    "ingredients": [
+      {
+        "name": "Rote Zwiebel, roh",
+        "grams": 80
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 20238 \"Red onion, raw\". Kohlenhydrate = verfügbare KH 5.63 g + Ballaststoffe 2.5 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
+    "source_id": "Ciqual 2025:20238"
+  },
+  {
+    "id": "milde-lange-paprika-roh",
+    "name": "Milde lange Paprika, roh",
+    "names": {
+      "de": "Milde lange Paprika, roh",
+      "en": "Mild long pepper, raw",
+      "tr": "Çarliston biber, çiğ",
+      "fr": "Poivron long doux, cru",
+      "es": "Pimiento largo suave, crudo",
+      "pt": "Pimento longo suave, cru",
+      "it": "Peperone lungo dolce, crudo",
+      "zh": "长青椒（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Carliston biber",
+      "Çarliston"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat (geschätzt), kein Fertigprodukt. Nahe Entsprechung, nicht identisch.",
+    "per100g": {
+      "kcal": 27,
+      "protein": 1.7,
+      "carbs": 5.4,
+      "fat": 0.5,
+      "fiber": 3.4,
+      "sugar": 2.0
+    },
+    "portion": {
+      "label": "1 mittelgroße Frucht (USDA)",
+      "grams": 46
+    },
+    "ingredients": [
+      {
+        "name": "Milde lange Paprika, roh",
+        "grams": 46
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Nahe Entsprechung, nicht identisch. Çarliston ist eine milde, hellgrüne lange Paprika. Der Datensatz ist die milde Wachspaprika (banana pepper), nicht die scharfe ungarische Paprika. USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 169394: Pepper, banana, raw. Kohlenhydrate sind Carbohydrate by difference und damit bereits Gesamt-Kohlenhydrate inklusive Ballaststoffe. Ballaststoffe sind Fiber, total dietary (AOAC). kcal wie veröffentlicht.",
+    "derived_from": "USDA SR Legacy:169394",
+    "method": "similar_food"
+  },
+  {
+    "id": "paniermehl",
+    "name": "Paniermehl",
+    "names": {
+      "de": "Paniermehl",
+      "en": "Breadcrumbs",
+      "tr": "Galeta unu",
+      "fr": "Chapelure",
+      "es": "Pan rallado",
+      "pt": "Pão ralado",
+      "it": "Pangrattato",
+      "zh": "面包糠"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Semmelbrösel",
+      "Semmelmehl",
+      "Galeta unu"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Getreide, Teigwaren & Brot",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 364,
+      "protein": 11.6,
+      "carbs": 72.8,
+      "fat": 4.0,
+      "fiber": 5.3,
+      "sugar": 5.3
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 20
+    },
+    "ingredients": [
+      {
+        "name": "Paniermehl",
+        "grams": 20
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code B821000 \"Paniermehl/Semmelbrösel/Semmelmehl\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 67.48 g + Ballaststoffe 5.34 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT. Organische Säuren 0.294 g gehen in der BLS- oder Ciqual-Formel mit 3 kcal/g in die veröffentlichte Energie ein.",
+    "source_id": "BLS 4.0:B821000"
+  },
+  {
+    "id": "borlotti-bohnen-getrocknet",
+    "name": "Borlotti-Bohnen, getrocknet",
+    "names": {
+      "de": "Borlotti-Bohnen, getrocknet",
+      "en": "Cranberry beans, dried",
+      "tr": "Barbunya, kuru",
+      "fr": "Haricots borlotti, secs",
+      "es": "Alubias borlotti, secas",
+      "pt": "Feijão borlotti, seco",
+      "it": "Fagioli borlotti, secchi",
+      "zh": "蔓越莓豆（干）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Barbunya kuru",
+      "Käferbohnen getrocknet",
+      "Cranberry beans"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Hülsenfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dry",
+    "unit": "g",
+    "note": "Grundzutat (trocken), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 335,
+      "protein": 23.0,
+      "carbs": 60.1,
+      "fat": 1.2,
+      "fiber": 24.7
+    },
+    "portion": {
+      "label": "1 Tasse trocken (USDA)",
+      "grams": 195
+    },
+    "ingredients": [
+      {
+        "name": "Borlotti-Bohnen, getrocknet",
+        "grams": 195
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 175189: Beans, cranberry (roman), mature seeds, raw. Kohlenhydrate sind Carbohydrate by difference und damit bereits Gesamt-Kohlenhydrate inklusive Ballaststoffe. Ballaststoffe sind Fiber, total dietary (AOAC). kcal wie veröffentlicht. Kontrolle 4*(KH-BST)+4*P+9*F+2*BST = 293.8 kcal, veröffentlicht 335 kcal, Differenz +41.2 kcal. USDA verwendet lebensmittelspezifische Atwater-Faktoren, nicht pauschal 4/4/9 und 2 kcal/g Ballaststoffe.",
+    "fdc_id": 175189,
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "rinderhackfleisch-5-prozent-fett-roh",
+    "name": "Rinderhackfleisch, 5 % Fett, roh",
+    "names": {
+      "de": "Rinderhackfleisch, 5 % Fett, roh",
+      "en": "Beef mince, 5% fat, raw",
+      "tr": "Dana kıyma (%5 yağlı), çiğ",
+      "fr": "Bœuf haché maigre 5 % MG, cru",
+      "es": "Carne picada de ternera 5 % grasa, cruda",
+      "pt": "Carne picada de vaca 5 % gordura, crua",
+      "it": "Macinato di manzo 5 % di grasso, crudo",
+      "zh": "牛肉末（脂肪5%，生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Dana kiyma yagsiz",
+      "Rinderhack mager roh"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt. Fettstufe 5 %. Fettere Hackfleischsorten sind nicht eingemischt.",
+    "per100g": {
+      "kcal": 137,
+      "protein": 21.4,
+      "carbs": 0.0,
+      "fat": 5.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "4 oz (USDA)",
+      "grams": 113
+    },
+    "ingredients": [
+      {
+        "name": "Rinderhackfleisch, 5 % Fett, roh",
+        "grams": 113
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 171790: Beef, ground, 95% lean meat / 5% fat, raw. Kohlenhydrate sind Carbohydrate by difference und damit bereits Gesamt-Kohlenhydrate inklusive Ballaststoffe. Ballaststoffe sind Fiber, total dietary (AOAC). kcal wie veröffentlicht. Kontrolle 4*(KH-BST)+4*P+9*F+2*BST = 130.6 kcal, veröffentlicht 137 kcal, Differenz +6.4 kcal. USDA verwendet lebensmittelspezifische Atwater-Faktoren, nicht pauschal 4/4/9 und 2 kcal/g Ballaststoffe.",
+    "fdc_id": 171790
+  },
+  {
+    "id": "rinderkeule-roh",
+    "name": "Rinderkeule, roh",
+    "names": {
+      "de": "Rinderkeule, roh",
+      "en": "Beef round, raw",
+      "tr": "Dana but, çiğ",
+      "fr": "Cuisse de bœuf, crue",
+      "es": "Pierna de ternera, cruda",
+      "pt": "Perna de vaca, crua",
+      "it": "Coscia di manzo, cruda",
+      "zh": "牛后腿（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Dana but",
+      "Rinderkeule"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 148,
+      "protein": 21.0,
+      "carbs": 0.0,
+      "fat": 7.1,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Rinderkeule, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code U281100 \"Rind Keule, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:U281100"
+  },
+  {
+    "id": "rinder-vorderhesse-roh",
+    "name": "Rind, Vorderhesse, roh",
+    "names": {
+      "de": "Rind, Vorderhesse, roh",
+      "en": "Beef foreshank, raw",
+      "tr": "Dana incik, çiğ",
+      "fr": "Jarret de bœuf avant, cru",
+      "es": "Morcillo de ternera, crudo",
+      "pt": "Chambão de vaca, cru",
+      "it": "Stinco di manzo anteriore, crudo",
+      "zh": "牛前腱（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Dana incik",
+      "Rinderhesse",
+      "Vorderhesse"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt. Vorderhesse. Die Hinterhesse (BLS U291100, 140 kcal, 6 g Fett) ist nicht eingemischt.",
+    "per100g": {
+      "kcal": 128,
+      "protein": 20.2,
+      "carbs": 0.0,
+      "fat": 5.3,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Rind, Vorderhesse, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code U271100 \"Rind Vorderhesse, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:U271100"
+  },
+  {
+    "id": "rinderhochrippe-roh",
+    "name": "Rinderhochrippe, roh",
+    "names": {
+      "de": "Rinderhochrippe, roh",
+      "en": "Beef prime rib, raw",
+      "tr": "Dana antrikot (kaburga bölgesi), çiğ",
+      "fr": "Côte de bœuf, crue",
+      "es": "Costilla alta de ternera, cruda",
+      "pt": "Acém de vaca, cru",
+      "it": "Costata di manzo, cruda",
+      "zh": "牛肋排（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Dana kaburga",
+      "Hochrippe"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 155,
+      "protein": 20.6,
+      "carbs": 0.0,
+      "fat": 8.1,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Rinderhochrippe, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code U235100 \"Rind Hochrippe, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT. Kein zusätzlicher Eintrag für kurze Rippen.",
+    "source_id": "BLS 4.0:U235100"
+  },
+  {
+    "id": "rind-kochfleisch-huefte-gekocht",
+    "name": "Rind, Kochfleisch (Hüfte), gekocht",
+    "names": {
+      "de": "Rind, Kochfleisch (Hüfte), gekocht",
+      "en": "Beef boiling meat (rump), boiled",
+      "tr": "Haşlanmış dana eti (sokum)",
+      "fr": "Bœuf à bouillir (rumsteck), bouilli",
+      "es": "Ternera para cocer (cadera), cocida",
+      "pt": "Carne de vaca para cozer (alcatra), cozida",
+      "it": "Manzo da lesso (scamone), bollito",
+      "zh": "煮牛肉（臀肉）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Dana eti haslanmis",
+      "Gekochtes Rindfleisch"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "cooked",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt. Nur die Hüfte. Kochfleisch aus dem Bug (BLS U184132, 170 kcal) ist nicht eingemischt.",
+    "per100g": {
+      "kcal": 181,
+      "protein": 30.3,
+      "carbs": 0.0,
+      "fat": 6.6,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Rind, Kochfleisch (Hüfte), gekocht",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code U185132 \"Rind Kochfleisch (Hüfte) gekocht\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:U185132"
+  },
+  {
+    "id": "rinderbrust-mittelbrust-roh",
+    "name": "Rinderbrust (Mittelbrust), roh",
+    "names": {
+      "de": "Rinderbrust (Mittelbrust), roh",
+      "en": "Beef brisket, raw",
+      "tr": "Dana göğüs, çiğ",
+      "fr": "Poitrine de bœuf, crue",
+      "es": "Pecho de ternera, crudo",
+      "pt": "Peito de vaca, cru",
+      "it": "Petto di manzo, crudo",
+      "zh": "牛胸肉（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Dana gogus",
+      "Brustkern"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 200,
+      "protein": 18.6,
+      "carbs": 0.0,
+      "fat": 14.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Rinderbrust (Mittelbrust), roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code U255100 \"Rind Brustkern/Mittelbrust, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:U255100"
+  },
+  {
+    "id": "lammkotelett-gegrillt",
+    "name": "Lammkotelett, gegrillt",
+    "names": {
+      "de": "Lammkotelett, gegrillt",
+      "en": "Lamb chop, grilled",
+      "tr": "Kuzu pirzola, ızgara",
+      "fr": "Côtelette d'agneau, grillée",
+      "es": "Chuleta de cordero, a la parrilla",
+      "pt": "Costeleta de borrego, grelhada",
+      "it": "Costoletta di agnello, grigliata",
+      "zh": "羊排（烤）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kuzu pirzola izgara",
+      "Lammkotelett vom Grill"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "grilled",
+    "unit": "g",
+    "note": "Grundzutat (zubereitet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 292,
+      "protein": 25.4,
+      "carbs": 0.0,
+      "fat": 21.1,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Kotelett (Schätzung)",
+      "grams": 120
+    },
+    "ingredients": [
+      {
+        "name": "Lammkotelett, gegrillt",
+        "grams": 120
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code U727172 \"Lamm Kotelett, gegrillt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:U727172"
+  },
+  {
+    "id": "lammnacken-roh",
+    "name": "Lammnacken, roh",
+    "names": {
+      "de": "Lammnacken, roh",
+      "en": "Lamb neck, raw",
+      "tr": "Kuzu gerdan, çiğ",
+      "fr": "Collier d'agneau, cru",
+      "es": "Cuello de cordero, crudo",
+      "pt": "Pescoço de borrego, cru",
+      "it": "Collo di agnello, crudo",
+      "zh": "羊颈肉（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kuzu gerdan",
+      "Lammkamm"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 191,
+      "protein": 18.6,
+      "carbs": 0.0,
+      "fat": 13.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Lammnacken, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code U837100 \"Lamm Hals/Kamm/Nacken, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:U837100"
+  },
+  {
+    "id": "hammelfleisch-roh",
+    "name": "Hammelfleisch, grob entsehnt, roh",
+    "names": {
+      "de": "Hammelfleisch, grob entsehnt, roh",
+      "en": "Mutton, raw",
+      "tr": "Koyun eti, çiğ",
+      "fr": "Mouton, cru",
+      "es": "Carne de ovino adulto, cruda",
+      "pt": "Carne de carneiro, crua",
+      "it": "Carne di montone, cruda",
+      "zh": "羊肉（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Koyun eti",
+      "Schaffleisch"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt. Fettstufe grob entsehnt. Die magere Variante (BLS U802000, 125 kcal, 5 g Fett) ist nicht eingemischt.",
+    "per100g": {
+      "kcal": 181,
+      "protein": 18.4,
+      "carbs": 0.0,
+      "fat": 11.9,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Hammelfleisch, grob entsehnt, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code U803000 \"Schaf Fleisch, grob entsehnt, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:U803000"
+  },
+  {
+    "id": "ziegenfleisch-roh",
+    "name": "Ziegenfleisch, roh",
+    "names": {
+      "de": "Ziegenfleisch, roh",
+      "en": "Goat meat, raw",
+      "tr": "Keçi eti, çiğ",
+      "fr": "Viande de chèvre, crue",
+      "es": "Carne de cabra, cruda",
+      "pt": "Carne de cabra, crua",
+      "it": "Carne di capra, cruda",
+      "zh": "山羊肉（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Keci eti",
+      "Ziege"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 127,
+      "protein": 20.6,
+      "carbs": 0.0,
+      "fat": 5.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Ziegenfleisch, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code V122100 \"Ziege Fleisch, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:V122100"
+  },
+  {
+    "id": "haehnchenhack-roh",
+    "name": "Hähnchenhack, roh",
+    "names": {
+      "de": "Hähnchenhack, roh",
+      "en": "Chicken mince, raw",
+      "tr": "Tavuk kıyma, çiğ",
+      "fr": "Poulet haché, cru",
+      "es": "Pollo picado, crudo",
+      "pt": "Frango picado, cru",
+      "it": "Pollo macinato, crudo",
+      "zh": "鸡肉末（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Tavuk kiyma",
+      "Hähnchenhackfleisch"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 143,
+      "protein": 17.4,
+      "carbs": 0.0,
+      "fat": 8.1,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "4 oz (USDA)",
+      "grams": 113
+    },
+    "ingredients": [
+      {
+        "name": "Hähnchenhack, roh",
+        "grams": 113
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 171116: Chicken, ground, raw. Kohlenhydrate sind Carbohydrate by difference und damit bereits Gesamt-Kohlenhydrate inklusive Ballaststoffe. Ballaststoffe sind Fiber, total dietary (AOAC). kcal wie veröffentlicht.",
+    "fdc_id": 171116
+  },
+  {
+    "id": "putenkeule-ohne-haut-roh",
+    "name": "Putenkeule, ohne Haut, roh",
+    "names": {
+      "de": "Putenkeule, ohne Haut, roh",
+      "en": "Turkey thigh, skinless, raw",
+      "tr": "Hindi but, derisiz, çiğ",
+      "fr": "Cuisse de dinde sans peau, crue",
+      "es": "Muslo de pavo sin piel, crudo",
+      "pt": "Coxa de peru sem pele, crua",
+      "it": "Coscia di tacchino senza pelle, cruda",
+      "zh": "火鸡腿（去皮，生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Hindi but",
+      "Putenkeule"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 114,
+      "protein": 20.5,
+      "carbs": 0.0,
+      "fat": 3.6,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Putenkeule, ohne Haut, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code V485100 \"Pute Keule, ohne Haut, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:V485100"
+  },
+  {
+    "id": "wachtelfleisch-ohne-haut-roh",
+    "name": "Wachtelfleisch, ohne Haut, roh",
+    "names": {
+      "de": "Wachtelfleisch, ohne Haut, roh",
+      "en": "Quail meat, skinless, raw",
+      "tr": "Bıldırcın eti, derisiz, çiğ",
+      "fr": "Viande de caille sans peau, crue",
+      "es": "Carne de codorniz sin piel, cruda",
+      "pt": "Carne de codorniz sem pele, crua",
+      "it": "Carne di quaglia senza pelle, cruda",
+      "zh": "鹌鹑肉（去皮，生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Bildircin",
+      "Wachtel"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 128,
+      "protein": 21.8,
+      "carbs": 0.0,
+      "fat": 4.5,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 100
+    },
+    "ingredients": [
+      {
+        "name": "Wachtelfleisch, ohne Haut, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code V354100 \"Wachtel Fleisch, ohne Haut, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:V354100"
+  },
+  {
+    "id": "lammleber-roh",
+    "name": "Lammleber, roh",
+    "names": {
+      "de": "Lammleber, roh",
+      "en": "Lamb liver, raw",
+      "tr": "Kuzu ciğeri, çiğ",
+      "fr": "Foie d'agneau, cru",
+      "es": "Hígado de cordero, crudo",
+      "pt": "Fígado de borrego, cru",
+      "it": "Fegato di agnello, crudo",
+      "zh": "羊肝（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kuzu ciger",
+      "Lamm Leber"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 131,
+      "protein": 20.6,
+      "carbs": 1.0,
+      "fat": 4.9,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Lammleber, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code V535100 \"Lamm Leber, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 1 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:V535100"
+  },
+  {
+    "id": "haehnchenmagen-roh",
+    "name": "Hähnchenmagen, roh",
+    "names": {
+      "de": "Hähnchenmagen, roh",
+      "en": "Chicken gizzard, raw",
+      "tr": "Tavuk taşlığı, çiğ",
+      "fr": "Gésier de poulet, cru",
+      "es": "Molleja de pollo, cruda",
+      "pt": "Moela de frango, crua",
+      "it": "Ventriglio di pollo, crudo",
+      "zh": "鸡胗（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Tavuk taslik",
+      "Hühnermagen"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 82,
+      "protein": 15.9,
+      "carbs": 0.0,
+      "fat": 2.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 100
+    },
+    "ingredients": [
+      {
+        "name": "Hähnchenmagen, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code V654100 \"Hähnchen Magen, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:V654100"
+  },
+  {
+    "id": "haehnchenherz-roh",
+    "name": "Hähnchenherz, roh",
+    "names": {
+      "de": "Hähnchenherz, roh",
+      "en": "Chicken heart, raw",
+      "tr": "Tavuk yüreği, çiğ",
+      "fr": "Cœur de poulet, cru",
+      "es": "Corazón de pollo, crudo",
+      "pt": "Coração de frango, cru",
+      "it": "Cuore di pollo, crudo",
+      "zh": "鸡心（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Tavuk yuregi",
+      "Hühnerherz"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 165,
+      "protein": 13.1,
+      "carbs": 0.0,
+      "fat": 12.5,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 100
+    },
+    "ingredients": [
+      {
+        "name": "Hähnchenherz, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code V614100 \"Hähnchen Herz, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:V614100"
+  },
+  {
+    "id": "lammniere-roh",
+    "name": "Lammniere, roh",
+    "names": {
+      "de": "Lammniere, roh",
+      "en": "Lamb kidney, raw",
+      "tr": "Kuzu böbreği, çiğ",
+      "fr": "Rognon d'agneau, cru",
+      "es": "Riñón de cordero, crudo",
+      "pt": "Rim de borrego, cru",
+      "it": "Rene di agnello, crudo",
+      "zh": "羊肾（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Bobrek kuzu",
+      "Lamm Niere"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 87,
+      "protein": 16.1,
+      "carbs": 0.0,
+      "fat": 2.5,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 100
+    },
+    "ingredients": [
+      {
+        "name": "Lammniere, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code V575100 \"Lamm Niere, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:V575100"
+  },
+  {
+    "id": "rinderherz-roh",
+    "name": "Rinderherz, roh",
+    "names": {
+      "de": "Rinderherz, roh",
+      "en": "Beef heart, raw",
+      "tr": "Dana yüreği, çiğ",
+      "fr": "Cœur de bœuf, cru",
+      "es": "Corazón de ternera, crudo",
+      "pt": "Coração de vaca, cru",
+      "it": "Cuore di manzo, crudo",
+      "zh": "牛心（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Yurek dana",
+      "Rinderherz"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 121,
+      "protein": 16.8,
+      "carbs": 0.0,
+      "fat": 6.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Rinderherz, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code V511100 \"Rind Herz, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:V511100"
+  },
+  {
+    "id": "lamm-milz-roh",
+    "name": "Lamm-Milz, roh",
+    "names": {
+      "de": "Lamm-Milz, roh",
+      "en": "Lamb spleen, raw",
+      "tr": "Kuzu dalağı, çiğ",
+      "fr": "Rate d'agneau, crue",
+      "es": "Bazo de cordero, crudo",
+      "pt": "Baço de borrego, cru",
+      "it": "Milza di agnello, cruda",
+      "zh": "羊脾（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Dalak",
+      "Milz vom Lamm"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt. Lamm. Rinder-Milz (BLS V561100, 100 kcal) ist nicht eingemischt.",
+    "per100g": {
+      "kcal": 97,
+      "protein": 17.2,
+      "carbs": 0.0,
+      "fat": 3.1,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 100
+    },
+    "ingredients": [
+      {
+        "name": "Lamm-Milz, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code V565100 \"Lamm Milz, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:V565100"
+  },
+  {
+    "id": "rinderlunge-roh",
+    "name": "Rinderlunge, roh",
+    "names": {
+      "de": "Rinderlunge, roh",
+      "en": "Beef lung, raw",
+      "tr": "Dana akciğeri, çiğ",
+      "fr": "Poumon de bœuf, cru",
+      "es": "Pulmón de ternera, crudo",
+      "pt": "Pulmão de vaca, cru",
+      "it": "Polmone di manzo, crudo",
+      "zh": "牛肺（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Akciger",
+      "Rinderlunge"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt. Rind. Schaf-Lunge (BLS V544100, 90 kcal) ist nicht eingemischt.",
+    "per100g": {
+      "kcal": 98,
+      "protein": 18.1,
+      "carbs": 0.0,
+      "fat": 2.9,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Rinderlunge, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code V541100 \"Rind Lunge, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:V541100"
+  },
+  {
+    "id": "lammhirn-roh",
+    "name": "Lammhirn, roh",
+    "names": {
+      "de": "Lammhirn, roh",
+      "en": "Lamb brain, raw",
+      "tr": "Kuzu beyni, çiğ",
+      "fr": "Cervelle d'agneau, crue",
+      "es": "Sesos de cordero, crudos",
+      "pt": "Miolo de borrego, cru",
+      "it": "Cervello di agnello, crudo",
+      "zh": "羊脑（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Beyin kuzu",
+      "Lamm Hirn"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 122,
+      "protein": 10.4,
+      "carbs": 0.0,
+      "fat": 8.6,
+      "fiber": 0.0
+    },
+    "portion": {
+      "label": "4 oz (USDA)",
+      "grams": 113
+    },
+    "ingredients": [
+      {
+        "name": "Lammhirn, roh",
+        "grams": 113
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 172525: Lamb, variety meats and by-products, brain, raw. Kohlenhydrate sind Carbohydrate by difference und damit bereits Gesamt-Kohlenhydrate inklusive Ballaststoffe. Ballaststoffe sind Fiber, total dietary (AOAC). kcal wie veröffentlicht. Kontrolle 4*(KH-BST)+4*P+9*F+2*BST = 119.0 kcal, veröffentlicht 122 kcal, Differenz +3.0 kcal. USDA verwendet lebensmittelspezifische Atwater-Faktoren, nicht pauschal 4/4/9 und 2 kcal/g Ballaststoffe.",
+    "fdc_id": 172525,
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "rinderzunge-roh",
+    "name": "Rinderzunge, roh",
+    "names": {
+      "de": "Rinderzunge, roh",
+      "en": "Beef tongue, raw",
+      "tr": "Dana dili, çiğ",
+      "fr": "Langue de bœuf, crue",
+      "es": "Lengua de ternera, cruda",
+      "pt": "Língua de vaca, crua",
+      "it": "Lingua di manzo, cruda",
+      "zh": "牛舌（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Dil dana",
+      "Rinderzunge"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 207,
+      "protein": 16.0,
+      "carbs": 0.0,
+      "fat": 15.9,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Rinderzunge, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code V591100 \"Rind Zunge, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:V591100"
+  },
+  {
+    "id": "rinderkutteln-roh",
+    "name": "Rinderkutteln, roh",
+    "names": {
+      "de": "Rinderkutteln, roh",
+      "en": "Beef tripe, raw",
+      "tr": "İşkembe, çiğ",
+      "fr": "Tripes de bœuf, crues",
+      "es": "Callos de ternera, crudos",
+      "pt": "Dobradinha crua",
+      "it": "Trippa di manzo, cruda",
+      "zh": "牛肚（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Iskembe",
+      "Pansen"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 80,
+      "protein": 13.5,
+      "carbs": 0.0,
+      "fat": 2.8,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Rinderkutteln, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code V551100 \"Rind Magen/Kutteln, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:V551100"
+  },
+  {
+    "id": "lammbries-roh",
+    "name": "Lammbries, roh",
+    "names": {
+      "de": "Lammbries, roh",
+      "en": "Lamb sweetbread, raw",
+      "tr": "Kuzu uykuluğu, çiğ",
+      "fr": "Ris d'agneau, cru",
+      "es": "Mollejas de cordero, crudas",
+      "pt": "Molejas de borrego, cruas",
+      "it": "Animelle di agnello, crude",
+      "zh": "羊胰（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Uykuluk",
+      "Bries vom Lamm"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 81,
+      "protein": 13.2,
+      "carbs": 0.0,
+      "fat": 3.2,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 120
+    },
+    "ingredients": [
+      {
+        "name": "Lammbries, roh",
+        "grams": 120
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code V585100 \"Lamm Bries, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:V585100"
+  },
+  {
+    "id": "hammeltalg",
+    "name": "Hammeltalg",
+    "names": {
+      "de": "Hammeltalg",
+      "en": "Mutton tallow",
+      "tr": "Koyun içyağı",
+      "fr": "Suif de mouton",
+      "es": "Sebo de cordero adulto",
+      "pt": "Sebo de carneiro",
+      "it": "Sego di montone",
+      "zh": "羊脂"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kuyruk yagi",
+      "Hammelfett",
+      "Kuyruk yağı"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fette & Öle",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (geschätzt), kein Fertigprodukt. Nahe Entsprechung, nicht identisch.",
+    "per100g": {
+      "kcal": 747,
+      "protein": 3.9,
+      "carbs": 0.0,
+      "fat": 81.3,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Esslöffel (Schätzung)",
+      "grams": 10
+    },
+    "ingredients": [
+      {
+        "name": "Hammeltalg",
+        "grams": 10
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Nahe Entsprechung, nicht identisch. Schwanzfett vom Lamm hat keinen eigenen freien Datensatz. Verwendet ist Hammeltalg, nicht das Schwanzfett selbst. Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code Q880000 \"Hammelfett/Hammeltalg\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "derived_from": "BLS 4.0:Q880000",
+    "method": "similar_food"
+  },
+  {
+    "id": "rindersalami",
+    "name": "Rindersalami",
+    "names": {
+      "de": "Rindersalami",
+      "en": "Beef salami",
+      "tr": "Dana salam",
+      "fr": "Salami de bœuf",
+      "es": "Salami de ternera",
+      "pt": "Salame de vaca",
+      "it": "Salame di manzo",
+      "zh": "牛肉萨拉米"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Dana salam",
+      "Salami vom Rind"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Wurst & Schinken",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 395,
+      "protein": 21.6,
+      "carbs": 0.3,
+      "fat": 34.1,
+      "fiber": 0.1,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 30
+    },
+    "ingredients": [
+      {
+        "name": "Rindersalami",
+        "grams": 30
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code W145000 \"Rindersalami\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0.18 g + Ballaststoffe 0.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:W145000"
+  },
+  {
+    "id": "gefluegelwuerstchen",
+    "name": "Geflügelwürstchen",
+    "names": {
+      "de": "Geflügelwürstchen",
+      "en": "Turkey or chicken sausage",
+      "tr": "Tavuk veya hindi sosis",
+      "fr": "Saucisse de volaille",
+      "es": "Salchicha de ave",
+      "pt": "Salsicha de aves",
+      "it": "Salsiccia di pollame",
+      "zh": "禽肉香肠"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Tavuk sosis",
+      "Geflügelsausage"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Wurst & Schinken",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt. Pute oder Huhn, ohne Schweinefleisch.",
+    "per100g": {
+      "kcal": 193,
+      "protein": 19.6,
+      "carbs": 1.1,
+      "fat": 12.2,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Stück (FNDDS)",
+      "grams": 75
+    },
+    "ingredients": [
+      {
+        "name": "Geflügelwürstchen",
+        "grams": 75
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, FNDDS 2021-2023 (Survey Foods, Release 2024-10-31), gemeinfrei (CC0 1.0), FDC ID 2706200: Turkey or chicken sausage. Kohlenhydrate sind Carbohydrate by difference und damit bereits Gesamt-Kohlenhydrate inklusive Ballaststoffe. Ballaststoffe sind Fiber, total dietary (AOAC). kcal wie veröffentlicht.",
+    "fdc_id": 2706200
+  },
+  {
+    "id": "rindswurst-frankfurter",
+    "name": "Rindswurst, Frankfurter Art",
+    "names": {
+      "de": "Rindswurst, Frankfurter Art",
+      "en": "Beef frankfurter",
+      "tr": "Dana sosis",
+      "fr": "Saucisse de bœuf type francfort",
+      "es": "Salchicha de ternera tipo frankfurt",
+      "pt": "Salsicha de vaca tipo frankfurt",
+      "it": "Wurstel di manzo",
+      "zh": "牛肉法兰克福肠"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Dana sosis",
+      "Rote Wurst vom Rind"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Wurst & Schinken",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 223,
+      "protein": 11.4,
+      "carbs": 0.0,
+      "fat": 19.7,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Würstchen (Schätzung)",
+      "grams": 50
+    },
+    "ingredients": [
+      {
+        "name": "Rindswurst, Frankfurter Art",
+        "grams": 50
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code W216100 \"Frankfurter Rindswurst/Rote Wurst\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:W216100"
+  },
+  {
+    "id": "rinderrauchfleisch",
+    "name": "Rinderrauchfleisch (Oberschale)",
+    "names": {
+      "de": "Rinderrauchfleisch (Oberschale)",
+      "en": "Smoked beef, top round",
+      "tr": "Dana füme et",
+      "fr": "Bœuf fumé (tende de tranche)",
+      "es": "Ternera ahumada",
+      "pt": "Carne de vaca fumada",
+      "it": "Manzo affumicato",
+      "zh": "烟熏牛肉"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Dana fume",
+      "Hamburger Rauchfleisch"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Wurst & Schinken",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "smoked",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt. Rohpökelware vom Rind, ohne Schweinefleisch.",
+    "per100g": {
+      "kcal": 118,
+      "protein": 19.5,
+      "carbs": 0.5,
+      "fat": 4.2,
+      "fiber": 0.0,
+      "sugar": 0.5
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 40
+    },
+    "ingredients": [
+      {
+        "name": "Rinderrauchfleisch (Oberschale)",
+        "grams": 40
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code W540000 \"Hamburger Rauchfleisch (Rind Oberschale) Rohpökelware, geräuchert\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0.492 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:W540000"
+  },
+  {
+    "id": "rindfleisch-gepoekelt-getrocknet",
+    "name": "Rindfleisch, gepökelt und getrocknet",
+    "names": {
+      "de": "Rindfleisch, gepökelt und getrocknet",
+      "en": "Beef, cured, dried",
+      "tr": "Kuru et (dana)",
+      "fr": "Bœuf salé et séché",
+      "es": "Ternera curada y seca",
+      "pt": "Carne de vaca curada e seca",
+      "it": "Manzo stagionato ed essiccato",
+      "zh": "腌牛肉干"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kuru et",
+      "Getrocknetes Rindfleisch"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 153,
+      "protein": 31.1,
+      "carbs": 2.8,
+      "fat": 1.9,
+      "fiber": 0.0,
+      "sugar": 2.7
+    },
+    "portion": {
+      "label": "10 Scheiben (USDA)",
+      "grams": 28
+    },
+    "ingredients": [
+      {
+        "name": "Rindfleisch, gepökelt und getrocknet",
+        "grams": 28
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 170604: Beef, cured, dried. Kohlenhydrate sind Carbohydrate by difference und damit bereits Gesamt-Kohlenhydrate inklusive Ballaststoffe. Ballaststoffe sind Fiber, total dietary (AOAC). kcal wie veröffentlicht.",
+    "fdc_id": 170604
+  },
+  {
+    "id": "sardelle-roh",
+    "name": "Sardelle, roh",
+    "names": {
+      "de": "Sardelle, roh",
+      "en": "Anchovy, raw",
+      "tr": "Hamsi, çiğ",
+      "fr": "Anchois, cru",
+      "es": "Boquerón, crudo",
+      "pt": "Biqueirão, cru",
+      "it": "Acciuga, cruda",
+      "zh": "鳀鱼（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Hamsi",
+      "Europäische Sardelle"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 204,
+      "protein": 20.1,
+      "carbs": 0.0,
+      "fat": 13.7,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 100
+    },
+    "ingredients": [
+      {
+        "name": "Sardelle, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code T104100 \"Sardelle roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:T104100"
+  },
+  {
+    "id": "pelamide-roh",
+    "name": "Pelamide, roh",
+    "names": {
+      "de": "Pelamide, roh",
+      "en": "Atlantic bonito, raw",
+      "tr": "Palamut, çiğ",
+      "fr": "Pélamide, crue",
+      "es": "Bonito del Atlántico, crudo",
+      "pt": "Bonito do Atlântico, cru",
+      "it": "Palamita, cruda",
+      "zh": "狐鲣（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Palamut",
+      "Pelamide"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 139,
+      "protein": 22.4,
+      "carbs": 0.0,
+      "fat": 5.5,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Pelamide, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code T120100 \"Pelamide roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:T120100"
+  },
+  {
+    "id": "dorade-zucht-roh",
+    "name": "Dorade, Zucht, roh",
+    "names": {
+      "de": "Dorade, Zucht, roh",
+      "en": "Gilthead seabream, farmed, raw",
+      "tr": "Çipura, çiftlik, çiğ",
+      "fr": "Daurade royale d'élevage, crue",
+      "es": "Dorada de crianza, cruda",
+      "pt": "Dourada de aquacultura, crua",
+      "it": "Orata di allevamento, cruda",
+      "zh": "金头鲷（养殖，生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Cipura",
+      "Dorade royal Zucht"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt. Zucht, wie die Handelsware. Wildfang (Ciqual 26080, 96 kcal, 2,3 g Fett) ist nicht eingemischt.",
+    "per100g": {
+      "kcal": 129,
+      "protein": 20.9,
+      "carbs": 0.0,
+      "fat": 5.1,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Dorade, Zucht, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 26088 \"Gilthead seabream, raw, farmed\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Kohlenhydrate sind nur als Spuren angegeben und als 0 g gesetzt.",
+    "source_id": "Ciqual 2025:26088"
+  },
+  {
+    "id": "stoecker-roh",
+    "name": "Stöcker, roh",
+    "names": {
+      "de": "Stöcker, roh",
+      "en": "Horse mackerel, raw",
+      "tr": "İstavrit, çiğ",
+      "fr": "Chinchard, cru",
+      "es": "Jurel, crudo",
+      "pt": "Carapau, cru",
+      "it": "Suro, crudo",
+      "zh": "竹荚鱼（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Istavrit",
+      "Schildmakrele"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 119,
+      "protein": 19.8,
+      "carbs": 0.0,
+      "fat": 4.5,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Stöcker, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code T118100 \"Schildmakrele/Stöcker, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:T118100"
+  },
+  {
+    "id": "blaubarsch-roh",
+    "name": "Blaubarsch, roh",
+    "names": {
+      "de": "Blaubarsch, roh",
+      "en": "Bluefish, raw",
+      "tr": "Lüfer, çiğ",
+      "fr": "Tassergal, cru",
+      "es": "Anjova, cruda",
+      "pt": "Anchova, crua",
+      "it": "Pesce serra, crudo",
+      "zh": "蓝鱼（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Lufer",
+      "Bluefish"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 124,
+      "protein": 20.0,
+      "carbs": 0.0,
+      "fat": 4.2,
+      "fiber": 0.0
+    },
+    "portion": {
+      "label": "1 Filet (USDA)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Blaubarsch, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 171949: Fish, bluefish, raw. Kohlenhydrate sind Carbohydrate by difference und damit bereits Gesamt-Kohlenhydrate inklusive Ballaststoffe. Ballaststoffe sind Fiber, total dietary (AOAC). kcal wie veröffentlicht. Kontrolle 4*(KH-BST)+4*P+9*F+2*BST = 117.8 kcal, veröffentlicht 124 kcal, Differenz +6.2 kcal. USDA verwendet lebensmittelspezifische Atwater-Faktoren, nicht pauschal 4/4/9 und 2 kcal/g Ballaststoffe.",
+    "fdc_id": 171949,
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "sardine-roh",
+    "name": "Sardine, roh",
+    "names": {
+      "de": "Sardine, roh",
+      "en": "Sardine, raw",
+      "tr": "Sardalya, çiğ",
+      "fr": "Sardine, crue",
+      "es": "Sardina, cruda",
+      "pt": "Sardinha, crua",
+      "it": "Sardina, cruda",
+      "zh": "沙丁鱼（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Sardalya",
+      "Europäische Sardine"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 151,
+      "protein": 19.4,
+      "carbs": 0.0,
+      "fat": 8.2,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 100
+    },
+    "ingredients": [
+      {
+        "name": "Sardine, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code T105100 \"Sardine roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:T105100"
+  },
+  {
+    "id": "wittling-roh",
+    "name": "Wittling, roh",
+    "names": {
+      "de": "Wittling, roh",
+      "en": "Whiting, raw",
+      "tr": "Mezgit, çiğ",
+      "fr": "Merlan, cru",
+      "es": "Pescadilla, cruda",
+      "pt": "Pescada, crua",
+      "it": "Nasello, crudo",
+      "zh": "牙鳕（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Mezgit",
+      "Merlan"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 85,
+      "protein": 18.4,
+      "carbs": 0.0,
+      "fat": 1.3,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Wittling, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code T208100 \"Merlan/Wittling, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:T208100"
+  },
+  {
+    "id": "rotbarbe-roh",
+    "name": "Rotbarbe, roh",
+    "names": {
+      "de": "Rotbarbe, roh",
+      "en": "Red mullet, raw",
+      "tr": "Barbunya balığı, çiğ",
+      "fr": "Rouget, cru",
+      "es": "Salmonete, crudo",
+      "pt": "Salmonete, cru",
+      "it": "Triglia, cruda",
+      "zh": "羊鱼（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Barbunya baligi",
+      "Meerbarbe"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 158,
+      "protein": 18.4,
+      "carbs": 0.0,
+      "fat": 9.4,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 120
+    },
+    "ingredients": [
+      {
+        "name": "Rotbarbe, roh",
+        "grams": 120
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 26085 \"Surmullet or red mullet, raw\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Kohlenhydrate sind nur als Spuren angegeben und als 0 g gesetzt.",
+    "source_id": "Ciqual 2025:26085"
+  },
+  {
+    "id": "steinbutt-roh",
+    "name": "Steinbutt, roh",
+    "names": {
+      "de": "Steinbutt, roh",
+      "en": "Turbot, raw",
+      "tr": "Kalkan, çiğ",
+      "fr": "Turbot, cru",
+      "es": "Rodaballo, crudo",
+      "pt": "Pregado, cru",
+      "it": "Rombo chiodato, crudo",
+      "zh": "大菱鲆（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kalkan"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 82,
+      "protein": 16.7,
+      "carbs": 0.0,
+      "fat": 1.7,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Steinbutt, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code T302100 \"Steinbutt roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:T302100"
+  },
+  {
+    "id": "meeraesche-roh",
+    "name": "Meeräsche, roh",
+    "names": {
+      "de": "Meeräsche, roh",
+      "en": "Grey mullet, raw",
+      "tr": "Kefal, çiğ",
+      "fr": "Mulet, cru",
+      "es": "Mújol, crudo",
+      "pt": "Tainha, crua",
+      "it": "Cefalo, crudo",
+      "zh": "鲻鱼（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kefal",
+      "Meeräsche"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 108,
+      "protein": 20.4,
+      "carbs": 0.0,
+      "fat": 2.9,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Meeräsche, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code T633100 \"Meeräsche roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:T633100"
+  },
+  {
+    "id": "maifisch-amerikanisch-roh",
+    "name": "Amerikanischer Maifisch, roh",
+    "names": {
+      "de": "Amerikanischer Maifisch, roh",
+      "en": "American shad, raw",
+      "tr": "Amerikan tirsisi, çiğ",
+      "fr": "Alose américaine, crue",
+      "es": "Sábalo americano, crudo",
+      "pt": "Sável americano, cru",
+      "it": "Alosa americana, cruda",
+      "zh": "美洲西鲱（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Tirsi",
+      "Finte"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat (geschätzt), kein Fertigprodukt. Nahe Entsprechung, nicht identisch.",
+    "per100g": {
+      "kcal": 197,
+      "protein": 16.9,
+      "carbs": 0.0,
+      "fat": 13.8,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Filet (USDA)",
+      "grams": 184
+    },
+    "ingredients": [
+      {
+        "name": "Amerikanischer Maifisch, roh",
+        "grams": 184
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Nahe Entsprechung, nicht identisch. Tirsi ist eine Alose des Schwarzen Meers. Der Datensatz ist der amerikanische Maifisch, dieselbe Gattung, andere Art. USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 173696: Fish, shad, american, raw. Kohlenhydrate sind Carbohydrate by difference und damit bereits Gesamt-Kohlenhydrate inklusive Ballaststoffe. Ballaststoffe sind Fiber, total dietary (AOAC). kcal wie veröffentlicht. Kontrolle 4*(KH-BST)+4*P+9*F+2*BST = 191.8 kcal, veröffentlicht 197 kcal, Differenz +5.2 kcal. USDA verwendet lebensmittelspezifische Atwater-Faktoren, nicht pauschal 4/4/9 und 2 kcal/g Ballaststoffe.",
+    "derived_from": "USDA SR Legacy:173696",
+    "method": "similar_food"
+  },
+  {
+    "id": "schwertfisch-roh",
+    "name": "Schwertfisch, roh",
+    "names": {
+      "de": "Schwertfisch, roh",
+      "en": "Swordfish, raw",
+      "tr": "Kılıç balığı, çiğ",
+      "fr": "Espadon, cru",
+      "es": "Pez espada, crudo",
+      "pt": "Espadarte, cru",
+      "it": "Pesce spada, crudo",
+      "zh": "剑鱼（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kilic baligi",
+      "Schwertfisch"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 106,
+      "protein": 19.4,
+      "carbs": 0.0,
+      "fat": 3.1,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Schwertfisch, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code T612100 \"Schwertfisch roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:T612100"
+  },
+  {
+    "id": "zahnbrasse-roh",
+    "name": "Zahnbrasse, roh",
+    "names": {
+      "de": "Zahnbrasse, roh",
+      "en": "Common dentex, raw",
+      "tr": "Sinarit, çiğ",
+      "fr": "Denté commun, cru",
+      "es": "Dentón, crudo",
+      "pt": "Dentão, cru",
+      "it": "Dentice, crudo",
+      "zh": "齿鲷（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Sinarit",
+      "Dentex"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 102,
+      "protein": 17.0,
+      "carbs": 0.7,
+      "fat": 3.5,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Zahnbrasse, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 26103 \"Common dentex, raw\". Kohlenhydrate = verfügbare KH 0.65 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
+    "source_id": "Ciqual 2025:26103"
+  },
+  {
+    "id": "zackenbarsch-roh",
+    "name": "Zackenbarsch, roh",
+    "names": {
+      "de": "Zackenbarsch, roh",
+      "en": "Grouper, raw",
+      "tr": "Lahos, çiğ",
+      "fr": "Mérou, cru",
+      "es": "Mero, crudo",
+      "pt": "Garoupa, crua",
+      "it": "Cernia, cruda",
+      "zh": "石斑鱼（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Lahos",
+      "Grouper"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt. Ciqual Epinephelus spp., dazu gehört der Weiße Zackenbarsch (Lahos).",
+    "per100g": {
+      "kcal": 85,
+      "protein": 18.6,
+      "carbs": 0.7,
+      "fat": 0.9,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Zackenbarsch, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 26178 \"Grouper, raw\". Kohlenhydrate = verfügbare KH 0.72 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
+    "source_id": "Ciqual 2025:26178"
+  },
+  {
+    "id": "aehrenfisch-roh",
+    "name": "Ährenfisch, ganz, roh",
+    "names": {
+      "de": "Ährenfisch, ganz, roh",
+      "en": "Big-scale sand smelt, whole, raw",
+      "tr": "Gümüş balığı, çiğ",
+      "fr": "Joël, entier, cru",
+      "es": "Pejerrey, entero, crudo",
+      "pt": "Peixe-rei, inteiro, cru",
+      "it": "Latterino, intero, crudo",
+      "zh": "银汉鱼（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Gumus baligi",
+      "Atherina"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt. Ganzer kleiner Fisch, wie er frittiert wird.",
+    "per100g": {
+      "kcal": 89,
+      "protein": 17.5,
+      "carbs": 0.0,
+      "fat": 2.1,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 100
+    },
+    "ingredients": [
+      {
+        "name": "Ährenfisch, ganz, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 26240 \"Big-scale sand smelt (whole small fish), to fry, raw\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
+    "source_id": "Ciqual 2025:26240"
+  },
+  {
+    "id": "venusmuschel-roh",
+    "name": "Venusmuschel, roh",
+    "names": {
+      "de": "Venusmuschel, roh",
+      "en": "Venus clam, raw",
+      "tr": "Kum midyesi, çiğ",
+      "fr": "Palourde, crue",
+      "es": "Almeja, cruda",
+      "pt": "Amêijoa, crua",
+      "it": "Vongola verace, cruda",
+      "zh": "帘蛤（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kum midyesi",
+      "Venusmuschel"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 73,
+      "protein": 14.7,
+      "carbs": 1.4,
+      "fat": 1.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 100
+    },
+    "ingredients": [
+      {
+        "name": "Venusmuschel, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code T797100 \"Venusmuschel roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 1.4 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:T797100"
+  },
+  {
+    "id": "krabbe-roh",
+    "name": "Krabbe, roh",
+    "names": {
+      "de": "Krabbe, roh",
+      "en": "Crab, raw",
+      "tr": "Yengeç, çiğ",
+      "fr": "Crabe, cru",
+      "es": "Cangrejo, crudo",
+      "pt": "Caranguejo, cru",
+      "it": "Granchio, crudo",
+      "zh": "蟹（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Yengec",
+      "Taschenkrebs"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 104,
+      "protein": 19.5,
+      "carbs": 0.0,
+      "fat": 2.9,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 100
+    },
+    "ingredients": [
+      {
+        "name": "Krabbe, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 10039 \"Crab, raw\". Kohlenhydrate = verfügbare KH 0.027 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
+    "source_id": "Ciqual 2025:10039"
+  },
+  {
+    "id": "hummer-roh",
+    "name": "Hummer, roh",
+    "names": {
+      "de": "Hummer, roh",
+      "en": "Lobster, raw",
+      "tr": "Istakoz, çiğ",
+      "fr": "Homard, cru",
+      "es": "Bogavante, crudo",
+      "pt": "Lavagante, cru",
+      "it": "Astice, crudo",
+      "zh": "龙虾（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Istakoz",
+      "Hummer"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 81,
+      "protein": 15.9,
+      "carbs": 0.0,
+      "fat": 1.9,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 150
+    },
+    "ingredients": [
+      {
+        "name": "Hummer, roh",
+        "grams": 150
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code T730100 \"Hummer roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:T730100"
+  },
+  {
+    "id": "schafskopf-roh",
+    "name": "Schafskopf, roh",
+    "names": {
+      "de": "Schafskopf, roh",
+      "en": "Sheep head, raw",
+      "tr": "Koyun kellesi, çiğ",
+      "fr": "Tête de mouton, crue",
+      "es": "Cabeza de ovino, cruda",
+      "pt": "Cabeça de carneiro, crua",
+      "it": "Testa di pecora, cruda",
+      "zh": "羊头（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kelle",
+      "Schafskopf"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat (geschätzt), kein Fertigprodukt. Nahe Entsprechung, nicht identisch. Ciqual 21005 identisch mit 21004",
+    "per100g": {
+      "kcal": 204,
+      "protein": 18.1,
+      "carbs": 0.0,
+      "fat": 14.6,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Portion (Schätzung)",
+      "grams": 200
+    },
+    "ingredients": [
+      {
+        "name": "Schafskopf, roh",
+        "grams": 200
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Nahe Entsprechung, nicht identisch. Kelle (kuzu) ist der Lammkopf. Der Datensatz ist der Kopf vom ausgewachsenen Schaf, nicht vom Lamm. Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 21005 \"Sheep, head, raw\". Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
+    "derived_from": "Ciqual 2025:21005",
+    "method": "similar_food"
+  },
+  {
+    "id": "trinkwasser",
+    "name": "Trinkwasser",
+    "names": {
+      "de": "Trinkwasser",
+      "en": "Drinking water",
+      "tr": "İçme suyu",
+      "fr": "Eau potable",
+      "es": "Agua potable",
+      "pt": "Água potável",
+      "it": "Acqua potabile",
+      "zh": "饮用水"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Leitungswasser",
+      "Icme suyu"
+    ],
+    "cuisine": "int",
+    "category": "Getränk",
+    "is_packaged_product": false,
+    "unit": "g",
+    "note": "Generisches Getränk, kein Markenprodukt. Portion ist eine übliche Füllmenge, Schätzung, Dichte etwa 1 g/ml.",
+    "per100g": {
+      "kcal": 0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Glas (0,2 l, Schätzung)",
+      "grams": 200
+    },
+    "ingredients": [
+      {
+        "name": "Trinkwasser",
+        "grams": 200
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N110000 \"Trinkwasser\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:N110000"
+  },
+  {
+    "id": "fruchtbrause",
+    "name": "Brause, gesüßt",
+    "names": {
+      "de": "Brause, gesüßt",
+      "en": "Fruit-flavoured soda, sweetened",
+      "tr": "Meyveli soda",
+      "fr": "Boisson gazéifiée sucrée",
+      "es": "Refresco gasificado azucarado",
+      "pt": "Refrigerante gaseificado açucarado",
+      "it": "Bibita gassata zuccherata",
+      "zh": "甜汽水"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Meyveli soda",
+      "Fruchtige Brause"
+    ],
+    "cuisine": "int",
+    "category": "Getränk",
+    "is_packaged_product": false,
+    "unit": "g",
+    "note": "Generisches Getränk, kein Markenprodukt. Nahe Entsprechung. Portion ist eine übliche Füllmenge, Schätzung.",
+    "per100g": {
+      "kcal": 37,
+      "protein": 0.0,
+      "carbs": 9.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 9.0
+    },
+    "portion": {
+      "label": "1 Glas (0,2 l, Schätzung)",
+      "grams": 200
+    },
+    "ingredients": [
+      {
+        "name": "Brause, gesüßt",
+        "grams": 200
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Nahe Entsprechung, nicht identisch. Meyveli soda ist eine gesüßte Fruchtlimonade. Der Datensatz ist die BLS-Brause (carbonated sherbet), nicht eine einzelne Fruchtsorte. Die Variante mit Süßungsmitteln (BLS N321000, 15 kcal) ist nicht eingemischt. Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N323000 \"Brause\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 9 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "derived_from": "BLS 4.0:N323000",
+    "method": "similar_food"
+  },
+  {
+    "id": "pfirsichnektar",
+    "name": "Pfirsichnektar",
+    "names": {
+      "de": "Pfirsichnektar",
+      "en": "Peach nectar",
+      "tr": "Şeftali nektarı",
+      "fr": "Nectar de pêche",
+      "es": "Néctar de melocotón",
+      "pt": "Néctar de pêssego",
+      "it": "Nettare di pesca",
+      "zh": "桃果肉饮料"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Seftali nektari",
+      "Pfirsichnektar"
+    ],
+    "cuisine": "int",
+    "category": "Getränk",
+    "is_packaged_product": false,
+    "unit": "g",
+    "note": "Generisches Getränk, kein Markenprodukt. Portion ist eine übliche Füllmenge, Schätzung, Dichte etwa 1 g/ml.",
+    "per100g": {
+      "kcal": 48,
+      "protein": 0.3,
+      "carbs": 11.7,
+      "fat": 0.0,
+      "fiber": 0.1,
+      "sugar": 11.1
+    },
+    "portion": {
+      "label": "1 Glas (0,2 l, Schätzung)",
+      "grams": 200
+    },
+    "ingredients": [
+      {
+        "name": "Pfirsichnektar",
+        "grams": 200
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code F203700 \"Pfirsichnektar\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 11.6 g + Ballaststoffe 0.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT. Organische Säuren 0.28 g gehen in der BLS- oder Ciqual-Formel mit 3 kcal/g in die veröffentlichte Energie ein.",
+    "source_id": "BLS 4.0:F203700"
+  },
+  {
+    "id": "aprikosennektar",
+    "name": "Aprikosennektar",
+    "names": {
+      "de": "Aprikosennektar",
+      "en": "Apricot nectar",
+      "tr": "Kayısı nektarı",
+      "fr": "Nectar d'abricot",
+      "es": "Néctar de albaricoque",
+      "pt": "Néctar de alperce",
+      "it": "Nettare di albicocca",
+      "zh": "杏果肉饮料"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kayisi nektari"
+    ],
+    "cuisine": "int",
+    "category": "Getränk",
+    "is_packaged_product": false,
+    "unit": "g",
+    "note": "Generisches Getränk, kein Markenprodukt. Portion ist eine übliche Füllmenge, Schätzung, Dichte etwa 1 g/ml.",
+    "per100g": {
+      "kcal": 59,
+      "protein": 0.2,
+      "carbs": 13.8,
+      "fat": 0.0,
+      "fiber": 0.1,
+      "sugar": 11.0
+    },
+    "portion": {
+      "label": "1 Glas (0,2 l, Schätzung)",
+      "grams": 200
+    },
+    "ingredients": [
+      {
+        "name": "Aprikosennektar",
+        "grams": 200
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 2043 \"Apricot nectar\". Kohlenhydrate = verfügbare KH 13.7 g + Ballaststoffe 0.08 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Organische Säuren 0.8 g gehen in der BLS- oder Ciqual-Formel mit 3 kcal/g in die veröffentlichte Energie ein. Kontrolle 4*(KH-BST)+4*P+9*F+2*BST = 55.8 kcal, veröffentlicht 59 kcal, Differenz +3.2 kcal. Der Abstand entspricht in der Größenordnung den organischen Säuren.",
+    "source_id": "Ciqual 2025:2043"
+  },
+  {
+    "id": "mehrfruchtnektar",
+    "name": "Mehrfruchtnektar",
+    "names": {
+      "de": "Mehrfruchtnektar",
+      "en": "Mixed fruit nectar",
+      "tr": "Karışık meyve nektarı",
+      "fr": "Nectar multifruits",
+      "es": "Néctar de frutas variadas",
+      "pt": "Néctar de frutos variados",
+      "it": "Nettare di frutta mista",
+      "zh": "混合水果饮料"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Karisik meyve nektari",
+      "Multifruchtnektar"
+    ],
+    "cuisine": "int",
+    "category": "Getränk",
+    "is_packaged_product": false,
+    "unit": "g",
+    "note": "Generisches Getränk, kein Markenprodukt. Portion ist eine übliche Füllmenge, Schätzung. Die Variante mit Süßungsmitteln (BLS F013700, 22 kcal) ist nicht eingemischt.",
+    "per100g": {
+      "kcal": 42,
+      "protein": 0.2,
+      "carbs": 10.6,
+      "fat": 0.0,
+      "fiber": 0.2,
+      "sugar": 10.1
+    },
+    "portion": {
+      "label": "1 Glas (0,2 l, Schätzung)",
+      "grams": 200
+    },
+    "ingredients": [
+      {
+        "name": "Mehrfruchtnektar",
+        "grams": 200
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code F012700 \"Mehrfruchtnektar\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 10.36 g + Ballaststoffe 0.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT.",
+    "source_id": "BLS 4.0:F012700"
+  },
+  {
+    "id": "orangensaft-verpackt",
+    "name": "Orangensaft, verpackt",
+    "names": {
+      "de": "Orangensaft, verpackt",
+      "en": "Orange juice, packaged",
+      "tr": "Portakal suyu (paket)",
+      "fr": "Jus d'orange conditionné",
+      "es": "Zumo de naranja envasado",
+      "pt": "Sumo de laranja embalado",
+      "it": "Succo d'arancia confezionato",
+      "zh": "橙汁（包装）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Portakal suyu paket",
+      "Orangensaft aus der Packung"
+    ],
+    "cuisine": "int",
+    "category": "Getränk",
+    "is_packaged_product": false,
+    "unit": "g",
+    "note": "Generisches Getränk, kein Markenprodukt. Saft, nicht die Frucht. Portion ist eine übliche Füllmenge, Schätzung.",
+    "per100g": {
+      "kcal": 41,
+      "protein": 0.8,
+      "carbs": 8.8,
+      "fat": 0.0,
+      "fiber": 0.3,
+      "sugar": 8.5
+    },
+    "portion": {
+      "label": "1 Glas (0,2 l, Schätzung)",
+      "grams": 200
+    },
+    "ingredients": [
+      {
+        "name": "Orangensaft, verpackt",
+        "grams": 200
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code F603600 \"Orangensaft\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 8.5 g + Ballaststoffe 0.31 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT. Fett liegt unter der Bestimmungsgrenze und ist als 0 g gesetzt. Organische Säuren 0.98 g gehen in der BLS- oder Ciqual-Formel mit 3 kcal/g in die veröffentlichte Energie ein. Kontrolle 4*(KH-BST)+4*P+9*F+2*BST = 37.8 kcal, veröffentlicht 41 kcal, Differenz +3.2 kcal. Der Abstand entspricht in der Größenordnung den organischen Säuren.",
+    "source_id": "BLS 4.0:F603600"
+  },
+  {
+    "id": "eistee-zitrone-pfirsich",
+    "name": "Eistee, Zitrone oder Pfirsich, gesüßt",
+    "names": {
+      "de": "Eistee, Zitrone oder Pfirsich, gesüßt",
+      "en": "Iced tea, lemon or peach, sweetened",
+      "tr": "Soğuk çay (şeftalili veya limonlu)",
+      "fr": "Thé glacé citron ou pêche, sucré",
+      "es": "Té helado de limón o melocotón, azucarado",
+      "pt": "Chá gelado de limão ou pêssego, açucarado",
+      "it": "Tè freddo al limone o alla pesca, zuccherato",
+      "zh": "冰茶（柠檬或桃）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Ice tea seftali",
+      "Eistee Pfirsich",
+      "Eistee Zitrone",
+      "Ice tea"
+    ],
+    "cuisine": "int",
+    "category": "Getränk",
+    "is_packaged_product": false,
+    "unit": "g",
+    "note": "Generisches Getränk, kein Markenprodukt. BLS fasst Zitrone und Pfirsich in einem Datensatz. Portion ist eine übliche Füllmenge, Schätzung.",
+    "per100g": {
+      "kcal": 25,
+      "protein": 0.0,
+      "carbs": 6.2,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 6.2
+    },
+    "portion": {
+      "label": "1 Glas (0,2 l, Schätzung)",
+      "grams": 200
+    },
+    "ingredients": [
+      {
+        "name": "Eistee, Zitrone oder Pfirsich, gesüßt",
+        "grams": 200
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N019000 \"Eistee mit Zitronen-/Pfirsichgeschmack, gesüßt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 6.2 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. FIBLMW ist leer oder 0, Ballaststoffe daher FIBT. Fett liegt unter der Bestimmungsgrenze und ist als 0 g gesetzt.",
+    "source_id": "BLS 4.0:N019000"
+  },
+  {
+    "id": "energydrink-mit-zucker",
+    "name": "Energydrink, mit Zucker",
+    "names": {
+      "de": "Energydrink, mit Zucker",
+      "en": "Energy drink, with sugar",
+      "tr": "Enerji içeceği, şekerli",
+      "fr": "Boisson énergisante sucrée",
+      "es": "Bebida energética con azúcar",
+      "pt": "Bebida energética com açúcar",
+      "it": "Energy drink zuccherato",
+      "zh": "含糖能量饮料"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Enerji icecegi",
+      "Energy Drink mit Zucker"
+    ],
+    "cuisine": "int",
+    "category": "Getränk",
+    "is_packaged_product": false,
+    "unit": "g",
+    "note": "Generisches Getränk, kein Markenprodukt. Nur die gezuckerte Stufe. Zuckerfrei (Ciqual 18353, 9 kcal) ist nicht eingemischt. Portion ist eine übliche Füllmenge, Schätzung.",
+    "per100g": {
+      "kcal": 41,
+      "protein": 0.1,
+      "carbs": 10.3,
+      "fat": 0.0,
+      "fiber": 0.1,
+      "sugar": 10.2
+    },
+    "portion": {
+      "label": "1 Dose (0,25 l, Schätzung)",
+      "grams": 250
+    },
+    "ingredients": [
+      {
+        "name": "Energydrink, mit Zucker",
+        "grams": 250
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 18352 \"Energy drink, with sugar(s)\". Kohlenhydrate = verfügbare KH 10.2 g + Ballaststoffe 0.11 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC). Fett ist nur als Spuren angegeben und als 0 g gesetzt.",
+    "source_id": "Ciqual 2025:18352"
+  },
+  {
+    "id": "kakaomilch-2-prozent",
+    "name": "Kakaomilch, 2 % Fett",
+    "names": {
+      "de": "Kakaomilch, 2 % Fett",
+      "en": "Chocolate milk, 2% fat",
+      "tr": "Kakaolu süt, %2 yağ",
+      "fr": "Lait chocolaté 2 % MG",
+      "es": "Leche con chocolate 2 % grasa",
+      "pt": "Leite com chocolate 2 % gordura",
+      "it": "Latte al cioccolato 2 % di grassi",
+      "zh": "巧克力奶（2%脂肪）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kakaolu sut",
+      "Schokomilch 2 Prozent"
+    ],
+    "cuisine": "int",
+    "category": "Getränk",
+    "is_packaged_product": false,
+    "unit": "g",
+    "note": "Generisches Getränk, kein Markenprodukt. Fettstufe 2 %. Andere Fettstufen sind nicht eingemischt.",
+    "per100g": {
+      "kcal": 76,
+      "protein": 3.0,
+      "carbs": 12.1,
+      "fat": 1.9,
+      "fiber": 0.7,
+      "sugar": 9.6
+    },
+    "portion": {
+      "label": "1 Tasse (FNDDS)",
+      "grams": 248
+    },
+    "ingredients": [
+      {
+        "name": "Kakaomilch, 2 % Fett",
+        "grams": 248
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, FNDDS 2021-2023 (Survey Foods, Release 2024-10-31), gemeinfrei (CC0 1.0), FDC ID 2705468: Chocolate milk, reduced fat (2%). Kohlenhydrate sind Carbohydrate by difference und damit bereits Gesamt-Kohlenhydrate inklusive Ballaststoffe. Ballaststoffe sind Fiber, total dietary (AOAC). kcal wie veröffentlicht.",
+    "fdc_id": 2705468
+  },
+  {
+    "id": "ziegenmilch-vollfett-roh",
+    "name": "Ziegenmilch, vollfett, roh",
+    "names": {
+      "de": "Ziegenmilch, vollfett, roh",
+      "en": "Goat milk, whole, raw",
+      "tr": "Keçi sütü, tam yağlı, çiğ",
+      "fr": "Lait de chèvre entier, cru",
+      "es": "Leche de cabra entera, cruda",
+      "pt": "Leite de cabra gordo, cru",
+      "it": "Latte di capra intero, crudo",
+      "zh": "山羊奶（全脂，生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Keci sutu",
+      "Ziegenmilch vollfett"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Milchprodukte & Eier",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt. Vollfett roh. Halbfett UHT (Ciqual 19201, 46 kcal, 1,6 g Fett) und vollfett UHT (Ciqual 19200, 65 kcal, 4,0 g Fett) sind nicht eingemischt.",
+    "per100g": {
+      "kcal": 57,
+      "protein": 3.2,
+      "carbs": 4.0,
+      "fat": 3.2,
+      "fiber": 0.0,
+      "sugar": 4.0
+    },
+    "portion": {
+      "label": "1 Glas (0,2 l, Schätzung)",
+      "grams": 200
+    },
+    "ingredients": [
+      {
+        "name": "Ziegenmilch, vollfett, roh",
+        "grams": 200
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual, French food composition table, Version 2025, Zenodo-Record 17550133, Licence Ouverte Etalab 2.0 (Stand 3.11.2025); Code 19202 \"Goat milk, whole, raw\". Kohlenhydrate = verfügbare KH 4.01 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe laut Ciqual (AOAC).",
+    "source_id": "Ciqual 2025:19202"
+  },
+  {
+    "id": "kaffee-3-in-1-zubereitet",
+    "name": "Kaffee, 3-in-1, zubereitet",
+    "names": {
+      "de": "Kaffee, 3-in-1, zubereitet",
+      "en": "3-in-1 coffee, prepared",
+      "tr": "3'ü 1 arada kahve, hazırlanmış",
+      "fr": "Café 3-en-1, préparé",
+      "es": "Café 3 en 1, preparado",
+      "pt": "Café 3 em 1, preparado",
+      "it": "Caffè 3 in 1, preparato",
+      "zh": "三合一咖啡（冲好）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "3u 1 arada",
+      "3 in 1 Kaffee zubereitet"
+    ],
+    "cuisine": "int",
+    "category": "Getränk",
+    "is_packaged_product": false,
+    "unit": "g",
+    "note": "Generisches Getränk, kein Markenprodukt. Zubereiteter Instantkaffee, vorgesüßt und mit Kaffeeweißer. Portion ist eine übliche Tasse, Schätzung. Ballaststoffe 0 g laut Datensatz.",
+    "per100g": {
+      "kcal": 27,
+      "protein": 0.2,
+      "carbs": 5.1,
+      "fat": 0.7,
+      "fiber": 0.0,
+      "sugar": 3.5
+    },
+    "portion": {
+      "label": "1 Tasse (Schätzung)",
+      "grams": 200
+    },
+    "ingredients": [
+      {
+        "name": "Kaffee, 3-in-1, zubereitet",
+        "grams": 200
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, FNDDS 2021-2023 (Survey Foods, Release 2024-10-31), gemeinfrei (CC0 1.0), FDC ID 2710454: Coffee, instant, pre-lightened and pre-sweetened with sugar, reconstituted.",
+    "fdc_id": 2710454
+  },
+  {
+    "id": "eiskaffee-fertig",
+    "name": "Eiskaffee, Fertiggetränk",
+    "names": {
+      "de": "Eiskaffee, Fertiggetränk",
+      "en": "Iced coffee, ready to drink",
+      "tr": "Soğuk kahve (hazır)",
+      "fr": "Café glacé prêt à boire",
+      "es": "Café helado listo para beber",
+      "pt": "Café gelado pronto a beber",
+      "it": "Caffè freddo pronto da bere",
+      "zh": "即饮冰咖啡"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Soguk kahve hazir",
+      "Eiskaffee gesüßt"
+    ],
+    "cuisine": "int",
+    "category": "Getränk",
+    "is_packaged_product": false,
+    "unit": "g",
+    "note": "Generisches Getränk, kein Markenprodukt. Portion = übliche Füllmenge, Schätzung, Dichte ca. 1 g/ml angenommen.",
+    "per100g": {
+      "kcal": 54,
+      "protein": 2.9,
+      "carbs": 8.1,
+      "fat": 1.2,
+      "fiber": 0.2,
+      "sugar": 7.8
+    },
+    "portion": {
+      "label": "1 Flasche (0,25 l, Schätzung)",
+      "grams": 250
+    },
+    "ingredients": [
+      {
+        "name": "Eiskaffee, Fertiggetränk",
+        "grams": 250
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code M2A7200 \"Milchmischgetränk 1,5 % Fett, mit Kaffee, gesüßt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 7.9 g + Ballaststoffe 0.203 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:M2A7200"
   }
 ]

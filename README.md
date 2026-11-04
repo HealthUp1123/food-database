@@ -162,7 +162,7 @@ node scripts/validate.mjs
 
 Prüft Pflichtfelder (einschließlich `cuisine`, `category`, `ingredients`, `quality`, `source`), die optionalen Felder `prepared`, `is_packaged_product`, `off_similar`, `state`, `unit`, `note`, `fdc_id`, `source_id`, `source_missing`, `derived_from`, `method`, `per100g.sugar` und `per100g.alcohol`, die Regeln für Grundzutaten (`type: "item"`, kein Barcode, kein Fertigprodukt), Wertebereiche (kcal 0–950, Makros 0–100 g, Protein + Kohlenhydrate + Fett ≤ 100 g + 0,15 g Rundung), eindeutige `id`s, eindeutige Barcodes und die EAN-Prüfziffer. **`barcode: null` ist erlaubt** und erzeugt keinen Fehler. Ein Gericht mit `is_packaged_product: true` ist ein Fehler.
 
-Weicht `kcal` stark von `4·Protein + 4·Kohlenhydrate + 9·Fett` (+ `7·alcohol`, falls gesetzt) ab, gibt es eine **Warnung**, keinen Fehler. Erwartet sind derzeit 35 Warnungen: ältere geschätzte Getränke mit Alkohol ohne `alcohol`-Feld (Ethanol liefert etwa 7 kcal/g), ballaststoffreiche Grundzutaten wie Kleie und getrocknete Kräuter sowie die BLS-Datensätze `knoblauch-im-ofen-gebacken`/`knoblauch-gebraten-ohne-fett` (BLS zählt Fructane als Ballaststoffe, kcal wie veröffentlicht).
+Weicht `kcal` stark von `4·Protein + 4·Kohlenhydrate + 9·Fett` (+ `7·alcohol`, falls gesetzt) ab, gibt es eine **Warnung**, keinen Fehler. Erwartet sind derzeit 37 Warnungen: ältere geschätzte Getränke mit Alkohol ohne `alcohol`-Feld (Ethanol liefert etwa 7 kcal/g), ballaststoffreiche Grundzutaten wie Kleie und getrocknete Kräuter (dazu `zimt-gemahlen` und `paprikapulver-edelsuess`, USDA-Energiefaktoren statt 4/4/9) sowie die BLS-Datensätze `knoblauch-im-ofen-gebacken`/`knoblauch-gebraten-ohne-fett` (BLS zählt Fructane als Ballaststoffe, kcal wie veröffentlicht).
 
 Bei echten Fehlern ist der Exit-Code `1`. Es braucht nur Node ≥ 20, keine Installation. Die GitHub Action `.github/workflows/validate.yml` läuft bei jedem Push und Pull Request.
 
@@ -203,7 +203,7 @@ BASE="https://food-database-api.<dein-account>.workers.dev"
 
 ```bash
 curl "$BASE/health"
-# {"status":"ok","count":5257,"languages":["de","en","tr","fr","es","pt","it","zh"]}
+# {"status":"ok","count":5348,"languages":["de","en","tr","fr","es","pt","it","zh"]}
 
 curl "$BASE/search?q=karniyarik&limit=5"
 # {"query":"karniyarik","count":1,"results":[{"id":"karniyarik","name":"Karnıyarık","barcode":null, ...}]}
@@ -241,7 +241,7 @@ Wenn du keine API betreiben willst, lädst du die Rohdatei einmal und suchst lok
 https://raw.githubusercontent.com/HealthUp1123/food-database/main/data/foods.json
 ```
 
-Das ist bei diesem Datenumfang (5257 Einträge) praktikabel. Für die Zutatenliste brauchst du keinen zweiten Endpunkt, die Datei enthält sie bereits. In der Such-API fehlt `ingredients` in der Trefferliste absichtlich; `GET /item/{id}` liefert sie nach.
+Das ist bei diesem Datenumfang (5348 Einträge) praktikabel. Für die Zutatenliste brauchst du keinen zweiten Endpunkt, die Datei enthält sie bereits. In der Such-API fehlt `ingredients` in der Trefferliste absichtlich; `GET /item/{id}` liefert sie nach.
 
 ## Einbau in die App: Suchfeld mit Live-Suche (Debounce)
 
@@ -320,7 +320,38 @@ Rezepttexte und die Zutaten-Referenz liegen unter `tools/dishes/` (`build.py`, `
 python3 build.py
 ```
 
-Das schreibt dort `foods.json`, eine aktualisierte `ingredients.json` und `build_report.txt`. Danach den OFF-Abgleich (`tools/off_check.py`, siehe BUILD_NOTES) und die neue `foods.json` nach `data/foods.json` kopieren. `node scripts/validate.mjs` laufen lassen. Nicht committen: `build_report.txt`, `__pycache__/`, `*.log`, `off_dump/`, `off_check_cache.sqlite`, `off_check_status*.json`, `*.duckdb`.
+Das schreibt `tools/dishes/foods.json`, eine aktualisierte `ingredients.json` und `build_report.txt`. Die App-Datei ist `data/foods.json`. Der Build liest sie als Bestand (Grundzutaten, Referenzen, `names`, `prepared`, `is_packaged_product` und weitere) und überschreibt sie nicht. Liegt `tools/dishes/reference_overrides.json`, muss sie eine Liste im Format aus PR #15 sein (`id`, `per100g`, `quality`, `source`, `source_id`; optional `fdc_id` und `note`). Overrides ersetzen keine Zutatenlisten.
+
+Danach der OFF-Abgleich, im Verzeichnis `tools/dishes` (`tools/off_check.py`, Einzelheiten in `BUILD_NOTES.md`):
+
+```bash
+cp foods.json foods_before_off.json
+python3 tools/off_check.py check --backend dump --input foods_before_off.json
+python3 tools/off_check.py apply --input foods_before_off.json --out foods.json --removed removed_in_off.json --backends api,dump
+```
+
+Erst die geprüfte `tools/dishes/foods.json` nach `data/foods.json` kopieren, dann `npm test`. Nicht committen: `build_report.txt`, `tools/dishes/foods.json`, `foods_before_off.json`, `__pycache__/`, `*.log`, `off_dump/`, `off_check_cache.sqlite`, `off_check_status*.json`, `*.duckdb`.
+
+Der Build hängt ein gelöschtes Rezeptgericht wieder an, solange die Zeile in `batches/*.py` steht. Wer einen Eintrag entfernt, muss die Batchzeile mit entfernen, sonst liegt das Gericht in der nächsten `tools/dishes/foods.json` wieder vor.
+
+## Schutztest
+
+`npm test` führt am Ende `node scripts/guard-foods.mjs` aus. Das Skript startet `python3 tools/dishes/build.py` und vergleicht zwei Paare:
+
+- `tools/dishes/foods.json` mit der Arbeitskopie `data/foods.json`: fehlende ID, geschrumpfte `names` oder `synonyms`, abweichendes `prepared` oder `is_packaged_product`, abweichende `kcal` oder Makros.
+- die Arbeitskopie mit `data/foods.json` aus der Git-Basis, geladen mit `git show <ref>:data/foods.json`. Die Basis ist `git merge-base HEAD origin/main`. Ist dieser Commit `HEAD` selbst (Push oder Merge auf `main`), gilt `github.event.before`, sonst `HEAD^1`. Gegen `HEAD` selbst wird nicht geprüft. `origin/main` muss vorhanden sein (`git fetch origin main`); ohne den Ref wird der Test rot. `GUARD_ALLOW_NO_MAIN=1` umgeht das nur ausdrücklich und schreibt eine Warnung. Die Action holt die Historie (`fetch-depth: 0`) und `origin/main` und setzt `GITHUB_EVENT_BEFORE`. Bei Rot steht die Basis in der ersten Fehlerzeile.
+
+Rot, wenn eine ID verschwindet, ein Synonym wegfällt (auch bei Rezeptgerichten; jeder Verlust braucht `dropSynonym`) oder `prepared` bzw. `is_packaged_product` sich ändert. Änderungen an `names`, `quality` und `source` sind Warnungen, kein Fehler. Neue Einträge sind erlaubt. Die Zahl der Einträge darf nicht unter `minEntries` in `tools/guard/min-entries.json` fallen. Diese Zahl wird nur bewusst geändert. `names.de`, `names.tr` und `names.en` dürfen nicht leer sein.
+
+### Gewollte Löschungen und Wertänderungen
+
+Stille Edits nur in `data/foods.json` werden rot, auch wenn der Build sie mitkopiert. Gewollte Fälle stehen mit Begründung in `tools/guard/allowed-changes.json` (standardmäßig leer). Eine Freigabe, die der aktuelle Diff gegen die Basis nicht braucht, ist rot (`unbenutzte Freigabe`). Steht die Änderung auf `main`, ist die Freigabe verbraucht und muss geleert werden.
+
+- Löschung wie in PR #11: `{ "id": "…", "reason": "…" }` unter `delete`, die Batchzeile entfernen, und `minEntries` senken, wenn die Anzahl darunter fällt.
+- Umbenennung: `{ "from": "alte-id", "to": "neue-id", "reason": "…" }` unter `rename`. Die alte Batchzeile muss weg, sonst erzeugt der Build die alte ID wieder.
+- Jeder Synonymverlust, auch bei Rezeptgerichten: `{ "id": "…", "synonym": "…", "reason": "…" }` unter `dropSynonym`.
+- `prepared`: `{ "id": "…", "from": "homemade", "to": "restaurant", "reason": "…" }`. `from` und `to` sind der Alt- und der Neuwert.
+- `is_packaged_product`: `{ "id": "…", "from": false, "to": true, "reason": "…" }` unter `isPackagedProduct`. `from` und `to` sind boolesch.
 
 ## Roadmap
 

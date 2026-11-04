@@ -18,7 +18,7 @@ BASE = {
  'fruehlingszwiebel': ('Frühlingszwiebeln|Spring onions|Taze soğan|Oignons nouveaux|Cebolletas|Cebolinho|Cipollotti|葱', {'de': ['Lauchzwiebeln']}),
  'chicoree': ('Chicorée|Belgian endive|Hindiba|Endive|Endibia|Endívia|Indivia belga|菊苣', {}),
  'mangold': ('Mangold|Swiss chard|Pazı|Blettes|Acelgas|Acelga|Bietola|瑞士甜菜', {}),
- 'gruenkohl': ('Grünkohl|Kale|Kara lahana|Chou kale|Col rizada|Couve-galega|Cavolo riccio|羽衣甘蓝', {}),
+ 'gruenkohl': ('Grünkohl|Kale|Kale lahanası (Kale)|Chou kale|Col rizada|Couve-galega|Cavolo riccio|羽衣甘蓝', {}),
  'erbsen': ('Erbsen grün|Green peas|Bezelye|Petits pois|Guisantes|Ervilhas|Piselli|青豌豆', {}),
  'knoblauch': ('Knoblauch|Garlic|Sarımsak|Ail|Ajo|Alho|Aglio|大蒜', {}),
  'schalotte': ('Schalotten|Shallots|Arpacık soğan|Échalotes|Chalotas|Chalotas|Scalogni|红葱头', {}),
