@@ -16,7 +16,7 @@ Patates Kebabı | Kartoffelkebap Kebab, Potato Kebab | KB | 0.85 | 1 Portion | l
 Tandır Kebabı | Tandır Kebap, Lamm aus dem Tandır | KB | 0.7 | 1 Portion | lamm 280, zwiebel 20, lavas 40
 Ciğer Şiş | Leberspieß, Liver Shish | KB | 0.78 | 1 Portion | leber 190, zwiebel 40, lavas 50, pul_biber 1, oel 5
 Ciğer Kebabı Adana | Adana Leberkebap | KB | 0.78 | 1 Portion | leber 170, schwanzfett 15, zwiebel 30, lavas 50, petersilie 4
-Kanat Izgara | Hähnchenflügel vom Grill, Grilled chicken wings | KB | 0.75 | 1 Portion | hahn 240, oel 8, joghurt 20, paprikamark 5
+Kanat Izgara | Hähnchenflügel vom Grill, Grilled chicken wings, Tavuk kanat, Tavuk kanat ızgara | KB | 0.75 | 1 Portion | hahn 240, oel 8, joghurt 20, paprikamark 5
 Tavuk Pirzola | Hähnchen-Koteletts, Chicken chops | KB | 0.75 | 1 Portion | hahn_keule 220, oel 10, joghurt 20, tomate 30, paprika 20
 Kuzu Pirzola | Lammkoteletts vom Grill, Lamb chops | KB | 0.7 | 1 Portion | lamm_kotelett 250, oel 6, oregano 1
 Kuzu Kaburga | Lammrippchen, Lamb ribs | KB | 0.68 | 1 Portion | lamm 280, oel 5, oregano 1
@@ -28,14 +28,14 @@ Kaburga Dolması | Gefüllte Lammbrust | KB | 0.72 | 1 Portion | lamm 200, reis 
 Hünkar Beğendi | Sultansfreude, Auberginenpüree mit Lamm | KB | 0.85 | 1 Portion | lamm 140, aubergine 200, milch 60, butter 15, mehl 10, kasar 20, zwiebel 30, tomate 30
 Sac Tava | Sač-Tava, Fleisch-Pfanne | KB | 0.8 | 1 Portion | rind 150, paprika 50, tomate 60, zwiebel 40, sivri 30, oel 15, butter 8
 Et Sote | Fleisch-Sauté, Beef sauté | KB | 0.8 | 1 Portion | rind_steak 160, paprika 40, zwiebel 30, tomate 40, pilz 40, oel 12, butter 8
-Tavuk Sote | Hähnchen-Sauté, Chicken sauté | HG | 0.8 | 1 Portion | hahn_brust 150, paprika 40, zwiebel 30, tomate 50, pilz 40, oel 12
+Tavuk Sote | Hähnchen-Sauté, Chicken sauté, Tavuk yemeği | HG | 0.8 | 1 Portion | hahn_brust 150, paprika 40, zwiebel 30, tomate 50, pilz 40, oel 12
 Kebap Tabağı Karışık | Gemischter Kebabteller, Mixed grill plate | KB | 0.75 | 1 Portion | lamm_hack 100, lamm 80, hahn_brust 80, lavas 60, tomate 40, paprika 30, zwiebel 30, oel 6
-Döner Kebap (Dürüm) | Dürüm Döner, Döner im Wrap, Doener Rolle | KB | 0.9 | 1 Dürüm | lamm 60, hack 60, lavas 90, tomate 30, zwiebel 25, salat 20, joghurt 20, oel 8
+Döner Kebap (Dürüm) | Dürüm Döner, Döner im Wrap, Doener Rolle, Et dürüm | KB | 0.9 | 1 Dürüm | lamm 60, hack 60, lavas 90, tomate 30, zwiebel 25, salat 20, joghurt 20, oel 8
 Tavuk Döner Dürüm | Hähnchen-Döner-Wrap, Chicken doner wrap | KB | 0.9 | 1 Dürüm | hahn_keule 120, lavas 90, tomate 30, zwiebel 20, salat 20, joghurt 20, oel 8
-Döner Kebap Porsiyon | Döner Teller, Doner plate | KB | 0.85 | 1 Teller | lamm 90, hack 90, reis 40, wasser 70, tomate 40, salat 30, zwiebel 20, oel 8
+Döner Kebap Porsiyon | Döner Teller, Doner plate, Et döner | KB | 0.85 | 1 Teller | lamm 90, hack 90, reis 40, wasser 70, tomate 40, salat 30, zwiebel 20, oel 8
 Döner Ekmek Arası | Döner im Brot, Doener im Fladenbrot | KB | 0.9 | 1 Brot | lamm 70, hack 70, ekmek 120, tomate 30, zwiebel 25, salat 25, joghurt 25, oel 8
 Çiğ Köfte (Etli) | Çiğ Köfte, Rohes Hack, Raw meat köfte Urfa | KF | 1.0 | 1 Portion | hack 120, bulgur 40, tomatenmark 10, paprikamark 8, zwiebel 30, pul_biber 3, petersilie 8, wasser 30
-Çiğ Köfte (Etsiz) | Vegetarische Çiğ Köfte, Vegan çiğ köfte | KF | 1.0 | 1 Portion | bulgur 50, tomatenmark 15, paprikamark 12, zwiebel 20, pul_biber 3, petersilie 10, granatapfel 1, wasser 60, olivenoel 8, salat 15
+Çiğ Köfte (Etsiz) | Vegetarische Çiğ Köfte, Vegan çiğ köfte, Çiğköfte | KF | 1.0 | 1 Portion | bulgur 50, tomatenmark 15, paprikamark 12, zwiebel 20, pul_biber 3, petersilie 10, granatapfel 1, wasser 60, olivenoel 8, salat 15
 Izgara Köfte | Gegrillte Köfte, Grilled meatballs | KF | 0.75 | 1 Portion | hack 160, zwiebel 20, paniermehl 15, ei 10, pul_biber 1, tomate 30, paprika 25, lavas 40
 İnegöl Köfte | Inegöl Köfte, Inegöl Frikadellen | KF | 0.75 | 1 Portion | hack 150, rind_fett 20, zwiebel 20, paniermehl 10, ekmek 70, tomate 25, sivri 25
 Tekirdağ Köfte | Tekirdag Köfte | KF | 0.75 | 1 Portion | hack 160, zwiebel 20, paniermehl 8, ei 10, kartoffel 100, tomate 25, oel 12

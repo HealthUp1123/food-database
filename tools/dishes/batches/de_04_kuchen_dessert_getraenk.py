@@ -60,7 +60,7 @@ Schneeballen | Schneeballen, Snowballs pastry | G | 0.9 | 1 Stück | mehl 50, bu
 Florentiner | Florentiner, Florentines | G | 1.0 | 2 Stück | mandel 20, zucker 12, sahne 10, schokolade 15, honig 5
 Rote Grütze | Rote Grütze mit Vanillesoße, Red berry pudding | PU | 1.0 | 1 Schälchen | himbeere 60, erdbeere 50, sauerkirsche 50, zucker 25, staerke 10, wasser 80
 Vanillepudding | Vanillepudding, Vanilla pudding | PU | 1.0 | 1 Schälchen | milch 200, zucker 20, vanillepudding_pulver 15
-Schokopudding | Schokoladenpudding, Chocolate pudding German | PU | 1.0 | 1 Schälchen | milch 200, zucker 20, kakao 8, vanillepudding_pulver 12
+Schokopudding | Schokoladenpudding, Chocolate pudding German, Kakaolu puding | PU | 1.0 | 1 Schälchen | milch 200, zucker 20, kakao 8, vanillepudding_pulver 12
 Grießpudding | Grießpudding, Semolina pudding | PU | 1.0 | 1 Schälchen | milch 200, griess 20, zucker 15, ei 10
 Vanillesoße | Vanillesauce, Vanilla sauce | SD | 1.0 | 1 Portion | milch 100, zucker 10, staerke 6, ei 10
 Götterspeise | Wackelpudding, Jelly dessert | PU | 1.0 | 1 Schälchen | wasser 150, zucker 20, gelatine 6

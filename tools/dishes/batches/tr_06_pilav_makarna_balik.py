@@ -9,7 +9,7 @@ Nohutlu Bulgur Pilavı | Bulgur mit Kichererbsen | RP | 0.95 | 1 Teller | bulgur
 Mercimekli Bulgur Pilavı | Bulgur mit Linsen, Bulgur pilaf with lentils | RP | 0.95 | 1 Teller | bulgur 55, linsen 20, zwiebel 30, oel 10, wasser 170
 Perde Pilavı | Siirt Perde Pilavı, Pilaf im Teigmantel, Siirt pilaf | RP | 0.9 | 1 Portion | reis 60, hahn 60, mandel 12, rosinen 10, butter 15, mehl 40, ei 20, wasser 100
 İç Pilav | Iç Pilav, Gewürzreis mit Leber und Pinienkernen, Spiced rice with liver | RP | 0.95 | 1 Teller | reis 70, huhn_leber 35, pinienkerne 8, rosinen 8, zwiebel 20, butter 12, zimt 1, wasser 140
-Hamsi Pilavı | Reis mit Sardellen, Anchovy pilaf | RP | 0.9 | 1 Teller | reis 60, sardelle 100, zwiebel 40, butter 10, pinienkerne 6, rosinen 6, zimt 1, wasser 120
+Hamsi Pilavı | Reis mit Sardellen, Anchovy pilaf, Hamsili pilav | RP | 0.9 | 1 Teller | reis 60, sardelle 100, zwiebel 40, butter 10, pinienkerne 6, rosinen 6, zimt 1, wasser 120
 Midye Pilavı | Reis mit Miesmuscheln, Mussel pilaf | RP | 0.95 | 1 Teller | reis 60, muschel 90, zwiebel 30, pinienkerne 6, rosinen 6, olivenoel 10, wasser 120
 Etli Pilav | Reis mit Fleisch, Pilaf with beef | RP | 0.92 | 1 Teller | reis 60, rind 80, butter 10, zwiebel 20, wasser 130
 Kavurmalı Pilav | Reis mit Kavurma | RP | 0.92 | 1 Teller | reis 60, rind_fett 70, butter 6, zwiebel 20, wasser 130

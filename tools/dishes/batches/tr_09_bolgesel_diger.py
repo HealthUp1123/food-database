@@ -52,7 +52,7 @@ Kuzu Şiş Dürüm | Lammspieß-Dürüm | SN | 0.9 | 1 Dürüm | lamm 130, lavas
 Tavuk Pilav | Hähnchen mit Reis Straßenstil, Chicken rice street food | SN | 0.9 | 1 Teller | reis 70, hahn_brust 80, kichererbsen 40, butter 8, wasser 140
 Haşlanmış Mısır | Gekochter Mais, Boiled corn on the cob | SN | 1.0 | 1 Kolben | mais 200, butter 5
 Közlenmiş Mısır | Gegrillter Mais | SN | 1.0 | 1 Kolben | mais 200
-Közlenmiş Kestane | Geröstete Kastanien, Roasted chestnuts | SN | 1.0 | 1 Tüte | kastanie 120
+Közlenmiş Kestane | Geröstete Kastanien, Roasted chestnuts, Kestane kebap, Kestane kebabı | SN | 1.0 | 1 Tüte | kastanie 120
 Leblebi | Geröstete Kichererbsen, Roasted chickpeas | SN | 1.0 | 1 Handvoll | kichererbsen_trocken 40
 Kaz Kızartması | Kars-Gänsebraten, Kars roast goose | HG | 0.7 | 1 Portion | gans 250, kartoffel 100, zwiebel 20
 Keşkek | Keşkek, Weizen-Fleisch-Brei, Wheat and meat porridge | E | 0.95 | 1 Portion | bulgur 70, lamm 80, butter 15, wasser 250
@@ -80,7 +80,7 @@ Fırında Kabak | Ofenzucchini | GZ | 0.85 | 1 Portion | zucchini 250, olivenoel
 Fırında Karnabahar | Ofenblumenkohl | GZ | 0.85 | 1 Portion | blumenkohl 250, olivenoel 10, kasar 20
 Fırında Brokoli | Ofenbrokkoli | GZ | 0.85 | 1 Portion | brokkoli 250, olivenoel 10, kasar 20
 Kaşarlı Mantar | Pilze mit Käse überbacken | GZ | 0.85 | 1 Portion | pilz 200, kasar 50, butter 10
-Közlenmiş Patlıcan | Gegrillte Aubergine | GZ | 0.75 | 1 Portion | aubergine 250, olivenoel 8
+Közlenmiş Patlıcan | Gegrillte Aubergine, Patlıcan salatası | GZ | 0.75 | 1 Portion | aubergine 250, olivenoel 8
 Közlenmiş Domates Biber | Gegrillte Tomaten und Paprika | GZ | 0.8 | 1 Portion | tomate 150, sivri 100, olivenoel 8
 Haşlanmış Sebze | Gekochtes Gemüse | GZ | 1.0 | 1 Portion | karotte 80, brokkoli 80, blumenkohl 80, zucchini 60
 Soslu Kabak | Zucchini mit Sauce | GZ | 0.85 | 1 Portion | zucchini 200, joghurt 60, knoblauch 3, oel 10

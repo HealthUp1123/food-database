@@ -34,7 +34,7 @@ Mevsim Salatası | Gemischter Salat, Seasonal salad | SA | 1.0 | 1 Schüssel | s
 Yeşil Salata | Grüner Salat | SA | 1.0 | 1 Schüssel | salat 120, gurke 50, fruehlingszwiebel 20, olivenoel 10, zitrone 10
 Patates Salatası | Kartoffelsalat türkisch | SA | 1.0 | 1 Portion | kartoffel 180, zwiebel 20, petersilie 5, olivenoel 12, zitrone 10, fruehlingszwiebel 15
 Havuç Salatası | Möhrensalat | SA | 1.0 | 1 Schälchen | karotte 150, joghurt 40, knoblauch 2, olivenoel 6
-Kısır | Kisir, Bulgursalat, Bulgur salad | SA | 1.0 | 1 Portion | bulgur 50, tomatenmark 15, paprikamark 8, zwiebel 20, petersilie 15, fruehlingszwiebel 15, olivenoel 15, nar_eksisi 10, wasser 70
+Kısır | Kisir, Bulgursalat, Bulgur salad, Bulgur salatası | SA | 1.0 | 1 Portion | bulgur 50, tomatenmark 15, paprikamark 8, zwiebel 20, petersilie 15, fruehlingszwiebel 15, olivenoel 15, nar_eksisi 10, wasser 70
 Mercimekli Salata | Linsensalat | SA | 1.0 | 1 Portion | linsen 40, wasser 80, tomate 50, zwiebel 20, olivenoel 12, zitrone 8, petersilie 5
 Semizotu Salatası | Portulaksalat, Purslane salad | SA | 1.0 | 1 Portion | portulak 120, joghurt 80, knoblauch 3, olivenoel 8
 Roka Salatası | Rucola-Salat | SA | 1.0 | 1 Portion | rucola 70, tomate 60, zwiebel 15, olivenoel 12, zitrone 10, parmesan 10
@@ -50,7 +50,7 @@ Turp Salatası | Radieschen-Salat | SA | 1.0 | 1 Schüssel | rettich 120, joghur
 Pancar Salatası | Rote-Bete-Salat, Beetroot salad | SA | 1.0 | 1 Schälchen | rote_bete 150, joghurt 60, knoblauch 3, olivenoel 6
 Kabak Salatası | Zucchinisalat | SA | 1.0 | 1 Schälchen | zucchini 150, joghurt 60, knoblauch 3, olivenoel 8, dill 3
 Tabule | Taboulé, Tabbouleh | SA | 1.0 | 1 Portion | bulgur 30, petersilie 40, tomate 80, fruehlingszwiebel 20, minze 5, olivenoel 15, zitrone 12, wasser 40
-Çiğ Köfte | Cig Köfte, Vegetarische Çiğ Köfte, Raw kofte vegan | V | 1.0 | 1 Portion | bulgur 60, tomatenmark 20, paprikamark 12, zwiebel 30, petersilie 10, olivenoel 15, pul_biber 3, wasser 60
+Çiğ Köfte | Cig Köfte, Vegetarische Çiğ Köfte, Raw kofte vegan, Çiğköfte | V | 1.0 | 1 Portion | bulgur 60, tomatenmark 20, paprikamark 12, zwiebel 30, petersilie 10, olivenoel 15, pul_biber 3, wasser 60
 Karışık Turşu | Gemischte Pickles, Mixed pickles | KO | 1.0 | 1 Schälchen | karotte 40, weisskohl 40, gurke 40, blumenkohl 30, chili 5, salz 3, essig 5
 Salatalık Turşusu | Salzgurken, Cucumber pickles | KO | 1.0 | 1 Portion | gurke 120, dill 3, knoblauch 3, salz 3, essig 5
 Lahana Turşusu | Sauerkraut türkisch, Cabbage pickle | KO | 1.0 | 1 Portion | weisskohl 120, salz 3, essig 5, karotte 15
