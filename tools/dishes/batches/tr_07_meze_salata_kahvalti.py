@@ -2,8 +2,8 @@ CUISINE = 'tr'
 TEXT = """
 Haydari | Haydari, Joghurt-Dip mit Kräutern, Yogurt herb dip | V | 1.0 | 1 Schälchen | suzme 100, knoblauch 3, dill 3, minze 2, olivenoel 5, walnuss 8
 Cacık Meze | Joghurt mit Gurke, Tzatziki türkisch | V | 1.0 | 1 Schälchen | joghurt 120, gurke 70, knoblauch 3, minze 1, olivenoel 3, wasser 20
-Humus | Hummus, Chickpea dip | V | 1.0 | 1 Schälchen | kichererbsen 100, tahin 20, zitrone 12, knoblauch 4, olivenoel 10, wasser 20
-Acılı Ezme | Acili Ezme, Scharfer Tomatensalat, Spicy tomato relish, Narlı ezme | V | 1.0 | 1 Schälchen | tomate 100, zwiebel 30, paprika 20, chili 8, petersilie 5, olivenoel 10, nar_eksisi 8, sumak_pulver 1
+Humus | Hummus, Chickpea dip, Sıcak humus, Sicak humus, Warm hummus | V | 1.0 | 1 Schälchen | kichererbsen 100, tahin 20, zitrone 12, knoblauch 4, olivenoel 10, wasser 20
+Acılı Ezme | Acili Ezme, Scharfer Tomatensalat, Spicy tomato relish, Narlı ezme, Biber salçalı ezme, Biber salcali ezme, Frühstücks-Ezme | V | 1.0 | 1 Schälchen | tomate 100, zwiebel 30, paprika 20, chili 8, petersilie 5, olivenoel 10, nar_eksisi 8, sumak_pulver 1
 Patlıcan Ezmesi | Auberginenpüree, Eggplant dip | V | 1.0 | 1 Schälchen | aubergine 150, olivenoel 12, zitrone 8, knoblauch 3, petersilie 3
 Babagannuş | Baba Ganoush, Baba Ghanoush | V | 0.95 | 1 Schälchen | aubergine 150, tahin 20, zitrone 10, knoblauch 3, olivenoel 8
 Közlenmiş Biber Salatası | Gegrillte Paprika Salat, Roasted pepper salad | SA | 1.0 | 1 Schälchen | sivri 150, knoblauch 3, olivenoel 12, essig 5, petersilie 3

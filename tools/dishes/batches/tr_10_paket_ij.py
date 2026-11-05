@@ -25,7 +25,7 @@ Turşu Salatası | Salat aus Salzgemüse, Pickle salad | SA | 1.0 | 1 Schüssel 
 Nar Ekşili Salata | Salat mit Granatapfelsirup, Salad with pomegranate dressing | SA | 1.0 | 1 Schüssel | salat 60, tomate 80, gurke 50, zwiebel 20, nar_eksisi 12, olivenoel 12, sumak_pulver 1, walnuss 10
 Tavuk İskender | Hähnchen-İskender, Chicken iskender | KB | 0.9 | 1 Teller | hahn_keule 130, ekmek 70, joghurt 70, tomate 55, butter 18, tomatenmark 8, paprika 20
 Ali Paşa Kebabı | Ali-Paşa-Kebap, Ali Pasa kebab | KB | 0.85 | 1 Portion | hack 100, aubergine 140, tomate 70, sivri 30, zwiebel 25, joghurt 40, oel 12, tomatenmark 6
-Pizza Karışık | Pizza gemischt, Mixed pizza | PZ | 0.92 | 1 Stück | x3_pizzateig 200, tomaten_dose 60, kasar 55, sucuk 35, sivri 25, pilz 30, olivenoel 6
+Pizza Karışık | Pizza gemischt, Mixed pizza, Pizza (ev), Hauspizza, Homemade pizza | PZ | 0.92 | 1 Stück | x3_pizzateig 200, tomaten_dose 60, kasar 55, sucuk 35, sivri 25, pilz 30, olivenoel 6
 Patso | Pommes im Brot, Fries in bread | SN | 0.9 | 1 Stück | ekmek 70, kartoffel 130, oel 14, ketchup 18, gewuerzgurke 25
 Tavuklu Nohutlu Pilav | Reis mit Hähnchen und Kichererbsen, Chicken chickpea rice | RP | 0.95 | 1 Teller | reis 60, hahn_brust 70, kichererbsen 55, butter 10, wasser 130
 Etli Nohutlu Pilav | Reis mit Fleisch und Kichererbsen, Beef chickpea rice | RP | 0.95 | 1 Teller | reis 60, rind 60, kichererbsen 55, butter 10, zwiebel 15, wasser 130

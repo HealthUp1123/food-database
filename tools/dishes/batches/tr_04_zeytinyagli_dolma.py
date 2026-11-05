@@ -36,7 +36,7 @@ Kabak Dolması (Zeytinyağlı) | Gefüllte Zucchini in Olivenöl | DO | 0.85 | 1
 Domates Dolması (Etli) | Gefüllte Tomaten mit Hack, Stuffed tomatoes with meat | DO | 0.88 | 1 Portion (2 Stück) | tomate 220, hack 60, reis 20, zwiebel 30, oel 8, petersilie 4, wasser 40
 Domates Dolması (Zeytinyağlı) | Gefüllte Tomaten mit Reis, Stuffed tomatoes with rice | DO | 0.88 | 1 Portion (2 Stück) | tomate 230, reis 35, zwiebel 30, olivenoel 14, pinienkerne 4, minze 3, wasser 40
 Yaprak Sarma (Zeytinyağlı) | Sarma, Gefüllte Weinblätter, Stuffed vine leaves | DO | 0.9 | 1 Portion (6 Stück) | weinblatt 50, reis 45, zwiebel 40, tomate 20, olivenoel 14, pinienkerne 5, rosinen 5, wasser 70, zitrone 5
-Yaprak Sarma (Etli) | Weinblätter mit Hack, Stuffed vine leaves with meat | DO | 0.9 | 1 Portion (6 Stück) | weinblatt 50, hack 60, reis 30, zwiebel 30, tomatenmark 6, oel 8, wasser 70
+Yaprak Sarma (Etli) | Weinblätter mit Hack, Stuffed vine leaves with meat, Tokat yaprağı sarma, Tokat yapragi sarma | DO | 0.9 | 1 Portion (6 Stück) | weinblatt 50, hack 60, reis 30, zwiebel 30, tomatenmark 6, oel 8, wasser 70
 Lahana Sarması (Etli) | Kohlrouladen türkisch, Stuffed cabbage rolls | DO | 0.88 | 1 Portion (4 Stück) | weisskohl 180, hack 70, reis 30, zwiebel 30, tomatenmark 8, oel 8, wasser 70
 Lahana Sarması (Zeytinyağlı) | Kohlrouladen in Olivenöl | DO | 0.88 | 1 Portion (4 Stück) | weisskohl 190, reis 40, zwiebel 40, olivenoel 14, tomatenmark 6, minze 3, wasser 70
 Karalahana Sarması | Schwarzkohlrouladen | DO | 0.88 | 1 Portion | karalahana 150, hack 60, reis 30, zwiebel 30, tomatenmark 6, oel 8, wasser 70

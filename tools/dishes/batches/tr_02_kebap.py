@@ -41,7 +41,7 @@ Izgara Köfte | Gegrillte Köfte, Grilled meatballs | KF | 0.75 | 1 Portion | ha
 Tekirdağ Köfte | Tekirdag Köfte | KF | 0.75 | 1 Portion | hack 160, zwiebel 20, paniermehl 8, ei 10, kartoffel 100, tomate 25, oel 12
 Akçaabat Köfte | Akçaabat Köftesi, Trabzon Köfte | KF | 0.75 | 1 Portion | hack 150, lamm_hack 20, paniermehl 12, zwiebel 15, ekmek 70, tomate 25, sivri 25
 Kadınbudu Köfte | Damenschenkel-Köfte, Kadinbudu Kofte | KF | 0.85 | 1 Portion (4 Stück) | hack 100, reis 25, ei 40, mehl 20, zwiebel 20, oel 25, petersilie 4
-Sulu Köfte | Köfte in Soße, Köfte mit Kartoffeln | KF | 0.88 | 1 Portion | hack 100, kartoffel 120, tomate 60, zwiebel 30, tomatenmark 8, paniermehl 10, oel 12, wasser 80
+Sulu Köfte | Köfte in Soße, Köfte mit Kartoffeln, Sulu köfte çorbası, Sulu kofte corbasi | KF | 0.88 | 1 Portion | hack 100, kartoffel 120, tomate 60, zwiebel 30, tomatenmark 8, paniermehl 10, oel 12, wasser 80
 İzmir Köfte | Izmir Köfte, Köfte mit Kartoffeln in Tomatensoße | KF | 0.85 | 1 Portion | hack 120, kartoffel 120, tomate 80, paprika 30, zwiebel 20, paniermehl 12, oel 15, wasser 50
 Mercimek Köftesi | Linsenköfte, Lentil kofta, Mercimekli köfte, Bulgur köftesi, Ezogelin köftesi | KF | 1.0 | 1 Portion (6 Stück) | rote_linsen 50, bulgur 25, zwiebel 30, tomatenmark 10, olivenoel 12, fruehlingszwiebel 15, petersilie 8, wasser 100
 Ekşili Köfte Yemeği | Saure Köfte, Köfte in Zitronensoße | KF | 0.9 | 1 Portion | hack 100, reis 20, ei 20, mehl 12, zitrone 12, butter 8, wasser 150
