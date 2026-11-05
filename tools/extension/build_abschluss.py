@@ -71,6 +71,9 @@ def build_entry(rec, foods_by_id):
             'fat': r1(rec['f']),
             'fiber': r1(fib),
         }
+        if rec.get('store'):
+            for k, v in rec['store'].items():
+                p[k] = v
         if rec['sug'] is not None:
             p['sugar'] = r1(min(float(rec['sug']), p['carbs']))
         cho, fib = cho_raw, fib

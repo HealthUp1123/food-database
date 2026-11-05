@@ -49691,7 +49691,9 @@
     "barcode": null,
     "synonyms": [
       "Weinblätter mit Hack",
-      "Stuffed vine leaves with meat"
+      "Stuffed vine leaves with meat",
+      "Tokat yaprağı sarma",
+      "Tokat yapragi sarma"
     ],
     "cuisine": "tr",
     "category": "Dolma/Sarma",
@@ -64195,10 +64197,10 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 186,
-      "protein": 10.5,
-      "carbs": 3.2,
-      "fat": 14.6,
+      "kcal": 178,
+      "protein": 9.8,
+      "carbs": 3.5,
+      "fat": 13.9,
       "fiber": 0.7
     },
     "portion": {
@@ -64215,7 +64217,7 @@
         "grams": 30
       },
       {
-        "name": "Tulum Peyniri",
+        "name": "Tulum Peyniri (nahe Feta)",
         "grams": 20
       },
       {
@@ -331200,7 +331202,6 @@
     "type": "item",
     "barcode": null,
     "synonyms": [
-      "Nescafe sade",
       "Hazır kahve"
     ],
     "cuisine": "int",
@@ -331777,13 +331778,13 @@
     "is_packaged_product": false,
     "state": "raw",
     "unit": "g",
-    "note": "Grundzutat, kein Fertigprodukt",
+    "note": "Grundzutat, kein Fertigprodukt. Rohwerte BLS G263100: Eiweiß 3,19 g, Fett 0,36 g, verfügbare KH 1,16 g, Ballaststoffe 1,95 g, kcal 25. Ballaststoffe auf 1,9 g gerundet statt auf 2,0 g, damit 4·(KH−BST)+4·Eiweiß+9·Fett+2·BST = 25 kcal.",
     "per100g": {
       "kcal": 25,
       "protein": 3.2,
       "carbs": 3.1,
       "fat": 0.4,
-      "fiber": 2.0,
+      "fiber": 1.9,
       "sugar": 0.7
     },
     "ingredients": [
@@ -331793,7 +331794,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G263100 \"Sauerampfer roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 1.16 g + Ballaststoffe 1.95 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G263100 \"Sauerampfer roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 1.16 g + Ballaststoffe 1.95 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. Rohwerte BLS G263100: Eiweiß 3,19 g, Fett 0,36 g, verfügbare KH 1,16 g, Ballaststoffe 1,95 g, kcal 25. Ballaststoffe auf 1,9 g gerundet statt auf 2,0 g, damit 4·(KH−BST)+4·Eiweiß+9·Fett+2·BST = 25 kcal.",
     "source_id": "BLS 4.0:G263100"
   },
   {
@@ -331821,13 +331822,13 @@
     "is_packaged_product": false,
     "state": "dry",
     "unit": "g",
-    "note": "Ballaststoffe sind FIBHMW 8,85 g (klassische AOAC, ohne Fructane). FIBT ist 10,07 g, davon FIBLMW 1,22 g, die nicht mitgezählt sind. Die veröffentlichte Energie 337 kcal rechnet FIBT mit.",
+    "note": "Ballaststoffe sind FIBHMW 8,85 g (klassische AOAC, ohne Fructane). FIBT ist 10,07 g, davon FIBLMW 1,22 g, die nicht mitgezählt sind. Die veröffentlichte Energie 337 kcal rechnet FIBT mit. Gespeichert: Eiweiß 13,9 g, Fett 3,0 g, Kohlenhydrate 68,0 g, Ballaststoffe 8,8 g, damit 4·(KH−BST)+4·Eiweiß+9·Fett+2·BST = 337 kcal. Rohwerte bleiben Eiweiß 13,93 g, Fett 2,86 g, verfügbare KH 58,9 g, FIBHMW 8,85 g.",
     "per100g": {
       "kcal": 337,
       "protein": 13.9,
-      "carbs": 67.8,
-      "fat": 2.9,
-      "fiber": 8.9,
+      "carbs": 68.0,
+      "fat": 3.0,
+      "fiber": 8.8,
       "sugar": 1.2
     },
     "ingredients": [
@@ -331837,7 +331838,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code C241100 \"Einkorn ganzes Korn, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 58.9 g + Ballaststoffe 8.85 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. Ballaststoffe sind FIBHMW 8,85 g (klassische AOAC, ohne Fructane). FIBT ist 10,07 g, davon FIBLMW 1,22 g, die nicht mitgezählt sind. Die veröffentlichte Energie 337 kcal rechnet FIBT mit.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code C241100 \"Einkorn ganzes Korn, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 58.9 g + Ballaststoffe 8.85 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. Ballaststoffe sind FIBHMW 8,85 g (klassische AOAC, ohne Fructane). FIBT ist 10,07 g, davon FIBLMW 1,22 g, die nicht mitgezählt sind. Die veröffentlichte Energie 337 kcal rechnet FIBT mit. Gespeichert: Eiweiß 13,9 g, Fett 3,0 g, Kohlenhydrate 68,0 g, Ballaststoffe 8,8 g, damit 4·(KH−BST)+4·Eiweiß+9·Fett+2·BST = 337 kcal. Rohwerte bleiben Eiweiß 13,93 g, Fett 2,86 g, verfügbare KH 58,9 g, FIBHMW 8,85 g.",
     "source_id": "BLS 4.0:C241100"
   },
   {
@@ -332611,11 +332612,11 @@
     "is_packaged_product": false,
     "state": "processed",
     "unit": "g",
-    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt. Rohwerte Ciqual 31004: Eiweiß 7,5 g, verfügbare Kohlenhydrate 58,9 g, Ballaststoffe 2,9 g, Fett 30,8 g. Kohlenhydrate auf 61,7 g gerundet, weil 7,5 + 61,8 + 30,8 = 100,1 g von der App verworfen wird.",
     "per100g": {
       "kcal": 550,
       "protein": 7.5,
-      "carbs": 61.8,
+      "carbs": 61.7,
       "fat": 30.8,
       "fiber": 2.9,
       "sugar": 56.3
@@ -332627,7 +332628,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 31004 \"Milk chocolate, bar\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 58.9 g + Ballaststoffe 2.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 31004 \"Milk chocolate, bar\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 58.9 g + Ballaststoffe 2.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. Rohwerte Ciqual 31004: Eiweiß 7,5 g, verfügbare Kohlenhydrate 58,9 g, Ballaststoffe 2,9 g, Fett 30,8 g. Die Summe verfügbare KH + Ballaststoffe ist 61,8 g. Kohlenhydrate sind auf 61,7 g gerundet, weil 7,5 + 61,8 + 30,8 = 100,1 g von der App verworfen wird.",
     "source_id": "Ciqual 2025:31004"
   },
   {

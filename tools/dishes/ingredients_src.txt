@@ -73,7 +73,8 @@ butter|Butter|740|0.7|0.6|82|0
 kaymak|Kaymak|380|3|3|40|0
 beyaz_peynir|Beyaz Peynir (Schafskäse)|265|14|4|21|0
 kasar|Kaşar|350|25|2|27|0
-tulum|Tulum Peyniri|330|20|1|27|0
+# tulum: dieselben Werte wie tulum-peyniri, nahe Entsprechung Feta (USDA SR 173420, Eintrag feta)
+tulum|Tulum Peyniri (nahe Feta)|265|14.2|3.9|21.5|0
 lor|Lor Peyniri|100|12|3|4|0
 hellim|Hellim/Halloumi|320|22|2|25|0
 mozzarella|Mozzarella|250|18|2|19|0

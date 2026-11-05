@@ -815,12 +815,12 @@
   },
   {
     "key": "tulum",
-    "name": "Tulum Peyniri",
+    "name": "Tulum Peyniri (nahe Feta)",
     "per100g": {
-      "kcal": 330.0,
-      "protein": 20.0,
-      "carbs": 1.0,
-      "fat": 27.0,
+      "kcal": 265.0,
+      "protein": 14.2,
+      "carbs": 3.9,
+      "fat": 21.5,
       "fiber": 0.0
     }
   },
