@@ -37984,7 +37984,9 @@
     "synonyms": [
       "Sulu Kofte",
       "Köfte in Soße",
-      "Köfte mit Kartoffeln"
+      "Köfte mit Kartoffeln",
+      "Sulu köfte çorbası",
+      "Sulu kofte corbasi"
     ],
     "cuisine": "tr",
     "category": "Köfte",
@@ -51528,7 +51530,9 @@
       "Su Boregi",
       "Su Böreği Peynirli",
       "Wasserbörek",
-      "Water borek"
+      "Water borek",
+      "Erzurum su böreği",
+      "Erzurum su boregi"
     ],
     "cuisine": "tr",
     "category": "Börek/Hamurişi",
@@ -53474,7 +53478,11 @@
     "barcode": null,
     "synonyms": [
       "Sesamring",
-      "Turkish bagel"
+      "Turkish bagel",
+      "Simit tabağı",
+      "Simit tabagi",
+      "Kocaman simidi",
+      "Grosser Simit"
     ],
     "cuisine": "tr",
     "category": "Gebäck",
@@ -62540,7 +62548,10 @@
     "barcode": null,
     "synonyms": [
       "Hummus",
-      "Chickpea dip"
+      "Chickpea dip",
+      "Sıcak humus",
+      "Sicak humus",
+      "Warm hummus"
     ],
     "cuisine": "tr",
     "category": "Vorspeise/Meze",
@@ -62610,7 +62621,10 @@
       "Acili Ezme",
       "Scharfer Tomatensalat",
       "Spicy tomato relish",
-      "Narlı ezme"
+      "Narlı ezme",
+      "Biber salçalı ezme",
+      "Biber salcali ezme",
+      "Frühstücks-Ezme"
     ],
     "cuisine": "tr",
     "category": "Vorspeise/Meze",
@@ -67985,7 +67999,10 @@
     "synonyms": [
       "Burma Kadayif",
       "Rolled kadayif",
-      "Sarığı burma"
+      "Sarığı burma",
+      "Pistazien-Kadayıf",
+      "Fıstıklı kadayıf",
+      "Pistachio kadayif"
     ],
     "cuisine": "tr",
     "category": "Süßspeise/Sirupgebäck",
@@ -264974,7 +264991,10 @@
     "barcode": null,
     "synonyms": [
       "Fistikli Sarma",
-      "Pistazien-Wickelbaklava"
+      "Pistazien-Wickelbaklava",
+      "Fıstıklı dürüm",
+      "Fistikli durum",
+      "Pistachio wrap baklava"
     ],
     "cuisine": "tr",
     "category": "Süßspeise/Sirupgebäck",
@@ -321190,7 +321210,10 @@
       "Et doner",
       "Et döner",
       "Dönerfleisch",
-      "Doner kebab meat"
+      "Doner kebab meat",
+      "Yaprak döner",
+      "Yaprak doner",
+      "Sliced-leaf döner"
     ],
     "cuisine": "int",
     "category": "Grundzutat: Fleisch",
@@ -326664,7 +326687,10 @@
     "synonyms": [
       "Pizza Karisik",
       "Pizza gemischt",
-      "Mixed pizza"
+      "Mixed pizza",
+      "Pizza (ev)",
+      "Hauspizza",
+      "Homemade pizza"
     ],
     "cuisine": "tr",
     "category": "Pizza/Flammkuchen/Herzhafter Kuchen",
@@ -331153,6 +331179,4400 @@
       {
         "name": "Wasser",
         "grams": 12
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "instantkaffee-zubereitet",
+    "name": "Instantkaffee, zubereitet",
+    "names": {
+      "de": "Instantkaffee, zubereitet",
+      "en": "Instant coffee, prepared",
+      "tr": "Instant kahve, hazır",
+      "fr": "Café instantané préparé",
+      "es": "Café instantáneo preparado",
+      "pt": "Café instantâneo preparado",
+      "it": "Caffè istantaneo preparato",
+      "zh": "速溶咖啡（冲好）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Nescafe sade",
+      "Hazır kahve"
+    ],
+    "cuisine": "int",
+    "category": "Getränk",
+    "is_packaged_product": false,
+    "note": "Generisches Getränk, kein Markenprodukt. Portion = übliche Tasse, Dichte ca. 1 g/ml angenommen. Fett liegt in der Quelle unter der Nachweisgrenze und ist als 0 g geführt.",
+    "per100g": {
+      "kcal": 2,
+      "protein": 0.3,
+      "carbs": 0.1,
+      "fat": 0.0,
+      "fiber": 0.1,
+      "sugar": 0.0
+    },
+    "portion": {
+      "label": "1 Tasse",
+      "grams": 200
+    },
+    "ingredients": [
+      {
+        "name": "Instantkaffee, zubereitet",
+        "grams": 200
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N420100 \"Kaffee (Getränk) aus Instantpulver\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. Fett liegt in der Quelle unter der Nachweisgrenze und ist als 0 g geführt.",
+    "source_id": "BLS 4.0:N420100"
+  },
+  {
+    "id": "ketchup",
+    "name": "Ketchup",
+    "names": {
+      "de": "Ketchup",
+      "en": "Ketchup",
+      "tr": "Ketçap",
+      "fr": "Ketchup",
+      "es": "Ketchup",
+      "pt": "Ketchup",
+      "it": "Ketchup",
+      "zh": "番茄酱"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Ketcap",
+      "Tomatenketchup"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Würzmittel & Aufstriche",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 98,
+      "protein": 1.4,
+      "carbs": 23.0,
+      "fat": 0.1,
+      "fiber": 1.8,
+      "sugar": 20.8
+    },
+    "ingredients": [
+      {
+        "name": "Ketchup",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code R141100 \"Tomatenketchup\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 21.16 g + Ballaststoffe 1.81 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "BLS 4.0:R141100"
+  },
+  {
+    "id": "mayonnaise",
+    "name": "Mayonnaise",
+    "names": {
+      "de": "Mayonnaise",
+      "en": "Mayonnaise",
+      "tr": "Mayonez",
+      "fr": "Mayonnaise",
+      "es": "Mayonesa",
+      "pt": "Maionese",
+      "it": "Maionese",
+      "zh": "蛋黄酱"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Mayonez",
+      "Mayo"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Würzmittel & Aufstriche",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 750,
+      "protein": 1.5,
+      "carbs": 2.9,
+      "fat": 81.2,
+      "fiber": 0.6,
+      "sugar": 2.3
+    },
+    "ingredients": [
+      {
+        "name": "Mayonnaise",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code Q991000 \"Mayonnaise (Fertigprodukt)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.3 g + Ballaststoffe 0.64 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "BLS 4.0:Q991000"
+  },
+  {
+    "id": "weinessig",
+    "name": "Weinessig",
+    "names": {
+      "de": "Weinessig",
+      "en": "Grape vinegar",
+      "tr": "Üzüm sirkesi",
+      "fr": "Vinaigre de vin",
+      "es": "Vinagre de vino",
+      "pt": "Vinagre de vinho",
+      "it": "Aceto di vino",
+      "zh": "葡萄醋"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Sirke",
+      "Üzüm sirkesi"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Würzmittel & Aufstriche",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Die Energie stammt aus der Essigsäure. Protein, Fett, Kohlenhydrate und Ballaststoffe sind 0 g, deshalb liegt kcal über 4/4/9/2.",
+    "per100g": {
+      "kcal": 25,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Weinessig",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code R121000 \"Weinessig\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. Die Energie stammt aus der Essigsäure. Protein, Fett, Kohlenhydrate und Ballaststoffe sind 0 g, deshalb liegt kcal über 4/4/9/2.",
+    "source_id": "BLS 4.0:R121000"
+  },
+  {
+    "id": "schafjoghurt",
+    "name": "Schafjoghurt",
+    "names": {
+      "de": "Schafjoghurt",
+      "en": "Sheep yogurt",
+      "tr": "Koyun yoğurdu",
+      "fr": "Yaourt au lait de brebis",
+      "es": "Yogur de oveja",
+      "pt": "Iogurte de ovelha",
+      "it": "Yogurt di pecora",
+      "zh": "绵羊酸奶"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Koyun yogurtu"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Milchprodukte & Eier",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 90,
+      "protein": 3.9,
+      "carbs": 4.0,
+      "fat": 6.2,
+      "fiber": 0.0,
+      "sugar": 4.0
+    },
+    "ingredients": [
+      {
+        "name": "Schafjoghurt",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code M149500 \"Schafjoghurt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 4.02 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "BLS 4.0:M149500"
+  },
+  {
+    "id": "apfelessig",
+    "name": "Apfelessig",
+    "names": {
+      "de": "Apfelessig",
+      "en": "Apple cider vinegar",
+      "tr": "Elma sirkesi",
+      "fr": "Vinaigre de cidre",
+      "es": "Vinagre de manzana",
+      "pt": "Vinagre de sidra",
+      "it": "Aceto di mele",
+      "zh": "苹果醋"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Elma sirkesi"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Würzmittel & Aufstriche",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Die Energie stammt überwiegend aus der Essigsäure, nicht aus den wenigen Kohlenhydraten.",
+    "per100g": {
+      "kcal": 18,
+      "protein": 0.2,
+      "carbs": 0.1,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.1
+    },
+    "ingredients": [
+      {
+        "name": "Apfelessig",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code R123100 \"Apfelessig\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0.147 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. Die Energie stammt überwiegend aus der Essigsäure, nicht aus den wenigen Kohlenhydraten.",
+    "source_id": "BLS 4.0:R123100"
+  },
+  {
+    "id": "haselnussoel",
+    "name": "Haselnussöl",
+    "names": {
+      "de": "Haselnussöl",
+      "en": "Hazelnut oil",
+      "tr": "Fındık yağı",
+      "fr": "Huile de noisette",
+      "es": "Aceite de avellana",
+      "pt": "Óleo de avelã",
+      "it": "Olio di nocciola",
+      "zh": "榛子油"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Findik yagi"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fette & Öle",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 899,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 99.9,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Haselnussöl",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code Q140000 \"Haselnussöl\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "BLS 4.0:Q140000"
+  },
+  {
+    "id": "backpulver",
+    "name": "Backpulver",
+    "names": {
+      "de": "Backpulver",
+      "en": "Baking powder",
+      "tr": "Kabartma tozu",
+      "fr": "Levure chimique",
+      "es": "Levadura química",
+      "pt": "Fermento em pó",
+      "it": "Lievito chimico",
+      "zh": "泡打粉"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kabartma tozu"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Würzmittel & Aufstriche",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 88,
+      "protein": 0.1,
+      "carbs": 21.6,
+      "fat": 0.1,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Backpulver",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code R421100 \"Backpulver\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 21.6 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "BLS 4.0:R421100"
+  },
+  {
+    "id": "zitronensaeure",
+    "name": "Zitronensäure",
+    "names": {
+      "de": "Zitronensäure",
+      "en": "Citric acid",
+      "tr": "Limon tuzu",
+      "fr": "Acide citrique",
+      "es": "Ácido cítrico",
+      "pt": "Ácido cítrico",
+      "it": "Acido citrico",
+      "zh": "柠檬酸"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Limon tuzu",
+      "E 330"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Würzmittel & Aufstriche",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Energie laut BLS aus organischen Säuren (3 kcal/g), nicht aus Protein, Fett oder Kohlenhydraten. Die Formel 4/4/9/2 ergibt deshalb 0.",
+    "per100g": {
+      "kcal": 300,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Zitronensäure",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code R552000 \"Citronensäure/Zitronensäure (E 330)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. Energie laut BLS aus organischen Säuren (3 kcal/g), nicht aus Protein, Fett oder Kohlenhydraten. Die Formel 4/4/9/2 ergibt deshalb 0.",
+    "source_id": "BLS 4.0:R552000"
+  },
+  {
+    "id": "hefe-frisch",
+    "name": "Hefe, frisch",
+    "names": {
+      "de": "Hefe, frisch",
+      "en": "Fresh yeast",
+      "tr": "Maya (yaş)",
+      "fr": "Levure fraîche",
+      "es": "Levadura fresca",
+      "pt": "Fermento fresco",
+      "it": "Lievito fresco",
+      "zh": "鲜酵母"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Yas maya",
+      "Backhefe"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Getreide, Teigwaren & Brot",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "FIBHMW und FIBLMW sind nicht getrennt ausgewiesen, übernommen ist FIBT 5,18 g.",
+    "per100g": {
+      "kcal": 128,
+      "protein": 16.7,
+      "carbs": 15.2,
+      "fat": 1.2,
+      "fiber": 5.2,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Hefe, frisch",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code R459000 \"Backhefe frisch (Frischbackhefe)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 10 g + Ballaststoffe 5.18 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. FIBHMW und FIBLMW sind nicht getrennt ausgewiesen, übernommen ist FIBT 5,18 g.",
+    "source_id": "BLS 4.0:R459000"
+  },
+  {
+    "id": "rindertalg",
+    "name": "Rindertalg",
+    "names": {
+      "de": "Rindertalg",
+      "en": "Beef tallow",
+      "tr": "İç yağı (sığır)",
+      "fr": "Suif de bœuf",
+      "es": "Sebo de ternera",
+      "pt": "Sebo de vaca",
+      "it": "Sego di manzo",
+      "zh": "牛油"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Ic yagi",
+      "Rinderfett"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fette & Öle",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 897,
+      "protein": 0.4,
+      "carbs": 0.0,
+      "fat": 99.5,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Rindertalg",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code Q890000 \"Rinderfett/Rindertalg\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "BLS 4.0:Q890000"
+  },
+  {
+    "id": "brennnessel-roh",
+    "name": "Brennnessel, roh",
+    "names": {
+      "de": "Brennnessel, roh",
+      "en": "Stinging nettle, raw",
+      "tr": "Isırgan otu, çiğ",
+      "fr": "Ortie, crue",
+      "es": "Ortiga, cruda",
+      "pt": "Urtiga, crua",
+      "it": "Ortica, cruda",
+      "zh": "荨麻（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Isirgan",
+      "Isırgan"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 46,
+      "protein": 7.4,
+      "carbs": 4.4,
+      "fat": 0.6,
+      "fiber": 3.1,
+      "sugar": 0.8
+    },
+    "ingredients": [
+      {
+        "name": "Brennnessel, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G261100 \"Brennnessel roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 1.309 g + Ballaststoffe 3.11 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "BLS 4.0:G261100"
+  },
+  {
+    "id": "edelreizker-roh",
+    "name": "Edelreizker, roh",
+    "names": {
+      "de": "Edelreizker, roh",
+      "en": "Saffron milk cap, raw",
+      "tr": "Kanlıca mantarı, çiğ",
+      "fr": "Lactaire délicieux, cru",
+      "es": "Níscalo, crudo",
+      "pt": "Lácteo-delicioso, cru",
+      "it": "Lattario, crudo",
+      "zh": "松乳菇（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kanlica mantari",
+      "Kanlıca"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 36,
+      "protein": 2.8,
+      "carbs": 8.4,
+      "fat": 0.7,
+      "fiber": 5.5,
+      "sugar": 0.2
+    },
+    "ingredients": [
+      {
+        "name": "Edelreizker, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code K707100 \"Edel-Reizker roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.9 g + Ballaststoffe 5.53 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "BLS 4.0:K707100"
+  },
+  {
+    "id": "sauerampfer-roh",
+    "name": "Sauerampfer, roh",
+    "names": {
+      "de": "Sauerampfer, roh",
+      "en": "Sorrel, raw",
+      "tr": "Kuzukulağı, çiğ",
+      "fr": "Oseille, crue",
+      "es": "Acedera, cruda",
+      "pt": "Azeda, crua",
+      "it": "Acetosa, cruda",
+      "zh": "酸模（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kuzukulagi"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 25,
+      "protein": 3.2,
+      "carbs": 3.1,
+      "fat": 0.4,
+      "fiber": 2.0,
+      "sugar": 0.7
+    },
+    "ingredients": [
+      {
+        "name": "Sauerampfer, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code G263100 \"Sauerampfer roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 1.16 g + Ballaststoffe 1.95 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "BLS 4.0:G263100"
+  },
+  {
+    "id": "einkorn-roh",
+    "name": "Einkorn, ganzes Korn, roh",
+    "names": {
+      "de": "Einkorn, ganzes Korn, roh",
+      "en": "Einkorn wheat, raw",
+      "tr": "Siyez buğdayı, çiğ",
+      "fr": "Engrain, cru",
+      "es": "Escanda menor, cruda",
+      "pt": "Trigo einkorn, cru",
+      "it": "Farro piccolo, crudo",
+      "zh": "一粒小麦（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Siyez",
+      "Kara bugday siyez"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Getreide, Teigwaren & Brot",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dry",
+    "unit": "g",
+    "note": "Ballaststoffe sind FIBHMW 8,85 g (klassische AOAC, ohne Fructane). FIBT ist 10,07 g, davon FIBLMW 1,22 g, die nicht mitgezählt sind. Die veröffentlichte Energie 337 kcal rechnet FIBT mit.",
+    "per100g": {
+      "kcal": 337,
+      "protein": 13.9,
+      "carbs": 67.8,
+      "fat": 2.9,
+      "fiber": 8.9,
+      "sugar": 1.2
+    },
+    "ingredients": [
+      {
+        "name": "Einkorn, ganzes Korn, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code C241100 \"Einkorn ganzes Korn, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 58.9 g + Ballaststoffe 8.85 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. Ballaststoffe sind FIBHMW 8,85 g (klassische AOAC, ohne Fructane). FIBT ist 10,07 g, davon FIBLMW 1,22 g, die nicht mitgezählt sind. Die veröffentlichte Energie 337 kcal rechnet FIBT mit.",
+    "source_id": "BLS 4.0:C241100"
+  },
+  {
+    "id": "emmer-roh",
+    "name": "Emmer, ganzes Korn, roh",
+    "names": {
+      "de": "Emmer, ganzes Korn, roh",
+      "en": "Emmer wheat, raw",
+      "tr": "Kavılca buğdayı, çiğ",
+      "fr": "Amidonnier, cru",
+      "es": "Escanda, cruda",
+      "pt": "Trigo emmer, cru",
+      "it": "Farro medio, crudo",
+      "zh": "二粒小麦（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kavilca",
+      "Kavılca"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Getreide, Teigwaren & Brot",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dry",
+    "unit": "g",
+    "note": "Ballaststoffe sind FIBHMW 7,12 g (klassische AOAC, ohne Fructane). FIBT ist 7,94 g, davon FIBLMW 0,83 g. Die veröffentlichte Energie 342 kcal rechnet FIBT mit.",
+    "per100g": {
+      "kcal": 342,
+      "protein": 13.1,
+      "carbs": 70.4,
+      "fat": 2.3,
+      "fiber": 7.1,
+      "sugar": 1.1
+    },
+    "ingredients": [
+      {
+        "name": "Emmer, ganzes Korn, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code C240100 \"Emmer ganzes Korn, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 63.27 g + Ballaststoffe 7.12 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. Ballaststoffe sind FIBHMW 7,12 g (klassische AOAC, ohne Fructane). FIBT ist 7,94 g, davon FIBLMW 0,83 g. Die veröffentlichte Energie 342 kcal rechnet FIBT mit.",
+    "source_id": "BLS 4.0:C240100"
+  },
+  {
+    "id": "linsenmehl",
+    "name": "Linsenmehl",
+    "names": {
+      "de": "Linsenmehl",
+      "en": "Lentil flour",
+      "tr": "Mercimek unu",
+      "fr": "Farine de lentilles",
+      "es": "Harina de lentejas",
+      "pt": "Farinha de lentilhas",
+      "it": "Farina di lenticchie",
+      "zh": "扁豆粉"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Mercimek unu"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Hülsenfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dry",
+    "unit": "g",
+    "note": "Übernommen ist FIBT 12,3 g. FIBHMW liegt bei 12,375 g (Rundung), FIBLMW ist nicht ausgewiesen.",
+    "per100g": {
+      "kcal": 312,
+      "protein": 23.4,
+      "carbs": 57.1,
+      "fat": 1.7,
+      "fiber": 12.3,
+      "sugar": 1.3
+    },
+    "ingredients": [
+      {
+        "name": "Linsenmehl",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code H730400 \"Linsenmehl\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 44.8 g + Ballaststoffe 12.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. Übernommen ist FIBT 12,3 g. FIBHMW liegt bei 12,375 g (Rundung), FIBLMW ist nicht ausgewiesen.",
+    "source_id": "BLS 4.0:H730400"
+  },
+  {
+    "id": "kichererbsenmehl",
+    "name": "Kichererbsenmehl",
+    "names": {
+      "de": "Kichererbsenmehl",
+      "en": "Chickpea flour",
+      "tr": "Nohut unu",
+      "fr": "Farine de pois chiches",
+      "es": "Harina de garbanzos",
+      "pt": "Farinha de grão-de-bico",
+      "it": "Farina di ceci",
+      "zh": "鹰嘴豆粉"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Nohut unu"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Hülsenfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dry",
+    "unit": "g",
+    "note": "FIBHMW und FIBLMW sind nicht getrennt ausgewiesen, übernommen ist FIBT 15,4 g.",
+    "per100g": {
+      "kcal": 322,
+      "protein": 20.0,
+      "carbs": 55.0,
+      "fat": 5.8,
+      "fiber": 15.4,
+      "sugar": 2.4
+    },
+    "ingredients": [
+      {
+        "name": "Kichererbsenmehl",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code H720400 \"Kichererbsenmehl\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 39.6 g + Ballaststoffe 15.4 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. FIBHMW und FIBLMW sind nicht getrennt ausgewiesen, übernommen ist FIBT 15,4 g.",
+    "source_id": "BLS 4.0:H720400"
+  },
+  {
+    "id": "reismehl",
+    "name": "Reismehl",
+    "names": {
+      "de": "Reismehl",
+      "en": "Rice flour",
+      "tr": "Pirinç unu",
+      "fr": "Farine de riz",
+      "es": "Harina de arroz",
+      "pt": "Farinha de arroz",
+      "it": "Farina di riso",
+      "zh": "米粉"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Pirinc unu"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Getreide, Teigwaren & Brot",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dry",
+    "unit": "g",
+    "note": "FIBHMW und FIBLMW sind nicht getrennt ausgewiesen, übernommen ist FIBT 2 g.",
+    "per100g": {
+      "kcal": 347,
+      "protein": 7.2,
+      "carbs": 79.1,
+      "fat": 0.7,
+      "fiber": 2.0,
+      "sugar": 0.3
+    },
+    "ingredients": [
+      {
+        "name": "Reismehl",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code C453000 \"Reis Mehl\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 77.1 g + Ballaststoffe 2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. FIBHMW und FIBLMW sind nicht getrennt ausgewiesen, übernommen ist FIBT 2 g.",
+    "source_id": "BLS 4.0:C453000"
+  },
+  {
+    "id": "hagebutte-roh",
+    "name": "Hagebutte, roh",
+    "names": {
+      "de": "Hagebutte, roh",
+      "en": "Rose hip, raw",
+      "tr": "Kuşburnu, çiğ",
+      "fr": "Cynorhodon, cru",
+      "es": "Escaramujo, crudo",
+      "pt": "Fruto de rosa-mosqueta, cru",
+      "it": "Cinorrodo, crudo",
+      "zh": "玫瑰果（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kusburnu"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Obst",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 111,
+      "protein": 3.6,
+      "carbs": 22.3,
+      "fat": 0.6,
+      "fiber": 6.1,
+      "sugar": 16.2
+    },
+    "ingredients": [
+      {
+        "name": "Hagebutte, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code F402100 \"Hagebutte roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 16.2 g + Ballaststoffe 6.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "BLS 4.0:F402100"
+  },
+  {
+    "id": "mispel-roh",
+    "name": "Mispel, roh",
+    "names": {
+      "de": "Mispel, roh",
+      "en": "Medlar, raw",
+      "tr": "Muşmula, çiğ",
+      "fr": "Nèfle, crue",
+      "es": "Níspero europeo, crudo",
+      "pt": "Nêspera europeia, crua",
+      "it": "Nespola, cruda",
+      "zh": "欧楂（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Musmula"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Obst",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Das ist die echte Mispel (Mespilus), nicht die Japanische Wollmispel.",
+    "per100g": {
+      "kcal": 45,
+      "protein": 0.5,
+      "carbs": 11.3,
+      "fat": 0.2,
+      "fiber": 2.1,
+      "sugar": 8.6
+    },
+    "ingredients": [
+      {
+        "name": "Mispel, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code F150100 \"Mispel roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 9.2 g + Ballaststoffe 2.07 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. Das ist die echte Mispel (Mespilus), nicht die Japanische Wollmispel.",
+    "source_id": "BLS 4.0:F150100"
+  },
+  {
+    "id": "haselnussmus",
+    "name": "Haselnussmus",
+    "names": {
+      "de": "Haselnussmus",
+      "en": "Hazelnut paste",
+      "tr": "Fındık ezmesi",
+      "fr": "Pâte de noisette",
+      "es": "Pasta de avellana",
+      "pt": "Pasta de avelã",
+      "it": "Pasta di nocciole",
+      "zh": "榛子酱"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Findik ezmesi"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Nüsse & Samen",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 669,
+      "protein": 16.4,
+      "carbs": 9.7,
+      "fat": 63.9,
+      "fiber": 5.4,
+      "sugar": 3.9
+    },
+    "ingredients": [
+      {
+        "name": "Haselnussmus",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code H130800 \"Haselnussmus\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 4.3 g + Ballaststoffe 5.4 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "BLS 4.0:H130800"
+  },
+  {
+    "id": "lammherz-roh",
+    "name": "Lammherz, roh",
+    "names": {
+      "de": "Lammherz, roh",
+      "en": "Lamb heart, raw",
+      "tr": "Kuzu yüreği, çiğ",
+      "fr": "Cœur d’agneau, cru",
+      "es": "Corazón de cordero, crudo",
+      "pt": "Coração de borrego, cru",
+      "it": "Cuore di agnello, crudo",
+      "zh": "羊心（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kuzu yuregi",
+      "Yürek"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fleisch",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 132,
+      "protein": 17.6,
+      "carbs": 0.0,
+      "fat": 6.8,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Lammherz, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code V515100 \"Lamm Herz, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "BLS 4.0:V515100"
+  },
+  {
+    "id": "glukosesirup",
+    "name": "Glukosesirup",
+    "names": {
+      "de": "Glukosesirup",
+      "en": "Glucose syrup",
+      "tr": "Glikoz şurubu",
+      "fr": "Sirop de glucose",
+      "es": "Jarabe de glucosa",
+      "pt": "Xarope de glicose",
+      "it": "Sciroppo di glucosio",
+      "zh": "葡萄糖浆"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Glikoz surubu",
+      "Maissirup hell"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Zucker & Salz",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "BLS S151000 (Glukosesirup maltosehaltig) nennt keine Ballaststoffe (FIBT leer) und wurde nicht verwendet. Heller Maissirup ist der generische Glukosesirup mit ausgewiesenen 0 g Ballaststoffen.",
+    "per100g": {
+      "kcal": 283,
+      "protein": 0.0,
+      "carbs": 76.8,
+      "fat": 0.2,
+      "fiber": 0.0,
+      "sugar": 76.8
+    },
+    "ingredients": [
+      {
+        "name": "Glukosesirup",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 168837: Syrups, corn, light. Kohlenhydrate sind der Gesamtwert 76.79 g inkl. Ballaststoffe 0 g. Ballaststoffe sind die klassischen AOAC-Ballaststoffe der Quelle, ohne separat gezählte Fructane. BLS S151000 (Glukosesirup maltosehaltig) nennt keine Ballaststoffe (FIBT leer) und wurde nicht verwendet. Heller Maissirup ist der generische Glukosesirup mit ausgewiesenen 0 g Ballaststoffen.",
+    "fdc_id": 168837
+  },
+  {
+    "id": "rinderschinken-aufschnitt",
+    "name": "Rinderschinken, Aufschnitt",
+    "names": {
+      "de": "Rinderschinken, Aufschnitt",
+      "en": "Beef ham, sliced",
+      "tr": "Dana jambon",
+      "fr": "Jambon de bœuf",
+      "es": "Jamón de ternera",
+      "pt": "Fiambre de vaca",
+      "it": "Prosciutto di manzo",
+      "zh": "牛肉火腿"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Dana jambon"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Wurst & Schinken",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Rinderschinken-Aufschnitt hat keinen eigenen freien Datensatz. Nahe Entsprechung ist Rinderbierschinken, nicht Schweinebierschinken. FIBHMW ist nicht ausgewiesen, übernommen ist FIBT 0,05 g.",
+    "per100g": {
+      "kcal": 125,
+      "protein": 15.7,
+      "carbs": 0.1,
+      "fat": 6.9,
+      "fiber": 0.1,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Rinderschinken, Aufschnitt",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Rinderschinken-Aufschnitt hat keinen eigenen freien Datensatz. Nahe Entsprechung ist Rinderbierschinken, nicht Schweinebierschinken. Referenz: Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code W273100 \"Rinderbierschinken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0.08 g + Ballaststoffe 0.05 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "derived_from": "BLS 4.0:W273100",
+    "method": "similar_food"
+  },
+  {
+    "id": "paprikapulver-scharf",
+    "name": "Paprikapulver, scharf",
+    "names": {
+      "de": "Paprikapulver, scharf",
+      "en": "Hot paprika",
+      "tr": "Acı toz biber",
+      "fr": "Paprika fort",
+      "es": "Pimentón picante",
+      "pt": "Colorau picante",
+      "it": "Paprika piccante",
+      "zh": "辣椒粉（辣）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Aci toz biber",
+      "Cayenne"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Acı toz biber ist scharfes Paprikapulver. Cayenne ist dieselbe Pflanzenart, aber typischerweise schärfer. Werte unverändert, als nahe Entsprechung gekennzeichnet.",
+    "per100g": {
+      "kcal": 376,
+      "protein": 12.0,
+      "carbs": 56.6,
+      "fat": 17.3,
+      "fiber": 27.2,
+      "sugar": 10.3
+    },
+    "ingredients": [
+      {
+        "name": "Paprikapulver, scharf",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Acı toz biber ist scharfes Paprikapulver. Cayenne ist dieselbe Pflanzenart, aber typischerweise schärfer. Werte unverändert, als nahe Entsprechung gekennzeichnet. Referenz: Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 11088 \"Cayenne pepper, powder\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 29.4 g + Ballaststoffe 27.2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "derived_from": "Ciqual 2025:11088",
+    "method": "similar_food"
+  },
+  {
+    "id": "gruene-pflaume-roh",
+    "name": "Grüne Pflaume (Can eriği), roh",
+    "names": {
+      "de": "Grüne Pflaume (Can eriği), roh",
+      "en": "Green plum, raw",
+      "tr": "Can eriği, çiğ",
+      "fr": "Prune reine-claude, crue",
+      "es": "Ciruela claudia, cruda",
+      "pt": "Ameixa rainha-cláudia, crua",
+      "it": "Susina regina claudia, cruda",
+      "zh": "青李（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Can erigi"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Obst",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Can eriği ist die grüne Pflaume. Nahe Entsprechung ist die entsteinte Reneklode. Fett ist in Ciqual nur als < 0,5 g veröffentlicht und als 0 g geführt, kein Mittelwert.",
+    "per100g": {
+      "kcal": 69,
+      "protein": 0.9,
+      "carbs": 18.1,
+      "fat": 0.0,
+      "fiber": 1.7,
+      "sugar": 10.4
+    },
+    "ingredients": [
+      {
+        "name": "Grüne Pflaume (Can eriği), roh",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Can eriği ist die grüne Pflaume. Nahe Entsprechung ist die entsteinte Reneklode. Fett ist in Ciqual nur als < 0,5 g veröffentlicht und als 0 g geführt, kein Mittelwert. Referenz: Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 13041 \"Greengage plum, pitted, raw\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 16.4 g + Ballaststoffe 1.7 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "derived_from": "Ciqual 2025:13041",
+    "method": "similar_food"
+  },
+  {
+    "id": "sackbrasse-roh",
+    "name": "Sackbrasse, roh",
+    "names": {
+      "de": "Sackbrasse, roh",
+      "en": "Red porgy, raw",
+      "tr": "Fangri, çiğ",
+      "fr": "Pagre, cru",
+      "es": "Pargo, crudo",
+      "pt": "Pargo, cru",
+      "it": "Pagro, crudo",
+      "zh": "真鲷（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Fangri"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Fangri (Sackbrasse, Pagrus) hat keinen eigenen freien Datensatz. Nahe Art ist die Schwarze Meerbrasse. Ballaststoffe sind nur als < 1 g veröffentlicht und bei 0 g Kohlenhydraten als 0 g geführt.",
+    "per100g": {
+      "kcal": 129,
+      "protein": 20.5,
+      "carbs": 0.0,
+      "fat": 5.3,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Sackbrasse, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Fangri (Sackbrasse, Pagrus) hat keinen eigenen freien Datensatz. Nahe Art ist die Schwarze Meerbrasse. Ballaststoffe sind nur als < 1 g veröffentlicht und bei 0 g Kohlenhydraten als 0 g geführt. Referenz: Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 26099 \"Black seabream, raw\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "derived_from": "Ciqual 2025:26099",
+    "method": "similar_food",
+    "source_missing": [
+      "fiber"
+    ]
+  },
+  {
+    "id": "butterkeks",
+    "name": "Butterkeks",
+    "names": {
+      "de": "Butterkeks",
+      "en": "Plain biscuit",
+      "tr": "Bisküvi (sade)",
+      "fr": "Biscuit sec nature",
+      "es": "Galleta simple",
+      "pt": "Bolacha simples",
+      "it": "Biscotto semplice",
+      "zh": "原味饼干"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Biskuvi sade",
+      "Butterkeks"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Getreide, Teigwaren & Brot",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 438,
+      "protein": 7.1,
+      "carbs": 78.2,
+      "fat": 11.5,
+      "fiber": 3.3,
+      "sugar": 25.4
+    },
+    "ingredients": [
+      {
+        "name": "Butterkeks",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 24001 \"Biscuit (cookie), plain\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 74.9 g + Ballaststoffe 3.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "Ciqual 2025:24001"
+  },
+  {
+    "id": "petiboer",
+    "name": "Petit Beurre",
+    "names": {
+      "de": "Petit Beurre",
+      "en": "Petit beurre",
+      "tr": "Petibör",
+      "fr": "Petit beurre",
+      "es": "Petit beurre",
+      "pt": "Petit beurre",
+      "it": "Petit beurre",
+      "zh": "小黄油饼干"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Petibor",
+      "Petibör"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Getreide, Teigwaren & Brot",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Petibör hat keinen eigenen freien Datensatz. Nahe Entsprechung ist der schlichte Butterkeks. Dieselben Werte wie butterkeks, als Nähe gekennzeichnet, nicht als eigener Analysenwert.",
+    "per100g": {
+      "kcal": 438,
+      "protein": 7.1,
+      "carbs": 78.2,
+      "fat": 11.5,
+      "fiber": 3.3,
+      "sugar": 25.4
+    },
+    "ingredients": [
+      {
+        "name": "Petit Beurre",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Petibör hat keinen eigenen freien Datensatz. Nahe Entsprechung ist der schlichte Butterkeks. Dieselben Werte wie butterkeks, als Nähe gekennzeichnet, nicht als eigener Analysenwert. Referenz: Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 24001 \"Biscuit (cookie), plain\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 74.9 g + Ballaststoffe 3.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "derived_from": "Ciqual 2025:24001",
+    "method": "similar_food"
+  },
+  {
+    "id": "kraker",
+    "name": "Cracker",
+    "names": {
+      "de": "Cracker",
+      "en": "Cracker",
+      "tr": "Kraker",
+      "fr": "Cracker de blé",
+      "es": "Cracker de trigo",
+      "pt": "Cracker de trigo",
+      "it": "Cracker di frumento",
+      "zh": "小麦苏打饼干"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kraker"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Getreide, Teigwaren & Brot",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "baked",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 442,
+      "protein": 11.4,
+      "carbs": 72.7,
+      "fat": 12.3,
+      "fiber": 4.1,
+      "sugar": 1.6
+    },
+    "ingredients": [
+      {
+        "name": "Cracker",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 7351 \"Wheat crackers\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 68.6 g + Ballaststoffe 4.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "Ciqual 2025:7351"
+  },
+  {
+    "id": "zartbitterschokolade",
+    "name": "Zartbitterschokolade, 70 % Kakao",
+    "names": {
+      "de": "Zartbitterschokolade, 70 % Kakao",
+      "en": "Dark chocolate, 70% cocoa",
+      "tr": "Bitter çikolata, %70 kakao",
+      "fr": "Chocolat noir 70 % de cacao",
+      "es": "Chocolate negro 70 % de cacao",
+      "pt": "Chocolate negro 70 % de cacau",
+      "it": "Cioccolato fondente 70 % di cacao",
+      "zh": "黑巧克力（70%可可）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Cikolata bitter",
+      "Bitter çikolata"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Zucker & Salz",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Die 50-%-Tafel Ciqual 31005 (521 kcal) ist ein anderes Produkt und nicht zusätzlich angelegt. 70 % trifft den Namen bitter und die Energieformel.",
+    "per100g": {
+      "kcal": 591,
+      "protein": 10.4,
+      "carbs": 39.7,
+      "fat": 46.3,
+      "fiber": 12.8,
+      "sugar": 17.9
+    },
+    "ingredients": [
+      {
+        "name": "Zartbitterschokolade, 70 % Kakao",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 31074 \"Dark chocolate, 70% cocoa, bar\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 26.9 g + Ballaststoffe 12.8 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. Die 50-%-Tafel Ciqual 31005 (521 kcal) ist ein anderes Produkt und nicht zusätzlich angelegt. 70 % trifft den Namen bitter und die Energieformel.",
+    "source_id": "Ciqual 2025:31074"
+  },
+  {
+    "id": "milchschokolade",
+    "name": "Milchschokolade",
+    "names": {
+      "de": "Milchschokolade",
+      "en": "Milk chocolate",
+      "tr": "Sütlü çikolata",
+      "fr": "Chocolat au lait",
+      "es": "Chocolate con leche",
+      "pt": "Chocolate de leite",
+      "it": "Cioccolato al latte",
+      "zh": "牛奶巧克力"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Sutlu cikolata",
+      "Çikolata sütlü"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Zucker & Salz",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 550,
+      "protein": 7.5,
+      "carbs": 61.8,
+      "fat": 30.8,
+      "fiber": 2.9,
+      "sugar": 56.3
+    },
+    "ingredients": [
+      {
+        "name": "Milchschokolade",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 31004 \"Milk chocolate, bar\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 58.9 g + Ballaststoffe 2.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "Ciqual 2025:31004"
+  },
+  {
+    "id": "adlerfisch-roh",
+    "name": "Adlerfisch, roh",
+    "names": {
+      "de": "Adlerfisch, roh",
+      "en": "Meagre, raw",
+      "tr": "Sarıağız, çiğ",
+      "fr": "Maigre, cru",
+      "es": "Corvina, cruda",
+      "pt": "Corvina, crua",
+      "it": "Ombrina, cruda",
+      "zh": "褐梅童鱼（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Sariağız",
+      "Sarıağız"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fisch & Meeresfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 87,
+      "protein": 20.0,
+      "carbs": 0.0,
+      "fat": 0.8,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Adlerfisch, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 26107 \"Brown meagre, raw\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "Ciqual 2025:26107"
+  },
+  {
+    "id": "ziegenjoghurt",
+    "name": "Ziegenjoghurt",
+    "names": {
+      "de": "Ziegenjoghurt",
+      "en": "Goat yogurt",
+      "tr": "Keçi yoğurdu",
+      "fr": "Yaourt au lait de chèvre",
+      "es": "Yogur de cabra",
+      "pt": "Iogurte de cabra",
+      "it": "Yogurt di capra",
+      "zh": "山羊酸奶"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Keci yogurtu"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Milchprodukte & Eier",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 74,
+      "protein": 4.2,
+      "carbs": 2.8,
+      "fat": 4.9,
+      "fiber": 0.3,
+      "sugar": 2.5
+    },
+    "ingredients": [
+      {
+        "name": "Ziegenjoghurt",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 19556 \"Yogurt, goat's milk, plain\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 2.53 g + Ballaststoffe 0.25 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "Ciqual 2025:19556"
+  },
+  {
+    "id": "scharfe-sosse",
+    "name": "Scharfe Soße (Chili)",
+    "names": {
+      "de": "Scharfe Soße (Chili)",
+      "en": "Hot sauce",
+      "tr": "Acı sos",
+      "fr": "Sauce pimentée",
+      "es": "Salsa picante",
+      "pt": "Molho picante",
+      "it": "Salsa piccante",
+      "zh": "辣椒酱"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Aci sos"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Würzmittel & Aufstriche",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Generische scharfe Soße. Die Marke Tabasco (FDC 174528) ist nicht verwendet.",
+    "per100g": {
+      "kcal": 11,
+      "protein": 0.5,
+      "carbs": 1.8,
+      "fat": 0.4,
+      "fiber": 0.3,
+      "sugar": 1.3
+    },
+    "ingredients": [
+      {
+        "name": "Scharfe Soße (Chili)",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 174527: Sauce, ready-to-serve, pepper or hot. Kohlenhydrate sind der Gesamtwert 1.75 g inkl. Ballaststoffe 0.3 g. Ballaststoffe sind die klassischen AOAC-Ballaststoffe der Quelle, ohne separat gezählte Fructane. Generische scharfe Soße. Die Marke Tabasco (FDC 174528) ist nicht verwendet.",
+    "fdc_id": 174527
+  },
+  {
+    "id": "anis",
+    "name": "Anis",
+    "names": {
+      "de": "Anis",
+      "en": "Anise seed",
+      "tr": "Anason",
+      "fr": "Graines d’anis",
+      "es": "Semillas de anís",
+      "pt": "Sementes de anis",
+      "it": "Semi di anice",
+      "zh": "茴香籽"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Anason"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt Die Formel 4·(KH−BST)+4·Eiweiß+9·Fett+2·BST ergibt 384 kcal, veröffentlicht sind 337 kcal. Das ist der Energiefaktor der Quelle, kein geschätzter kcal-Wert.",
+    "per100g": {
+      "kcal": 337,
+      "protein": 17.6,
+      "carbs": 50.0,
+      "fat": 15.9,
+      "fiber": 14.6
+    },
+    "ingredients": [
+      {
+        "name": "Anis",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 171316: Spices, anise seed. Kohlenhydrate sind der Gesamtwert 50.02 g inkl. Ballaststoffe 14.6 g. Ballaststoffe sind die klassischen AOAC-Ballaststoffe der Quelle, ohne separat gezählte Fructane. Die Formel 4·(KH−BST)+4·Eiweiß+9·Fett+2·BST ergibt 384 kcal, veröffentlicht sind 337 kcal. Das ist der Energiefaktor der Quelle, kein geschätzter kcal-Wert.",
+    "fdc_id": 171316,
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "rosmarin-getrocknet",
+    "name": "Rosmarin, getrocknet",
+    "names": {
+      "de": "Rosmarin, getrocknet",
+      "en": "Rosemary, dried",
+      "tr": "Biberiye, kuru",
+      "fr": "Romarin séché",
+      "es": "Romero seco",
+      "pt": "Alecrim seco",
+      "it": "Rosmarino secco",
+      "zh": "迷迭香（干）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Biberiye"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 328,
+      "protein": 4.9,
+      "carbs": 64.1,
+      "fat": 15.2,
+      "fiber": 42.6
+    },
+    "ingredients": [
+      {
+        "name": "Rosmarin, getrocknet",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 11036 \"Rosemary, dried\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 21.5 g + Ballaststoffe 42.6 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "Ciqual 2025:11036",
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "lorbeerblatt",
+    "name": "Lorbeerblatt",
+    "names": {
+      "de": "Lorbeerblatt",
+      "en": "Bay leaf",
+      "tr": "Defne yaprağı",
+      "fr": "Feuille de laurier",
+      "es": "Hoja de laurel",
+      "pt": "Folha de louro",
+      "it": "Foglia di alloro",
+      "zh": "月桂叶"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Defne yapragi"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt Die Formel 4·(KH−BST)+4·Eiweiß+9·Fett+2·BST ergibt 353 kcal, veröffentlicht sind 313 kcal. Das ist der Energiefaktor der Quelle, kein geschätzter kcal-Wert.",
+    "per100g": {
+      "kcal": 313,
+      "protein": 7.6,
+      "carbs": 75.0,
+      "fat": 8.4,
+      "fiber": 26.3
+    },
+    "ingredients": [
+      {
+        "name": "Lorbeerblatt",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 170917: Spices, bay leaf. Kohlenhydrate sind der Gesamtwert 74.97 g inkl. Ballaststoffe 26.3 g. Ballaststoffe sind die klassischen AOAC-Ballaststoffe der Quelle, ohne separat gezählte Fructane. Die Formel 4·(KH−BST)+4·Eiweiß+9·Fett+2·BST ergibt 353 kcal, veröffentlicht sind 313 kcal. Das ist der Energiefaktor der Quelle, kein geschätzter kcal-Wert.",
+    "fdc_id": 170917,
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "kardamom",
+    "name": "Kardamom",
+    "names": {
+      "de": "Kardamom",
+      "en": "Cardamom",
+      "tr": "Kakule",
+      "fr": "Cardamome",
+      "es": "Cardamomo",
+      "pt": "Cardamomo",
+      "it": "Cardamomo",
+      "zh": "豆蔻"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kakule"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 321,
+      "protein": 10.8,
+      "carbs": 68.5,
+      "fat": 6.7,
+      "fiber": 28.0
+    },
+    "ingredients": [
+      {
+        "name": "Kardamom",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 11075 \"Cardamom, powder\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 40.5 g + Ballaststoffe 28 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "Ciqual 2025:11075",
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "gewuerznelken",
+    "name": "Gewürznelken",
+    "names": {
+      "de": "Gewürznelken",
+      "en": "Cloves",
+      "tr": "Karanfil",
+      "fr": "Clous de girofle",
+      "es": "Clavos de olor",
+      "pt": "Cravo-da-índia",
+      "it": "Chiodi di garofano",
+      "zh": "丁香"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Karanfil"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 335,
+      "protein": 6.0,
+      "carbs": 65.5,
+      "fat": 13.0,
+      "fiber": 33.9,
+      "sugar": 2.4
+    },
+    "ingredients": [
+      {
+        "name": "Gewürznelken",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 11052 \"Cloves\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 31.6 g + Ballaststoffe 33.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "Ciqual 2025:11052"
+  },
+  {
+    "id": "natron",
+    "name": "Natron",
+    "names": {
+      "de": "Natron",
+      "en": "Baking soda",
+      "tr": "Karbonat",
+      "fr": "Bicarbonate de soude",
+      "es": "Bicarbonato sódico",
+      "pt": "Bicarbonato de sódio",
+      "it": "Bicarbonato di sodio",
+      "zh": "小苏打"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Karbonat",
+      "Natriumbicarbonat"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Würzmittel & Aufstriche",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Grundzutat (verarbeitet, generisch), kein Markenprodukt",
+    "per100g": {
+      "kcal": 0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Natron",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 175040: Leavening agents, baking soda. Kohlenhydrate sind der Gesamtwert 0 g inkl. Ballaststoffe 0 g. Ballaststoffe sind die klassischen AOAC-Ballaststoffe der Quelle, ohne separat gezählte Fructane.",
+    "fdc_id": 175040
+  },
+  {
+    "id": "koriandersamen",
+    "name": "Koriandersamen",
+    "names": {
+      "de": "Koriandersamen",
+      "en": "Coriander seed",
+      "tr": "Kişniş tohumu",
+      "fr": "Graines de coriandre",
+      "es": "Semillas de cilantro",
+      "pt": "Sementes de coentro",
+      "it": "Semi di coriandolo",
+      "zh": "芫荽籽"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kisnis tohumu"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt Die Formel 4·(KH−BST)+4·Eiweiß+9·Fett+2·BST ergibt 346 kcal, veröffentlicht sind 298 kcal. Das ist der Energiefaktor der Quelle, kein geschätzter kcal-Wert.",
+    "per100g": {
+      "kcal": 298,
+      "protein": 12.4,
+      "carbs": 55.0,
+      "fat": 17.8,
+      "fiber": 41.9
+    },
+    "ingredients": [
+      {
+        "name": "Koriandersamen",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 170922: Spices, coriander seed. Kohlenhydrate sind der Gesamtwert 54.99 g inkl. Ballaststoffe 41.9 g. Ballaststoffe sind die klassischen AOAC-Ballaststoffe der Quelle, ohne separat gezählte Fructane. Die Formel 4·(KH−BST)+4·Eiweiß+9·Fett+2·BST ergibt 346 kcal, veröffentlicht sind 298 kcal. Das ist der Energiefaktor der Quelle, kein geschätzter kcal-Wert.",
+    "fdc_id": 170922,
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "currypulver",
+    "name": "Currypulver",
+    "names": {
+      "de": "Currypulver",
+      "en": "Curry powder",
+      "tr": "Köri",
+      "fr": "Curry en poudre",
+      "es": "Curry en polvo",
+      "pt": "Caril em pó",
+      "it": "Curry in polvere",
+      "zh": "咖喱粉"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kori"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 325,
+      "protein": 14.3,
+      "carbs": 55.8,
+      "fat": 14.0,
+      "fiber": 53.2,
+      "sugar": 2.8
+    },
+    "ingredients": [
+      {
+        "name": "Currypulver",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 170924: Spices, curry powder. Kohlenhydrate sind der Gesamtwert 55.83 g inkl. Ballaststoffe 53.2 g. Ballaststoffe sind die klassischen AOAC-Ballaststoffe der Quelle, ohne separat gezählte Fructane.",
+    "fdc_id": 170924
+  },
+  {
+    "id": "muskatnuss",
+    "name": "Muskatnuss",
+    "names": {
+      "de": "Muskatnuss",
+      "en": "Nutmeg",
+      "tr": "Muskat",
+      "fr": "Noix de muscade",
+      "es": "Nuez moscada",
+      "pt": "Noz-moscada",
+      "it": "Noce moscata",
+      "zh": "肉豆蔻"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Muskat"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 506,
+      "protein": 6.9,
+      "carbs": 48.2,
+      "fat": 36.3,
+      "fiber": 20.8,
+      "sugar": 3.0
+    },
+    "ingredients": [
+      {
+        "name": "Muskatnuss",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 11048 \"Nutmeg\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 27.4 g + Ballaststoffe 20.8 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "Ciqual 2025:11048"
+  },
+  {
+    "id": "fenchelsamen",
+    "name": "Fenchelsamen",
+    "names": {
+      "de": "Fenchelsamen",
+      "en": "Fennel seed",
+      "tr": "Rezene tohumu",
+      "fr": "Graines de fenouil",
+      "es": "Semillas de hinojo",
+      "pt": "Sementes de funcho",
+      "it": "Semi di finocchio",
+      "zh": "茴香籽（小茴香）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Rezene tohumu"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 345,
+      "protein": 15.8,
+      "carbs": 52.3,
+      "fat": 14.9,
+      "fiber": 39.8
+    },
+    "ingredients": [
+      {
+        "name": "Fenchelsamen",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 171323: Spices, fennel seed. Kohlenhydrate sind der Gesamtwert 52.29 g inkl. Ballaststoffe 39.8 g. Ballaststoffe sind die klassischen AOAC-Ballaststoffe der Quelle, ohne separat gezählte Fructane.",
+    "fdc_id": 171323,
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "safran",
+    "name": "Safran",
+    "names": {
+      "de": "Safran",
+      "en": "Saffron",
+      "tr": "Safran",
+      "fr": "Safran",
+      "es": "Azafrán",
+      "pt": "Açafrão",
+      "it": "Zafferano",
+      "zh": "藏红花"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Safran"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 352,
+      "protein": 11.4,
+      "carbs": 65.4,
+      "fat": 5.9,
+      "fiber": 3.9,
+      "sugar": 42.4
+    },
+    "ingredients": [
+      {
+        "name": "Safran",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 11039 \"Saffron\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 61.5 g + Ballaststoffe 3.9 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "Ciqual 2025:11039"
+  },
+  {
+    "id": "piment",
+    "name": "Piment",
+    "names": {
+      "de": "Piment",
+      "en": "Allspice",
+      "tr": "Yenibahar",
+      "fr": "Piment de la Jamaïque",
+      "es": "Pimienta de Jamaica",
+      "pt": "Pimenta-da-jamaica",
+      "it": "Pimento",
+      "zh": "多香果"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Yenibahar",
+      "Allspice"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt Die Formel 4·(KH−BST)+4·Eiweiß+9·Fett+2·BST ergibt 348 kcal, veröffentlicht sind 263 kcal. Das ist der Energiefaktor der Quelle, kein geschätzter kcal-Wert.",
+    "per100g": {
+      "kcal": 263,
+      "protein": 6.1,
+      "carbs": 72.1,
+      "fat": 8.7,
+      "fiber": 21.6
+    },
+    "ingredients": [
+      {
+        "name": "Piment",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 171315: Spices, allspice, ground. Kohlenhydrate sind der Gesamtwert 72.12 g inkl. Ballaststoffe 21.6 g. Ballaststoffe sind die klassischen AOAC-Ballaststoffe der Quelle, ohne separat gezählte Fructane. Die Formel 4·(KH−BST)+4·Eiweiß+9·Fett+2·BST ergibt 348 kcal, veröffentlicht sind 263 kcal. Das ist der Energiefaktor der Quelle, kein geschätzter kcal-Wert.",
+    "fdc_id": 171315,
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "kurkuma",
+    "name": "Kurkuma",
+    "names": {
+      "de": "Kurkuma",
+      "en": "Turmeric",
+      "tr": "Zerdeçal",
+      "fr": "Curcuma",
+      "es": "Cúrcuma",
+      "pt": "Açafrão-da-terra",
+      "it": "Curcuma",
+      "zh": "姜黄"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Zerdesal",
+      "Zerdeçal"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dried",
+    "unit": "g",
+    "note": "Grundzutat (getrocknet), kein Fertigprodukt",
+    "per100g": {
+      "kcal": 291,
+      "protein": 9.7,
+      "carbs": 67.1,
+      "fat": 3.3,
+      "fiber": 22.7,
+      "sugar": 3.2
+    },
+    "ingredients": [
+      {
+        "name": "Kurkuma",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 11089 \"Turmeric, powder\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 44.4 g + Ballaststoffe 22.7 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "Ciqual 2025:11089"
+  },
+  {
+    "id": "senfkraut-roh",
+    "name": "Senfkraut, roh",
+    "names": {
+      "de": "Senfkraut, roh",
+      "en": "Mustard greens, raw",
+      "tr": "Hardal otu, çiğ",
+      "fr": "Feuilles de moutarde, crues",
+      "es": "Hojas de mostaza, crudas",
+      "pt": "Folhas de mostarda, cruas",
+      "it": "Foglie di senape, crude",
+      "zh": "芥菜叶（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Hardal otu"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Gemüse",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 27,
+      "protein": 2.9,
+      "carbs": 4.7,
+      "fat": 0.4,
+      "fiber": 3.2,
+      "sugar": 1.3
+    },
+    "ingredients": [
+      {
+        "name": "Senfkraut, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 169256: Mustard greens, raw. Kohlenhydrate sind der Gesamtwert 4.67 g inkl. Ballaststoffe 3.2 g. Ballaststoffe sind die klassischen AOAC-Ballaststoffe der Quelle, ohne separat gezählte Fructane.",
+    "fdc_id": 169256
+  },
+  {
+    "id": "lupinen-roh",
+    "name": "Lupinen, reife Samen, roh",
+    "names": {
+      "de": "Lupinen, reife Samen, roh",
+      "en": "Lupins, mature seeds, raw",
+      "tr": "Acı bakla, çiğ",
+      "fr": "Lupin, graine crue",
+      "es": "Altramuz, semilla cruda",
+      "pt": "Tremoço, semente crua",
+      "it": "Lupino, seme crudo",
+      "zh": "羽扇豆（生籽）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Termiye",
+      "Acı bakla"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Hülsenfrüchte",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "dry",
+    "unit": "g",
+    "note": "Tirmis als Gericht nutzt die gekochten Lupinen USDA FDC 172424, nicht diese Rohware.",
+    "per100g": {
+      "kcal": 371,
+      "protein": 36.2,
+      "carbs": 40.4,
+      "fat": 9.7,
+      "fiber": 18.9
+    },
+    "ingredients": [
+      {
+        "name": "Lupinen, reife Samen, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 172423: Lupins, mature seeds, raw. Kohlenhydrate sind der Gesamtwert 40.37 g inkl. Ballaststoffe 18.9 g. Ballaststoffe sind die klassischen AOAC-Ballaststoffe der Quelle, ohne separat gezählte Fructane. Tirmis als Gericht nutzt die gekochten Lupinen USDA FDC 172424, nicht diese Rohware.",
+    "fdc_id": 172423,
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "zitronenschale",
+    "name": "Zitronenschale, roh",
+    "names": {
+      "de": "Zitronenschale, roh",
+      "en": "Lemon peel, raw",
+      "tr": "Limon kabuğu, çiğ",
+      "fr": "Zeste de citron, cru",
+      "es": "Corteza de limón, cruda",
+      "pt": "Casca de limão, crua",
+      "it": "Scorza di limone, cruda",
+      "zh": "柠檬皮（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Limon kabugu rendesi"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Obst",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Ciqual 13125 (Zeste) hat keine veröffentlichte Energie und wurde nicht verwendet. Die USDA-Schale entspricht geriebenem Zesten plus etwas Weiß.",
+    "per100g": {
+      "kcal": 47,
+      "protein": 1.5,
+      "carbs": 16.0,
+      "fat": 0.3,
+      "fiber": 10.6,
+      "sugar": 4.2
+    },
+    "ingredients": [
+      {
+        "name": "Zitronenschale, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 167749: Lemon peel, raw. Kohlenhydrate sind der Gesamtwert 16 g inkl. Ballaststoffe 10.6 g. Ballaststoffe sind die klassischen AOAC-Ballaststoffe der Quelle, ohne separat gezählte Fructane. Ciqual 13125 (Zeste) hat keine veröffentlichte Energie und wurde nicht verwendet. Die USDA-Schale entspricht geriebenem Zesten plus etwas Weiß.",
+    "fdc_id": 167749
+  },
+  {
+    "id": "orangenschale",
+    "name": "Orangenschale, roh",
+    "names": {
+      "de": "Orangenschale, roh",
+      "en": "Orange peel, raw",
+      "tr": "Portakal kabuğu, çiğ",
+      "fr": "Zeste d’orange, cru",
+      "es": "Corteza de naranja, cruda",
+      "pt": "Casca de laranja, crua",
+      "it": "Scorza d’arancia, cruda",
+      "zh": "橙皮（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Portakal kabugu"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Obst",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 97,
+      "protein": 1.5,
+      "carbs": 25.0,
+      "fat": 0.2,
+      "fiber": 10.6
+    },
+    "ingredients": [
+      {
+        "name": "Orangenschale, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 169103: Orange peel, raw. Kohlenhydrate sind der Gesamtwert 25 g inkl. Ballaststoffe 10.6 g. Ballaststoffe sind die klassischen AOAC-Ballaststoffe der Quelle, ohne separat gezählte Fructane.",
+    "fdc_id": 169103,
+    "source_missing": [
+      "sugar"
+    ]
+  },
+  {
+    "id": "esskastanie-roh",
+    "name": "Esskastanie, roh",
+    "names": {
+      "de": "Esskastanie, roh",
+      "en": "Chestnut, raw",
+      "tr": "Kestane, çiğ",
+      "fr": "Châtaigne, crue",
+      "es": "Castaña, cruda",
+      "pt": "Castanha, crua",
+      "it": "Castagna, cruda",
+      "zh": "栗子（生）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kestane cig"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Obst",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "raw",
+    "unit": "g",
+    "note": "Grundzutat, kein Fertigprodukt",
+    "per100g": {
+      "kcal": 189,
+      "protein": 2.4,
+      "carbs": 44.9,
+      "fat": 1.8,
+      "fiber": 8.1,
+      "sugar": 7.9
+    },
+    "ingredients": [
+      {
+        "name": "Esskastanie, roh",
+        "grams": 100
+      }
+    ],
+    "quality": "reference",
+    "source": "Anses (2025): Ciqual French food composition table, Version 2025 (Stand 3.11.2025), Zenodo-Record 17550133, Lizenz Licence Ouverte Etalab 2.0; Code 15024 \"Chestnut, raw\". Datensatz der Datenbank (Tabellenwert). Eiweiß ist N × 6,25. kcal ist die Energie nach Verordnung (EU) Nr. 1169/2011. Kohlenhydrate = verfügbare KH 36.8 g + Ballaststoffe 8.1 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "source_id": "Ciqual 2025:15024"
+  },
+  {
+    "id": "margarine",
+    "name": "Margarine",
+    "names": {
+      "de": "Margarine",
+      "en": "Margarine",
+      "tr": "Margarin",
+      "fr": "Margarine",
+      "es": "Margarina",
+      "pt": "Margarina",
+      "it": "Margarina",
+      "zh": "人造黄油"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Margarin"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Fette & Öle",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Haushaltsmargarine hat hier keinen eigenen freien Datensatz. Nahe Entsprechung ist Backmargarine. Der Fettgehalt von Streichmargarine kann abweichen.",
+    "per100g": {
+      "kcal": 717,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 79.7,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Margarine",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Haushaltsmargarine hat hier keinen eigenen freien Datensatz. Nahe Entsprechung ist Backmargarine. Der Fettgehalt von Streichmargarine kann abweichen. Referenz: Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code Q481000 \"Backmargarine\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "derived_from": "BLS 4.0:Q481000",
+    "method": "similar_food"
+  },
+  {
+    "id": "nussmischung",
+    "name": "Nussmischung, ölgeröstet",
+    "names": {
+      "de": "Nussmischung, ölgeröstet",
+      "en": "Mixed nuts, oil roasted",
+      "tr": "Karışık kuruyemiş, yağda kavrulmuş",
+      "fr": "Mélange de noix grillé à l’huile",
+      "es": "Mezcla de frutos secos fritos",
+      "pt": "Mistura de frutos secos frita",
+      "it": "Frutta secca mista tostata in olio",
+      "zh": "混合坚果（油烤）"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Karisik kuruyemis"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Nüsse & Samen",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "roasted",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Eine markenlose türkische Nussmischung hat keinen eigenen freien Datensatz. Nahe Entsprechung ist die ölgeröstete Mischung mit Erdnüssen, leicht gesalzen. Rohe ungesalzene Mischungen ohne Erdnuss sind ein anderes Produkt.",
+    "per100g": {
+      "kcal": 607,
+      "protein": 20.0,
+      "carbs": 21.1,
+      "fat": 54.0,
+      "fiber": 7.0,
+      "sugar": 4.2
+    },
+    "ingredients": [
+      {
+        "name": "Nussmischung, ölgeröstet",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Eine markenlose türkische Nussmischung hat keinen eigenen freien Datensatz. Nahe Entsprechung ist die ölgeröstete Mischung mit Erdnüssen, leicht gesalzen. Rohe ungesalzene Mischungen ohne Erdnuss sind ein anderes Produkt. Referenz: USDA FoodData Central, SR Legacy (April 2018), gemeinfrei (CC0 1.0), FDC ID 169427: Nuts, mixed nuts, oil roasted, with peanuts, lightly salted. Kohlenhydrate sind der Gesamtwert 21.05 g inkl. Ballaststoffe 7 g. Ballaststoffe sind die klassischen AOAC-Ballaststoffe der Quelle, ohne separat gezählte Fructane.",
+    "derived_from": "FDC:169427",
+    "method": "similar_food"
+  },
+  {
+    "id": "sosis",
+    "name": "Sosis",
+    "names": {
+      "de": "Sosis",
+      "en": "Frankfurter-style sausage",
+      "tr": "Sosis",
+      "fr": "Saucisse type francfort",
+      "es": "Salchicha tipo Frankfurt",
+      "pt": "Salsicha tipo Frankfurt",
+      "it": "Salsiccia tipo Frankfurt",
+      "zh": "法兰克福肠"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Sosis"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Wurst & Schinken",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Türkische Frühstücks-Sosis hat keinen eigenen freien Datensatz. Nahe Entsprechung sind Wiener Würstchen. Marken-Sosis bleibt draußen.",
+    "per100g": {
+      "kcal": 289,
+      "protein": 12.9,
+      "carbs": 0.0,
+      "fat": 26.2,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Sosis",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Türkische Frühstücks-Sosis hat keinen eigenen freien Datensatz. Nahe Entsprechung sind Wiener Würstchen. Marken-Sosis bleibt draußen. Referenz: Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code W211200 \"Wiener Würstchen\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane.",
+    "derived_from": "BLS 4.0:W211200",
+    "method": "similar_food"
+  },
+  {
+    "id": "tulum-peyniri",
+    "name": "Tulum-Käse",
+    "names": {
+      "de": "Tulum-Käse",
+      "en": "Tulum cheese",
+      "tr": "Tulum peyniri",
+      "fr": "Fromage tulum",
+      "es": "Queso tulum",
+      "pt": "Queijo tulum",
+      "it": "Formaggio tulum",
+      "zh": "图卢姆奶酪"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Tulum peyniri",
+      "Erzincan tulumu",
+      "Izmir tulumu",
+      "Bergama tulumu"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Milchprodukte & Eier",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Tulum hat keinen eigenen freien Datensatz. Nahe Entsprechung ist Feta (USDA SR 173420, Eintrag feta). Tulum reift in einem Schlauch und ist oft salziger. Erzincan-, İzmir- und Bergama-Tulum sind Suchsynonyme dieser einen Nähe, keine eigenen Analysen.",
+    "per100g": {
+      "kcal": 265,
+      "protein": 14.2,
+      "carbs": 3.9,
+      "fat": 21.5,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Tulum-Käse",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Tulum hat keinen eigenen freien Datensatz. Nahe Entsprechung ist Feta (USDA SR 173420, Eintrag feta). Tulum reift in einem Schlauch und ist oft salziger. Erzincan-, İzmir- und Bergama-Tulum sind Suchsynonyme dieser einen Nähe, keine eigenen Analysen. Werte unverändert vom Eintrag feta übernommen. Referenz dort: USDA FoodData Central, SR Legacy (April 2018), FDC ID 173420: Cheese, feta",
+    "derived_from": "feta",
+    "method": "similar_food"
+  },
+  {
+    "id": "otlu-peyniri",
+    "name": "Otlu Peynir (Van)",
+    "names": {
+      "de": "Otlu Peynir (Van)",
+      "en": "Van herb cheese",
+      "tr": "Otlu peynir (Van)",
+      "fr": "Fromage aux herbes de Van",
+      "es": "Queso de hierbas de Van",
+      "pt": "Queijo de ervas de Van",
+      "it": "Formaggio alle erbe di Van",
+      "zh": "凡城香草奶酪"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Otlu peynir",
+      "Kräuterkäse Van"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Milchprodukte & Eier",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Otlu Peynir hat keinen eigenen freien Datensatz. Nahe Entsprechung ist Kuhmilch-Salzlakenkäse (BLS M052000). Der Kräuteranteil ist nicht in den Werten enthalten.",
+    "per100g": {
+      "kcal": 259,
+      "protein": 16.4,
+      "carbs": 0.0,
+      "fat": 21.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Otlu Peynir (Van)",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Otlu Peynir hat keinen eigenen freien Datensatz. Nahe Entsprechung ist Kuhmilch-Salzlakenkäse (BLS M052000). Der Kräuteranteil ist nicht in den Werten enthalten. Werte unverändert vom Eintrag beyaz-peynir-kuhmilch-salzlakenkaese übernommen. Referenz dort: Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code M052000 \"Salzlakenkäse aus Kuhmilch, Hirtenkäse, mind. 45 % Fett i. Tr.\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "derived_from": "beyaz-peynir-kuhmilch-salzlakenkaese",
+    "method": "similar_food"
+  },
+  {
+    "id": "mihalic-peyniri",
+    "name": "Mihaliç-Käse",
+    "names": {
+      "de": "Mihaliç-Käse",
+      "en": "Mihaliç cheese",
+      "tr": "Mihaliç peyniri",
+      "fr": "Fromage Mihaliç",
+      "es": "Queso Mihaliç",
+      "pt": "Queijo Mihaliç",
+      "it": "Formaggio Mihaliç",
+      "zh": "米哈利奇奶酪"
+    },
+    "type": "item",
+    "barcode": null,
+    "synonyms": [
+      "Kelle peyniri",
+      "Kelle-Käse",
+      "Mihalic peyniri"
+    ],
+    "cuisine": "int",
+    "category": "Grundzutat: Milchprodukte & Eier",
+    "prepared": "base_ingredient",
+    "is_packaged_product": false,
+    "state": "processed",
+    "unit": "g",
+    "note": "Nahe Entsprechung: Mihaliç und Kelle peyniri sind dieselbe Käsefamilie und haben keinen eigenen freien Datensatz. Nahe Entsprechung ist Schafmilch-Salzlakenkäse (BLS M6A6800). Ein Eintrag, beide Namen.",
+    "per100g": {
+      "kcal": 283,
+      "protein": 15.4,
+      "carbs": 0.0,
+      "fat": 24.1,
+      "fiber": 0.0,
+      "sugar": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Mihaliç-Käse",
+        "grams": 100
+      }
+    ],
+    "quality": "estimate",
+    "source": "Geschätzt (Methode similar_food): Mihaliç und Kelle peyniri sind dieselbe Käsefamilie und haben keinen eigenen freien Datensatz. Nahe Entsprechung ist Schafmilch-Salzlakenkäse (BLS M6A6800). Ein Eintrag, beide Namen. Werte unverändert vom Eintrag beyaz-peynir-aus-schafmilch übernommen. Referenz dort: Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code M6A6800 \"Salzlakenkäse aus Schafmilch, mind. 45 % Fett i. Tr.\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "derived_from": "beyaz-peynir-aus-schafmilch",
+    "method": "similar_food"
+  },
+  {
+    "id": "tavuk-doner-porsiyon",
+    "name": "Tavuk Döner Porsiyon",
+    "names": {
+      "de": "Hähnchendöner, Teller",
+      "en": "Chicken döner plate",
+      "tr": "Tavuk döner (porsiyon)",
+      "fr": "Assiette de döner au poulet",
+      "es": "Plato de döner de pollo",
+      "pt": "Prato de döner de frango",
+      "it": "Piatto di döner di pollo",
+      "zh": "鸡肉旋转烤肉盘"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Tavuk Doner Porsiyon",
+      "Hähnchendöner Teller",
+      "Chicken doner plate"
+    ],
+    "cuisine": "tr",
+    "category": "Kebap",
+    "prepared": "restaurant",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 162,
+      "protein": 8.8,
+      "carbs": 12.9,
+      "fat": 8.1,
+      "fiber": 0.6
+    },
+    "portion": {
+      "label": "1 Teller",
+      "grams": 345
+    },
+    "ingredients": [
+      {
+        "name": "Hähnchenkeule (ohne Knochen)",
+        "grams": 150
+      },
+      {
+        "name": "Reis (trocken)",
+        "grams": 50
+      },
+      {
+        "name": "Wasser",
+        "grams": 90
+      },
+      {
+        "name": "Tomate",
+        "grams": 50
+      },
+      {
+        "name": "Blattsalat (Romana/Eisberg)",
+        "grams": 40
+      },
+      {
+        "name": "Zwiebel",
+        "grams": 20
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "grams": 8
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "tavuk-sis-durum",
+    "name": "Tavuk Şiş Dürüm",
+    "names": {
+      "de": "Hähnchenspieß-Dürüm",
+      "en": "Chicken shish wrap",
+      "tr": "Tavuk şiş dürüm",
+      "fr": "Dürüm de brochettes de poulet",
+      "es": "Dürüm de brocheta de pollo",
+      "pt": "Dürüm de espetada de frango",
+      "it": "Dürüm di spiedini di pollo",
+      "zh": "鸡肉串卷饼"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Tavuk Sis Durum",
+      "Hähnchenspieß-Dürüm",
+      "Chicken shish wrap"
+    ],
+    "cuisine": "tr",
+    "category": "Snack",
+    "prepared": "restaurant",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 172,
+      "protein": 14.0,
+      "carbs": 19.0,
+      "fat": 4.3,
+      "fiber": 1.2
+    },
+    "portion": {
+      "label": "1 Dürüm",
+      "grams": 260
+    },
+    "ingredients": [
+      {
+        "name": "Hähnchenbrust",
+        "grams": 120
+      },
+      {
+        "name": "Lavaş/Wrap-Fladen",
+        "grams": 80
+      },
+      {
+        "name": "Tomate",
+        "grams": 30
+      },
+      {
+        "name": "Spitzpaprika (Sivri Biber)",
+        "grams": 20
+      },
+      {
+        "name": "Zwiebel",
+        "grams": 15
+      },
+      {
+        "name": "Joghurt (3,5%)",
+        "grams": 20
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "grams": 6
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "urfa-durum",
+    "name": "Urfa Dürüm",
+    "names": {
+      "de": "Urfa-Dürüm",
+      "en": "Urfa kebab wrap",
+      "tr": "Urfa dürüm",
+      "fr": "Dürüm kebab d’Urfa",
+      "es": "Dürüm kebab de Urfa",
+      "pt": "Dürüm kebab de Urfa",
+      "it": "Dürüm kebab di Urfa",
+      "zh": "乌尔法烤肉卷"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Urfa Durum",
+      "Urfa-Dürüm",
+      "Urfa kebab wrap"
+    ],
+    "cuisine": "tr",
+    "category": "Snack",
+    "prepared": "restaurant",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 284,
+      "protein": 11.7,
+      "carbs": 21.3,
+      "fat": 17.1,
+      "fiber": 1.3
+    },
+    "portion": {
+      "label": "1 Dürüm",
+      "grams": 255
+    },
+    "ingredients": [
+      {
+        "name": "Lammhackfleisch",
+        "grams": 130
+      },
+      {
+        "name": "Lammschwanzfett",
+        "grams": 12
+      },
+      {
+        "name": "Lavaş/Wrap-Fladen",
+        "grams": 90
+      },
+      {
+        "name": "Zwiebel",
+        "grams": 20
+      },
+      {
+        "name": "Tomate",
+        "grams": 30
+      },
+      {
+        "name": "Petersilie",
+        "grams": 6
+      },
+      {
+        "name": "Sumak",
+        "grams": 1
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "doner-pide-ustu",
+    "name": "Döner Pide Üstü",
+    "names": {
+      "de": "Döner auf Pide",
+      "en": "Döner on pide",
+      "tr": "Döner tabağı (pide üstü)",
+      "fr": "Döner sur pide",
+      "es": "Döner sobre pide",
+      "pt": "Döner sobre pide",
+      "it": "Döner su pide",
+      "zh": "皮德饼旋转烤肉"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Doner Pide Ustu",
+      "Döner auf Pide",
+      "Doner on pide"
+    ],
+    "cuisine": "tr",
+    "category": "Kebap",
+    "prepared": "restaurant",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 201,
+      "protein": 10.4,
+      "carbs": 16.5,
+      "fat": 10.5,
+      "fiber": 1.0
+    },
+    "portion": {
+      "label": "1 Teller",
+      "grams": 350
+    },
+    "ingredients": [
+      {
+        "name": "Lammfleisch",
+        "grams": 80
+      },
+      {
+        "name": "Rinderhackfleisch",
+        "grams": 70
+      },
+      {
+        "name": "Türkisches Brot (Ekmek)",
+        "grams": 100
+      },
+      {
+        "name": "Tomate",
+        "grams": 40
+      },
+      {
+        "name": "Blattsalat (Romana/Eisberg)",
+        "grams": 30
+      },
+      {
+        "name": "Zwiebel",
+        "grams": 15
+      },
+      {
+        "name": "Joghurt (3,5%)",
+        "grams": 40
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "grams": 6
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "doner-karisik-et",
+    "name": "Döner Karışık Et",
+    "names": {
+      "de": "Döner gemischt (Lamm/Rind)",
+      "en": "Mixed meat döner",
+      "tr": "Döner (et, karışık)",
+      "fr": "Döner mélange agneau et bœuf",
+      "es": "Döner mixto de cordero y ternera",
+      "pt": "Döner misto de borrego e vaca",
+      "it": "Döner misto agnello e manzo",
+      "zh": "牛羊混合旋转烤肉"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Doner Karisik Et",
+      "Döner gemischt Lamm und Rind",
+      "Mixed meat doner"
+    ],
+    "cuisine": "tr",
+    "category": "Kebap",
+    "prepared": "restaurant",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 314,
+      "protein": 23.7,
+      "carbs": 0.0,
+      "fat": 24.4,
+      "fiber": 0.0
+    },
+    "portion": {
+      "label": "1 Portion",
+      "grams": 120
+    },
+    "ingredients": [
+      {
+        "name": "Lammfleisch",
+        "grams": 80
+      },
+      {
+        "name": "Rindfleisch (Schmor/Gulasch)",
+        "grams": 70
+      },
+      {
+        "name": "Lammschwanzfett",
+        "grams": 12
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "kiymali-kasarli-pide",
+    "name": "Kıymalı Kaşarlı Pide",
+    "names": {
+      "de": "Pide mit Hack und Käse",
+      "en": "Pide with mince and cheese",
+      "tr": "Kıymalı kaşarlı pide",
+      "fr": "Pide à la viande et au fromage",
+      "es": "Pide con carne y queso",
+      "pt": "Pide com carne e queijo",
+      "it": "Pide con carne e formaggio",
+      "zh": "肉末奶酪皮德饼"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Kiymali Kasarli Pide",
+      "Pide mit Hack und Käse",
+      "Pide with mince and cheese"
+    ],
+    "cuisine": "tr",
+    "category": "Pide/Lahmacun/Gözleme",
+    "prepared": "restaurant",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 283,
+      "protein": 11.5,
+      "carbs": 28.2,
+      "fat": 13.4,
+      "fiber": 1.3
+    },
+    "portion": {
+      "label": "1 Pide",
+      "grams": 320
+    },
+    "ingredients": [
+      {
+        "name": "Weizenmehl",
+        "grams": 120
+      },
+      {
+        "name": "Wasser",
+        "grams": 55
+      },
+      {
+        "name": "Rinderhackfleisch",
+        "grams": 70
+      },
+      {
+        "name": "Kaşar",
+        "grams": 50
+      },
+      {
+        "name": "Zwiebel",
+        "grams": 20
+      },
+      {
+        "name": "Tomate",
+        "grams": 25
+      },
+      {
+        "name": "Butter",
+        "grams": 10
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "grams": 6
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "bicak-arasi",
+    "name": "Bıçak Arası",
+    "names": {
+      "de": "Bıçak Arası",
+      "en": "Knife-cut sandwich (Adana)",
+      "tr": "Bıçak arası (Adana)",
+      "fr": "Sandwich Bıçak Arası",
+      "es": "Sándwich Bıçak Arası",
+      "pt": "Sanduíche Bıçak Arası",
+      "it": "Panino Bıçak Arası",
+      "zh": "阿达纳夹肉面包"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Bicak Arasi",
+      "Knife-cut sandwich Adana"
+    ],
+    "cuisine": "tr",
+    "category": "Snack",
+    "prepared": "restaurant",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 235,
+      "protein": 9.9,
+      "carbs": 23.5,
+      "fat": 11.4,
+      "fiber": 1.6
+    },
+    "portion": {
+      "label": "1 Stück",
+      "grams": 240
+    },
+    "ingredients": [
+      {
+        "name": "Türkisches Brot (Ekmek)",
+        "grams": 100
+      },
+      {
+        "name": "Lammhackfleisch",
+        "grams": 90
+      },
+      {
+        "name": "Tomate",
+        "grams": 30
+      },
+      {
+        "name": "Spitzpaprika (Sivri Biber)",
+        "grams": 20
+      },
+      {
+        "name": "Zwiebel",
+        "grams": 15
+      },
+      {
+        "name": "Sumak",
+        "grams": 1
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "grams": 4
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "serpme-kahvalti",
+    "name": "Serpme Kahvaltı",
+    "names": {
+      "de": "Serpme-Frühstück pro Person",
+      "en": "Turkish spread breakfast per person",
+      "tr": "Serpme kahvaltı (kişi başı)",
+      "fr": "Petit-déjeuner turc servi (1 personne)",
+      "es": "Desayuno turco servido (1 persona)",
+      "pt": "Pequeno-almoço turco servido (1 pessoa)",
+      "it": "Colazione turca servita (1 persona)",
+      "zh": "土耳其拼盘早餐（一人）"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Serpme Kahvalti",
+      "Serpme-Frühstück pro Person",
+      "Turkish spread breakfast"
+    ],
+    "cuisine": "tr",
+    "category": "Frühstück",
+    "prepared": "homemade",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 118,
+      "protein": 4.5,
+      "carbs": 11.2,
+      "fat": 6.2,
+      "fiber": 0.8
+    },
+    "portion": {
+      "label": "1 Person",
+      "grams": 395
+    },
+    "ingredients": [
+      {
+        "name": "Beyaz Peynir (Schafskäse)",
+        "grams": 40
+      },
+      {
+        "name": "Oliven",
+        "grams": 30
+      },
+      {
+        "name": "Tomate",
+        "grams": 70
+      },
+      {
+        "name": "Gurke",
+        "grams": 50
+      },
+      {
+        "name": "Honig",
+        "grams": 12
+      },
+      {
+        "name": "Kaymak",
+        "grams": 15
+      },
+      {
+        "name": "Ei",
+        "grams": 50
+      },
+      {
+        "name": "Türkisches Brot (Ekmek)",
+        "grams": 50
+      },
+      {
+        "name": "Tee/Kaffee (ungesüßt)",
+        "grams": 80
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "meze-teller",
+    "name": "Meze Teller",
+    "names": {
+      "de": "Meze-Teller",
+      "en": "Meze platter",
+      "tr": "Rakı sofrası meze tabağı",
+      "fr": "Assiette de meze",
+      "es": "Plato de meze",
+      "pt": "Travessa de meze",
+      "it": "Piatto di meze",
+      "zh": "梅泽拼盘"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Meze-Teller",
+      "Meze platter"
+    ],
+    "cuisine": "tr",
+    "category": "Vorspeise/Meze",
+    "prepared": "homemade",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 150,
+      "protein": 4.4,
+      "carbs": 14.4,
+      "fat": 8.8,
+      "fiber": 3.2
+    },
+    "portion": {
+      "label": "1 Teller",
+      "grams": 215
+    },
+    "ingredients": [
+      {
+        "name": "Joghurt (3,5%)",
+        "grams": 40
+      },
+      {
+        "name": "Walnüsse",
+        "grams": 6
+      },
+      {
+        "name": "Knoblauch",
+        "grams": 2
+      },
+      {
+        "name": "Tomate",
+        "grams": 40
+      },
+      {
+        "name": "Zwiebel",
+        "grams": 10
+      },
+      {
+        "name": "Olivenöl",
+        "grams": 8
+      },
+      {
+        "name": "Kichererbsen (gekocht)",
+        "grams": 35
+      },
+      {
+        "name": "Tahin",
+        "grams": 8
+      },
+      {
+        "name": "Aubergine",
+        "grams": 50
+      },
+      {
+        "name": "Weinblätter (eingelegt)",
+        "grams": 15
+      },
+      {
+        "name": "Reis (trocken)",
+        "grams": 12
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "karisik-izgara",
+    "name": "Karışık Izgara",
+    "names": {
+      "de": "Gemischter Grillteller",
+      "en": "Mixed grill",
+      "tr": "Karışık ızgara",
+      "fr": "Grillade mixte",
+      "es": "Parrillada mixta",
+      "pt": "Grelhada mista",
+      "it": "Grigliata mista",
+      "zh": "混合烤盘"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Karisik Izgara",
+      "Gemischter Grillteller",
+      "Mixed grill"
+    ],
+    "cuisine": "tr",
+    "category": "Kebap",
+    "prepared": "restaurant",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 262,
+      "protein": 13.8,
+      "carbs": 10.8,
+      "fat": 18.3,
+      "fiber": 1.1
+    },
+    "portion": {
+      "label": "1 Teller",
+      "grams": 250
+    },
+    "ingredients": [
+      {
+        "name": "Lammhackfleisch",
+        "grams": 70
+      },
+      {
+        "name": "Lammfleisch",
+        "grams": 60
+      },
+      {
+        "name": "Rinderhackfleisch",
+        "grams": 50
+      },
+      {
+        "name": "Tomate",
+        "grams": 40
+      },
+      {
+        "name": "Spitzpaprika (Sivri Biber)",
+        "grams": 30
+      },
+      {
+        "name": "Lavaş/Wrap-Fladen",
+        "grams": 40
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "grams": 8
+      },
+      {
+        "name": "Zwiebel",
+        "grams": 15
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "kebap-garnitur",
+    "name": "Kebap Garnitür",
+    "names": {
+      "de": "Kebap-Beilage",
+      "en": "Kebab side garnish",
+      "tr": "Kebap tabağı garnitür",
+      "fr": "Garniture de kebab",
+      "es": "Guarnición de kebab",
+      "pt": "Acompanhamento de kebab",
+      "it": "Contorno di kebab",
+      "zh": "烤肉配菜"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Kebap Garnitur",
+      "Kebap-Beilage",
+      "Kebab side garnish"
+    ],
+    "cuisine": "tr",
+    "category": "Beilage",
+    "prepared": "restaurant",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 72,
+      "protein": 1.3,
+      "carbs": 6.1,
+      "fat": 5.0,
+      "fiber": 2.0
+    },
+    "portion": {
+      "label": "1 Beilage",
+      "grams": 170
+    },
+    "ingredients": [
+      {
+        "name": "Blattsalat (Romana/Eisberg)",
+        "grams": 40
+      },
+      {
+        "name": "Tomate",
+        "grams": 50
+      },
+      {
+        "name": "Zwiebel",
+        "grams": 40
+      },
+      {
+        "name": "Spitzpaprika (Sivri Biber)",
+        "grams": 35
+      },
+      {
+        "name": "Sumak",
+        "grams": 2
+      },
+      {
+        "name": "Petersilie",
+        "grams": 6
+      },
+      {
+        "name": "Olivenöl",
+        "grams": 8
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "catal",
+    "name": "Çatal",
+    "names": {
+      "de": "Çatal (Gebäck)",
+      "en": "Çatal pastry",
+      "tr": "Çatal",
+      "fr": "Pâtisserie Çatal",
+      "es": "Pastel Çatal",
+      "pt": "Doce Çatal",
+      "it": "Pasticcino Çatal",
+      "zh": "恰塔尔点心"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Catal",
+      "Çatal-Gebäck",
+      "Catal pastry"
+    ],
+    "cuisine": "tr",
+    "category": "Gebäck",
+    "prepared": "homemade",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 332,
+      "protein": 8.3,
+      "carbs": 47.3,
+      "fat": 12.3,
+      "fiber": 2.8
+    },
+    "portion": {
+      "label": "1 Stück",
+      "grams": 130
+    },
+    "ingredients": [
+      {
+        "name": "Weizenmehl",
+        "grams": 70
+      },
+      {
+        "name": "Wasser",
+        "grams": 38
+      },
+      {
+        "name": "Hefe",
+        "grams": 2
+      },
+      {
+        "name": "Zucker",
+        "grams": 8
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "grams": 8
+      },
+      {
+        "name": "Sesam",
+        "grams": 12
+      },
+      {
+        "name": "Ei",
+        "grams": 12
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "karisik-kiyma",
+    "name": "Karışık Kıyma",
+    "names": {
+      "de": "Gemischtes Hackfleisch Rind/Lamm",
+      "en": "Ground beef and lamb",
+      "tr": "Karışık kıyma",
+      "fr": "Viande hachée bœuf et agneau",
+      "es": "Carne picada de ternera y cordero",
+      "pt": "Carne picada de vaca e borrego",
+      "it": "Carne macinata di manzo e agnello",
+      "zh": "牛羊混合肉末"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Karisik Kiyma",
+      "Gemischtes Hackfleisch Rind und Lamm",
+      "Ground beef and lamb"
+    ],
+    "cuisine": "tr",
+    "category": "Hauptgericht Fleisch",
+    "prepared": "homemade",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 265,
+      "protein": 16.5,
+      "carbs": 0.0,
+      "fat": 22.0,
+      "fiber": 0.0
+    },
+    "portion": {
+      "label": "100 g",
+      "grams": 100
+    },
+    "ingredients": [
+      {
+        "name": "Rinderhackfleisch",
+        "grams": 50
+      },
+      {
+        "name": "Lammhackfleisch",
+        "grams": 50
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "kahvaltilik-sos",
+    "name": "Kahvaltılık Sos",
+    "names": {
+      "de": "Frühstückssoße (Paprika-Tomate)",
+      "en": "Breakfast pepper sauce",
+      "tr": "Kahvaltılık sos",
+      "fr": "Sauce petit-déjeuner poivron-tomate",
+      "es": "Salsa de desayuno de pimiento y tomate",
+      "pt": "Molho de pequeno-almoço de pimento e tomate",
+      "it": "Salsa da colazione peperone e pomodoro",
+      "zh": "早餐辣椒番茄酱"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Kahvaltilik Sos",
+      "Frühstückssoße Paprika-Tomate",
+      "Breakfast pepper sauce"
+    ],
+    "cuisine": "tr",
+    "category": "Sauce/Dip",
+    "prepared": "homemade",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 116,
+      "protein": 1.5,
+      "carbs": 6.3,
+      "fat": 9.9,
+      "fiber": 2.2
+    },
+    "portion": {
+      "label": "1 Schälchen",
+      "grams": 125
+    },
+    "ingredients": [
+      {
+        "name": "Tomate",
+        "grams": 80
+      },
+      {
+        "name": "Spitzpaprika (Sivri Biber)",
+        "grams": 40
+      },
+      {
+        "name": "Paprika grün",
+        "grams": 30
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "grams": 12
+      },
+      {
+        "name": "Knoblauch",
+        "grams": 3
+      },
+      {
+        "name": "Salz",
+        "grams": 1
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "zeytin-ezmesi",
+    "name": "Zeytin Ezmesi",
+    "names": {
+      "de": "Olivenpaste",
+      "en": "Olive paste",
+      "tr": "Zeytin ezmesi",
+      "fr": "Pâte d’olives",
+      "es": "Pasta de aceitunas",
+      "pt": "Pasta de azeitona",
+      "it": "Pasta di olive",
+      "zh": "橄榄酱"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Olivenpaste",
+      "Olive paste"
+    ],
+    "cuisine": "tr",
+    "category": "Sauce/Dip",
+    "prepared": "homemade",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 192,
+      "protein": 1.0,
+      "carbs": 4.4,
+      "fat": 19.6,
+      "fiber": 2.6
+    },
+    "portion": {
+      "label": "1 Schälchen",
+      "grams": 105
+    },
+    "ingredients": [
+      {
+        "name": "Oliven",
+        "grams": 90
+      },
+      {
+        "name": "Olivenöl",
+        "grams": 8
+      },
+      {
+        "name": "Knoblauch",
+        "grams": 2
+      },
+      {
+        "name": "Zitronensaft",
+        "grams": 5
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "kelle-peynirli-borek",
+    "name": "Kelle Peynirli Börek",
+    "names": {
+      "de": "Börek mit Mihaliç-Käse",
+      "en": "Kelle cheese börek",
+      "tr": "Kelle peynirli börek",
+      "fr": "Börek au fromage Mihaliç",
+      "es": "Börek con queso Mihaliç",
+      "pt": "Börek com queijo Mihaliç",
+      "it": "Börek al formaggio Mihaliç",
+      "zh": "米哈利奇奶酪酥饼"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Kelle Peynirli Borek",
+      "Börek mit Mihaliç-Käse",
+      "Kelle cheese borek"
+    ],
+    "cuisine": "tr",
+    "category": "Börek/Hamurişi",
+    "prepared": "homemade",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 286,
+      "protein": 10.7,
+      "carbs": 26.4,
+      "fat": 15.1,
+      "fiber": 1.1
+    },
+    "portion": {
+      "label": "1 Stück",
+      "grams": 165
+    },
+    "ingredients": [
+      {
+        "name": "Yufka/Filoteig",
+        "grams": 70
+      },
+      {
+        "name": "Mihaliç-Käse (nahe Salzlakenkäse)",
+        "grams": 55
+      },
+      {
+        "name": "Ei",
+        "grams": 15
+      },
+      {
+        "name": "Vollmilch",
+        "grams": 25
+      },
+      {
+        "name": "Butter",
+        "grams": 10
+      },
+      {
+        "name": "Petersilie",
+        "grams": 4
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "kepekli-ekmek",
+    "name": "Kepekli Ekmek",
+    "names": {
+      "de": "Kleiebrot",
+      "en": "Bran bread",
+      "tr": "Kepekli ekmek",
+      "fr": "Pain au son",
+      "es": "Pan de salvado",
+      "pt": "Pão de farelo",
+      "it": "Pane di crusca",
+      "zh": "麸皮面包"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Kleiebrot",
+      "Bran bread"
+    ],
+    "cuisine": "tr",
+    "category": "Brot",
+    "prepared": "homemade",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 229,
+      "protein": 8.1,
+      "carbs": 50.5,
+      "fat": 1.2,
+      "fiber": 7.9
+    },
+    "portion": {
+      "label": "1 Stück",
+      "grams": 140
+    },
+    "ingredients": [
+      {
+        "name": "Weizenmehl",
+        "grams": 80
+      },
+      {
+        "name": "Weizenkleie",
+        "grams": 20
+      },
+      {
+        "name": "Wasser",
+        "grams": 60
+      },
+      {
+        "name": "Hefe",
+        "grams": 2
+      },
+      {
+        "name": "Salz",
+        "grams": 2
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "puf-boregi",
+    "name": "Puf Böreği",
+    "names": {
+      "de": "Puf Böreği",
+      "en": "Puff börek",
+      "tr": "Puf böreği",
+      "fr": "Börek feuilleté",
+      "es": "Börek de hojaldre",
+      "pt": "Börek folhado",
+      "it": "Börek di pasta sfoglia",
+      "zh": "酥皮博雷克"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Puf Boregi",
+      "Puff borek"
+    ],
+    "cuisine": "tr",
+    "category": "Börek/Hamurişi",
+    "prepared": "homemade",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 463,
+      "protein": 10.6,
+      "carbs": 31.6,
+      "fat": 32.6,
+      "fiber": 1.5
+    },
+    "portion": {
+      "label": "1 Stück",
+      "grams": 135
+    },
+    "ingredients": [
+      {
+        "name": "Blätterteig",
+        "grams": 90
+      },
+      {
+        "name": "Beyaz Peynir (Schafskäse)",
+        "grams": 45
+      },
+      {
+        "name": "Petersilie",
+        "grams": 5
+      },
+      {
+        "name": "Ei",
+        "grams": 12
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "biber-kizartmasi",
+    "name": "Biber Kızartması",
+    "names": {
+      "de": "Gebratene Spitzpaprika",
+      "en": "Fried peppers",
+      "tr": "Biber kızartması",
+      "fr": "Poivrons frits",
+      "es": "Pimientos fritos",
+      "pt": "Pimentos fritos",
+      "it": "Peperoni fritti",
+      "zh": "煎尖椒"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Biber Kizartmasi",
+      "Gebratene Spitzpaprika",
+      "Fried peppers"
+    ],
+    "cuisine": "tr",
+    "category": "Gemüse/Zeytinyağlı",
+    "prepared": "homemade",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 128,
+      "protein": 2.6,
+      "carbs": 7.3,
+      "fat": 10.3,
+      "fiber": 2.8
+    },
+    "portion": {
+      "label": "1 Portion",
+      "grams": 195
+    },
+    "ingredients": [
+      {
+        "name": "Spitzpaprika (Sivri Biber)",
+        "grams": 180
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "grams": 18
+      },
+      {
+        "name": "Joghurt (3,5%)",
+        "grams": 50
+      },
+      {
+        "name": "Knoblauch",
+        "grams": 3
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "kabak-sinkonta",
+    "name": "Kabak Sinkonta",
+    "names": {
+      "de": "Zucchini-Sinkonta",
+      "en": "Zucchini sinkonta",
+      "tr": "Kabak sinkonta",
+      "fr": "Sinkonta de courgette",
+      "es": "Sinkonta de calabacín",
+      "pt": "Sinkonta de curgete",
+      "it": "Sinkonta di zucchine",
+      "zh": "西葫芦辛孔塔"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Zucchini-Sinkonta",
+      "Zucchini sinkonta"
+    ],
+    "cuisine": "tr",
+    "category": "Vorspeise/Meze",
+    "prepared": "homemade",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 84,
+      "protein": 3.0,
+      "carbs": 4.3,
+      "fat": 6.3,
+      "fiber": 1.2
+    },
+    "portion": {
+      "label": "1 Portion",
+      "grams": 265
+    },
+    "ingredients": [
+      {
+        "name": "Zucchini",
+        "grams": 180
+      },
+      {
+        "name": "Zwiebel",
+        "grams": 40
+      },
+      {
+        "name": "Tomate",
+        "grams": 50
+      },
+      {
+        "name": "Ei",
+        "grams": 40
+      },
+      {
+        "name": "Olivenöl",
+        "grams": 12
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "sosis-kahvalti",
+    "name": "Sosis Kahvaltı",
+    "names": {
+      "de": "Gebratene Würstchen",
+      "en": "Fried sausages",
+      "tr": "Sosis (kahvaltı, kızarmış)",
+      "fr": "Saucisses poêlées",
+      "es": "Salchichas fritas",
+      "pt": "Salsichas fritas",
+      "it": "Salsicce fritte",
+      "zh": "煎肠"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Sosis Kahvalti",
+      "Gebratene Würstchen",
+      "Fried sausages"
+    ],
+    "cuisine": "tr",
+    "category": "Frühstück",
+    "prepared": "restaurant",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 380,
+      "protein": 14.3,
+      "carbs": 0.0,
+      "fat": 35.8,
+      "fiber": 0.0
+    },
+    "portion": {
+      "label": "1 Portion",
+      "grams": 90
+    },
+    "ingredients": [
+      {
+        "name": "Sosis (nahe Wiener Würstchen)",
+        "grams": 100
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "grams": 6
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "cokelekli-biber",
+    "name": "Çökelekli Biber",
+    "names": {
+      "de": "Paprika mit Çökelek",
+      "en": "Peppers with çökelek",
+      "tr": "Çökelekli biber",
+      "fr": "Poivrons au çökelek",
+      "es": "Pimientos con çökelek",
+      "pt": "Pimentos com çökelek",
+      "it": "Peperoni con çökelek",
+      "zh": "乔凯莱克辣椒"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Cokelekli Biber",
+      "Paprika mit Çökelek",
+      "Peppers with cokelek"
+    ],
+    "cuisine": "tr",
+    "category": "Frühstück",
+    "prepared": "homemade",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 85,
+      "protein": 5.0,
+      "carbs": 7.1,
+      "fat": 4.4,
+      "fiber": 2.2
+    },
+    "portion": {
+      "label": "1 Portion",
+      "grams": 195
+    },
+    "ingredients": [
+      {
+        "name": "Spitzpaprika (Sivri Biber)",
+        "grams": 140
+      },
+      {
+        "name": "Çökelek",
+        "grams": 70
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "grams": 8
+      },
+      {
+        "name": "Knoblauch",
+        "grams": 2
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "kinoa-salatasi",
+    "name": "Kinoa Salatası",
+    "names": {
+      "de": "Quinoasalat",
+      "en": "Quinoa salad",
+      "tr": "Kinoa salatası",
+      "fr": "Salade de quinoa",
+      "es": "Ensalada de quinoa",
+      "pt": "Salada de quinoa",
+      "it": "Insalata di quinoa",
+      "zh": "藜麦沙拉"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Kinoa Salatasi",
+      "Quinoasalat",
+      "Quinoa salad"
+    ],
+    "cuisine": "tr",
+    "category": "Salat",
+    "prepared": "homemade",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 105,
+      "protein": 2.3,
+      "carbs": 11.0,
+      "fat": 6.0,
+      "fiber": 1.7
+    },
+    "portion": {
+      "label": "1 Schüssel",
+      "grams": 195
+    },
+    "ingredients": [
+      {
+        "name": "Quinoa gekocht",
+        "grams": 80
+      },
+      {
+        "name": "Tomate",
+        "grams": 50
+      },
+      {
+        "name": "Gurke",
+        "grams": 40
+      },
+      {
+        "name": "Petersilie",
+        "grams": 8
+      },
+      {
+        "name": "Olivenöl",
+        "grams": 10
+      },
+      {
+        "name": "Zitronensaft",
+        "grams": 6
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "tirmis",
+    "name": "Tirmis",
+    "names": {
+      "de": "Tirmis (Lupinen, gekocht)",
+      "en": "Lupin beans",
+      "tr": "Tirmis",
+      "fr": "Lupins cuits (tirmis)",
+      "es": "Altramuces cocidos (tirmis)",
+      "pt": "Tremoços cozidos (tirmis)",
+      "it": "Lupini cotti (tirmis)",
+      "zh": "羽扇豆（煮）"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Lupin beans"
+    ],
+    "cuisine": "tr",
+    "category": "Snack",
+    "prepared": "homemade",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 119,
+      "protein": 15.6,
+      "carbs": 9.9,
+      "fat": 2.9,
+      "fiber": 2.8
+    },
+    "portion": {
+      "label": "1 Schälchen",
+      "grams": 100
+    },
+    "ingredients": [
+      {
+        "name": "Lupinen gekocht",
+        "grams": 100
+      },
+      {
+        "name": "Salz",
+        "grams": 1
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "isirgan-corbasi",
+    "name": "Isırgan Çorbası",
+    "names": {
+      "de": "Brennnesselsuppe",
+      "en": "Nettle soup",
+      "tr": "Isırgan çorbası",
+      "fr": "Soupe d’orties",
+      "es": "Sopa de ortigas",
+      "pt": "Sopa de urtigas",
+      "it": "Zuppa di ortiche",
+      "zh": "荨麻汤"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Isirgan Corbasi",
+      "Brennnesselsuppe",
+      "Nettle soup"
+    ],
+    "cuisine": "tr",
+    "category": "Suppe",
+    "prepared": "homemade",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 67,
+      "protein": 3.4,
+      "carbs": 7.6,
+      "fat": 2.9,
+      "fiber": 1.8
+    },
+    "portion": {
+      "label": "1 Schüssel",
+      "grams": 370
+    },
+    "ingredients": [
+      {
+        "name": "Brennnessel roh",
+        "grams": 100
+      },
+      {
+        "name": "Bulgur",
+        "grams": 25
+      },
+      {
+        "name": "Zwiebel",
+        "grams": 30
+      },
+      {
+        "name": "Joghurt (3,5%)",
+        "grams": 50
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "grams": 8
+      },
+      {
+        "name": "Wasser",
+        "grams": 200
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "bobrek-izgara",
+    "name": "Böbrek Izgara",
+    "names": {
+      "de": "Niere gegrillt",
+      "en": "Grilled kidney",
+      "tr": "Böbrek (ızgara)",
+      "fr": "Rognon grillé",
+      "es": "Riñón a la parrilla",
+      "pt": "Rim grelhado",
+      "it": "Rene alla griglia",
+      "zh": "烤羊肾"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Bobrek Izgara",
+      "Niere gegrillt",
+      "Grilled kidney"
+    ],
+    "cuisine": "tr",
+    "category": "Kebap",
+    "prepared": "restaurant",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 186,
+      "protein": 16.5,
+      "carbs": 13.9,
+      "fat": 7.3,
+      "fiber": 0.9
+    },
+    "portion": {
+      "label": "1 Portion",
+      "grams": 170
+    },
+    "ingredients": [
+      {
+        "name": "Lammniere roh",
+        "grams": 150
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "grams": 8
+      },
+      {
+        "name": "Spitzpaprika (Sivri Biber)",
+        "grams": 20
+      },
+      {
+        "name": "Lavaş/Wrap-Fladen",
+        "grams": 40
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "yurek-sis",
+    "name": "Yürek Şiş",
+    "names": {
+      "de": "Herzspieß",
+      "en": "Heart skewer",
+      "tr": "Yürek şiş",
+      "fr": "Brochette de cœur",
+      "es": "Brocheta de corazón",
+      "pt": "Espetada de coração",
+      "it": "Spiedino di cuore",
+      "zh": "烤心串"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Yurek Sis",
+      "Herzspieß",
+      "Heart skewer"
+    ],
+    "cuisine": "tr",
+    "category": "Kebap",
+    "prepared": "restaurant",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 223,
+      "protein": 17.9,
+      "carbs": 15.3,
+      "fat": 10.2,
+      "fiber": 1.2
+    },
+    "portion": {
+      "label": "1 Spieß",
+      "grams": 160
+    },
+    "ingredients": [
+      {
+        "name": "Lammherz roh",
+        "grams": 140
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "grams": 6
+      },
+      {
+        "name": "Spitzpaprika (Sivri Biber)",
+        "grams": 25
+      },
+      {
+        "name": "Lavaş/Wrap-Fladen",
+        "grams": 40
+      },
+      {
+        "name": "Sumak",
+        "grams": 1
+      }
+    ],
+    "quality": "estimate",
+    "source": "calculated from typical recipe and approximate reference values"
+  },
+  {
+    "id": "kokorec-durum",
+    "name": "Kokoreç Dürüm",
+    "names": {
+      "de": "Kokoreç-Dürüm",
+      "en": "Kokoreç wrap",
+      "tr": "Kokoreç dürüm",
+      "fr": "Dürüm de kokoreç",
+      "es": "Dürüm de kokoreç",
+      "pt": "Dürüm de kokoreç",
+      "it": "Dürüm di kokoreç",
+      "zh": "羊肠卷饼"
+    },
+    "type": "dish",
+    "barcode": null,
+    "synonyms": [
+      "Kokorec Durum",
+      "Kokoreç-Dürüm",
+      "Kokorec wrap"
+    ],
+    "cuisine": "tr",
+    "category": "Snack",
+    "prepared": "restaurant",
+    "is_packaged_product": false,
+    "per100g": {
+      "kcal": 206,
+      "protein": 11.1,
+      "carbs": 21.9,
+      "fat": 8.4,
+      "fiber": 1.4
+    },
+    "portion": {
+      "label": "1 Dürüm",
+      "grams": 220
+    },
+    "ingredients": [
+      {
+        "name": "Innereien (Lamm, gemischt)",
+        "grams": 110
+      },
+      {
+        "name": "Lavaş/Wrap-Fladen",
+        "grams": 80
+      },
+      {
+        "name": "Tomate",
+        "grams": 30
+      },
+      {
+        "name": "Zwiebel",
+        "grams": 20
+      },
+      {
+        "name": "Pul Biber (Chiliflocken)",
+        "grams": 1
+      },
+      {
+        "name": "Sonnenblumenöl",
+        "grams": 6
       }
     ],
     "quality": "estimate",

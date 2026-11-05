@@ -6,7 +6,7 @@ Kuru Baklava | Trockene Baklava, Dry baklava | SW | 0.95 | 1 Stück | yufka 15, 
 Havuç Dilimi Baklava | Möhrenscheiben Baklava, Carrot slice baklava | SW | 0.95 | 1 Stück | yufka 14, butter 11, walnuss 10, pistazie 5, zucker 14
 Şöbiyet | Sobiyet, Gaziantep Şöbiyet, Cream-filled baklava | SW | 0.95 | 1 Stück | yufka 14, butter 11, kaymak 15, pistazie 8, zucker 14
 Sütlü Nuriye | Sütlü Nuriye, Milk baklava | SW | 0.95 | 1 Stück | yufka 14, butter 8, milch 30, walnuss 10, zucker 15
-Burma Kadayıf | Burma Kadayif, Rolled kadayif, Sarığı burma | SW | 0.95 | 1 Stück | kadayif 20, butter 12, pistazie 12, zucker 14
+Burma Kadayıf | Burma Kadayif, Rolled kadayif, Sarığı burma, Pistazien-Kadayıf, Fıstıklı kadayıf, Pistachio kadayif | SW | 0.95 | 1 Stück | kadayif 20, butter 12, pistazie 12, zucker 14
 Tel Kadayıf | Kadayif Tel, Shredded wheat dessert | SW | 0.95 | 1 Portion | kadayif 40, butter 25, walnuss 20, zucker 35
 Ekmek Kadayıfı | Ekmek Kadayifi, Bread kadayif with kaymak | SW | 0.95 | 1 Portion | weissbrot 70, zucker 35, kaymak 40, pistazie 5
 Peynirli Künefe | Künefe, Kunafa with cheese, Kunefe, Hatay künefesi | SW | 0.95 | 1 Portion | kadayif 70, butter 30, hellim 70, zucker 40, pistazie 8

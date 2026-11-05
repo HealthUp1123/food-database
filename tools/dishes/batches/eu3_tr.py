@@ -90,7 +90,7 @@ Gaziantep Katmeri | Antep Katmeri, Kaymakli Katmer, Suesser Katmer, Fıstıklı 
 Kalburabastı | Kalburabasti, Kalbura Basti, Kalburabastı (cevizli) | SW | 0.95 | 2 Stück (120 g) | mehl 35, griess 5, walnuss 12, butter 10, zucker 45, ei 5, joghurt 10, wasser 15
 Saray Sarması | Saray Sarmasi, Pistazienrolle Baklava | SW | 1.0 | 2 Stück (90 g) | yufka 25, pistazie 25, butter 15, zucker 25
 Bülbül Yuvası | Bulbul Yuvasi, Nachtigallennest-Baklava | SW | 1.0 | 2 Stück (90 g) | yufka 25, pistazie 20, butter 15, zucker 30
-Fıstıklı Sarma | Fistikli Sarma, Pistazien-Wickelbaklava | SW | 1.0 | 2 Stück (90 g) | yufka 22, pistazie 28, butter 15, zucker 25
+Fıstıklı Sarma | Fistikli Sarma, Pistazien-Wickelbaklava, Fıstıklı dürüm, Fistikli durum, Pistachio wrap baklava | SW | 1.0 | 2 Stück (90 g) | yufka 22, pistazie 28, butter 15, zucker 25
 Kaymaklı Ekmek Kadayıfı | Kaymakli Ekmek Kadayifi | SW | 1.0 | 1 Portion (150 g) | weissbrot 45, zucker 50, kaymak 35, wasser 20
 Su Muhallebisi | Su Muhallebisi, Wasserpudding | PU | 0.95 | 1 Schale (200 g) | wasser 160, staerke 25, zucker 25, milch 10
 Paluze | Paluze, Staerkepudding | PU | 0.95 | 1 Schale (200 g) | wasser 150, staerke 25, zucker 30, granatapfel 20

@@ -1,6 +1,6 @@
 CUISINE = 'tr'
 TEXT = """
-Su Böreği | Su Böreği Peynirli, Wasserbörek, Water borek | BO | 0.92 | 1 Stück | mehl 60, ei 30, beyaz_peynir 60, butter 20, milch 30, petersilie 4, oel 8
+Su Böreği | Su Böreği Peynirli, Wasserbörek, Water borek, Erzurum su böreği, Erzurum su boregi | BO | 0.92 | 1 Stück | mehl 60, ei 30, beyaz_peynir 60, butter 20, milch 30, petersilie 4, oel 8
 Sigara Böreği | Zigarettenbörek, Cigar borek, Peynirli Sigara Böreği | BO | 0.9 | 1 Portion (4 Stück) | yufka 70, beyaz_peynir 60, ei 15, petersilie 5, oel 28
 Kıymalı Sigara Böreği | Zigarettenbörek mit Hack | BO | 0.9 | 1 Portion (4 Stück) | yufka 70, hack 60, zwiebel 20, ei 10, oel 28
 Kol Böreği (Ispanaklı) | Ispanaklı Kol Böreği, Spinatbörek | BO | 0.9 | 1 Stück | yufka 90, spinat 120, beyaz_peynir 30, zwiebel 20, ei 25, butter 12, oel 10
@@ -30,7 +30,7 @@ Patatesli Poğaça | Poğaça mit Kartoffel | G | 0.9 | 1 Stück | mehl 55, kart
 Kıymalı Poğaça | Poğaça mit Hack | G | 0.9 | 1 Stück | mehl 55, hack 30, zwiebel 10, butter 12, joghurt 15, ei 12, oel 8
 Zeytinli Poğaça | Poğaça mit Oliven | G | 0.9 | 1 Stück | mehl 55, olive 20, butter 12, joghurt 15, ei 12, oel 8
 Açma | Açma, Weiches Hefegebäck, Turkish soft roll | G | 0.9 | 1 Stück | mehl 70, milch 20, butter 12, zucker 5, hefe 3, ei 8, oel 5
-Simit | Simit, Sesamring, Turkish bagel | G | 0.92 | 1 Stück | mehl 90, sesam 12, pekmez 6, hefe 2, wasser 50
+Simit | Simit, Sesamring, Turkish bagel, Simit tabağı, Simit tabagi, Kocaman simidi, Grosser Simit | G | 0.92 | 1 Stück | mehl 90, sesam 12, pekmez 6, hefe 2, wasser 50
 Gevrek | Gevrek Ankara, Sesamring knusprig | G | 0.9 | 1 Stück | mehl 75, sesam 10, pekmez 5, wasser 40
 Kandil Simidi | Kandil Simit, Ring mit Gewürzen | G | 0.9 | 1 Stück | mehl 80, butter 12, zucker 5, gewuerz 1, sesam 8
 Haşhaşlı Çörek | Mohnschnecke, Poppy seed bun | G | 0.9 | 1 Stück | mehl 80, mohn 20, butter 12, zucker 10, milch 25, hefe 3

@@ -314,3 +314,13 @@ xb_lebkuchen|Lebkuchen/Honigkuchen|360|5.5|70.0|6.0|3.0
 xc_fenchel|Fenchel (Knolle)|31|1.2|7.3|0.2|3.1
 xc_chicoree|Chicorée/Endivie|17|1.3|3.4|0.2|3.1
 xc_kichererbsenmehl|Kichererbsenmehl|387|22|58|6.7|11
+# Abschluss türkische Küche. Werte gerundet aus den neuen Einträgen (BLS, USDA, Ciqual, Nähe).
+lammherz|Lammherz roh|132|17.6|0|6.8|0
+lammniere|Lammniere roh|87|16.1|0|2.5|0
+brennnessel|Brennnessel roh|46|7.4|4.4|0.6|3.1
+weizenkleie|Weizenkleie|216|15.6|64.5|4.2|42.8
+quinoa_g|Quinoa gekocht|120|4.4|21.3|1.9|2.8
+lupine_g|Lupinen gekocht|119|15.6|9.9|2.9|2.8
+sosis|Sosis (nahe Wiener Würstchen)|289|12.9|0|26.2|0
+kelle_peynir|Mihaliç-Käse (nahe Salzlakenkäse)|283|15.4|0|24.1|0
+cokelek|Çökelek|72|10.3|6.7|0.3|0
