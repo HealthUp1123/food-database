@@ -15,7 +15,7 @@ Revani | Revani, Grießkuchen mit Sirup, Semolina cake | SW | 0.95 | 1 Stück | 
 Sütlü Revani | Revani mit Milch | SW | 0.95 | 1 Stück | griess 30, mehl 15, ei 25, zucker 40, milch 50, oel 5
 Tulumba | Tulumba, Fried dough in syrup, Tulumba tatlısı | SW | 0.85 | 3 Stück | mehl 30, ei 20, butter 5, wasser 40, oel 18, zucker 40
 Lokma | Lokma, Teigbällchen in Sirup, Fried dough balls, Lokma tatlısı | SW | 0.85 | 5 Stück | mehl 45, hefe 2, wasser 60, oel 20, zucker 40
-Hanım Göbeği | Hanim Gobegi, Lady's navel | SW | 0.85 | 3 Stück | mehl 30, ei 20, butter 8, griess 5, oel 15, zucker 40
+Hanım Göbeği | Hanim Gobegi, Lady's navel, Hanımgöbeği | SW | 0.85 | 3 Stück | mehl 30, ei 20, butter 8, griess 5, oel 15, zucker 40
 Dilber Dudağı | Dilber Dudagi, Lady's lips | SW | 0.85 | 3 Stück | mehl 30, ei 20, butter 8, oel 15, zucker 40
 Kemalpaşa Tatlısı | Kemalpasa, Cheese dumpling dessert | SW | 0.9 | 3 Stück | lor 50, griess 20, mehl 10, ei 20, zucker 50
 Ekmek Tatlısı | Brotpudding mit Kaymak, Bread pudding Turkish | SW | 0.95 | 1 Portion | weissbrot 70, zucker 40, kaymak 40, walnuss 8
@@ -29,7 +29,7 @@ Supangle | Süpangle, Schokoladenpudding, Chocolate pudding | PU | 1.0 | 1 Schä
 Aşure | Asure, Noah's pudding | PU | 1.0 | 1 Schälchen | bulgur 25, kichererbsen 15, bohnen_trocken 10, zucker 25, rosinen 10, aprikose_tr 10, feige_tr 10, walnuss 8, wasser 150
 Zerde | Zerde, Safranreis-Dessert, Saffron rice dessert | PU | 1.0 | 1 Schälchen | reis 25, zucker 30, staerke 5, rosinen 8, pinienkerne 5, wasser 180
 İrmik Helvası | Irmik Helvasi, Grießhelva, Semolina halva, İrmik tatlısı | SW | 0.92 | 1 Portion | griess 40, butter 22, zucker 30, milch 80, pinienkerne 5
-Un Helvası | Un Helvasi, Mehl-Halva, Flour halva | SW | 0.92 | 1 Portion | mehl 40, butter 25, zucker 30, milch 80
+Un Helvası | Un Helvasi, Mehl-Halva, Flour halva, Met helvası, Met-Helva | SW | 0.92 | 1 Portion | mehl 40, butter 25, zucker 30, milch 80
 Peynir Helvası | Peynir Helvasi, Käsehalva | SW | 0.92 | 1 Portion | mehl 40, butter 20, zucker 25, kasar 30, milch 60
 Kabak Tatlısı | Kürbisdessert, Pumpkin dessert | SW | 1.0 | 1 Portion | kuerbis 200, zucker 50, walnuss 15, tahin 10
 Ayva Tatlısı | Quittendessert, Quince dessert | SW | 1.0 | 1 Portion | quitte 200, zucker 45, kaymak 30, walnuss 8
@@ -63,7 +63,7 @@ Cevizli Kurabiye | Walnusskekse | G | 0.95 | 2 Stück | mehl 25, butter 15, zuck
 Fındıklı Kurabiye | Haselnusskekse | G | 0.95 | 2 Stück | mehl 25, butter 15, zucker 8, haselnuss 8
 Sufle | Schokoladensoufflé, Chocolate souffle | K | 0.9 | 1 Portion | schokolade 40, butter 20, ei 40, zucker 20, mehl 10
 Tahin Helvası | Tahin-Halva, Tahini halva | SW | 1.0 | 1 Portion | helva 50
-Türk Çayı | Schwarzer Tee, Turkish tea, Cay | GT | 1.0 | 1 Tulpenglas | tee 100
+Türk Çayı | Schwarzer Tee, Turkish tea, Cay, Rize çayı | GT | 1.0 | 1 Tulpenglas | tee 100
 Şekerli Çay | Tee mit Zucker | GT | 1.0 | 1 Glas | tee 100, zucker 8
 Türk Kahvesi | Mokka, Turkish coffee | GT | 1.0 | 1 Tasse | tee 60
 Şekerli Türk Kahvesi | Türkischer Kaffee mit Zucker | GT | 1.0 | 1 Tasse | tee 60, zucker 5

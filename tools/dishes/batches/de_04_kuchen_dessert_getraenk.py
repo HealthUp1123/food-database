@@ -9,7 +9,7 @@ Streuselkuchen | Streuselkuchen, Crumble cake | K | 0.92 | 1 Stück | mehl 60, b
 Butterkuchen | Butterkuchen mit Mandeln, Butter cake | K | 0.92 | 1 Stück | mehl 60, butter 40, zucker 25, hefe 2, milch 30, mandel 10, ei 15
 Käsekuchen | Käsekuchen, German cheesecake, Quarkkuchen | K | 0.95 | 1 Stück | quark 120, ei 40, zucker 35, butter 20, mehl 30, staerke 8, milch 30
 Russischer Zupfkuchen | Zupfkuchen, Russian pluck cake | K | 0.95 | 1 Stück | mehl 40, butter 30, zucker 35, kakao 8, quark 100, ei 35, staerke 8
-Schwarzwälder Kirschtorte | Schwarzwälder Kirsch, Black Forest cake | K | 1.0 | 1 Stück | mehl 25, ei 40, zucker 30, kakao 6, sahne 90, sauerkirsche 70, schokolade 10
+Schwarzwälder Kirschtorte | Schwarzwälder Kirsch, Black Forest cake, Alman pastası | K | 1.0 | 1 Stück | mehl 25, ei 40, zucker 30, kakao 6, sahne 90, sauerkirsche 70, schokolade 10
 Sachertorte | Sachertorte, Sacher cake | K | 0.95 | 1 Stück | schokolade 40, butter 30, zucker 35, ei 45, mehl 20, marmelade 25
 Frankfurter Kranz | Frankfurter Kranz, Frankfurt crown cake | K | 1.0 | 1 Stück | mehl 30, butter 45, zucker 40, ei 40, haselnuss 15, marmelade 15
 Donauwelle | Donauwelle, Danube wave cake | K | 0.95 | 1 Stück | mehl 45, butter 40, zucker 35, ei 40, sauerkirsche 40, milch 60, staerke 10, kakao 6, schokolade 12

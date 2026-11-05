@@ -13,7 +13,7 @@ Testi Kebabı | Krugkebap, Pottery Kebab | KB | 0.85 | 1 Portion | lamm 160, zwi
 Kağıt Kebabı | Papierkebap, Paper Kebab | KB | 0.8 | 1 Portion | lamm 140, kartoffel 80, tomate 50, paprika 25, zwiebel 30, knoblauch 4, butter 8
 Orman Kebabı | Waldkebap, Forest Kebab | KB | 0.85 | 1 Portion | lamm 130, kartoffel 100, karotte 40, erbsen 30, zwiebel 30, tomate 40, butter 10, wasser 60
 Patates Kebabı | Kartoffelkebap Kebab, Potato Kebab | KB | 0.85 | 1 Portion | lamm 130, kartoffel 150, tomate 50, zwiebel 30, butter 10, paprikamark 6, wasser 60
-Tandır Kebabı | Tandır Kebap, Lamm aus dem Tandır | KB | 0.7 | 1 Portion | lamm 280, zwiebel 20, lavas 40
+Tandır Kebabı | Tandır Kebap, Lamm aus dem Tandır, Kuyu kebabı, Kuyu Kebabı | KB | 0.7 | 1 Portion | lamm 280, zwiebel 20, lavas 40
 Ciğer Şiş | Leberspieß, Liver Shish | KB | 0.78 | 1 Portion | leber 190, zwiebel 40, lavas 50, pul_biber 1, oel 5
 Ciğer Kebabı Adana | Adana Leberkebap | KB | 0.78 | 1 Portion | leber 170, schwanzfett 15, zwiebel 30, lavas 50, petersilie 4
 Kanat Izgara | Hähnchenflügel vom Grill, Grilled chicken wings, Tavuk kanat, Tavuk kanat ızgara | KB | 0.75 | 1 Portion | hahn 240, oel 8, joghurt 20, paprikamark 5
@@ -43,7 +43,7 @@ Akçaabat Köfte | Akçaabat Köftesi, Trabzon Köfte | KF | 0.75 | 1 Portion | 
 Kadınbudu Köfte | Damenschenkel-Köfte, Kadinbudu Kofte | KF | 0.85 | 1 Portion (4 Stück) | hack 100, reis 25, ei 40, mehl 20, zwiebel 20, oel 25, petersilie 4
 Sulu Köfte | Köfte in Soße, Köfte mit Kartoffeln | KF | 0.88 | 1 Portion | hack 100, kartoffel 120, tomate 60, zwiebel 30, tomatenmark 8, paniermehl 10, oel 12, wasser 80
 İzmir Köfte | Izmir Köfte, Köfte mit Kartoffeln in Tomatensoße | KF | 0.85 | 1 Portion | hack 120, kartoffel 120, tomate 80, paprika 30, zwiebel 20, paniermehl 12, oel 15, wasser 50
-Mercimek Köftesi | Linsenköfte, Lentil kofta, Mercimekli köfte | KF | 1.0 | 1 Portion (6 Stück) | rote_linsen 50, bulgur 25, zwiebel 30, tomatenmark 10, olivenoel 12, fruehlingszwiebel 15, petersilie 8, wasser 100
+Mercimek Köftesi | Linsenköfte, Lentil kofta, Mercimekli köfte, Bulgur köftesi, Ezogelin köftesi | KF | 1.0 | 1 Portion (6 Stück) | rote_linsen 50, bulgur 25, zwiebel 30, tomatenmark 10, olivenoel 12, fruehlingszwiebel 15, petersilie 8, wasser 100
 Ekşili Köfte Yemeği | Saure Köfte, Köfte in Zitronensoße | KF | 0.9 | 1 Portion | hack 100, reis 20, ei 20, mehl 12, zitrone 12, butter 8, wasser 150
 Kuru Köfte | Trockene Köfte, Dry meatballs | KF | 0.78 | 1 Portion | hack 160, paniermehl 15, zwiebel 20, ei 15, oel 12, petersilie 4
 Tavuk Köfte | Hähnchenfrikadellen, Chicken meatballs | KF | 0.8 | 1 Portion | hahn_brust 160, zwiebel 20, paniermehl 15, ei 15, oel 10

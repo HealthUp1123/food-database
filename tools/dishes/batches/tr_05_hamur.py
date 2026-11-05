@@ -59,7 +59,7 @@ Peynirli Pide | Pide mit Schafskäse | PI | 0.9 | 1 Pide | mehl 150, beyaz_peyni
 Karışık Pide | Gemischte Pide, Mixed pide | PI | 0.9 | 1 Pide | mehl 150, hack 60, kasar 50, sucuk 30, ei 25, butter 12, wasser 70
 Kaşarlı Yumurtalı Pide | Pide mit Käse und Ei | PI | 0.9 | 1 Pide | mehl 150, kasar 70, ei 50, butter 12, wasser 70
 Yumurtalı Pide | Pide mit Ei | PI | 0.9 | 1 Pide | mehl 150, ei 100, butter 12, wasser 70
-Sucuklu Pide | Pide mit Sucuk | PI | 0.9 | 1 Pide | mehl 150, sucuk 80, kasar 40, butter 8, wasser 70
+Sucuklu Pide | Pide mit Sucuk, Sucuklu kaşarlı pide, Pide mit Sucuk und Käse | PI | 0.9 | 1 Pide | mehl 150, sucuk 80, kasar 40, butter 8, wasser 70
 Pastırmalı Pide | Pide mit Pastırma | PI | 0.9 | 1 Pide | mehl 150, pastirma 70, kasar 40, ei 25, butter 8, wasser 70
 Kavurmalı Pide | Pide mit Kavurma | PI | 0.9 | 1 Pide | mehl 150, rind_fett 90, kasar 30, butter 8, wasser 70
 Ispanaklı Pide | Pide mit Spinat | PI | 0.9 | 1 Pide | mehl 150, spinat 150, beyaz_peynir 50, butter 12, wasser 70

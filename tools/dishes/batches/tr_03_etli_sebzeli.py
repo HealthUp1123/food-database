@@ -26,7 +26,7 @@ Kapuska | Kapuska, Kohleintopf Karadeniz, Etli kapuska | GM | 0.85 | 1 Portion |
 Etli Kereviz | Sellerie mit Fleisch | GM | 0.85 | 1 Portion | sellerie 200, rind 60, karotte 30, zwiebel 20, oel 10, zitrone 6, wasser 100
 Etli Taze Bakla | Dicke Bohnen mit Fleisch | GM | 0.85 | 1 Portion | dicke_bohnen 180, rind 60, zwiebel 30, dill 5, oel 10, wasser 100
 Etli Semizotu | Portulak mit Fleisch | GM | 0.85 | 1 Portion | portulak 220, rind 60, zwiebel 30, tomate 40, oel 10, wasser 80
-Kıymalı Ispanak | Spinat mit Hack, Spinach with mince | GM | 0.85 | 1 Portion | spinat 250, hack 60, zwiebel 40, tomatenmark 6, oel 8, wasser 60
+Kıymalı Ispanak | Spinat mit Hack, Spinach with mince, Ispanak yemeği, Spinatgericht | GM | 0.85 | 1 Portion | spinat 250, hack 60, zwiebel 40, tomatenmark 6, oel 8, wasser 60
 Kıymalı Patates | Kartoffeln mit Hack, Potato mince stew, Kıymalı patates yemeği | GM | 0.88 | 1 Portion | kartoffel 220, hack 70, zwiebel 30, tomatenmark 8, oel 10, wasser 100
 Kıymalı Bezelye | Erbsen mit Hack | GM | 0.85 | 1 Portion | erbsen 180, hack 70, zwiebel 30, karotte 30, tomatenmark 6, oel 8, wasser 80
 Kıymalı Kabak | Zucchini mit Hack | GM | 0.85 | 1 Portion | zucchini 220, hack 70, zwiebel 30, tomate 50, oel 8, wasser 60
@@ -71,7 +71,7 @@ Patlıcan Sarma | Auberginenrollen mit Hack | GM | 0.85 | 1 Portion | aubergine 
 Soslu Patlıcan | Aubergine in Tomatensoße | GM | 0.85 | 1 Portion | aubergine 220, tomate 100, zwiebel 30, knoblauch 5, oel 20
 Patlıcan Kızartması Yoğurtlu | Gebratene Aubergine mit Joghurt | V | 0.9 | 1 Portion | aubergine 200, joghurt 80, knoblauch 4, oel 25, tomate 40
 Kabak Kızartması | Gebratene Zucchini mit Joghurt | V | 0.9 | 1 Portion | zucchini 200, joghurt 80, knoblauch 4, oel 22, mehl 8
-Sebze Kızartması | Gebratenes Gemüse mit Joghurt | V | 0.9 | 1 Portion | aubergine 100, zucchini 80, paprika 60, joghurt 70, knoblauch 3, oel 25, tomate 40
+Sebze Kızartması | Gebratenes Gemüse mit Joghurt, Karışık kızartma, Gemischtes frittiertes Gemüse | V | 0.9 | 1 Portion | aubergine 100, zucchini 80, paprika 60, joghurt 70, knoblauch 3, oel 25, tomate 40
 Patates Kızartması | Pommes Turkish style, Fried potatoes | B | 0.8 | 1 Portion | kartoffel 220, oel 20
 Patates Oturtma | Kartoffel Oturtma | GM | 0.85 | 1 Portion | kartoffel 200, hack 70, tomate 50, zwiebel 30, oel 10, wasser 60
 Patates Yemeği (Etli) | Kartoffeleintopf mit Fleisch | GM | 0.88 | 1 Portion | kartoffel 220, rind 60, zwiebel 30, tomatenmark 8, oel 8, wasser 120

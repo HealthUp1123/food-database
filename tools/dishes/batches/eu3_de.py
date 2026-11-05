@@ -133,7 +133,7 @@ Terrassenplätzchen | Spitzbuben gestapelt, Terrassen-Plätzchen | G | 1.0 | 2 S
 Schwarz-Weiß-Gebäck | Schwarz-Weiß-Kekse, Schachbrettkekse | G | 1.0 | 4 Stück | mehl 25, butter 15, zucker 10, kakao 2
 Springerle | Springerle Anisgebäck | G | 1.0 | 2 Stück | mehl 30, zucker 25, ei 10
 Anisplätzchen | Anisbrötle | G | 1.0 | 4 Stück | mehl 25, zucker 25, ei 12
-Gebrannte Mandeln | Gebrannte Mandeln vom Weihnachtsmarkt | SN | 1.0 | 1 Tüte (100 g) | mandel 65, zucker 35, zimt 1
+Gebrannte Mandeln | Gebrannte Mandeln vom Weihnachtsmarkt, Badem şekeri, Mandeldragees, Sugared almonds | SN | 1.0 | 1 Tüte (100 g) | mandel 65, zucker 35, zimt 1
 Paradiesapfel | Liebesapfel, Kandierter Apfel | SN | 1.0 | 1 Stück | apfel 150, zucker 40
 Schokofrüchte | Schokobanane, Schokofrüchte vom Markt | SN | 1.0 | 1 Spieß | banane 60, erdbeere 40, schokolade_milch 30
 Schmalzkuchen | Mutzen, Mutzenmandeln, Schmalzgebäck | G | 1.0 | 1 Tüte (100 g) | mehl 45, quark 15, ei 10, zucker 15, oel 15
