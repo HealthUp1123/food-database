@@ -65,7 +65,8 @@ VEG = [
  ('BLS:G230162','mangold','ofen'), ('BLS:G230182','mangold','pfanne'),
  ('BLS:G322182','gruenkohl','pfanne'),
  ('BLS:G760162','erbsen','ofen'), ('BLS:G760182','erbsen','pfanne'),
- ('BLS:G490162','knoblauch','ofen'), ('BLS:G490182','knoblauch','pfanne'),
+ # Knoblauch und Topinambur in data/foods.json sind Ciqual (AOAC, Fructane/Inulin zählen nicht), nicht mehr BLS.
+ ('CIQ:11306','knoblauch','ofen'), ('CIQ:11307','knoblauch','pfanne'),
  ('BLS:G485082','schalotte','pfanne'),
  ('BLS:G553182','peperoni_gruen','pfanne'), ('BLS:G554182','peperoni_rot','pfanne'),
  ('BLS:G561082','tomate','pfanne'),
@@ -73,7 +74,8 @@ VEG = [
  ('BLS:G520182','gurke','pfanne'),
  ('BLS:K110162','kartoffel','ofen'), ('BLS:K110182','kartoffel','pfanne'),
  ('BLS:K420182','suesskartoffel','pfanne'),
- ('BLS:K430162','topinambur','ofen'), ('BLS:K430182','topinambur','pfanne'),
+ # Ciqual 20050 ist der gegarte Satz für beide Zubereitungen; BLS zählt Inulin als Faser.
+ ('CIQ:20050','topinambur','ofen'), ('CIQ:20050','topinambur','pfanne'),
  ('BLS:K713062','pfifferling','ofen'), ('BLS:K713182','pfifferling','pfanne'),
  ('BLS:K718162','steinpilz','ofen'), ('BLS:K718182','steinpilz','pfanne'),
  ('BLS:K740182','austernpilz','pfanne'),
