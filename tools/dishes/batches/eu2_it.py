@@ -33,7 +33,6 @@ Rollatini di melanzane | Eggplant rollatini | AU | 0.85 | 1 Portion | aubergine 
 Sbrisolona | Torta sbrisolona | K | 0.95 | 1 Stück | mehl 40, maismehl 15, butter 30, zucker 30, mandel 30, ei 10
 Spaghetti aglio olio e peperoncino | Aglio e olio, Spaghetti aglio olio | NA | 1.0 | 1 Teller | nudeln 90, wasser 190, olivenoel 22, knoblauch 8, chili 5, petersilie 3
 Spaghetti alla Carbonara | Carbonara, Pasta carbonara | NA | 1.0 | 1 Teller | nudeln 90, wasser 190, ei 60, schwein_bauch 40, pecorino 25, pfeffer 1
-Spritz Aperol | Aperol Spritz | GT | 1.0 | 1 Glas | wein_weiss 90, likoer 60, wasser 50, orange 20
 Struffoli | Neapolitan honey balls | SW | 0.9 | 4 Stück | mehl 50, ei 30, zucker 8, oel 20, honig 30, orange 5
 Tagliolini al tartufo | Truffle tagliolini | NA | 1.0 | 1 Teller | nudeln 90, wasser 190, butter 20, parmesan 20, pilz 20
 Torta pasqualina | Easter pie Ligurian | BO | 0.95 | 1 Stück | blaetterteig 80, spinat 120, ricotta 60, ei 50, parmesan 15, olivenoel 8
