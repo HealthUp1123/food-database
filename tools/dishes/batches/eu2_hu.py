@@ -11,7 +11,6 @@ Jókai bableves | Jókai bean soup | S | 0.95 | 1 Teller | bohnen_trocken 40, wa
 Meggyleves | Hungarian sour cherry soup | S | 1.0 | 1 Teller | sauerkirsche 150, wasser 250, zucker 30, sahne 40, mehl 5, zimt 1
 Rántott sajt | Hungarian fried cheese | V | 0.95 | 1 Portion | gouda 130, mehl 15, ei 30, paniermehl 30, oel 20, mayonnaise 25
 Tarhonya | Hungarian tarhonya | B | 0.85 | 1 Portion | nudeln 80, wasser 160, schmalz 10, zwiebel 20, paprikapulver 1
-Unicum | Hungarian Unicum | GT | 1.0 | 1 Glas 4 cl | spirituose 40
 Disznótoros | Hungarian pork slaughter platter | HF | 0.8 | 1 Teller | schwein_nacken 100, leberwurst 60, blutwurst 60, sauerkraut 100, ekmek 40
 Körözött | Hungarian körözött | SD | 1.0 | 1 Portion | quark 100, butter 25, paprikapulver 3, zwiebel 20, senf 3, kreuzkuemmel 1
 Paprikás krumpli | Hungarian paprika potatoes | E | 0.9 | 1 Teller | kartoffel 250, wuerstchen_geraeuchert 80, zwiebel 50, paprikapulver 4, tomate 40, oel 15, wasser 200

@@ -22,6 +22,5 @@ Oscypek z żurawiną | Oscypek with cranberry | SN | 1.0 | 1 Portion | gouda 80,
 Mazurek | Polish mazurek | K | 0.95 | 1 Stück | mehl 60, butter 40, zucker 30, ei 20, marmelade 40, mandel 20
 Piernik toruński | Toruń gingerbread | K | 0.95 | 1 Stück | mehl 70, honig 40, zucker 15, ei 15, lebkuchen_gewuerz 3, walnuss 10
 Kompot owocowy | Polish compote | GT | 1.0 | 1 Glas | wasser 250, apfel 40, kirsche 30, zucker 20
-Żubrówka z sokiem jabłkowym | Szarlotka drink | GT | 1.0 | 1 Glas | spirituose 40, apfel 150
 Gofry z owocami | Polish waffles with fruit | G | 0.95 | 1 Waffel | mehl 60, milch 70, ei 30, butter 15, zucker 10, erdbeere 60, sahne 30
 """

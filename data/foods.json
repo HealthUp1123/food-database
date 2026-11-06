@@ -1926,7 +1926,7 @@
     "names": {
       "de": "Schweinshaxe",
       "en": "Roast pork knuckle",
-      "tr": "Fırında domuz incik",
+      "tr": "Fırında domuz incik (Alman usulü)",
       "fr": "Jarret de porc rôti",
       "es": "Codillo de cerdo asado",
       "pt": "Joelho de porco assado",
@@ -2048,7 +2048,7 @@
     "names": {
       "de": "Schäufele",
       "en": "Schäufele",
-      "tr": "Schäufele",
+      "tr": "Fırın domuz omzu (Schäufele)",
       "fr": "Schäufele",
       "es": "Schäufele",
       "pt": "Schäufele",
@@ -2105,7 +2105,7 @@
     "names": {
       "de": "Leberkäse mit Spiegelei",
       "en": "Leberkäse mit Spiegelei",
-      "tr": "Leberkäse mit Spiegelei",
+      "tr": "Fırın et somunu ve sahanda yumurta (Leberkäse mit Spiegelei)",
       "fr": "Leberkäse mit Spiegelei",
       "es": "Leberkäse mit Spiegelei",
       "pt": "Leberkäse mit Spiegelei",
@@ -2157,12 +2157,17 @@
     "names": {
       "de": "Leberkäse im Brötchen",
       "en": "Leberkäse im Brötchen",
-      "tr": "Leberkäse im Brötchen",
+      "tr": "Sandviç ekmeğinde fırın et somunu (Leberkäse)",
       "fr": "Leberkäse im Brötchen",
       "es": "Leberkäse im Brötchen",
       "pt": "Leberkäse im Brötchen",
       "it": "Leberkäse im Brötchen",
       "zh": "Leberkäse im Brötchen"
+    },
+    "aliases": {
+      "tr": [
+        "Leberkäse im Brötchen"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -2497,7 +2502,7 @@
     "names": {
       "de": "Weißwurst",
       "en": "Weißwurst",
-      "tr": "Weißwurst",
+      "tr": "Beyaz sosis (Weißwurst)",
       "fr": "Weißwurst",
       "es": "Weißwurst",
       "pt": "Weißwurst",
@@ -3605,7 +3610,7 @@
     "names": {
       "de": "Kaninchen in Senfsoße",
       "en": "Rabbit in mustard sauce",
-      "tr": "Hardal soslu tavşan",
+      "tr": "Hardal soslu tavşan (Alman usulü)",
       "fr": "Lapin à la moutarde",
       "es": "Conejo a la mostaza",
       "pt": "Coelho ao molho de mostarda",
@@ -5131,7 +5136,7 @@
     "names": {
       "de": "Aal grün",
       "en": "Eel in green herb sauce",
-      "tr": "Yeşil otlu soslu yılan balığı",
+      "tr": "Yeşil otlu soslu yılan balığı (Alman usulü)",
       "fr": "Anguille au vert",
       "es": "Anguila en salsa verde",
       "pt": "Enguia ao molho verde",
@@ -5707,7 +5712,7 @@
     "names": {
       "de": "Kartoffelsuppe",
       "en": "Potato soup",
-      "tr": "Patates çorbası",
+      "tr": "Patates çorbası (Alman usulü)",
       "fr": "Soupe de pommes de terre",
       "es": "Sopa de patata",
       "pt": "Sopa de batata",
@@ -5783,7 +5788,7 @@
     "names": {
       "de": "Gulaschsuppe",
       "en": "Goulash soup",
-      "tr": "Gulaş çorbası",
+      "tr": "Gulaş çorbası (Alman usulü)",
       "fr": "Soupe goulash",
       "es": "Sopa de gulash",
       "pt": "Sopa de goulash",
@@ -5858,7 +5863,7 @@
     "names": {
       "de": "Linsensuppe",
       "en": "Lentil soup",
-      "tr": "Mercimek çorbası",
+      "tr": "Mercimek çorbası (Alman usulü)",
       "fr": "Soupe de lentilles",
       "es": "Sopa de lentejas",
       "pt": "Sopa de lentilha",
@@ -5934,7 +5939,7 @@
     "names": {
       "de": "Erbsensuppe",
       "en": "Pea soup",
-      "tr": "Bezelye çorbası",
+      "tr": "Bezelye çorbası (Alman usulü)",
       "fr": "Soupe aux pois cassés",
       "es": "Sopa de guisantes",
       "pt": "Sopa de ervilha",
@@ -6006,7 +6011,7 @@
     "names": {
       "de": "Flädlesuppe",
       "en": "Pancake strip soup",
-      "tr": "Krep şeritli et suyu çorbası",
+      "tr": "Krep şeritli et suyu çorbası (Alman usulü)",
       "fr": "Bouillon aux lanières de crêpe",
       "es": "Caldo con tiras de crepe",
       "pt": "Caldo com tiras de panqueca",
@@ -6409,7 +6414,7 @@
     "names": {
       "de": "Kürbissuppe",
       "en": "Pumpkin soup",
-      "tr": "Bal kabağı çorbası",
+      "tr": "Bal kabağı çorbası (Alman usulü)",
       "fr": "Soupe de potiron",
       "es": "Crema de calabaza",
       "pt": "Sopa de abóbora",
@@ -6486,7 +6491,7 @@
     "names": {
       "de": "Tomatensuppe",
       "en": "Tomato soup",
-      "tr": "Domates çorbası",
+      "tr": "Domates çorbası (Alman usulü)",
       "fr": "Soupe de tomate",
       "es": "Sopa de tomate",
       "pt": "Sopa de tomate",
@@ -6630,7 +6635,7 @@
     "names": {
       "de": "Champignoncremesuppe",
       "en": "Cream of mushroom soup",
-      "tr": "Kremalı mantar çorbası",
+      "tr": "Kremalı mantar çorbası (Alman usulü)",
       "fr": "Velouté de champignons",
       "es": "Crema de champiñones",
       "pt": "Creme de cogumelos",
@@ -6762,7 +6767,7 @@
     "names": {
       "de": "Möhrensuppe",
       "en": "Carrot soup",
-      "tr": "Havuç çorbası",
+      "tr": "Havuç çorbası (Alman usulü)",
       "fr": "Soupe de carottes",
       "es": "Crema de zanahoria",
       "pt": "Sopa de cenoura",
@@ -6915,7 +6920,7 @@
     "names": {
       "de": "Kohlsuppe",
       "en": "Cabbage soup",
-      "tr": "Lahana çorbası",
+      "tr": "Lahana çorbası (Alman usulü)",
       "fr": "Soupe au chou",
       "es": "Sopa de col",
       "pt": "Sopa de repolho",
@@ -8050,7 +8055,7 @@
     "names": {
       "de": "Kohlrouladen",
       "en": "Stuffed cabbage rolls",
-      "tr": "Lahana sarması (etli)",
+      "tr": "Lahana sarması (etli) (Alman usulü)",
       "fr": "Choux farcis",
       "es": "Rollitos de col rellenos",
       "pt": "Charutos de repolho",
@@ -8122,7 +8127,7 @@
     "names": {
       "de": "Spätzle",
       "en": "Spätzle",
-      "tr": "Spätzle",
+      "tr": "Yumurta eriştesi (Spätzle)",
       "fr": "Spätzle",
       "es": "Spätzle",
       "pt": "Spätzle",
@@ -8188,12 +8193,17 @@
     "names": {
       "de": "Käsespätzle",
       "en": "Cheese spätzle",
-      "tr": "Peynirli spätzle",
+      "tr": "Peynirli yumurta eriştesi (Käsespätzle)",
       "fr": "Spätzle au fromage",
       "es": "Spätzle con queso",
       "pt": "Spätzle com queijo",
       "it": "Spätzle al formaggio",
       "zh": "奶酪面疙瘩"
+    },
+    "aliases": {
+      "tr": [
+        "Peynirli spätzle"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -8257,12 +8267,17 @@
     "names": {
       "de": "Linsen mit Spätzle",
       "en": "Lentils with spätzle",
-      "tr": "Spätzle ile mercimek",
+      "tr": "Mercimek ve yumurta eriştesi (Linsen mit Spätzle)",
       "fr": "Lentilles aux spätzle",
       "es": "Lentejas con spätzle",
       "pt": "Lentilhas com spätzle",
       "it": "Lenticchie con spätzle",
       "zh": "扁豆配面疙瘩"
+    },
+    "aliases": {
+      "tr": [
+        "Spätzle ile mercimek"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -8746,7 +8761,7 @@
     "names": {
       "de": "Nudelauflauf",
       "en": "Pasta bake",
-      "tr": "Fırın makarna",
+      "tr": "Fırın makarna (Alman usulü)",
       "fr": "Gratin de pâtes",
       "es": "Pasta gratinada al horno",
       "pt": "Macarrão gratinado",
@@ -8883,7 +8898,7 @@
     "names": {
       "de": "Kartoffelknödel",
       "en": "Potato dumplings",
-      "tr": "Patates köftesi (knödel)",
+      "tr": "Patates köftesi (knödel) (Alman usulü)",
       "fr": "Quenelles de pommes de terre",
       "es": "Albóndigas de patata (knödel)",
       "pt": "Bolinhos de batata (knödel)",
@@ -9017,7 +9032,7 @@
     "names": {
       "de": "Thüringer Klöße",
       "en": "Thüringer Klöße",
-      "tr": "Thüringer Klöße",
+      "tr": "Thüringen usulü patates hamur köftesi (Thüringer Klöße)",
       "fr": "Thüringer Klöße",
       "es": "Thüringer Klöße",
       "pt": "Thüringer Klöße",
@@ -9466,7 +9481,7 @@
     "names": {
       "de": "Kartoffelpüree",
       "en": "Mashed potatoes",
-      "tr": "Patates püresi",
+      "tr": "Patates püresi (Alman usulü)",
       "fr": "Purée de pommes de terre",
       "es": "Puré de patatas",
       "pt": "Purê de batata",
@@ -10055,7 +10070,7 @@
     "names": {
       "de": "Pommes frites",
       "en": "French fries",
-      "tr": "Patates kızartması",
+      "tr": "Patates kızartması (Alman usulü)",
       "fr": "Frites",
       "es": "Patatas fritas",
       "pt": "Batata frita",
@@ -10125,7 +10140,7 @@
     "names": {
       "de": "Kroketten",
       "en": "Potato croquettes",
-      "tr": "Patates kroket",
+      "tr": "Patates kroket (Alman usulü)",
       "fr": "Croquettes de pommes de terre",
       "es": "Croquetas de patata",
       "pt": "Croquetes de batata",
@@ -10193,7 +10208,7 @@
     "names": {
       "de": "Reibekuchen",
       "en": "Potato pancakes",
-      "tr": "Patates mücveri",
+      "tr": "Patates mücveri (Alman usulü)",
       "fr": "Galettes de pommes de terre",
       "es": "Tortitas de patata",
       "pt": "Panquecas de batata",
@@ -11105,7 +11120,7 @@
     "names": {
       "de": "Gebratene Champignons",
       "en": "Sautéed mushrooms",
-      "tr": "Mantar sote",
+      "tr": "Mantar sote (Alman usulü)",
       "fr": "Champignons poêlés",
       "es": "Champiñones salteados",
       "pt": "Cogumelos salteados",
@@ -12183,7 +12198,7 @@
     "names": {
       "de": "Roggenbrot",
       "en": "Rye bread",
-      "tr": "Çavdar ekmeği",
+      "tr": "Çavdar ekmeği (Alman usulü)",
       "fr": "Pain de seigle",
       "es": "Pan de centeno",
       "pt": "Pão de centeio",
@@ -12193,7 +12208,6 @@
     "type": "dish",
     "barcode": null,
     "synonyms": [
-      "Roggenmischbrot",
       "Rye bread"
     ],
     "cuisine": "de",
@@ -12201,11 +12215,12 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 215,
+      "kcal": 220,
       "protein": 6.0,
-      "carbs": 43.0,
+      "carbs": 49.5,
       "fat": 1.2,
-      "fiber": 6.0
+      "fiber": 6.5,
+      "sugar": 3.8
     },
     "portion": {
       "label": "1 Scheibe",
@@ -12217,8 +12232,9 @@
         "grams": 50
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code B221000 \"Roggenbrot\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 43.04 g + Ballaststoffe 6.46 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:B221000",
     "off_similar": [
       "7640121110016",
       "3522567045289",
@@ -12231,7 +12247,7 @@
     "names": {
       "de": "Vollkornbrot",
       "en": "Wholegrain bread",
-      "tr": "Tam buğday ekmeği",
+      "tr": "Tam buğday ekmeği (Alman usulü)",
       "fr": "Pain complet",
       "es": "Pan integral",
       "pt": "Pão integral",
@@ -12339,7 +12355,7 @@
     "names": {
       "de": "Weißbrot",
       "en": "White bread",
-      "tr": "Beyaz ekmek",
+      "tr": "Beyaz ekmek (Alman usulü)",
       "fr": "Pain blanc",
       "es": "Pan blanco",
       "pt": "Pão branco",
@@ -12375,11 +12391,12 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 263,
-      "protein": 9.0,
-      "carbs": 50.0,
+      "kcal": 272,
+      "protein": 8.7,
+      "carbs": 54.5,
       "fat": 3.0,
-      "fiber": 2.5
+      "fiber": 4.0,
+      "sugar": 4.0
     },
     "portion": {
       "label": "1 Scheibe",
@@ -12391,8 +12408,9 @@
         "grams": 30
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code B311000 \"Weizenbrot/Weißbrot\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 50.54 g + Ballaststoffe 4 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:B311000",
     "off_similar": [
       "29073405",
       "9120048494232",
@@ -12816,7 +12834,7 @@
     "names": {
       "de": "Brötchen mit Marmelade",
       "en": "Bread roll with jam",
-      "tr": "Reçelli ekmek",
+      "tr": "Reçelli sandviç ekmeği",
       "fr": "Petit pain à la confiture",
       "es": "Panecillo con mermelada",
       "pt": "Pão com geleia",
@@ -12826,6 +12844,9 @@
     "aliases": {
       "pt": [
         "Pão com doce"
+      ],
+      "tr": [
+        "Reçelli ekmek"
       ]
     },
     "type": "dish",
@@ -13082,7 +13103,7 @@
     "names": {
       "de": "Fischbrötchen",
       "en": "Fish roll (herring sandwich)",
-      "tr": "Balık ekmek",
+      "tr": "Balık ekmek (Alman usulü)",
       "fr": "Petit pain au poisson",
       "es": "Bocadillo de pescado",
       "pt": "Sanduíche de peixe",
@@ -13144,7 +13165,7 @@
     "names": {
       "de": "Matjesbrötchen",
       "en": "Matjes herring roll",
-      "tr": "Ringa balıklı sandviç",
+      "tr": "Ringa balıklı sandviç (Alman usulü)",
       "fr": "Petit pain au hareng matjes",
       "es": "Bocadillo de arenque matjes",
       "pt": "Sanduíche de arenque",
@@ -13730,7 +13751,7 @@
     "names": {
       "de": "Haferbrei",
       "en": "Porridge",
-      "tr": "Yulaf lapası",
+      "tr": "Yulaf lapası (Alman usulü)",
       "fr": "Porridge",
       "es": "Gachas de avena",
       "pt": "Mingau de aveia",
@@ -13870,8 +13891,8 @@
     "name": "Grießbrei",
     "names": {
       "de": "Grießbrei",
-      "en": "Semolina pudding",
-      "tr": "İrmik muhallebisi",
+      "en": "Semolina pudding (Grießbrei)",
+      "tr": "İrmik muhallebisi (Alman usulü)",
       "fr": "Semoule au lait",
       "es": "Gachas de sémola",
       "pt": "Mingau de sêmola",
@@ -14705,7 +14726,7 @@
     "names": {
       "de": "Gurkensalat",
       "en": "Cucumber salad",
-      "tr": "Salatalık salatası",
+      "tr": "Salatalık salatası (Alman usulü)",
       "fr": "Salade de concombre",
       "es": "Ensalada de pepino",
       "pt": "Salada de pepino",
@@ -14769,7 +14790,7 @@
     "names": {
       "de": "Tomatensalat",
       "en": "Tomato salad",
-      "tr": "Domates salatası",
+      "tr": "Domates salatası (Alman usulü)",
       "fr": "Salade de tomates",
       "es": "Ensalada de tomate",
       "pt": "Salada de tomate",
@@ -14823,7 +14844,7 @@
     "names": {
       "de": "Kopfsalat",
       "en": "Green salad (lettuce)",
-      "tr": "Yeşil salata",
+      "tr": "Yeşil salata (Alman usulü)",
       "fr": "Salade verte",
       "es": "Ensalada verde",
       "pt": "Salada verde",
@@ -14975,7 +14996,7 @@
     "names": {
       "de": "Krautsalat",
       "en": "Coleslaw (German-style)",
-      "tr": "Lahana salatası",
+      "tr": "Lahana salatası (Alman usulü)",
       "fr": "Salade de chou",
       "es": "Ensalada de col",
       "pt": "Salada de repolho",
@@ -15105,7 +15126,7 @@
     "names": {
       "de": "Möhrensalat",
       "en": "Carrot salad",
-      "tr": "Havuç salatası",
+      "tr": "Havuç salatası (Alman usulü)",
       "fr": "Carottes râpées",
       "es": "Ensalada de zanahoria",
       "pt": "Salada de cenoura",
@@ -15240,7 +15261,7 @@
     "names": {
       "de": "Rote-Bete-Salat",
       "en": "Beetroot salad",
-      "tr": "Pancar salatası",
+      "tr": "Pancar salatası (Alman usulü)",
       "fr": "Salade de betterave",
       "es": "Ensalada de remolacha",
       "pt": "Salada de beterraba",
@@ -15956,7 +15977,7 @@
     "names": {
       "de": "Handkäs mit Musik",
       "en": "Handkäs mit Musik",
-      "tr": "Handkäs mit Musik",
+      "tr": "Soğanlı el peyniri (Handkäs mit Musik)",
       "fr": "Handkäs mit Musik",
       "es": "Handkäs mit Musik",
       "pt": "Handkäs mit Musik",
@@ -16019,7 +16040,7 @@
     "names": {
       "de": "Käseplatte",
       "en": "Cheese platter",
-      "tr": "Peynir tabağı",
+      "tr": "Peynir tabağı (Alman usulü)",
       "fr": "Plateau de fromages",
       "es": "Tabla de quesos",
       "pt": "Tábua de queijos",
@@ -16088,7 +16109,7 @@
     "names": {
       "de": "Käse-Schinken-Toast",
       "en": "Ham and cheese toastie",
-      "tr": "Kaşarlı jambonlu tost",
+      "tr": "Kaşarlı jambonlu tost (Alman usulü)",
       "fr": "Croque-monsieur",
       "es": "Sándwich mixto",
       "pt": "Misto quente",
@@ -16486,7 +16507,7 @@
     "names": {
       "de": "Apfelkuchen",
       "en": "Apple cake",
-      "tr": "Elmalı kek",
+      "tr": "Elmalı kek (Alman usulü)",
       "fr": "Gâteau aux pommes",
       "es": "Tarta de manzana",
       "pt": "Bolo de maçã",
@@ -20641,7 +20662,7 @@
     "name": "Grießpudding",
     "names": {
       "de": "Grießpudding",
-      "en": "Semolina pudding",
+      "en": "Semolina pudding (Grießpudding)",
       "tr": "İrmik helvası (puding)",
       "fr": "Gâteau de semoule",
       "es": "Pudin de sémola",
@@ -21020,7 +21041,7 @@
     "names": {
       "de": "Bratapfel",
       "en": "Baked apple",
-      "tr": "Fırında elma",
+      "tr": "Fırında elma (Alman usulü)",
       "fr": "Pomme au four",
       "es": "Manzana asada",
       "pt": "Maçã assada",
@@ -21999,11 +22020,12 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 33,
+      "kcal": 26,
       "protein": 0.1,
-      "carbs": 8.8,
-      "fat": 0.1,
-      "fiber": 1.2
+      "carbs": 6.3,
+      "fat": 0.0,
+      "fiber": 0.2,
+      "sugar": 5.6
     },
     "portion": {
       "label": "1 Glas",
@@ -22023,8 +22045,9 @@
         "grams": 5
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N256000 \"Fruchtsaftschorle Apfel\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 6.139 g + Ballaststoffe 0.18 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:N256000",
     "off_similar": [
       "4260261720253",
       "42151715",
@@ -22116,9 +22139,10 @@
     "per100g": {
       "kcal": 24,
       "protein": 0.4,
-      "carbs": 6.0,
-      "fat": 0.1,
-      "fiber": 1.2
+      "carbs": 5.1,
+      "fat": 0.0,
+      "fiber": 0.2,
+      "sugar": 4.9
     },
     "portion": {
       "label": "1 Glas",
@@ -22134,8 +22158,9 @@
         "grams": 125
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N257000 \"Fruchtsaftschorle Orange\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4.931 g + Ballaststoffe 0.18 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:N257000"
   },
   {
     "id": "kirschsaft",
@@ -22143,7 +22168,7 @@
     "names": {
       "de": "Kirschsaft",
       "en": "Sour cherry juice",
-      "tr": "Vişne suyu",
+      "tr": "Vişne suyu (Alman usulü)",
       "fr": "Jus de griotte",
       "es": "Zumo de guinda",
       "pt": "Suco de ginja",
@@ -22249,61 +22274,6 @@
     ]
   },
   {
-    "id": "spezi",
-    "name": "Spezi",
-    "names": {
-      "de": "Spezi",
-      "en": "Spezi",
-      "tr": "Spezi",
-      "fr": "Spezi",
-      "es": "Spezi",
-      "pt": "Spezi",
-      "it": "Spezi",
-      "zh": "Spezi"
-    },
-    "type": "dish",
-    "barcode": null,
-    "synonyms": [
-      "Cola-Orange"
-    ],
-    "cuisine": "de",
-    "category": "Getränk",
-    "prepared": "homemade",
-    "is_packaged_product": false,
-    "per100g": {
-      "kcal": 45,
-      "protein": 0.1,
-      "carbs": 11.2,
-      "fat": 0.0,
-      "fiber": 0.2
-    },
-    "portion": {
-      "label": "1 Glas",
-      "grams": 245
-    },
-    "ingredients": [
-      {
-        "name": "Zucker",
-        "grams": 25
-      },
-      {
-        "name": "Wasser",
-        "grams": 200
-      },
-      {
-        "name": "Orange",
-        "grams": 20
-      }
-    ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
-    "off_similar": [
-      "9015160106081",
-      "4019313015188",
-      "4260015190820"
-    ]
-  },
-  {
     "id": "colamix",
     "name": "Colamix",
     "names": {
@@ -22327,11 +22297,12 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 44,
+      "kcal": 36,
       "protein": 0.0,
-      "carbs": 11.1,
+      "carbs": 9.0,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 9.0
     },
     "portion": {
       "label": "1 Glas",
@@ -22347,8 +22318,9 @@
         "grams": 200
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N390100 \"Cola-Misch-Getränk Orange\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 9 g + Ballaststoffe 0.005 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:N390100",
     "off_similar": [
       "4003237001952",
       "4009285004570",
@@ -22383,11 +22355,12 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 48,
-      "protein": 0.3,
-      "carbs": 11.5,
-      "fat": 0.1,
-      "fiber": 0.2
+      "kcal": 43,
+      "protein": 0.4,
+      "carbs": 10.3,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 8.4
     },
     "portion": {
       "label": "1 Flasche",
@@ -22407,8 +22380,9 @@
         "grams": 5
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P122000 \"Malzgetränk, alkoholfrei\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 10.32 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P122000",
     "off_similar": [
       "4011094105027",
       "4051800527019",
@@ -22447,11 +22421,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 43,
-      "protein": 0.5,
-      "carbs": 3.6,
+      "kcal": 38,
+      "protein": 0.4,
+      "carbs": 2.2,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 0.1,
+      "alcohol": 3.9
     },
     "portion": {
       "label": "1 Glas",
@@ -22463,8 +22439,12 @@
         "grams": 500
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P163000 \"Pilsner Bier\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.218 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Fett.",
+    "source_id": "BLS 4.0:P163000",
+    "source_missing": [
+      "fat"
+    ],
     "off_similar": [
       "9501100005762",
       "4000856004166",
@@ -22505,11 +22485,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 43,
-      "protein": 0.5,
-      "carbs": 3.6,
+      "kcal": 42,
+      "protein": 0.6,
+      "carbs": 2.5,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 0.1,
+      "alcohol": 4.2
     },
     "portion": {
       "label": "1 Glas",
@@ -22521,8 +22503,13 @@
         "grams": 500
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P151100 \"Hefeweizen/Weizenbier, naturtrüb\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.452 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Fett und Ballaststoffe.",
+    "source_id": "BLS 4.0:P151100",
+    "source_missing": [
+      "fat",
+      "fiber"
+    ],
     "off_similar": [
       "0080157102642",
       "41051849",
@@ -22564,11 +22551,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 32,
+      "kcal": 38,
       "protein": 0.2,
-      "carbs": 4.7,
+      "carbs": 5.7,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 4.7,
+      "alcohol": 1.9
     },
     "portion": {
       "label": "1 Glas",
@@ -22592,8 +22581,9 @@
         "grams": 250
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P192000 \"Radler (Pilsner Bier mit Zitronenlimonade)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 5.744 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P192000",
     "off_similar": [
       "4008287072228",
       "4053400281865",
@@ -22630,11 +22620,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 43,
-      "protein": 0.5,
-      "carbs": 3.6,
+      "kcal": 38,
+      "protein": 0.4,
+      "carbs": 2.2,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 0.1,
+      "alcohol": 3.9
     },
     "portion": {
       "label": "1 Stange",
@@ -22646,8 +22638,9 @@
         "grams": 200
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P154000 \"Kölsch\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.218 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P154000",
     "off_similar": [
       "4104740010308",
       "4002208001038",
@@ -22679,11 +22672,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 82,
+      "kcal": 64,
       "protein": 0.1,
-      "carbs": 2.6,
+      "carbs": 0.3,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 0.3,
+      "alcohol": 8.7
     },
     "portion": {
       "label": "1 Glas",
@@ -22695,8 +22690,12 @@
         "grams": 200
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P210000 \"Weißwein trocken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0.33 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Fett.",
+    "source_id": "BLS 4.0:P210000",
+    "source_missing": [
+      "fat"
+    ],
     "off_similar": [
       "4001976374207",
       "22116048",
@@ -22727,11 +22726,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 85,
-      "protein": 0.1,
-      "carbs": 2.6,
+      "kcal": 70,
+      "protein": 0.2,
+      "carbs": 0.7,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 0.7,
+      "alcohol": 9.2
     },
     "portion": {
       "label": "1 Glas",
@@ -22743,8 +22744,12 @@
         "grams": 200
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P2A3000 \"Rotwein trocken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0.7 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Fett.",
+    "source_id": "BLS 4.0:P2A3000",
+    "source_missing": [
+      "fat"
+    ],
     "off_similar": [
       "4316268521642",
       "9313181003656",
@@ -22775,11 +22780,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 41,
+      "kcal": 33,
       "protein": 0.1,
-      "carbs": 1.3,
+      "carbs": 0.2,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 0.2,
+      "alcohol": 4.4
     },
     "portion": {
       "label": "1 Glas",
@@ -22795,8 +22802,9 @@
         "grams": 125
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P285000 \"Weißwein-Schorle mit Mineralwasser\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 0.16 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P285000",
     "off_similar": [
       "42220510",
       "4062073999854",
@@ -22832,11 +22840,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 112,
-      "protein": 0.1,
-      "carbs": 11.8,
+      "kcal": 96,
+      "protein": 0.2,
+      "carbs": 8.3,
       "fat": 0.0,
-      "fiber": 0.3
+      "fiber": 0.1,
+      "sugar": 8.2,
+      "alcohol": 8.5
     },
     "portion": {
       "label": "1 Tasse",
@@ -22860,8 +22870,9 @@
         "grams": 10
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P281000 \"Glühwein\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 8.21 g + Ballaststoffe 0.071 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P281000",
     "off_similar": [
       "1704314830009",
       "4101660005032",
@@ -22874,7 +22885,7 @@
     "names": {
       "de": "Kaffee mit Milch",
       "en": "Coffee with milk",
-      "tr": "Sütlü kahve",
+      "tr": "Sütlü kahve (Alman usulü)",
       "fr": "Café au lait",
       "es": "Café con leche",
       "pt": "Café com leite",
@@ -23004,11 +23015,12 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 56,
+      "kcal": 50,
       "protein": 2.9,
-      "carbs": 4.2,
-      "fat": 3.1,
-      "fiber": 0.0
+      "carbs": 3.3,
+      "fat": 2.8,
+      "fiber": 0.1,
+      "sugar": 3.2
     },
     "portion": {
       "label": "1 Glas",
@@ -23024,8 +23036,9 @@
         "grams": 30
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N418000 \"Latte macchiato (Getränk) mit Milch 3,5 % Fett\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 3.22 g + Ballaststoffe 0.084 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:N418000",
     "off_similar": [
       "4047046011030",
       "8718657493398",
@@ -23058,11 +23071,12 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 48,
-      "protein": 2.5,
-      "carbs": 3.6,
-      "fat": 2.7,
-      "fiber": 0.0
+      "kcal": 50,
+      "protein": 2.9,
+      "carbs": 3.3,
+      "fat": 2.8,
+      "fiber": 0.1,
+      "sugar": 3.2
     },
     "portion": {
       "label": "1 Tasse",
@@ -23078,8 +23092,9 @@
         "grams": 40
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N414000 \"Cappuccino (Getränk) mit Milch 3,5 % Fett\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 3.22 g + Ballaststoffe 0.084 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:N414000",
     "off_similar": [
       "0053888001638",
       "8991002103764",
@@ -23092,7 +23107,7 @@
     "names": {
       "de": "Kakao",
       "en": "Hot chocolate",
-      "tr": "Sıcak çikolata",
+      "tr": "Sıcak çikolata (Alman usulü)",
       "fr": "Chocolat chaud",
       "es": "Chocolate caliente",
       "pt": "Chocolate quente",
@@ -23181,11 +23196,12 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 2,
-      "protein": 0.1,
-      "carbs": 0.2,
+      "kcal": 0,
+      "protein": 0.0,
+      "carbs": 0.0,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 0.0
     },
     "portion": {
       "label": "1 Tasse",
@@ -23197,8 +23213,12 @@
         "grams": 250
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N710000 \"Früchtetee (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Protein.",
+    "source_id": "BLS 4.0:N710000",
+    "source_missing": [
+      "protein"
+    ],
     "off_similar": [
       "4009300019312",
       "9001475010717",
@@ -23233,11 +23253,12 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 2,
-      "protein": 0.1,
-      "carbs": 0.2,
+      "kcal": 0,
+      "protein": 0.0,
+      "carbs": 0.0,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 0.0
     },
     "portion": {
       "label": "1 Tasse",
@@ -23249,8 +23270,9 @@
         "grams": 250
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N721000 \"Pfefferminztee (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:N721000",
     "off_similar": [
       "4009300004707",
       "4388844084674",
@@ -24289,7 +24311,7 @@
     "names": {
       "de": "Spanferkel",
       "en": "Roast suckling pig",
-      "tr": "Süt domuzu çevirme",
+      "tr": "Süt domuzu çevirme (Alman usulü)",
       "fr": "Cochon de lait rôti",
       "es": "Cochinillo asado",
       "pt": "Leitão assado",
@@ -25273,12 +25295,17 @@
     "names": {
       "de": "Jägerschnitzel mit Spätzle",
       "en": "Schnitzel with mushroom sauce and spätzle",
-      "tr": "Mantar soslu şinitzel ve spätzle",
+      "tr": "Mantar soslu şinitzel ve yumurta eriştesi (Jägerschnitzel mit Spätzle)",
       "fr": "Escalope sauce chasseur et spätzle",
       "es": "Escalope con salsa de champiñones y spätzle",
       "pt": "Escalope ao molho de cogumelos com spätzle",
       "it": "Scaloppina ai funghi con spätzle",
       "zh": "蘑菇酱肉排配面疙瘩"
+    },
+    "aliases": {
+      "tr": [
+        "Mantar soslu şinitzel ve spätzle"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -25348,12 +25375,17 @@
     "names": {
       "de": "Rahmschnitzel mit Spätzle",
       "en": "Schnitzel in cream sauce with spätzle",
-      "tr": "Krema soslu şinitzel ve spätzle",
+      "tr": "Krema soslu şinitzel ve yumurta eriştesi (Rahmschnitzel mit Spätzle)",
       "fr": "Escalope à la crème et spätzle",
       "es": "Escalope en salsa de nata con spätzle",
       "pt": "Escalope ao creme com spätzle",
       "it": "Scaloppina alla panna con spätzle",
       "zh": "奶油酱肉排配面疙瘩"
+    },
+    "aliases": {
+      "tr": [
+        "Krema soslu şinitzel ve spätzle"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -25714,12 +25746,17 @@
     "names": {
       "de": "Frikadellen mit Kartoffelsalat",
       "en": "Meat patties with potato salad",
-      "tr": "Patates salatalı köfte",
+      "tr": "Patates salatalı frikadelle",
       "fr": "Boulettes de viande et salade de pommes de terre",
       "es": "Hamburguesas caseras con ensalada de patata",
       "pt": "Almôndegas com salada de batata",
       "it": "Polpette con insalata di patate",
       "zh": "德式肉饼配土豆沙拉"
+    },
+    "aliases": {
+      "tr": [
+        "Patates salatalı köfte"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -26178,12 +26215,17 @@
     "names": {
       "de": "Thüringer Rostbrätel",
       "en": "Thüringer Rostbrätel",
-      "tr": "Thüringer Rostbrätel",
+      "tr": "Thüringen usulü marine ızgara pirzola (Rostbrätel)",
       "fr": "Thüringer Rostbrätel",
       "es": "Thüringer Rostbrätel",
       "pt": "Thüringer Rostbrätel",
       "it": "Thüringer Rostbrätel",
       "zh": "Thüringer Rostbrätel"
+    },
+    "aliases": {
+      "tr": [
+        "Thüringer Rostbrätel"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -26306,12 +26348,17 @@
     "names": {
       "de": "Leberspätzlesuppe",
       "en": "Liver spätzle soup",
-      "tr": "Ciğerli spätzle çorbası",
+      "tr": "Ciğerli yumurta eriştesi çorbası (Leberspätzlesuppe)",
       "fr": "Bouillon aux spätzle de foie",
       "es": "Sopa de spätzle de hígado",
       "pt": "Sopa de spätzle de fígado",
       "it": "Brodo con spätzle di fegato",
       "zh": "肝面疙瘩汤"
+    },
+    "aliases": {
+      "tr": [
+        "Ciğerli spätzle çorbası"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -26799,7 +26846,7 @@
     "names": {
       "de": "Fischsuppe",
       "en": "Fish soup",
-      "tr": "Balık çorbası",
+      "tr": "Balık çorbası (Alman usulü)",
       "fr": "Soupe de poisson",
       "es": "Sopa de pescado",
       "pt": "Sopa de peixe",
@@ -27093,12 +27140,18 @@
     "names": {
       "de": "Jägerschnitzel DDR-Art mit Nudeln",
       "en": "Jägerschnitzel DDR-Art mit Nudeln",
-      "tr": "Jägerschnitzel DDR-Art mit Nudeln",
+      "tr": "Doğu Alman usulü pane sosis dilimi ve makarna (Jägerschnitzel)",
       "fr": "Jägerschnitzel DDR-Art mit Nudeln",
       "es": "Jägerschnitzel DDR-Art mit Nudeln",
       "pt": "Jägerschnitzel DDR-Art mit Nudeln",
       "it": "Jägerschnitzel DDR-Art mit Nudeln",
       "zh": "Jägerschnitzel DDR-Art mit Nudeln"
+    },
+    "aliases": {
+      "tr": [
+        "Jägerschnitzel DDR-Art mit Nudeln",
+        "Doğu Alman usulü avcı şinitzeli ve makarna (Jägerschnitzel)"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -27230,12 +27283,17 @@
     "names": {
       "de": "Bulette mit Kartoffelsalat",
       "en": "Meat patty with potato salad",
-      "tr": "Patates salatalı köfte",
+      "tr": "Patates salatalı bulette",
       "fr": "Boulette de viande et salade de pommes de terre",
       "es": "Hamburguesa casera con ensalada de patata",
       "pt": "Almôndega com salada de batata",
       "it": "Polpetta con insalata di patate",
       "zh": "肉饼配土豆沙拉"
+    },
+    "aliases": {
+      "tr": [
+        "Patates salatalı köfte"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -27323,11 +27381,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 76,
-      "protein": 0.4,
-      "carbs": 10.3,
-      "fat": 0.1,
-      "fiber": 0.4
+      "kcal": 73,
+      "protein": 0.2,
+      "carbs": 1.3,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 1.3,
+      "alcohol": 9.5
     },
     "portion": {
       "label": "1 Glas",
@@ -27343,8 +27403,9 @@
         "grams": 125
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P289000 \"Federweißer (Traubenmost teilweise vergoren)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 1.288 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P289000",
     "off_similar": [
       "4101080009825",
       "4260040330161",
@@ -27357,7 +27418,7 @@
     "names": {
       "de": "Bethmännchen",
       "en": "Bethmännchen",
-      "tr": "Bethmännchen",
+      "tr": "Bademli Noel kurabiyesi (Bethmännchen)",
       "fr": "Bethmännchen",
       "es": "Bethmännchen",
       "pt": "Bethmännchen",
@@ -28206,7 +28267,7 @@
     "names": {
       "de": "Gefüllte Paprika",
       "en": "Stuffed peppers",
-      "tr": "Biber dolması (etli)",
+      "tr": "Biber dolması (etli) (Alman usulü)",
       "fr": "Poivrons farcis",
       "es": "Pimientos rellenos",
       "pt": "Pimentões recheados",
@@ -28279,7 +28340,7 @@
     "names": {
       "de": "Gefüllte Zucchini",
       "en": "Stuffed zucchini",
-      "tr": "Kabak dolması (etli)",
+      "tr": "Kabak dolması (etli) (Alman usulü)",
       "fr": "Courgettes farcies",
       "es": "Calabacines rellenos",
       "pt": "Abobrinha recheada",
@@ -28604,7 +28665,7 @@
     "names": {
       "de": "Kartoffelauflauf mit Hack",
       "en": "Potato bake with minced meat",
-      "tr": "Kıymalı patates graten",
+      "tr": "Kıymalı patates graten (Alman usulü)",
       "fr": "Gratin de pommes de terre à la viande hachée",
       "es": "Pastel de patata con carne picada",
       "pt": "Gratinado de batata com carne moída",
@@ -29082,12 +29143,17 @@
     "names": {
       "de": "Marmeladenbrot",
       "en": "Bread with jam",
-      "tr": "Reçelli ekmek",
+      "tr": "Reçelli tost ekmeği",
       "fr": "Tartine de confiture",
       "es": "Pan con mermelada",
       "pt": "Pão com geleia",
       "it": "Pane e marmellata",
       "zh": "果酱面包"
+    },
+    "aliases": {
+      "tr": [
+        "Reçelli ekmek"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -29252,11 +29318,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 72,
+      "kcal": 67,
       "protein": 0.2,
-      "carbs": 7.7,
+      "carbs": 4.0,
       "fat": 0.1,
-      "fiber": 0.4
+      "fiber": 0.4,
+      "sugar": 3.5,
+      "alcohol": 6.8
     },
     "portion": {
       "label": "1 Glas",
@@ -29280,8 +29348,9 @@
         "grams": 40
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P288100 \"Erdbeerbowle\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 3.56 g + Ballaststoffe 0.4 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P288100",
     "off_similar": [
       "0850001805773",
       "4101080008804",
@@ -29349,12 +29418,17 @@
     "names": {
       "de": "Berliner Weiße mit Schuss",
       "en": "Berliner Weiße mit Schuss",
-      "tr": "Berliner Weiße mit Schuss",
+      "tr": "Şuruplu Berlin buğday birası (Berliner Weiße)",
       "fr": "Berliner Weiße mit Schuss",
       "es": "Berliner Weiße mit Schuss",
       "pt": "Berliner Weiße mit Schuss",
       "it": "Berliner Weiße mit Schuss",
       "zh": "Berliner Weiße mit Schuss"
+    },
+    "aliases": {
+      "tr": [
+        "Berliner Weiße mit Schuss"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -29368,11 +29442,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 69,
-      "protein": 0.5,
-      "carbs": 10.7,
+      "kcal": 53,
+      "protein": 0.6,
+      "carbs": 5.7,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 3.5,
+      "alcohol": 3.9
     },
     "portion": {
       "label": "1 Glas",
@@ -29388,8 +29464,9 @@
         "grams": 20
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P196000 \"Berliner Weisse mit Fruchtsirup\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 5.74 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P196000",
     "off_similar": [
       "4260402630175",
       "3760319570140",
@@ -29597,11 +29674,12 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 31,
-      "protein": 0.1,
-      "carbs": 7.6,
+      "kcal": 25,
+      "protein": 0.0,
+      "carbs": 6.2,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 6.2
     },
     "portion": {
       "label": "1 Glas",
@@ -29617,8 +29695,12 @@
         "grams": 20
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N019000 \"Eistee mit Zitronen-/Pfirsichgeschmack, gesüßt\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 6.2 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Fett.",
+    "source_id": "BLS 4.0:N019000",
+    "source_missing": [
+      "fat"
+    ],
     "off_similar": [
       "9008700204347",
       "42211129",
@@ -29657,11 +29739,12 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 2,
+      "kcal": 1,
       "protein": 0.1,
-      "carbs": 0.2,
+      "carbs": 0.3,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.3,
+      "sugar": 0.0
     },
     "portion": {
       "label": "1 Tasse",
@@ -29673,8 +29756,9 @@
         "grams": 150
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N410100 \"Kaffee (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0.31425 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:N410100",
     "off_similar": [
       "4260614530034",
       "4549741385091",
@@ -29754,7 +29838,7 @@
     "names": {
       "de": "Apfeltasche",
       "en": "Apple turnover",
-      "tr": "Elmalı milföy",
+      "tr": "Elmalı milföy (Alman usulü)",
       "fr": "Chausson aux pommes",
       "es": "Empanada de manzana (hojaldre)",
       "pt": "Folhado de maçã",
@@ -29947,7 +30031,7 @@
     "names": {
       "de": "Zitronenkuchen",
       "en": "Lemon cake",
-      "tr": "Limonlu kek",
+      "tr": "Limonlu kek (Alman usulü)",
       "fr": "Gâteau au citron",
       "es": "Bizcocho de limón",
       "pt": "Bolo de limão",
@@ -30443,7 +30527,7 @@
     "names": {
       "de": "Schokokuss",
       "en": "Chocolate-coated marshmallow treat",
-      "tr": "Çikolata kaplı köpük şekerleme",
+      "tr": "Çikolata kaplı köpük şekerleme (Alman usulü)",
       "fr": "Tête au choco",
       "es": "Beso de chocolate (merengue)",
       "pt": "Teta-de-nega",
@@ -31328,7 +31412,7 @@
     "names": {
       "de": "Zucchinipuffer",
       "en": "Zucchini fritters",
-      "tr": "Kabak mücveri",
+      "tr": "Kabak mücveri (Alman usulü)",
       "fr": "Galettes de courgettes",
       "es": "Tortitas de calabacín",
       "pt": "Bolinhos de abobrinha",
@@ -31739,8 +31823,8 @@
     "id": "domates-corbasi",
     "name": "Domates Çorbası",
     "names": {
-      "de": "Tomatensuppe",
-      "en": "Tomato soup",
+      "de": "Tomatensuppe (türkische Art)",
+      "en": "Tomato soup (Turkish style)",
       "tr": "Domates Çorbası",
       "fr": "Soupe de tomate",
       "es": "Sopa de tomate",
@@ -31885,7 +31969,7 @@
     "id": "tavuk-corbasi",
     "name": "Tavuk Çorbası",
     "names": {
-      "de": "Hühnersuppe",
+      "de": "Hühnersuppe (türkische Art)",
       "en": "Chicken soup",
       "tr": "Tavuk Çorbası",
       "fr": "Soupe de poulet",
@@ -32173,7 +32257,7 @@
     "name": "Havuç Çorbası",
     "names": {
       "de": "Karottensuppe",
-      "en": "Carrot soup",
+      "en": "Carrot soup (Turkish style)",
       "tr": "Havuç Çorbası",
       "fr": "Soupe de carottes",
       "es": "Crema de zanahoria",
@@ -32315,8 +32399,8 @@
     "id": "bal-kabagi-corbasi",
     "name": "Bal Kabağı Çorbası",
     "names": {
-      "de": "Kürbissuppe",
-      "en": "Pumpkin soup",
+      "de": "Kürbissuppe (türkische Art)",
+      "en": "Pumpkin soup (Turkish style)",
       "tr": "Bal Kabağı Çorbası",
       "fr": "Velouté de potiron",
       "es": "Crema de calabaza",
@@ -32923,8 +33007,8 @@
     "id": "lahana-corbasi",
     "name": "Lahana Çorbası",
     "names": {
-      "de": "Kohlsuppe",
-      "en": "Cabbage soup",
+      "de": "Kohlsuppe (türkische Art)",
+      "en": "Cabbage soup (Turkish style)",
       "tr": "Lahana Çorbası",
       "fr": "Soupe au chou",
       "es": "Sopa de col",
@@ -33056,8 +33140,8 @@
     "id": "nohut-corbasi",
     "name": "Nohut Çorbası",
     "names": {
-      "de": "Kichererbsensuppe",
-      "en": "Chickpea soup",
+      "de": "Kichererbsensuppe (türkische Art)",
+      "en": "Chickpea soup (Turkish style)",
       "tr": "Nohut Çorbası",
       "fr": "Soupe de pois chiches",
       "es": "Sopa de garbanzos",
@@ -33121,8 +33205,8 @@
     "id": "bezelye-corbasi",
     "name": "Bezelye Çorbası",
     "names": {
-      "de": "Erbsensuppe",
-      "en": "Pea soup",
+      "de": "Erbsensuppe (türkische Art)",
+      "en": "Pea soup (Turkish style)",
       "tr": "Bezelye Çorbası",
       "fr": "Soupe de petits pois",
       "es": "Sopa de guisantes",
@@ -33190,8 +33274,8 @@
     "id": "patates-corbasi",
     "name": "Patates Çorbası",
     "names": {
-      "de": "Kartoffelsuppe",
-      "en": "Potato soup",
+      "de": "Kartoffelsuppe (türkische Art)",
+      "en": "Potato soup (Turkish style)",
       "tr": "Patates Çorbası",
       "fr": "Soupe de pommes de terre",
       "es": "Sopa de patata",
@@ -33781,8 +33865,8 @@
     "id": "balik-corbasi",
     "name": "Balık Çorbası",
     "names": {
-      "de": "Fischsuppe",
-      "en": "Fish soup",
+      "de": "Fischsuppe (türkische Art)",
+      "en": "Fish soup (Turkish style)",
       "tr": "Balık Çorbası",
       "fr": "Soupe de poisson",
       "es": "Sopa de pescado",
@@ -38855,7 +38939,7 @@
     "id": "ekmek-kofte",
     "name": "Ekmek Köfte",
     "names": {
-      "de": "Köfte im Brot",
+      "de": "Köfte im Brot (Ekmek köfte)",
       "en": "Meatball sandwich (köfte in bread)",
       "tr": "Ekmek Köfte",
       "fr": "Sandwich aux köfte",
@@ -40328,7 +40412,7 @@
     "name": "Soslu Köfte",
     "names": {
       "de": "Köfte in Tomatensoße",
-      "en": "Meatballs in tomato sauce",
+      "en": "Meatballs in tomato sauce (Turkish style)",
       "tr": "Soslu Köfte",
       "fr": "Boulettes sauce tomate",
       "es": "Albóndigas en salsa de tomate",
@@ -41778,8 +41862,8 @@
     "id": "nohut-yemegi",
     "name": "Nohut Yemeği",
     "names": {
-      "de": "Kichererbseneintopf",
-      "en": "Chickpea stew",
+      "de": "Kichererbseneintopf (türkische Art)",
+      "en": "Chickpea stew (Turkish style)",
       "tr": "Nohut Yemeği",
       "fr": "Ragoût de pois chiches",
       "es": "Guiso de garbanzos",
@@ -41907,7 +41991,7 @@
     "name": "Barbunya Pilaki",
     "names": {
       "de": "Borlotti-Bohnen in Olivenöl",
-      "en": "Borlotti beans in olive oil",
+      "en": "Borlotti beans in olive oil (pilaki)",
       "tr": "Barbunya Pilaki",
       "fr": "Haricots borlotti à l'huile d'olive",
       "es": "Judías pintas en aceite de oliva",
@@ -44140,7 +44224,7 @@
     "name": "Fırın Tavuk",
     "names": {
       "de": "Hähnchen aus dem Ofen",
-      "en": "Roast chicken",
+      "en": "Roast chicken (Turkish style)",
       "tr": "Fırın Tavuk",
       "fr": "Poulet rôti au four",
       "es": "Pollo al horno",
@@ -45019,11 +45103,12 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 185,
-      "protein": 13.0,
-      "carbs": 21.3,
-      "fat": 5.2,
-      "fiber": 1.1
+      "kcal": 153,
+      "protein": 12.2,
+      "carbs": 17.2,
+      "fat": 4.2,
+      "fiber": 1.3,
+      "sugar": 2.6
     },
     "portion": {
       "label": "1 Wrap",
@@ -45055,8 +45140,9 @@
         "grams": 8
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code Y599112 \"Wrap gefüllt mit Salat und gebratenem Hähnchenbrustfilet\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 15.9 g + Ballaststoffe 1.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:Y599112"
   },
   {
     "id": "citir-tavuk",
@@ -45391,7 +45477,7 @@
     "name": "Kuzu Çevirme",
     "names": {
       "de": "Lamm am Spieß",
-      "en": "Spit-roasted lamb",
+      "en": "Spit-roasted lamb (Turkish style)",
       "tr": "Kuzu Çevirme",
       "fr": "Agneau à la broche",
       "es": "Cordero al espetón",
@@ -45868,7 +45954,7 @@
     "name": "Patates Kızartması",
     "names": {
       "de": "Pommes frites (türkisch)",
-      "en": "French fries",
+      "en": "French fries (Turkish style)",
       "tr": "Patates Kızartması",
       "fr": "Frites",
       "es": "Patatas fritas",
@@ -46237,8 +46323,8 @@
     "id": "mantar-sote",
     "name": "Mantar Sote",
     "names": {
-      "de": "Gebratene Champignons",
-      "en": "Sautéed mushrooms",
+      "de": "Gebratene Champignons (türkische Art)",
+      "en": "Sautéed mushrooms (Turkish style)",
       "tr": "Mantar Sote",
       "fr": "Champignons sautés",
       "es": "Champiñones salteados",
@@ -46292,7 +46378,7 @@
     "name": "Mücver",
     "names": {
       "de": "Zucchinipuffer (Mücver)",
-      "en": "Zucchini fritters",
+      "en": "Zucchini fritters (Mücver)",
       "tr": "Mücver",
       "fr": "Galettes de courgettes",
       "es": "Tortitas de calabacín",
@@ -47909,8 +47995,8 @@
     "id": "zeytinyagli-bakla",
     "name": "Zeytinyağlı Bakla",
     "names": {
-      "de": "Dicke Bohnen in Olivenöl",
-      "en": "Broad beans in olive oil",
+      "de": "Dicke Bohnen in Olivenöl (türkische Art)",
+      "en": "Broad beans in olive oil (Turkish style)",
       "tr": "Zeytinyağlı Bakla",
       "fr": "Fèves à l'huile d'olive",
       "es": "Habas en aceite de oliva",
@@ -49524,7 +49610,7 @@
     "name": "Domates Dolması (Zeytinyağlı)",
     "names": {
       "de": "Gefüllte Tomaten mit Reis",
-      "en": "Rice-stuffed tomatoes",
+      "en": "Rice-stuffed tomatoes (Turkish style)",
       "tr": "Domates Dolması (Zeytinyağlı)",
       "fr": "Tomates farcies au riz",
       "es": "Tomates rellenos de arroz",
@@ -50466,8 +50552,8 @@
     "id": "kalamar-dolmasi",
     "name": "Kalamar Dolması",
     "names": {
-      "de": "Gefüllte Kalmare",
-      "en": "Stuffed squid",
+      "de": "Gefüllte Kalmare (türkische Art)",
+      "en": "Stuffed squid (Turkish style)",
       "tr": "Kalamar Dolması",
       "fr": "Calamars farcis",
       "es": "Calamares rellenos",
@@ -56168,11 +56254,12 @@
     "prepared": "restaurant",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 230,
-      "protein": 9.2,
-      "carbs": 30.9,
-      "fat": 7.5,
-      "fiber": 1.9
+      "kcal": 183,
+      "protein": 8.2,
+      "carbs": 20.3,
+      "fat": 8.1,
+      "fiber": 2.3,
+      "sugar": 2.1
     },
     "portion": {
       "label": "1 Dürüm",
@@ -56212,8 +56299,9 @@
         "grams": 8
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code Y9A1090 \"Türkische Pizza (Lahmacun) gefüllt mit Salat und Sauce\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 18 g + Ballaststoffe 2.3 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:Y9A1090"
   },
   {
     "id": "antep-lahmacunu",
@@ -57487,8 +57575,8 @@
     "id": "bulgur-pilavi",
     "name": "Bulgur Pilavı",
     "names": {
-      "de": "Bulgur-Pilaw",
-      "en": "Bulgur pilaf",
+      "de": "Bulgur-Pilaw (türkische Art)",
+      "en": "Bulgur pilaf (Turkish style)",
       "tr": "Bulgur Pilavı",
       "fr": "Pilaf de boulgour",
       "es": "Pilaf de bulgur",
@@ -58441,8 +58529,8 @@
     "id": "domatesli-pirinc-pilavi",
     "name": "Domatesli Pirinç Pilavı",
     "names": {
-      "de": "Tomatenreis",
-      "en": "Tomato rice",
+      "de": "Tomatenreis (türkische Art)",
+      "en": "Tomato rice (Turkish style)",
       "tr": "Domatesli Pirinç Pilavı",
       "fr": "Riz à la tomate",
       "es": "Arroz con tomate",
@@ -59613,8 +59701,8 @@
     "id": "spagetti-bolonez",
     "name": "Spagetti Bolonez",
     "names": {
-      "de": "Spaghetti Bolognese",
-      "en": "Spaghetti Bolognese",
+      "de": "Spaghetti Bolognese (türkische Art)",
+      "en": "Spaghetti Bolognese (Turkish style)",
       "tr": "Spagetti Bolonez",
       "fr": "Spaghetti bolognaise",
       "es": "Espaguetis a la boloñesa",
@@ -59978,8 +60066,8 @@
     "id": "hamsi-tava",
     "name": "Hamsi Tava",
     "names": {
-      "de": "Frittierte Sardellen",
-      "en": "Fried anchovies",
+      "de": "Frittierte Sardellen (türkische Art)",
+      "en": "Fried anchovies (Turkish style)",
       "tr": "Hamsi Tava",
       "fr": "Anchois frits",
       "es": "Boquerones fritos",
@@ -60138,7 +60226,7 @@
     "id": "levrek-izgara",
     "name": "Levrek Izgara",
     "names": {
-      "de": "Gegrillter Wolfsbarsch",
+      "de": "Gegrillter Wolfsbarsch (türkische Art)",
       "en": "Grilled sea bass",
       "tr": "Levrek Izgara",
       "fr": "Bar grillé",
@@ -60201,8 +60289,8 @@
     "id": "cipura-izgara",
     "name": "Çipura Izgara",
     "names": {
-      "de": "Gegrillte Dorade",
-      "en": "Grilled sea bream",
+      "de": "Gegrillte Dorade (türkische Art)",
+      "en": "Grilled sea bream (Turkish style)",
       "tr": "Çipura Izgara",
       "fr": "Daurade grillée",
       "es": "Dorada a la parrilla",
@@ -60316,8 +60404,8 @@
     "id": "cipura-firin",
     "name": "Çipura Fırın",
     "names": {
-      "de": "Dorade aus dem Ofen",
-      "en": "Baked sea bream",
+      "de": "Dorade aus dem Ofen (türkische Art)",
+      "en": "Baked sea bream (Turkish style)",
       "tr": "Çipura Fırın",
       "fr": "Daurade au four",
       "es": "Dorada al horno",
@@ -60486,8 +60574,8 @@
     "id": "sardalya-izgara",
     "name": "Sardalya Izgara",
     "names": {
-      "de": "Gegrillte Sardinen",
-      "en": "Grilled sardines",
+      "de": "Gegrillte Sardinen (türkische Art)",
+      "en": "Grilled sardines (Turkish style)",
       "tr": "Sardalya Izgara",
       "fr": "Sardines grillées",
       "es": "Sardinas a la parrilla",
@@ -61110,7 +61198,7 @@
     "name": "Barbunya Tava",
     "names": {
       "de": "Gebratene Rotbarbe",
-      "en": "Fried red mullet",
+      "en": "Fried red mullet (Turkish style)",
       "tr": "Barbunya Tava",
       "fr": "Rougets frits",
       "es": "Salmonetes fritos",
@@ -61161,7 +61249,7 @@
     "name": "Barbunya Izgara",
     "names": {
       "de": "Gegrillte Rotbarbe",
-      "en": "Grilled red mullet",
+      "en": "Grilled red mullet (Turkish style)",
       "tr": "Barbunya Izgara",
       "fr": "Rougets grillés",
       "es": "Salmonetes a la parrilla",
@@ -61261,7 +61349,7 @@
     "name": "İstavrit Tava",
     "names": {
       "de": "Gebratene Stöcker (Holzmakrele)",
-      "en": "Fried horse mackerel",
+      "en": "Fried horse mackerel (Turkish style)",
       "tr": "İstavrit Tava",
       "fr": "Chinchards frits",
       "es": "Jurel frito",
@@ -61732,8 +61820,8 @@
     "id": "kalamar-tava",
     "name": "Kalamar Tava",
     "names": {
-      "de": "Frittierte Calamari",
-      "en": "Fried calamari",
+      "de": "Frittierte Calamari (türkische Art)",
+      "en": "Fried calamari (Turkish style)",
       "tr": "Kalamar Tava",
       "fr": "Calamars frits",
       "es": "Calamares fritos",
@@ -61801,7 +61889,7 @@
     "name": "Kalamar Izgara",
     "names": {
       "de": "Gegrillte Kalmare",
-      "en": "Grilled squid",
+      "en": "Grilled squid (Turkish style)",
       "tr": "Kalamar Izgara",
       "fr": "Calamars grillés",
       "es": "Calamares a la plancha",
@@ -61854,8 +61942,8 @@
     "id": "ahtapot-salatasi",
     "name": "Ahtapot Salatası",
     "names": {
-      "de": "Oktopussalat",
-      "en": "Octopus salad",
+      "de": "Oktopussalat (türkische Art)",
+      "en": "Octopus salad (Turkish style)",
       "tr": "Ahtapot Salatası",
       "fr": "Salade de poulpe",
       "es": "Ensalada de pulpo",
@@ -61919,8 +62007,8 @@
     "id": "ahtapot-izgara",
     "name": "Ahtapot Izgara",
     "names": {
-      "de": "Gegrillter Oktopus",
-      "en": "Grilled octopus",
+      "de": "Gegrillter Oktopus (türkische Art)",
+      "en": "Grilled octopus (Turkish style)",
       "tr": "Ahtapot Izgara",
       "fr": "Poulpe grillé",
       "es": "Pulpo a la parrilla",
@@ -61969,8 +62057,8 @@
     "id": "balik-kofte",
     "name": "Balık Köfte",
     "names": {
-      "de": "Fischfrikadellen",
-      "en": "Fish cakes",
+      "de": "Fischfrikadellen (türkische Art)",
+      "en": "Fish cakes (Turkish style)",
       "tr": "Balık Köfte",
       "fr": "Croquettes de poisson",
       "es": "Albóndigas de pescado",
@@ -62110,8 +62198,8 @@
     "id": "sazan-tava",
     "name": "Sazan Tava",
     "names": {
-      "de": "Gebratener Karpfen",
-      "en": "Fried carp",
+      "de": "Gebratener Karpfen (türkische Art)",
+      "en": "Fried carp (Turkish style)",
       "tr": "Sazan Tava",
       "fr": "Carpe frite",
       "es": "Carpa frita",
@@ -64122,8 +64210,8 @@
     "id": "hellim-izgara",
     "name": "Hellim Izgara",
     "names": {
-      "de": "Gegrillter Halloumi",
-      "en": "Grilled halloumi",
+      "de": "Gegrillter Halloumi (türkische Art)",
+      "en": "Grilled halloumi (Turkish style)",
       "tr": "Hellim Izgara",
       "fr": "Halloumi grillé",
       "es": "Halloumi a la parrilla",
@@ -64177,7 +64265,7 @@
     "name": "Peynir Tabağı",
     "names": {
       "de": "Käseteller",
-      "en": "Cheese platter",
+      "en": "Cheese platter (Turkish style)",
       "tr": "Peynir Tabağı",
       "fr": "Plateau de fromages",
       "es": "Tabla de quesos",
@@ -64381,7 +64469,7 @@
     "id": "mevsim-salatasi",
     "name": "Mevsim Salatası",
     "names": {
-      "de": "Gemischter Salat",
+      "de": "Gemischter Salat (türkische Art)",
       "en": "Mixed seasonal salad",
       "tr": "Mevsim Salatası",
       "fr": "Salade de saison",
@@ -64575,8 +64663,8 @@
     "id": "havuc-salatasi",
     "name": "Havuç Salatası",
     "names": {
-      "de": "Möhrensalat",
-      "en": "Carrot salad",
+      "de": "Möhrensalat (türkische Art)",
+      "en": "Carrot salad (Turkish style)",
       "tr": "Havuç Salatası",
       "fr": "Salade de carottes",
       "es": "Ensalada de zanahoria",
@@ -64723,8 +64811,8 @@
     "id": "mercimekli-salata",
     "name": "Mercimekli Salata",
     "names": {
-      "de": "Linsensalat",
-      "en": "Lentil salad",
+      "de": "Linsensalat (türkische Art)",
+      "en": "Lentil salad (Turkish style)",
       "tr": "Mercimekli Salata",
       "fr": "Salade de lentilles",
       "es": "Ensalada de lentejas",
@@ -64795,7 +64883,7 @@
     "name": "Semizotu Salatası",
     "names": {
       "de": "Portulaksalat",
-      "en": "Purslane salad",
+      "en": "Purslane salad (Turkish style)",
       "tr": "Semizotu Salatası",
       "fr": "Salade de pourpier",
       "es": "Ensalada de verdolaga",
@@ -65210,8 +65298,8 @@
     "id": "domates-salatasi",
     "name": "Domates Salatası",
     "names": {
-      "de": "Tomatensalat",
-      "en": "Tomato salad",
+      "de": "Tomatensalat (türkische Art)",
+      "en": "Tomato salad (Turkish style)",
       "tr": "Domates Salatası",
       "fr": "Salade de tomates",
       "es": "Ensalada de tomate",
@@ -65269,8 +65357,8 @@
     "id": "salatalik-salatasi",
     "name": "Salatalık Salatası",
     "names": {
-      "de": "Gurkensalat",
-      "en": "Cucumber salad",
+      "de": "Gurkensalat (türkische Art)",
+      "en": "Cucumber salad (Turkish style)",
       "tr": "Salatalık Salatası",
       "fr": "Salade de concombre",
       "es": "Ensalada de pepino",
@@ -65328,8 +65416,8 @@
     "id": "mor-lahana-salatasi",
     "name": "Mor Lahana Salatası",
     "names": {
-      "de": "Rotkohlsalat",
-      "en": "Red cabbage salad",
+      "de": "Rotkohlsalat (türkische Art)",
+      "en": "Red cabbage salad (Turkish style)",
       "tr": "Mor Lahana Salatası",
       "fr": "Salade de chou rouge",
       "es": "Ensalada de lombarda",
@@ -65502,8 +65590,8 @@
     "id": "pancar-salatasi",
     "name": "Pancar Salatası",
     "names": {
-      "de": "Rote-Bete-Salat",
-      "en": "Beetroot salad",
+      "de": "Rote-Bete-Salat (türkische Art)",
+      "en": "Beetroot salad (Turkish style)",
       "tr": "Pancar Salatası",
       "fr": "Salade de betteraves",
       "es": "Ensalada de remolacha",
@@ -67127,7 +67215,7 @@
     "name": "Reçelli Ekmek",
     "names": {
       "de": "Brot mit Marmelade",
-      "en": "Bread with jam",
+      "en": "Bread with jam (Turkish style)",
       "tr": "Reçelli Ekmek",
       "fr": "Tartine de confiture",
       "es": "Pan con mermelada",
@@ -67231,7 +67319,7 @@
     "id": "yulaf-lapasi",
     "name": "Yulaf Lapası",
     "names": {
-      "de": "Haferbrei",
+      "de": "Haferbrei (türkische Art)",
       "en": "Oatmeal",
       "tr": "Yulaf Lapası",
       "fr": "Porridge (bouillie d'avoine)",
@@ -67411,8 +67499,8 @@
     "id": "haslama-patates",
     "name": "Haşlama Patates",
     "names": {
-      "de": "Salzkartoffeln",
-      "en": "Boiled potatoes",
+      "de": "Salzkartoffeln (türkische Art)",
+      "en": "Boiled potatoes (Turkish style)",
       "tr": "Haşlama Patates",
       "fr": "Pommes de terre vapeur",
       "es": "Patatas cocidas",
@@ -67518,8 +67606,8 @@
     "id": "patates-puresi",
     "name": "Patates Püresi",
     "names": {
-      "de": "Kartoffelpüree",
-      "en": "Mashed potatoes",
+      "de": "Kartoffelpüree (türkische Art)",
+      "en": "Mashed potatoes (Turkish style)",
       "tr": "Patates Püresi",
       "fr": "Purée de pommes de terre",
       "es": "Puré de patatas",
@@ -69181,7 +69269,7 @@
     "name": "Supangle",
     "names": {
       "de": "Schokoladenpudding (Supangle)",
-      "en": "Chocolate pudding",
+      "en": "Chocolate pudding (Turkish style)",
       "tr": "Supangle",
       "fr": "Crème au chocolat",
       "es": "Natillas de chocolate",
@@ -70771,8 +70859,8 @@
     "id": "limonlu-kek",
     "name": "Limonlu Kek",
     "names": {
-      "de": "Zitronenkuchen",
-      "en": "Lemon cake",
+      "de": "Zitronenkuchen (türkische Art)",
+      "en": "Lemon cake (Turkish style)",
       "tr": "Limonlu Kek",
       "fr": "Gâteau au citron",
       "es": "Bizcocho de limón",
@@ -70835,8 +70923,8 @@
     "id": "elmali-kek",
     "name": "Elmalı Kek",
     "names": {
-      "de": "Apfelkuchen",
-      "en": "Apple cake",
+      "de": "Apfelkuchen (türkische Art)",
+      "en": "Apple cake (Turkish style)",
       "tr": "Elmalı Kek",
       "fr": "Gâteau aux pommes",
       "es": "Bizcocho de manzana",
@@ -71519,11 +71607,12 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 2,
-      "protein": 0.1,
-      "carbs": 0.2,
+      "kcal": 0,
+      "protein": 0.0,
+      "carbs": 0.0,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 0.0
     },
     "portion": {
       "label": "1 Tulpenglas",
@@ -71535,8 +71624,12 @@
         "grams": 100
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N630000 \"Schwarztee (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Protein.",
+    "source_id": "BLS 4.0:N630000",
+    "source_missing": [
+      "protein"
+    ],
     "off_similar": [
       "4250780301279",
       "8710435480231",
@@ -71615,11 +71708,12 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 2,
+      "kcal": 0,
       "protein": 0.1,
-      "carbs": 0.2,
+      "carbs": 0.0,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 0.0
     },
     "portion": {
       "label": "1 Tasse",
@@ -71631,8 +71725,9 @@
         "grams": 60
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N419000 \"Türkischer Mokka (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:N419000",
     "off_similar": [
       "8682287820018",
       "8680722660038",
@@ -72231,7 +72326,7 @@
     "name": "Sıcak Çikolata",
     "names": {
       "de": "Heiße Schokolade",
-      "en": "Hot chocolate",
+      "en": "Hot chocolate (Turkish style)",
       "tr": "Sıcak Çikolata",
       "fr": "Chocolat chaud",
       "es": "Chocolate caliente",
@@ -72288,7 +72383,7 @@
     "name": "Vişne Suyu",
     "names": {
       "de": "Sauerkirschsaft",
-      "en": "Sour cherry juice",
+      "en": "Sour cherry juice (Turkish style)",
       "tr": "Vişne Suyu",
       "fr": "Jus de griotte",
       "es": "Zumo de guinda",
@@ -72714,8 +72809,8 @@
     "id": "beyaz-ekmek",
     "name": "Beyaz Ekmek",
     "names": {
-      "de": "Weißbrot",
-      "en": "White bread",
+      "de": "Weißbrot (türkische Art)",
+      "en": "White bread (Turkish style)",
       "tr": "Beyaz Ekmek",
       "fr": "Pain blanc",
       "es": "Pan blanco",
@@ -72769,7 +72864,7 @@
     "id": "tam-bugday-ekmegi",
     "name": "Tam Buğday Ekmeği",
     "names": {
-      "de": "Vollkornbrot",
+      "de": "Vollkornbrot (türkische Art)",
       "en": "Whole wheat bread",
       "tr": "Tam Buğday Ekmeği",
       "fr": "Pain complet",
@@ -72826,8 +72921,8 @@
     "id": "cavdar-ekmegi",
     "name": "Çavdar Ekmeği",
     "names": {
-      "de": "Roggenbrot",
-      "en": "Rye bread",
+      "de": "Roggenbrot (türkische Art)",
+      "en": "Rye bread (Turkish style)",
       "tr": "Çavdar Ekmeği",
       "fr": "Pain de seigle",
       "es": "Pan de centeno",
@@ -74564,8 +74659,8 @@
     "id": "mercimek-yemegi",
     "name": "Mercimek Yemeği",
     "names": {
-      "de": "Linseneintopf",
-      "en": "Lentil stew",
+      "de": "Linseneintopf (türkische Art)",
+      "en": "Lentil stew (Turkish style)",
       "tr": "Mercimek Yemeği",
       "fr": "Ragoût de lentilles",
       "es": "Guiso de lentejas",
@@ -75173,8 +75268,8 @@
     "id": "kabak-mucveri",
     "name": "Kabak Mücveri",
     "names": {
-      "de": "Zucchinipuffer",
-      "en": "Zucchini fritters",
+      "de": "Zucchinipuffer (türkische Art)",
+      "en": "Zucchini fritters (Kabak Mücveri)",
       "tr": "Kabak Mücveri",
       "fr": "Galettes de courgettes",
       "es": "Tortitas de calabacín",
@@ -75787,7 +75882,7 @@
     "id": "kofte-ekmek",
     "name": "Köfte Ekmek",
     "names": {
-      "de": "Köfte im Brot",
+      "de": "Köfte im Brot (Köfte ekmek)",
       "en": "Köfte sandwich",
       "tr": "Köfte Ekmek",
       "fr": "Sandwich aux köfte",
@@ -77280,7 +77375,7 @@
     "name": "Kremalı Tavuk",
     "names": {
       "de": "Hähnchen in Sahnesoße",
-      "en": "Chicken in cream sauce",
+      "en": "Chicken in cream sauce (Turkish style)",
       "tr": "Kremalı Tavuk",
       "fr": "Poulet à la crème",
       "es": "Pollo a la crema",
@@ -78105,7 +78200,7 @@
     "name": "Zeytinyağlı Barbunya",
     "names": {
       "de": "Borlottibohnen in Olivenöl",
-      "en": "Borlotti beans in olive oil",
+      "en": "Borlotti beans in olive oil (zeytinyağlı)",
       "tr": "Zeytinyağlı Barbunya",
       "fr": "Haricots borlotti à l'huile d'olive",
       "es": "Judías pintas en aceite de oliva",
@@ -79543,7 +79638,7 @@
     "names": {
       "de": "Einspänner",
       "en": "Einspänner",
-      "tr": "Einspänner",
+      "tr": "Krema şapkalı Viyana kahvesi (Einspänner)",
       "fr": "Einspänner",
       "es": "Einspänner",
       "pt": "Einspänner",
@@ -79594,7 +79689,7 @@
     "names": {
       "de": "Verlängerter",
       "en": "Verlängerter",
-      "tr": "Verlängerter",
+      "tr": "Sulu Viyana kahvesi (Verlängerter)",
       "fr": "Verlängerter",
       "es": "Verlängerter",
       "pt": "Verlängerter",
@@ -79850,8 +79945,8 @@
     "name": "Erdäpfelknödel",
     "names": {
       "de": "Erdäpfelknödel",
-      "en": "Potato dumplings",
-      "tr": "Patates köftesi (Knödel)",
+      "en": "Potato dumplings (Austrian style)",
+      "tr": "Patates köftesi (Knödel) (Avusturya usulü)",
       "fr": "Knödel de pommes de terre",
       "es": "Albóndigas de patata (knödel)",
       "pt": "Bolinhos de batata (knödel)",
@@ -81686,8 +81781,8 @@
     "id": "bloedworst-met-appelen",
     "name": "Bloedworst met appelen",
     "names": {
-      "de": "Blutwurst mit Äpfeln",
-      "en": "Black pudding with apples",
+      "de": "Blutwurst mit Äpfeln (belgische Art)",
+      "en": "Black pudding with apples (Belgian style)",
       "tr": "Elmalı kan sosisi",
       "fr": "Boudin noir aux pommes",
       "es": "Morcilla con manzanas",
@@ -83450,12 +83545,17 @@
     "names": {
       "de": "Appenzeller Chäsmagronen",
       "en": "Appenzeller Chäsmagronen",
-      "tr": "Appenzeller Chäsmagronen",
+      "tr": "Appenzell peyniriyle fırın makarna (Chäsmagronen)",
       "fr": "Appenzeller Chäsmagronen",
       "es": "Appenzeller Chäsmagronen",
       "pt": "Appenzeller Chäsmagronen",
       "it": "Appenzeller Chäsmagronen",
       "zh": "Appenzeller Chäsmagronen"
+    },
+    "aliases": {
+      "tr": [
+        "Appenzeller Chäsmagronen"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -85138,8 +85238,8 @@
     "name": "Pečené vepřové koleno",
     "names": {
       "de": "Gebackene Schweinshaxe (tschechisch)",
-      "en": "Roast pork knuckle",
-      "tr": "Fırında domuz incik",
+      "en": "Roast pork knuckle (Czech style)",
+      "tr": "Fırında domuz incik (Çek usulü)",
       "fr": "Jarret de porc rôti",
       "es": "Codillo de cerdo asado",
       "pt": "Joelho de porco assado",
@@ -86529,7 +86629,7 @@
     "names": {
       "de": "Frikadelle mit Zwiebeln (dänisch)",
       "en": "Danish beef patty with onions",
-      "tr": "Soğanlı köfte",
+      "tr": "Soğanlı köfte (Danimarka usulü)",
       "fr": "Steak haché aux oignons",
       "es": "Hamburguesa con cebolla",
       "pt": "Hambúrguer com cebola",
@@ -88308,7 +88408,7 @@
     "name": "Besugo al horno",
     "names": {
       "de": "Meerbrasse aus dem Ofen",
-      "en": "Baked sea bream",
+      "en": "Baked sea bream (Spanish style)",
       "tr": "Fırında Mercan",
       "fr": "Dorade rose au four",
       "es": "Besugo al horno",
@@ -89604,9 +89704,9 @@
     "id": "sopa-castellana",
     "name": "Sopa castellana",
     "names": {
-      "de": "Kastilische Knoblauchsuppe",
-      "en": "Castilian garlic soup",
-      "tr": "Kastilya Sarımsak Çorbası",
+      "de": "Kastilische Knoblauchsuppe (Sopa castellana)",
+      "en": "Castilian garlic soup (sopa castellana)",
+      "tr": "Kastilya sarımsak çorbası (sopa castellana)",
       "fr": "Soupe castillane à l'ail",
       "es": "Sopa castellana",
       "pt": "Sopa castelhana de alho",
@@ -90078,8 +90178,8 @@
     "id": "pulpo-a-la-brasa",
     "name": "Pulpo a la brasa",
     "names": {
-      "de": "Gegrillter Oktopus",
-      "en": "Grilled octopus",
+      "de": "Gegrillter Oktopus (spanische Art)",
+      "en": "Grilled octopus (Spanish style)",
       "tr": "Izgara Ahtapot",
       "fr": "Poulpe grillé",
       "es": "Pulpo a la brasa",
@@ -90727,9 +90827,9 @@
     "id": "moules-frites",
     "name": "Moules frites",
     "names": {
-      "de": "Miesmuscheln mit Pommes",
-      "en": "Mussels and fries",
-      "tr": "Patates Kızartmalı Midye",
+      "de": "Miesmuscheln mit Pommes (französische Art)",
+      "en": "Mussels and fries (French style)",
+      "tr": "Patates Kızartmalı Midye (Fransız usulü)",
       "fr": "Moules-frites",
       "es": "Mejillones con patatas fritas",
       "pt": "Mexilhões com batatas fritas",
@@ -91778,7 +91878,7 @@
     "name": "Potage Parmentier",
     "names": {
       "de": "Lauch-Kartoffel-Suppe",
-      "en": "Leek and potato soup",
+      "en": "Leek and potato soup (French style)",
       "tr": "Pırasa ve Patates Çorbası",
       "fr": "Potage Parmentier",
       "es": "Sopa de puerro y patata",
@@ -92368,12 +92468,17 @@
     "names": {
       "de": "Elsässer Spätzle",
       "en": "Alsatian spätzle",
-      "tr": "Alsas Usulü Spätzle",
+      "tr": "Alsas usulü yumurta eriştesi (Spätzle)",
       "fr": "Spätzle alsaciennes",
       "es": "Spätzle alsacianos",
       "pt": "Spätzle alsacianos",
       "it": "Spätzle alsaziani",
       "zh": "阿尔萨斯面疙瘩"
+    },
+    "aliases": {
+      "tr": [
+        "Alsas Usulü Spätzle"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -94713,7 +94818,7 @@
     "names": {
       "de": "Imam Bayıldı (gefüllte Aubergine)",
       "en": "Imam bayildi (stuffed eggplant)",
-      "tr": "İmam Bayıldı",
+      "tr": "İmam Bayıldı (Yunan usulü)",
       "fr": "Imam bayildi (aubergines farcies)",
       "es": "Imam bayildi (berenjenas rellenas)",
       "pt": "Imam bayildi (berinjela recheada)",
@@ -95765,7 +95870,7 @@
     "names": {
       "de": "Artischocken nach Konstantinopler Art",
       "en": "Artichokes à la polita",
-      "tr": "Zeytinyağlı Enginar",
+      "tr": "Zeytinyağlı Enginar (Yunan usulü)",
       "fr": "Artichauts à la polita",
       "es": "Alcachofas a la polita",
       "pt": "Alcachofras à polita",
@@ -95948,7 +96053,7 @@
     "names": {
       "de": "Zucchinipuffer (griechisch)",
       "en": "Greek zucchini fritters",
-      "tr": "Kabak Mücveri",
+      "tr": "Kabak Mücveri (Yunan usulü)",
       "fr": "Beignets de courgettes",
       "es": "Buñuelos de calabacín",
       "pt": "Bolinhos de abobrinha",
@@ -96070,7 +96175,7 @@
     "names": {
       "de": "Frittierte Zucchini (griechisch)",
       "en": "Greek fried zucchini",
-      "tr": "Kabak Kızartması",
+      "tr": "Kabak Kızartması (Yunan usulü)",
       "fr": "Courgettes frites à la grecque",
       "es": "Calabacín frito griego",
       "pt": "Abobrinha frita grega",
@@ -96178,7 +96283,7 @@
     "names": {
       "de": "Griechischer Krautsalat",
       "en": "Greek cabbage salad",
-      "tr": "Lahana Salatası",
+      "tr": "Lahana Salatası (Yunan usulü)",
       "fr": "Salade de chou grecque",
       "es": "Ensalada griega de col",
       "pt": "Salada grega de repolho",
@@ -96296,7 +96401,7 @@
     "names": {
       "de": "Rote-Bete-Salat (griechisch)",
       "en": "Greek beet salad",
-      "tr": "Pancar Salatası",
+      "tr": "Pancar Salatası (Yunan usulü)",
       "fr": "Salade de betteraves grecque",
       "es": "Ensalada griega de remolacha",
       "pt": "Salada grega de beterraba",
@@ -97045,7 +97150,7 @@
     "name": "Barbounia",
     "names": {
       "de": "Frittierte Rotbarben",
-      "en": "Fried red mullet",
+      "en": "Fried red mullet (Greek style)",
       "tr": "Barbun Tava",
       "fr": "Rougets frits",
       "es": "Salmonetes fritos",
@@ -97567,7 +97672,7 @@
     "names": {
       "de": "Griechischer Grießkuchen mit Sirup",
       "en": "Greek semolina syrup cake",
-      "tr": "Revani",
+      "tr": "Revani (Yunan usulü)",
       "fr": "Gâteau de semoule au sirop",
       "es": "Bizcocho de sémola en almíbar",
       "pt": "Bolo de sêmola com calda",
@@ -97753,7 +97858,7 @@
     "names": {
       "de": "Griechischer Grießhalva",
       "en": "Greek semolina halva",
-      "tr": "İrmik Helvası",
+      "tr": "İrmik Helvası (Yunan usulü)",
       "fr": "Halva grecque à la semoule",
       "es": "Halva griego de sémola",
       "pt": "Halva grego de sêmola",
@@ -98529,9 +98634,9 @@
     "id": "koukia",
     "name": "Koukia",
     "names": {
-      "de": "Dicke Bohnen in Olivenöl",
-      "en": "Broad beans in olive oil",
-      "tr": "Zeytinyağlı Bakla",
+      "de": "Dicke Bohnen in Olivenöl (griechische Art)",
+      "en": "Broad beans in olive oil (Greek style)",
+      "tr": "Zeytinyağlı Bakla (Yunan usulü)",
       "fr": "Fèves à l'huile d'olive",
       "es": "Habas en aceite de oliva",
       "pt": "Favas em azeite",
@@ -98958,7 +99063,7 @@
     "name": "Janjetina na ražnju",
     "names": {
       "de": "Lamm vom Spieß (kroatisch)",
-      "en": "Spit-roasted lamb",
+      "en": "Spit-roasted lamb (Croatian style)",
       "tr": "Çevirme kuzu",
       "fr": "Agneau à la broche",
       "es": "Cordero al espetón",
@@ -100971,8 +101076,8 @@
     "name": "Máktekercs",
     "names": {
       "de": "Mohnrolle (Máktekercs)",
-      "en": "Poppy seed roll",
-      "tr": "Haşhaşlı rulo",
+      "en": "Poppy seed roll (Hungarian style)",
+      "tr": "Haşhaşlı rulo (Macar usulü)",
       "fr": "Roulé au pavot",
       "es": "Rollo de semillas de amapola",
       "pt": "Rolo de sementes de papoila",
@@ -101037,7 +101142,7 @@
     "id": "diosbejgli",
     "name": "Diósbejgli",
     "names": {
-      "de": "Nussbeugel",
+      "de": "Nussbeugel (ungarische Art)",
       "en": "Walnut roll (bejgli)",
       "tr": "Cevizli rulo (bejgli)",
       "fr": "Roulé aux noix (bejgli)",
@@ -101421,7 +101526,7 @@
     "names": {
       "de": "Gurkensalat mit Sauerrahm (ungarisch)",
       "en": "Hungarian cucumber salad with sour cream",
-      "tr": "Ekşi kremalı salatalık salatası",
+      "tr": "Ekşi kremalı salatalık salatası (Macar usulü)",
       "fr": "Salade de concombre à la crème aigre",
       "es": "Ensalada de pepino con nata agria",
       "pt": "Salada de pepino com natas azedas",
@@ -101640,72 +101745,6 @@
       {
         "name": "Vollmilch",
         "grams": 40
-      }
-    ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
-  },
-  {
-    "id": "guinness-stew",
-    "name": "Guinness stew",
-    "names": {
-      "de": "Rindfleisch-Guinness-Eintopf",
-      "en": "Beef and Guinness stew",
-      "tr": "Guinness biralı dana yahnisi",
-      "fr": "Ragoût de bœuf à la Guinness",
-      "es": "Estofado de ternera con Guinness",
-      "pt": "Guisado de vaca com Guinness",
-      "it": "Stufato di manzo alla Guinness",
-      "zh": "健力士炖牛肉"
-    },
-    "type": "dish",
-    "barcode": null,
-    "synonyms": [
-      "Beef and Guinness stew"
-    ],
-    "cuisine": "ie",
-    "category": "Eintopf",
-    "prepared": "homemade",
-    "is_packaged_product": false,
-    "per100g": {
-      "kcal": 122,
-      "protein": 11.0,
-      "carbs": 9.3,
-      "fat": 3.4,
-      "fiber": 1.2
-    },
-    "portion": {
-      "label": "1 Portion",
-      "grams": 425
-    },
-    "ingredients": [
-      {
-        "name": "Rindfleisch (Schmor/Gulasch)",
-        "grams": 200
-      },
-      {
-        "name": "Kartoffel",
-        "grams": 100
-      },
-      {
-        "name": "Karotte",
-        "grams": 60
-      },
-      {
-        "name": "Zwiebel",
-        "grams": 40
-      },
-      {
-        "name": "Bier",
-        "grams": 150
-      },
-      {
-        "name": "Weizenmehl",
-        "grams": 8
-      },
-      {
-        "name": "Tomatenmark",
-        "grams": 10
       }
     ],
     "quality": "estimate",
@@ -102104,68 +102143,6 @@
       {
         "name": "Brühe",
         "grams": 150
-      }
-    ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
-  },
-  {
-    "id": "beef-and-guinness-pie",
-    "name": "Beef and Guinness pie",
-    "names": {
-      "de": "Rindfleisch-Guinness-Pie",
-      "en": "Beef and Guinness pie",
-      "tr": "Guinness biralı etli turta",
-      "fr": "Tourte au bœuf et à la Guinness",
-      "es": "Pastel de ternera y Guinness",
-      "pt": "Empadão de vaca e Guinness",
-      "it": "Torta salata di manzo e Guinness",
-      "zh": "健力士牛肉派"
-    },
-    "type": "dish",
-    "barcode": null,
-    "synonyms": [
-      "Irish beef pie"
-    ],
-    "cuisine": "ie",
-    "category": "Börek/Hamurişi",
-    "prepared": "homemade",
-    "is_packaged_product": false,
-    "per100g": {
-      "kcal": 227,
-      "protein": 11.8,
-      "carbs": 15.5,
-      "fat": 12.2,
-      "fiber": 1.0
-    },
-    "portion": {
-      "label": "1 Stück",
-      "grams": 330
-    },
-    "ingredients": [
-      {
-        "name": "Rindfleisch (Schmor/Gulasch)",
-        "grams": 150
-      },
-      {
-        "name": "Blätterteig",
-        "grams": 80
-      },
-      {
-        "name": "Bier",
-        "grams": 80
-      },
-      {
-        "name": "Zwiebel",
-        "grams": 40
-      },
-      {
-        "name": "Karotte",
-        "grams": 30
-      },
-      {
-        "name": "Weizenmehl",
-        "grams": 8
       }
     ],
     "quality": "estimate",
@@ -104105,8 +104082,8 @@
     "id": "fiori-di-zucca-fritti",
     "name": "Fiori di zucca fritti",
     "names": {
-      "de": "Frittierte Zucchiniblüten",
-      "en": "Fried zucchini flowers",
+      "de": "Frittierte Zucchiniblüten (italienische Art)",
+      "en": "Fried zucchini flowers (Italian style)",
       "tr": "Kızarmış Kabak Çiçeği",
       "fr": "Beignets de fleurs de courgette",
       "es": "Flores de calabacín fritas",
@@ -104969,12 +104946,17 @@
     "names": {
       "de": "Spätzle al ragù altoatesini",
       "en": "Spätzle al ragù altoatesini",
-      "tr": "Spätzle al ragù altoatesini",
+      "tr": "Güney Tirol usulü kıymalı yumurta eriştesi (Spätzle al ragù)",
       "fr": "Spätzle al ragù altoatesini",
       "es": "Spätzle al ragù altoatesini",
       "pt": "Spätzle al ragù altoatesini",
       "it": "Spätzle al ragù altoatesini",
       "zh": "Spätzle al ragù altoatesini"
+    },
+    "aliases": {
+      "tr": [
+        "Spätzle al ragù altoatesini"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -106304,7 +106286,7 @@
     "names": {
       "de": "Träipen",
       "en": "Träipen",
-      "tr": "Träipen",
+      "tr": "Lüksemburg kan sosisi (Träipen)",
       "fr": "Träipen",
       "es": "Träipen",
       "pt": "Träipen",
@@ -108093,7 +108075,7 @@
     "names": {
       "de": "Matjesbrötchen (Broodje haring)",
       "en": "Dutch herring sandwich",
-      "tr": "Ringa balıklı sandviç",
+      "tr": "Ringa balıklı sandviç (Hollanda usulü)",
       "fr": "Sandwich au hareng",
       "es": "Bocadillo de arenque",
       "pt": "Sanduíche de arenque",
@@ -108559,9 +108541,9 @@
     "id": "mosselen-met-friet",
     "name": "Mosselen met friet",
     "names": {
-      "de": "Miesmuscheln mit Pommes",
-      "en": "Mussels and fries",
-      "tr": "Patates kızartmalı midye",
+      "de": "Miesmuscheln mit Pommes (niederländische Art)",
+      "en": "Mussels and fries (Dutch style)",
+      "tr": "Patates kızartmalı midye (Hollanda usulü)",
       "fr": "Moules-frites",
       "es": "Mejillones con patatas fritas",
       "pt": "Mexilhões com batatas fritas",
@@ -109667,7 +109649,7 @@
     "names": {
       "de": "Kalte Rote-Bete-Suppe (Chłodnik)",
       "en": "Cold beet soup (chłodnik)",
-      "tr": "Soğuk Pancar Çorbası",
+      "tr": "Soğuk Pancar Çorbası (Polonya usulü)",
       "fr": "Soupe froide de betterave",
       "es": "Sopa fría de remolacha",
       "pt": "Sopa fria de beterraba",
@@ -109732,8 +109714,8 @@
     "id": "zupa-szczawiowa",
     "name": "Zupa szczawiowa",
     "names": {
-      "de": "Sauerampfersuppe",
-      "en": "Sorrel soup",
+      "de": "Sauerampfersuppe (polnische Art)",
+      "en": "Sorrel soup (Polish style)",
       "tr": "Kuzukulağı Çorbası",
       "fr": "Soupe à l'oseille",
       "es": "Sopa de acedera",
@@ -109994,9 +109976,9 @@
     "id": "karp-smazony",
     "name": "Karp smażony",
     "names": {
-      "de": "Gebratener Karpfen",
-      "en": "Fried carp",
-      "tr": "Sazan Tava",
+      "de": "Gebratener Karpfen (polnische Art)",
+      "en": "Fried carp (Polish style)",
+      "tr": "Sazan Tava (Polonya usulü)",
       "fr": "Carpe frite",
       "es": "Carpa frita",
       "pt": "Carpa frita",
@@ -110574,53 +110556,6 @@
     "source": "calculated from typical recipe and approximate reference values"
   },
   {
-    "id": "zubrowka-z-sokiem-jablkowym",
-    "name": "Żubrówka z sokiem jabłkowym",
-    "names": {
-      "de": "Żubrówka mit Apfelsaft",
-      "en": "Żubrówka with apple juice",
-      "tr": "Elma Sulu Żubrówka",
-      "fr": "Żubrówka au jus de pomme",
-      "es": "Żubrówka con zumo de manzana",
-      "pt": "Żubrówka com sumo de maçã",
-      "it": "Żubrówka con succo di mela",
-      "zh": "野牛草伏特加配苹果汁"
-    },
-    "type": "dish",
-    "barcode": null,
-    "synonyms": [
-      "Zubrowka z sokiem jablkowym",
-      "Szarlotka drink"
-    ],
-    "cuisine": "pl",
-    "category": "Getränk",
-    "prepared": "homemade",
-    "is_packaged_product": false,
-    "per100g": {
-      "kcal": 90,
-      "protein": 0.2,
-      "carbs": 11.1,
-      "fat": 0.2,
-      "fiber": 1.9
-    },
-    "portion": {
-      "label": "1 Glas",
-      "grams": 190
-    },
-    "ingredients": [
-      {
-        "name": "Spirituose 40 %",
-        "grams": 40
-      },
-      {
-        "name": "Apfel",
-        "grams": 150
-      }
-    ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
-  },
-  {
     "id": "gofry-z-owocami",
     "name": "Gofry z owocami",
     "names": {
@@ -110945,9 +110880,9 @@
     "id": "sopa-de-pedra",
     "name": "Sopa de pedra",
     "names": {
-      "de": "Steinsuppe",
-      "en": "Stone soup",
-      "tr": "Taş Çorbası",
+      "de": "Steinsuppe (Sopa de pedra)",
+      "en": "Stone soup (sopa de pedra)",
+      "tr": "Taş çorbası (sopa de pedra)",
       "fr": "Soupe de pierre",
       "es": "Sopa de piedra",
       "pt": "Sopa de pedra",
@@ -111442,8 +111377,8 @@
     "name": "Lulas grelhadas",
     "names": {
       "de": "Gegrillte Tintenfische",
-      "en": "Grilled squid",
-      "tr": "Izgara Kalamar",
+      "en": "Grilled squid (Portuguese style)",
+      "tr": "Izgara Kalamar (Portekiz usulü)",
       "fr": "Calamars grillés",
       "es": "Calamares a la parrilla",
       "pt": "Lulas grelhadas",
@@ -111616,9 +111551,9 @@
     "id": "salada-de-polvo",
     "name": "Salada de polvo",
     "names": {
-      "de": "Oktopussalat",
-      "en": "Octopus salad",
-      "tr": "Ahtapot Salatası",
+      "de": "Oktopussalat (portugiesische Art)",
+      "en": "Octopus salad (Portuguese style)",
+      "tr": "Ahtapot Salatası (Portekiz usulü)",
       "fr": "Salade de poulpe",
       "es": "Ensalada de pulpo",
       "pt": "Salada de polvo",
@@ -113866,8 +113801,8 @@
     "name": "Sremski čvarci",
     "names": {
       "de": "Grieben (Sremski čvarci)",
-      "en": "Pork cracklings",
-      "tr": "Domuz kıkırdağı",
+      "en": "Pork cracklings (Serbian style)",
+      "tr": "Domuz kıkırdağı (Sırp usulü)",
       "fr": "Grattons de porc",
       "es": "Chicharrones",
       "pt": "Torresmos",
@@ -114088,9 +114023,9 @@
     "id": "cufte-u-paradajz-sosu",
     "name": "Ćufte u paradajz sosu",
     "names": {
-      "de": "Fleischbällchen in Tomatensoße",
-      "en": "Meatballs in tomato sauce",
-      "tr": "Domates soslu köfte",
+      "de": "Fleischbällchen in Tomatensoße (serbische Art)",
+      "en": "Meatballs in tomato sauce (Serbian style)",
+      "tr": "Domates soslu köfte (Sırp usulü)",
       "fr": "Boulettes à la sauce tomate",
       "es": "Albóndigas en salsa de tomate",
       "pt": "Almôndegas em molho de tomate",
@@ -114382,14 +114317,22 @@
     "id": "pasulj-prebranac",
     "name": "Pasulj prebranac",
     "names": {
-      "de": "Gebackene Bohnen (Prebranac)",
-      "en": "Serbian baked beans (prebranac)",
-      "tr": "Sırp fırın fasulyesi",
+      "de": "Gebackene Bohnen (Pasulj prebranac)",
+      "en": "Serbian baked beans (pasulj prebranac)",
+      "tr": "Sırp fırın fasulyesi (pasulj prebranac)",
       "fr": "Haricots au four serbes",
       "es": "Alubias al horno serbias",
       "pt": "Feijão no forno sérvio",
       "it": "Fagioli al forno serbi",
       "zh": "塞尔维亚烤豆"
+    },
+    "aliases": {
+      "de": [
+        "Gebackene Bohnen (Prebranac)"
+      ],
+      "en": [
+        "Serbian baked beans (prebranac)"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -115032,7 +114975,7 @@
     "names": {
       "de": "Kalte Rote-Bete-Suppe (Cholodnik)",
       "en": "Cold beet soup (kholodnik)",
-      "tr": "Soğuk pancar çorbası",
+      "tr": "Soğuk pancar çorbası (Rus usulü)",
       "fr": "Soupe froide de betterave",
       "es": "Sopa fría de remolacha",
       "pt": "Sopa fria de beterraba",
@@ -117720,7 +117663,7 @@
     "names": {
       "de": "Käsekrainer",
       "en": "Käsekrainer",
-      "tr": "Käsekrainer",
+      "tr": "Peynirli ızgara sosis (Käsekrainer)",
       "fr": "Käsekrainer",
       "es": "Käsekrainer",
       "pt": "Käsekrainer",
@@ -118208,8 +118151,8 @@
     "name": "Krautfleckerl",
     "names": {
       "de": "Krautfleckerl",
-      "en": "Pasta squares with cabbage",
-      "tr": "Lahanalı kare makarna",
+      "en": "Pasta squares with cabbage (Austrian style)",
+      "tr": "Lahanalı kare makarna (Avusturya usulü)",
       "fr": "Pâtes au chou (Krautfleckerl)",
       "es": "Pasta con col (Krautfleckerl)",
       "pt": "Massa com couve (Krautfleckerl)",
@@ -118589,11 +118532,12 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 247,
-      "protein": 10.7,
-      "carbs": 13.8,
+      "kcal": 274,
+      "protein": 11.4,
+      "carbs": 19.9,
       "fat": 16.7,
-      "fiber": 0.9
+      "fiber": 1.4,
+      "sugar": 1.1
     },
     "portion": {
       "label": "1 Paar mit Senf und Semmel",
@@ -118613,8 +118557,9 @@
         "grams": 50
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code Y914062 \"Wiener Würstchen mit Brötchen und Senf\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 18.45 g + Ballaststoffe 1.4 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:Y914062",
     "off_similar": [
       "03528372",
       "8033673050197",
@@ -118899,7 +118844,7 @@
     "names": {
       "de": "Rindsuppe mit Frittaten",
       "en": "Beef broth with pancake strips",
-      "tr": "Krep şeritli et suyu çorbası",
+      "tr": "Krep şeritli et suyu çorbası (Avusturya usulü)",
       "fr": "Bouillon de bœuf aux lanières de crêpes",
       "es": "Caldo de ternera con tiras de crepe",
       "pt": "Caldo de carne com tiras de crepe",
@@ -119160,7 +119105,7 @@
     "name": "Erdäpfelgulasch",
     "names": {
       "de": "Erdäpfelgulasch",
-      "en": "Potato goulash",
+      "en": "Potato goulash (Austrian style)",
       "tr": "Patates gulaşı",
       "fr": "Goulasch de pommes de terre",
       "es": "Gulash de patatas",
@@ -119309,12 +119254,17 @@
     "names": {
       "de": "Kärntner Reindling",
       "en": "Kärntner Reindling",
-      "tr": "Kärntner Reindling",
+      "tr": "Karintiya usulü üzümlü mayalı kek (Reindling)",
       "fr": "Kärntner Reindling",
       "es": "Kärntner Reindling",
       "pt": "Kärntner Reindling",
       "it": "Kärntner Reindling",
       "zh": "Kärntner Reindling"
+    },
+    "aliases": {
+      "tr": [
+        "Kärntner Reindling"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -120798,7 +120748,7 @@
     "names": {
       "de": "Fleischbällchen in Tomatensoße (belgisch)",
       "en": "Belgian meatballs in tomato sauce",
-      "tr": "Domates soslu köfte",
+      "tr": "Domates soslu köfte (Belçika usulü)",
       "fr": "Boulettes sauce tomate",
       "es": "Albóndigas en salsa de tomate",
       "pt": "Almôndegas em molho de tomate",
@@ -121006,8 +120956,8 @@
     "name": "Paling in 't groen",
     "names": {
       "de": "Aal in Kräutersoße",
-      "en": "Eel in green herb sauce",
-      "tr": "Yeşil otlu soslu yılan balığı",
+      "en": "Eel in green herb sauce (Belgian style)",
+      "tr": "Yeşil otlu soslu yılan balığı (Belçika usulü)",
       "fr": "Anguilles au vert",
       "es": "Anguila en salsa verde",
       "pt": "Enguia em molho verde",
@@ -121138,7 +121088,7 @@
     "names": {
       "de": "Flämischer Rindfleischeintopf mit Bier (Carbonade)",
       "en": "Flemish beef and beer stew (carbonnade)",
-      "tr": "Biralı Flaman dana yahnisi",
+      "tr": "Biralı Flaman dana yahnisi (Vlaamse stoverij)",
       "fr": "Carbonade flamande",
       "es": "Carbonada flamenca",
       "pt": "Carbonada flamenga",
@@ -121465,7 +121415,7 @@
     "names": {
       "de": "Flämischer Rindfleischeintopf mit Bier (Stoofvlees)",
       "en": "Flemish beef stew (stoofvlees)",
-      "tr": "Biralı Flaman dana yahnisi",
+      "tr": "Biralı Flaman dana yahnisi (stoofvlees)",
       "fr": "Carbonade flamande (stoofvlees)",
       "es": "Carbonada flamenca (stoofvlees)",
       "pt": "Carbonada flamenga (stoofvlees)",
@@ -121934,12 +121884,17 @@
     "names": {
       "de": "Basler Läckerli",
       "en": "Basler Läckerli",
-      "tr": "Basler Läckerli",
+      "tr": "Basel baharatlı bal kurabiyesi (Läckerli)",
       "fr": "Basler Läckerli",
       "es": "Basler Läckerli",
       "pt": "Basler Läckerli",
       "it": "Basler Läckerli",
       "zh": "Basler Läckerli"
+    },
+    "aliases": {
+      "tr": [
+        "Basler Läckerli"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -123772,7 +123727,7 @@
     "names": {
       "de": "Rindsvoressen",
       "en": "Swiss beef ragout",
-      "tr": "İsviçre usulü dana yahnisi",
+      "tr": "İsviçre usulü sığır yahnisi",
       "fr": "Ragoût de bœuf suisse",
       "es": "Ragú de ternera suizo",
       "pt": "Ragu de vaca suíço",
@@ -123959,8 +123914,8 @@
     "id": "halloumi-grilled",
     "name": "Halloumi grilled",
     "names": {
-      "de": "Gegrillter Halloumi",
-      "en": "Grilled halloumi",
+      "de": "Gegrillter Halloumi (zyprische Art)",
+      "en": "Grilled halloumi (Cypriot style)",
       "tr": "Izgara hellim",
       "fr": "Halloumi grillé",
       "es": "Halloumi a la plancha",
@@ -125798,7 +125753,7 @@
     "names": {
       "de": "Schokoküsse (Flødeboller)",
       "en": "Chocolate-coated marshmallow treats",
-      "tr": "Çikolata kaplı köpük şekerleme",
+      "tr": "Çikolata kaplı köpük şekerleme (Danimarka usulü)",
       "fr": "Têtes au choco danoises",
       "es": "Bombones de merengue con chocolate",
       "pt": "Bombons de merengue com chocolate",
@@ -126888,9 +126843,9 @@
     "id": "boquerones-fritos",
     "name": "Boquerones fritos",
     "names": {
-      "de": "Frittierte Sardellen",
-      "en": "Fried anchovies",
-      "tr": "Hamsi Tava",
+      "de": "Frittierte Sardellen (spanische Art)",
+      "en": "Fried anchovies (Spanish style)",
+      "tr": "Hamsi Tava (İspanyol usulü)",
       "fr": "Anchois frits",
       "es": "Boquerones fritos",
       "pt": "Biqueirões fritos",
@@ -127167,7 +127122,7 @@
     "name": "Cochinillo asado",
     "names": {
       "de": "Spanferkel (Segovia)",
-      "en": "Roast suckling pig",
+      "en": "Roast suckling pig (Spanish style)",
       "tr": "Fırında Süt Domuzu",
       "fr": "Cochon de lait rôti",
       "es": "Cochinillo asado",
@@ -128084,8 +128039,8 @@
     "id": "potaje-de-garbanzos",
     "name": "Potaje de garbanzos",
     "names": {
-      "de": "Kichererbseneintopf",
-      "en": "Chickpea stew",
+      "de": "Kichererbseneintopf (spanische Art)",
+      "en": "Chickpea stew (Spanish style)",
       "tr": "Nohut Yahnisi",
       "fr": "Potée de pois chiches",
       "es": "Potaje de garbanzos",
@@ -130177,9 +130132,9 @@
     "id": "sopa-de-ajo-castellana",
     "name": "Sopa de ajo castellana",
     "names": {
-      "de": "Kastilische Knoblauchsuppe",
-      "en": "Castilian garlic soup",
-      "tr": "Kastilya Sarımsak Çorbası",
+      "de": "Kastilische Knoblauchsuppe (Sopa de ajo)",
+      "en": "Castilian garlic soup (sopa de ajo)",
+      "tr": "Kastilya sarımsak çorbası (sopa de ajo)",
       "fr": "Soupe à l'ail castillane",
       "es": "Sopa de ajo castellana",
       "pt": "Sopa de alho castelhana",
@@ -130714,7 +130669,7 @@
     "names": {
       "de": "Frittierte Tintenfischringe",
       "en": "Fried squid rings (calamari)",
-      "tr": "Kalamar Tava",
+      "tr": "Kalamar Tava (İspanyol usulü)",
       "fr": "Calamars à la romaine",
       "es": "Calamares a la romana",
       "pt": "Lulas à romana",
@@ -134236,7 +134191,7 @@
     "names": {
       "de": "Mämmi",
       "en": "Mämmi",
-      "tr": "Mämmi",
+      "tr": "Fin çavdar malt tatlısı (Mämmi)",
       "fr": "Mämmi",
       "es": "Mämmi",
       "pt": "Mämmi",
@@ -134647,7 +134602,7 @@
     "names": {
       "de": "Rentiergeschnetzeltes (finnisch)",
       "en": "Sautéed reindeer",
-      "tr": "Ren geyiği sote",
+      "tr": "Ren geyiği sote (Fin usulü)",
       "fr": "Émincé de renne",
       "es": "Salteado de reno",
       "pt": "Salteado de rena",
@@ -135557,8 +135512,8 @@
     "id": "boudin-noir-aux-pommes",
     "name": "Boudin noir aux pommes",
     "names": {
-      "de": "Blutwurst mit Äpfeln",
-      "en": "Black pudding with apples",
+      "de": "Blutwurst mit Äpfeln (französische Art)",
+      "en": "Black pudding with apples (French style)",
       "tr": "Elmalı domuz kan sosisi",
       "fr": "Boudin noir aux pommes",
       "es": "Morcilla con manzana",
@@ -135945,9 +135900,9 @@
     "id": "creme-caramel",
     "name": "Crème caramel",
     "names": {
-      "de": "Karamellpudding (Crème caramel)",
+      "de": "Karamellpudding (Crème caramel) (französische Art)",
       "en": "Crème caramel",
-      "tr": "Krem Karamel",
+      "tr": "Krem Karamel (Fransız usulü)",
       "fr": "Crème caramel",
       "es": "Flan",
       "pt": "Pudim de leite",
@@ -137911,7 +137866,7 @@
     "names": {
       "de": "Milchkaffee",
       "en": "Café au lait",
-      "tr": "Sütlü Kahve",
+      "tr": "Sütlü Kahve (Fransız usulü)",
       "fr": "Café au lait",
       "es": "Café con leche",
       "pt": "Café com leite",
@@ -139261,8 +139216,8 @@
     "name": "Poulet rôti",
     "names": {
       "de": "Brathähnchen",
-      "en": "Roast chicken",
-      "tr": "Fırın Tavuk",
+      "en": "Roast chicken (French style)",
+      "tr": "Fırın Tavuk (Fransız usulü)",
       "fr": "Poulet rôti",
       "es": "Pollo asado",
       "pt": "Frango assado",
@@ -140984,7 +140939,7 @@
     "names": {
       "de": "Hackfleisch-Kartoffelauflauf (Hachis Parmentier)",
       "en": "French shepherd's pie (hachis parmentier)",
-      "tr": "Kıymalı Patates Graten",
+      "tr": "Kıymalı Patates Graten (Fransız usulü)",
       "fr": "Hachis parmentier",
       "es": "Pastel de carne y puré",
       "pt": "Escondidinho de carne moída",
@@ -143187,9 +143142,9 @@
     "id": "lapin-a-la-moutarde",
     "name": "Lapin à la moutarde",
     "names": {
-      "de": "Kaninchen in Senfsoße",
-      "en": "Rabbit in mustard sauce",
-      "tr": "Hardal Soslu Tavşan",
+      "de": "Kaninchen in Senfsoße (französische Art)",
+      "en": "Rabbit in mustard sauce (French style)",
+      "tr": "Hardal Soslu Tavşan (Fransız usulü)",
       "fr": "Lapin à la moutarde",
       "es": "Conejo a la mostaza",
       "pt": "Coelho com mostarda",
@@ -146546,7 +146501,7 @@
     "names": {
       "de": "Ochsenschwanzsuppe",
       "en": "Oxtail soup",
-      "tr": "Öküz Kuyruğu Çorbası",
+      "tr": "Öküz Kuyruğu Çorbası (İngiliz usulü)",
       "fr": "Soupe de queue de bœuf",
       "es": "Sopa de rabo de buey",
       "pt": "Sopa de rabo de boi",
@@ -149427,81 +149382,6 @@
     ]
   },
   {
-    "id": "steak-and-ale-pie",
-    "name": "Steak and ale pie",
-    "names": {
-      "de": "Rindfleisch-Ale-Pastete",
-      "en": "Steak and ale pie",
-      "tr": "Biralı Etli Turta",
-      "fr": "Tourte au bœuf et à la bière",
-      "es": "Pastel de ternera y cerveza",
-      "pt": "Torta de carne e cerveja",
-      "it": "Torta di manzo e birra",
-      "zh": "牛肉啤酒派"
-    },
-    "type": "dish",
-    "barcode": null,
-    "synonyms": [
-      "Steak and Guinness pie"
-    ],
-    "cuisine": "gb",
-    "category": "Börek/Hamurişi",
-    "prepared": "homemade",
-    "is_packaged_product": false,
-    "per100g": {
-      "kcal": 201,
-      "protein": 10.3,
-      "carbs": 14.0,
-      "fat": 10.8,
-      "fiber": 0.8
-    },
-    "portion": {
-      "label": "1 Stück",
-      "grams": 330
-    },
-    "ingredients": [
-      {
-        "name": "Rindfleisch (Schmor/Gulasch)",
-        "grams": 120
-      },
-      {
-        "name": "Bier",
-        "grams": 80
-      },
-      {
-        "name": "Zwiebel",
-        "grams": 40
-      },
-      {
-        "name": "Weizenmehl",
-        "grams": 10
-      },
-      {
-        "name": "Brühe",
-        "grams": 40
-      },
-      {
-        "name": "Blätterteig",
-        "grams": 70
-      },
-      {
-        "name": "Champignons",
-        "grams": 20
-      },
-      {
-        "name": "Ei",
-        "grams": 10
-      }
-    ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
-    "off_similar": [
-      "5060153500210",
-      "0719239614222",
-      "5000129358223"
-    ]
-  },
-  {
     "id": "summer-pudding",
     "name": "Summer pudding",
     "names": {
@@ -150423,7 +150303,7 @@
     "names": {
       "de": "Grüne Bohnen in Tomatensoße (griechisch)",
       "en": "Greek green beans in tomato",
-      "tr": "Zeytinyağlı Taze Fasulye",
+      "tr": "Zeytinyağlı Taze Fasulye (Yunan usulü)",
       "fr": "Haricots verts à la grecque",
       "es": "Judías verdes griegas",
       "pt": "Vagem à grega",
@@ -150897,7 +150777,7 @@
     "names": {
       "de": "Smyrna-Hackröllchen in Tomatensoße",
       "en": "Smyrna meatballs in tomato sauce",
-      "tr": "İzmir Köfte",
+      "tr": "İzmir Köfte (Yunan usulü)",
       "fr": "Soutzoukakia (boulettes de Smyrne)",
       "es": "Soutzoukakia (albóndigas de Esmirna)",
       "pt": "Soutzoukakia (almôndegas de Esmirna)",
@@ -151054,8 +150934,8 @@
     "id": "tsipoura",
     "name": "Tsipoura",
     "names": {
-      "de": "Gegrillte Dorade",
-      "en": "Grilled sea bream",
+      "de": "Gegrillte Dorade (griechische Art)",
+      "en": "Grilled sea bream (Greek style)",
       "tr": "Izgara Çipura",
       "fr": "Dorade grillée",
       "es": "Dorada a la parrilla",
@@ -151823,7 +151703,7 @@
     "names": {
       "de": "Erbseneintopf (griechisch)",
       "en": "Greek pea stew",
-      "tr": "Zeytinyağlı Bezelye",
+      "tr": "Zeytinyağlı Bezelye (Yunan usulü)",
       "fr": "Ragoût de petits pois grec",
       "es": "Guiso griego de guisantes",
       "pt": "Ensopado grego de ervilhas",
@@ -152990,8 +152870,8 @@
     "name": "Kremšnita",
     "names": {
       "de": "Cremeschnitte (Kremšnita)",
-      "en": "Custard cream slice",
-      "tr": "Kremalı milföy dilimi",
+      "en": "Custard cream slice (Croatian style)",
+      "tr": "Kremalı milföy dilimi (Hırvat usulü)",
       "fr": "Mille-feuille à la crème",
       "es": "Milhojas de crema",
       "pt": "Mil-folhas de creme",
@@ -153192,8 +153072,8 @@
     "name": "Makovnjača",
     "names": {
       "de": "Mohnrolle (Makovnjača)",
-      "en": "Poppy seed roll",
-      "tr": "Haşhaşlı rulo",
+      "en": "Poppy seed roll (Croatian style)",
+      "tr": "Haşhaşlı rulo (Hırvat usulü)",
       "fr": "Roulé au pavot",
       "es": "Rollo de amapola",
       "pt": "Rolo de papoila",
@@ -154184,53 +154064,6 @@
     ]
   },
   {
-    "id": "unicum",
-    "name": "Unicum",
-    "names": {
-      "de": "Unicum",
-      "en": "Unicum",
-      "tr": "Unicum",
-      "fr": "Unicum",
-      "es": "Unicum",
-      "pt": "Unicum",
-      "it": "Unicum",
-      "zh": "Unicum"
-    },
-    "type": "dish",
-    "barcode": null,
-    "synonyms": [
-      "Hungarian Unicum"
-    ],
-    "cuisine": "hu",
-    "category": "Getränk",
-    "prepared": "homemade",
-    "is_packaged_product": false,
-    "per100g": {
-      "kcal": 231,
-      "protein": 0.0,
-      "carbs": 0.0,
-      "fat": 0.0,
-      "fiber": 0.0
-    },
-    "portion": {
-      "label": "1 Glas 4 cl",
-      "grams": 40
-    },
-    "ingredients": [
-      {
-        "name": "Spirituose 40 %",
-        "grams": 40
-      }
-    ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
-    "off_similar": [
-      "5995099191218",
-      "5995099191119",
-      "5995099191515"
-    ]
-  },
-  {
     "id": "disznotoros",
     "name": "Disznótoros",
     "names": {
@@ -154589,8 +154422,8 @@
     "name": "Gulyásleves",
     "names": {
       "de": "Gulaschsuppe (Gulyásleves)",
-      "en": "Goulash soup",
-      "tr": "Gulaş çorbası",
+      "en": "Goulash soup (Hungarian style)",
+      "tr": "Gulaş çorbası (Macar usulü)",
       "fr": "Soupe goulasch",
       "es": "Sopa de gulash",
       "pt": "Sopa de goulash",
@@ -154782,7 +154615,7 @@
     "name": "Szilvásgombóc",
     "names": {
       "de": "Zwetschgenknödel (Szilvásgombóc)",
-      "en": "Plum dumplings",
+      "en": "Plum dumplings (Hungarian style)",
       "tr": "Erikli patates köftesi (tatlı)",
       "fr": "Boulettes aux quetsches",
       "es": "Albóndigas de ciruela",
@@ -156738,9 +156571,9 @@
     "id": "frittura-di-calamari",
     "name": "Frittura di calamari",
     "names": {
-      "de": "Frittierte Calamari",
-      "en": "Fried calamari",
-      "tr": "Kalamar Tava",
+      "de": "Frittierte Calamari (italienische Art)",
+      "en": "Fried calamari (Italian style)",
+      "tr": "Kalamar Tava (İtalyan usulü)",
       "fr": "Calamars frits",
       "es": "Calamares fritos",
       "pt": "Lulas fritas",
@@ -157299,7 +157132,7 @@
     "names": {
       "de": "Nudelauflauf (italienisch)",
       "en": "Italian baked pasta",
-      "tr": "Fırın Makarna",
+      "tr": "Fırın Makarna (İtalyan usulü)",
       "fr": "Gratin de pâtes à l'italienne",
       "es": "Pasta al horno",
       "pt": "Massa ao forno",
@@ -157778,9 +157611,9 @@
     "id": "polpette-al-sugo",
     "name": "Polpette al sugo",
     "names": {
-      "de": "Fleischbällchen in Tomatensoße",
-      "en": "Meatballs in tomato sauce",
-      "tr": "Domates Soslu Köfte",
+      "de": "Fleischbällchen in Tomatensoße (italienische Art)",
+      "en": "Meatballs in tomato sauce (Italian style)",
+      "tr": "Domates Soslu Köfte (İtalyan usulü)",
       "fr": "Boulettes à la sauce tomate",
       "es": "Albóndigas en salsa de tomate",
       "pt": "Almôndegas ao molho de tomate",
@@ -158262,65 +158095,6 @@
       "27050521",
       "8004345900157",
       "5430004411710"
-    ]
-  },
-  {
-    "id": "spritz-aperol",
-    "name": "Spritz Aperol",
-    "names": {
-      "de": "Spritz Aperol",
-      "en": "Spritz Aperol",
-      "tr": "Spritz Aperol",
-      "fr": "Spritz Aperol",
-      "es": "Spritz Aperol",
-      "pt": "Spritz Aperol",
-      "it": "Spritz Aperol",
-      "zh": "Spritz Aperol"
-    },
-    "type": "dish",
-    "barcode": null,
-    "synonyms": [
-      "Aperol Spritz"
-    ],
-    "cuisine": "it",
-    "category": "Getränk",
-    "prepared": "homemade",
-    "is_packaged_product": false,
-    "per100g": {
-      "kcal": 120,
-      "protein": 0.1,
-      "carbs": 10.3,
-      "fat": 0.0,
-      "fiber": 0.2
-    },
-    "portion": {
-      "label": "1 Glas",
-      "grams": 220
-    },
-    "ingredients": [
-      {
-        "name": "Weißwein",
-        "grams": 90
-      },
-      {
-        "name": "Likör",
-        "grams": 60
-      },
-      {
-        "name": "Wasser",
-        "grams": 50
-      },
-      {
-        "name": "Orange",
-        "grams": 20
-      }
-    ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
-    "off_similar": [
-      "8000020044444",
-      "8002230340507",
-      "8002230340613"
     ]
   },
   {
@@ -164738,10 +164512,11 @@
     "is_packaged_product": false,
     "per100g": {
       "kcal": 2,
-      "protein": 0.1,
-      "carbs": 0.0,
+      "protein": 0.4,
+      "carbs": 0.4,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.4,
+      "sugar": 0.0
     },
     "portion": {
       "label": "1 Tasse",
@@ -164753,8 +164528,9 @@
         "grams": 30
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code N411100 \"Espresso (Getränk)\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0.418 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:N411100",
     "off_similar": [
       "8000070018686",
       "4260680414344",
@@ -166095,9 +165871,9 @@
     "id": "risotto-agli-asparagi",
     "name": "Risotto agli asparagi",
     "names": {
-      "de": "Spargelrisotto",
-      "en": "Asparagus risotto",
-      "tr": "Kuşkonmazlı Risotto",
+      "de": "Spargelrisotto (italienische Art)",
+      "en": "Asparagus risotto (Italian style)",
+      "tr": "Kuşkonmazlı Risotto (İtalyan usulü)",
       "fr": "Risotto aux asperges",
       "es": "Risotto de espárragos",
       "pt": "Risoto de aspargos",
@@ -169973,7 +169749,7 @@
     "names": {
       "de": "Apfeltaschen (Appelflappen)",
       "en": "Apple turnovers",
-      "tr": "Elmalı milföy",
+      "tr": "Elmalı milföy (Hollanda usulü)",
       "fr": "Chaussons aux pommes",
       "es": "Empanadillas de manzana",
       "pt": "Folhados de maçã",
@@ -171562,7 +171338,7 @@
     "names": {
       "de": "Polnischer Gurkensalat mit Sahne",
       "en": "Polish cucumber salad with sour cream",
-      "tr": "Ekşi Kremalı Salatalık Salatası",
+      "tr": "Ekşi Kremalı Salatalık Salatası (Polonya usulü)",
       "fr": "Salade de concombre à la crème",
       "es": "Ensalada de pepino con nata agria",
       "pt": "Salada de pepino com natas",
@@ -171830,8 +171606,8 @@
     "name": "Surówka z marchewki",
     "names": {
       "de": "Karottensalat (Rohkost)",
-      "en": "Carrot salad",
-      "tr": "Havuç Salatası",
+      "en": "Carrot salad (Polish style)",
+      "tr": "Havuç Salatası (Polonya usulü)",
       "fr": "Salade de carottes râpées",
       "es": "Ensalada de zanahoria",
       "pt": "Salada de cenoura",
@@ -172386,7 +172162,7 @@
     "names": {
       "de": "Pfannkuchen mit Quark",
       "en": "Crepes with sweet cheese",
-      "tr": "Lor Peynirli Krep",
+      "tr": "Lor Peynirli Krep (Polonya usulü)",
       "fr": "Crêpes au fromage blanc",
       "es": "Crepes con queso dulce",
       "pt": "Crepes com queijo",
@@ -172525,7 +172301,7 @@
     "names": {
       "de": "Kartoffelpuffer (polnisch)",
       "en": "Polish potato pancakes",
-      "tr": "Patates Mücveri",
+      "tr": "Patates Mücveri (Polonya usulü)",
       "fr": "Galettes de pommes de terre",
       "es": "Tortitas de patata",
       "pt": "Panquecas de batata",
@@ -173985,8 +173761,8 @@
     "name": "Makowiec",
     "names": {
       "de": "Mohnrolle",
-      "en": "Poppy seed roll",
-      "tr": "Haşhaşlı Rulo",
+      "en": "Poppy seed roll (Polish style)",
+      "tr": "Haşhaşlı Rulo (Polonya usulü)",
       "fr": "Roulé au pavot",
       "es": "Rollo de semillas de amapola",
       "pt": "Rolo de papoila",
@@ -174637,8 +174413,8 @@
     "id": "arroz-de-tomate",
     "name": "Arroz de tomate",
     "names": {
-      "de": "Tomatenreis",
-      "en": "Tomato rice",
+      "de": "Tomatenreis (portugiesische Art)",
+      "en": "Tomato rice (Portuguese style)",
       "tr": "Domatesli Pilav",
       "fr": "Riz à la tomate",
       "es": "Arroz con tomate",
@@ -176125,8 +175901,8 @@
     "name": "Torresmos",
     "names": {
       "de": "Grieben (portugiesisch)",
-      "en": "Pork cracklings",
-      "tr": "Domuz Kıkırdağı",
+      "en": "Pork cracklings (Portuguese style)",
+      "tr": "Domuz Kıkırdağı (Portekiz usulü)",
       "fr": "Rillons de porc",
       "es": "Chicharrones",
       "pt": "Torresmos",
@@ -176819,9 +176595,9 @@
     "id": "sopa-da-pedra",
     "name": "Sopa da pedra",
     "names": {
-      "de": "Steinsuppe",
-      "en": "Stone soup",
-      "tr": "Taş Çorbası",
+      "de": "Steinsuppe (Sopa da pedra)",
+      "en": "Stone soup (sopa da pedra)",
+      "tr": "Taş çorbası (sopa da pedra)",
       "fr": "Soupe de pierre",
       "es": "Sopa de piedra",
       "pt": "Sopa da pedra",
@@ -178004,8 +177780,8 @@
     "name": "Jumări",
     "names": {
       "de": "Grieben (Jumări)",
-      "en": "Pork cracklings",
-      "tr": "Domuz kıkırdağı",
+      "en": "Pork cracklings (Romanian style)",
+      "tr": "Domuz kıkırdağı (Rumen usulü)",
       "fr": "Grattons de porc",
       "es": "Chicharrones",
       "pt": "Torresmos",
@@ -179529,8 +179305,8 @@
     "name": "Riblja čorba",
     "names": {
       "de": "Fischsuppe (Riblja čorba)",
-      "en": "Fish soup",
-      "tr": "Balık çorbası",
+      "en": "Fish soup (Serbian style)",
+      "tr": "Balık çorbası (Sırp usulü)",
       "fr": "Soupe de poisson",
       "es": "Sopa de pescado",
       "pt": "Sopa de peixe",
@@ -179842,7 +179618,7 @@
     "names": {
       "de": "Gebackene Bohnen (Prebranac)",
       "en": "Serbian baked beans (prebranac)",
-      "tr": "Sırp fırın fasulyesi",
+      "tr": "Sırp fırın fasulyesi (prebranac)",
       "fr": "Haricots au four serbes",
       "es": "Alubias al horno serbias",
       "pt": "Feijão no forno sérvio",
@@ -179959,8 +179735,8 @@
     "name": "Krempita",
     "names": {
       "de": "Cremeschnitte (Krempita)",
-      "en": "Custard cream slice",
-      "tr": "Kremalı milföy dilimi",
+      "en": "Custard cream slice (Serbian style)",
+      "tr": "Kremalı milföy dilimi (Sırp usulü)",
       "fr": "Mille-feuille à la crème",
       "es": "Milhojas de crema",
       "pt": "Mil-folhas de creme",
@@ -181705,7 +181481,7 @@
     "names": {
       "de": "Rentiergeschnetzeltes (Renskav)",
       "en": "Sautéed reindeer (renskav)",
-      "tr": "Ren geyiği sote",
+      "tr": "Ren geyiği sote (İsveç usulü)",
       "fr": "Émincé de renne",
       "es": "Salteado de reno",
       "pt": "Salteado de rena",
@@ -182663,9 +182439,9 @@
     "id": "havregrynsgrot",
     "name": "Havregrynsgröt",
     "names": {
-      "de": "Haferbrei",
+      "de": "Haferbrei (schwedische Art)",
       "en": "Oatmeal porridge",
-      "tr": "Yulaf lapası",
+      "tr": "Yulaf lapası (İsveç usulü)",
       "fr": "Porridge d'avoine",
       "es": "Gachas de avena",
       "pt": "Papas de aveia",
@@ -183058,12 +182834,17 @@
     "names": {
       "de": "Västerbotten-Käsequiche",
       "en": "Västerbotten cheese pie",
-      "tr": "Västerbotten peynirli tart",
+      "tr": "İsveç peynirli tartı (Västerbottenpaj)",
       "fr": "Quiche au fromage Västerbotten",
       "es": "Quiche de queso Västerbotten",
       "pt": "Quiche de queijo Västerbotten",
       "it": "Torta salata al formaggio Västerbotten",
       "zh": "西博滕奶酪派"
+    },
+    "aliases": {
+      "tr": [
+        "Västerbotten peynirli tart"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -184226,7 +184007,7 @@
     "names": {
       "de": "Russischer Salat (Olivier)",
       "en": "Olivier salad (Russian salad)",
-      "tr": "Rus salatası",
+      "tr": "Rus salatası (Ukrayna usulü)",
       "fr": "Salade russe (Olivier)",
       "es": "Ensaladilla rusa",
       "pt": "Salada russa",
@@ -187100,12 +186881,17 @@
     "names": {
       "de": "Pinzgauer Kasnocken",
       "en": "Pinzgau cheese spaetzle",
-      "tr": "Peynirli Pinzgau spätzlesi",
+      "tr": "Pinzgau usulü peynirli yumurta eriştesi (Kasnocken)",
       "fr": "Spätzle au fromage de Pinzgau",
       "es": "Spätzle de queso de Pinzgau",
       "pt": "Spätzle de queijo de Pinzgau",
       "it": "Spätzle al formaggio del Pinzgau",
       "zh": "平茨高奶酪面疙瘩"
+    },
+    "aliases": {
+      "tr": [
+        "Peynirli Pinzgau spätzlesi"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -187540,7 +187326,7 @@
     "names": {
       "de": "Topfenpalatschinken",
       "en": "Quark-filled pancakes",
-      "tr": "Lor peynirli krep",
+      "tr": "Lor peynirli krep (Avusturya usulü)",
       "fr": "Crêpes au fromage blanc",
       "es": "Crepes rellenas de quark",
       "pt": "Crepes recheados de quark",
@@ -188904,12 +188690,17 @@
     "names": {
       "de": "Wiener Wäschermädel",
       "en": "Wiener Wäschermädel",
-      "tr": "Wiener Wäschermädel",
+      "tr": "Viyana usulü hamurlu kayısı tatlısı (Wäschermädel)",
       "fr": "Wiener Wäschermädel",
       "es": "Wiener Wäschermädel",
       "pt": "Wiener Wäschermädel",
       "it": "Wiener Wäschermädel",
       "zh": "Wiener Wäschermädel"
+    },
+    "aliases": {
+      "tr": [
+        "Wiener Wäschermädel"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -189901,12 +189692,17 @@
     "names": {
       "de": "Qutab mit Kräutern",
       "en": "Qutab mit Kräutern",
-      "tr": "Qutab mit Kräutern",
+      "tr": "Otlu kutap (Qutab)",
       "fr": "Qutab mit Kräutern",
       "es": "Qutab mit Kräutern",
       "pt": "Qutab mit Kräutern",
       "it": "Qutab mit Kräutern",
       "zh": "Qutab mit Kräutern"
+    },
+    "aliases": {
+      "tr": [
+        "Qutab mit Kräutern"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -194586,7 +194382,7 @@
     "names": {
       "de": "Mailänderli",
       "en": "Mailänderli",
-      "tr": "Mailänderli",
+      "tr": "İsviçre tereyağlı Noel kurabiyesi (Mailänderli)",
       "fr": "Mailänderli",
       "es": "Mailänderli",
       "pt": "Mailänderli",
@@ -196564,8 +196360,8 @@
     "name": "Glistrida salata",
     "names": {
       "de": "Portulak-Salat (zypriotisch)",
-      "en": "Purslane salad",
-      "tr": "Semizotu salatası",
+      "en": "Purslane salad (Cypriot style)",
+      "tr": "Semizotu salatası (Kıbrıs usulü)",
       "fr": "Salade de pourpier",
       "es": "Ensalada de verdolaga",
       "pt": "Salada de beldroegas",
@@ -196795,9 +196591,9 @@
     "id": "pilafi-pourgouri",
     "name": "Pilafi pourgouri",
     "names": {
-      "de": "Bulgur-Pilaw",
-      "en": "Bulgur pilaf",
-      "tr": "Bulgur pilavı",
+      "de": "Bulgur-Pilaw (zyprische Art)",
+      "en": "Bulgur pilaf (Cypriot style)",
+      "tr": "Bulgur pilavı (Kıbrıs usulü)",
       "fr": "Pilaf de boulgour",
       "es": "Pilaf de bulgur",
       "pt": "Pilaf de bulgur",
@@ -199186,12 +198982,17 @@
     "names": {
       "de": "Schwäbischer Zwiebelrostbraten mit Spätzle",
       "en": "Swabian onion roast beef with spätzle",
-      "tr": "Spätzle ile soğanlı biftek",
+      "tr": "Soğanlı rostobif ve yumurta eriştesi (Zwiebelrostbraten mit Spätzle)",
       "fr": "Rosbif aux oignons souabe et spätzle",
       "es": "Asado de ternera con cebolla y spätzle",
       "pt": "Rosbife com cebola e spätzle",
       "it": "Roastbeef alla cipolla con spätzle",
       "zh": "洋葱烤牛肉配面疙瘩"
+    },
+    "aliases": {
+      "tr": [
+        "Spätzle ile soğanlı biftek"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -199432,12 +199233,17 @@
     "names": {
       "de": "Kartoffelschnitz und Spätzle",
       "en": "Potato wedges and spätzle",
-      "tr": "Patates dilimi ve spätzle",
+      "tr": "Patates dilimi ve yumurta eriştesi (Kartoffelschnitz und Spätzle)",
       "fr": "Quartiers de pommes de terre et spätzle",
       "es": "Patatas en gajos con spätzle",
       "pt": "Batatas em gomos com spätzle",
       "it": "Spicchi di patate e spätzle",
       "zh": "土豆块配面疙瘩"
+    },
+    "aliases": {
+      "tr": [
+        "Patates dilimi ve spätzle"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -199561,7 +199367,7 @@
     "names": {
       "de": "Brägele",
       "en": "Brägele",
-      "tr": "Brägele",
+      "tr": "İnce kızarmış patates (Brägele)",
       "fr": "Brägele",
       "es": "Brägele",
       "pt": "Brägele",
@@ -199806,7 +199612,7 @@
     "names": {
       "de": "Pfälzer Teller",
       "en": "Pfälzer Teller",
-      "tr": "Pfälzer Teller",
+      "tr": "Pfalz karışık tabağı (Pfälzer Teller)",
       "fr": "Pfälzer Teller",
       "es": "Pfälzer Teller",
       "pt": "Pfälzer Teller",
@@ -200378,12 +200184,17 @@
     "names": {
       "de": "Westfälisches Blindhuhn",
       "en": "Westfälisches Blindhuhn",
-      "tr": "Westfälisches Blindhuhn",
+      "tr": "Westfalya usulü fasulye ve armut yemeği (Blindhuhn)",
       "fr": "Westfälisches Blindhuhn",
       "es": "Westfälisches Blindhuhn",
       "pt": "Westfälisches Blindhuhn",
       "it": "Westfälisches Blindhuhn",
       "zh": "Westfälisches Blindhuhn"
+    },
+    "aliases": {
+      "tr": [
+        "Westfälisches Blindhuhn"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -200512,12 +200323,17 @@
     "names": {
       "de": "Westfälischer Pickert",
       "en": "Westfälischer Pickert",
-      "tr": "Westfälischer Pickert",
+      "tr": "Westfalya usulü patatesli hamur ekmeği (Pickert)",
       "fr": "Westfälischer Pickert",
       "es": "Westfälischer Pickert",
       "pt": "Westfälischer Pickert",
       "it": "Westfälischer Pickert",
       "zh": "Westfälischer Pickert"
+    },
+    "aliases": {
+      "tr": [
+        "Westfälischer Pickert"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -200690,12 +200506,17 @@
     "names": {
       "de": "Westfälische Quarkspeise mit Pumpernickel",
       "en": "Westfälische Quarkspeise mit Pumpernickel",
-      "tr": "Westfälische Quarkspeise mit Pumpernickel",
+      "tr": "Westfalya lor tatlısı ve çavdar ekmeği (Quarkspeise)",
       "fr": "Westfälische Quarkspeise mit Pumpernickel",
       "es": "Westfälische Quarkspeise mit Pumpernickel",
       "pt": "Westfälische Quarkspeise mit Pumpernickel",
       "it": "Westfälische Quarkspeise mit Pumpernickel",
       "zh": "Westfälische Quarkspeise mit Pumpernickel"
+    },
+    "aliases": {
+      "tr": [
+        "Westfälische Quarkspeise mit Pumpernickel"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -200803,12 +200624,17 @@
     "names": {
       "de": "Grie Soß mit Tafelspitz",
       "en": "Grie Soß mit Tafelspitz",
-      "tr": "Grie Soß mit Tafelspitz",
+      "tr": "Yeşil soslu haşlama dana (Grüne Soße mit Tafelspitz)",
       "fr": "Grie Soß mit Tafelspitz",
       "es": "Grie Soß mit Tafelspitz",
       "pt": "Grie Soß mit Tafelspitz",
       "it": "Grie Soß mit Tafelspitz",
       "zh": "Grie Soß mit Tafelspitz"
+    },
+    "aliases": {
+      "tr": [
+        "Grie Soß mit Tafelspitz"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -200898,11 +200724,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 45,
+      "kcal": 44,
       "protein": 0.0,
-      "carbs": 3.0,
+      "carbs": 4.0,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 4.0,
+      "alcohol": 3.8
     },
     "portion": {
       "label": "0,3 l",
@@ -200914,8 +200742,9 @@
         "grams": 300
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values"
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P353100 \"Apfelwein\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 4 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P353100"
   },
   {
     "id": "sauergespritzter",
@@ -201512,12 +201341,17 @@
     "names": {
       "de": "Sächsischer Sauerbraten mit Rosinen",
       "en": "Sächsischer Sauerbraten mit Rosinen",
-      "tr": "Sächsischer Sauerbraten mit Rosinen",
+      "tr": "Üzümlü Sakson turşu rostosu (Sauerbraten)",
       "fr": "Sächsischer Sauerbraten mit Rosinen",
       "es": "Sächsischer Sauerbraten mit Rosinen",
       "pt": "Sächsischer Sauerbraten mit Rosinen",
       "it": "Sächsischer Sauerbraten mit Rosinen",
       "zh": "Sächsischer Sauerbraten mit Rosinen"
+    },
+    "aliases": {
+      "tr": [
+        "Sächsischer Sauerbraten mit Rosinen"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -201587,12 +201421,17 @@
     "names": {
       "de": "Sächsische Plinsen",
       "en": "Sächsische Plinsen",
-      "tr": "Sächsische Plinsen",
+      "tr": "Sakson usulü kalın krep (Plinsen)",
       "fr": "Sächsische Plinsen",
       "es": "Sächsische Plinsen",
       "pt": "Sächsische Plinsen",
       "it": "Sächsische Plinsen",
       "zh": "Sächsische Plinsen"
+    },
+    "aliases": {
+      "tr": [
+        "Sächsische Plinsen"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -203062,7 +202901,7 @@
     "names": {
       "de": "Nordseekrabbensuppe",
       "en": "North Sea shrimp soup",
-      "tr": "Karides çorbası",
+      "tr": "Karides çorbası (Alman usulü)",
       "fr": "Soupe aux crevettes grises",
       "es": "Sopa de quisquillas",
       "pt": "Sopa de camarão",
@@ -203447,7 +203286,7 @@
     "names": {
       "de": "Pharisäer",
       "en": "Pharisäer",
-      "tr": "Pharisäer",
+      "tr": "Romlu kahve, krema şapkalı (Pharisäer)",
       "fr": "Pharisäer",
       "es": "Pharisäer",
       "pt": "Pharisäer",
@@ -203695,11 +203534,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 150,
-      "protein": 1.4,
-      "carbs": 12.6,
-      "fat": 4.1,
-      "fiber": 0.0
+      "kcal": 170,
+      "protein": 3.2,
+      "carbs": 10.6,
+      "fat": 7.8,
+      "fiber": 0.0,
+      "sugar": 10.6,
+      "alcohol": 6.4
     },
     "portion": {
       "label": "1 Tasse",
@@ -203727,8 +203568,9 @@
         "grams": 10
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P8A3000 \"Eierpunsch\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 10.6 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P8A3000",
     "off_similar": [
       "4337256838627",
       "4047247131650",
@@ -203868,11 +203710,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 42,
+      "kcal": 40,
       "protein": 0.2,
-      "carbs": 7.0,
+      "carbs": 6.3,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 5.2,
+      "alcohol": 1.9
     },
     "portion": {
       "label": "0,5 l",
@@ -203888,8 +203732,9 @@
         "grams": 250
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P1A3000 \"Colabier (Pilsner Bier mit Cola)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 6.259 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P1A3000",
     "off_similar": [
       "0551197710222",
       "4105760122088"
@@ -203919,11 +203764,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 42,
-      "protein": 0.2,
-      "carbs": 7.0,
+      "kcal": 40,
+      "protein": 0.3,
+      "carbs": 5.9,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 4.7,
+      "alcohol": 2.1
     },
     "portion": {
       "label": "0,5 l",
@@ -203939,8 +203786,9 @@
         "grams": 250
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P1A1130 \"Weizen-Radler (Weizenbier mit Zitronenlimonade)\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 5.861 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P1A1130",
     "off_similar": [
       "6287038580467"
     ]
@@ -203951,7 +203799,7 @@
     "names": {
       "de": "Goaßmaß",
       "en": "Goaßmaß",
-      "tr": "Goaßmaß",
+      "tr": "Bira ve meşrubat karışımı (Goaßmaß)",
       "fr": "Goaßmaß",
       "es": "Goaßmaß",
       "pt": "Goaßmaß",
@@ -204025,11 +203873,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 43,
+      "kcal": 40,
       "protein": 0.5,
-      "carbs": 3.6,
+      "carbs": 2.3,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 0.2,
+      "alcohol": 4.0
     },
     "portion": {
       "label": "0,25 l",
@@ -204041,8 +203891,9 @@
         "grams": 250
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P153000 \"Altbier\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.284 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P153000",
     "off_similar": [
       "4260081050578",
       "4260257742719",
@@ -204073,11 +203924,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 43,
-      "protein": 0.5,
-      "carbs": 3.6,
+      "kcal": 36,
+      "protein": 0.4,
+      "carbs": 2.3,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 0.2,
+      "alcohol": 3.6
     },
     "portion": {
       "label": "0,5 l",
@@ -204089,8 +203942,9 @@
         "grams": 500
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P161000 \"Lagerbier hell\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.283 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P161000",
     "off_similar": [
       "4260015190691",
       "4260449220124",
@@ -204120,11 +203974,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 43,
+      "kcal": 39,
       "protein": 0.5,
-      "carbs": 3.6,
+      "carbs": 2.3,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 0.2,
+      "alcohol": 4.0
     },
     "portion": {
       "label": "0,5 l",
@@ -204136,8 +203992,12 @@
         "grams": 500
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P167000 \"Schwarzbier\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.284 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. In der Quelle nicht angegeben und als 0 g eingetragen: Fett.",
+    "source_id": "BLS 4.0:P167000",
+    "source_missing": [
+      "fat"
+    ],
     "off_similar": [
       "8591036551502",
       "9028800633274",
@@ -204468,11 +204328,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 300,
-      "protein": 0.0,
-      "carbs": 30.0,
-      "fat": 0.0,
-      "fiber": 0.0
+      "kcal": 294,
+      "protein": 4.0,
+      "carbs": 27.1,
+      "fat": 7.0,
+      "fiber": 0.0,
+      "sugar": 27.1,
+      "alcohol": 15.2
     },
     "portion": {
       "label": "1 Glas (4 cl)",
@@ -204484,8 +204346,9 @@
         "grams": 40
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P546000 \"Eierlikör\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 27.1 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P546000",
     "off_similar": [
       "4306188432753",
       "4260283483006",
@@ -206161,7 +206024,7 @@
     "names": {
       "de": "Bärentatzen",
       "en": "Bärentatzen",
-      "tr": "Bärentatzen",
+      "tr": "Bademli ayı pençesi kurabiyesi (Bärentatzen)",
       "fr": "Bärentatzen",
       "es": "Bärentatzen",
       "pt": "Bärentatzen",
@@ -206355,7 +206218,7 @@
     "names": {
       "de": "Terrassenplätzchen",
       "en": "Terrassenplätzchen",
-      "tr": "Terrassenplätzchen",
+      "tr": "Tereyağlı Noel kurabiyesi (Terrassenplätzchen)",
       "fr": "Terrassenplätzchen",
       "es": "Terrassenplätzchen",
       "pt": "Terrassenplätzchen",
@@ -206945,7 +206808,7 @@
     "names": {
       "de": "Jägerschnitzel mit Jagdwurst",
       "en": "Jägerschnitzel mit Jagdwurst",
-      "tr": "Jägerschnitzel mit Jagdwurst",
+      "tr": "Avcı sosisli şinitzel (Jägerschnitzel mit Jagdwurst)",
       "fr": "Jägerschnitzel mit Jagdwurst",
       "es": "Jägerschnitzel mit Jagdwurst",
       "pt": "Jägerschnitzel mit Jagdwurst",
@@ -207138,7 +207001,7 @@
     "names": {
       "de": "Schaschlik",
       "en": "Schaschlik",
-      "tr": "Schaschlik",
+      "tr": "Şaşlık",
       "fr": "Schaschlik",
       "es": "Schaschlik",
       "pt": "Schaschlik",
@@ -208968,7 +208831,7 @@
     "names": {
       "de": "Ochsenschwanzsuppe gebunden",
       "en": "Oxtail soup (thick)",
-      "tr": "Öküz kuyruğu çorbası",
+      "tr": "Öküz kuyruğu çorbası (Alman usulü)",
       "fr": "Potage à la queue de bœuf",
       "es": "Sopa de rabo de toro",
       "pt": "Sopa de rabada",
@@ -211109,12 +210972,17 @@
     "names": {
       "de": "Verikäkid",
       "en": "Verikäkid",
-      "tr": "Verikäkid",
+      "tr": "Estonya usulü kanlı köfte (Verikäkid)",
       "fr": "Verikäkid",
       "es": "Verikäkid",
       "pt": "Verikäkid",
       "it": "Verikäkid",
       "zh": "Verikäkid"
+    },
+    "aliases": {
+      "tr": [
+        "Estonya kan sosisi (Verikäkid)"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -212502,7 +212370,7 @@
     "name": "Codillo asado",
     "names": {
       "de": "Gebratene Haxe (spanisch)",
-      "en": "Roast pork knuckle",
+      "en": "Roast pork knuckle (Spanish style)",
       "tr": "Fırında Domuz İnciği",
       "fr": "Jarret de porc rôti",
       "es": "Codillo asado",
@@ -212732,8 +212600,8 @@
     "id": "sardinas-a-la-plancha",
     "name": "Sardinas a la plancha",
     "names": {
-      "de": "Gegrillte Sardinen",
-      "en": "Grilled sardines",
+      "de": "Gegrillte Sardinen (spanische Art)",
+      "en": "Grilled sardines (Spanish style)",
       "tr": "Izgara Sardalya",
       "fr": "Sardines à la plancha",
       "es": "Sardinas a la plancha",
@@ -217338,8 +217206,8 @@
     "name": "Poulet à la crème",
     "names": {
       "de": "Hähnchen in Sahnesoße (französisch)",
-      "en": "Chicken in cream sauce",
-      "tr": "Kremalı Tavuk",
+      "en": "Chicken in cream sauce (French style)",
+      "tr": "Kremalı Tavuk (Fransız usulü)",
       "fr": "Poulet à la crème",
       "es": "Pollo a la crema",
       "pt": "Frango ao creme",
@@ -217598,14 +217466,19 @@
     "id": "fricassee-de-poulet",
     "name": "Fricassée de poulet",
     "names": {
-      "de": "Hühnerfrikassee",
-      "en": "Chicken fricassee",
-      "tr": "Tavuk Fricassee",
+      "de": "Hühnerfrikassee (französische Art)",
+      "en": "Chicken fricassee (French style)",
+      "tr": "Tavuk frikase (Fransız usulü)",
       "fr": "Fricassée de poulet",
       "es": "Fricasé de pollo",
       "pt": "Fricassé de frango",
       "it": "Fricassea di pollo",
       "zh": "奶油炖鸡"
+    },
+    "aliases": {
+      "tr": [
+        "Tavuk Fricassee"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -217670,9 +217543,9 @@
     "id": "lapin-chasseur",
     "name": "Lapin chasseur",
     "names": {
-      "de": "Kaninchen nach Jägerart",
-      "en": "Hunter-style rabbit",
-      "tr": "Avcı Usulü Tavşan",
+      "de": "Kaninchen nach Jägerart (französische Art)",
+      "en": "Hunter-style rabbit (French style)",
+      "tr": "Avcı Usulü Tavşan (Fransız usulü)",
       "fr": "Lapin chasseur",
       "es": "Conejo a la cazadora",
       "pt": "Coelho à caçador",
@@ -219086,7 +218959,7 @@
     "name": "Gratin de chou-fleur",
     "names": {
       "de": "Blumenkohlgratin",
-      "en": "Cauliflower gratin",
+      "en": "Cauliflower gratin (French style)",
       "tr": "Karnabahar Graten",
       "fr": "Gratin de chou-fleur",
       "es": "Coliflor gratinada",
@@ -219776,9 +219649,9 @@
     "id": "veloute-de-champignons",
     "name": "Velouté de champignons",
     "names": {
-      "de": "Champignoncremesuppe",
-      "en": "Cream of mushroom soup",
-      "tr": "Kremalı Mantar Çorbası",
+      "de": "Champignoncremesuppe (französische Art)",
+      "en": "Cream of mushroom soup (French style)",
+      "tr": "Kremalı Mantar Çorbası (Fransız usulü)",
       "fr": "Velouté de champignons",
       "es": "Crema de champiñones",
       "pt": "Creme de cogumelos",
@@ -220040,8 +219913,8 @@
     "id": "veloute-d-asperges",
     "name": "Velouté d'asperges",
     "names": {
-      "de": "Spargelcremesuppe",
-      "en": "Cream of asparagus soup",
+      "de": "Spargelcremesuppe (französische Art)",
+      "en": "Cream of asparagus soup (French style)",
       "tr": "Kremalı Kuşkonmaz Çorbası",
       "fr": "Velouté d'asperges",
       "es": "Crema de espárragos",
@@ -220168,9 +220041,9 @@
     "id": "chausson-aux-pommes",
     "name": "Chausson aux pommes",
     "names": {
-      "de": "Apfeltasche",
-      "en": "Apple turnover",
-      "tr": "Elmalı Milföy",
+      "de": "Apfeltasche (französische Art)",
+      "en": "Apple turnover (French style)",
+      "tr": "Elmalı Milföy (Fransız usulü)",
       "fr": "Chausson aux pommes",
       "es": "Napolitana de manzana",
       "pt": "Folhado de maçã",
@@ -220231,7 +220104,7 @@
     "id": "pain-aux-raisins",
     "name": "Pain aux raisins",
     "names": {
-      "de": "Rosinenschnecke",
+      "de": "Rosinenschnecke (französische Art)",
       "en": "Raisin swirl pastry",
       "tr": "Üzümlü Rulo Hamur İşi",
       "fr": "Pain aux raisins",
@@ -221715,14 +221588,22 @@
     "id": "pommes-au-four",
     "name": "Pommes au four",
     "names": {
-      "de": "Bratäpfel",
-      "en": "Baked apples",
-      "tr": "Fırında Elma",
+      "de": "Bratapfel (französische Art)",
+      "en": "Baked apple (French style)",
+      "tr": "Fırında Elma (Fransız usulü)",
       "fr": "Pommes au four",
       "es": "Manzanas asadas",
       "pt": "Maçãs assadas",
       "it": "Mele al forno",
       "zh": "烤苹果"
+    },
+    "aliases": {
+      "de": [
+        "Bratäpfel"
+      ],
+      "en": [
+        "Baked apples"
+      ]
     },
     "type": "dish",
     "barcode": null,
@@ -222013,11 +221894,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 231,
+      "kcal": 227,
       "protein": 0.0,
       "carbs": 0.0,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "alcohol": 32.4
     },
     "portion": {
       "label": "1 Glas (4 cl)",
@@ -222029,8 +221912,9 @@
         "grams": 40
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P640000 \"Calvados\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 0 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P640000",
     "off_similar": [
       "4002859254616",
       "23115484",
@@ -222111,11 +221995,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 110,
-      "protein": 0.1,
-      "carbs": 6.2,
+      "kcal": 90,
+      "protein": 0.0,
+      "carbs": 4.8,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 4.8,
+      "alcohol": 9.8
     },
     "portion": {
       "label": "1 Glas",
@@ -222131,8 +222017,9 @@
         "grams": 15
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P9A8000 \"Cocktail, Kir Royal\". Datensatz der Datenbank (rezeptberechnet; Datenherkunft laut Quelle: Formelberechnung, Rezeptberechnung). Kohlenhydrate = verfügbare KH 4.8 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P9A8000",
     "off_similar": [
       "4335619046795",
       "27044247"
@@ -224518,7 +224405,7 @@
     "id": "bread-and-dripping",
     "name": "Bread and dripping",
     "names": {
-      "de": "Schmalzbrot",
+      "de": "Schmalzbrot (britische Art)",
       "en": "Bread and dripping",
       "tr": "Yağlı Ekmek",
       "fr": "Pain au saindoux de rôti",
@@ -227053,7 +226940,7 @@
     "names": {
       "de": "Lauchpita",
       "en": "Leek pie",
-      "tr": "Pırasalı Börek",
+      "tr": "Pırasalı Börek (Yunan usulü)",
       "fr": "Tourte aux poireaux",
       "es": "Pastel de puerro",
       "pt": "Torta de alho-francês",
@@ -229123,7 +229010,7 @@
     "names": {
       "de": "Gefüllte Calamari (griechisch)",
       "en": "Greek stuffed squid",
-      "tr": "Kalamar Dolması",
+      "tr": "Kalamar Dolması (Yunan usulü)",
       "fr": "Calamars farcis à la grecque",
       "es": "Calamares rellenos griegos",
       "pt": "Lulas recheadas gregas",
@@ -229187,7 +229074,7 @@
     "id": "lavraki-sta-karvouna",
     "name": "Lavraki sta karvouna",
     "names": {
-      "de": "Gegrillter Wolfsbarsch",
+      "de": "Gegrillter Wolfsbarsch (griechische Art)",
       "en": "Charcoal-grilled sea bass",
       "tr": "Mangalda Levrek",
       "fr": "Bar grillé au charbon",
@@ -229988,7 +229875,7 @@
     "names": {
       "de": "Eier mit Pommes (griechisch)",
       "en": "Greek eggs with fries",
-      "tr": "Patatesli Yumurta",
+      "tr": "Patatesli Yumurta (Yunan usulü)",
       "fr": "Œufs aux frites",
       "es": "Huevos con patatas fritas",
       "pt": "Ovos com batatas fritas",
@@ -230471,8 +230358,8 @@
     "name": "Lignje na žaru",
     "names": {
       "de": "Gegrillte Calamari",
-      "en": "Grilled squid",
-      "tr": "Izgara kalamar",
+      "en": "Grilled squid (Croatian style)",
+      "tr": "Izgara kalamar (Hırvat usulü)",
       "fr": "Calamars grillés",
       "es": "Calamares a la plancha",
       "pt": "Lulas grelhadas",
@@ -230530,8 +230417,8 @@
     "name": "Punjene lignje",
     "names": {
       "de": "Gefüllte Calamari",
-      "en": "Stuffed squid",
-      "tr": "Kalamar dolması",
+      "en": "Stuffed squid (Croatian style)",
+      "tr": "Kalamar dolması (Hırvat usulü)",
       "fr": "Calmars farcis",
       "es": "Calamares rellenos",
       "pt": "Lulas recheadas",
@@ -230661,9 +230548,9 @@
     "id": "salata-od-hobotnice",
     "name": "Salata od hobotnice",
     "names": {
-      "de": "Oktopussalat",
-      "en": "Octopus salad",
-      "tr": "Ahtapot salatası",
+      "de": "Oktopussalat (kroatische Art)",
+      "en": "Octopus salad (Croatian style)",
+      "tr": "Ahtapot salatası (Hırvat usulü)",
       "fr": "Salade de poulpe",
       "es": "Ensalada de pulpo",
       "pt": "Salada de polvo",
@@ -230994,8 +230881,8 @@
     "name": "Krpice sa zeljem",
     "names": {
       "de": "Krautfleckerl (kroatisch)",
-      "en": "Pasta squares with cabbage",
-      "tr": "Lahanalı kare makarna",
+      "en": "Pasta squares with cabbage (Croatian style)",
+      "tr": "Lahanalı kare makarna (Hırvat usulü)",
       "fr": "Pâtes au chou",
       "es": "Pasta con col",
       "pt": "Massa com couve",
@@ -231413,9 +231300,9 @@
     "id": "rizot-od-sparoga",
     "name": "Rižot od šparoga",
     "names": {
-      "de": "Spargelrisotto",
-      "en": "Asparagus risotto",
-      "tr": "Kuşkonmazlı risotto",
+      "de": "Spargelrisotto (kroatische Art)",
+      "en": "Asparagus risotto (Croatian style)",
+      "tr": "Kuşkonmazlı risotto (Hırvat usulü)",
       "fr": "Risotto aux asperges",
       "es": "Risotto de espárragos",
       "pt": "Risoto de espargos",
@@ -233265,8 +233152,8 @@
     "name": "Tejbegríz",
     "names": {
       "de": "Grießbrei (Tejbegríz)",
-      "en": "Semolina pudding",
-      "tr": "İrmik muhallebisi",
+      "en": "Semolina pudding (Hungarian style)",
+      "tr": "İrmik muhallebisi (Macar usulü)",
       "fr": "Semoule au lait",
       "es": "Sémola con leche",
       "pt": "Papas de sêmola",
@@ -236774,9 +236661,9 @@
     "id": "vellutata-di-zucca",
     "name": "Vellutata di zucca",
     "names": {
-      "de": "Kürbiscremesuppe",
-      "en": "Pumpkin cream soup",
-      "tr": "Balkabağı Çorbası",
+      "de": "Kürbiscremesuppe (italienische Art)",
+      "en": "Pumpkin cream soup (Italian style)",
+      "tr": "Balkabağı Çorbası (İtalyan usulü)",
       "fr": "Velouté de potiron",
       "es": "Crema de calabaza",
       "pt": "Creme de abóbora",
@@ -237412,7 +237299,7 @@
     "names": {
       "de": "Kalbsbraten (italienisch)",
       "en": "Roast veal",
-      "tr": "Dana Rosto",
+      "tr": "Dana Rosto (İtalyan usulü)",
       "fr": "Rôti de veau",
       "es": "Asado de ternera",
       "pt": "Assado de vitela",
@@ -237714,8 +237601,8 @@
     "id": "orata-al-forno",
     "name": "Orata al forno",
     "names": {
-      "de": "Dorade aus dem Ofen",
-      "en": "Baked sea bream",
+      "de": "Dorade aus dem Ofen (italienische Art)",
+      "en": "Baked sea bream (Italian style)",
       "tr": "Fırında Çipura",
       "fr": "Dorade au four",
       "es": "Dorada al horno",
@@ -238157,9 +238044,9 @@
     "id": "calamari-ripieni",
     "name": "Calamari ripieni",
     "names": {
-      "de": "Gefüllte Kalmare",
-      "en": "Stuffed squid",
-      "tr": "Kalamar Dolması",
+      "de": "Gefüllte Kalmare (italienische Art)",
+      "en": "Stuffed squid (Italian style)",
+      "tr": "Kalamar Dolması (İtalyan usulü)",
       "fr": "Calamars farcis",
       "es": "Calamares rellenos",
       "pt": "Lulas recheadas",
@@ -238917,7 +238804,7 @@
     "name": "Pomodori ripieni di riso",
     "names": {
       "de": "Mit Reis gefüllte Tomaten",
-      "en": "Rice-stuffed tomatoes",
+      "en": "Rice-stuffed tomatoes (Italian style)",
       "tr": "Pirinçli Domates Dolması",
       "fr": "Tomates farcies au riz",
       "es": "Tomates rellenos de arroz",
@@ -239280,8 +239167,8 @@
     "name": "Crocchè di patate",
     "names": {
       "de": "Kartoffelkroketten (neapolitanisch)",
-      "en": "Potato croquettes",
-      "tr": "Patates Kroket",
+      "en": "Potato croquettes (Italian style)",
+      "tr": "Patates Kroket (İtalyan usulü)",
       "fr": "Croquettes de pommes de terre",
       "es": "Croquetas de patata",
       "pt": "Croquetes de batata",
@@ -241982,7 +241869,7 @@
     "names": {
       "de": "Wäinzoossiss",
       "en": "Wäinzoossiss",
-      "tr": "Wäinzoossiss",
+      "tr": "Lüksemburg şarap sosisi (Wäinzoossiss)",
       "fr": "Wäinzoossiss",
       "es": "Wäinzoossiss",
       "pt": "Wäinzoossiss",
@@ -242225,7 +242112,7 @@
     "names": {
       "de": "Stäerzelen",
       "en": "Stäerzelen",
-      "tr": "Stäerzelen",
+      "tr": "Lüksemburg usulü karabuğday hamur topları (Stäerzelen)",
       "fr": "Stäerzelen",
       "es": "Stäerzelen",
       "pt": "Stäerzelen",
@@ -246810,7 +246697,7 @@
     "name": "Appelbeignets",
     "names": {
       "de": "Apfelkrapfen (Appelbeignets)",
-      "en": "Apple fritters",
+      "en": "Apple fritters (Dutch style)",
       "tr": "Elma kızartması (hamurlu)",
       "fr": "Beignets aux pommes",
       "es": "Buñuelos de manzana",
@@ -248382,9 +248269,9 @@
     "id": "krem-z-dyni",
     "name": "Krem z dyni",
     "names": {
-      "de": "Kürbiscremesuppe",
-      "en": "Pumpkin cream soup",
-      "tr": "Balkabağı Çorbası",
+      "de": "Kürbiscremesuppe (polnische Art)",
+      "en": "Pumpkin cream soup (Polish style)",
+      "tr": "Balkabağı Çorbası (Polonya usulü)",
       "fr": "Velouté de potiron",
       "es": "Crema de calabaza",
       "pt": "Creme de abóbora",
@@ -248855,8 +248742,8 @@
     "name": "Łazanki z kapustą",
     "names": {
       "de": "Nudelflecken mit Kraut",
-      "en": "Pasta squares with cabbage",
-      "tr": "Lahanalı Kare Makarna",
+      "en": "Pasta squares with cabbage (Polish style)",
+      "tr": "Lahanalı Kare Makarna (Polonya usulü)",
       "fr": "Pâtes carrées au chou",
       "es": "Pasta cuadrada con col",
       "pt": "Massa quadrada com couve",
@@ -249307,8 +249194,8 @@
     "id": "knedle-ze-sliwkami",
     "name": "Knedle ze śliwkami",
     "names": {
-      "de": "Zwetschgenknödel",
-      "en": "Plum dumplings",
+      "de": "Zwetschgenknödel (polnische Art)",
+      "en": "Plum dumplings (Polish style)",
       "tr": "Erikli Hamur Köftesi",
       "fr": "Knödel aux prunes",
       "es": "Albóndigas de ciruela",
@@ -250667,9 +250554,9 @@
     "id": "coelho-a-cacador",
     "name": "Coelho à caçador",
     "names": {
-      "de": "Kaninchen nach Jägerart",
-      "en": "Hunter-style rabbit",
-      "tr": "Avcı Usulü Tavşan",
+      "de": "Kaninchen nach Jägerart (portugiesische Art)",
+      "en": "Hunter-style rabbit (Portuguese style)",
+      "tr": "Avcı Usulü Tavşan (Portekiz usulü)",
       "fr": "Lapin chasseur",
       "es": "Conejo a la cazadora",
       "pt": "Coelho à caçador",
@@ -251026,8 +250913,8 @@
     "name": "Carapaus fritos",
     "names": {
       "de": "Frittierte Stöcker",
-      "en": "Fried horse mackerel",
-      "tr": "İstavrit Tava",
+      "en": "Fried horse mackerel (Portuguese style)",
+      "tr": "İstavrit Tava (Portekiz usulü)",
       "fr": "Chinchards frits",
       "es": "Jureles fritos",
       "pt": "Carapaus fritos",
@@ -251138,8 +251025,8 @@
     "name": "Lulas recheadas",
     "names": {
       "de": "Gefüllte Tintenfische",
-      "en": "Stuffed squid",
-      "tr": "Kalamar Dolması",
+      "en": "Stuffed squid (Portuguese style)",
+      "tr": "Kalamar Dolması (Portekiz usulü)",
       "fr": "Calamars farcis",
       "es": "Calamares rellenos",
       "pt": "Lulas recheadas",
@@ -251410,9 +251297,9 @@
     "id": "sopa-de-grao",
     "name": "Sopa de grão",
     "names": {
-      "de": "Kichererbsensuppe",
-      "en": "Chickpea soup",
-      "tr": "Nohut Çorbası",
+      "de": "Kichererbsensuppe (portugiesische Art)",
+      "en": "Chickpea soup (Portuguese style)",
+      "tr": "Nohut Çorbası (Portekiz usulü)",
       "fr": "Soupe de pois chiches",
       "es": "Sopa de garbanzos",
       "pt": "Sopa de grão",
@@ -251721,8 +251608,8 @@
     "name": "Tosta mista",
     "names": {
       "de": "Schinken-Käse-Toast",
-      "en": "Ham and cheese toastie",
-      "tr": "Kaşarlı Jambonlu Tost",
+      "en": "Ham and cheese toastie (Portuguese style)",
+      "tr": "Kaşarlı Jambonlu Tost (Portekiz usulü)",
       "fr": "Croque jambon-fromage",
       "es": "Sándwich mixto",
       "pt": "Tosta mista",
@@ -252409,11 +252296,13 @@
     "prepared": "homemade",
     "is_packaged_product": false,
     "per100g": {
-      "kcal": 150,
-      "protein": 0.0,
-      "carbs": 12.0,
+      "kcal": 161,
+      "protein": 0.1,
+      "carbs": 11.9,
       "fat": 0.0,
-      "fiber": 0.0
+      "fiber": 0.0,
+      "sugar": 11.9,
+      "alcohol": 15.9
     },
     "portion": {
       "label": "1 Glas (75 ml)",
@@ -252425,8 +252314,9 @@
         "grams": 75
       }
     ],
-    "quality": "estimate",
-    "source": "calculated from typical recipe and approximate reference values",
+    "quality": "reference",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P431000 \"Portwein\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 11.9 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
+    "source_id": "BLS 4.0:P431000",
     "off_similar": [
       "5602840075542",
       "5013521100918",
@@ -252586,8 +252476,8 @@
     "id": "supa-cu-galuste",
     "name": "Supă cu găluște",
     "names": {
-      "de": "Grießnockerlsuppe",
-      "en": "Semolina dumpling soup",
+      "de": "Grießnockerlsuppe (rumänische Art)",
+      "en": "Semolina dumpling soup (Romanian style)",
       "tr": "İrmik köfteli çorba",
       "fr": "Soupe aux quenelles de semoule",
       "es": "Sopa de albóndigas de sémola",
@@ -253765,8 +253655,8 @@
     "name": "Prasetina",
     "names": {
       "de": "Spanferkel (serbisch)",
-      "en": "Roast suckling pig",
-      "tr": "Süt domuzu çevirme",
+      "en": "Roast suckling pig (Serbian style)",
+      "tr": "Süt domuzu çevirme (Sırp usulü)",
       "fr": "Cochon de lait rôti",
       "es": "Cochinillo asado",
       "pt": "Leitão assado",
@@ -254521,7 +254411,7 @@
     "names": {
       "de": "Arme Ritter (Prženice)",
       "en": "French toast (prženice)",
-      "tr": "Yumurtalı ekmek",
+      "tr": "Yumurtalı ekmek (Sırp usulü)",
       "fr": "Pain perdu",
       "es": "Torrijas saladas",
       "pt": "Fatias douradas",
@@ -255119,7 +255009,7 @@
     "id": "shashlyk",
     "name": "Shashlyk",
     "names": {
-      "de": "Schaschlik",
+      "de": "Schaschlik (russische Art)",
       "en": "Shashlik",
       "tr": "Şaşlık",
       "fr": "Chachlik",
@@ -256702,7 +256592,7 @@
     "names": {
       "de": "Frikadelle mit Zwiebeln (Pannbiff)",
       "en": "Beef patty with onions",
-      "tr": "Soğanlı köfte",
+      "tr": "Soğanlı köfte (İsveç usulü)",
       "fr": "Steak haché aux oignons",
       "es": "Filete ruso con cebolla",
       "pt": "Hambúrguer com cebola",
@@ -257214,7 +257104,7 @@
     "names": {
       "de": "Äggost",
       "en": "Äggost",
-      "tr": "Äggost",
+      "tr": "İsveç yumurta peyniri (Äggost)",
       "fr": "Äggost",
       "es": "Äggost",
       "pt": "Äggost",
@@ -259529,8 +259419,8 @@
     "id": "kuzu-kulagi-corbasi",
     "name": "Kuzu Kulağı Çorbası",
     "names": {
-      "de": "Sauerampfersuppe",
-      "en": "Sorrel soup",
+      "de": "Sauerampfersuppe (türkische Art)",
+      "en": "Sorrel soup (Turkish style)",
       "tr": "Kuzu Kulağı Çorbası",
       "fr": "Soupe à l'oseille",
       "es": "Sopa de acedera",
@@ -264151,8 +264041,8 @@
     "id": "kabak-cicegi-kizartmasi",
     "name": "Kabak Çiçeği Kızartması",
     "names": {
-      "de": "Frittierte Zucchiniblüten",
-      "en": "Fried zucchini flowers",
+      "de": "Frittierte Zucchiniblüten (türkische Art)",
+      "en": "Fried zucchini flowers (Turkish style)",
       "tr": "Kabak Çiçeği Kızartması",
       "fr": "Beignets de fleurs de courgette",
       "es": "Flores de calabacín fritas",
@@ -266275,8 +266165,8 @@
     "id": "krem-karamel",
     "name": "Krem Karamel",
     "names": {
-      "de": "Karamellpudding (Crème caramel)",
-      "en": "Crème caramel",
+      "de": "Karamellpudding (Crème caramel) (türkische Art)",
+      "en": "Crème caramel (Turkish style)",
       "tr": "Krem Karamel",
       "fr": "Crème caramel",
       "es": "Flan",
@@ -285370,8 +285260,8 @@
     "name": "Hähnchenbrust, gebraten",
     "names": {
       "de": "Hähnchenbrust, gebraten",
-      "en": "Chicken breast, pan-fried",
-      "tr": "Tavuk göğsü, tavada",
+      "en": "Chicken breast, roasted",
+      "tr": "Tavuk göğsü, fırında",
       "fr": "Blanc de poulet, poêlé",
       "es": "Pechuga de pollo, frita",
       "pt": "Peito de frango, frito",
@@ -287710,7 +287600,7 @@
     "names": {
       "de": "Gewürzgurke",
       "en": "Pickled gherkin",
-      "tr": "Salatalık turşusu",
+      "tr": "Kornişon turşusu",
       "fr": "Cornichon",
       "es": "Pepinillo encurtido",
       "pt": "Pepino em conserva",
@@ -295755,7 +295645,7 @@
     "names": {
       "de": "Hühnerei, Spiegelei",
       "en": "Fried egg",
-      "tr": "Sahanda yumurta",
+      "tr": "Sahanda yumurta (tek yumurta)",
       "fr": "Œuf au plat",
       "es": "Huevo frito",
       "pt": "Ovo frito",
@@ -309964,7 +309854,7 @@
     "names": {
       "de": "Leberkäse (Aufschnitt)",
       "en": "Leberkäse (meatloaf, cold cut)",
-      "tr": "Leberkäse (et somunu, dilim)",
+      "tr": "Fırın et somunu, dilim (Leberkäse)",
       "fr": "Leberkäse (pain de viande)",
       "es": "Leberkäse (pastel de carne)",
       "pt": "Leberkäse (bolo de carne)",
@@ -309974,6 +309864,9 @@
     "aliases": {
       "de": [
         "Fleischkäse"
+      ],
+      "tr": [
+        "Leberkäse (et somunu, dilim)"
       ]
     },
     "type": "item",
@@ -312863,51 +312756,6 @@
     "quality": "reference",
     "source": "USDA FoodData Central, FNDDS 2021-2023 (Survey Foods, Release 2024-10-31), gemeinfrei (CC0 1.0), FDC ID 2705817: Mozzarella sticks, breaded, baked, or fried. Kohlenhydrate = verfügbare KH 23.14 g + Ballaststoffe 2 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "fdc_id": 2705817
-  },
-  {
-    "id": "ofen-pommes-tk-im-ofen-gebacken",
-    "name": "Ofen-Pommes (TK, im Ofen gebacken)",
-    "names": {
-      "de": "Ofen-Pommes (TK, im Ofen gebacken)",
-      "en": "Oven fries (frozen, oven-baked)",
-      "tr": "Fırın patates kızartması (dondurulmuş, fırında)",
-      "fr": "Frites au four (surgelées, cuites au four)",
-      "es": "Patatas fritas al horno (congeladas)",
-      "pt": "Batatas fritas no forno (congeladas)",
-      "it": "Patatine al forno (surgelate)",
-      "zh": "烤箱薯条（冷冻，烤制）"
-    },
-    "aliases": {
-      "de": [
-        "Backofen-Pommes",
-        "Ofenpommes"
-      ]
-    },
-    "type": "dish",
-    "barcode": null,
-    "synonyms": [],
-    "cuisine": "int",
-    "category": "Beilage",
-    "prepared": "restaurant",
-    "is_packaged_product": false,
-    "note": "Generisches Gericht (Nährwerte für das ganze Gericht aus amtlicher Datenbank), kein Markenprodukt. Keine Portionsgröße angegeben, weil die Quelle keine nennt.",
-    "per100g": {
-      "kcal": 167,
-      "protein": 3.0,
-      "carbs": 30.8,
-      "fat": 4.3,
-      "fiber": 3.4,
-      "sugar": 0.2
-    },
-    "ingredients": [
-      {
-        "name": "Ofen-Pommes (TK, im Ofen gebacken)",
-        "grams": 100
-      }
-    ],
-    "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code K130262 \"Pommes frites tiefgefroren, gebacken\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 27.4 g + Ballaststoffe 3.35 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
-    "source_id": "BLS 4.0:K130262"
   },
   {
     "id": "berner-wuerstel-gebraten",
@@ -318997,49 +318845,6 @@
     "quality": "reference",
     "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P9A8100 \"Cocktail, Hugo\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 2.56 g + Ballaststoffe 0 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
     "source_id": "BLS 4.0:P9A8100"
-  },
-  {
-    "id": "campari-orange",
-    "name": "Campari Orange",
-    "names": {
-      "de": "Campari Orange",
-      "en": "Campari and orange juice",
-      "tr": "Campari portakal",
-      "fr": "Campari orange",
-      "es": "Campari con naranja",
-      "pt": "Campari com laranja",
-      "it": "Campari orange",
-      "zh": "金巴利橙汁"
-    },
-    "type": "item",
-    "barcode": null,
-    "synonyms": [],
-    "cuisine": "it",
-    "category": "Getränk",
-    "is_packaged_product": false,
-    "note": "Generisches Getränk, kein Markenprodukt. Portion = übliche Ausschank-/Füllmenge, Dichte ca. 1 g/ml angenommen. Alkohol (Ethanol) in per100g.alcohol in g/100 g; liefert ca. 7 kcal/g, deshalb liegt kcal über 4/4/9.",
-    "per100g": {
-      "kcal": 74,
-      "protein": 0.3,
-      "carbs": 9.5,
-      "fat": 0.0,
-      "fiber": 0.1,
-      "sugar": 9.4,
-      "alcohol": 4.8
-    },
-    "portion": {
-      "label": "1 Glas Cocktail (0,25 l)",
-      "grams": 250
-    },
-    "ingredients": [
-      {
-        "name": "Campari Orange",
-        "grams": 250
-      }
-    ],
-    "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code P9B1000 \"Cocktail, Campari-Orange\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 9.4 g + Ballaststoffe 0.127 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht.",
-    "source_id": "BLS 4.0:P9B1000"
   },
   {
     "id": "margarita",

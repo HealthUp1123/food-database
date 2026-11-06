@@ -1,8 +1,51 @@
 {
   "comment": "Gewollte Abweichungen gegenüber der Git-Basis. Standardmäßig leer. Jede Zeile braucht eine Begründung. prepared und isPackagedProduct brauchen from und to. Eine Freigabe, die der Diff nicht braucht, macht den Test rot und muss weg, sobald sie auf main verbraucht ist.",
-  "delete": [],
+  "delete": [
+    {
+      "id": "spezi",
+      "reason": "Markenname Spezi. Der Eintrag entfällt, Colamix bleibt als generischer Name."
+    },
+    {
+      "id": "spritz-aperol",
+      "reason": "Markenname Aperol."
+    },
+    {
+      "id": "campari-orange",
+      "reason": "Markenname Campari."
+    },
+    {
+      "id": "guinness-stew",
+      "reason": "Markenname Guinness."
+    },
+    {
+      "id": "beef-and-guinness-pie",
+      "reason": "Markenname Guinness."
+    },
+    {
+      "id": "steak-and-ale-pie",
+      "reason": "Synonym nennt die Marke Guinness (Steak and Guinness pie)."
+    },
+    {
+      "id": "unicum",
+      "reason": "Markenname Unicum."
+    },
+    {
+      "id": "zubrowka-z-sokiem-jablkowym",
+      "reason": "Markenname Żubrówka."
+    },
+    {
+      "id": "ofen-pommes-tk-im-ofen-gebacken",
+      "reason": "TK-Fertigprodukt (BLS K130262, Pommes frites tiefgefroren, gebacken), kein Haushaltsgericht."
+    }
+  ],
   "rename": [],
-  "dropSynonym": [],
+  "dropSynonym": [
+    {
+      "id": "roggenbrot",
+      "synonym": "Roggenmischbrot",
+      "reason": "BLS B221000 ist Roggenbrot, nicht Roggenmischbrot. Das Synonym würde das Brot mit dem Mischbrot gleichsetzen."
+    }
+  ],
   "prepared": [],
   "isPackagedProduct": []
 }
