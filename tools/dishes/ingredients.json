@@ -1599,14 +1599,14 @@
       "protein": 0.8,
       "carbs": 6.7,
       "fat": 0.4,
-      "fiber": 2.0
+      "fiber": 1.0
     },
     "source": {
       "database": "USDA SR Legacy",
       "dataset_id": "168578",
       "record": "Peppers, hungarian, raw",
       "license": "CC0 1.0",
-      "note": "Ballaststoffe 2,0 g: Median USDA SR 170427 grüne Paprika (1,7 g), BLS 4.0 G541100 (2,0 g) und Ciqual 2025 20085 (3,2 g). Der ungarische SR-Satz 168578 (1,0 g) beschreibt die Form, nicht die Faser. Übrige Nährwerte bleiben USDA SR 168578."
+      "note": "Ballaststoffe 1,0 g aus demselben Satz USDA SR Legacy 168578 (Peppers, hungarian, raw). Kein Median mit anderen Paprikasätzen. Übrige Nährwerte und kcal wie USDA 168578."
     }
   },
   {
@@ -1743,7 +1743,7 @@
       "protein": 1.5,
       "carbs": 9.2,
       "fat": 0.3,
-      "fiber": 4.2
+      "fiber": 1.8
     },
     "source": {
       "database": "USDA SR Legacy",
@@ -1751,7 +1751,7 @@
       "record": "Celeriac, raw",
       "license": "CC0 1.0",
       "base_id": "knollensellerie-roh",
-      "note": "Ballaststoffe 4,2 g: Median aus USDA SR 170400 (1,8 g), BLS 4.0 G660100 (4,2 g) und Ciqual 2025 20055 Céleri-rave cru (4,5 g). Der Median trifft den BLS-Wert. Übrige Nährwerte bleiben USDA SR 170400. Grundzutat knollensellerie-roh bleibt der USDA-Satz."
+      "note": "Ballaststoffe 1,8 g aus demselben Satz USDA SR Legacy 170400 (Celeriac, raw). Kein Median mit BLS oder Ciqual. Übrige Nährwerte und kcal wie USDA 170400. Grundzutat knollensellerie-roh bleibt dieser Satz."
     }
   },
   {
@@ -2106,7 +2106,7 @@
       "protein": 3.0,
       "carbs": 6.3,
       "fat": 0.8,
-      "fiber": 4.3
+      "fiber": 3.3
     },
     "source": {
       "database": "USDA SR Legacy",
@@ -2114,7 +2114,7 @@
       "record": "Parsley, fresh",
       "license": "CC0 1.0",
       "base_id": "petersilie-frisch",
-      "note": "Ballaststoffe 4,3 g: Median USDA SR 170416 (3,3 g), BLS 4.0 G250100 (4,25 g) und Ciqual 2025 11014 Persil frais (4,3 g) = 4,25 g, auf 4,3 g gerundet. Übrige Nährwerte USDA SR 170416."
+      "note": "Ballaststoffe 3,3 g aus demselben Satz USDA SR Legacy 170416 (Parsley, fresh). Kein Median mit BLS oder Ciqual. Übrige Nährwerte und kcal wie USDA 170416."
     }
   },
   {
@@ -2838,7 +2838,7 @@
       "derived_from": [
         "Siyamoğlu 1961"
       ],
-      "note": "Schätzung nach Siyamoğlu, B. (1961), zitiert in Erbaş, M., Certel, M. & Uslu, M. K. (2005): Microbiological and chemical properties of Tarhana during fermentation and storage as wet. LWT 38, 409–416, Mittel von 134 Proben aus der Türkei: Wasser 10,2 g, Protein 16,0 g, Kohlenhydrate 60,9 g, Fett 5,4 g, Rohfaser 1,0 g, Asche 6,2 g, Salz 3,8 g je 100 g. Die Summe mit Wasser und Asche ist 99,7 g, die 60,9 g sind also ohne die Rohfaser. Gesamt-KH = 60,9 + 1,0 = 61,9 g. kcal fehlen in der Quelle; Atwater 4·16,0 + 4·60,9 + 9·5,4 = 356. Die Rohfaser ist nicht AOAC und als Untergrenze gekennzeichnet. Die frühere 1:1-Mehl/Joghurt-Trockenmasse (434 kcal) ist ersetzt."
+      "note": "Schätzung, kein freier AOAC-Gesamtfaser-Satz. Methode: Rohfaser nach Weende, 1,0 g, als Untergrenze geführt. Quelle: Siyamoğlu, B. (1961), zitiert in Erbaş, M., Certel, M. & Uslu, M. K. (2005), LWT 38, 409–416, Mittel von 134 Proben aus der Türkei. Begründung: Weende-Rohfaser ist nicht die klassische AOAC-Gesamtfaser, und es wird kein anderer freier AOAC-Satz an diese Stelle gesetzt. Der Wert bleibt 1,0 g. Übrige Angaben derselben Quelle: Wasser 10,2 g, Protein 16,0 g, Kohlenhydrate 60,9 g (ohne die Rohfaser), Fett 5,4 g, Asche 6,2 g, Salz 3,8 g. Gesamt-KH = 60,9 + 1,0 = 61,9 g. kcal fehlen in der Quelle; Atwater 4·16,0 + 4·60,9 + 9·5,4 = 356. Die frühere 1:1-Mehl/Joghurt-Trockenmasse (434 kcal) bleibt ersetzt."
     }
   },
   {
@@ -4328,7 +4328,7 @@
       "protein": 5.9,
       "carbs": 16.0,
       "fat": 0.3,
-      "fiber": 5.9
+      "fiber": 4.3
     },
     "source": {
       "database": "BLS 4.0",
@@ -4336,7 +4336,7 @@
       "record": "Meerrettich roh",
       "license": "CC BY 4.0",
       "base_id": "meerrettich-roh",
-      "note": "Ballaststoffe 5,9 g: Median BLS 4.0 G630100 (4,29 g) und Ciqual 2025 11016 Raifort frais (7,5 g) = 5,895 g, gerundet 5,9 g. Übrige Nährwerte bleiben BLS G630100. Kohlenhydrate wie in der Grundzutat (Gesamt-KH)."
+      "note": "Ballaststoffe 4,3 g aus demselben Satz BLS 4.0 G630100 (FIBT 4,29 g, gerundet 4,3 g). Kein Median mit Ciqual. Übrige Nährwerte und kcal wie BLS G630100. Kohlenhydrate sind Gesamt-KH."
     }
   },
   {
@@ -5090,7 +5090,7 @@
       "protein": 13.2,
       "carbs": 71.5,
       "fat": 3.4,
-      "fiber": 5.6
+      "fiber": 10.0
     },
     "source": {
       "database": "USDA SR Legacy",
@@ -5098,7 +5098,7 @@
       "record": "Buckwheat",
       "license": "CC0 1.0",
       "base_id": "buchweizen-roh",
-      "note": "Ballaststoffe nicht USDA allein. Median der AOAC-Werte: USDA SR 170286 10,0 g, Ciqual 2025 9380 Sarrasin complet 4,0 g, Schweizer Nährwertdatenbank V7.1 ID 421 (Buchweizen, Korn geschält) 5,8 g, BLS 4.0 C322000 FIBHMW 5,39 g. Median 5,6 g. CoFID 11-006 (nur NSP) zählt nicht. Übrige Nährwerte USDA SR 170286. Grundzutat buchweizen-roh bleibt der USDA-Satz mit 10,0 g."
+      "note": "Ballaststoffe 10,0 g aus demselben Satz USDA SR Legacy 170286 (Buckwheat). Kein Median mit Ciqual, der Schweizer Nährwertdatenbank oder BLS. Übrige Nährwerte und kcal wie USDA 170286. Grundzutat buchweizen-roh bleibt dieser Satz."
     }
   },
   {
@@ -5156,7 +5156,7 @@
       "derived_from": [
         "CoFID 2021:14-848 (NSP)"
       ],
-      "note": "Makros aus CoFID (Literatur, Fruit and Nuts Supplement 1992): kcal 403, Protein 4,3 g, Fett 23,8 g, Kohlenhydrate 45,7 g als Monosaccharid-Äquivalente (Stärke 29,6 + Zucker 16,1). AOAC-Ballaststoffe fehlen in CoFID. Schweizer Nährwertdatenbank 7.1 (Generic und Branded, Stand 01.07.2026, naehrwertdaten.ch, kommerziell nutzbar mit Quellenangabe; Datei Swiss_food_composition_database.xlsx) enthält keine Erdmandel, Cyperus oder Chufa. Ballaststoffe deshalb als gekennzeichnete Schätzung: CoFID-NSP 11,7 g, Untergrenze, nicht AOAC. Gesamt-KH = 45,7 + 11,7 = 57,4 g. USDA-Branded-Label wird nicht verwendet."
+      "note": "Schätzung der Ballaststoffe, kein AOAC-Gesamtfaser-Satz. Methode: NSP (Englyst) aus CoFID 2021 Code 14-848 \"Tigernuts\", 11,7 g, als Untergrenze geführt, weil NSP kein AOAC-Wert ist. Begründung: CoFID veröffentlicht für diesen Satz keine AOAC-Faser. USDA SR Legacy hat keinen generischen Erdmandel-Satz, nur Branded-Label, das nicht verwendet wird. Die Schweizer Nährwertdatenbank V7.1 enthält keine Erdmandel, Cyperus oder Chufa. Rohfaser aus Einzelstudien (Weende) ist keine Gesamtfaser und wird nicht eingesetzt. Makros bleiben CoFID: kcal 403, Protein 4,3 g, Fett 23,8 g, Kohlenhydrate 45,7 g als Monosaccharid-Äquivalente (Stärke 29,6 + Zucker 16,1). Gesamt-KH = 45,7 + 11,7 = 57,4 g."
     }
   },
   {

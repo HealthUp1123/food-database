@@ -2587,7 +2587,7 @@
       "protein": 14.5,
       "carbs": 4.2,
       "fat": 27.4,
-      "fiber": 0.6
+      "fiber": 0.5
     },
     "portion": {
       "label": "6 Stück",
@@ -3123,7 +3123,7 @@
       "protein": 14.9,
       "carbs": 3.8,
       "fat": 13.4,
-      "fiber": 1.3
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -3309,7 +3309,7 @@
       "protein": 13.7,
       "carbs": 4.4,
       "fat": 12.3,
-      "fiber": 1.1
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion",
@@ -5154,7 +5154,7 @@
       "protein": 17.0,
       "carbs": 3.4,
       "fat": 21.8,
-      "fiber": 0.3
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -5729,7 +5729,7 @@
       "protein": 2.0,
       "carbs": 7.1,
       "fat": 3.1,
-      "fiber": 1.1
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Teller",
@@ -5880,7 +5880,7 @@
       "protein": 4.4,
       "carbs": 10.2,
       "fat": 2.4,
-      "fiber": 1.9
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Teller",
@@ -6231,7 +6231,7 @@
       "protein": 3.7,
       "carbs": 6.8,
       "fat": 2.6,
-      "fiber": 0.8
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Teller",
@@ -6299,7 +6299,7 @@
       "protein": 3.4,
       "carbs": 5.6,
       "fat": 2.4,
-      "fiber": 0.8
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Teller",
@@ -7145,7 +7145,7 @@
       "protein": 2.3,
       "carbs": 10.5,
       "fat": 2.1,
-      "fiber": 2.2
+      "fiber": 2.1
     },
     "portion": {
       "label": "1 Teller",
@@ -9609,7 +9609,7 @@
       "protein": 4.4,
       "carbs": 12.7,
       "fat": 3.3,
-      "fiber": 1.5
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -11831,7 +11831,7 @@
       "protein": 3.0,
       "carbs": 7.8,
       "fat": 15.2,
-      "fiber": 1.3
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -11891,7 +11891,7 @@
       "protein": 8.5,
       "carbs": 3.4,
       "fat": 8.6,
-      "fiber": 0.3
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -15198,7 +15198,7 @@
       "protein": 1.5,
       "carbs": 8.6,
       "fat": 7.3,
-      "fiber": 2.9
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -24175,7 +24175,7 @@
       "protein": 4.5,
       "carbs": 10.5,
       "fat": 6.3,
-      "fiber": 1.4
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Teller",
@@ -26011,7 +26011,7 @@
       "protein": 5.6,
       "carbs": 16.0,
       "fat": 10.5,
-      "fiber": 1.7
+      "fiber": 1.6
     },
     "portion": {
       "label": "3 Stück",
@@ -26826,7 +26826,7 @@
       "protein": 3.8,
       "carbs": 4.9,
       "fat": 2.5,
-      "fiber": 0.8
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Teller",
@@ -30875,7 +30875,7 @@
       "protein": 15.0,
       "carbs": 10.9,
       "fat": 8.1,
-      "fiber": 1.6
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -34157,7 +34157,7 @@
       "protein": 4.4,
       "carbs": 8.6,
       "fat": 5.3,
-      "fiber": 0.4
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Schüssel",
@@ -36902,7 +36902,7 @@
       "protein": 10.9,
       "carbs": 3.7,
       "fat": 17.5,
-      "fiber": 1.0
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -37474,7 +37474,7 @@
       "protein": 10.9,
       "carbs": 15.5,
       "fat": 10.1,
-      "fiber": 3.0
+      "fiber": 2.9
     },
     "portion": {
       "label": "1 Portion",
@@ -37552,7 +37552,7 @@
       "protein": 4.3,
       "carbs": 24.6,
       "fat": 4.9,
-      "fiber": 4.8
+      "fiber": 4.7
     },
     "portion": {
       "label": "1 Portion",
@@ -37707,7 +37707,7 @@
       "protein": 15.7,
       "carbs": 19.3,
       "fat": 15.3,
-      "fiber": 1.4
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -37852,7 +37852,7 @@
       "protein": 15.6,
       "carbs": 19.7,
       "fat": 15.7,
-      "fiber": 1.5
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -38147,7 +38147,7 @@
       "protein": 6.5,
       "carbs": 22.7,
       "fat": 5.4,
-      "fiber": 4.1
+      "fiber": 4.0
     },
     "portion": {
       "label": "1 Portion (6 Stück)",
@@ -38741,7 +38741,7 @@
       "protein": 15.9,
       "carbs": 13.6,
       "fat": 17.0,
-      "fiber": 1.3
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion",
@@ -39290,7 +39290,7 @@
       "protein": 15.4,
       "carbs": 7.0,
       "fat": 16.7,
-      "fiber": 0.9
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion",
@@ -40097,7 +40097,7 @@
       "protein": 11.8,
       "carbs": 11.5,
       "fat": 17.7,
-      "fiber": 1.3
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion",
@@ -42813,7 +42813,7 @@
       "protein": 4.2,
       "carbs": 6.5,
       "fat": 6.0,
-      "fiber": 2.7
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -43698,7 +43698,7 @@
       "protein": 12.3,
       "carbs": 3.5,
       "fat": 16.6,
-      "fiber": 1.0
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -46513,7 +46513,7 @@
       "protein": 6.3,
       "carbs": 3.8,
       "fat": 7.5,
-      "fiber": 1.0
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Pfanne",
@@ -46575,7 +46575,7 @@
       "protein": 6.3,
       "carbs": 4.5,
       "fat": 7.4,
-      "fiber": 1.1
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Pfanne",
@@ -46633,7 +46633,7 @@
       "protein": 8.5,
       "carbs": 2.8,
       "fat": 11.1,
-      "fiber": 0.8
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Pfanne",
@@ -47400,7 +47400,7 @@
       "protein": 1.2,
       "carbs": 7.2,
       "fat": 6.0,
-      "fiber": 2.8
+      "fiber": 2.7
     },
     "portion": {
       "label": "1 Portion (2 Hälften)",
@@ -47680,7 +47680,7 @@
       "protein": 1.4,
       "carbs": 8.0,
       "fat": 4.6,
-      "fiber": 3.3
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Portion",
@@ -48861,7 +48861,7 @@
       "protein": 0.9,
       "carbs": 6.8,
       "fat": 7.2,
-      "fiber": 2.0
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion",
@@ -50627,7 +50627,7 @@
       "protein": 20.2,
       "carbs": 5.5,
       "fat": 12.7,
-      "fiber": 0.6
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Portion",
@@ -51624,7 +51624,7 @@
       "protein": 10.2,
       "carbs": 23.3,
       "fat": 30.1,
-      "fiber": 1.0
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion (4 Stück)",
@@ -52082,7 +52082,7 @@
       "protein": 9.6,
       "carbs": 19.8,
       "fat": 23.3,
-      "fiber": 0.8
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Stück",
@@ -52284,7 +52284,7 @@
       "protein": 14.4,
       "carbs": 17.6,
       "fat": 22.6,
-      "fiber": 1.0
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion (3 Stück)",
@@ -54918,7 +54918,7 @@
       "protein": 8.8,
       "carbs": 31.5,
       "fat": 10.4,
-      "fiber": 1.4
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Pide",
@@ -54992,7 +54992,7 @@
       "protein": 9.3,
       "carbs": 31.5,
       "fat": 9.8,
-      "fiber": 1.4
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Pide",
@@ -56095,7 +56095,7 @@
       "protein": 8.7,
       "carbs": 31.1,
       "fat": 9.0,
-      "fiber": 1.6
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion (4 Stück)",
@@ -56735,7 +56735,7 @@
       "protein": 9.6,
       "carbs": 35.4,
       "fat": 12.9,
-      "fiber": 1.4
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Stück",
@@ -61879,7 +61879,7 @@
       "protein": 11.1,
       "carbs": 3.3,
       "fat": 6.8,
-      "fiber": 0.4
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Portion",
@@ -61999,7 +61999,7 @@
       "protein": 17.2,
       "carbs": 8.8,
       "fat": 10.2,
-      "fiber": 0.8
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion",
@@ -62718,7 +62718,7 @@
       "protein": 1.0,
       "carbs": 5.9,
       "fat": 7.1,
-      "fiber": 2.8
+      "fiber": 2.7
     },
     "portion": {
       "label": "1 Schälchen",
@@ -62853,7 +62853,7 @@
       "protein": 0.8,
       "carbs": 6.3,
       "fat": 7.2,
-      "fiber": 1.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Schälchen",
@@ -63311,7 +63311,7 @@
       "protein": 1.2,
       "carbs": 9.2,
       "fat": 7.9,
-      "fiber": 2.1
+      "fiber": 2.0
     },
     "portion": {
       "label": "1 Schälchen",
@@ -63827,7 +63827,7 @@
       "protein": 1.2,
       "carbs": 5.8,
       "fat": 9.5,
-      "fiber": 1.8
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Schälchen",
@@ -65471,7 +65471,7 @@
       "protein": 1.3,
       "carbs": 4.2,
       "fat": 4.4,
-      "fiber": 1.3
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Schüssel",
@@ -65657,7 +65657,7 @@
       "protein": 2.6,
       "carbs": 13.0,
       "fat": 6.7,
-      "fiber": 3.1
+      "fiber": 2.9
     },
     "portion": {
       "label": "1 Portion",
@@ -66018,7 +66018,7 @@
       "protein": 0.7,
       "carbs": 6.1,
       "fat": 0.4,
-      "fiber": 1.8
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -66448,7 +66448,7 @@
       "protein": 10.2,
       "carbs": 2.5,
       "fat": 10.9,
-      "fiber": 0.7
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Pfanne",
@@ -73406,7 +73406,7 @@
       "protein": 10.3,
       "carbs": 3.9,
       "fat": 15.4,
-      "fiber": 1.1
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -73759,7 +73759,7 @@
       "protein": 12.7,
       "carbs": 3.6,
       "fat": 17.7,
-      "fiber": 0.9
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion",
@@ -73818,7 +73818,7 @@
       "protein": 8.9,
       "carbs": 4.2,
       "fat": 13.8,
-      "fiber": 1.2
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion",
@@ -75812,7 +75812,7 @@
       "protein": 11.1,
       "carbs": 22.1,
       "fat": 9.8,
-      "fiber": 1.6
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Sandwich",
@@ -76645,7 +76645,7 @@
       "protein": 8.7,
       "carbs": 4.6,
       "fat": 14.7,
-      "fiber": 1.8
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion",
@@ -77424,7 +77424,7 @@
       "protein": 14.0,
       "carbs": 18.4,
       "fat": 7.0,
-      "fiber": 1.6
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Dürüm",
@@ -77913,7 +77913,7 @@
       "protein": 1.0,
       "carbs": 6.1,
       "fat": 4.2,
-      "fiber": 1.9
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -78991,7 +78991,7 @@
       "protein": 6.9,
       "carbs": 7.1,
       "fat": 6.3,
-      "fiber": 1.4
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion",
@@ -81356,7 +81356,7 @@
       "protein": 5.9,
       "carbs": 4.8,
       "fat": 7.7,
-      "fiber": 0.8
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Teller",
@@ -83964,7 +83964,7 @@
       "protein": 15.4,
       "carbs": 16.9,
       "fat": 16.2,
-      "fiber": 1.0
+      "fiber": 0.9
     },
     "portion": {
       "label": "3 Stück",
@@ -84787,7 +84787,7 @@
       "protein": 3.7,
       "carbs": 6.7,
       "fat": 2.6,
-      "fiber": 0.8
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Teller",
@@ -84972,7 +84972,7 @@
       "protein": 12.2,
       "carbs": 18.8,
       "fat": 14.2,
-      "fiber": 1.6
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Teller",
@@ -85161,7 +85161,7 @@
       "protein": 21.7,
       "carbs": 2.1,
       "fat": 13.0,
-      "fiber": 0.7
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -86923,7 +86923,7 @@
       "protein": 4.5,
       "carbs": 6.2,
       "fat": 3.0,
-      "fiber": 0.6
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Teller",
@@ -89216,7 +89216,7 @@
       "protein": 16.3,
       "carbs": 2.9,
       "fat": 7.4,
-      "fiber": 0.3
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -91730,7 +91730,7 @@
       "protein": 2.5,
       "carbs": 14.1,
       "fat": 4.7,
-      "fiber": 1.6
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -93653,7 +93653,7 @@
       "protein": 7.9,
       "carbs": 18.3,
       "fat": 16.0,
-      "fiber": 1.8
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Portion",
@@ -94794,7 +94794,7 @@
       "protein": 3.2,
       "carbs": 9.5,
       "fat": 3.7,
-      "fiber": 2.5
+      "fiber": 2.3
     },
     "portion": {
       "label": "1 Teller",
@@ -100292,7 +100292,7 @@
       "protein": 5.2,
       "carbs": 6.0,
       "fat": 3.5,
-      "fiber": 0.8
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Teller",
@@ -102985,7 +102985,7 @@
       "protein": 13.3,
       "carbs": 5.7,
       "fat": 16.9,
-      "fiber": 1.5
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion",
@@ -103345,7 +103345,7 @@
       "protein": 11.7,
       "carbs": 4.5,
       "fat": 8.3,
-      "fiber": 1.4
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion",
@@ -103651,7 +103651,7 @@
       "protein": 2.8,
       "carbs": 6.4,
       "fat": 3.9,
-      "fiber": 0.9
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Teller",
@@ -108508,7 +108508,7 @@
       "protein": 4.4,
       "carbs": 13.2,
       "fat": 3.5,
-      "fiber": 3.3
+      "fiber": 3.2
     },
     "portion": {
       "label": "1 Teller",
@@ -109559,7 +109559,7 @@
       "protein": 5.8,
       "carbs": 3.2,
       "fat": 3.1,
-      "fiber": 0.6
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Teller",
@@ -109626,7 +109626,7 @@
       "protein": 5.1,
       "carbs": 7.5,
       "fat": 3.2,
-      "fiber": 0.8
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Teller",
@@ -112059,7 +112059,7 @@
       "protein": 9.4,
       "carbs": 1.7,
       "fat": 17.8,
-      "fiber": 0.5
+      "fiber": 0.4
     },
     "portion": {
       "label": "2 Stück",
@@ -112857,7 +112857,7 @@
       "protein": 0.6,
       "carbs": 4.4,
       "fat": 1.6,
-      "fiber": 1.0
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -120375,7 +120375,7 @@
       "protein": 6.3,
       "carbs": 5.7,
       "fat": 8.8,
-      "fiber": 0.9
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -121028,7 +121028,7 @@
       "protein": 11.3,
       "carbs": 1.4,
       "fat": 10.2,
-      "fiber": 0.7
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -124089,7 +124089,7 @@
       "protein": 1.3,
       "carbs": 7.2,
       "fat": 1.8,
-      "fiber": 1.0
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Teller",
@@ -124293,7 +124293,7 @@
       "protein": 10.9,
       "carbs": 19.6,
       "fat": 14.2,
-      "fiber": 1.4
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Teller",
@@ -125482,7 +125482,7 @@
       "protein": 6.2,
       "carbs": 10.6,
       "fat": 4.6,
-      "fiber": 3.6
+      "fiber": 3.5
     },
     "portion": {
       "label": "1 Teller",
@@ -127709,7 +127709,7 @@
       "protein": 11.9,
       "carbs": 4.3,
       "fat": 4.7,
-      "fiber": 0.8
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion",
@@ -128044,7 +128044,7 @@
       "protein": 16.7,
       "carbs": 3.1,
       "fat": 23.5,
-      "fiber": 0.7
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -129624,7 +129624,7 @@
       "protein": 1.7,
       "carbs": 5.1,
       "fat": 50.8,
-      "fiber": 1.9
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Portion",
@@ -130925,7 +130925,7 @@
       "protein": 18.3,
       "carbs": 1.9,
       "fat": 13.9,
-      "fiber": 0.4
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Portion",
@@ -132440,7 +132440,7 @@
       "protein": 13.8,
       "carbs": 0.8,
       "fat": 11.6,
-      "fiber": 0.3
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Tapa",
@@ -133065,7 +133065,7 @@
       "protein": 17.6,
       "carbs": 1.6,
       "fat": 14.8,
-      "fiber": 0.4
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Tapa",
@@ -136034,7 +136034,7 @@
       "protein": 1.8,
       "carbs": 7.3,
       "fat": 12.3,
-      "fiber": 3.0
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -136631,7 +136631,7 @@
       "protein": 12.4,
       "carbs": 1.0,
       "fat": 15.5,
-      "fiber": 0.2
+      "fiber": 0.1
     },
     "portion": {
       "label": "1 Omelett",
@@ -136880,7 +136880,7 @@
       "protein": 5.2,
       "carbs": 6.7,
       "fat": 4.2,
-      "fiber": 1.3
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Teller",
@@ -139617,7 +139617,7 @@
       "protein": 17.7,
       "carbs": 5.8,
       "fat": 10.4,
-      "fiber": 0.3
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -142576,7 +142576,7 @@
       "protein": 7.8,
       "carbs": 3.8,
       "fat": 18.4,
-      "fiber": 0.4
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Schälchen",
@@ -142847,7 +142847,7 @@
       "protein": 12.0,
       "carbs": 6.3,
       "fat": 24.4,
-      "fiber": 0.7
+      "fiber": 0.6
     },
     "portion": {
       "label": "6 Stück",
@@ -143673,7 +143673,7 @@
       "protein": 9.1,
       "carbs": 7.3,
       "fat": 6.7,
-      "fiber": 1.4
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Teller",
@@ -146567,7 +146567,7 @@
       "protein": 4.2,
       "carbs": 4.2,
       "fat": 3.6,
-      "fiber": 0.7
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Teller",
@@ -153295,7 +153295,7 @@
       "protein": 3.8,
       "carbs": 15.1,
       "fat": 2.6,
-      "fiber": 3.4
+      "fiber": 3.3
     },
     "portion": {
       "label": "1 Teller",
@@ -156241,7 +156241,7 @@
       "protein": 12.9,
       "carbs": 4.2,
       "fat": 16.6,
-      "fiber": 0.9
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion",
@@ -156885,7 +156885,7 @@
       "protein": 12.0,
       "carbs": 9.0,
       "fat": 6.1,
-      "fiber": 0.6
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Portion",
@@ -157028,7 +157028,7 @@
       "protein": 3.3,
       "carbs": 11.1,
       "fat": 3.2,
-      "fiber": 1.8
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Teller",
@@ -157108,7 +157108,7 @@
       "protein": 16.0,
       "carbs": 5.5,
       "fat": 4.3,
-      "fiber": 1.1
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -160038,7 +160038,7 @@
       "protein": 7.3,
       "carbs": 20.5,
       "fat": 6.6,
-      "fiber": 1.8
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Teller",
@@ -160115,7 +160115,7 @@
       "protein": 3.5,
       "carbs": 13.4,
       "fat": 2.9,
-      "fiber": 2.2
+      "fiber": 2.1
     },
     "portion": {
       "label": "1 Teller",
@@ -160634,7 +160634,7 @@
       "protein": 3.4,
       "carbs": 11.3,
       "fat": 3.0,
-      "fiber": 2.5
+      "fiber": 2.4
     },
     "portion": {
       "label": "1 Teller",
@@ -160854,7 +160854,7 @@
       "protein": 18.1,
       "carbs": 6.2,
       "fat": 8.1,
-      "fiber": 0.3
+      "fiber": 0.2
     },
     "portion": {
       "label": "1 Portion",
@@ -161635,7 +161635,7 @@
       "protein": 14.5,
       "carbs": 2.5,
       "fat": 10.4,
-      "fiber": 0.7
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Teller",
@@ -161851,7 +161851,7 @@
       "protein": 1.1,
       "carbs": 8.4,
       "fat": 7.9,
-      "fiber": 2.9
+      "fiber": 2.6
     },
     "portion": {
       "label": "1 Portion",
@@ -162378,7 +162378,7 @@
       "protein": 8.1,
       "carbs": 10.1,
       "fat": 6.8,
-      "fiber": 1.3
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Portion",
@@ -165224,7 +165224,7 @@
       "protein": 2.2,
       "carbs": 11.6,
       "fat": 2.5,
-      "fiber": 2.7
+      "fiber": 2.6
     },
     "portion": {
       "label": "1 Teller",
@@ -165902,7 +165902,7 @@
       "protein": 6.8,
       "carbs": 20.5,
       "fat": 8.3,
-      "fiber": 1.7
+      "fiber": 2.3
     },
     "portion": {
       "label": "1 Teller",
@@ -166632,7 +166632,7 @@
       "protein": 7.6,
       "carbs": 19.0,
       "fat": 7.2,
-      "fiber": 1.4
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Teller",
@@ -166794,7 +166794,7 @@
       "protein": 11.8,
       "carbs": 4.4,
       "fat": 7.0,
-      "fiber": 1.4
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion",
@@ -166939,7 +166939,7 @@
       "protein": 3.7,
       "carbs": 10.8,
       "fat": 2.9,
-      "fiber": 2.0
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Teller",
@@ -169521,7 +169521,7 @@
       "protein": 5.1,
       "carbs": 10.7,
       "fat": 4.4,
-      "fiber": 3.3
+      "fiber": 3.2
     },
     "portion": {
       "label": "1 Teller",
@@ -171982,7 +171982,7 @@
       "protein": 1.2,
       "carbs": 6.6,
       "fat": 2.2,
-      "fiber": 0.9
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -172332,7 +172332,7 @@
       "protein": 1.9,
       "carbs": 8.6,
       "fat": 1.6,
-      "fiber": 1.7
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Teller",
@@ -172613,7 +172613,7 @@
       "protein": 8.8,
       "carbs": 8.0,
       "fat": 7.0,
-      "fiber": 1.4
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion",
@@ -172833,7 +172833,7 @@
       "protein": 2.1,
       "carbs": 12.8,
       "fat": 0.2,
-      "fiber": 3.0
+      "fiber": 2.8
     },
     "portion": {
       "label": "1 Portion",
@@ -174430,7 +174430,7 @@
       "protein": 1.1,
       "carbs": 5.1,
       "fat": 0.8,
-      "fiber": 0.8
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Teller",
@@ -177812,7 +177812,7 @@
       "protein": 4.2,
       "carbs": 5.9,
       "fat": 3.2,
-      "fiber": 0.9
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Teller",
@@ -178145,7 +178145,7 @@
       "protein": 3.8,
       "carbs": 2.5,
       "fat": 2.4,
-      "fiber": 0.4
+      "fiber": 0.3
     },
     "portion": {
       "label": "1 Teller",
@@ -178516,7 +178516,7 @@
       "protein": 5.7,
       "carbs": 8.4,
       "fat": 10.2,
-      "fiber": 1.8
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion",
@@ -178595,7 +178595,7 @@
       "protein": 4.6,
       "carbs": 10.3,
       "fat": 5.6,
-      "fiber": 2.5
+      "fiber": 2.4
     },
     "portion": {
       "label": "1 Teller",
@@ -178995,7 +178995,7 @@
       "protein": 3.7,
       "carbs": 4.5,
       "fat": 3.8,
-      "fiber": 0.6
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Teller",
@@ -179148,7 +179148,7 @@
       "protein": 15.6,
       "carbs": 6.2,
       "fat": 13.3,
-      "fiber": 0.8
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Scheibe",
@@ -183568,7 +183568,7 @@
       "protein": 5.3,
       "carbs": 22.2,
       "fat": 8.8,
-      "fiber": 1.7
+      "fiber": 3.1
     },
     "portion": {
       "label": "1 Portion",
@@ -183678,7 +183678,7 @@
       "protein": 5.4,
       "carbs": 4.6,
       "fat": 3.4,
-      "fiber": 0.7
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Teller",
@@ -184314,7 +184314,7 @@
       "protein": 17.7,
       "carbs": 13.0,
       "fat": 20.1,
-      "fiber": 0.8
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Stück",
@@ -184863,7 +184863,7 @@
       "protein": 4.5,
       "carbs": 24.4,
       "fat": 4.3,
-      "fiber": 1.9
+      "fiber": 3.4
     },
     "portion": {
       "label": "1 Portion",
@@ -187254,7 +187254,7 @@
       "protein": 5.9,
       "carbs": 6.1,
       "fat": 5.6,
-      "fiber": 1.0
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Teller",
@@ -187382,7 +187382,7 @@
       "protein": 5.8,
       "carbs": 24.9,
       "fat": 13.1,
-      "fiber": 1.9
+      "fiber": 3.5
     },
     "portion": {
       "label": "1 Portion",
@@ -188287,7 +188287,7 @@
       "protein": 7.0,
       "carbs": 7.9,
       "fat": 9.2,
-      "fiber": 1.4
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Teller",
@@ -194132,7 +194132,7 @@
       "protein": 4.7,
       "carbs": 5.1,
       "fat": 1.5,
-      "fiber": 1.2
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Teller",
@@ -195986,7 +195986,7 @@
       "protein": 12.1,
       "carbs": 32.4,
       "fat": 21.9,
-      "fiber": 5.5
+      "fiber": 5.4
     },
     "portion": {
       "label": "3 Stück (180 g)",
@@ -198595,7 +198595,7 @@
       "protein": 9.9,
       "carbs": 3.9,
       "fat": 12.0,
-      "fiber": 0.8
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion",
@@ -198742,7 +198742,7 @@
       "protein": 11.5,
       "carbs": 4.6,
       "fat": 12.8,
-      "fiber": 0.8
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Portion",
@@ -198816,7 +198816,7 @@
       "protein": 15.2,
       "carbs": 11.5,
       "fat": 13.0,
-      "fiber": 0.9
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion",
@@ -201463,7 +201463,7 @@
       "protein": 2.6,
       "carbs": 8.7,
       "fat": 3.9,
-      "fiber": 1.2
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Teller",
@@ -202729,7 +202729,7 @@
       "protein": 4.6,
       "carbs": 33.7,
       "fat": 14.6,
-      "fiber": 0.9
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Stück",
@@ -208860,7 +208860,7 @@
       "protein": 1.7,
       "carbs": 8.2,
       "fat": 0.3,
-      "fiber": 0.8
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Teller",
@@ -208989,7 +208989,7 @@
       "protein": 5.1,
       "carbs": 3.8,
       "fat": 4.5,
-      "fiber": 0.5
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Teller",
@@ -209058,7 +209058,7 @@
       "protein": 4.7,
       "carbs": 11.2,
       "fat": 0.6,
-      "fiber": 2.1
+      "fiber": 2.0
     },
     "portion": {
       "label": "1 Teller",
@@ -210290,7 +210290,7 @@
       "protein": 13.1,
       "carbs": 11.8,
       "fat": 15.9,
-      "fiber": 1.7
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Stück",
@@ -218926,7 +218926,7 @@
       "protein": 1.1,
       "carbs": 12.5,
       "fat": 5.4,
-      "fiber": 3.1
+      "fiber": 3.0
     },
     "portion": {
       "label": "1 Portion",
@@ -228477,7 +228477,7 @@
       "protein": 9.2,
       "carbs": 3.9,
       "fat": 11.5,
-      "fiber": 1.6
+      "fiber": 0.7
     },
     "portion": {
       "label": "1 Portion (400 g)",
@@ -228543,7 +228543,7 @@
       "protein": 8.5,
       "carbs": 5.6,
       "fat": 11.4,
-      "fiber": 1.1
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion (400 g)",
@@ -228609,7 +228609,7 @@
       "protein": 5.2,
       "carbs": 7.7,
       "fat": 4.2,
-      "fiber": 1.0
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller (400 g)",
@@ -232103,7 +232103,7 @@
       "protein": 13.3,
       "carbs": 17.2,
       "fat": 19.2,
-      "fiber": 1.6
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Portion",
@@ -236266,7 +236266,7 @@
       "protein": 5.7,
       "carbs": 26.8,
       "fat": 8.8,
-      "fiber": 2.2
+      "fiber": 2.1
     },
     "portion": {
       "label": "1 Teller",
@@ -236926,7 +236926,7 @@
       "protein": 5.2,
       "carbs": 13.5,
       "fat": 8.0,
-      "fiber": 0.8
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Teller",
@@ -238113,7 +238113,7 @@
       "protein": 13.4,
       "carbs": 10.4,
       "fat": 8.9,
-      "fiber": 0.6
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Portion",
@@ -238814,7 +238814,7 @@
       "protein": 3.9,
       "carbs": 4.6,
       "fat": 7.5,
-      "fiber": 1.5
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion",
@@ -242247,7 +242247,7 @@
       "protein": 6.9,
       "carbs": 23.7,
       "fat": 11.6,
-      "fiber": 1.8
+      "fiber": 3.3
     },
     "portion": {
       "label": "1 Portion",
@@ -245225,7 +245225,7 @@
       "protein": 1.9,
       "carbs": 4.4,
       "fat": 9.3,
-      "fiber": 1.6
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Portion",
@@ -245973,7 +245973,7 @@
       "protein": 3.6,
       "carbs": 5.3,
       "fat": 3.3,
-      "fiber": 0.8
+      "fiber": 0.6
     },
     "portion": {
       "label": "1 Teller",
@@ -247347,7 +247347,7 @@
       "protein": 5.0,
       "carbs": 12.6,
       "fat": 4.6,
-      "fiber": 3.7
+      "fiber": 3.5
     },
     "portion": {
       "label": "1 Teller",
@@ -248202,7 +248202,7 @@
       "protein": 1.5,
       "carbs": 6.0,
       "fat": 1.6,
-      "fiber": 1.5
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Teller",
@@ -256536,7 +256536,7 @@
       "protein": 3.6,
       "carbs": 15.6,
       "fat": 4.0,
-      "fiber": 1.5
+      "fiber": 2.4
     },
     "portion": {
       "label": "1 Portion",
@@ -258129,7 +258129,7 @@
       "protein": 7.7,
       "carbs": 30.5,
       "fat": 8.6,
-      "fiber": 2.0
+      "fiber": 3.0
     },
     "portion": {
       "label": "1 Portion (250 g)",
@@ -258322,7 +258322,7 @@
       "protein": 4.3,
       "carbs": 17.8,
       "fat": 4.1,
-      "fiber": 1.6
+      "fiber": 2.6
     },
     "portion": {
       "label": "1 Portion (300 g)",
@@ -260564,7 +260564,7 @@
       "protein": 15.7,
       "carbs": 14.1,
       "fat": 23.8,
-      "fiber": 2.0
+      "fiber": 1.9
     },
     "portion": {
       "label": "1 Portion (250 g)",
@@ -260631,7 +260631,7 @@
       "protein": 16.7,
       "carbs": 9.4,
       "fat": 17.1,
-      "fiber": 0.9
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion (220 g)",
@@ -261103,7 +261103,7 @@
       "protein": 9.1,
       "carbs": 4.2,
       "fat": 14.6,
-      "fiber": 1.7
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion (300 g)",
@@ -261626,7 +261626,7 @@
       "protein": 1.0,
       "carbs": 7.4,
       "fat": 3.4,
-      "fiber": 1.4
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Schale (250 g)",
@@ -262135,7 +262135,7 @@
       "protein": 5.8,
       "carbs": 24.9,
       "fat": 6.1,
-      "fiber": 4.4
+      "fiber": 4.3
     },
     "portion": {
       "label": "1 Portion (250 g)",
@@ -262794,7 +262794,7 @@
       "protein": 17.5,
       "carbs": 12.8,
       "fat": 13.3,
-      "fiber": 1.0
+      "fiber": 0.9
     },
     "portion": {
       "label": "6 Stück (180 g)",
@@ -264108,7 +264108,7 @@
       "protein": 10.3,
       "carbs": 9.4,
       "fat": 6.6,
-      "fiber": 1.0
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion (250 g)",
@@ -267340,7 +267340,7 @@
       "protein": 13.1,
       "carbs": 22.3,
       "fat": 6.8,
-      "fiber": 1.5
+      "fiber": 1.4
     },
     "portion": {
       "label": "1 Portion (280 g)",
@@ -267795,7 +267795,7 @@
       "protein": 0.9,
       "carbs": 5.2,
       "fat": 7.1,
-      "fiber": 1.6
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Portion (200 g)",
@@ -267990,7 +267990,7 @@
       "protein": 3.5,
       "carbs": 7.5,
       "fat": 16.1,
-      "fiber": 2.8
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Portion (150 g)",
@@ -268563,7 +268563,7 @@
       "protein": 5.5,
       "carbs": 14.0,
       "fat": 34.3,
-      "fiber": 4.3
+      "fiber": 4.2
     },
     "portion": {
       "label": "1 Portion (60 g)",
@@ -270357,7 +270357,7 @@
       "protein": 10.5,
       "carbs": 15.7,
       "fat": 15.4,
-      "fiber": 1.2
+      "fiber": 1.9
     },
     "portion": {
       "label": "3 Stück",
@@ -325025,7 +325025,7 @@
       "protein": 11.3,
       "carbs": 2.5,
       "fat": 4.1,
-      "fiber": 0.7
+      "fiber": 0.5
     },
     "portion": {
       "label": "1 Portion",
@@ -325098,7 +325098,7 @@
       "protein": 13.1,
       "carbs": 6.3,
       "fat": 5.4,
-      "fiber": 1.1
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -325166,7 +325166,7 @@
       "protein": 16.3,
       "carbs": 1.6,
       "fat": 7.1,
-      "fiber": 0.5
+      "fiber": 0.4
     },
     "portion": {
       "label": "1 Portion",
@@ -325403,7 +325403,7 @@
       "protein": 8.2,
       "carbs": 4.5,
       "fat": 14.1,
-      "fiber": 0.9
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Teller",
@@ -325527,7 +325527,7 @@
       "protein": 2.0,
       "carbs": 7.2,
       "fat": 5.1,
-      "fiber": 1.6
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Schälchen",
@@ -325867,7 +325867,7 @@
       "protein": 12.7,
       "carbs": 4.1,
       "fat": 16.9,
-      "fiber": 1.1
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -326352,7 +326352,7 @@
       "protein": 0.9,
       "carbs": 6.9,
       "fat": 4.9,
-      "fiber": 1.4
+      "fiber": 1.2
     },
     "portion": {
       "label": "1 Schüssel",
@@ -326424,7 +326424,7 @@
       "protein": 0.7,
       "carbs": 3.3,
       "fat": 5.1,
-      "fiber": 1.2
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Schüssel",
@@ -326628,7 +326628,7 @@
       "protein": 5.9,
       "carbs": 5.1,
       "fat": 9.4,
-      "fiber": 1.8
+      "fiber": 1.7
     },
     "portion": {
       "label": "1 Portion",
@@ -327012,7 +327012,7 @@
       "protein": 1.4,
       "carbs": 10.9,
       "fat": 6.0,
-      "fiber": 2.8
+      "fiber": 2.7
     },
     "portion": {
       "label": "1 Schälchen",
@@ -327296,7 +327296,7 @@
       "protein": 13.5,
       "carbs": 7.4,
       "fat": 18.1,
-      "fiber": 0.9
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion",
@@ -330067,7 +330067,7 @@
       "protein": 3.0,
       "carbs": 19.7,
       "fat": 5.4,
-      "fiber": 3.4
+      "fiber": 3.3
     },
     "portion": {
       "label": "1 Portion",
@@ -330847,7 +330847,7 @@
       "protein": 17.3,
       "carbs": 6.6,
       "fat": 8.3,
-      "fiber": 0.9
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion",
@@ -331083,7 +331083,7 @@
       "protein": 6.1,
       "carbs": 17.0,
       "fat": 7.8,
-      "fiber": 1.0
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Teller",
@@ -333924,7 +333924,7 @@
       "protein": 13.4,
       "carbs": 17.3,
       "fat": 4.5,
-      "fiber": 1.4
+      "fiber": 1.3
     },
     "portion": {
       "label": "1 Dürüm",
@@ -334255,7 +334255,7 @@
       "protein": 10.2,
       "carbs": 22.5,
       "fat": 11.9,
-      "fiber": 1.6
+      "fiber": 1.5
     },
     "portion": {
       "label": "1 Stück",
@@ -334482,7 +334482,7 @@
       "protein": 13.8,
       "carbs": 10.0,
       "fat": 18.7,
-      "fiber": 1.1
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Teller",
@@ -334554,7 +334554,7 @@
       "protein": 1.1,
       "carbs": 6.4,
       "fat": 5.1,
-      "fiber": 2.0
+      "fiber": 1.8
     },
     "portion": {
       "label": "1 Beilage",
@@ -334738,7 +334738,7 @@
       "protein": 1.2,
       "carbs": 6.3,
       "fat": 9.9,
-      "fiber": 2.0
+      "fiber": 1.6
     },
     "portion": {
       "label": "1 Schälchen",
@@ -335035,7 +335035,7 @@
       "protein": 1.7,
       "carbs": 7.8,
       "fat": 10.4,
-      "fiber": 1.9
+      "fiber": 1.0
     },
     "portion": {
       "label": "1 Portion",
@@ -335198,7 +335198,7 @@
       "protein": 4.3,
       "carbs": 7.5,
       "fat": 4.5,
-      "fiber": 1.5
+      "fiber": 0.8
     },
     "portion": {
       "label": "1 Portion",
@@ -335428,7 +335428,7 @@
       "protein": 16.2,
       "carbs": 12.6,
       "fat": 7.5,
-      "fiber": 1.0
+      "fiber": 0.9
     },
     "portion": {
       "label": "1 Portion",
@@ -335484,7 +335484,7 @@
       "protein": 17.6,
       "carbs": 14.0,
       "fat": 10.4,
-      "fiber": 1.3
+      "fiber": 1.1
     },
     "portion": {
       "label": "1 Spieß",
