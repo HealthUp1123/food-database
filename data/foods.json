@@ -335578,5 +335578,38 @@
     ],
     "quality": "estimate",
     "source": "calculated from a typical recipe; ingredient values from named datasets or labeled estimates (classical AOAC fiber, fructans not included; carbohydrates are total carbohydrates)"
+  },
+  {
+    "id": "piratenschatz-knusprig-paniert-panierte-seelachs-fishfiguren",
+    "name": "Piratenschatz - knusprig paniert - Panierte Seelachs Fishfiguren",
+    "names": {
+      "de": "Piratenschatz - knusprig paniert - Panierte Seelachs Fishfiguren",
+      "en": "Piratenschatz breaded pollock fish shapes",
+      "tr": "Piratenschatz panelenmiş kömür balığı figürleri",
+      "fr": "Piratenschatz - knusprig paniert - Panierte Seelachs Fishfiguren",
+      "es": "Piratenschatz - knusprig paniert - Panierte Seelachs Fishfiguren",
+      "pt": "Piratenschatz - knusprig paniert - Panierte Seelachs Fishfiguren"
+    },
+    "type": "item",
+    "barcode": "4006827405161",
+    "synonyms": [],
+    "cuisine": "de",
+    "category": "Hauptgericht Fisch",
+    "is_packaged_product": true,
+    "per100g": {
+      "kcal": 221,
+      "protein": 11.0,
+      "carbs": 25.0,
+      "fat": 8.0,
+      "fiber": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Piratenschatz - knusprig paniert - Panierte Seelachs Fishfiguren",
+        "grams": 100
+      }
+    ],
+    "quality": "verified",
+    "source": "Nutzermeldung, Packungsangabe (foodsub-6A75ABB5-EE5E-41EF-9F51-122ECB92B659, 2026-11-08), Marke FishTime, Barcode 4006827405161. Ausnahme von Regel 4 auf Ahmets Anweisung."
   }
 ]
