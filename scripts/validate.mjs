@@ -99,7 +99,8 @@ data.forEach((e, i) => {
       if (!isNum(p.alcohol) || p.alcohol < 0 || p.alcohol > 100) err(ctx, `alcohol ${p.alcohol} ungültig (0–100 g pro 100 g)`);
     }
     if (MACROS.every((m) => isNum(p[m]))) {
-      // 0,15 g Rundungstoleranz: Referenzdaten (z. B. USDA Leinöl 0,11 g Eiweiß + 99,98 g Fett) summieren teils knapp über 100 g.
+      // 0,15 g Rundungstoleranz: ungerundete Referenzdaten summieren teils knapp über 100 g.
+      // Leinöl (USDA 167702: 0,11 g Eiweiß + 99,98 g Fett) steht im Bestand als 0,1 g + 99,9 g.
       if (p.protein + p.carbs + p.fat > 100.15) err(ctx, `Protein+Kohlenhydrate+Fett = ${(p.protein + p.carbs + p.fat).toFixed(1)} g > 100 g`);
       if (p.fiber > p.carbs + 0.0001 && p.fiber > 0) {
         // Ballaststoffe zählen oft separat; nur Warnung, kein Fehler
