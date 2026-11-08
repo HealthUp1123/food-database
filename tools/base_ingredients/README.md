@@ -49,7 +49,7 @@ Jede Liste enthält je Zeile den deutschen Namen, die Kategorie, den Zustand, de
 - `Weizenmehl (Auszugsmehl, ~Typ 405)` entspricht „Wheat flour, white, all-purpose“. Für Typ 1050 und für Quark gibt es keine passenden USDA-Datensätze.
 - Schlagsahne 30 % entspricht „light whipping cream“, 36 % entspricht „heavy whipping cream“.
 - Bei Milchprodukten liegt USDA-Zucker (gemessen) teils leicht über den Kohlenhydraten (Differenzrechnung). Das ist ein Rundungsartefakt der Quelle.
-- Leinöl: 0,11 g Eiweiß + 99,98 g Fett ergeben 100,1 g. Der Validator erlaubt dafür 0,15 g Rundungstoleranz.
+- Leinöl (USDA SR Legacy 167702): Protein 0,11 g und Fett 99,98 g, Summe 100,09 g. Gespeichert sind 0,1 g Eiweiß und 99,9 g Fett, damit die Summe 100 g ist.
 - Brot: Die üblichen Brotsorten (Weißbrot, Vollkornbrot, Roggenbrot, Baguette, Brötchen …) gibt es schon als Gerichte. Sie wurden nicht doppelt angelegt; aufgenommen ist nur Pitabrot.
 
 ## Zubereitungsvarianten

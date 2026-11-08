@@ -62,6 +62,19 @@ def slug(s, cuisine):
     s = re.sub(r'[^a-z0-9]+', '-', s).strip('-')
     return s
 
+# Rezeptgerichte. Ballaststoffe der Zutaten sind klassische AOAC-Faser (Fructane zählen nicht).
+# Kohlenhydrate bleiben Gesamt-KH. Kein eigenes Methodenfeld.
+DISH_SOURCE = (
+    'calculated from a typical recipe; ingredient values from named datasets or labeled estimates '
+    '(classical AOAC fiber, fructans not included; carbohydrates are total carbohydrates)'
+)
+BUNDNER_SOURCE = (
+    'Schweizer Nährwertdatenbank V7.1, Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV), '
+    'naehrwertdaten.ch (frei verwendbar mit Quellenangabe); ID 709 '
+    '"Dried meat (Hobel-, Bündner-, Walliser-, Tessiner- dried meat)". '
+    'Ballaststoffe 0 g, klassische AOAC-Faser.'
+)
+
 def load_ingredients():
     ing = {}
     for l in open(os.path.join(HERE,'ingredients_src.txt'), encoding='utf8'):
@@ -69,6 +82,18 @@ def load_ingredients():
         if not l or l.startswith('#'): continue
         k,n,kc,p,c,f,fi = l.split('|')
         ing[k] = dict(name=n, kcal=float(kc), protein=float(p), carbs=float(c), fat=float(f), fiber=float(fi))
+    # Quellen stehen in ingredients.json und überleben den Build. Zahlen kommen aus ingredients_src.txt.
+    src_path = os.path.join(HERE, 'ingredients.json')
+    if os.path.exists(src_path):
+        prev = load_json(src_path)
+        if isinstance(prev, list):
+            by = {e.get('key'): e for e in prev if isinstance(e, dict)}
+            for k, d in ing.items():
+                src = (by.get(k) or {}).get('source')
+                if isinstance(src, dict):
+                    src = {kk: vv for kk, vv in src.items() if kk != 'method' and kk != 'fiber_method'}
+                    if src:
+                        d['source'] = src
     return ing
 
 def load_batches():
@@ -124,7 +149,7 @@ def main():
             for k,g in lst: merged[k] = merged.get(k,0)+g
             e['ingredients']=[{'name':ing[k]['name'],'grams':(int(g) if float(g).is_integer() else g)} for k,g in merged.items()]
             e['quality']='estimate'
-            e['source']='calculated from typical recipe and approximate reference values'
+            e['source'] = BUNDNER_SOURCE if did == 'bundnerfleisch' else DISH_SOURCE
             if did in ids: errors.append(f'{ctx} {name}: doppelte id {did} (auch {ids[did]})')
             ids[did] = ctx
             nk = (cuisine, slug(name,cuisine))
@@ -162,8 +187,15 @@ def main():
     out = assemble_bestand(recipes, overridden)
     text = json.dumps(out, ensure_ascii=False, indent=2) + '\n'
     open(os.path.join(HERE,'foods.json'),'w',encoding='utf8').write(text)
-    json.dump([dict(key=k, name=v['name'], per100g={f:v[f] for f in ('kcal','protein','carbs','fat','fiber')}) for k,v in ing.items()],
-              open(os.path.join(HERE,'ingredients.json'),'w',encoding='utf8'), ensure_ascii=False, indent=2)
+    rows = []
+    for k, v in ing.items():
+        row = dict(key=k, name=v['name'], per100g={f: v[f] for f in ('kcal','protein','carbs','fat','fiber')})
+        if v.get('source'):
+            row['source'] = v['source']
+        rows.append(row)
+    with open(os.path.join(HERE,'ingredients.json'),'w',encoding='utf8') as f:
+        json.dump(rows, f, ensure_ascii=False, indent=2)
+        f.write('\n')
     cnt = collections.Counter(d['cuisine'] for d in recipes)
     cc = collections.Counter((d['cuisine'],d['category']) for d in recipes)
     with open(os.path.join(HERE,'build_report.txt'),'w',encoding='utf8') as f:

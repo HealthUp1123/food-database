@@ -3,7 +3,7 @@
 Eigene Lebensmittel-Datenbank für einen Kalorientracker: **4446 Gerichte** aus **57 Küchen** — 1029 türkisch (`tr`), 668 deutsch (`de`), 2651 weitere aus Europa und dem Kaukasus, 86 aus Asien (`cn`, `jp`, `in`, `th`, `vn`, `kr`, `id`) und 9 internationale Imbissgerichte (`int`) — plus **838 Grundzutaten** und **73 Getränke** (Basis-Lebensmittel roh und in üblichen Zubereitungen wie gekocht, gegrillt, getrocknet, tiefgekühlt oder aus der Dose, mit Referenzwerten aus USDA sowie direkten Datensätzen aus dem Bundeslebensmittelschlüssel BLS 4.0, Ciqual, der Schweizer und der schwedischen Nährwertdatenbank; nur 21 Zubereitungen ohne direkten Datensatz geschätzt), mit Kalorien, Protein, Kohlenhydraten, Fett und Ballaststoffen (bei Grundzutaten meist auch Zucker), dazu eine kostenlose Such-API für das Suchfeld der App.
 
 > **Die Werte der Gerichte sind berechnete Schätzungen, keine Labor- oder Herstellerangaben.**
-> Jedes Gericht hat `"quality": "estimate"` und `"source": "calculated from typical recipe and approximate reference values"`. Die Nährwerte entstehen aus einem typischen Hausrezept und einer Zutaten-Referenztabelle (ungefähre Werte in der Größenordnung von USDA/BLS), nicht aus einer Analyse des fertigen Gerichts. Abweichungen von etwa ±10–25 % gegenüber einem konkreten Rezept sind normal (Fettmenge, Garzeit, Portionsgröße). Bitte die Zahlen nicht als medizinische oder kennzeichnungsrechtliche Nährwertangabe verwenden. Geprüfte Werte können später **denselben Eintrag überschreiben** (siehe unten).
+> Rezeptgerichte haben `"quality": "estimate"`. Die Nährwerte entstehen aus einem typischen Hausrezept und der Zutaten-Referenztabelle (`tools/dishes/ingredients.json`): benannte freie Datensätze (USDA, BLS, Ciqual, CoFID, Livsmedelsverket, Schweizer Nährwertdatenbank) oder gekennzeichnete Schätzungen, nicht aus einer Analyse des fertigen Gerichts. Ballaststoffe dort sind klassische AOAC-Faser, Fructane zählen nicht. Kohlenhydrate bleiben Gesamt-Kohlenhydrate. Die `source` der Rezeptgerichte lautet `calculated from a typical recipe; ingredient values from named datasets or labeled estimates (classical AOAC fiber, fructans not included; carbohydrates are total carbohydrates)`. Gerichte mit eigenem Datensatz behalten die Quelle und `quality` dieses Datensatzes. Abweichungen von etwa ±10–25 % gegenüber einem konkreten Rezept sind normal (Fettmenge, Garzeit, Portionsgröße). Bitte die Zahlen nicht als medizinische oder kennzeichnungsrechtliche Nährwertangabe verwenden. Geprüfte Werte können später **denselben Eintrag überschreiben** (siehe unten).
 
 Die Rohdaten (Stand `main`):
 
@@ -70,14 +70,14 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
   "category": "Gemüse mit Fleisch",
   "prepared": "homemade",
   "is_packaged_product": false,
-  "per100g": { "kcal": 104, "protein": 3.9, "carbs": 5.0, "fat": 7.8, "fiber": 2.2 },
+  "per100g": { "kcal": 103, "protein": 3.9, "carbs": 5.1, "fat": 7.8, "fiber": 2.1 },
   "portion": { "label": "1 Portion (2 Hälften)", "grams": 445 },
   "ingredients": [
     { "name": "Aubergine", "grams": 250 },
     { "name": "Rinderhackfleisch", "grams": 80 }
   ],
   "quality": "estimate",
-  "source": "calculated from typical recipe and approximate reference values"
+  "source": "calculated from a typical recipe; ingredient values from named datasets or labeled estimates (classical AOAC fiber, fructans not included; carbohydrates are total carbohydrates)"
 }
 ```
 
@@ -162,15 +162,15 @@ node scripts/validate.mjs
 
 Prüft Pflichtfelder (einschließlich `cuisine`, `category`, `ingredients`, `quality`, `source`), die optionalen Felder `prepared`, `is_packaged_product`, `off_similar`, `state`, `unit`, `note`, `fdc_id`, `source_id`, `source_missing`, `derived_from`, `method`, `per100g.sugar` und `per100g.alcohol`, die Regeln für Grundzutaten (`type: "item"`, kein Barcode, kein Fertigprodukt), Wertebereiche (kcal 0–950, Makros 0–100 g), eindeutige `id`s, eindeutige Barcodes und die EAN-Prüfziffer. **`barcode: null` ist erlaubt** und erzeugt keinen Fehler. Ein Gericht mit `is_packaged_product: true` ist ein Fehler.
 
-**Protein + Kohlenhydrate + Fett:** höchstens **100,15 g** pro 100 g (0,15 g Rundungstoleranz; Beispiel USDA-Leinöl mit 0,11 g Eiweiß und 99,98 g Fett). Zielwert für die App; Anpassung in FoodPlausibility.swift:47 offen (D7).
+**Protein + Kohlenhydrate + Fett:** höchstens **100,15 g** pro 100 g (0,15 g Rundungstoleranz). Leinöl (USDA 167702: 0,11 g Eiweiß und 99,98 g Fett) steht im Bestand als 0,1 g + 99,9 g. Zielwert für die App; Anpassung in FoodPlausibility.swift:47 offen (D7).
 
 **Portion:** `portion.grams` ist, wenn gesetzt, größer als 0 und höchstens **3000 g**, wie in der App. Auf dem aktuellen Bestand liegt die größte Portion darunter, die engere Grenze lehnt keinen heutigen Eintrag ab.
 
-**Namen:** `names.de`, `names.tr` und `names.en` sind Pflicht. `fr`, `es`, `pt`, `it` und `zh` bleiben optional; gesetzt müssen sie nicht leer sein. Gleiche Namen je Pflichtsprache zwischen verschiedenen Einträgen (Vergleich ohne Groß-/Kleinschreibung, Türkisch mit Locale `tr`) sind eine **Warnung mit Zählung**, kein Fehler. Der Schalter `DUPLICATE_NAMES_ARE_ERRORS` in `scripts/validate.mjs` steht auf `false`. Auf `true` wird jede Gruppe ein Fehler. Auf diesem Datenstand sind das 67 Gruppen (`de`), 103 (`tr`) und 91 (`en`).
+**Namen:** `names.de`, `names.tr` und `names.en` sind Pflicht. `fr`, `es`, `pt`, `it` und `zh` bleiben optional; gesetzt müssen sie nicht leer sein. Gleiche Namen je Pflichtsprache zwischen verschiedenen Einträgen (Vergleich ohne Groß-/Kleinschreibung, Türkisch mit Locale `tr`) sind eine **Warnung mit Zählung**, kein Fehler. Der Schalter `DUPLICATE_NAMES_ARE_ERRORS` in `scripts/validate.mjs` steht auf `false`. Auf `true` wird jede Gruppe ein Fehler. Auf diesem Datenstand (`main` nach #29 und #30) sind das 67 Gruppen (`de`), 103 (`tr`) und 91 (`en`).
 
-**kcal-Plausibilität (Warnung, kein Fehler):** Schätzung mit 4 kcal/g Eiweiß, 4 kcal/g verfügbare Kohlenhydrate, 2 kcal/g Ballaststoffe, 9 kcal/g Fett und 7 kcal/g Alkohol (nur wenn `per100g.alcohol` gesetzt ist). `per100g.carbs` ist Gesamt-KH inklusive Ballaststoffe; verfügbare KH sind `carbs − fiber`. Die Basis steht an einer Stelle, `CARB_BASIS` in `scripts/validate.mjs` (`'total'` heute, `'net'`, sobald `carbs` nur noch die verfügbaren Kohlenhydrate enthält). Gewarnt wird, wenn die Abweichung größer als `max(60 kcal, 35 % von kcal)` ist.
+**kcal-Plausibilität (Warnung, kein Fehler):** Schätzung mit 4 kcal/g Eiweiß, 4 kcal/g verfügbare Kohlenhydrate, 2 kcal/g Ballaststoffe, 9 kcal/g Fett und 7 kcal/g Alkohol (nur wenn `per100g.alcohol` gesetzt ist). `per100g.carbs` ist dauerhaft Gesamt-KH (brutto, inklusive Ballaststoffe); verfügbare KH sind `carbs − fiber`. `CARB_BASIS` in `scripts/validate.mjs` steht auf `'total'`. Gewarnt wird, wenn die Abweichung größer als `max(60 kcal, 35 % von kcal)` ist.
 
-Auf diesem Datenstand sind es **32 Warnungen**: 31 zur kcal-Schätzung und 1 Sammelwarnung zu den Namensdubletten. Die kcal-Warnungen sind ältere geschätzte Getränke mit Alkohol ohne `alcohol`-Feld, dazu `haferkleie-roh` und `zitronensaeure`. Gegen die frühere Schätzung `4·Protein + 4·Kohlenhydrate gesamt + 9·Fett` (40 kcal-Warnungen) fallen neun Einträge aus der Warnung, weil Ballaststoffe mit 2 kcal/g zählen: `basilikum-getrocknet`, `dill-getrocknet`, `weizenkleie`, `knoblauch-im-ofen-gebacken`, `knoblauch-gebraten-ohne-fett`, `zimt-gemahlen`, `paprikapulver-edelsuess`, `koriandersamen`, `piment`.
+Auf diesem Datenstand sind es **32 Warnungen**: 31 zur kcal-Schätzung und 1 Sammelwarnung zu den Namensdubletten. Die kcal-Warnungen sind ältere geschätzte Getränke mit Alkohol ohne `alcohol`-Feld, dazu `haferkleie-roh` und `zitronensaeure`. Die Formel `4·Protein + 4·Kohlenhydrate gesamt + 9·Fett` warnt 38-mal. Mit 2 kcal/g Ballaststoffe fallen sieben davon weg: `basilikum-getrocknet`, `dill-getrocknet`, `weizenkleie`, `zimt-gemahlen`, `paprikapulver-edelsuess`, `koriandersamen`, `piment`. Die früheren BLS-Sätze `knoblauch-im-ofen-gebacken` und `knoblauch-gebraten-ohne-fett` sind durch Ciqual ersetzt und warnen unter beiden Formeln nicht.
 
 Bei echten Fehlern ist der Exit-Code `1`. Es braucht nur Node ≥ 20, keine Installation. Die GitHub Action `.github/workflows/validate.yml` läuft bei jedem Push und Pull Request.
 
@@ -322,7 +322,7 @@ export const nutrientsFor = (f: Food, grams: number) =>
 
 ## Daten neu erzeugen
 
-Rezepttexte und die Zutaten-Referenz liegen unter `tools/dishes/` (`build.py`, `batches/*.py` inklusive `eu3_*.py`, `wave3/`, `recipes/`, `candidates/`, `ingredients_src.txt`, `ingredients_add_*.txt`, `ingredients.json`). Die Batches erzeugen `tools/dishes/tools/compose_eu.py`, `compose_eu2.py` und `compose_eu3.py`. Im Verzeichnis `tools/dishes`:
+Rezepttexte und die Zutaten-Referenz liegen unter `tools/dishes/` (`build.py`, `batches/*.py` inklusive `eu3_*.py`, `wave3/`, `recipes/`, `candidates/`, `ingredients_src.txt`, `ingredients_add_*.txt`, `ingredients.json`). Die Zahlen stehen in `ingredients_src.txt`, die Quellen in `ingredients.json`; der Build liest die Zahlen aus der Textdatei, übernimmt die Quellen und schreibt `ingredients.json` wieder. Die Batches erzeugen `tools/dishes/tools/compose_eu.py`, `compose_eu2.py` und `compose_eu3.py`. Im Verzeichnis `tools/dishes`:
 
 ```bash
 python3 build.py

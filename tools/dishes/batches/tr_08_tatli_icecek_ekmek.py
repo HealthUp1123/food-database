@@ -79,8 +79,8 @@ Kuşburnu Çayı | Hagebuttentee, Rosehip tea | GT | 1.0 | 1 Tasse | tee 200
 Elma Çayı | Apfeltee, Apple tea | GT | 1.0 | 1 Glas | tee 200, zucker 15
 Sıcak Çikolata | Heiße Schokolade, Hot chocolate | GT | 1.0 | 1 Tasse | milch 200, kakao 10, zucker 15
 Vişne Suyu | Sauerkirschsaft, Sour cherry juice | GT | 1.0 | 1 Glas | sauerkirsche 100, zucker 20, wasser 130
-Nar Suyu | Granatapfelsaft, Pomegranate juice | GT | 1.0 | 1 Glas | granatapfel 250
-Portakal Suyu | Orangensaft, Orange juice | GT | 1.0 | 1 Glas | orange 250
+Nar Suyu | Granatapfelsaft, Pomegranate juice | GT | 1.0 | 1 Glas | xb_granatapfelsaft 250
+Portakal Suyu | Orangensaft, Orange juice | GT | 1.0 | 1 Glas | xb_orangensaft 250
 Kefir | Kefir | GT | 1.0 | 1 Glas | joghurt 150, milch 50
 Hoşaf | Hosaf, Trockenfrucht-Kompott, Komposto, Meyveli komposto | GT | 1.0 | 1 Schälchen | aprikose_tr 40, pflaume_tr 20, zucker 20, wasser 200
 Meyan Şerbeti | Lakritz-Sherbet | GT | 1.0 | 1 Glas | zucker 15, wasser 200

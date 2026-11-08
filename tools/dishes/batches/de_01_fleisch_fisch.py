@@ -57,8 +57,10 @@ Hirschbraten | Hirsch, Venison roast | FL | 0.7 | 1 Portion | wild 220, zwiebel 
 Rehrücken | Rehbraten, Roast saddle of venison | FL | 0.75 | 1 Portion | wild 200, butter 15, sahne 40, preiselbeeren 15
 Hasenpfeffer | Hase im Topf, Jugged hare | FL | 0.7 | 1 Portion | kaninchen 220, speck 25, wein_rot 80, zwiebel 40, bruehe 100
 Kaninchen in Senfsoße | Kaninchen in Senfsauce | FL | 0.75 | 1 Portion | kaninchen 220, senf 15, sahne 50, wein_weiss 40, zwiebel 20
-Gänsebraten | Martinsgans, Roast goose, Weihnachtsgans | HG | 0.65 | 1 Portion | gans 300, apfel 40, zwiebel 30, bruehe 80
-Entenbraten | Ente mit Rotkohl, Roast duck | HG | 0.65 | 1 Portion | ente 300, apfel 40, zwiebel 30, bruehe 80
+# Gebratene Gans (USDA 172412). 195 g = 300 g roh × 0,65. Apfel und Zwiebel × 0,7, Brühe 40 g. Garfaktor 1,0.
+Gänsebraten | Martinsgans, Roast goose, Weihnachtsgans | HG | 1.0 | 1 Portion | gans_gegart 195, apfel 28, zwiebel 21, bruehe 40
+# Gebratene Ente mit Haut (USDA 172409). 195 g = 300 g roh × 0,65. Apfel und Zwiebel × 0,7, Brühe 40 g. Garfaktor 1,0.
+Entenbraten | Ente mit Rotkohl, Roast duck | HG | 1.0 | 1 Portion | ente_gegart 195, apfel 28, zwiebel 21, bruehe 40
 Brathähnchen halb | Halbes Hähnchen, Roast chicken half, Hendl | HG | 0.7 | 1 halbes Hähnchen | hahn 450, butter 10, paprikapulver 2
 Backhendl | Backhähnchen, Fried chicken Austrian | HG | 0.8 | 1 Portion | hahn_keule 250, mehl 20, ei 30, paniermehl 30, schmalz 25
 Hühnerfrikassee | Frikassee, Chicken fricassee | HG | 0.95 | 1 Portion | hahn_brust 120, pilz 50, erbsen 30, sahne 50, butter 12, mehl 12, bruehe 120, zitrone 5

@@ -27,7 +27,8 @@ Bratwurst mit Kartoffelpüree | Bratwurst Püree | WU | 1.0 | 1 Teller | bratwur
 Rinderrouladen mit Rotkohl und Klößen | Roulade Rotkohl Klöße | FL | 1.0 | 1 Teller | rind 170, speck 20, zwiebel 25, gewuerzgurke 20, senf 10, bruehe 100, oel 8, rotkohl 150, apfel 20, kartoffel 200, staerke 25, ei 15
 Sauerbraten mit Rotkohl und Klößen | Sauerbraten Rotkohl Knödel | FL | 1.0 | 1 Teller | rind 160, essig 20, rosinen 10, zwiebel 30, bruehe 100, mehl 8, rotkohl 150, apfel 20, kartoffel 200, staerke 25
 Schweinebraten mit Knödel und Blaukraut | Schweinsbraten, Krustenbraten Knödel Blaukraut | FL | 1.0 | 1 Teller | schwein_nacken 180, zwiebel 40, bruehe 100, schmalz 8, rotkohl 150, apfel 20, semmel 60, milch 60, ei 25
-Gänsebraten mit Rotkohl und Klößen | Weihnachtsgans Teller, Goose with red cabbage and dumplings | FL | 1.0 | 1 Teller | gans 280, apfel 40, zwiebel 30, bruehe 80, rotkohl 150, kartoffel 200, staerke 25
+# Gans hier schon gebraten (USDA 172412). Garfaktor 1,0: die Gramm sind die angerichtete Platte.
+Gänsebraten mit Rotkohl und Klößen | Weihnachtsgans Teller, Goose with red cabbage and dumplings | FL | 1.0 | 1 Teller | gans_gegart 280, apfel 40, zwiebel 30, bruehe 80, rotkohl 150, kartoffel 200, staerke 25
 Wiener Schnitzel mit Kartoffelsalat | Schnitzel mit Kartoffelsalat, Schnitzel and potato salad | HF | 1.0 | 1 Teller | schwein_mager 170, paniermehl 25, ei 20, mehl 10, schmalz 20, kartoffel 200, zwiebel 20, bruehe 40, essig 12, oel 10
 Schnitzel mit Pommes | Schnitzel Pommes frites, Schnitzel with fries | HF | 1.0 | 1 Teller | schwein_mager 170, paniermehl 25, ei 20, mehl 10, schmalz 20, kartoffel 200, oel 20
 Jägerschnitzel mit Spätzle | Jägerschnitzel Spätzle | HF | 1.0 | 1 Teller | schwein_mager 150, paniermehl 20, ei 20, mehl 10, schmalz 15, pilz 80, sahne 40, zwiebel 20, mehl 90, ei 40, wasser 40
@@ -96,7 +97,7 @@ Feuerzangenbowle | Feuerzangenbowle, Flaming punch | GT | 1.0 | 1 Tasse | wein_r
 Berliner Weiße mit Schuss | Berliner Weisse, Berlin white beer with syrup | GT | 1.0 | 1 Glas | bier 250, zucker 20
 Rhabarberschorle | Rhabarberschorle, Rhubarb spritzer | GT | 1.0 | 1 Glas | rhabarber 60, zucker 20, wasser 200
 Heiße Zitrone | Heiße Zitrone mit Honig, Hot lemon | GT | 1.0 | 1 Tasse | zitrone 40, honig 15, wasser 200
-Kinderpunsch | Kinderpunsch alkoholfrei, Children's punch | GT | 1.0 | 1 Tasse | apfel 150, traube 100, orange 20, zimt 1
+Kinderpunsch | Kinderpunsch alkoholfrei, Children's punch | GT | 1.0 | 1 Tasse | xb_apfelsaft 150, xb_traubensaft 100, xb_orangensaft 20, zimt 1
 Eistee | Eistee gesüßt, Iced tea | GT | 1.0 | 1 Glas | tee 250, zucker 20
 Kaffee schwarz | Filterkaffee, Black coffee | GT | 1.0 | 1 Tasse | tee 150
 Schmandtorte | Mandarinen-Schmand-Torte, Sour cream cake | K | 1.0 | 1 Stück | mehl 30, butter 20, zucker 30, ei 30, schmand 80, orange 50, sahne 40
