@@ -49,7 +49,6 @@ DRINKS = [
  ('BLS:P9A7100', 'Cuba Libre|Cuba libre (rum and cola)|Cuba libre (rom ve kola)|Cuba libre|Cuba libre|Cuba libre|Cuba libre|自由古巴', 'int', C, {}),
  ('BLS:P9A7000', 'Piña Colada|Piña colada|Piña colada|Piña colada|Piña colada|Piña colada|Piña colada|椰林飘香', 'int', C, {}),
  ('BLS:P9A8100', 'Hugo (Holunderblüten-Spritz)|Hugo (elderflower spritz)|Hugo (mürver çiçekli spritz)|Hugo (spritz à la fleur de sureau)|Hugo (spritz de flor de saúco)|Hugo (spritz de flor de sabugueiro)|Hugo (spritz al sambuco)|雨果鸡尾酒（接骨木花起泡酒）', 'int', C, {}),
- ('BLS:P9B1000', 'Campari Orange|Campari and orange juice|Campari portakal|Campari orange|Campari con naranja|Campari com laranja|Campari orange|金巴利橙汁', 'it', C, {}),
  ('BLS:P9B4000', 'Margarita|Margarita|Margarita|Margarita|Margarita|Margarita|Margarita|玛格丽特', 'int', ('1 Glas Cocktail (0,15 l)', 150), {}),
  ('BLS:P9A6000', 'Tequila Sunrise|Tequila sunrise|Tequila sunrise|Tequila sunrise|Tequila sunrise|Tequila sunrise|Tequila sunrise|龙舌兰日出', 'int', C, {}),
  ('BLS:P9A5100', 'Bloody Mary|Bloody Mary|Bloody Mary|Bloody Mary|Bloody Mary|Bloody Mary|Bloody Mary|血腥玛丽', 'int', C, {}),

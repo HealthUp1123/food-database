@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // Schneller Test des Worker-Handlers ohne Cloudflare (Node >= 20.10).
 import assert from 'node:assert/strict';
-import worker from '../api/worker.js';
+import worker, { createHandler } from '../api/worker.js';
+import { REQUIRED_LANGS } from '../src/search.mjs';
 
 const get = async (path, init) => {
   const res = await worker.fetch(new Request('https://example.test' + path, init));
@@ -11,7 +12,7 @@ const get = async (path, init) => {
 let t = await get('/health');
 assert.equal(t.res.status, 200);
 assert.equal(t.body.status, 'ok');
-assert.equal(t.body.count, 5546);
+assert.equal(t.body.count, 5537);
 
 // Karnıyarık: ASCII, Originalschreibweise, ein fehlendes i.
 t = await get('/search?q=karniyarik&limit=3');
@@ -133,9 +134,10 @@ assert.equal(t.body.results[0].id, 'suesskartoffel-wedges-im-ofen-mit-oel');
 t = await get('/item/suesskartoffel-wedges-im-ofen-mit-oel');
 assert.equal(t.body.source_id, 'Livsmedelsverket:3771');
 
-// Mehrsprachige Namen (names/aliases): Suche in allen Sprachen, akzent- und groß/klein-unabhängig.
+// Mehrsprachige Namen: Pflicht de/tr/en, optional fr/es/pt/it/zh (im Datenstand gesetzt).
 t = await get('/item/tomate-roh');
-for (const l of ['de', 'en', 'tr', 'fr', 'es', 'pt']) assert.ok(t.body.names[l], 'names.' + l);
+for (const l of REQUIRED_LANGS) assert.ok(t.body.names[l], 'names.' + l);
+for (const l of ['fr', 'es', 'pt', 'it', 'zh']) assert.ok(t.body.names[l], 'optional names.' + l);
 assert.equal(t.body.names.tr, 'Domates, çiğ');
 assert.equal(t.body.names.en, 'Tomato, raw');
 for (const q of ['domates', 'Tomato', 'pomodoro', '番茄', 'TOMATE']) {
@@ -175,6 +177,31 @@ t = await get('/search?q=tomate&lang=xx');
 assert.equal(t.res.status, 400);
 t = await get('/health');
 assert.deepEqual(t.body.languages, ['de', 'en', 'tr', 'fr', 'es', 'pt', 'it', 'zh']);
+
+// Optionale Sprache fehlt: Suche bleibt, display_name fällt auf name zurück.
+const nurPflicht = createHandler([{
+  id: 'nur-pflichtsprachen',
+  name: 'Nur Pflicht',
+  names: { de: 'Nur Pflicht', tr: 'Sadece zorunlu', en: 'Required only' },
+  synonyms: [],
+  state: 'raw',
+  prepared: 'base_ingredient',
+}]);
+const fallback = async (path) => {
+  const res = await nurPflicht(new Request('https://example.test' + path));
+  return { res, body: await res.json() };
+};
+t = await fallback('/search?q=zorunlu&lang=fr');
+assert.equal(t.res.status, 200);
+assert.equal(t.body.lang, 'fr');
+assert.equal(t.body.results[0].id, 'nur-pflichtsprachen');
+assert.equal(t.body.results[0].display_name, 'Nur Pflicht');
+t = await fallback('/search?q=zorunlu&lang=tr');
+assert.equal(t.body.results[0].display_name, 'Sadece zorunlu');
+t = await fallback('/item/nur-pflichtsprachen?lang=es');
+assert.equal(t.body.display_name, 'Nur Pflicht');
+t = await fallback('/item/nur-pflichtsprachen?lang=en');
+assert.equal(t.body.display_name, 'Required only');
 
 t = await get('/item/gibt-es-nicht');
 assert.equal(t.res.status, 404);

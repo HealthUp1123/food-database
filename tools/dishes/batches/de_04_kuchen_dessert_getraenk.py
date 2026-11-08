@@ -86,7 +86,6 @@ Apfelsaft | Apfelsaft naturtrüb, Apple juice | GT | 1.0 | 1 Glas | xb_apfelsaft
 Orangenschorle | Orangensaftschorle | GT | 1.0 | 1 Glas | orange 125, wasser 125
 Kirschsaft | Sauerkirschsaft | GT | 1.0 | 1 Glas | xb_sauerkirschsaft 150, zucker 20, wasser 100
 Holundersaft | Holunderblütensirup Getränk, Elderflower drink | GT | 1.0 | 1 Glas | zucker 25, wasser 200, zitrone 5
-Spezi | Spezi, Cola-Orange | GT | 1.0 | 1 Glas | zucker 25, wasser 200, orange 20
 Colamix | Cola Mix, Cola with orange | GT | 1.0 | 1 Glas | zucker 25, wasser 200
 Malzbier | Malzbier, Malt beer | GT | 1.0 | 1 Flasche | zucker 20, wasser 180, hirse 5
 Pils | Pils 0,5 l, Pilsner, Bier | GT | 1.0 | 1 Glas | bier 500
