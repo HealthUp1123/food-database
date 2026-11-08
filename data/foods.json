@@ -282360,7 +282360,7 @@
       "kcal": 884,
       "protein": 0.1,
       "carbs": 0.0,
-      "fat": 100.0,
+      "fat": 99.9,
       "fiber": 0.0,
       "sugar": 0.0
     },
@@ -282371,7 +282371,7 @@
       }
     ],
     "quality": "reference",
-    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 167702: Oil, flaxseed, cold pressed",
+    "source": "USDA FoodData Central, SR Legacy (April 2018), FDC ID 167702: Oil, flaxseed, cold pressed. Quelle: Protein 0,11 g, Fett 99,98 g, Kohlenhydrate 0 g (Summe 100,09 g), kcal 884. Unabhängig auf 0,1 g gerundet ergäbe das Eiweiß 0,1 g und Fett 100,0 g (Summe 100,1 g). Gespeichert sind Eiweiß 0,1 g und Fett 99,9 g, damit Eiweiß + Kohlenhydrate + Fett = 100 g. Die 0,08 g liegen am Fett.",
     "fdc_id": 167702
   },
   {
