@@ -4,7 +4,8 @@ Pan bagnat | Pan-bagnat | SN | 1.0 | 1 Brötchen | weissbrot 100, thunfisch 50, 
 Moules frites | Mussels and fries | HFi | 0.85 | 1 Portion | muschel 500, kartoffel 250, oel 22, zwiebel 20, wein_weiss 40, butter 10, sahne 20
 Truite aux amandes | Trout almondine | HFi | 0.85 | 1 Forelle | forelle 250, mandel 25, butter 20, zitrone 10, mehl 10
 Plateau de fruits de mer | Seafood platter French | V | 1.0 | 1 Platte | muschel 200, garnele 80, krabbe 60, zitrone 15, mayonnaise 15
-Foie gras poêlé | Pan-seared foie gras | V | 0.75 | 1 Portion | foie_gras 100, feige_tr 15, wein_weiss 10
+# Foie gras ist schon der gegarte Ciqual-Satz 8321. Garfaktor 1,0, keine zweite Aufkonzentration.
+Foie gras poêlé | Pan-seared foie gras | V | 1.0 | 1 Portion | foie_gras 100, feige_tr 15, wein_weiss 10
 Croque-monsieur végétarien | Veggie croque | SN | 0.95 | 1 Stück | weissbrot 80, emmentaler 50, butter 15, milch 60, mehl 10, spinat 30
 Tarte aux pommes alsacienne | Alsatian apple tart | K | 0.95 | 1 Stück | mehl 60, butter 35, apfel 150, ei 40, sahne 60, zucker 25
 Soufflé au Grand Marnier | Grand Marnier soufflé | D | 0.9 | 1 Portion | eiweiss 90, ei 40, zucker 35, milch 100, mehl 15, butter 15, likoer 15

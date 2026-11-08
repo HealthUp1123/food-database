@@ -1,5 +1,15 @@
 # Build-Notizen: Gerichte-Datenbank (türkisch, deutsch, europäisch, Kaukasus) – Stand Welle 3: 4245 Gerichte
 
+## Quellen und AOAC-Ballaststoffe (ersetzt die offenen PRs #14 und #12)
+
+Die Zutaten in `ingredients.json` tragen einen freien Datensatz (USDA SR Legacy, BLS 4.0, Ciqual 2025, CoFID 2021, Livsmedelsverket, Schweizer Nährwertdatenbank) oder eine gekennzeichnete Schätzung. Die Zahlen spiegeln `ingredients_src.txt`. `build.py` liest die Zahlen von dort, behält die Quellen und schreibt `ingredients.json` mit abschließendem Zeilenumbruch.
+
+Ballaststoffe sind klassische AOAC-Faser. Fructane und Inulin zählen nicht. Steht der Messweg nur in der Quelle, gibt es kein Feld `method`, `fiber_method` oder `derived`. Kohlenhydrate bleiben Gesamt-Kohlenhydrate (verfügbare KH plus Ballaststoffe, wie bei USDA). kcal der Datensätze bleiben die veröffentlichten Werte. Schätzungen ohne veröffentlichtes kcal nutzen `4·(KH−Ballaststoffe)+4·Protein+9·Fett+2·Ballaststoffe`.
+
+Sumak und die Gewürzmischung (`sumak_pulver`, `gewuerz`) bleiben bei den bisherigen Schätzwerten: dafür gibt es keinen freien AOAC-Gesamtfaser-Satz. Säfte in den Rezepten sind Saft-Datensätze, nicht die ganze Frucht. Gebratene Ente, Gans und Grieben nutzen gegarte Sätze mit Garfaktor 1,0, damit das Fett nicht ein zweites Mal aufkonzentriert wird. Bündnerfleisch ist die Schweizer ID 709. Carrageen ist Irisch Moos, USDA 168456.
+
+`data/foods.json` bleibt die Bestandsdatei. Referenz-Overrides und die türkischen Gerichte aus den gemergten PRs bleiben erhalten; wo sie dieselben Zutaten nutzen, rechnen sie mit den neuen Werten.
+
 **Alle Werte sind Schätzungen (`quality: "estimate"`), keine Laborwerte.** Abweichungen von ±10–25 % gegenüber echten Gerichten sind normal (Rezept, Fettmenge, Portionsgröße).
 
 ## Methode

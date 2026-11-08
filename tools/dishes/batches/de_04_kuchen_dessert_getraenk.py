@@ -82,9 +82,9 @@ Spaghettieis | Spaghetti-Eis, Spaghetti ice cream | D | 1.0 | 1 Portion | milch 
 Eisbecher | Eisbecher mit Sahne, Ice cream sundae | D | 1.0 | 1 Becher | milch 100, sahne 80, zucker 25, erdbeere 60
 Obstsalat | Obstsalat, Fruit salad | D | 1.0 | 1 Schüssel | apfel 80, banane 60, orange 80, traube 50, zitrone 5
 Apfelschorle | Apfelsaftschorle, Apple spritzer | GT | 1.0 | 1 Glas | apfel 125, wasser 125, zucker 5
-Apfelsaft | Apfelsaft naturtrüb, Apple juice | GT | 1.0 | 1 Glas | apfel 250, zucker 10
+Apfelsaft | Apfelsaft naturtrüb, Apple juice | GT | 1.0 | 1 Glas | xb_apfelsaft 250, zucker 10
 Orangenschorle | Orangensaftschorle | GT | 1.0 | 1 Glas | orange 125, wasser 125
-Kirschsaft | Sauerkirschsaft | GT | 1.0 | 1 Glas | sauerkirsche 150, zucker 20, wasser 100
+Kirschsaft | Sauerkirschsaft | GT | 1.0 | 1 Glas | xb_sauerkirschsaft 150, zucker 20, wasser 100
 Holundersaft | Holunderblütensirup Getränk, Elderflower drink | GT | 1.0 | 1 Glas | zucker 25, wasser 200, zitrone 5
 Colamix | Cola Mix, Cola with orange | GT | 1.0 | 1 Glas | zucker 25, wasser 200
 Malzbier | Malzbier, Malt beer | GT | 1.0 | 1 Flasche | zucker 20, wasser 180, hirse 5
