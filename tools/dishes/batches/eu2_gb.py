@@ -76,7 +76,6 @@ Pease pudding | Pease pudding Newcastle | B | 0.7 | 1 Portion | erbsen_trocken 6
 Pork pie | Melton Mowbray pork pie | BO | 0.88 | 1 Stück | mehl 40, schmalz 18, schwein_hack 80, speck 15, wasser 20
 Sausage roll | British sausage roll | SN | 0.88 | 1 Stück | blaetterteig 50, schwein_hack 60, zwiebel 10, paniermehl 8, ei 8
 Shepherd's pie | Shepherds pie | AU | 0.85 | 1 Portion | lamm_hack 120, zwiebel 40, karotte 40, tomatenmark 10, bruehe 100, kartoffel 200, butter 12, milch 30, erbsen 30
-Steak and ale pie | Steak and Guinness pie | BO | 0.85 | 1 Stück | rind 120, bier 80, zwiebel 40, mehl 10, bruehe 40, blaetterteig 70, pilz 20, ei 10
 Summer pudding | English summer pudding | D | 1.0 | 1 Portion | weissbrot 50, himbeere 70, erdbeere 50, blaubeere 40, zucker 25, sahne 40
 Trifle | English sherry trifle | D | 1.0 | 1 Schälchen | keks 30, marmelade 15, spirituose 10, milch 80, ei 15, zucker 15, staerke 3, sahne 60, erdbeere 40
 """
