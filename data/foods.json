@@ -335416,5 +335416,38 @@
     ],
     "quality": "verified",
     "source": "Nutzermeldung, Packungsangabe (foodsub-6A75ABB5-EE5E-41EF-9F51-122ECB92B659, 2026-11-08), Marke FishTime, Barcode 4006827405161. Ausnahme von Regel 4 auf Ahmets Anweisung."
+  },
+  {
+    "id": "dreamland-vegan-gummy-candy",
+    "name": "Dreamland Vegan Gummy Candy",
+    "names": {
+      "de": "Dreamland Vegan Gummy Candy",
+      "en": "Dreamland vegan gummy candy",
+      "tr": "Dreamland vegan jelibon",
+      "fr": "Dreamland Vegan Gummy Candy",
+      "es": "Dreamland Vegan Gummy Candy",
+      "pt": "Dreamland Vegan Gummy Candy"
+    },
+    "type": "item",
+    "barcode": "4262456580338",
+    "synonyms": [],
+    "cuisine": "de",
+    "category": "Süßspeise/Sirupgebäck",
+    "is_packaged_product": true,
+    "per100g": {
+      "kcal": 177,
+      "protein": 0.7,
+      "carbs": 69.0,
+      "fat": 0.1,
+      "fiber": 51.0
+    },
+    "ingredients": [
+      {
+        "name": "Dreamland Vegan Gummy Candy",
+        "grams": 100
+      }
+    ],
+    "quality": "verified",
+    "source": "Nutzermeldung, Packungsangabe, KH auf brutto umgerechnet (18 g verfügbare KH + 51 g Ballaststoffe = 69 g), Marke Nutriluv, Barcode 4262456580338 (foodsub-70E35E1D-FA89-4151-8092-1B2DE5DBA4F5, 2026-11-08). Ausnahme von Regel 4 auf Ahmets Anweisung."
   }
 ]

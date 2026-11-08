@@ -12,7 +12,7 @@ const get = async (path, init) => {
 let t = await get('/health');
 assert.equal(t.res.status, 200);
 assert.equal(t.body.status, 'ok');
-assert.equal(t.body.count, 5537);
+assert.equal(t.body.count, 5538);
 
 // Karnıyarık: ASCII, Originalschreibweise, ein fehlendes i.
 t = await get('/search?q=karniyarik&limit=3');
