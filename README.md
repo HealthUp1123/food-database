@@ -85,7 +85,7 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
 | --- | --- | --- |
 | `id` | ja | Eindeutig, klein, mit Bindestrichen (`karniyarik`). Nicht mehr ändern, wenn die App sie speichert. |
 | `name` | ja | Anzeigename, deutsch oder in der Originalschreibung (z. B. `Karnıyarık`). |
-| `names` | ja | Name je Sprache: `de`, `en`, `tr`, `fr`, `es`, `pt` sind Pflicht (nicht leer), `it` und `zh` sind zusätzlich gesetzt. Siehe [Mehrsprachige Namen](#mehrsprachige-namen). |
+| `names` | ja | Name je Sprache: `de`, `tr` und `en` sind Pflicht (nicht leer). `fr`, `es`, `pt`, `it` und `zh` sind optional, bleiben gültig und werden weiter durchsucht. Siehe [Mehrsprachige Namen](#mehrsprachige-namen). |
 | `aliases` | nein | Weitere landesübliche Namen je Sprache, z. B. `{ "de": ["Paradeiser"], "es": ["Jitomate"], "pt": ["Curgete"] }`. Werden durchsucht, aber nicht angezeigt. |
 | `type` | ja | `"dish"` (Gericht) oder `"item"` (Artikel/Zutat/Produkt). Gerichte sind `dish`, Grundzutaten sind `item`. |
 | `barcode` | ja | EAN-8/EAN-13 als **String** (führende Nullen) oder `null`. `null` ist gültig und bei allen jetzigen Gerichten gesetzt (kein Verpackungs-Barcode). Ist ein String gesetzt, muss die Prüfziffer stimmen und der Code eindeutig sein. |
@@ -103,8 +103,8 @@ tools/dishes/tools/off_check.py Abgleich mit Open Food Facts (Dump nicht im Repo
 | `source_missing` | nein | Nährwerte, die in der Quelle fehlen (`"protein"`, `"fat"`, `"fiber"`, `"sugar"`). `protein`/`fat`/`fiber` stehen dann als 0 in `per100g`, `sugar` fehlt ganz. |
 | `is_packaged_product` | nein | `false` bei Gerichten. `true` wäre nur für `type: "item"` mit Barcode sinnvoll; bei `type: "dish"` ist `true` ungültig. |
 | `off_similar` | nein | Bis zu 3 Open-Food-Facts-Barcodes (6–14 Ziffern) ähnlich benannter Fertigprodukte. Nur ein Hinweis; das Gericht bleibt ein eigener Eintrag. |
-| `per100g` | ja | `kcal` (0–950), `protein`, `carbs`, `fat`, `fiber` (je 0–100 g pro 100 g), optional `sugar` (0–100 g) und `alcohol` (Ethanol, 0–100 g). Protein + Kohlenhydrate + Fett ≤ 100 g (0,15 g Rundungstoleranz). |
-| `portion` | nein | Typische Portion: `label` (Text) und `grams` (> 0, max. 5000). Die App rechnet damit von 100 g auf die Portion um. |
+| `per100g` | ja | `kcal` (0–950), `protein`, `carbs`, `fat`, `fiber` (je 0–100 g pro 100 g), optional `sugar` (0–100 g) und `alcohol` (Ethanol, 0–100 g). Protein + Kohlenhydrate + Fett höchstens 100,15 g pro 100 g (0,15 g Rundungstoleranz). Zielwert für die App; Anpassung in FoodPlausibility.swift:47 offen (D7). |
+| `portion` | nein | Typische Portion: `label` (Text) und `grams` (> 0, höchstens 3000, wie in der App). Die App rechnet damit von 100 g auf die Portion um. |
 | `ingredients` | ja | Zutaten der zugrunde gelegten Portion: `{ "name", "grams" }`, `grams` > 0. Das sind Rezeptmengen, keine zweite Nährwertquelle. |
 | `quality` | ja | `"estimate"` (berechnet, wie bei den 4245 Gerichten bis Welle 3), `"reference"` (aus einer amtlichen Nährwertdatenbank übernommen, wie bei 660 der 681 Grundzutaten) oder `"verified"` (später mit geprüften Werten überschrieben). Die 21 geschätzten Grundzutat-Zubereitungen und die 5 geschätzten türkischen Grundzutaten sind `"estimate"`; seit Welle 4 sind auch 101 Gerichte und 73 Getränke `"reference"` (direkter Quelldatensatz). |
 | `source` | ja | Herkunft der Nährwerte. Bei Schätzwerten der feste Hinweis auf Rezept plus Referenzwerte; bei geprüften Einträgen die konkrete Quelle. |
@@ -128,7 +128,7 @@ Die App gibt es auf Deutsch, Englisch, Türkisch, Chinesisch, Spanisch und Itali
 }
 ```
 
-**Pflicht-Sprachen:** `de`, `en`, `tr`, `fr`, `es`, `pt`. Der Validator bricht ab, wenn eine davon fehlt oder leer ist. **Zusätzlich:** `it` und `zh`. Andere Sprachcodes sind nicht erlaubt.
+**Pflicht-Sprachen:** `de`, `tr`, `en`. Der Validator bricht ab, wenn eine davon fehlt oder leer ist. **Optional, weiter unterstützt:** `fr`, `es`, `pt`, `it`, `zh`. Sind sie gesetzt, dürfen sie nicht leer sein und keine Rand-Leerzeichen haben. Andere Sprachcodes sind nicht erlaubt. Die vorhandenen optionalen Namen bleiben in den Daten und werden weiter durchsucht.
 
 **Regeln für die Namen:**
 
@@ -137,9 +137,9 @@ Die App gibt es auf Deutsch, Englisch, Türkisch, Chinesisch, Spanisch und Itali
 - **Gerichte mit etabliertem Eigennamen** behalten in allen Sprachen den Originalnamen, z. B. `Karnıyarık`, `Lahmacun`, `Moussaka`, `Pastitsio`, `Francesinha`, `Kaiserschmarrn`. Für `zh` kann dann eine übliche chinesische Form stehen (z. B. `Pastel de nata` → `葡式蛋挞`); der Originalname ist dann Alias.
 - Keine erfundenen Wort-für-Wort-Übersetzungen. Regionale Varianten stehen in `aliases`: Portugiesisch ist pt-PT zuerst, brasilianische Formen als Alias (z. B. `Curgete`/`Abobrinha`); Spanisch ist Spanien zuerst, lateinamerikanische Formen als Alias (`Patatas fritas`/`Papas fritas`).
 
-**In der App anzeigen:** `names[appSprache] ?? name`. Bei der API geht das auch direkt mit `?lang=` (siehe unten): dann enthält jeder Treffer `display_name`. Für Sprachen der App ohne eigenes Feld (z. B. später weitere) einfach `en` oder `name` als Fallback nehmen.
+**In der App anzeigen:** `names[appSprache]`, wenn der Name gesetzt und nicht leer ist, sonst Fallback auf `name`. Bei der API geht das mit `?lang=` (siehe unten): dann enthält jeder Treffer `display_name`. `?lang=fr` (ebenso `es`, `pt`, `it`, `zh`) liefert den optionalen Sprachnamen, wenn er vorhanden ist, sonst `name`. Für Sprachen ohne eigenes Feld einfach `en` oder `name` nehmen.
 
-**Suche:** Die Suche läuft immer über alle Sprachen gleichzeitig (`name`, `names.*`, `aliases.*`, `synonyms`). `domates`, `tomato`, `pomodoro`, `番茄` und `Tomate` finden also alle `tomate-roh`; `courgette`, `abobrinha` und `calabacín` finden `zucchini-roh`.
+**Suche:** Die Suche läuft über alle vorhandenen Sprachen gleichzeitig (`name`, gesetzte `names.*`, `aliases.*`, `synonyms`). `domates`, `tomato`, `pomodoro`, `番茄` und `Tomate` finden also alle `tomate-roh`; `courgette`, `abobrinha` und `calabacín` finden `zucchini-roh`. Fehlt eine optionale Sprache an einem Eintrag, fällt die Anzeige auf `name` zurück; die übrigen Sprachen bleiben suchbar.
 
 ## Geprüfte Werte nachtragen
 
@@ -160,9 +160,17 @@ Solange `quality` auf `"estimate"` steht, gelten die berechneten Rezeptwerte. Di
 node scripts/validate.mjs
 ```
 
-Prüft Pflichtfelder (einschließlich `cuisine`, `category`, `ingredients`, `quality`, `source`), die optionalen Felder `prepared`, `is_packaged_product`, `off_similar`, `state`, `unit`, `note`, `fdc_id`, `source_id`, `source_missing`, `derived_from`, `method`, `per100g.sugar` und `per100g.alcohol`, die Regeln für Grundzutaten (`type: "item"`, kein Barcode, kein Fertigprodukt), Wertebereiche (kcal 0–950, Makros 0–100 g, Protein + Kohlenhydrate + Fett ≤ 100 g + 0,15 g Rundung), eindeutige `id`s, eindeutige Barcodes und die EAN-Prüfziffer. **`barcode: null` ist erlaubt** und erzeugt keinen Fehler. Ein Gericht mit `is_packaged_product: true` ist ein Fehler.
+Prüft Pflichtfelder (einschließlich `cuisine`, `category`, `ingredients`, `quality`, `source`), die optionalen Felder `prepared`, `is_packaged_product`, `off_similar`, `state`, `unit`, `note`, `fdc_id`, `source_id`, `source_missing`, `derived_from`, `method`, `per100g.sugar` und `per100g.alcohol`, die Regeln für Grundzutaten (`type: "item"`, kein Barcode, kein Fertigprodukt), Wertebereiche (kcal 0–950, Makros 0–100 g), eindeutige `id`s, eindeutige Barcodes und die EAN-Prüfziffer. **`barcode: null` ist erlaubt** und erzeugt keinen Fehler. Ein Gericht mit `is_packaged_product: true` ist ein Fehler.
 
-Weicht `kcal` stark von `4·Protein + 4·Kohlenhydrate + 9·Fett` (+ `7·alcohol`, falls gesetzt) ab, gibt es eine **Warnung**, keinen Fehler. Erwartet sind derzeit 37 Warnungen: ältere geschätzte Getränke mit Alkohol ohne `alcohol`-Feld (Ethanol liefert etwa 7 kcal/g), ballaststoffreiche Grundzutaten wie Kleie und getrocknete Kräuter (dazu `zimt-gemahlen` und `paprikapulver-edelsuess`, USDA-Energiefaktoren statt 4/4/9) sowie die BLS-Datensätze `knoblauch-im-ofen-gebacken`/`knoblauch-gebraten-ohne-fett` (BLS zählt Fructane als Ballaststoffe, kcal wie veröffentlicht).
+**Protein + Kohlenhydrate + Fett:** höchstens **100,15 g** pro 100 g (0,15 g Rundungstoleranz; Beispiel USDA-Leinöl mit 0,11 g Eiweiß und 99,98 g Fett). Zielwert für die App; Anpassung in FoodPlausibility.swift:47 offen (D7).
+
+**Portion:** `portion.grams` ist, wenn gesetzt, größer als 0 und höchstens **3000 g**, wie in der App. Auf dem aktuellen Bestand liegt die größte Portion darunter, die engere Grenze lehnt keinen heutigen Eintrag ab.
+
+**Namen:** `names.de`, `names.tr` und `names.en` sind Pflicht. `fr`, `es`, `pt`, `it` und `zh` bleiben optional; gesetzt müssen sie nicht leer sein. Gleiche Namen je Pflichtsprache zwischen verschiedenen Einträgen (Vergleich ohne Groß-/Kleinschreibung, Türkisch mit Locale `tr`) sind eine **Warnung mit Zählung**, kein Fehler. Der Schalter `DUPLICATE_NAMES_ARE_ERRORS` in `scripts/validate.mjs` steht auf `false`. Auf `true` wird jede Gruppe ein Fehler. Auf diesem Datenstand sind das 67 Gruppen (`de`), 103 (`tr`) und 91 (`en`).
+
+**kcal-Plausibilität (Warnung, kein Fehler):** Schätzung mit 4 kcal/g Eiweiß, 4 kcal/g verfügbare Kohlenhydrate, 2 kcal/g Ballaststoffe, 9 kcal/g Fett und 7 kcal/g Alkohol (nur wenn `per100g.alcohol` gesetzt ist). `per100g.carbs` ist Gesamt-KH inklusive Ballaststoffe; verfügbare KH sind `carbs − fiber`. Die Basis steht an einer Stelle, `CARB_BASIS` in `scripts/validate.mjs` (`'total'` heute, `'net'`, sobald `carbs` nur noch die verfügbaren Kohlenhydrate enthält). Gewarnt wird, wenn die Abweichung größer als `max(60 kcal, 35 % von kcal)` ist.
+
+Auf diesem Datenstand sind es **32 Warnungen**: 31 zur kcal-Schätzung und 1 Sammelwarnung zu den Namensdubletten. Die kcal-Warnungen sind ältere geschätzte Getränke mit Alkohol ohne `alcohol`-Feld, dazu `haferkleie-roh` und `zitronensaeure`. Gegen die frühere Schätzung `4·Protein + 4·Kohlenhydrate gesamt + 9·Fett` (40 kcal-Warnungen) fallen neun Einträge aus der Warnung, weil Ballaststoffe mit 2 kcal/g zählen: `basilikum-getrocknet`, `dill-getrocknet`, `weizenkleie`, `knoblauch-im-ofen-gebacken`, `knoblauch-gebraten-ohne-fett`, `zimt-gemahlen`, `paprikapulver-edelsuess`, `koriandersamen`, `piment`.
 
 Bei echten Fehlern ist der Exit-Code `1`. Es braucht nur Node ≥ 20, keine Installation. Die GitHub Action `.github/workflows/validate.yml` läuft bei jedem Push und Pull Request.
 
@@ -182,7 +190,7 @@ node scripts/test-worker.mjs                  # testet den API-Handler
 
 - Groß-/Kleinschreibung, Umlaute, Akzente und türkische Buchstaben sind egal: `Karnıyarık`, `karniyarik` und `Karniyarik` finden dasselbe (`ı`/`İ` → `i`, `ş` → `s`, `ğ` → `g`, `ç` → `c`, `ä`/`ae` → `a`, `ö`/`oe` → `o`, `ü`/`ue` → `u`, `ß` → `ss`, `é`/`è`/`ñ`/`ã` usw. → Grundbuchstabe, `ø` → `o`, `æ` → `ae`, `ł` → `l`). Chinesische Schriftzeichen bleiben erhalten (`番茄`).
 - Reihenfolge der Treffer: exakt → Wortanfang (Präfix) → Teilstring → Tippfehler (Levenshtein-Distanz 1 bei 3–5 Zeichen, 2 ab 6 Zeichen; unter 3 Zeichen keine Fehlertoleranz). `karniyark` trifft deshalb `Karnıyarık`.
-- Gesucht wird in `name`, allen `names.*` (alle Sprachen), allen `aliases.*` und `synonyms`. Treffer in einem Namen stehen vor Treffern über Aliase/Synonyme.
+- Gesucht wird in `name`, allen gesetzten `names.*` (Pflicht `de`/`tr`/`en`, optional `fr`/`es`/`pt`/`it`/`zh`), allen `aliases.*` und `synonyms`. Treffer in einem Namen stehen vor Treffern über Aliase/Synonyme. `?lang=` bevorzugt den Namen dieser Sprache; fehlt er, ist die Anzeige `name`.
 - Ist der ganze Suchbegriff gleich einem Namen oder dem Kopfwort eines Namens (`domates` ↔ `Domates, çiğ`), steht der Eintrag ganz oben. Bei Gleichstand kommt die rohe Grundzutat vor Zubereitungen und vor Gerichten.
 - Mehrere Wörter: Alle Wörter müssen passen.
 
@@ -196,8 +204,8 @@ BASE="https://food-database-api.<dein-account>.workers.dev"
 
 | Endpunkt | Beschreibung |
 | --- | --- |
-| `GET /search?q=<text>&limit=<n>&lang=<sprache>` | Suche in Name, allen Sprachnamen, Aliasen und Synonymen. Optional `lang` (`de`, `en`, `tr`, `fr`, `es`, `pt`, `it`, `zh`; `pt-BR` usw. wird auf `pt` gekürzt): dann hat jeder Treffer zusätzlich `display_name` in dieser Sprache, und Treffer im Namen dieser Sprache werden bevorzugt. Unbekannte Sprache → 400. `limit` 1–50, Standard 10. Treffer **ohne** `ingredients` (die Liste wäre in jeder Suche Ballast). Nährwerte, Portion, Küche und Kategorie sind dabei. |
-| `GET /item/{id}?lang=<sprache>` | Voller Eintrag inklusive `ingredients` (mit `lang` zusätzlich `display_name`). 404, wenn die `id` fehlt. |
+| `GET /search?q=<text>&limit=<n>&lang=<sprache>` | Suche in Name, allen gesetzten Sprachnamen, Aliasen und Synonymen. Optional `lang` (`de`, `tr`, `en` sowie optional `fr`, `es`, `pt`, `it`, `zh`; `pt-BR` usw. wird auf `pt` gekürzt): dann hat jeder Treffer zusätzlich `display_name`. Ist `names[lang]` gesetzt, steht der dort; sonst Fallback `name`. Treffer in dieser Sprache werden bevorzugt. Unbekannte Sprache → 400. `limit` 1–50, Standard 10. Treffer **ohne** `ingredients` (die Liste wäre in jeder Suche Ballast). Nährwerte, Portion, Küche und Kategorie sind dabei. |
+| `GET /item/{id}?lang=<sprache>` | Voller Eintrag inklusive `ingredients` (mit `lang` zusätzlich `display_name`, Fallback `name`, wenn die Sprache fehlt). 404, wenn die `id` fehlt. |
 | `GET /barcode/{ean}` | Voller Eintrag zu einer EAN-8/EAN-13. 400 bei ungültiger Prüfziffer, 404 wenn unbekannt. Aktuell hat kein Gericht einen Barcode (`null`), der Endpunkt ist für spätere geprüfte Produkte da. |
 | `GET /health` | Status, Anzahl der Einträge und unterstützte Sprachen. |
 
@@ -362,7 +370,7 @@ Stille Edits nur in `data/foods.json` werden rot, auch wenn der Build sie mitkop
 - [x] Gerichte und Fertigprodukte trennen; 2114 Gerichte mit `off_similar` aus dem OFF-Dump vom 29.10.2026 markiert, keines entfernt
 - [x] 295 Grundzutaten mit USDA-Referenzwerten (`quality: "reference"`, inkl. Zucker)
 - [x] 309 Zubereitungsvarianten der Grundzutaten (gekocht, gegrillt, gebraten, getrocknet, tiefgekühlt, Dose, Saft, geröstet, geräuchert), ebenfalls 1:1 aus USDA
-- [x] Mehrsprachige Namen (`names` de/en/tr/fr/es/pt Pflicht, dazu it/zh; `aliases`) und Suche über alle Sprachen, `?lang=` in der API
+- [x] Mehrsprachige Namen (`names` de/tr/en Pflicht, fr/es/pt/it/zh optional; `aliases`) und Suche über alle vorhandenen Sprachen, `?lang=` mit Fallback auf `name`
 - [ ] Einzelne Einträge mit geprüften Werten überschreiben (`quality: "verified"`, Quelle im Feld `source`)
 - [ ] Echte Barcodes ergänzen, wo ein verpacktes Produkt dahintersteht
 - [ ] API deployen und in die App einbinden
