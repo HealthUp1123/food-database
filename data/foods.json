@@ -331822,11 +331822,11 @@
     "is_packaged_product": false,
     "state": "dry",
     "unit": "g",
-    "note": "Ballaststoffe sind FIBHMW 8,85 g (klassische AOAC, ohne Fructane). FIBT ist 10,07 g, davon FIBLMW 1,22 g, die nicht mitgezählt sind. Die veröffentlichte Energie 337 kcal rechnet FIBT mit. Gespeichert: Eiweiß 13,9 g, Fett 3,0 g, Kohlenhydrate 68,0 g, Ballaststoffe 8,8 g, damit 4·(KH−BST)+4·Eiweiß+9·Fett+2·BST = 337 kcal. Rohwerte bleiben Eiweiß 13,93 g, Fett 2,86 g, verfügbare KH 58,9 g, FIBHMW 8,85 g.",
+    "note": "Grundzutat, kein Fertigprodukt. KH brutto = verfügbare KH 58,9 g + FIBHMW 8,85 g = 67,75 g, gerundet 67,8 g. Ballaststoffe FIBHMW 8,85 g (klassische AOAC, ohne Fructane), gerundet 8,8 g. FIBT 10,07 g zählt nicht mit. kcal 337 wie veröffentlicht (Energie rechnet FIBT). Formel mit den gerundeten Werten: 336,2 kcal, kcal unverändert.",
     "per100g": {
       "kcal": 337,
       "protein": 13.9,
-      "carbs": 68.0,
+      "carbs": 67.8,
       "fat": 3.0,
       "fiber": 8.8,
       "sugar": 1.2
@@ -331838,7 +331838,7 @@
       }
     ],
     "quality": "reference",
-    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code C241100 \"Einkorn ganzes Korn, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). Kohlenhydrate = verfügbare KH 58.9 g + Ballaststoffe 8.85 g (an USDA-Gesamt-KH angeglichen), kcal wie veröffentlicht. Ballaststoffe ohne separat gezählte Fructane. Ballaststoffe sind FIBHMW 8,85 g (klassische AOAC, ohne Fructane). FIBT ist 10,07 g, davon FIBLMW 1,22 g, die nicht mitgezählt sind. Die veröffentlichte Energie 337 kcal rechnet FIBT mit. Gespeichert: Eiweiß 13,9 g, Fett 3,0 g, Kohlenhydrate 68,0 g, Ballaststoffe 8,8 g, damit 4·(KH−BST)+4·Eiweiß+9·Fett+2·BST = 337 kcal. Rohwerte bleiben Eiweiß 13,93 g, Fett 2,86 g, verfügbare KH 58,9 g, FIBHMW 8,85 g.",
+    "source": "Max Rubner-Institut (2025): Bundeslebensmittelschlüssel (BLS), Version 4.0 - Deutsche Nährstoffdatenbank, Karlsruhe, DOI 10.25826/Data20251217-134202-0, Lizenz CC BY 4.0; Code C241100 \"Einkorn ganzes Korn, roh\". Datensatz der Datenbank (Tabellenwert; Datenherkunft laut Quelle: Formelberechnung). KH brutto = verfügbare KH 58,9 g + Ballaststoffe FIBHMW 8,85 g = 67,75 g, gerundet 67,8 g. Ballaststoffe sind FIBHMW 8,85 g (klassische AOAC, ohne Fructane), gerundet 8,8 g. FIBT ist 10,07 g, davon FIBLMW 1,22 g, die nicht mitgezählt sind. kcal 337 wie veröffentlicht; die veröffentlichte Energie rechnet FIBT mit. Mit den gerundeten Werten ergibt 4·(KH−BST)+4·Eiweiß+9·Fett+2·BST = 336,2 kcal, kcal bleibt der veröffentlichte Wert. Rohwerte: Eiweiß 13,93 g, Fett 2,86 g, verfügbare KH 58,9 g, FIBHMW 8,85 g.",
     "source_id": "BLS 4.0:C241100"
   },
   {
