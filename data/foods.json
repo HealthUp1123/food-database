@@ -335390,10 +335390,7 @@
     "names": {
       "de": "Piratenschatz - knusprig paniert - Panierte Seelachs Fishfiguren",
       "en": "Piratenschatz breaded pollock fish shapes",
-      "tr": "Piratenschatz panelenmiş kömür balığı figürleri",
-      "fr": "Piratenschatz - knusprig paniert - Panierte Seelachs Fishfiguren",
-      "es": "Piratenschatz - knusprig paniert - Panierte Seelachs Fishfiguren",
-      "pt": "Piratenschatz - knusprig paniert - Panierte Seelachs Fishfiguren"
+      "tr": "Piratenschatz panelenmiş kömür balığı figürleri"
     },
     "type": "item",
     "barcode": "4006827405161",
@@ -335423,10 +335420,7 @@
     "names": {
       "de": "Dreamland Vegan Gummy Candy",
       "en": "Dreamland vegan gummy candy",
-      "tr": "Dreamland vegan jelibon",
-      "fr": "Dreamland Vegan Gummy Candy",
-      "es": "Dreamland Vegan Gummy Candy",
-      "pt": "Dreamland Vegan Gummy Candy"
+      "tr": "Dreamland vegan jelibon"
     },
     "type": "item",
     "barcode": "4262456580338",
@@ -335449,5 +335443,35 @@
     ],
     "quality": "verified",
     "source": "Nutzermeldung, Packungsangabe, KH auf brutto umgerechnet (18 g verfügbare KH + 51 g Ballaststoffe = 69 g), Marke Nutriluv, Barcode 4262456580338 (foodsub-70E35E1D-FA89-4151-8092-1B2DE5DBA4F5, 2026-11-08). Ausnahme von Regel 4 auf Ahmets Anweisung."
+  },
+  {
+    "id": "salat-mais-zwiebel",
+    "name": "Salat Mais Zwiebel",
+    "names": {
+      "de": "Salat Mais Zwiebel",
+      "en": "Corn and onion salad",
+      "tr": "Mısır ve soğan salatası"
+    },
+    "type": "item",
+    "barcode": "8711578605208",
+    "synonyms": [],
+    "cuisine": "de",
+    "category": "Salat",
+    "is_packaged_product": true,
+    "per100g": {
+      "kcal": 114,
+      "protein": 1.6,
+      "carbs": 3.8,
+      "fat": 10.0,
+      "fiber": 0.0
+    },
+    "ingredients": [
+      {
+        "name": "Salat Mais Zwiebel",
+        "grams": 100
+      }
+    ],
+    "quality": "verified",
+    "source": "Nutzermeldung, Packungsangabe (foodsub-A6DE3661-5892-46B7-B2B3-1E996B9D90FD, 2026-11-09)"
   }
 ]
